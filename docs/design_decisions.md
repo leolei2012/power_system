@@ -2,9 +2,10 @@
 
 - 整理人：领班（项目经理 bot），2026-11-12（Asia/Shanghai）
 - 修订（2026-11-12 00:45 后）：
-  - 新增 A12（叠板顺序），删去待定 P3，冲突第 5 条改为已移除；
+  - 新增 A12（叠板顺序），删去待定的叠板顺序项，冲突第 5 条改为已移除；
   - 默认做法几条改为已定；
-  - C12 标为须按新顺序重新核对。
+  - C12 标为须按新顺序重新核对；
+  - 2026-11-12 00:46 新增 A13（保护参数），风扇预留位移到作废方案 X17，删去对应待定项，冲突清单补 4 条。
 - 依据：
   - 总管 2026-11-12 00:30 转来的开工需求全文（下称「开工需求」）；
   - 2026-11-11 晚到 2026-11-12 凌晨雨田和总管的需求讨论记录；
@@ -41,6 +42,9 @@
 4. **散热可能要改到顶面**：功率板底面被 controller 挡住，散热余量可能要转到功率板顶面。注意「正面散热」X8 已经作废，当时的理由之一是「功率板上面被控制板挡住」，现在功率板在上，这条理由不再成立。要不要改，由焊台评估后报雨田决定，本文件不改 X8。
    - 底面散热器已作废（X5）。如果将来恢复，必须考虑它正对着 controller。
 5. **C12「controller 底面不放器件」须按新顺序重新核对，由焊台在 #4 处理**：C12 当时的理由是「排母高 8.5 mm，底面有元件会顶到功率板」，是按 controller 在上推出来的。现在 controller 在下，朝向功率板的是它的**顶面**，原来的理由不再成立，这条规则和叠板顺序已经对不上了。规则本身是开工需求原文，暂时保留，等焊台核对后报雨田。真正要约束的是 controller **顶面**器件高度和功率板底面之间的净空。
+| # | 决定 | 理由（出处） | 日期 |
+|---|---|---|---|
+| A13 | **保护参数跟着 5 Arms 改**：相电流硬件过流门限从 ±20 A 降到**约 ±12 A**；保险和直流输入电流上限按**约 8 A** 选；**分流电阻不动**。具体数值由焊台按器件和采样量程核算后，写进原理图和 `inverter/sim/params.py` | 雨田 2026-11-12 00:46 定（总管转达），理由未记录 | 2026-11-12 |
 
 ### 1.2 controller（控制板）
 
@@ -92,7 +96,7 @@
 | X4 | **双面散热 MOS**（BSC110N15NS5SC / BSC093N15NS5SC 等） | 验收电流定为 5 A 后发热小，不需要（总管）。另外价格约 2.6 倍，库存紧（料号） | 沿用 BSC110N15NS5（I1） |
 | X5 | **底面散热器 / 铝底板** | 5 A 时靠 PCB 铺铜和过孔就够（总管） | 底面过孔加铺铜，留好导热垫、铝板和 M3 孔的余量，现在不装（I2） |
 | X6 | **大电流路径焊铜条** | 5 A 时不需要，「风扇和铜条都不加」（默认做法，雨田 2026-11-12 00:30 在开工确认卡片上选「按默认开工」（总管转述）） | 2 oz 铜加走线宽度和过孔（A6、A9） |
-| X7 | **风扇 / 侧面风道** | 同 X6 | 无风扇。要不要预留风扇位见第 4 节 |
+| X7 | **风扇 / 侧面风道** | 同 X6 | 无风扇（A9） |
 | X8 | **正面（顶面）散热**，包括 TOLT 封装或顶面贴散热片 | BSC110N15NS5 是底部散热封装；功率板上方被另一块板挡住，只有约 8.5 mm 空间（总管） | 底面散热（I2） |
 | X9 | **两组 2×20 排针**（80 针） | 雨田定了 2×16，没说理由 | 2×16，空脚全接 GND（A3、A4） |
 | X10 | **HSEC 金手指**（TI controlCARD 那种） | 雨田在群里问过它长什么样，最后改回 2.54 mm 排针，理由未记录。参考：寻宝调研提到它需要硬金，成本高 | 2.54 mm 排针叠装（A2） |
@@ -102,6 +106,7 @@
 | X14 | **第二路 ABZ 编码器**（PB6/PB7/PA3）和**第二路 SPI** | 雨田定了 ABZ 和 SPI 各留一路 | 一路 ABZ 加一路 SPI（C10） |
 | X15 | 底板上的 **4 颗 LED**（RUN/FAULT/COMM/AUX） | 雨田要在 controller 上放两颗可编程灯 | controller 上两颗（C11） |
 | X16 | **4 mm 香蕉接线柱**做电源或相线端子 | 雨田直接选了 XT60/XT30。总管提过 60×60 板上放 5 个会很挤 | XT60/XT30/MR60（I4–I6） |
+| X17 | **在 inverter 上预留风扇安装位**（只留孔和一个供电座，不装风扇） | 雨田 2026-11-12 00:46 定不留（总管转达）。背景：焊台估算 5 Arms、无风扇时整板约 2.6–4 W，开放放置时板温约 55–80 °C，叠板间隙小时悲观情况可能超过 110 °C（估算，不是仿真） | 不留风扇位；继续无风扇（A9），靠铺铜和过孔散热（I2） |
 
 ## 3. 与现有 docs 的冲突（只标出，不改）
 
@@ -111,9 +116,9 @@
 |---|---|---|---|
 | 1 | `README.md:3` | 最新方案已收敛为单功率 PWM 口，19 个 GH1.25 连接器的端子版 | 端子版作废，走 2.54 mm 排针叠装（A2、X12） |
 | 2 | `README.md:5` | 编码器、SPI、TTL、CAN、LED 和应用采样保护都在底板 | 通讯、编码器、LED 放在 controller；TTL 改成 485（C3、C6、C10、C11） |
-| 3 | `README.md:11` | 两组 2×16 中有 7 根地；底板 9 个未用插座脚显式 NC | 空脚全部接 GND（A4） |
-| 4 | `README.md:15` | 每相连续 10 Arms | 验收 5 Arms（A8） |
-| 5 | （已移除）`README.md:9`、`docs/controller_daughterboard.md:105`、`docs/roadmap.md:3/40`、`docs/pcb_review_2026-11-11.md:3` | 上层功率板，下层 G431 最小核 | **与 A12 一致，不再算冲突**。排针位置的冲突另见第 6 条 |
+| 3 | `README.md:14` | 两组 2×16 中有 7 根地；底板 9 个未用插座脚显式 NC | 空脚全部接 GND（A4） |
+| 4 | `README.md:18` | 直流输入最大 10 A、每相连续 10 Arms | 验收 5 Arms（A8）；输入电流上限按约 8 A（A13） |
+| 5 | （已移除）`README.md:12`、`docs/controller_daughterboard.md:105`、`docs/roadmap.md:3/40`、`docs/pcb_review_2026-11-11.md:3` | 上层功率板，下层 G431 最小核 | **与 A12 一致，不再算冲突**。排针位置的冲突另见第 6 条 |
 | 6 | `docs/controller_daughterboard.md:105`、`docs/pcb_review_2026-11-11.md:18`、`docs/pcb_stack_contract_rev_e.json:15-17` | 两组排针集中在左侧（J101 x≈104.7，J102 x≈128.7），右侧留给功率桥 | 左右两条边最外侧各放一个 2×16（A3） |
 | 7 | `docs/controller_daughterboard.md:3-90` | 「当前方案：单功率口」，包括 GH1.25 连接器表、10 路 ADC2P、I²C、TTL 3P、PWM 8P | 整段作废（X12） |
 | 8 | `docs/controller_daughterboard.md:115`、`inverter/hardware/README.md:15`、`docs/roadmap.md:35` | SWD/TTL/ABZ/SPI/CAN 和五个 LED 都在底板 | 移到 controller（C3、C10–C12） |
@@ -124,18 +129,22 @@
 | 13 | `inverter/docs/pin_assignment.md:23` | 应用 TTL 用 PB10/PB11 | 改成 RS-485（MAX3485），另加一根 DE 脚（C6、C7） |
 | 14 | `inverter/docs/pin_assignment.md:26` | 4 个 GPIO LED（PC5/PC8/PD2/PB5），实体都在底板 | 2 个 LED：PC5 绿、PC8 红，放在 controller 上边缘（C11） |
 | 15 | `inverter/docs/pin_assignment.md:29` | PB3/PB4/PB9 应用未分配 | 其中一根做 485 DE（C7） |
-| 16 | `inverter/docs/spec.md:7,15-16` | 每相连续 10 A_rms，峰值约 14.1 A | 验收 5 Arms（A8）。±20 A 硬件过流门限和 10 A 直流输入上限这次没讨论，见第 4 节 P5 |
+| 16 | `inverter/docs/spec.md:7,15-16` | 每相连续 10 A_rms，峰值约 14.1 A | 验收 5 Arms（A8） |
 | 17 | `inverter/docs/spec.md:36` | 「驱动、G431 与采样保护集成在 inverter 同一 PCB，不另设 controller 板」 | 两块板（A1） |
 | 18 | `inverter/docs/spec.md:70-80` | 接口表：J3/J4 焊线孔，J2 辅助，J8 外接 NTC，J9/J10 两路 ABZ，J11/J12 两路 SPI，J13 SWD，J14 TTL，J15 CAN 都在 inverter | XT60/XT30/MR60；NTC 板载在 MOS 旁边；通讯和编码器在 controller（I3–I6、C3） |
-| 19 | `inverter/hardware/README.md:11` | D1 用 MBRD20150CT-13/C151357；目标每相 10 Arms | D1 换成理想二极管；5 Arms（I7、A8） |
+| 19 | `inverter/hardware/README.md:11` | D1 用 MBRD20150CT-13/C151357；目标是 DC 输入最大 10 A、每相 10 Arms | D1 换成理想二极管；5 Arms；输入约 8 A（I7、A8、A13） |
 | 20 | `inverter/hardware/README.md:19` | J3 是 6 mm 间距 2P 焊线孔，J4 是 15 mm 间距 U/V/W 三孔 | J3 改 XT60PW-M，J4 改 MR60PW-M，辅助 J2 改 XT30PW-M（I4–I6）。J5 制动电阻焊线孔没讨论 |
 | 21 | `inverter/hardware/PCB_REVIEW.md:5`、`inverter/docs/component_selection.md:8`、`docs/integrated_board.md:98` | 6 层、1.6 mm，**1 oz** 铜厚为候选 | **2 oz**（A6） |
-| 22 | `docs/pcb_review_2026-11-11.md:59` | 设计目标：12–60 V / 输入最大 10 A / 每相 10 Arms | 验收 5 Arms（A8） |
+| 22 | `docs/pcb_review_2026-11-11.md:59` | 设计目标：12–60 V / 输入最大 10 A / 每相 10 Arms | 验收 5 Arms（A8）；输入约 8 A（A13） |
 | 23 | `inverter/sim/params.py:8-12` | V_DC_NOM=100、MIN=80、MAX=120、**V_DC_UV=75、V_DC_OV=130** | 母线 12–60 V（A8）。`spec.md:56` 已经写明硬件过压 65 V、「旧 130 V 值作废」，params.py 没跟上；欠压阈值要按 12–60 V 重新定 |
 | 24 | `inverter/sim/params.py:15,20-21` | V_LL_RMS_MAX=60、P_RATED=1000 W、I_RMS_RATED=10 A | `spec.md:22/25/29` 已经撤回 60 V_rms 和 1 kW；电流改成 5 Arms（A8） |
 | 25 | `docs/terminal_interface_plan.json:2-4`、`docs/controller_single_power_pin_plan.*`、`docs/controller_connector_inventory.*` | 端子版规划，状态写着 Current（当前方案） | 作废（X12），要标成历史 |
 | 26 | `docs/daughterboard_pin_contract.json` | 64 针合同：7 根 GND，未用脚在底板 NC，编码器 A/B 等应用网名 | 空脚接 GND，通讯移到 controller，合同要重写（A4、C3） |
 | 27 | （缺文件）`docs/pinmap.md` | 仓库里**没有这个文件**。引脚信息分散在 `inverter/docs/pin_assignment.md`、`docs/controller_daughterboard.md` 和 csv/json 里 | 开工需求要求引脚改动先改 `docs/pinmap.md`（A11），由焊台新建 |
+| 28 | `inverter/docs/spec.md:17,59-60` | 相电流硬件过流名义门限**瞬时 ±20 A**；按 5 mΩ、增益 10 换算约 0.65/2.65 V | 约 **±12 A**，分流电阻不动，具体值由焊台核算（A13） |
+| 29 | `inverter/docs/spec.md:14,24,70` | 直流母线输入电流上限 **10 A**，P_dc,max = V_dc×10 A，最大 600 W@60 V | 输入电流上限和保险都按**约 8 A**（A13） |
+| 30 | `docs/parts_to_complete_2026-11-10.md:41`（F1 0476015.MRSN，15 A） | 保险 15 A | 保险按约 8 A 输入重新选（A13） |
+| 31 | `inverter/docs/component_selection.md:16,64`、`docs/schematic_handoff.md:39,63,82`、`docs/schematic_agent_task.md:59,67,108`、`docs/integrated_board.md:63,68` | 输入最大 10 A、瞬时 ±20 A 过流（多处重复） | 约 8 A 输入、约 ±12 A 过流（A13）。其中 handoff 和 agent_task 是旧任务书，integrated_board 是历史文档 |
 
 另外：`docs/integrated_board.md`、`docs/schematic_handoff.md`、`docs/schematic_agent_task.md`、`controller/docs/*`（旧 LKS 方案）、`vfd/docs/architecture.md` 本身已经标成历史或旧方案，没有逐条列。和现有文档一致、不算冲突的：12–60 V、20 kHz、controller 自己用 LDO 出 3.3 V、两侧 3.3 V 不并联、共地不隔离、物料走立创。
 
@@ -145,12 +154,10 @@
 |---|---|---|
 | P1 | **仓库要不要改成私有**。leolei2012/power_system 现在是 PUBLIC，它依赖的 kicad_library 是私有的 | 领班会给出建议（另开 Issue），**由雨田决定** |
 | P2 | **kicad_library 用 submodule 引入，还是继续放同级目录** | 同上，由雨田决定 |
-| P3 | **inverter 上要不要预留风扇安装位**（只留孔和一个供电座，不装风扇） | 焊台 2026-11-12 估算：5 Arms、无风扇时整板约 2.6–4 W；开放放置时板温约 55–80 °C；叠板间隙小时，悲观情况可能超过 110 °C（估算，不是仿真）。**「无风扇」仍然是已定决定（A9），这里只讨论要不要预留** |
-| P4 | 器件和引脚细节：理想二极管和 NTC 的型号（焊台选），485 DE 用 PB3/PB4/PB9 中哪一根，SPI 编码器用哪几根脚，485 端子的 5 V 用二极管还是跳线，M3 孔的位置 | 开工后由焊台定，先写进 `docs/pinmap.md` 和布局约束 |
-| P5 | 电流改成 5 Arms 后其他保护参数要不要跟着改：相电流硬件过流 ±20 A、直流输入 10 A 上限、F1 保险规格、分流电阻和 INA 增益 | 这次讨论没涉及，需要焊台评估后报给雨田 |
-| P6 | 控制板四条边能不能放下所有端子（CAN、485、ABZ、SPI、SWD、LED） | 等焊台出初始布局后确认 |
-| P7 | J5 外接制动电阻端子保留现有焊线孔还是换型 | 这次讨论没涉及 |
-| P8 | `params.py` 的欠压和软件过压阈值具体取多少 | 交给焊台或烧录重写（已有 Issue 计划） |
+| P3 | 器件和引脚细节：理想二极管和 NTC 的型号（焊台选），485 DE 用 PB3/PB4/PB9 中哪一根，SPI 编码器用哪几根脚，485 端子的 5 V 用二极管还是跳线，M3 孔的位置 | 开工后由焊台定，先写进 `docs/pinmap.md` 和布局约束 |
+| P4 | 控制板四条边能不能放下所有端子（CAN、485、ABZ、SPI、SWD、LED） | 等焊台出初始布局后确认 |
+| P5 | J5 外接制动电阻端子保留现有焊线孔还是换型 | 这次讨论没涉及 |
+| P6 | `params.py` 的欠压和软件过压阈值具体取多少 | 由焊台在 #7 重写；过流和输入上限的方向已定（A13） |
 
 ## 说明
 
