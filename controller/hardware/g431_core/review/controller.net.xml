@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/workspace/work/power_system/controller/hardware/g431_core/controller.kicad_sch</source>
-    <date>2026-11-12T02:10:25</date>
+    <date>2026-11-12T03:40:03</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -188,32 +188,36 @@
   <components>
     <comp ref="C63">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">Place at U30 pin 16; return locally to VSS</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="Place at U30 pin 16; return locally to VSS"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="MCU与去耦"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -231,32 +235,36 @@
     </comp>
     <comp ref="C64">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">Place at U30 pin 32; return locally to VSS</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="Place at U30 pin 32; return locally to VSS"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="MCU与去耦"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -274,32 +282,36 @@
     </comp>
     <comp ref="C65">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">Place at U30 pin 48; return locally to VSS</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="Place at U30 pin 48; return locally to VSS"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="MCU与去耦"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -317,32 +329,36 @@
     </comp>
     <comp ref="C66">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">Place at U30 pin 64; return locally to VSS</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="Place at U30 pin 64; return locally to VSS"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="MCU与去耦"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -360,32 +376,36 @@
     </comp>
     <comp ref="C67">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">Place at U30 pin 1; return locally to VSS</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="Place at U30 pin 1; return locally to VSS"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="MCU与去耦"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -554,32 +574,36 @@
     </comp>
     <comp ref="C77">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note"/>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value=""/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="模拟电源与ADC RC"/>
       <property name="Sheetfile" value="mcu_analog.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -636,32 +660,36 @@
     </comp>
     <comp ref="C79">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note"/>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value=""/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="模拟电源与ADC RC"/>
       <property name="Sheetfile" value="mcu_analog.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -990,32 +1018,36 @@
     </comp>
     <comp ref="R92">
       <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>MyFootprints:R_0603_1608Metric</footprint>
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">R res resistor</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF0000T5E</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; exact MPN/LCSC pending</field>
         <field name="Design_Note">Default 0R; no unvalidated ferrite LC inserted</field>
         <field name="Tolerance">1%</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="LCSC">C21189</field>
+        <field name="Supplier_PN">C21189</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/21903.html</field>
+        <field name="Voltage_Rating"/>
+        <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; exact MPN/LCSC pending"/>
       <property name="Design_Note" value="Default 0R; no unvalidated ferrite LC inserted"/>
       <property name="Tolerance" value="1%"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Supplier_PN" value="C21189"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/21903.html"/>
+      <property name="Voltage_Rating" value=""/>
       <property name="Sheetname" value="模拟电源与ADC RC"/>
       <property name="Sheetfile" value="mcu_analog.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1033,32 +1065,36 @@
     </comp>
     <comp ref="R93">
       <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>MyFootprints:R_0603_1608Metric</footprint>
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">R res resistor</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF0000T5E</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; exact MPN/LCSC pending</field>
         <field name="Design_Note">External VREF supply; VREFBUF disabled</field>
         <field name="Tolerance">1%</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="LCSC">C21189</field>
+        <field name="Supplier_PN">C21189</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/21903.html</field>
+        <field name="Voltage_Rating"/>
+        <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; exact MPN/LCSC pending"/>
       <property name="Design_Note" value="External VREF supply; VREFBUF disabled"/>
       <property name="Tolerance" value="1%"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Supplier_PN" value="C21189"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/21903.html"/>
+      <property name="Voltage_Rating" value=""/>
       <property name="Sheetname" value="模拟电源与ADC RC"/>
       <property name="Sheetfile" value="mcu_analog.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1332,20 +1368,22 @@
     </comp>
     <comp ref="C81">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="ki_fp_filters">C_*</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">NRST; TPS3808 and reset button/SWD share open-drain reset domain</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -1353,13 +1391,15 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="NRST; TPS3808 and reset button/SWD share open-drain reset domain"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value="RESET BOOT0与可选HSE"/>
       <property name="Sheetfile" value="mcu_control.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1377,20 +1417,22 @@
     </comp>
     <comp ref="C83">
       <value>18p / provisional</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="ki_fp_filters">C_*</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603JRNPO9BN180</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">DNP; select from actual crystal CL and PCB stray capacitance</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C107040</field>
+        <field name="Supplier_PN">C107040</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/108256.html</field>
+        <field name="Tolerance">5%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -1398,13 +1440,15 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603JRNPO9BN180"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="DNP; select from actual crystal CL and PCB stray capacitance"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C107040"/>
+      <property name="Supplier_PN" value="C107040"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/108256.html"/>
+      <property name="Tolerance" value="5%"/>
       <property name="Sheetname" value="RESET BOOT0与可选HSE"/>
       <property name="Sheetfile" value="mcu_control.kicad_sch"/>
       <property name="dnp"/>
@@ -1423,20 +1467,22 @@
     </comp>
     <comp ref="C84">
       <value>18p / provisional</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="ki_fp_filters">C_*</field>
         <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
-        <field name="Voltage_Rating">16 V minimum</field>
+        <field name="MPN">CC0603JRNPO9BN180</field>
+        <field name="Voltage_Rating">50V</field>
         <field name="Design_Note">DNP; select from actual crystal CL and PCB stray capacitance</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="LCSC">C107040</field>
+        <field name="Supplier_PN">C107040</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/108256.html</field>
+        <field name="Tolerance">5%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -1444,13 +1490,15 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
-      <property name="Voltage_Rating" value="16 V minimum"/>
+      <property name="MPN" value="CC0603JRNPO9BN180"/>
+      <property name="Voltage_Rating" value="50V"/>
       <property name="Design_Note" value="DNP; select from actual crystal CL and PCB stray capacitance"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C107040"/>
+      <property name="Supplier_PN" value="C107040"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/108256.html"/>
+      <property name="Tolerance" value="5%"/>
       <property name="Sheetname" value="RESET BOOT0与可选HSE"/>
       <property name="Sheetfile" value="mcu_control.kicad_sch"/>
       <property name="dnp"/>
@@ -1469,34 +1517,38 @@
     </comp>
     <comp ref="R122">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>MyFootprints:R_0603_1608Metric</footprint>
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">R res resistor</field>
         <field name="ki_fp_filters">R_*</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5（0603）</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF1002T5E</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; exact MPN/LCSC pending</field>
         <field name="Design_Note"/>
         <field name="Tolerance">1%</field>
-        <field name="LCSC">待#5（0603）</field>
-        <field name="Supplier_PN">待#5（0603）</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="LCSC">C25804</field>
+        <field name="Supplier_PN">C25804</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/26547.html</field>
+        <field name="Voltage_Rating"/>
+        <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5（0603）"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF1002T5E"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; exact MPN/LCSC pending"/>
       <property name="Design_Note" value=""/>
       <property name="Tolerance" value="1%"/>
-      <property name="LCSC" value="待#5（0603）"/>
-      <property name="Supplier_PN" value="待#5（0603）"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Supplier_PN" value="C25804"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/26547.html"/>
+      <property name="Voltage_Rating" value=""/>
       <property name="Sheetname" value="RESET BOOT0与可选HSE"/>
       <property name="Sheetfile" value="mcu_control.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2210,6 +2262,7 @@
         <field name="Datasheet_Revision">Generated 11/10/2026</field>
         <field name="Library_Revision">1</field>
         <field name="Verification">reviewed</field>
+        <field name="Voltage_Rating"/>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet">https://yageogroup.com/download/specsheet/RT0603BRD073K83L</field>
         <field name="Description">3.83kOhm +/-0.1%; 0.1W at70C; +/-25ppm/K; 0603; 75V max</field>
@@ -2227,6 +2280,7 @@
       <property name="Datasheet_Revision" value="Generated 11/10/2026"/>
       <property name="Library_Revision" value="1"/>
       <property name="Verification" value="reviewed"/>
+      <property name="Voltage_Rating" value=""/>
       <property name="Sheetname" value="本地供电与复位监控"/>
       <property name="Sheetfile" value="core_supply.kicad_sch"/>
       <property name="ki_keywords" value="RT0603BRD073K83L C861384"/>
@@ -2260,6 +2314,7 @@
         <field name="Datasheet_Revision">Generated 11/10/2026</field>
         <field name="Library_Revision">1</field>
         <field name="Verification">reviewed</field>
+        <field name="Voltage_Rating"/>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet">https://yageogroup.com/download/specsheet/RT0603BRD0710KL</field>
         <field name="Description">10kOhm +/-0.1%; 0.1W at70C; +/-25ppm/K; 0603; 75V max</field>
@@ -2277,6 +2332,7 @@
       <property name="Datasheet_Revision" value="Generated 11/10/2026"/>
       <property name="Library_Revision" value="1"/>
       <property name="Verification" value="reviewed"/>
+      <property name="Voltage_Rating" value=""/>
       <property name="Sheetname" value="本地供电与复位监控"/>
       <property name="Sheetfile" value="core_supply.kicad_sch"/>
       <property name="ki_keywords" value="RT0603BRD0710KL C95204"/>

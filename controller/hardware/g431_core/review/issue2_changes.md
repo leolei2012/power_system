@@ -301,3 +301,66 @@ TLV76733DRVR、U103、U105、PC7/RUN_ARM 的 R402=10 kΩ 下拉、`CTRL_READY=CO
 - [自动核对导出](validation_issue2.json)：734项检查通过，含封装焊盘/针号、所有新增器件字段、0603迁移、层级、BOM和冻结文件哈希校验。
 
 资料溯源：电流、引脚结构、CADC、额定值均取原厂datasheet或库已有字段；数值计算和设计预留已明确区别于器件保证参数。共享库本地资料路径均在只读 `lib/kicad_library/datasheets/`，未改共享库。
+
+## #12 BOM 0603 同步（2026-11-12）
+
+以 PR #12 已合并的 [`bom/bom.csv`](../bom/bom.csv) 为准，仅同步其中 Footprint 为 `MyFootprints:C_0603_1608Metric` / `MyFootprints:R_0603_1608Metric` 且 MPN 非 `TBD` 的行。共 19 个位号，均在当前 `controller.kicad_sch` 的 10 页活动层级中找到。本节更新前文旧 13 个阻容采购字段仍为「待#5（0603）」的阶段状态。
+
+- 实际改动 15 个位号：C63、C64、C65、C66、C67、C77、C79、C81、C83、C84、R92、R93、R122、R302、R303。
+- 前 13 个位号的封装改用 BOM 的 `MyFootprints` 名称，并同步 Manufacturer、MPN、Supplier_PN、已有的 LCSC、Purchase_URL、Voltage_Rating、Tolerance；Supplier 均为 `LCSC`。电容耐压按 BOM 为 50V，100n 电容公差 10%，18p 电容公差 5%；R92/R93/R122 的 Manufacturer 为 UNI-ROYAL。
+- R302/R303 的封装与采购字段原已一致，本次仅显式补齐与 BOM 相同的空 `Voltage_Rating`。其余电阻的该字段也保持 BOM 的空值。
+- C304、C306、C307、C308 的上述字段原已全部一致，仅核对，原理图不改。
+- 所有 Value、DNP 和已有 Design_Note 保持原样；C83/C84 仍为 `18p / provisional`、DNP，不将 BOM 的长 Design_Note 复制进原理图。未给原本没有 LCSC 的符号增设该字段，LCSC 采购编码由 Supplier_PN 保留。
+- 项目 [`fp-lib-table`](../fp-lib-table) 现有 `${KIPRJMOD}/../../../lib/kicad_library/footprints/MyFootprints.pretty` 路径解析正确，已确认 `C_0603_1608Metric.kicad_mod`、`R_0603_1608Metric.kicad_mod` 均存在；库表和共享库不改。
+
+| 位号 | 旧封装 | 新封装 | MPN | LCSC（Supplier_PN） | 处理 |
+| --- | --- | --- | --- | --- | --- |
+| C63 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C64 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C65 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C66 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C67 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C77 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C79 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| R92 | `Resistor_SMD:R_0603_1608Metric` | `MyFootprints:R_0603_1608Metric` | `0603WAF0000T5E` | C21189 | 封装及字段同步 |
+| R93 | `Resistor_SMD:R_0603_1608Metric` | `MyFootprints:R_0603_1608Metric` | `0603WAF0000T5E` | C21189 | 封装及字段同步 |
+| C81 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 封装及字段同步 |
+| C83 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603JRNPO9BN180` | C107040 | 封装及字段同步 |
+| C84 | `Capacitor_SMD:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603JRNPO9BN180` | C107040 | 封装及字段同步 |
+| R122 | `Resistor_SMD:R_0603_1608Metric` | `MyFootprints:R_0603_1608Metric` | `0603WAF1002T5E` | C25804 | 封装及字段同步 |
+| C304 | `MyFootprints:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 原已一致，仅核对 |
+| C306 | `MyFootprints:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 原已一致，仅核对 |
+| C307 | `MyFootprints:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 原已一致，仅核对 |
+| R302 | `MyFootprints:R_0603_1608Metric` | `MyFootprints:R_0603_1608Metric` | `RT0603BRD073K83L` | C861384 | 仅补空 Voltage_Rating |
+| R303 | `MyFootprints:R_0603_1608Metric` | `MyFootprints:R_0603_1608Metric` | `RT0603BRD0710KL` | C95204 | 仅补空 Voltage_Rating |
+| C308 | `MyFootprints:C_0603_1608Metric` | `MyFootprints:C_0603_1608Metric` | `CC0603KRX7R9BB104` | C14663 | 原已一致，仅核对 |
+
+**跳过的 BOM 位号。** 本次符合条件的 19 行没有缺失位号。扫描整个 BOM 时，R401、SW3、U_RS485_待定、U31 不在当前活动原理图中，均跳过，不恢复旧符号；其中 R401/SW3 已在本分支删除。这四行本身也不属于本次已定料的 MyFootprints 0603 行。
+
+**保留的新增件及待 #5 清单。** BOM 外新增件均未修改。精确筛选“官方 Resistor_SMD/Capacitor_SMD 0603 且 MPN=`待#5（0603）`”结果为 **0 个**；实际新增件的 MPN 原文是 `待#5`，符合官方 0603 封装且仍待 #5 选料的共 **32 个**：
+
+| 页 | 待 #5 位号 | 数量 | 原封装 / 原 MPN |
+| --- | --- | --- | --- |
+| mcu_analog.kicad_sch | C201、C202、C203、C204、C205、C206、C207、C208 | 8 | `Capacitor_SMD:C_0603_1608Metric` / `待#5` |
+| mcu_analog.kicad_sch | R201、R202、R203、R204、R205、R206、R207、R208 | 8 | `Resistor_SMD:R_0603_1608Metric` / `待#5` |
+| comms.kicad_sch | R209、R210 | 2 | `Resistor_SMD:R_0603_1608Metric` / `待#5` |
+| encoders.kicad_sch | R213、R214、R215、R216、R217、R218、R219、R220、R221、R222、R223、R224 | 12 | `Resistor_SMD:R_0603_1608Metric` / `待#5` |
+| ui_debug.kicad_sch | R225、R226 | 2 | `Resistor_SMD:R_0603_1608Metric` / `待#5` |
+
+R211/R212 为 0805，不计入该 0603 清单；C209/C210 已有 `CC0603KRX7R9BB104` / C14663，虽仍用官方 0603 封装，但不属于 MPN 待定件，保持全部字段原样。BOM 中 MPN 为 TBD 的其他既有件也不改。
+
+**0402 检查。** 对当前活动层级的 10 个 `.kicad_sch` 文件执行 `rg -n '0402'`，无任何匹配；导出 BOM 的 Footprint 同样无 0402。额外扫描项目目录直属原理图，发现以下未实例化旧页仍有 **42 处** 0402 Footprint，已报告并保持原样；它们不属于当前 10 页活动原理图或本次导出：
+
+| 未实例化旧页 | 0402 位号 | 匹配数 |
+| --- | --- | --- |
+| debug_comms.kicad_sch | C81、C82、R120–R129、R131–R134 | 16 |
+| sensors.kicad_sch | R94–R119 | 26 |
+
+**重新生成和核对。** KiCad CLI 10.0.7，覆盖以下审查产物：
+
+- [ERC](erc_issue2.rpt)：按要求运行 `kicad-cli sch erc --severity-all --format report controller/hardware/g431_core/controller.kicad_sch -o controller/hardware/g431_core/review/erc_issue2.rpt`；**0 错误、0 警告、0 豁免项**。项目原有 ERC 配置和忽略类别未改。
+- [PDF](controller.pdf)：原生 PDF 导出，`pdfinfo` 确认 10 页。
+- [网表](controller.net.xml)：原生 `--format kicadxml` 导出；与修改前重新导出的基线比较，97 个器件、92 个网络、360 个引脚节点的连接和网络名完全一致，全部 Value 和 5 个 DNP 状态保持。
+- [审查 BOM](bom_issue2.csv)：原生 KiCad BOM 导出，97 行器件，13 列为 Reference、Value、Footprint、Manufacturer、MPN、Supplier、Supplier_PN、LCSC、Purchase_URL、Voltage_Rating、Tolerance、DNP、Qty；保留 DNP，每个目标位号的字段已与原理图和源 BOM 逐项核对。
+
+对原理图结构的比较仅允许上述位号的指定字段变化，其余符号、缓存库定义、引脚、导线、标签、层级、Value、Design_Note 和 DNP 均保持；所有 BOM 外新增件和未实例化旧页保持原样。`controller.kicad_pro`、库表、本地符号库、共享库子模块、fw/、docs/design_decisions.md、所有 PCB、`bom/bom.csv` 和 `review/bom.csv` 均未修改；未 commit/push。此前的 `validation_issue2.json` 保留为上一阶段核对快照，本次同步核对结果以本节及重新导出的上述四项产物为准。
