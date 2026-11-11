@@ -1,0 +1,1388 @@
+{
+  "result": "PASS",
+  "date": "2026-11-11",
+  "revision": "E-shared-library-draft",
+  "boards": {
+    "controller": {
+      "components": 47,
+      "DNP": 3,
+      "physical_pin_nodes": 233,
+      "unchanged_net_partitions": 66,
+      "shared_reviewed_references": [
+        "U30",
+        "SW2",
+        "SW3",
+        "C304",
+        "C305",
+        "C306",
+        "C307",
+        "D101",
+        "D102",
+        "D103",
+        "R302",
+        "R303",
+        "U101",
+        "U102",
+        "U103",
+        "U104",
+        "C308",
+        "U105",
+        "J101",
+        "J102"
+      ],
+      "selection_pending_references": [
+        "C63",
+        "C64",
+        "C65",
+        "C66",
+        "C67",
+        "C68",
+        "C77",
+        "C78",
+        "C79",
+        "C80",
+        "R92",
+        "R93",
+        "C81",
+        "C83",
+        "C84",
+        "R122",
+        "R401",
+        "Y1",
+        "C301",
+        "C302",
+        "C303",
+        "R301",
+        "R304",
+        "R305",
+        "R306",
+        "R402"
+      ],
+      "approved_metadata_changes": [
+        {
+          "ref": "U30",
+          "before_value": "STM32G431RBT6",
+          "after_value": "STM32G431RBT6",
+          "before_footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+          "after_footprint": "MyFootprints:ST_LQFP-64_10x10mm_P0.5mm_Pad1.2x0.3mm",
+          "C_number": "C431633"
+        },
+        {
+          "ref": "SW2",
+          "before_value": "MCU_RESET",
+          "after_value": "MCU_RESET",
+          "before_footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+          "after_footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+          "C_number": "C318938"
+        },
+        {
+          "ref": "SW3",
+          "before_value": "BOOT",
+          "after_value": "BOOT",
+          "before_footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+          "after_footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+          "C_number": "C318938"
+        },
+        {
+          "ref": "C304",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C305",
+          "before_value": "47u 10% 10V",
+          "after_value": "47u 10% 10V",
+          "before_footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+          "after_footprint": "MyFootprints:KEMET_T491_B_3528_Pad1.80x2.23mm_Gap1.12mm",
+          "C_number": "C116617"
+        },
+        {
+          "ref": "C306",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C307",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "D101",
+          "before_value": "SMF6.0A-TP",
+          "after_value": "SMF6.0A-TP",
+          "before_footprint": "Diode_SMD:D_SOD-123F",
+          "after_footprint": "MyFootprints:MCC_SOD-123FL_Pad0.91x1.22mm_Gap2.36mm",
+          "C_number": "C914434"
+        },
+        {
+          "ref": "D102",
+          "before_value": "S1A-13-F",
+          "after_value": "S1A-13-F",
+          "before_footprint": "Diode_SMD:D_SMA",
+          "after_footprint": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm",
+          "C_number": "C150735"
+        },
+        {
+          "ref": "D103",
+          "before_value": "PMEG2010ER,115",
+          "after_value": "PMEG2010ER,115",
+          "before_footprint": "Diode_SMD:Nexperia_CFP3_SOD-123W",
+          "after_footprint": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+          "C_number": "C82288"
+        },
+        {
+          "ref": "R302",
+          "before_value": "3.83k 0.1%",
+          "after_value": "3.83k 0.1%",
+          "before_footprint": "Resistor_SMD:R_0603_1608Metric",
+          "after_footprint": "MyFootprints:R_0603_1608Metric",
+          "C_number": "C861384"
+        },
+        {
+          "ref": "R303",
+          "before_value": "10k 0.1%",
+          "after_value": "10k 0.1%",
+          "before_footprint": "Resistor_SMD:R_0603_1608Metric",
+          "after_footprint": "MyFootprints:R_0603_1608Metric",
+          "C_number": "C95204"
+        },
+        {
+          "ref": "U103",
+          "before_value": "SN74LVC1G17DBVR",
+          "after_value": "SN74LVC1G17DBVR",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "after_footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+          "C_number": "C7836"
+        },
+        {
+          "ref": "U104",
+          "before_value": "TL431BIDBZR",
+          "after_value": "TL431BIDBZR",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:TI_DBZ0003A_Pad1.30x0.60mm_P2.10mm",
+          "C_number": "C41283"
+        },
+        {
+          "ref": "C308",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "U105",
+          "before_value": "SN74LVC1G08DBVR",
+          "after_value": "SN74LVC1G08DBVR",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "after_footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+          "C_number": "C7666"
+        },
+        {
+          "ref": "J101",
+          "before_value": "PZ254V-12-32P",
+          "after_value": "PZ254V-12-32P",
+          "before_footprint": "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical",
+          "after_footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+          "C_number": "C22465940"
+        },
+        {
+          "ref": "J102",
+          "before_value": "PZ254V-12-32P",
+          "after_value": "PZ254V-12-32P",
+          "before_footprint": "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical",
+          "after_footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+          "C_number": "C22465940"
+        }
+      ],
+      "netlist_sha256": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1",
+      "erc": {
+        "errors": 0,
+        "warnings": 0,
+        "kicad_version": "10.0.7"
+      }
+    },
+    "inverter": {
+      "components": 317,
+      "DNP": 14,
+      "physical_pin_nodes": 969,
+      "unchanged_net_partitions": 238,
+      "shared_reviewed_references": [
+        "F2",
+        "J2",
+        "SW1",
+        "U1",
+        "C4",
+        "C5",
+        "C9",
+        "L1",
+        "U2",
+        "C12",
+        "J7",
+        "L2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C24",
+        "D1",
+        "D2",
+        "F1",
+        "Q7",
+        "U29",
+        "C26",
+        "C28",
+        "Q1",
+        "Q2",
+        "RS1",
+        "U7",
+        "C30",
+        "C32",
+        "Q3",
+        "Q4",
+        "RS2",
+        "U8",
+        "C34",
+        "C36",
+        "Q5",
+        "Q6",
+        "RS3",
+        "U9",
+        "C37",
+        "C38",
+        "C39",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U28",
+        "J8",
+        "U14",
+        "U15",
+        "U16",
+        "U17",
+        "C51",
+        "C52",
+        "C53",
+        "U18",
+        "U19",
+        "U20",
+        "U21",
+        "Q8",
+        "U22",
+        "U23",
+        "U24",
+        "U25",
+        "U27",
+        "U26",
+        "D201",
+        "D202",
+        "D203",
+        "D204",
+        "D205",
+        "D206",
+        "D207",
+        "D208",
+        "D209",
+        "D210",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13",
+        "J14",
+        "J15",
+        "U31",
+        "J101",
+        "J102"
+      ],
+      "selection_pending_references": [
+        "C1",
+        "C2",
+        "C3",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "C6",
+        "C7",
+        "C8",
+        "C10",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "C11",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "R13",
+        "R14",
+        "R15",
+        "C23",
+        "R16",
+        "R17",
+        "R18",
+        "C25",
+        "C27",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "C29",
+        "C31",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "C33",
+        "C35",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R35",
+        "R36",
+        "C40",
+        "C41",
+        "C62",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R41",
+        "R42",
+        "R43",
+        "R44",
+        "R45",
+        "R46",
+        "R47",
+        "C42",
+        "C43",
+        "C44",
+        "C45",
+        "C46",
+        "C47",
+        "C48",
+        "C49",
+        "C50",
+        "R48",
+        "R49",
+        "R50",
+        "R51",
+        "R52",
+        "R53",
+        "R54",
+        "R55",
+        "R56",
+        "R57",
+        "R58",
+        "R59",
+        "R60",
+        "R61",
+        "R62",
+        "R63",
+        "R64",
+        "R65",
+        "R66",
+        "R67",
+        "R68",
+        "R69",
+        "R70",
+        "C54",
+        "R71",
+        "R72",
+        "C55",
+        "R73",
+        "R74",
+        "R75",
+        "C56",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "C61",
+        "R76",
+        "R77",
+        "R78",
+        "R79",
+        "R80",
+        "R81",
+        "R82",
+        "R83",
+        "R160",
+        "D3",
+        "R130",
+        "R135",
+        "R136",
+        "R137",
+        "R138",
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R143",
+        "C69",
+        "C70",
+        "C71",
+        "C72",
+        "C73",
+        "C74",
+        "C75",
+        "C76",
+        "R84",
+        "R85",
+        "R86",
+        "R87",
+        "R88",
+        "R89",
+        "R90",
+        "R91",
+        "R201",
+        "R202",
+        "R203",
+        "R204",
+        "R205",
+        "R206",
+        "R207",
+        "R208",
+        "R209",
+        "R210",
+        "R211",
+        "R94",
+        "R95",
+        "R96",
+        "R97",
+        "R98",
+        "R99",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "C82",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "R120",
+        "R121",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R131",
+        "R132",
+        "R133",
+        "R134"
+      ],
+      "approved_metadata_changes": [
+        {
+          "ref": "F2",
+          "before_value": "0451002.MRL",
+          "after_value": "0451002.MRL",
+          "before_footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+          "after_footprint": "MyFootprints:Littelfuse_NANO2_451_476_Pad1.96x3.15mm_Gap2.95mm",
+          "C_number": "C99547"
+        },
+        {
+          "ref": "J2",
+          "before_value": "AUX: +12..24V / GND",
+          "after_value": "AUX: +12..24V / GND",
+          "before_footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+          "after_footprint": "MyFootprints:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+          "C_number": "C131337"
+        },
+        {
+          "ref": "SW1",
+          "before_value": "AUX_RESET",
+          "after_value": "AUX_RESET",
+          "before_footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+          "after_footprint": "MyFootprints:SW_SPST_TS-1088-xR020",
+          "C_number": "C720477"
+        },
+        {
+          "ref": "C4",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C5",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C9",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "L1",
+          "before_value": "4.7uH",
+          "after_value": "4.7uH",
+          "before_footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+          "after_footprint": "MyFootprints:L_Sunlord_MWSA0603S",
+          "C_number": "C408447"
+        },
+        {
+          "ref": "C12",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "J7",
+          "before_value": "OPTIONAL SENSOR 5V / GND",
+          "after_value": "OPTIONAL SENSOR 5V / GND",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x02_P1.27mm_Drill0.70mm",
+          "C_number": "C5372825"
+        },
+        {
+          "ref": "L2",
+          "before_value": "4.7uH",
+          "after_value": "4.7uH",
+          "before_footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+          "after_footprint": "MyFootprints:L_Sunlord_MWSA0603S",
+          "C_number": "C408447"
+        },
+        {
+          "ref": "C24",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "D1",
+          "before_value": "MBRD20150CT-13",
+          "after_value": "MBRD20150CT-13",
+          "before_footprint": "Package_TO_SOT_SMD:TO-252-3_TabPin2",
+          "after_footprint": "MyFootprints:Diodes_MBRD20150CT_TO252_Recommended",
+          "C_number": "C151357"
+        },
+        {
+          "ref": "D2",
+          "before_value": "SMCJ60CA / CANDIDATE DNP",
+          "after_value": "SMCJ60CA / CANDIDATE DNP",
+          "before_footprint": "Diode_SMD:D_SMC",
+          "after_footprint": "MyFootprints:SMC_DO-214AB_Bidirectional",
+          "C_number": "C3719686"
+        },
+        {
+          "ref": "F1",
+          "before_value": "0476015.MRSN",
+          "after_value": "0476015.MRSN",
+          "before_footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+          "after_footprint": "MyFootprints:Littelfuse_NANO2_451_476_Pad1.96x3.15mm_Gap2.95mm",
+          "C_number": "C3165851"
+        },
+        {
+          "ref": "Q7",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "C26",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C28",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "Q1",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "Q2",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "RS1",
+          "before_value": "5m / 3W / 1%",
+          "after_value": "5m / 3W / 1%",
+          "before_footprint": "Resistor_SMD:R_2512_6332Metric",
+          "after_footprint": "MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm",
+          "C_number": "C2903482"
+        },
+        {
+          "ref": "C30",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C32",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "Q3",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "Q4",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "RS2",
+          "before_value": "5m / 3W / 1%",
+          "after_value": "5m / 3W / 1%",
+          "before_footprint": "Resistor_SMD:R_2512_6332Metric",
+          "after_footprint": "MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm",
+          "C_number": "C2903482"
+        },
+        {
+          "ref": "C34",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C36",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "Q5",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "Q6",
+          "before_value": "BSC110N15NS5",
+          "after_value": "BSC110N15NS5",
+          "before_footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+          "after_footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+          "C_number": "C412739"
+        },
+        {
+          "ref": "RS3",
+          "before_value": "5m / 3W / 1%",
+          "after_value": "5m / 3W / 1%",
+          "before_footprint": "Resistor_SMD:R_2512_6332Metric",
+          "after_footprint": "MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm",
+          "C_number": "C2903482"
+        },
+        {
+          "ref": "C37",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C38",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C39",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "J8",
+          "before_value": "EXTERNAL 10k NTC",
+          "after_value": "EXTERNAL 10k NTC",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x02_P1.27mm_Drill0.70mm",
+          "C_number": "C5372825"
+        },
+        {
+          "ref": "C51",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C52",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "C53",
+          "before_value": "100n",
+          "after_value": "100n",
+          "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "after_footprint": "MyFootprints:C_0603_1608Metric",
+          "C_number": "C14663"
+        },
+        {
+          "ref": "Q8",
+          "before_value": "MMBT3904LT1G",
+          "after_value": "MMBT3904LT1G",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:onsemi_SOT-23_CASE318_Recommended",
+          "C_number": "C81464"
+        },
+        {
+          "ref": "D201",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D202",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D203",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D204",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D205",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D206",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D207",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D208",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D209",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "D210",
+          "before_value": "BAT54S,215",
+          "after_value": "BAT54S,215",
+          "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+          "after_footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+          "C_number": "C47546"
+        },
+        {
+          "ref": "J9",
+          "before_value": "ENC_A: PWR GND A B Z",
+          "after_value": "ENC_A: PWR GND A B Z",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x05_P1.27mm_Drill0.70mm",
+          "C_number": "C5372828"
+        },
+        {
+          "ref": "J10",
+          "before_value": "ENC_B: PWR GND A B Z",
+          "after_value": "ENC_B: PWR GND A B Z",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x05_P1.27mm_Drill0.70mm",
+          "C_number": "C5372828"
+        },
+        {
+          "ref": "J11",
+          "before_value": "SPI_A: PWR GND SCK MOSI MISO CS",
+          "after_value": "SPI_A: PWR GND SCK MOSI MISO CS",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x06_P1.27mm_Drill0.70mm",
+          "C_number": "C5372829"
+        },
+        {
+          "ref": "J12",
+          "before_value": "SPI_B: PWR GND SCK MOSI MISO CS",
+          "after_value": "SPI_B: PWR GND SCK MOSI MISO CS",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x06_P1.27mm_Drill0.70mm",
+          "C_number": "C5372829"
+        },
+        {
+          "ref": "J13",
+          "before_value": "SWD: VTREF IO CLK GND NRST",
+          "after_value": "SWD: VTREF IO CLK GND NRST",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x05_P1.27mm_Drill0.70mm",
+          "C_number": "C5372828"
+        },
+        {
+          "ref": "J14",
+          "before_value": "TTL: TX RX GND",
+          "after_value": "TTL: TX RX GND",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x03_P1.27mm_Drill0.70mm",
+          "C_number": "C5372826"
+        },
+        {
+          "ref": "J15",
+          "before_value": "CAN: H L GND",
+          "after_value": "CAN: H L GND",
+          "before_footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+          "after_footprint": "MyFootprints:HCTL_PZ127_1x03_P1.27mm_Drill0.70mm",
+          "C_number": "C5372826"
+        },
+        {
+          "ref": "J101",
+          "before_value": "PM254V-12-32-H85",
+          "after_value": "PM254V-12-32-H85",
+          "before_footprint": "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical",
+          "after_footprint": "MyFootprints:XFCN_PM254V-12-32-H85_2x16_P2.54mm_Vertical_Drill1.02mm",
+          "C_number": "C46595991"
+        },
+        {
+          "ref": "J102",
+          "before_value": "PM254V-12-32-H85",
+          "after_value": "PM254V-12-32-H85",
+          "before_footprint": "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical",
+          "after_footprint": "MyFootprints:XFCN_PM254V-12-32-H85_2x16_P2.54mm_Vertical_Drill1.02mm",
+          "C_number": "C46595991"
+        }
+      ],
+      "netlist_sha256": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b",
+      "erc": {
+        "errors": 0,
+        "warnings": 0,
+        "kicad_version": "10.0.7"
+      }
+    }
+  },
+  "functional": {
+    "header_contacts": [
+      {
+        "header": "J101",
+        "pin": 1,
+        "core_net": "+5V_CORE_IN",
+        "base_net": "+5V_INV"
+      },
+      {
+        "header": "J101",
+        "pin": 2,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J101",
+        "pin": 3,
+        "core_net": "+5V_CORE_IN",
+        "base_net": "+5V_INV"
+      },
+      {
+        "header": "J101",
+        "pin": 4,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J101",
+        "pin": 5,
+        "core_net": "PA0",
+        "base_net": "PA0"
+      },
+      {
+        "header": "J101",
+        "pin": 6,
+        "core_net": "PA1",
+        "base_net": "PA1"
+      },
+      {
+        "header": "J101",
+        "pin": 7,
+        "core_net": "PA2",
+        "base_net": "PA2"
+      },
+      {
+        "header": "J101",
+        "pin": 8,
+        "core_net": "PA3",
+        "base_net": "PA3"
+      },
+      {
+        "header": "J101",
+        "pin": 9,
+        "core_net": "PA4",
+        "base_net": "PA4"
+      },
+      {
+        "header": "J101",
+        "pin": 10,
+        "core_net": "PA5",
+        "base_net": "PA5"
+      },
+      {
+        "header": "J101",
+        "pin": 11,
+        "core_net": "PA6",
+        "base_net": "PA6"
+      },
+      {
+        "header": "J101",
+        "pin": 12,
+        "core_net": "PA7",
+        "base_net": "PA7"
+      },
+      {
+        "header": "J101",
+        "pin": 13,
+        "core_net": "PA8",
+        "base_net": "PA8"
+      },
+      {
+        "header": "J101",
+        "pin": 14,
+        "core_net": "PA9",
+        "base_net": "PA9"
+      },
+      {
+        "header": "J101",
+        "pin": 15,
+        "core_net": "PA10",
+        "base_net": "PA10"
+      },
+      {
+        "header": "J101",
+        "pin": 16,
+        "core_net": "PA11",
+        "base_net": "PA11"
+      },
+      {
+        "header": "J101",
+        "pin": 17,
+        "core_net": "PA12",
+        "base_net": "PA12"
+      },
+      {
+        "header": "J101",
+        "pin": 18,
+        "core_net": "PA13",
+        "base_net": "PA13"
+      },
+      {
+        "header": "J101",
+        "pin": 19,
+        "core_net": "PA14",
+        "base_net": "PA14"
+      },
+      {
+        "header": "J101",
+        "pin": 20,
+        "core_net": "PA15",
+        "base_net": "PA15"
+      },
+      {
+        "header": "J101",
+        "pin": 21,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J101",
+        "pin": 22,
+        "core_net": "+3V3_MCU",
+        "base_net": "+3V3_CORE_REF"
+      },
+      {
+        "header": "J101",
+        "pin": 23,
+        "core_net": "PB0",
+        "base_net": "PB0"
+      },
+      {
+        "header": "J101",
+        "pin": 24,
+        "core_net": "PB1",
+        "base_net": "PB1"
+      },
+      {
+        "header": "J101",
+        "pin": 25,
+        "core_net": "PB2",
+        "base_net": "PB2"
+      },
+      {
+        "header": "J101",
+        "pin": 26,
+        "core_net": "PB3",
+        "base_net": "unconnected-(J101-Pin_26-Pad26)"
+      },
+      {
+        "header": "J101",
+        "pin": 27,
+        "core_net": "PB4",
+        "base_net": "unconnected-(J101-Pin_27-Pad27)"
+      },
+      {
+        "header": "J101",
+        "pin": 28,
+        "core_net": "PB5",
+        "base_net": "PB5"
+      },
+      {
+        "header": "J101",
+        "pin": 29,
+        "core_net": "PB6",
+        "base_net": "PB6"
+      },
+      {
+        "header": "J101",
+        "pin": 30,
+        "core_net": "PB7",
+        "base_net": "PB7"
+      },
+      {
+        "header": "J101",
+        "pin": 31,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J101",
+        "pin": 32,
+        "core_net": "+3V3_MCU",
+        "base_net": "+3V3_CORE_REF"
+      },
+      {
+        "header": "J102",
+        "pin": 1,
+        "core_net": "PB8_BOOT0",
+        "base_net": "unconnected-(J102-Pin_1-Pad1)"
+      },
+      {
+        "header": "J102",
+        "pin": 2,
+        "core_net": "PB9",
+        "base_net": "unconnected-(J102-Pin_2-Pad2)"
+      },
+      {
+        "header": "J102",
+        "pin": 3,
+        "core_net": "PB10",
+        "base_net": "PB10"
+      },
+      {
+        "header": "J102",
+        "pin": 4,
+        "core_net": "PB11",
+        "base_net": "PB11"
+      },
+      {
+        "header": "J102",
+        "pin": 5,
+        "core_net": "PB12",
+        "base_net": "PB12"
+      },
+      {
+        "header": "J102",
+        "pin": 6,
+        "core_net": "PB13",
+        "base_net": "PB13"
+      },
+      {
+        "header": "J102",
+        "pin": 7,
+        "core_net": "PB14",
+        "base_net": "PB14"
+      },
+      {
+        "header": "J102",
+        "pin": 8,
+        "core_net": "PB15",
+        "base_net": "PB15"
+      },
+      {
+        "header": "J102",
+        "pin": 9,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J102",
+        "pin": 10,
+        "core_net": "CTRL_READY",
+        "base_net": "CTRL_READY"
+      },
+      {
+        "header": "J102",
+        "pin": 11,
+        "core_net": "PC0",
+        "base_net": "PC0"
+      },
+      {
+        "header": "J102",
+        "pin": 12,
+        "core_net": "PC1",
+        "base_net": "PC1"
+      },
+      {
+        "header": "J102",
+        "pin": 13,
+        "core_net": "PC2",
+        "base_net": "PC2"
+      },
+      {
+        "header": "J102",
+        "pin": 14,
+        "core_net": "PC3",
+        "base_net": "PC3"
+      },
+      {
+        "header": "J102",
+        "pin": 15,
+        "core_net": "PC4",
+        "base_net": "PC4"
+      },
+      {
+        "header": "J102",
+        "pin": 16,
+        "core_net": "PC5",
+        "base_net": "PC5"
+      },
+      {
+        "header": "J102",
+        "pin": 17,
+        "core_net": "PC6",
+        "base_net": "PC6"
+      },
+      {
+        "header": "J102",
+        "pin": 18,
+        "core_net": "PC7",
+        "base_net": "unconnected-(J102-Pin_18-Pad18)"
+      },
+      {
+        "header": "J102",
+        "pin": 19,
+        "core_net": "PC8",
+        "base_net": "PC8"
+      },
+      {
+        "header": "J102",
+        "pin": 20,
+        "core_net": "PC9",
+        "base_net": "PC9"
+      },
+      {
+        "header": "J102",
+        "pin": 21,
+        "core_net": "PC10",
+        "base_net": "PC10"
+      },
+      {
+        "header": "J102",
+        "pin": 22,
+        "core_net": "PC11",
+        "base_net": "PC11"
+      },
+      {
+        "header": "J102",
+        "pin": 23,
+        "core_net": "PC12",
+        "base_net": "PC12"
+      },
+      {
+        "header": "J102",
+        "pin": 24,
+        "core_net": "PC13",
+        "base_net": "PC13"
+      },
+      {
+        "header": "J102",
+        "pin": 25,
+        "core_net": "PC14",
+        "base_net": "unconnected-(J102-Pin_25-Pad25)"
+      },
+      {
+        "header": "J102",
+        "pin": 26,
+        "core_net": "PC15",
+        "base_net": "unconnected-(J102-Pin_26-Pad26)"
+      },
+      {
+        "header": "J102",
+        "pin": 27,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J102",
+        "pin": 28,
+        "core_net": "PD2",
+        "base_net": "PD2"
+      },
+      {
+        "header": "J102",
+        "pin": 29,
+        "core_net": "HSE_IN",
+        "base_net": "unconnected-(J102-Pin_29-Pad29)"
+      },
+      {
+        "header": "J102",
+        "pin": 30,
+        "core_net": "HSE_OUT",
+        "base_net": "unconnected-(J102-Pin_30-Pad30)"
+      },
+      {
+        "header": "J102",
+        "pin": 31,
+        "core_net": "GND",
+        "base_net": "GND"
+      },
+      {
+        "header": "J102",
+        "pin": 32,
+        "core_net": "NRST",
+        "base_net": "NRST"
+      }
+    ],
+    "MCU_signal_pads": 52,
+    "supply_pin_assertions": 60,
+    "hardware_permission_truth_cases": 32768,
+    "checks": [
+      "NRST and PC7 ARM jointly required",
+      "8 ADC and 2 status return clamps use core reference",
+      "two 3.3 V supply domains remain separate",
+      "MOS source/drain numbered groups preserved",
+      "RESET and BOOT button paths preserved"
+    ]
+  },
+  "scope": "Native KiCad netlist/part/pad and static logic checks; no PCB or hardware qualification.",
+  "shared_parts_sha256": "24c6a7b585e69986d848ad5ac1df4a2a7e68bb207ae8c494a67b4455a03d0cf4",
+  "pin_contract_sha256": "457f9fd729ca2b36b87af771f86dc00b975a4f5371acf84a2bbef45e738a4f34"
+}

@@ -1,0 +1,46 @@
+{
+  "net": "/Voltage and NTC/V_V_DIV",
+  "paths": [
+    {
+      "net": "/Voltage and NTC/V_V_DIV",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.55,
+          29.05
+        ],
+        [
+          31.55,
+          28.95
+        ],
+        [
+          31.45,
+          28.85
+        ],
+        [
+          31.45,
+          28.15
+        ],
+        [
+          32.0,
+          27.6
+        ],
+        [
+          32.0,
+          27.48
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 1713,
+    "seconds": 1.062,
+    "start_candidates": 293,
+    "goal_candidates": 12
+  }
+}

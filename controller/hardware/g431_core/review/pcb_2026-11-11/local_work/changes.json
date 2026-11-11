@@ -1,0 +1,571 @@
+{
+  "ripped": [
+    {
+      "uuid": "72bf515b-bc25-477c-accf-be7cf8e3dbe2",
+      "net": "PB1"
+    },
+    {
+      "uuid": "8f8f5496-1d13-437b-8fd1-7c538fe12a64",
+      "net": "PB1"
+    },
+    {
+      "uuid": "dc494486-d373-4eba-8da3-7afaf4de2bf8",
+      "net": "PB1"
+    },
+    {
+      "uuid": "3d5b6467-b71e-49ec-b45a-5228f694de29",
+      "net": "PB1"
+    },
+    {
+      "uuid": "03b2babb-d6d4-41fb-9ee6-cad841516547",
+      "net": "PB1"
+    },
+    {
+      "uuid": "091d44fc-7691-4584-a86e-aabdcfdaed77",
+      "net": "PB1"
+    },
+    {
+      "uuid": "49063a77-116d-4992-bfbb-705d2123ee89",
+      "net": "PB1"
+    },
+    {
+      "uuid": "6057824c-1de8-4c01-83d7-05b47c96d3e6",
+      "net": "PB1"
+    },
+    {
+      "uuid": "6279e04e-8be0-45ac-b834-02d7e82e983b",
+      "net": "PB1"
+    },
+    {
+      "uuid": "8533e1d7-6fd2-48e2-9d5c-dbfd270fd114",
+      "net": "PB1"
+    },
+    {
+      "uuid": "85bea827-b646-4b35-af6c-a87f0e70a8dc",
+      "net": "PB1"
+    },
+    {
+      "uuid": "863ab376-edda-4c4e-9852-f800b415f540",
+      "net": "PB1"
+    },
+    {
+      "uuid": "b771da7e-9910-42b6-88a8-908b48741aab",
+      "net": "PB1"
+    },
+    {
+      "uuid": "bbee2832-95cc-44d4-8b9f-e6e4c958f444",
+      "net": "PB1"
+    },
+    {
+      "uuid": "f127210a-a531-4c3e-8c06-702ed73ece5a",
+      "net": "PB1"
+    },
+    {
+      "uuid": "ffedaebb-8c62-456d-8022-d8028b31725b",
+      "net": "PB1"
+    },
+    {
+      "uuid": "03010ea9-e3fe-4805-b749-2b78541736ab",
+      "net": "PB2"
+    },
+    {
+      "uuid": "1e895178-0d82-4593-84cb-fc0637deebe4",
+      "net": "PB2"
+    },
+    {
+      "uuid": "815fc532-cf2d-4ace-9961-5a7767f495e0",
+      "net": "PB2"
+    },
+    {
+      "uuid": "f79d5e60-6082-4191-8705-1d85cc8de833",
+      "net": "PB2"
+    },
+    {
+      "uuid": "f87c28b2-25d3-4087-b158-4d0655d51a2b",
+      "net": "PB2"
+    },
+    {
+      "uuid": "f9b4bb71-e18b-451e-a8a8-e20b6de050a3",
+      "net": "PB2"
+    },
+    {
+      "uuid": "fd22db6c-089d-4943-9dc5-5ce8a2ea221c",
+      "net": "PB2"
+    },
+    {
+      "uuid": "fed6f71d-58a7-4d02-b26b-11893de421b1",
+      "net": "PB2"
+    },
+    {
+      "uuid": "002cfdd9-a997-40bc-b70b-07c54b9c6ccf",
+      "net": "PB2"
+    },
+    {
+      "uuid": "045bba79-d7ea-40b5-95bf-946ae9a0befb",
+      "net": "PB2"
+    },
+    {
+      "uuid": "05d11aab-c0e8-427f-9c5c-e87061de3e2c",
+      "net": "PB2"
+    },
+    {
+      "uuid": "0bab27f6-1258-46c2-aa28-d771eefdf8bf",
+      "net": "PB2"
+    },
+    {
+      "uuid": "0e3ff272-2961-443e-a924-7e824ba7e899",
+      "net": "PB2"
+    },
+    {
+      "uuid": "0f9cd949-ce12-4eb2-81b3-3def2c7149e9",
+      "net": "PB2"
+    },
+    {
+      "uuid": "10c87e1f-77f5-49a0-9973-3e9f132fb8e1",
+      "net": "PB2"
+    },
+    {
+      "uuid": "1caa2738-3e0a-496f-9f66-56646670caee",
+      "net": "PB2"
+    },
+    {
+      "uuid": "205991c6-15a6-4bf0-86f2-c4ab36be8554",
+      "net": "PB2"
+    },
+    {
+      "uuid": "25df7e52-87db-4b7e-890d-110f8910fd3f",
+      "net": "PB2"
+    },
+    {
+      "uuid": "290f0857-7b76-4141-91da-2b3b4ac2a9ca",
+      "net": "PB2"
+    },
+    {
+      "uuid": "2b6e340f-19ba-485e-8851-c26b2b1f5fe3",
+      "net": "PB2"
+    },
+    {
+      "uuid": "2c4e5e96-94dd-4e2f-98c5-bd0382d820d0",
+      "net": "PB2"
+    },
+    {
+      "uuid": "3115fc7e-66e8-4e4c-a584-e831442c26ca",
+      "net": "PB2"
+    },
+    {
+      "uuid": "350f75f1-9b41-42f1-adc4-3965ff71cfd4",
+      "net": "PB2"
+    },
+    {
+      "uuid": "3a63c107-29fc-496a-82cd-10eab31c9a2a",
+      "net": "PB2"
+    },
+    {
+      "uuid": "3b042414-4d14-484b-8eb7-8b5028640f84",
+      "net": "PB2"
+    },
+    {
+      "uuid": "3dd9cfe1-7d48-4815-9e28-9587b60e9abb",
+      "net": "PB2"
+    },
+    {
+      "uuid": "3e04b592-32d4-4abb-82f1-dd1e5fd3f441",
+      "net": "PB2"
+    },
+    {
+      "uuid": "43c53628-b59b-4057-96e5-b9cb4e7755c9",
+      "net": "PB2"
+    },
+    {
+      "uuid": "4516afa3-435d-4d7f-87aa-e0469924715e",
+      "net": "PB2"
+    },
+    {
+      "uuid": "46e03953-4cc1-4d74-b341-d5ed0439e99f",
+      "net": "PB2"
+    },
+    {
+      "uuid": "47c5f48b-e97e-402b-925d-8f3cdfb5aa2f",
+      "net": "PB2"
+    },
+    {
+      "uuid": "4a36f684-99a3-43a2-851e-83090875a852",
+      "net": "PB2"
+    },
+    {
+      "uuid": "516458ff-d751-499f-a022-97be3e1eb22f",
+      "net": "PB2"
+    },
+    {
+      "uuid": "52cd3863-dcb7-44a9-a4c9-ffe47faceaae",
+      "net": "PB2"
+    },
+    {
+      "uuid": "53041238-eb6d-4e0c-b7c9-2b4eaeb839ae",
+      "net": "PB2"
+    },
+    {
+      "uuid": "552d1a43-ae88-4bd2-8bc6-76c724e2aeb7",
+      "net": "PB2"
+    },
+    {
+      "uuid": "5790a6fd-9151-48a0-b574-5f9c58338658",
+      "net": "PB2"
+    },
+    {
+      "uuid": "583e3941-82eb-41c9-acad-a9c451ea5b45",
+      "net": "PB2"
+    },
+    {
+      "uuid": "58520dd0-fd97-4803-a938-7454488c54a7",
+      "net": "PB2"
+    },
+    {
+      "uuid": "59033086-77fd-4485-89df-655549e3c769",
+      "net": "PB2"
+    },
+    {
+      "uuid": "590d875d-a2d5-4915-a8c1-a970029de163",
+      "net": "PB2"
+    },
+    {
+      "uuid": "59f22cc9-6f58-4d42-9b36-9d455c3acb28",
+      "net": "PB2"
+    },
+    {
+      "uuid": "609e2aa7-fc1e-4f2b-9172-4aae8b7c1ed8",
+      "net": "PB2"
+    },
+    {
+      "uuid": "61fe2f22-8a85-4d6d-9de0-c51085e8c9db",
+      "net": "PB2"
+    },
+    {
+      "uuid": "6a06c092-7e0e-4eb0-b931-ad74b24a7e66",
+      "net": "PB2"
+    },
+    {
+      "uuid": "6ee0fde6-0e4c-4245-b1b9-878a8f40dc29",
+      "net": "PB2"
+    },
+    {
+      "uuid": "7058253a-57e0-49b7-8486-c0b3378afe7e",
+      "net": "PB2"
+    },
+    {
+      "uuid": "70dc6d8d-b011-4a1d-adbf-447753105dfe",
+      "net": "PB2"
+    },
+    {
+      "uuid": "749cb3a2-6122-4b8f-8d4a-3bd6422b1e11",
+      "net": "PB2"
+    },
+    {
+      "uuid": "752f971c-1231-458b-9d5c-a33ac254108b",
+      "net": "PB2"
+    },
+    {
+      "uuid": "7736a8d1-8fb1-4e55-999e-ed47c6ead508",
+      "net": "PB2"
+    },
+    {
+      "uuid": "7b231c74-5eda-42d1-aed3-400b20e91a80",
+      "net": "PB2"
+    },
+    {
+      "uuid": "7b5958cf-09fe-4869-a821-c94763f5cdc2",
+      "net": "PB2"
+    },
+    {
+      "uuid": "7d6cdc2c-9795-43c7-9624-0359147d11ae",
+      "net": "PB2"
+    },
+    {
+      "uuid": "82ca437a-d871-4537-8d10-e0ceaf6e42a3",
+      "net": "PB2"
+    },
+    {
+      "uuid": "895de47b-ce7f-4c9a-966a-992bd5898b5b",
+      "net": "PB2"
+    },
+    {
+      "uuid": "8c756166-b8ec-4f2f-aecf-570bdd7c1061",
+      "net": "PB2"
+    },
+    {
+      "uuid": "92718819-454c-4935-bab3-c5946df0b225",
+      "net": "PB2"
+    },
+    {
+      "uuid": "93662606-b13d-4136-9449-330f38574cc2",
+      "net": "PB2"
+    },
+    {
+      "uuid": "93c11b16-795b-4eb8-ac30-c21400b25ef2",
+      "net": "PB2"
+    },
+    {
+      "uuid": "967ee6b3-893d-4ef8-b50a-a9c7b3ea391c",
+      "net": "PB2"
+    },
+    {
+      "uuid": "98b20026-8d35-4abc-9433-88ae69e16676",
+      "net": "PB2"
+    },
+    {
+      "uuid": "9a35edd0-a81d-42e3-ac80-bc4cf7911dcc",
+      "net": "PB2"
+    },
+    {
+      "uuid": "9b93284a-6ef4-4406-85bf-14a695ba2be0",
+      "net": "PB2"
+    },
+    {
+      "uuid": "9c0bf84e-bd9a-46c7-8ea8-ed87c5363069",
+      "net": "PB2"
+    },
+    {
+      "uuid": "a14cd41d-c462-404d-a992-406e432111d0",
+      "net": "PB2"
+    },
+    {
+      "uuid": "a400316e-27fa-4053-a236-f8ac9824c9fe",
+      "net": "PB2"
+    },
+    {
+      "uuid": "ac5ff08a-eb6d-4f10-805c-ad900f7e6f00",
+      "net": "PB2"
+    },
+    {
+      "uuid": "ae2d8b1e-df75-4167-9e08-8501084ccdd1",
+      "net": "PB2"
+    },
+    {
+      "uuid": "af5e2d48-cefd-4bc2-8557-a8e04dae64fb",
+      "net": "PB2"
+    },
+    {
+      "uuid": "af6fe782-036a-41fa-b11d-eecc25ba1312",
+      "net": "PB2"
+    },
+    {
+      "uuid": "b159ba99-1995-4f95-a16f-66b8b3775f1d",
+      "net": "PB2"
+    },
+    {
+      "uuid": "b88b07c5-f7c2-48c0-959e-07a089e711b3",
+      "net": "PB2"
+    },
+    {
+      "uuid": "bc75de22-6131-4a7d-8d9a-e709ea7c1ccb",
+      "net": "PB2"
+    },
+    {
+      "uuid": "bf350664-7425-435a-91da-dd15432e03ce",
+      "net": "PB2"
+    },
+    {
+      "uuid": "c75151ce-4b5b-41fc-8ab9-d753a36b60dc",
+      "net": "PB2"
+    },
+    {
+      "uuid": "c80da0bc-09b4-438f-8ccf-426805c58378",
+      "net": "PB2"
+    },
+    {
+      "uuid": "c8799e89-c17a-4de8-916b-13db0f96c8dd",
+      "net": "PB2"
+    },
+    {
+      "uuid": "cae3c6ba-8a12-4891-87ea-70a15ec3f19f",
+      "net": "PB2"
+    },
+    {
+      "uuid": "cdd890a4-94f0-474a-8566-fc8e28260617",
+      "net": "PB2"
+    },
+    {
+      "uuid": "dcca1fbe-d484-4a33-b3b9-5a0280299e4e",
+      "net": "PB2"
+    },
+    {
+      "uuid": "df3c3b15-38cf-4a7f-b0c0-fe90158eb4b2",
+      "net": "PB2"
+    },
+    {
+      "uuid": "e0d4276a-dce2-42d3-b307-2e27d2576f65",
+      "net": "PB2"
+    },
+    {
+      "uuid": "e29c6644-3fb9-40e7-adff-7b85cff1aa91",
+      "net": "PB2"
+    },
+    {
+      "uuid": "ea7edf0a-baf3-424a-ac9e-2e33b64ec0c6",
+      "net": "PB2"
+    },
+    {
+      "uuid": "ec70080e-f39e-4f30-8e28-8d540ee0617f",
+      "net": "PB2"
+    },
+    {
+      "uuid": "efec5d13-3f1d-4f29-afbb-5c0f73881013",
+      "net": "PB2"
+    },
+    {
+      "uuid": "f1c6ebb8-edda-4ea8-9568-d549dbb4f2c0",
+      "net": "PB2"
+    },
+    {
+      "uuid": "f37dac6f-538f-4982-9b97-4b0c7395e896",
+      "net": "PB2"
+    },
+    {
+      "uuid": "f68ce13e-7248-41c6-9f09-43798ee83b49",
+      "net": "PB2"
+    },
+    {
+      "uuid": "fca36670-e600-4290-99fe-7c3abc4bb106",
+      "net": "PB2"
+    },
+    {
+      "uuid": "fdbf5f17-4fe4-481c-a8b9-37917d227a36",
+      "net": "PB2"
+    },
+    {
+      "uuid": "fe02adc8-93c2-45fe-bee8-f2b78f856450",
+      "net": "PB2"
+    },
+    {
+      "uuid": "331f5262-2b34-42ae-8eca-18e9e159798d",
+      "net": "PC14"
+    },
+    {
+      "uuid": "3bb7a1a0-fb54-4c08-8863-46174e61f83c",
+      "net": "PC14"
+    },
+    {
+      "uuid": "45896e2c-826d-448d-aba2-acee34609c29",
+      "net": "PC14"
+    },
+    {
+      "uuid": "471afeda-c50d-47c8-aa14-cdce2544e6d8",
+      "net": "PC14"
+    },
+    {
+      "uuid": "67e3bf28-126a-4a13-8d11-f599b25e79fb",
+      "net": "PC14"
+    },
+    {
+      "uuid": "7286945c-0a91-4a43-9823-08d889c10a19",
+      "net": "PC14"
+    },
+    {
+      "uuid": "87b50840-87a2-480f-8c6c-9efdeee11128",
+      "net": "PC14"
+    },
+    {
+      "uuid": "a5d9a585-f2b8-48fa-b507-e5f4bb2e2e1f",
+      "net": "PC14"
+    },
+    {
+      "uuid": "d206e3d1-72c7-4bbc-9fce-fa1bfca051c7",
+      "net": "PC14"
+    },
+    {
+      "uuid": "0a5e5c94-10fe-4c16-bd1d-2bcbc42e4983",
+      "net": "PC14"
+    },
+    {
+      "uuid": "3d8bdb5e-10da-48cb-926c-0f8cad821948",
+      "net": "PC14"
+    },
+    {
+      "uuid": "5c4647d0-fd1f-4f17-b429-fde16e5f2130",
+      "net": "PC14"
+    },
+    {
+      "uuid": "bfc256d6-8bc2-4e6f-98d6-aed1d9fa33a1",
+      "net": "PC14"
+    },
+    {
+      "uuid": "c0c7afda-302b-4100-9a31-dfad4fd75519",
+      "net": "PC14"
+    },
+    {
+      "uuid": "618579a0-b6e8-40f9-9fdb-ed42849145a4",
+      "net": "PC15"
+    },
+    {
+      "uuid": "bd5c7c58-2a77-4cc5-a701-09af68097b6c",
+      "net": "PC15"
+    },
+    {
+      "uuid": "c1b705eb-c2d3-44f4-b85e-88af5b0bb219",
+      "net": "PC15"
+    },
+    {
+      "uuid": "649072fb-61e2-44af-9a46-03e19d443d98",
+      "net": "PC15"
+    },
+    {
+      "uuid": "1cdd80d9-d157-41c0-b1e6-b46bd357b858",
+      "net": "PC15"
+    },
+    {
+      "uuid": "230c33b7-01aa-4a5a-941d-b45d356df8eb",
+      "net": "PC15"
+    },
+    {
+      "uuid": "745f83c1-9fa9-4c27-8805-3a1e5dab19e9",
+      "net": "PC15"
+    },
+    {
+      "uuid": "9e9b5afa-bc6f-45df-a1d0-7d78d8412002",
+      "net": "PC15"
+    },
+    {
+      "uuid": "a11b9b74-6cf8-4f31-8f36-80486e88e8ff",
+      "net": "PC15"
+    },
+    {
+      "uuid": "b24af78a-c59e-4451-99f9-5b92cdec0a3c",
+      "net": "PC15"
+    },
+    {
+      "uuid": "c0592c8f-f560-4fc4-ba72-e76e0e509d94",
+      "net": "PC15"
+    },
+    {
+      "uuid": "e5a05408-fe23-495d-ae3a-23f149030d1d",
+      "net": "PC15"
+    },
+    {
+      "uuid": "ecb94bb1-2958-4e22-8c18-3d077febdef8",
+      "net": "PC15"
+    },
+    {
+      "uuid": "fab355c1-ba2e-4ce0-b784-82ec0b35f9f8",
+      "net": "PC15"
+    }
+  ],
+  "escapes": [
+    {
+      "net": "GND",
+      "points": [
+        [
+          115.25,
+          124.25
+        ],
+        [
+          115.25,
+          125.65
+        ]
+      ],
+      "via": [
+        115.25,
+        125.65
+      ]
+    }
+  ]
+}

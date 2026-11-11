@@ -1,0 +1,7 @@
+{
+  "controller/hardware/g431_core/controller.kicad_sch": "144bfe4602f50e1c35f447b42cec397e454a0063a16bd51e1339b514f81a0fd5",
+  "controller/hardware/g431_core/controller.kicad_pcb": "00ff41b76c650b255ecb764b31ca10304ceb86030d61b25ac067c998bb4bf07c",
+  "controller/hardware/g431_core/STM32G431RBT6_pin_plan.csv": "964f0d8fadee55cea60fae64154bebc7dd9bb3412ffc79325668bcffb75d17dc",
+  "inverter/hardware/inverter.kicad_sch": "0db30c67b5441b0d07c2a1268779398d794c88211bb3e86370a5e3c42af316d1",
+  "inverter/hardware/inverter.kicad_pcb": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792"
+}

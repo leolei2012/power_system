@@ -1,0 +1,2485 @@
+{
+  "stage": "Isolated placement proposal; merge coordinate records only, then regenerate critical copper and rerun DRC.",
+  "source": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\work\\inverter.kicad_pcb",
+  "source_sha256_before": "8b2e6a4b290481e53d78c2e9c2b3daa6679fd4209732df5fc7a4b69aebe4ceb6",
+  "source_sha256_after": "8b2e6a4b290481e53d78c2e9c2b3daa6679fd4209732df5fc7a4b69aebe4ceb6",
+  "source_unchanged": true,
+  "locked_copper_checkpoint": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\power\\inverter.kicad_pcb",
+  "locked_copper_sha256": "d88db7b4e1398020f86c54d1a5d1328cc3046182666d651f5d30ce3a4d9066bc",
+  "placements": {
+    "C4": {
+      "x": 127.0,
+      "y": 142.1,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          134.0,
+          139.9
+        ],
+        "rotation_deg": 90.0,
+        "side": "B"
+      }
+    },
+    "C5": {
+      "x": 121.6,
+      "y": 139.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          115.7,
+          130.4
+        ],
+        "rotation_deg": 180.0,
+        "side": "B"
+      }
+    },
+    "C12": {
+      "x": 113.5,
+      "y": 148.9,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          115.8,
+          157.0
+        ],
+        "rotation_deg": 180.0,
+        "side": "B"
+      }
+    },
+    "C3": {
+      "x": 123.8,
+      "y": 142.3,
+      "rotation_deg": 180,
+      "side": "F",
+      "before": {
+        "xy": [
+          124.8,
+          141.9
+        ],
+        "rotation_deg": 0.0,
+        "side": "F"
+      }
+    },
+    "C8": {
+      "x": 124.4,
+      "y": 145.9,
+      "rotation_deg": -90,
+      "side": "F",
+      "before": {
+        "xy": [
+          124.4,
+          145.6
+        ],
+        "rotation_deg": -90.0,
+        "side": "F"
+      }
+    },
+    "C2": {
+      "x": 124.4,
+      "y": 149.1,
+      "rotation_deg": 180,
+      "side": "F",
+      "before": {
+        "xy": [
+          124.4,
+          148.9
+        ],
+        "rotation_deg": 180.0,
+        "side": "F"
+      }
+    },
+    "C7": {
+      "x": 125.8,
+      "y": 139.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "before": {
+        "xy": [
+          125.6,
+          139.5
+        ],
+        "rotation_deg": 180.0,
+        "side": "F"
+      }
+    },
+    "R65": {
+      "x": 123.2,
+      "y": 137.9,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          123.0,
+          137.9
+        ],
+        "rotation_deg": 90.0,
+        "side": "F"
+      }
+    },
+    "R71": {
+      "x": 134.0,
+      "y": 139.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          121.8,
+          141.3
+        ],
+        "rotation_deg": 90.0,
+        "side": "F"
+      }
+    },
+    "R72": {
+      "x": 134.0,
+      "y": 140.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          121.5,
+          138.9
+        ],
+        "rotation_deg": 90.0,
+        "side": "F"
+      }
+    },
+    "R1": {
+      "x": 113.9,
+      "y": 156.4,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          113.5,
+          148.25
+        ],
+        "rotation_deg": -90.0,
+        "side": "F"
+      }
+    },
+    "R3": {
+      "x": 113.9,
+      "y": 154.8,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          113.9,
+          155.0
+        ],
+        "rotation_deg": 0.0,
+        "side": "B"
+      }
+    }
+  },
+  "geometry": {
+    "outline_pass": true,
+    "outline_bbox_mm": [
+      100.0,
+      100.0,
+      160.0,
+      160.0
+    ],
+    "copper_layers": 6,
+    "mounting_holes": [
+      {
+        "reference": "H1",
+        "position_mm": [
+          104.0,
+          104.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H2",
+        "position_mm": [
+          156.0,
+          104.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H3",
+        "position_mm": [
+          104.0,
+          156.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H4",
+        "position_mm": [
+          156.0,
+          156.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      }
+    ],
+    "mounting_copper_keepout_radius_mm": 2.8,
+    "mounting_copper_intrusions": [],
+    "unfilled_copper_zones": [],
+    "mounting_hardware_courtyard_review": [],
+    "courtyard_missing": [],
+    "courtyard_outside_board": [],
+    "courtyard_overlaps": [],
+    "core_buttons": [],
+    "upper_board_button_access_obstacles": [
+      {
+        "reference": "J5",
+        "bbox": [
+          121.755,
+          153.905,
+          133.295,
+          159.495
+        ],
+        "connector": true
+      },
+      {
+        "reference": "C76",
+        "bbox": [
+          145.389,
+          153.304,
+          146.399,
+          155.214
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C23",
+        "bbox": [
+          127.674999,
+          151.225,
+          130.724999,
+          152.775
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R1",
+        "bbox": [
+          112.375,
+          155.625,
+          115.425,
+          157.175
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R35",
+        "bbox": [
+          138.127,
+          152.853,
+          141.177,
+          154.403
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C73",
+        "bbox": [
+          132.595,
+          151.445,
+          133.605,
+          153.355
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C74",
+        "bbox": [
+          116.145,
+          157.995,
+          118.055,
+          159.005
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U20",
+        "bbox": [
+          133.705,
+          150.575,
+          137.295,
+          157.025
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C60",
+        "bbox": [
+          142.091,
+          151.462,
+          144.001,
+          152.472
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U9",
+        "bbox": [
+          144.255,
+          147.755,
+          151.745,
+          153.245
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C14",
+        "bbox": [
+          117.405,
+          151.455,
+          119.795,
+          156.145
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C59",
+        "bbox": [
+          119.895,
+          156.145,
+          120.905,
+          158.055
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R133",
+        "bbox": [
+          117.525,
+          156.285,
+          119.475,
+          157.315
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R16",
+        "bbox": [
+          133.975,
+          157.125,
+          137.025,
+          158.675
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C48",
+        "bbox": [
+          130.995,
+          151.345,
+          132.005,
+          153.255
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C13",
+        "bbox": [
+          119.955,
+          151.405,
+          124.645,
+          153.795
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R3",
+        "bbox": [
+          112.375,
+          154.025,
+          115.425,
+          155.575
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U29",
+        "bbox": [
+          139.905,
+          154.455,
+          144.095,
+          157.945
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C33",
+        "bbox": [
+          139.305,
+          147.52,
+          141.695,
+          152.21
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R132",
+        "bbox": [
+          119.885,
+          153.925,
+          120.915,
+          155.875
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R91",
+        "bbox": [
+          115.985,
+          154.125,
+          117.015,
+          156.075
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R18",
+        "bbox": [
+          137.525,
+          156.275,
+          139.075,
+          159.325
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C49",
+        "bbox": [
+          118.395,
+          157.545,
+          119.405,
+          159.455
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C11",
+        "bbox": [
+          112.455,
+          151.605,
+          117.145,
+          153.995
+        ],
+        "connector": false
+      }
+    ]
+  },
+  "physical_mapping_pass": true,
+  "pad_distances": [
+    {
+      "from": "C3.1",
+      "to": "U2.4",
+      "purpose": "input capacitor to VINP",
+      "before_mm": 2.1671,
+      "after_mm": 0.2574,
+      "from_XY_mm": [
+        125.275,
+        142.3
+      ],
+      "to_XY_mm": [
+        125.4,
+        142.525
+      ]
+    },
+    {
+      "from": "C3.2",
+      "to": "U2.1",
+      "purpose": "input capacitor power return",
+      "before_mm": 1.5878,
+      "after_mm": 3.5258,
+      "from_XY_mm": [
+        122.325,
+        142.3
+      ],
+      "to_XY_mm": [
+        125.4,
+        140.575
+      ]
+    },
+    {
+      "from": "C6.1",
+      "to": "U2.4",
+      "purpose": "input capacitor to VINP",
+      "before_mm": 5.5318,
+      "after_mm": 5.5318,
+      "from_XY_mm": [
+        119.875,
+        142.8
+      ],
+      "to_XY_mm": [
+        125.4,
+        142.525
+      ]
+    },
+    {
+      "from": "C6.2",
+      "to": "U2.1",
+      "purpose": "input capacitor power return",
+      "before_mm": 8.7622,
+      "after_mm": 8.7622,
+      "from_XY_mm": [
+        116.925,
+        142.8
+      ],
+      "to_XY_mm": [
+        125.4,
+        140.575
+      ]
+    },
+    {
+      "from": "C7.1",
+      "to": "U2.4",
+      "purpose": "input capacitor to VINP",
+      "before_mm": 3.2362,
+      "after_mm": 3.3126,
+      "from_XY_mm": [
+        126.75,
+        139.5
+      ],
+      "to_XY_mm": [
+        125.4,
+        142.525
+      ]
+    },
+    {
+      "from": "C7.2",
+      "to": "U2.1",
+      "purpose": "input capacitor power return",
+      "before_mm": 1.3108,
+      "after_mm": 1.2075,
+      "from_XY_mm": [
+        124.85,
+        139.5
+      ],
+      "to_XY_mm": [
+        125.4,
+        140.575
+      ]
+    },
+    {
+      "from": "U2.2",
+      "to": "L1.1",
+      "purpose": "switch node L1 to inductor end",
+      "before_mm": 5.9893,
+      "after_mm": 5.9893,
+      "from_XY_mm": [
+        125.4,
+        141.225
+      ],
+      "to_XY_mm": [
+        124.525,
+        135.3
+      ]
+    },
+    {
+      "from": "U2.20",
+      "to": "L1.2",
+      "purpose": "switch node L2 to inductor end",
+      "before_mm": 5.3936,
+      "after_mm": 5.3936,
+      "from_XY_mm": [
+        119.6,
+        140.575
+      ],
+      "to_XY_mm": [
+        118.475,
+        135.3
+      ]
+    },
+    {
+      "from": "C4.1",
+      "to": "U2.3",
+      "purpose": "bootstrap capacitor positive",
+      "before_mm": 8.6833,
+      "after_mm": 1.8868,
+      "from_XY_mm": [
+        127.0,
+        142.875
+      ],
+      "to_XY_mm": [
+        125.4,
+        141.875
+      ]
+    },
+    {
+      "from": "C4.2",
+      "to": "U2.2",
+      "purpose": "bootstrap capacitor switch return",
+      "before_mm": 8.8527,
+      "after_mm": 1.6031,
+      "from_XY_mm": [
+        127.0,
+        141.325
+      ],
+      "to_XY_mm": [
+        125.4,
+        141.225
+      ]
+    },
+    {
+      "from": "C5.1",
+      "to": "U2.19",
+      "purpose": "bootstrap capacitor positive",
+      "before_mm": 11.267,
+      "after_mm": 2.2142,
+      "from_XY_mm": [
+        121.6,
+        140.275
+      ],
+      "to_XY_mm": [
+        119.6,
+        141.225
+      ]
+    },
+    {
+      "from": "C5.2",
+      "to": "U2.20",
+      "purpose": "bootstrap capacitor switch return",
+      "before_mm": 11.1976,
+      "after_mm": 2.7244,
+      "from_XY_mm": [
+        121.6,
+        138.725
+      ],
+      "to_XY_mm": [
+        119.6,
+        140.575
+      ]
+    },
+    {
+      "from": "C8.1",
+      "to": "U2.17",
+      "purpose": "output capacitor positive to VOUT",
+      "before_mm": 5.0596,
+      "after_mm": 5.1624,
+      "from_XY_mm": [
+        124.4,
+        144.425
+      ],
+      "to_XY_mm": [
+        119.6,
+        142.525
+      ]
+    },
+    {
+      "from": "C8.2",
+      "to": "U2.21",
+      "purpose": "output capacitor power return",
+      "before_mm": 4.0485,
+      "after_mm": 4.3157,
+      "from_XY_mm": [
+        124.4,
+        147.375
+      ],
+      "to_XY_mm": [
+        122.5,
+        143.5
+      ]
+    },
+    {
+      "from": "U2.16",
+      "to": "C8.1",
+      "purpose": "quiet output sense to output capacitor",
+      "before_mm": 4.8931,
+      "after_mm": 4.9601,
+      "from_XY_mm": [
+        119.6,
+        143.175
+      ],
+      "to_XY_mm": [
+        124.4,
+        144.425
+      ]
+    },
+    {
+      "from": "C9.1",
+      "to": "U2.17",
+      "purpose": "output capacitor positive to VOUT",
+      "before_mm": 11.7655,
+      "after_mm": 11.7655,
+      "from_XY_mm": [
+        120.575,
+        130.8
+      ],
+      "to_XY_mm": [
+        119.6,
+        142.525
+      ]
+    },
+    {
+      "from": "C9.2",
+      "to": "U2.21",
+      "purpose": "output capacitor power return",
+      "before_mm": 13.1668,
+      "after_mm": 13.1668,
+      "from_XY_mm": [
+        119.025,
+        130.8
+      ],
+      "to_XY_mm": [
+        122.5,
+        143.5
+      ]
+    },
+    {
+      "from": "U2.16",
+      "to": "C9.1",
+      "purpose": "quiet output sense to output capacitor",
+      "before_mm": 12.4133,
+      "after_mm": 12.4133,
+      "from_XY_mm": [
+        119.6,
+        143.175
+      ],
+      "to_XY_mm": [
+        120.575,
+        130.8
+      ]
+    },
+    {
+      "from": "C10.1",
+      "to": "U2.12",
+      "purpose": "internal VREG local bypass",
+      "before_mm": 3.8966,
+      "after_mm": 3.8966,
+      "from_XY_mm": [
+        116.55,
+        148.2
+      ],
+      "to_XY_mm": [
+        119.6,
+        145.775
+      ]
+    },
+    {
+      "from": "C10.2",
+      "to": "U2.13",
+      "purpose": "internal VREG bypass ground",
+      "before_mm": 3.283,
+      "after_mm": 3.283,
+      "from_XY_mm": [
+        118.45,
+        148.2
+      ],
+      "to_XY_mm": [
+        119.6,
+        145.125
+      ]
+    },
+    {
+      "from": "C11.1",
+      "to": "U3.3",
+      "purpose": "input capacitor to VIN",
+      "before_mm": 4.6173,
+      "after_mm": 4.6173,
+      "from_XY_mm": [
+        116.275,
+        152.8
+      ],
+      "to_XY_mm": [
+        112.25,
+        150.5375
+      ]
+    },
+    {
+      "from": "C11.2",
+      "to": "U3.4",
+      "purpose": "input capacitor to local GND",
+      "before_mm": 4.6631,
+      "after_mm": 4.6631,
+      "from_XY_mm": [
+        113.325,
+        152.8
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ]
+    },
+    {
+      "from": "U3.5",
+      "to": "L2.1",
+      "purpose": "switch node to inductor input",
+      "before_mm": 5.7037,
+      "after_mm": 5.7037,
+      "from_XY_mm": [
+        113.2,
+        148.2625
+      ],
+      "to_XY_mm": [
+        110.775,
+        143.1
+      ]
+    },
+    {
+      "from": "C12.1",
+      "to": "U3.6",
+      "purpose": "bootstrap positive to BST",
+      "before_mm": 9.0678,
+      "after_mm": 1.5549,
+      "from_XY_mm": [
+        113.5,
+        149.675
+      ],
+      "to_XY_mm": [
+        114.15,
+        148.2625
+      ]
+    },
+    {
+      "from": "C12.2",
+      "to": "U3.5",
+      "purpose": "bootstrap return to SW",
+      "before_mm": 8.9261,
+      "after_mm": 0.33,
+      "from_XY_mm": [
+        113.5,
+        148.125
+      ],
+      "to_XY_mm": [
+        113.2,
+        148.2625
+      ]
+    },
+    {
+      "from": "L2.2",
+      "to": "C13.1",
+      "purpose": "inductor output to output capacitor",
+      "before_mm": 10.3078,
+      "after_mm": 10.3078,
+      "from_XY_mm": [
+        116.825,
+        143.1
+      ],
+      "to_XY_mm": [
+        120.825,
+        152.6
+      ]
+    },
+    {
+      "from": "C13.2",
+      "to": "U3.4",
+      "purpose": "output capacitor return to local GND",
+      "before_mm": 12.3142,
+      "after_mm": 12.3142,
+      "from_XY_mm": [
+        123.775,
+        152.6
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ]
+    },
+    {
+      "from": "U3.1",
+      "to": "C13.1",
+      "purpose": "quiet FB sense to output capacitor",
+      "before_mm": 6.9864,
+      "after_mm": 6.9864,
+      "from_XY_mm": [
+        114.15,
+        150.5375
+      ],
+      "to_XY_mm": [
+        120.825,
+        152.6
+      ]
+    },
+    {
+      "from": "L2.2",
+      "to": "C14.1",
+      "purpose": "inductor output to output capacitor",
+      "before_mm": 9.3942,
+      "after_mm": 9.3942,
+      "from_XY_mm": [
+        116.825,
+        143.1
+      ],
+      "to_XY_mm": [
+        118.6,
+        152.325
+      ]
+    },
+    {
+      "from": "C14.2",
+      "to": "U3.4",
+      "purpose": "output capacitor return to local GND",
+      "before_mm": 9.4603,
+      "after_mm": 9.4603,
+      "from_XY_mm": [
+        118.6,
+        155.275
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ]
+    },
+    {
+      "from": "U3.1",
+      "to": "C14.1",
+      "purpose": "quiet FB sense to output capacitor",
+      "before_mm": 4.7956,
+      "after_mm": 4.7956,
+      "from_XY_mm": [
+        114.15,
+        150.5375
+      ],
+      "to_XY_mm": [
+        118.6,
+        152.325
+      ]
+    },
+    {
+      "from": "L2.2",
+      "to": "C15.1",
+      "purpose": "inductor output to output capacitor",
+      "before_mm": 14.925,
+      "after_mm": 14.925,
+      "from_XY_mm": [
+        116.825,
+        143.1
+      ],
+      "to_XY_mm": [
+        101.9,
+        143.125
+      ]
+    },
+    {
+      "from": "C15.2",
+      "to": "U3.4",
+      "purpose": "output capacitor return to local GND",
+      "before_mm": 10.9541,
+      "after_mm": 10.9541,
+      "from_XY_mm": [
+        101.9,
+        144.675
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ]
+    },
+    {
+      "from": "U3.1",
+      "to": "C15.1",
+      "purpose": "quiet FB sense to output capacitor",
+      "before_mm": 14.3181,
+      "after_mm": 14.3181,
+      "from_XY_mm": [
+        114.15,
+        150.5375
+      ],
+      "to_XY_mm": [
+        101.9,
+        143.125
+      ]
+    }
+  ],
+  "locked_track_intrusions": [
+    {
+      "reference": "C4",
+      "pad": "1",
+      "net": "/Driver supply/BB_BST1",
+      "locked_track_net": "+12V_DRV",
+      "track_uuid": "31c02c3b-25b4-4073-93f0-ea255359c290",
+      "layer": "F.Cu"
+    },
+    {
+      "reference": "C4",
+      "pad": "1",
+      "net": "/Driver supply/BB_BST1",
+      "locked_track_net": "+12V_DRV",
+      "track_uuid": "1d917787-dea9-47d9-8044-44799bc7f104",
+      "layer": "F.Cu"
+    },
+    {
+      "reference": "C4",
+      "pad": "2",
+      "net": "/Driver supply/BB_L1",
+      "locked_track_net": "GND",
+      "track_uuid": "b449f66b-d77d-4468-bd76-182dcc4eabd5",
+      "layer": "F.Cu"
+    },
+    {
+      "reference": "C4",
+      "pad": "2",
+      "net": "/Driver supply/BB_L1",
+      "locked_track_net": "GND",
+      "track_uuid": "7ba27244-c684-4c4c-9cd9-ac83068bd1d8",
+      "layer": "F.Cu"
+    }
+  ],
+  "native_DRC": {
+    "path": "outputs\\pcb_review_2026-11-11\\aux_placement_proposal_drc.json",
+    "exit_code": 0,
+    "error_count": 0,
+    "error_types": {},
+    "violations": [
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C19",
+            "pos": {
+              "x": 113.0,
+              "y": 108.0
+            },
+            "uuid": "02b8f93c-f952-4f58-b452-9ba29b7a45f9"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 SW1",
+            "pos": {
+              "x": 119.9,
+              "y": 155.0
+            },
+            "uuid": "032a09ca-e025-4135-a457-56a6ee8f79cd"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U14",
+            "pos": {
+              "x": 133.9,
+              "y": 117.1
+            },
+            "uuid": "038fcb8b-4717-4872-a531-615f95354fe7"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J2",
+            "pos": {
+              "x": 109.5,
+              "y": 152.7
+            },
+            "uuid": "085c2d7a-e07c-49ca-8e7b-02648a88501f"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J7",
+            "pos": {
+              "x": 125.6,
+              "y": 152.5
+            },
+            "uuid": "11ddd768-9704-4ebe-9313-057b73b2cf42"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 RS3",
+            "pos": {
+              "x": 150.0,
+              "y": 154.9
+            },
+            "uuid": "157eb8ef-3909-46d4-9cf2-9b167bbd74ff"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C51",
+            "pos": {
+              "x": 138.5,
+              "y": 125.4
+            },
+            "uuid": "1f0a2b4a-acd5-4cdb-bf3d-e57feae24af3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q4",
+            "pos": {
+              "x": 150.0,
+              "y": 132.4
+            },
+            "uuid": "23fc3f12-c6ca-4221-b062-23bafefad13f"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J14",
+            "pos": {
+              "x": 129.699999,
+              "y": 102.3
+            },
+            "uuid": "29b6c863-c804-4cbb-9dc8-78661c541fc3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C36",
+            "pos": {
+              "x": 146.0,
+              "y": 152.8
+            },
+            "uuid": "41d48148-8115-4d40-a042-f2ded2421ad9"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 F2",
+            "pos": {
+              "x": 110.5,
+              "y": 146.5
+            },
+            "uuid": "43f03e62-230a-46de-8e7c-26edfeeb4171"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J8",
+            "pos": {
+              "x": 134.0,
+              "y": 126.6
+            },
+            "uuid": "446733e7-f9e1-4481-a6fb-76a9c61e1c52"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'Inverter_Compact'",
+        "items": [
+          {
+            "description": "封装 J5",
+            "pos": {
+              "x": 124.5,
+              "y": 156.7
+            },
+            "uuid": "5d4997f1-0076-4bf6-bcc6-7c7fcd7cccfd"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q6",
+            "pos": {
+              "x": 150.0,
+              "y": 147.4
+            },
+            "uuid": "6dc36da4-b2cf-4fb2-9f81-d381cfa41124"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C21",
+            "pos": {
+              "x": 140.5,
+              "y": 122.7
+            },
+            "uuid": "70bfbce8-3bc1-4544-8a28-f716ca9f1dc3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J13",
+            "pos": {
+              "x": 108.0,
+              "y": 158.0
+            },
+            "uuid": "72582049-d302-4d73-94f6-a3f2f635d419"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U22",
+            "pos": {
+              "x": 112.2,
+              "y": 130.1
+            },
+            "uuid": "7939e1d4-1e41-41f1-bd19-410745b4e556"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C4",
+            "pos": {
+              "x": 127.0,
+              "y": 142.1
+            },
+            "uuid": "797e42e7-d864-4cf8-a4c8-de75c86fce14"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q7",
+            "pos": {
+              "x": 137.2,
+              "y": 153.5
+            },
+            "uuid": "7acf04d2-74a4-4706-b1f3-4b0c2f76a75d"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C5",
+            "pos": {
+              "x": 121.6,
+              "y": 139.5
+            },
+            "uuid": "7b6bb6e1-c20a-4378-b219-50a1c24c44f5"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C52",
+            "pos": {
+              "x": 138.5,
+              "y": 140.4
+            },
+            "uuid": "86528608-6510-47a7-aea3-60955e1b34af"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q1",
+            "pos": {
+              "x": 141.1,
+              "y": 117.4
+            },
+            "uuid": "8a8b1186-f324-4d0d-acd3-e1a82b09b361"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U25",
+            "pos": {
+              "x": 125.3,
+              "y": 105.0
+            },
+            "uuid": "9814535b-ee70-4952-89ac-69a367085fb8"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 RS2",
+            "pos": {
+              "x": 151.5,
+              "y": 139.9
+            },
+            "uuid": "9d4e8f36-c563-4a95-856e-51c5c338b08e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C53",
+            "pos": {
+              "x": 141.9,
+              "y": 154.6
+            },
+            "uuid": "a1c90de1-9924-4217-adf9-272cbc7e270e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C12",
+            "pos": {
+              "x": 113.5,
+              "y": 148.9
+            },
+            "uuid": "abb31d2a-3570-44e4-a829-ab253c4012e3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U23",
+            "pos": {
+              "x": 119.0,
+              "y": 124.3
+            },
+            "uuid": "ade4a4de-8e7a-455a-b447-1358a2983535"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U28",
+            "pos": {
+              "x": 116.1,
+              "y": 136.8
+            },
+            "uuid": "b11b19cc-987a-4b47-9d58-17062a21b9d1"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U24",
+            "pos": {
+              "x": 123.4,
+              "y": 130.199999
+            },
+            "uuid": "b23c3f86-3d89-4b80-8da2-c7ac13a36f17"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 RS1",
+            "pos": {
+              "x": 151.5,
+              "y": 124.9
+            },
+            "uuid": "bb17d356-7d86-41c6-a515-27e9a855f26e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U15",
+            "pos": {
+              "x": 133.9,
+              "y": 122.0
+            },
+            "uuid": "be65ed33-b734-4c14-8bf0-a79a884fb9f6"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q3",
+            "pos": {
+              "x": 141.1,
+              "y": 132.4
+            },
+            "uuid": "bf266e1a-97f9-44d5-a9f2-c82dffdad3bd"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U17",
+            "pos": {
+              "x": 125.9,
+              "y": 137.2
+            },
+            "uuid": "c37d62e9-f1f7-40dd-851e-5427e0039f61"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U26",
+            "pos": {
+              "x": 132.3,
+              "y": 106.7
+            },
+            "uuid": "c4c829a4-9811-41e2-9cd5-b8e9f33c7dd1"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J15",
+            "pos": {
+              "x": 155.6,
+              "y": 108.4
+            },
+            "uuid": "c7af522b-d240-43f2-819e-729c0e72f10a"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q8",
+            "pos": {
+              "x": 125.0,
+              "y": 123.5
+            },
+            "uuid": "ccf728f1-d489-4b49-ba54-6d58c8fc7791"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U16",
+            "pos": {
+              "x": 134.1,
+              "y": 129.5
+            },
+            "uuid": "cdd61336-676e-4bb0-8ced-fe01393e3b5e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C22",
+            "pos": {
+              "x": 140.5,
+              "y": 137.7
+            },
+            "uuid": "cf0eccf9-ec54-42f5-8e4d-7bea65e5c195"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U13",
+            "pos": {
+              "x": 122.3,
+              "y": 116.4
+            },
+            "uuid": "d1fd1033-6826-4401-8270-5d5f2822d385"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 F1",
+            "pos": {
+              "x": 118.7,
+              "y": 119.5
+            },
+            "uuid": "d515ae16-f644-4266-83be-699663b56162"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J10",
+            "pos": {
+              "x": 102.0,
+              "y": 113.2
+            },
+            "uuid": "d5daf3f4-8efb-4483-b1d9-b6a0eac51dfa"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q5",
+            "pos": {
+              "x": 141.1,
+              "y": 147.4
+            },
+            "uuid": "d68139c4-dbe8-46d9-8da7-e71b34b42ad4"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C20",
+            "pos": {
+              "x": 142.9,
+              "y": 107.4
+            },
+            "uuid": "d7386089-5e56-473e-a3ab-cdae9e1815a6"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J12",
+            "pos": {
+              "x": 102.0,
+              "y": 129.6
+            },
+            "uuid": "db9027e3-150b-4801-8db1-2e7e38d7608b"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'Inverter_Compact'",
+        "items": [
+          {
+            "description": "封装 J4",
+            "pos": {
+              "x": 156.7,
+              "y": 117.7
+            },
+            "uuid": "dead6f2d-d58c-4c28-8f92-90c443513474"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U1",
+            "pos": {
+              "x": 118.4,
+              "y": 147.0
+            },
+            "uuid": "e22cbf7b-be02-4fc8-8c59-b20c25a4fdf6"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U21",
+            "pos": {
+              "x": 134.1,
+              "y": 137.2
+            },
+            "uuid": "e7f639b7-751b-4123-9467-54a8076c0a1c"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J11",
+            "pos": {
+              "x": 102.3,
+              "y": 138.2
+            },
+            "uuid": "f243953a-3fcf-4e4f-94df-3f121a885e07"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 Q2",
+            "pos": {
+              "x": 150.0,
+              "y": 117.4
+            },
+            "uuid": "f2c5f16a-54a1-4a32-912b-9093ef2d5537"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J9",
+            "pos": {
+              "x": 102.0,
+              "y": 120.7
+            },
+            "uuid": "f5206af5-d1aa-4baf-81f5-2da98f692494"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'Inverter_Compact'",
+        "items": [
+          {
+            "description": "封装 J3",
+            "pos": {
+              "x": 111.9,
+              "y": 118.1
+            },
+            "uuid": "fafd43cd-3a38-4f7c-82ee-b46c1fa860c3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D202",
+            "pos": {
+              "x": 118.6,
+              "y": 117.5
+            },
+            "uuid": "083bf5e0-2a9a-4ee8-9a0a-24cf48f42317"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D205",
+            "pos": {
+              "x": 116.5,
+              "y": 126.0
+            },
+            "uuid": "0d9beccd-588e-4826-bb15-55161db24297"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C30",
+            "pos": {
+              "x": 143.3,
+              "y": 134.865
+            },
+            "uuid": "0f8a6cc9-9a19-49d4-bf3e-dc15f367069f"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 L1",
+            "pos": {
+              "x": 121.5,
+              "y": 135.3
+            },
+            "uuid": "2a887666-0c8b-44f4-b229-c166394772ea"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D209",
+            "pos": {
+              "x": 118.7,
+              "y": 113.8
+            },
+            "uuid": "2af325cb-f7a0-4fed-a400-2017cf129d04"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U3",
+            "pos": {
+              "x": 113.2,
+              "y": 149.4
+            },
+            "uuid": "2b992ad5-976c-4d92-8553-f7d12fab584d"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U20",
+            "pos": {
+              "x": 135.5,
+              "y": 153.8
+            },
+            "uuid": "30854622-3848-4c7b-b98e-1c8afdf4f6d3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 L2",
+            "pos": {
+              "x": 113.8,
+              "y": 143.1
+            },
+            "uuid": "3177db7e-4e0d-4f88-b5c9-e1c514e95e51"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J101",
+            "pos": {
+              "x": 104.73,
+              "y": 110.95
+            },
+            "uuid": "343d3763-c6ff-44df-a8b8-b3f4b7c4526c"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U9",
+            "pos": {
+              "x": 148.0,
+              "y": 150.5
+            },
+            "uuid": "3cb9e90c-d67c-48d5-86fa-d4b63c8cb6a5"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U18",
+            "pos": {
+              "x": 138.5,
+              "y": 125.2
+            },
+            "uuid": "4f3126aa-ea45-466b-888f-730f0f501346"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U6",
+            "pos": {
+              "x": 111.9,
+              "y": 113.4
+            },
+            "uuid": "4f388bf7-5e1c-46fa-9b46-426963a8f82c"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D207",
+            "pos": {
+              "x": 121.6,
+              "y": 126.8
+            },
+            "uuid": "5648eef3-459b-4ea0-911d-6496c1d0504e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C39",
+            "pos": {
+              "x": 152.4,
+              "y": 156.2
+            },
+            "uuid": "568680cd-4135-419c-b733-dd8332d96421"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 J102",
+            "pos": {
+              "x": 128.729999,
+              "y": 110.95
+            },
+            "uuid": "5c720ca7-84db-4fe5-98a0-298c2c9ee8b7"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U4",
+            "pos": {
+              "x": 111.1,
+              "y": 136.8
+            },
+            "uuid": "5cebe94b-89f6-4f5e-aef2-42dc2da5d4ea"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U5",
+            "pos": {
+              "x": 115.2,
+              "y": 135.7
+            },
+            "uuid": "5e5d7406-5421-450d-9926-91bc6383db94"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U27",
+            "pos": {
+              "x": 111.4,
+              "y": 103.4
+            },
+            "uuid": "70ab7341-67c5-4104-9f25-d795b8997d46"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U7",
+            "pos": {
+              "x": 148.0,
+              "y": 120.5
+            },
+            "uuid": "71ed313d-0a32-410d-a974-c6c7d11221b9"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C24",
+            "pos": {
+              "x": 125.8,
+              "y": 148.8
+            },
+            "uuid": "72525324-d53c-4600-b997-851bf4a4c556"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U8",
+            "pos": {
+              "x": 148.0,
+              "y": 135.5
+            },
+            "uuid": "76be406e-bb0b-45fc-895c-772d673864a8"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C37",
+            "pos": {
+              "x": 151.5,
+              "y": 125.4
+            },
+            "uuid": "773c0b49-cf22-4dcc-bf62-44dc6670380a"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C34",
+            "pos": {
+              "x": 143.3,
+              "y": 149.865
+            },
+            "uuid": "78ca642e-5f8c-4e6e-aa07-b6d2abde3e7a"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D2",
+            "pos": {
+              "x": 138.4,
+              "y": 106.6
+            },
+            "uuid": "7f71dc4b-b0b4-4902-9d3e-d65fc97fade2"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C32",
+            "pos": {
+              "x": 144.0,
+              "y": 139.4
+            },
+            "uuid": "81dae107-f246-487d-a01b-5972191dc2a4"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C38",
+            "pos": {
+              "x": 151.5,
+              "y": 140.4
+            },
+            "uuid": "82d17011-064c-4327-a271-d40fb4cb5aac"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U29",
+            "pos": {
+              "x": 142.0,
+              "y": 156.2
+            },
+            "uuid": "95f2bb49-9c81-4f4c-8d9c-19cfed776fa0"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U19",
+            "pos": {
+              "x": 138.5,
+              "y": 140.2
+            },
+            "uuid": "99c1a2a3-bb18-4828-a056-058b400546dd"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U11",
+            "pos": {
+              "x": 147.7,
+              "y": 140.4
+            },
+            "uuid": "9c814185-c867-41d0-b2cb-da7be56cc601"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U10",
+            "pos": {
+              "x": 147.7,
+              "y": 125.4
+            },
+            "uuid": "a776742b-7b34-45c9-8aea-3b69ae1c9155"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D1",
+            "pos": {
+              "x": 149.1,
+              "y": 112.3
+            },
+            "uuid": "ae6f9c7f-519f-4e28-ab48-bbd1d2e06ef3"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C28",
+            "pos": {
+              "x": 144.0,
+              "y": 124.4
+            },
+            "uuid": "ba96242b-8566-4cb0-a139-6898025234b9"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D208",
+            "pos": {
+              "x": 125.3,
+              "y": 128.5
+            },
+            "uuid": "bc1235cb-e297-49a9-b162-06fac5a21d2b"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U2",
+            "pos": {
+              "x": 122.5,
+              "y": 143.5
+            },
+            "uuid": "d2ad6c3a-6547-4312-b514-3d8fff4b87fb"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D203",
+            "pos": {
+              "x": 122.2,
+              "y": 121.0
+            },
+            "uuid": "d785a248-a6c5-4294-8943-e8c218e7c533"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U12",
+            "pos": {
+              "x": 149.0,
+              "y": 155.4
+            },
+            "uuid": "db853b5c-5e8e-429f-9b45-7c0d744edc47"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D206",
+            "pos": {
+              "x": 112.1,
+              "y": 128.699999
+            },
+            "uuid": "de8cd8b7-ba4b-455a-bead-9f74670acc3a"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C26",
+            "pos": {
+              "x": 143.3,
+              "y": 119.865
+            },
+            "uuid": "e589a6eb-3ce3-4f20-bfff-698137b12e5e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D204",
+            "pos": {
+              "x": 125.1,
+              "y": 124.4
+            },
+            "uuid": "f56444ce-ae86-402f-bb5b-4060d733c272"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D201",
+            "pos": {
+              "x": 116.5,
+              "y": 121.0
+            },
+            "uuid": "f8b17248-1c3f-49fe-bcc6-ed0b6eee20fa"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 D210",
+            "pos": {
+              "x": 124.1,
+              "y": 117.5
+            },
+            "uuid": "fb7c09a4-e7f5-4e92-a19f-bfe659abcd4e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 U31",
+            "pos": {
+              "x": 119.1,
+              "y": 103.3
+            },
+            "uuid": "fe130993-ad75-4fa5-81c8-2dd2b083e65e"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "当前配置中不包含封装库 'MyFootprints'",
+        "items": [
+          {
+            "description": "封装 C9",
+            "pos": {
+              "x": 119.8,
+              "y": 130.8
+            },
+            "uuid": "feac3c85-d938-4bc9-bd7b-f16d369b1669"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_issues"
+      },
+      {
+        "description": "Silkscreen clearance",
+        "items": [
+          {
+            "description": "U23 的 多边形, 位于 F.Silkscreen",
+            "pos": {
+              "x": 116.05,
+              "y": 121.89
+            },
+            "uuid": "33017686-91b3-4869-b0dc-871946e84bfc"
+          },
+          {
+            "description": "F1 的 线段, 位于 F.Silkscreen",
+            "pos": {
+              "x": 115.265,
+              "y": 121.325
+            },
+            "uuid": "7b306af7-9feb-4ba3-b111-ac0b84eef351"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_overlap"
+      }
+    ],
+    "unconnected_count": 499
+  },
+  "notes": [
+    "C4/C5/C12 are F-side opposite B-side controllers; plan two short vias at each local BST/SW pair.",
+    "U2/U3, L1/L2 and both headers are unchanged. Gate/INA critical copper checkpoint is read-only.",
+    "C3 is rotated to put its AUX_PROTECTED positive terminal nearer VIN; C6 input bulk remains unchanged. C7 shifts 0.2 mm; C8 0.3 mm; C2 0.2 mm.",
+    "This candidate carries the latest work placement seed, not the old power checkpoint copper. Owner must merge these coordinates into current work and rebuild critical copper.",
+    "No uniform distance threshold was used; native same-side courtyards, actual pads, through-holes and contract mounting keepouts were checked.",
+    "R65 moves only 0.2 mm, retaining U17 proximity. R71/R72 move near U21 comparator. R1 moves to B(113.9,156.4) and R3 shifts 0.2 mm to B(113.9,154.8); these are low-profile slow eFuse divider parts, not downward connectors; assembled button access remains a height check.",
+    "Native DRC on this no-copper placement candidate is zero errors, including actual THT pad, mask and courtyard checks.",
+    "Four recorded C4 pad intrusions refer to the OLD locked aux C3/C8 return/output routes in the power checkpoint. Those routes must be regenerated with the moved C3/C8 and new C4; do not merge unchanged old copper. Source-shunt and INA Kelvin placements are untouched."
+  ],
+  "candidate_sha256": "3e8300f26d5760bb2dac5848825b3fd8aeeb280d285f0502ef7d930bc8ef35f8"
+}

@@ -1,0 +1,96 @@
+PASS
+{
+  "result": "PASS",
+  "revision": "E-minimum-core-draft",
+  "core_components": 47,
+  "base_components": 317,
+  "core_DNP": 3,
+  "base_DNP": 14,
+  "MCU_package_pins": 64,
+  "MCU_signal_pads_exposed": 52,
+  "MCU_NC": 0,
+  "base_unused_socket_contacts": 9,
+  "logic_truth_cases": 32768,
+  "original_component_records_preserved": 355,
+  "original_physical_pin_partition_nodes": 1061,
+  "intentional_peripheral_supply_rail_changes": [
+    [
+      "R95",
+      "2"
+    ],
+    [
+      "R97",
+      "2"
+    ],
+    [
+      "R99",
+      "2"
+    ],
+    [
+      "R102",
+      "2"
+    ],
+    [
+      "R104",
+      "2"
+    ],
+    [
+      "R106",
+      "2"
+    ],
+    [
+      "R112",
+      "2"
+    ],
+    [
+      "R118",
+      "2"
+    ],
+    [
+      "C82",
+      "1"
+    ],
+    [
+      "R125",
+      "2"
+    ],
+    [
+      "R128",
+      "2"
+    ],
+    [
+      "R131",
+      "1"
+    ],
+    [
+      "R132",
+      "1"
+    ],
+    [
+      "R133",
+      "1"
+    ],
+    [
+      "R134",
+      "1"
+    ],
+    [
+      "U31",
+      "3"
+    ]
+  ],
+  "checks": [
+    "All 52 signal pads appear once on core headers, including special reset/boot/HSE pads",
+    "64 positions match, with explicit nine unused base socket NCs",
+    "Original component value/footprint/DNP preserved except four replaced header parts",
+    "Complete old-pin connectivity partitions preserved except explicit peripheral power transfer and U103 output split",
+    "8 ADC and 2 status paths retain current limiting and core-referenced rail clamps",
+    "NRST Schmitt conditioning and PC7 ARM required before CTRL_READY",
+    "ROM/default ARM LOW blocks all six PWM paths for every enumerated base health/enable/latch state"
+  ],
+  "limits": [
+    "Schematic and static digital checks only, not dynamic/thermal/assembly validation.",
+    "Common-ground interface, power off both boards before insertion/removal; no blown-power-stage immunity guarantee.",
+    "PC7 is reserved for ARM in inverter use; this is not a watchdog."
+  ]
+}

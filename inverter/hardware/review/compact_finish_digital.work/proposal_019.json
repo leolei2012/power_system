@@ -1,0 +1,155 @@
+{
+  "net": "/Hardware latch/HEALTH_CHAIN_2",
+  "paths": [
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_2",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          5.4875,
+          25.6
+        ],
+        [
+          4.9,
+          25.6
+        ],
+        [
+          4.8,
+          25.7
+        ],
+        [
+          4.6,
+          25.7
+        ],
+        [
+          4.4,
+          25.9
+        ],
+        [
+          4.4,
+          26.6
+        ],
+        [
+          4.6,
+          26.8
+        ],
+        [
+          5.2,
+          26.8
+        ],
+        [
+          5.7,
+          27.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_2",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          5.7,
+          27.3
+        ],
+        [
+          5.8,
+          27.3
+        ],
+        [
+          6.4,
+          26.7
+        ],
+        [
+          7.5,
+          26.7
+        ],
+        [
+          7.9,
+          27.1
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_2",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          7.9,
+          27.1
+        ],
+        [
+          8.1,
+          26.9
+        ],
+        [
+          8.2,
+          26.9
+        ],
+        [
+          8.3,
+          26.8
+        ],
+        [
+          8.4,
+          26.8
+        ],
+        [
+          9.2,
+          26.0
+        ],
+        [
+          10.0,
+          26.0
+        ],
+        [
+          10.3,
+          25.7
+        ],
+        [
+          10.9,
+          25.7
+        ],
+        [
+          11.0,
+          25.6
+        ],
+        [
+          11.2125,
+          25.6
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_2",
+      "x": 5.7,
+      "y": 27.3,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_2",
+      "x": 7.9,
+      "y": 27.1,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 7316,
+    "seconds": 2.25,
+    "start_candidates": 12,
+    "goal_candidates": 12
+  }
+}

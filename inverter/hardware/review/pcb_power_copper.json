@@ -1,0 +1,246 @@
+{
+  "status": "initial geometry; DRC and thermal review required",
+  "critical": [
+    {
+      "phase": "U",
+      "source": [
+        119.35,
+        62.54
+      ],
+      "shunt_high": [
+        119.35,
+        68.0375
+      ],
+      "phase_route_mm": [
+        [
+          130.0,
+          66.2
+        ],
+        [
+          137.75,
+          66.2
+        ],
+        [
+          137.75,
+          18
+        ],
+        [
+          194.0,
+          18
+        ],
+        [
+          194.0,
+          44.0
+        ]
+      ],
+      "phase_width_mm": 4,
+      "source_width_mm": 2,
+      "phase_vias_per_transfer": 4,
+      "phase_transfers_in_series": 2
+    },
+    {
+      "phase": "V",
+      "source": [
+        143.35,
+        62.54
+      ],
+      "shunt_high": [
+        143.35,
+        68.0375
+      ],
+      "phase_route_mm": [
+        [
+          154.0,
+          66.2
+        ],
+        [
+          161.75,
+          66.2
+        ],
+        [
+          161.75,
+          37
+        ],
+        [
+          168,
+          37
+        ],
+        [
+          168,
+          23
+        ],
+        [
+          188,
+          23
+        ],
+        [
+          188,
+          53.52
+        ],
+        [
+          194.0,
+          53.52
+        ]
+      ],
+      "phase_width_mm": 4,
+      "source_width_mm": 2,
+      "phase_vias_per_transfer": 4,
+      "phase_transfers_in_series": 2
+    },
+    {
+      "phase": "W",
+      "source": [
+        167.35,
+        62.54
+      ],
+      "shunt_high": [
+        167.35,
+        68.0375
+      ],
+      "phase_route_mm": [
+        [
+          178.0,
+          66.2
+        ],
+        [
+          186,
+          63.04
+        ],
+        [
+          194.0,
+          63.04
+        ]
+      ],
+      "phase_width_mm": 4,
+      "source_width_mm": 2,
+      "phase_vias_per_transfer": 4,
+      "phase_transfers_in_series": 2
+    }
+  ],
+  "kelvin_locked": [
+    {
+      "phase": "U",
+      "positive": [
+        [
+          119.35,
+          68.0375
+        ],
+        [
+          124.22500000000001,
+          68.0375
+        ],
+        [
+          124.22500000000001,
+          69.8625
+        ],
+        [
+          125.025,
+          69.8625
+        ]
+      ],
+      "negative": [
+        [
+          119.35,
+          73.9625
+        ],
+        [
+          120.8,
+          73.9625
+        ],
+        [
+          120.8,
+          72.1375
+        ],
+        [
+          125.025,
+          72.1375
+        ]
+      ],
+      "trace_width_mm": 0.2
+    },
+    {
+      "phase": "V",
+      "positive": [
+        [
+          143.35,
+          68.0375
+        ],
+        [
+          148.225,
+          68.0375
+        ],
+        [
+          148.225,
+          69.8625
+        ],
+        [
+          149.025,
+          69.8625
+        ]
+      ],
+      "negative": [
+        [
+          143.35,
+          73.9625
+        ],
+        [
+          144.79999999999998,
+          73.9625
+        ],
+        [
+          144.79999999999998,
+          72.1375
+        ],
+        [
+          149.025,
+          72.1375
+        ]
+      ],
+      "trace_width_mm": 0.2
+    },
+    {
+      "phase": "W",
+      "positive": [
+        [
+          167.35,
+          68.0375
+        ],
+        [
+          172.225,
+          68.0375
+        ],
+        [
+          172.225,
+          69.8625
+        ],
+        [
+          173.025,
+          69.8625
+        ]
+      ],
+      "negative": [
+        [
+          167.35,
+          73.9625
+        ],
+        [
+          168.79999999999998,
+          73.9625
+        ],
+        [
+          168.79999999999998,
+          72.1375
+        ],
+        [
+          173.025,
+          72.1375
+        ]
+      ],
+      "trace_width_mm": 0.2
+    }
+  ],
+  "outer_copper_target_um": 70,
+  "inner_copper_target_um": 35,
+  "power_output_width_mm": 4,
+  "limits": "Via current sharing, temperature rise, switch loops and emissions are not validated by connectivity checks."
+}

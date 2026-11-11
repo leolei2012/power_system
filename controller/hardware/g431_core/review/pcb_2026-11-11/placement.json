@@ -1,0 +1,786 @@
+{
+  "status": "PLACED REVIEW DRAFT; not yet routed",
+  "physical_schematic_refs": 47,
+  "mechanical_holes": 4,
+  "copper_layers": 4,
+  "size_mm": [
+    60,
+    60
+  ],
+  "board_thickness_mm": 1.6,
+  "copper_weight": "1oz candidate, manufacturing stackup unqualified",
+  "source_xml_sha256": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1",
+  "contract_sha256": "99968e8d0c57a1ebc1e7044d8d8a78a942657538b9e23cd12c6e99be6d74e885",
+  "backup": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\history\\rev_e_before_pcb_2026-11-11.zip",
+  "project_before_sha256": "5f653764eb2ea2d55485ef104f84923874a141b08881f9b6215fd276809db525",
+  "DNP_refs": [
+    "C83",
+    "C84",
+    "Y1"
+  ],
+  "courtyard_collisions": [],
+  "courtyard_outside_board": [],
+  "assembly_layer_only_references": [
+    "U101",
+    "C83"
+  ],
+  "model_instance_path_fixes": [
+    {
+      "ref": "U30",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/LQFP-64_10x10mm_P0.5mm.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/LQFP-64_10x10mm_P0.5mm.step"
+    },
+    {
+      "ref": "C304",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/C_0603_1608Metric.step"
+    },
+    {
+      "ref": "C305",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/CP_EIA-3528-21_Kemet-B.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/CP_EIA-3528-21_Kemet-B.step"
+    },
+    {
+      "ref": "C306",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/C_0603_1608Metric.step"
+    },
+    {
+      "ref": "C307",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/C_0603_1608Metric.step"
+    },
+    {
+      "ref": "D101",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/D_SOD-123F.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/D_SOD-123F.step"
+    },
+    {
+      "ref": "D102",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/D_SMA.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/D_SMA.step"
+    },
+    {
+      "ref": "D103",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/Nexperia_CFP3_SOD-123W.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/Nexperia_CFP3_SOD-123W.step"
+    },
+    {
+      "ref": "R302",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/R_0603_1608Metric.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/R_0603_1608Metric.step"
+    },
+    {
+      "ref": "R303",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/R_0603_1608Metric.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/R_0603_1608Metric.step"
+    },
+    {
+      "ref": "U101",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step"
+    },
+    {
+      "ref": "U102",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-6.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/SOT-23-6.step"
+    },
+    {
+      "ref": "U103",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/SOT-23-5.step"
+    },
+    {
+      "ref": "U104",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/SOT-23.step"
+    },
+    {
+      "ref": "C308",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/C_0603_1608Metric.step"
+    },
+    {
+      "ref": "U105",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/SOT-23-5.step"
+    },
+    {
+      "ref": "J101",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step"
+    },
+    {
+      "ref": "J102",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step",
+      "after": "${KIPRJMOD}/../../../../kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step"
+    }
+  ],
+  "missing_model_files": [],
+  "native_unconnected": 167,
+  "placements": {
+    "C63": {
+      "x": 125.0,
+      "y": 126.4,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        124.495,
+        125.445,
+        125.505,
+        127.355
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C64": {
+      "x": 112.75,
+      "y": 122.15,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        112.245,
+        121.195,
+        113.255,
+        123.105
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C65": {
+      "x": 111.5,
+      "y": 133.75,
+      "angle": 0.0,
+      "side": "B",
+      "courtyard": [
+        110.545,
+        133.245,
+        112.455,
+        134.255
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C66": {
+      "x": 120.25,
+      "y": 137.8,
+      "angle": -90.0,
+      "side": "F",
+      "courtyard": [
+        119.745,
+        136.845,
+        120.755,
+        138.755
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C67": {
+      "x": 121.4,
+      "y": 133.75,
+      "angle": 0.0,
+      "side": "B",
+      "courtyard": [
+        120.445,
+        133.245,
+        122.355,
+        134.255
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C68": {
+      "x": 116.0,
+      "y": 139.2,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        114.475,
+        138.425,
+        117.525,
+        139.975
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "U30": {
+      "x": 116.5,
+      "y": 130.0,
+      "angle": 180.0,
+      "side": "F",
+      "courtyard": [
+        109.755,
+        123.255,
+        123.245,
+        136.745
+      ],
+      "footprint": "MyFootprints:ST_LQFP-64_10x10mm_P0.5mm_Pad1.2x0.3mm"
+    },
+    "C77": {
+      "x": 114.3,
+      "y": 122.15,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        113.795,
+        121.195,
+        114.805,
+        123.105
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C78": {
+      "x": 113.8,
+      "y": 119.4,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        112.275,
+        118.625,
+        115.325,
+        120.175
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "C79": {
+      "x": 116.0,
+      "y": 122.15,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        115.495,
+        121.195,
+        116.505,
+        123.105
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C80": {
+      "x": 117.5,
+      "y": 119.4,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        115.975,
+        118.625,
+        119.025,
+        120.175
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "R92": {
+      "x": 113.3,
+      "y": 116.8,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        112.325,
+        116.285,
+        114.275,
+        117.315
+      ],
+      "footprint": "Resistor_SMD:R_0402_1005Metric"
+    },
+    "R93": {
+      "x": 116.9,
+      "y": 116.8,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        115.925,
+        116.285,
+        117.875,
+        117.315
+      ],
+      "footprint": "Resistor_SMD:R_0402_1005Metric"
+    },
+    "C81": {
+      "x": 121.5,
+      "y": 130.75,
+      "angle": 0.0,
+      "side": "B",
+      "courtyard": [
+        120.545,
+        130.245,
+        122.455,
+        131.255
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C83": {
+      "x": 124.7,
+      "y": 128.8,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        123.745,
+        128.295,
+        125.655,
+        129.305
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "C84": {
+      "x": 125.7,
+      "y": 135.4,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        124.745,
+        134.895,
+        126.655,
+        135.905
+      ],
+      "footprint": "Capacitor_SMD:C_0402_1005Metric"
+    },
+    "R122": {
+      "x": 118.75,
+      "y": 135.3,
+      "angle": 90.0,
+      "side": "B",
+      "courtyard": [
+        118.235,
+        134.325,
+        119.265,
+        136.275
+      ],
+      "footprint": "Resistor_SMD:R_0402_1005Metric"
+    },
+    "R401": {
+      "x": 146.2,
+      "y": 154.5,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        145.425,
+        152.975,
+        146.975,
+        156.025
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "SW2": {
+      "x": 119.0,
+      "y": 156.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        114.405,
+        154.255,
+        123.595,
+        158.745
+      ],
+      "footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm"
+    },
+    "SW3": {
+      "x": 140.0,
+      "y": 156.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        135.405,
+        154.255,
+        144.595,
+        158.745
+      ],
+      "footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm"
+    },
+    "TP15": {
+      "x": 146.5,
+      "y": 150.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        145.202494,
+        148.70375,
+        147.794998,
+        151.296249
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+    },
+    "Y1": {
+      "x": 125.1,
+      "y": 132.0,
+      "angle": -90.0,
+      "side": "F",
+      "courtyard": [
+        123.305,
+        129.855,
+        126.895,
+        134.145
+      ],
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+    },
+    "C301": {
+      "x": 118.0,
+      "y": 111.3,
+      "angle": 180.0,
+      "side": "F",
+      "courtyard": [
+        116.255,
+        110.275,
+        119.745,
+        112.325
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "C302": {
+      "x": 129.0,
+      "y": 106.65,
+      "angle": 180.0,
+      "side": "F",
+      "courtyard": [
+        127.255,
+        105.625,
+        130.745,
+        107.675
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "C303": {
+      "x": 136.0,
+      "y": 106.65,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        134.255,
+        105.625,
+        137.745,
+        107.675
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "C304": {
+      "x": 136.5,
+      "y": 104.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        134.975,
+        103.225,
+        138.025,
+        104.775
+      ],
+      "footprint": "MyFootprints:C_0603_1608Metric"
+    },
+    "C305": {
+      "x": 122.4,
+      "y": 144.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        119.745,
+        142.705,
+        125.055,
+        146.295
+      ],
+      "footprint": "MyFootprints:KEMET_T491_B_3528_Pad1.80x2.23mm_Gap1.12mm"
+    },
+    "C306": {
+      "x": 140.0,
+      "y": 112.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        138.475,
+        111.725,
+        141.525,
+        113.275
+      ],
+      "footprint": "MyFootprints:C_0603_1608Metric"
+    },
+    "C307": {
+      "x": 141.0,
+      "y": 116.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        139.475,
+        115.725,
+        142.525,
+        117.275
+      ],
+      "footprint": "MyFootprints:C_0603_1608Metric"
+    },
+    "D101": {
+      "x": 114.8,
+      "y": 106.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        112.405,
+        104.755,
+        117.195,
+        107.245
+      ],
+      "footprint": "MyFootprints:MCC_SOD-123FL_Pad0.91x1.22mm_Gap2.36mm"
+    },
+    "D102": {
+      "x": 122.7,
+      "y": 106.7,
+      "angle": 180.0,
+      "side": "F",
+      "courtyard": [
+        119.155,
+        104.905,
+        126.245,
+        108.495
+      ],
+      "footprint": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm"
+    },
+    "D103": {
+      "x": 132.5,
+      "y": 102.7,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        130.205,
+        101.505,
+        134.795,
+        103.895
+      ],
+      "footprint": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
+    },
+    "R301": {
+      "x": 111.2,
+      "y": 108.0,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        110.205,
+        106.275,
+        112.195,
+        109.725
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    "R302": {
+      "x": 112.8,
+      "y": 142.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        111.275,
+        141.225,
+        114.325,
+        142.775
+      ],
+      "footprint": "MyFootprints:R_0603_1608Metric"
+    },
+    "R303": {
+      "x": 112.8,
+      "y": 145.0,
+      "angle": 180.0,
+      "side": "F",
+      "courtyard": [
+        111.275,
+        144.225,
+        114.325,
+        145.775
+      ],
+      "footprint": "MyFootprints:R_0603_1608Metric"
+    },
+    "R304": {
+      "x": 135.8,
+      "y": 109.2,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        134.275,
+        108.425,
+        137.325,
+        109.975
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R305": {
+      "x": 139.5,
+      "y": 114.8,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        137.975,
+        114.025,
+        141.025,
+        115.575
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R306": {
+      "x": 134.8,
+      "y": 117.5,
+      "angle": 90.0,
+      "side": "F",
+      "courtyard": [
+        134.025,
+        115.975,
+        135.575,
+        119.025
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "U101": {
+      "x": 132.5,
+      "y": 106.0,
+      "angle": 180.0,
+      "side": "F",
+      "courtyard": [
+        131.125,
+        104.705,
+        133.875,
+        107.295
+      ],
+      "footprint": "MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+    },
+    "U102": {
+      "x": 135.8,
+      "y": 112.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        133.705,
+        110.755,
+        137.895,
+        114.245
+      ],
+      "footprint": "MyFootprints:SOT-23-6"
+    },
+    "U103": {
+      "x": 137.8,
+      "y": 119.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        135.655,
+        117.705,
+        139.945,
+        121.295
+      ],
+      "footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm"
+    },
+    "U104": {
+      "x": 117.0,
+      "y": 143.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        115.005,
+        141.155,
+        118.995,
+        144.845
+      ],
+      "footprint": "MyFootprints:TI_DBZ0003A_Pad1.30x0.60mm_P2.10mm"
+    },
+    "C308": {
+      "x": 141.7,
+      "y": 125.7,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        140.175,
+        124.925,
+        143.225,
+        126.475
+      ],
+      "footprint": "MyFootprints:C_0603_1608Metric"
+    },
+    "R402": {
+      "x": 112.0,
+      "y": 129.25,
+      "angle": 0.0,
+      "side": "B",
+      "courtyard": [
+        110.475,
+        128.475,
+        113.525,
+        130.025
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "U105": {
+      "x": 137.5,
+      "y": 126.5,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        135.355,
+        124.705,
+        139.645,
+        128.295
+      ],
+      "footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm"
+    },
+    "J101": {
+      "x": 104.73,
+      "y": 110.95,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        103.035,
+        109.205,
+        108.925,
+        150.795
+      ],
+      "footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm"
+    },
+    "J102": {
+      "x": 128.729999,
+      "y": 110.95,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        127.034999,
+        109.205,
+        132.924999,
+        150.795
+      ],
+      "footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm"
+    },
+    "H1": {
+      "x": 104.0,
+      "y": 104.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        101.502488,
+        101.503745,
+        106.494999,
+        106.496254
+      ],
+      "footprint": "MountingHole_2.2mm_M2"
+    },
+    "H2": {
+      "x": 156.0,
+      "y": 104.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        153.502488,
+        101.503745,
+        158.494999,
+        106.496254
+      ],
+      "footprint": "MountingHole_2.2mm_M2"
+    },
+    "H3": {
+      "x": 104.0,
+      "y": 156.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        101.502488,
+        153.503745,
+        106.494999,
+        158.496254
+      ],
+      "footprint": "MountingHole_2.2mm_M2"
+    },
+    "H4": {
+      "x": 156.0,
+      "y": 156.0,
+      "angle": 0.0,
+      "side": "F",
+      "courtyard": [
+        153.502488,
+        153.503745,
+        158.494999,
+        158.496254
+      ],
+      "footprint": "MountingHole_2.2mm_M2"
+    }
+  }
+}

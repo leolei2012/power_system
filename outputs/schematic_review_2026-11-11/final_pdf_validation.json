@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "date": "2026-11-11",
+  "controller": {
+    "canonical_pdf": "controller/hardware/g431_core/review/controller.pdf",
+    "sha256": "3ed7fbd26faa656da559e779a4c0c9ecc7568565b941ec56958ff6070e66517b",
+    "pages": 7,
+    "verification": "All 7 final rendered pages pixel-identical to the visually reviewed 120 dpi pages."
+  },
+  "inverter": {
+    "canonical_pdf": "inverter/hardware/review/inverter.pdf",
+    "sha256": "768183240aff854e6cd48280ade789c928985e98a502ab7f2f5783f85a8fc42b",
+    "pages": 20,
+    "verification": "All 20 page drawing streams, extracted text and media boxes match the visually reviewed agent PDF."
+  },
+  "note": "PDF metadata may differ after final canonical CLI export; reviewed drawings are unchanged."
+}

@@ -1,0 +1,6857 @@
+{
+  "schema_version": 1,
+  "generated_UTC": "2026-11-06T09:28:32.177202+00:00",
+  "board": "D:\\workspace\\power_system\\inverter\\hardware\\inverter.kicad_pcb",
+  "board_sha256": "606aed178df727ce13e9e1c054b019f9e49571ca466c7b2897d47f8b2a012f9a",
+  "netlist": "D:\\workspace\\power_system\\inverter\\hardware\\review\\inverter.net.xml",
+  "netlist_sha256": "b088623eae00d222bbcfeda6000e3cc7b931eaf062ec21ac0fd20a7c25086bdd",
+  "source_unchanged_during_audit": true,
+  "read_only": true,
+  "copper_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "B.Cu"
+  ],
+  "method": {
+    "connectivity": "Actual same-net effective copper shapes and each saved filled-zone island are unioned per shared copper layer; via/PTH plating connects layers.",
+    "length": "Dijkstra shortest path on actual track centrelines plus copper-covered pad-centre/junction links. 0.025 mm sampled join coverage; explicit track portions use Euclidean centreline lengths.",
+    "excluded": "No length through pours, arc centrelines, or unrepresentable shape joins. Via/PTH vertical barrel length excluded; counted separately. No board or zone fill is saved.",
+    "limits": "This graph length is not a continuous-copper geodesic, loop area, impedance, thermal result or pass/fail threshold. Existing explicit routes may have unmeasured pour shortcuts. Saved fill can be stale until final DRC/refill."
+  },
+  "summary": {
+    "pair_count": 77,
+    "statuses": {
+      "quantified_explicit_route": 46,
+      "missing_saved_copper_path": 31
+    },
+    "endpoint_contract_errors": 0
+  },
+  "nets": [
+    {
+      "net": "/U half bridge/U_HO",
+      "primitive_count": 9,
+      "graph_nodes": 20,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/U half bridge/U_LO",
+      "primitive_count": 13,
+      "graph_nodes": 32,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/U half bridge/U_BOOT",
+      "primitive_count": 11,
+      "graph_nodes": 19,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "U_PHASE",
+      "primitive_count": 31,
+      "graph_nodes": 84,
+      "saved_zone_islands": 2,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "+12V_DRV",
+      "primitive_count": 69,
+      "graph_nodes": 138,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 1
+    },
+    {
+      "net": "U_SOURCE",
+      "primitive_count": 50,
+      "graph_nodes": 105,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/V half bridge/V_HO",
+      "primitive_count": 9,
+      "graph_nodes": 20,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/V half bridge/V_LO",
+      "primitive_count": 11,
+      "graph_nodes": 28,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/V half bridge/V_BOOT",
+      "primitive_count": 11,
+      "graph_nodes": 19,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "V_PHASE",
+      "primitive_count": 35,
+      "graph_nodes": 96,
+      "saved_zone_islands": 2,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "V_SOURCE",
+      "primitive_count": 37,
+      "graph_nodes": 67,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/W half bridge/W_HO",
+      "primitive_count": 8,
+      "graph_nodes": 18,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/W half bridge/W_LO",
+      "primitive_count": 12,
+      "graph_nodes": 30,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "/W half bridge/W_BOOT",
+      "primitive_count": 10,
+      "graph_nodes": 21,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "W_PHASE",
+      "primitive_count": 42,
+      "graph_nodes": 108,
+      "saved_zone_islands": 5,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "W_SOURCE",
+      "primitive_count": 36,
+      "graph_nodes": 65,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "+3V3_INV",
+      "primitive_count": 269,
+      "graph_nodes": 461,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "GND",
+      "primitive_count": 489,
+      "graph_nodes": 1033,
+      "saved_zone_islands": 2,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 5
+    },
+    {
+      "net": "+3V3_A_MCU",
+      "primitive_count": 25,
+      "graph_nodes": 45,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "VREF_MCU",
+      "primitive_count": 6,
+      "graph_nodes": 8,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_I_U",
+      "primitive_count": 9,
+      "graph_nodes": 15,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_I_V",
+      "primitive_count": 12,
+      "graph_nodes": 21,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_I_W",
+      "primitive_count": 7,
+      "graph_nodes": 11,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_V_DC",
+      "primitive_count": 15,
+      "graph_nodes": 27,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_V_U",
+      "primitive_count": 14,
+      "graph_nodes": 25,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_V_V",
+      "primitive_count": 3,
+      "graph_nodes": 3,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_V_W",
+      "primitive_count": 3,
+      "graph_nodes": 3,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    },
+    {
+      "net": "ADC_TEMP_NTC",
+      "primitive_count": 6,
+      "graph_nodes": 9,
+      "saved_zone_islands": 0,
+      "arcs_excluded_from_length": 0,
+      "copper_joins_not_quantified": 0
+    }
+  ],
+  "pairs": [
+    {
+      "name": "U HO to gate resistor",
+      "group": "driver_gate",
+      "source": {
+        "ref": "U7",
+        "pin": "7"
+      },
+      "target": {
+        "ref": "R19",
+        "pin": "1"
+      },
+      "expected_net": "/U half bridge/U_HO",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "413c2c61-d619-4b3d-823d-32cf5d0c8618",
+            "x": 41.975,
+            "y": 16.635,
+            "net": "/U half bridge/U_HO",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "d21152ff-7c12-4a05-b550-ae97884aae23",
+            "x": 43.925,
+            "y": 10.2875,
+            "net": "/U half bridge/U_HO",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 6.640275,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 1,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 9.255699,
+      "track_centerline_mm": 8.160736,
+      "pad_and_junction_mm": 1.094963,
+      "via_uuids": [
+        "5b7483a2-1393-408c-9ecb-eaa5f32cee0b"
+      ],
+      "via_objects_touched_count": 1,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "008286d6-b857-4b57-a17a-6f186cab9a61",
+        "8d9cf936-0bb6-41ea-9a3e-b5b411a28046",
+        "9a55d7f4-e91c-4e2a-bddb-0a85dfe1688c",
+        "ef81bba5-ce6c-47be-8982-56645a0c6016"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 16.635,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 42.5682,
+          "y": 16.635,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4273,
+          "y": 15.7759,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4273,
+          "y": 15.7759,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4273,
+          "y": 10.6113,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4273,
+          "y": 10.6113,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 42.7487,
+          "y": 9.9327,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 42.7487,
+          "y": 9.9327,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 42.7487,
+          "y": 9.9327,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 42.7487,
+          "y": 9.9327,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.5702,
+          "y": 9.9327,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.925,
+          "y": 10.2875,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.3939
+    },
+    {
+      "name": "U LO to gate resistor",
+      "group": "driver_gate",
+      "source": {
+        "ref": "U7",
+        "pin": "4"
+      },
+      "target": {
+        "ref": "R20",
+        "pin": "1"
+      },
+      "expected_net": "/U half bridge/U_LO",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "7aad0d37-00df-4024-8dcc-622b842a1086",
+            "x": 37.025,
+            "y": 14.095,
+            "net": "/U half bridge/U_LO",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "8ff0e241-0609-45c6-8c46-29fe82dc4372",
+            "x": 56.8125,
+            "y": 12.0,
+            "net": "/U half bridge/U_LO",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 19.898095,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 2,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu",
+        "In2.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 23.593038,
+      "track_centerline_mm": 22.730817,
+      "pad_and_junction_mm": 0.862221,
+      "via_uuids": [
+        "0f385dc3-93f3-46ed-82e9-1c82acc5ff05",
+        "a1b7c7ca-5632-430c-963e-e974de12a19e"
+      ],
+      "via_objects_touched_count": 2,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "021f9c32-cf83-40e2-87c9-315cf2236a96",
+        "35ee9ba0-b2ac-46a4-ab09-9543fa504f1a",
+        "3932662d-7f96-4092-b262-1c92ebd6d914",
+        "632b0be0-29d0-40bf-83f2-878c9389a59d",
+        "c5e99691-6264-4eb8-b14d-95158355935f",
+        "d396ea37-9307-4060-a63c-7da1b854902d",
+        "f02a0d90-98f5-4d54-94a1-baf067604b53"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 14.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 14.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7789,
+          "y": 13.3411,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7789,
+          "y": 13.0382,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7789,
+          "y": 13.0382,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 37.7789,
+          "y": 13.0382,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 38.7655,
+          "y": 14.0248,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 38.7655,
+          "y": 14.0248,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 51.3752,
+          "y": 14.0248,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 51.3752,
+          "y": 14.0248,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 52.1252,
+          "y": 13.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 52.1252,
+          "y": 13.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 56.9047,
+          "y": 13.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 56.9047,
+          "y": 13.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.784,
+          "y": 12.3955,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.784,
+          "y": 12.3955,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.784,
+          "y": 12.3955,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 57.784,
+          "y": 12.3955,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 57.208,
+          "y": 12.3955,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 56.8125,
+          "y": 12.0,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1857
+    },
+    {
+      "name": "U VB to C25",
+      "group": "driver_bootstrap",
+      "source": {
+        "ref": "U7",
+        "pin": "8"
+      },
+      "target": {
+        "ref": "C25",
+        "pin": "1"
+      },
+      "expected_net": "/U half bridge/U_BOOT",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "f3599a1e-e5f7-4f8b-9007-3df0749783a2",
+            "x": 41.975,
+            "y": 17.905,
+            "net": "/U half bridge/U_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "ecf9060b-68c0-425a-9646-b489c4cdf6ff",
+            "x": 43.2,
+            "y": 21.725,
+            "net": "/U half bridge/U_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.011611,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 5.22536,
+      "track_centerline_mm": 4.117116,
+      "pad_and_junction_mm": 1.108244,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2391f299-e4a6-4624-8047-37a12814a64e",
+        "660f44a2-985e-4065-8dfa-67f4401ba612",
+        "d0a2d3cf-56de-48e4-807a-e59cb7c07bc3",
+        "d21a0830-613d-4605-a777-ba0665557bd5"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 17.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 18.1433,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.0139,
+          "y": 19.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2337,
+          "y": 19.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.605,
+          "y": 19.5535,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 19.975,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 19.975,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 20.825,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 20.825,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 21.725,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 21.725,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.3026
+    },
+    {
+      "name": "U VS return from C25",
+      "group": "driver_bootstrap_return",
+      "source": {
+        "ref": "U7",
+        "pin": "6"
+      },
+      "target": {
+        "ref": "C25",
+        "pin": "2"
+      },
+      "expected_net": "U_PHASE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "4ff85540-0985-4efb-aefb-a36bff00a1eb",
+            "x": 41.975,
+            "y": 15.365,
+            "net": "U_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "c437ede6-9134-4d15-a76d-929c9db7544c",
+            "x": 43.2,
+            "y": 24.675,
+            "net": "U_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 9.390246,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "U VB to C26",
+      "group": "driver_bootstrap",
+      "source": {
+        "ref": "U7",
+        "pin": "8"
+      },
+      "target": {
+        "ref": "C26",
+        "pin": "1"
+      },
+      "expected_net": "/U half bridge/U_BOOT",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "f3599a1e-e5f7-4f8b-9007-3df0749783a2",
+            "x": 41.975,
+            "y": 17.905,
+            "net": "/U half bridge/U_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "34b4b7ba-3558-4ae7-8929-3d19f7fb9358",
+            "x": 44.1,
+            "y": 19.975,
+            "net": "/U half bridge/U_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.966568,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.102568,
+      "track_centerline_mm": 1.994324,
+      "pad_and_junction_mm": 1.108244,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2391f299-e4a6-4624-8047-37a12814a64e",
+        "d0a2d3cf-56de-48e4-807a-e59cb7c07bc3"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 17.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 18.1433,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.0139,
+          "y": 19.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2337,
+          "y": 19.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.605,
+          "y": 19.5535,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 19.975,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0458
+    },
+    {
+      "name": "U VS return from C26",
+      "group": "driver_bootstrap_return",
+      "source": {
+        "ref": "U7",
+        "pin": "6"
+      },
+      "target": {
+        "ref": "C26",
+        "pin": "2"
+      },
+      "expected_net": "U_PHASE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "4ff85540-0985-4efb-aefb-a36bff00a1eb",
+            "x": 41.975,
+            "y": 15.365,
+            "net": "U_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "78270a61-32e4-4cd6-b541-76365589fe28",
+            "x": 44.1,
+            "y": 18.425,
+            "net": "U_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.725483,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "U VCC to C27",
+      "group": "driver_vcc",
+      "source": {
+        "ref": "U7",
+        "pin": "5"
+      },
+      "target": {
+        "ref": "C27",
+        "pin": "1"
+      },
+      "expected_net": "+12V_DRV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "93f2468a-877f-4f61-a42f-549418d5892e",
+            "x": 41.975,
+            "y": 14.095,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "ac4ca935-535d-4e5c-a5aa-5044f3b4e402",
+            "x": 36.65,
+            "y": 12.0,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.722294,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 6.924387,
+      "track_centerline_mm": 6.779387,
+      "pad_and_junction_mm": 0.145,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "4f63e82f-14a3-469c-9f38-b41905af0f47",
+        "572452ae-bf38-4512-8485-9720dde67b84",
+        "7269d430-86c7-42f0-a55c-a9ae75b73889",
+        "ce401a72-3147-4f90-b1c3-1f519a91ac18"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 14.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 13.95,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 12.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 12.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 39.2444,
+          "y": 11.2194,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 39.2444,
+          "y": 11.2194,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.4306,
+          "y": 11.2194,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.4306,
+          "y": 11.2194,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.65,
+          "y": 12.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.65,
+          "y": 12.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.2101
+    },
+    {
+      "name": "U COM return from C27",
+      "group": "driver_com_return",
+      "source": {
+        "ref": "U7",
+        "pin": "3"
+      },
+      "target": {
+        "ref": "C27",
+        "pin": "2"
+      },
+      "expected_net": "U_SOURCE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "d4cb587a-cdf2-4a34-ba0a-a7aefccb5efb",
+            "x": 37.025,
+            "y": 15.365,
+            "net": "U_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "f391557f-7fba-49fe-bba1-11498072e805",
+            "x": 34.75,
+            "y": 12.0,
+            "net": "U_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.061878,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.855046,
+      "track_centerline_mm": 3.920046,
+      "pad_and_junction_mm": 0.935,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "a424b596-8b70-4121-86c4-d557cafe97b8",
+        "f20ec656-a437-4438-bea5-b50ae2fb43db"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 15.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.09,
+          "y": 15.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 14.025,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 14.025,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 12.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 12.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1953
+    },
+    {
+      "name": "U VCC to C28",
+      "group": "driver_vcc",
+      "source": {
+        "ref": "U7",
+        "pin": "5"
+      },
+      "target": {
+        "ref": "C28",
+        "pin": "1"
+      },
+      "expected_net": "+12V_DRV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "93f2468a-877f-4f61-a42f-549418d5892e",
+            "x": 41.975,
+            "y": 14.095,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "eb8284e1-3c7f-407b-b169-72c271d362ae",
+            "x": 40.275,
+            "y": 12.25,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.50879,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.549163,
+      "track_centerline_mm": 2.404163,
+      "pad_and_junction_mm": 0.145,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "4f63e82f-14a3-469c-9f38-b41905af0f47"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 14.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 13.95,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 12.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 12.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0161
+    },
+    {
+      "name": "U COM return from C28",
+      "group": "driver_com_return",
+      "source": {
+        "ref": "U7",
+        "pin": "3"
+      },
+      "target": {
+        "ref": "C28",
+        "pin": "2"
+      },
+      "expected_net": "U_SOURCE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "d4cb587a-cdf2-4a34-ba0a-a7aefccb5efb",
+            "x": 37.025,
+            "y": 15.365,
+            "net": "U_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "73f768a1-3914-4a50-8ab1-f0dfaad9b970",
+            "x": 38.725,
+            "y": 12.25,
+            "net": "U_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.548693,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.379058,
+      "track_centerline_mm": 4.379058,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2374df44-f7dd-4d30-8428-b1303ca48c39",
+        "abf5640f-ef2e-49a3-ad02-eb1a5d6c90b2",
+        "bfb180b8-47bd-4f40-aed6-a211ceb8ede8"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 15.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 15.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7692,
+          "y": 14.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7692,
+          "y": 14.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 14.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 14.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 12.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 12.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.234
+    },
+    {
+      "name": "V HO to gate resistor",
+      "group": "driver_gate",
+      "source": {
+        "ref": "U8",
+        "pin": "7"
+      },
+      "target": {
+        "ref": "R25",
+        "pin": "1"
+      },
+      "expected_net": "/V half bridge/V_HO",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "36bfa8c9-f644-40f6-b41d-4eaea56f61af",
+            "x": 41.975,
+            "y": 31.635,
+            "net": "/V half bridge/V_HO",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "21eb87b1-efd9-4760-b59c-80079c9067a4",
+            "x": 43.925,
+            "y": 25.2875,
+            "net": "/V half bridge/V_HO",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 6.640275,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 1,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 9.327301,
+      "track_centerline_mm": 8.734001,
+      "pad_and_junction_mm": 0.5933,
+      "via_uuids": [
+        "dba191b5-02a4-4bf3-8bfc-11378fd619c7"
+      ],
+      "via_objects_touched_count": 1,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "009869e8-cdcb-4f6d-82a4-d90c6c88ee68",
+        "21862cfb-7ba1-43a1-b533-afdea5ebe9c4",
+        "2de54996-f963-4b80-b29e-d1708df44689",
+        "428a3895-88b0-482f-a3dc-b4fb207b894a",
+        "443caa5a-a2fb-420d-a5f7-4e34cfb5eadc"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 31.635,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 42.5683,
+          "y": 31.635,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4531,
+          "y": 30.7502,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4531,
+          "y": 30.7502,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4531,
+          "y": 28.0303,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.4531,
+          "y": 28.0303,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.8757,
+          "y": 26.4529,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.8757,
+          "y": 26.4529,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.8757,
+          "y": 26.4529,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 41.8757,
+          "y": 26.4529,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.0411,
+          "y": 25.2875,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.0411,
+          "y": 25.2875,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.925,
+          "y": 25.2875,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.925,
+          "y": 25.2875,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.4047
+    },
+    {
+      "name": "V LO to gate resistor",
+      "group": "driver_gate",
+      "source": {
+        "ref": "U8",
+        "pin": "4"
+      },
+      "target": {
+        "ref": "R26",
+        "pin": "1"
+      },
+      "expected_net": "/V half bridge/V_LO",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2d86d1b9-b615-4638-94e0-c0e66cdbecd8",
+            "x": 37.025,
+            "y": 29.095,
+            "net": "/V half bridge/V_LO",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "9f7e54d2-449f-4770-8f48-8311b78a5af6",
+            "x": 56.8125,
+            "y": 27.0,
+            "net": "/V half bridge/V_LO",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 19.898095,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 2,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu",
+        "In2.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 23.040719,
+      "track_centerline_mm": 22.840184,
+      "pad_and_junction_mm": 0.200535,
+      "via_uuids": [
+        "c0b5c882-3d21-45f0-b7a1-0a54c6b2c0d3",
+        "d24cfdf6-dd1f-407b-bc3f-da2cd047b647"
+      ],
+      "via_objects_touched_count": 2,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "15ea8315-cf99-4de8-a752-964cd49157cd",
+        "9419a722-eb31-471b-a154-9a2256e1d830",
+        "a32168ac-7613-4763-8ed6-801180f61817",
+        "da5000ae-5427-4d33-a3ac-f0adc88baf47",
+        "e0467ea3-fb1a-4928-86d2-ab4f390f4d3e"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 29.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 29.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 28.3339,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 28.3339,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 28.3339,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 37.0841,
+          "y": 28.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 54.1754,
+          "y": 28.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 54.1754,
+          "y": 28.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 56.5902,
+          "y": 28.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 56.5902,
+          "y": 28.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.7823,
+          "y": 27.0827,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.7823,
+          "y": 27.0827,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.7823,
+          "y": 27.0827,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 57.7823,
+          "y": 27.0827,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 56.8952,
+          "y": 27.0827,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 56.8125,
+          "y": 27.0,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1579
+    },
+    {
+      "name": "V VB to C29",
+      "group": "driver_bootstrap",
+      "source": {
+        "ref": "U8",
+        "pin": "8"
+      },
+      "target": {
+        "ref": "C29",
+        "pin": "1"
+      },
+      "expected_net": "/V half bridge/V_BOOT",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2618891d-34ad-4015-b964-76882609e59d",
+            "x": 41.975,
+            "y": 32.905,
+            "net": "/V half bridge/V_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "20b8754a-73bf-40e1-9c84-c521a2edacb6",
+            "x": 43.2,
+            "y": 36.725,
+            "net": "/V half bridge/V_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.011611,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 5.22536,
+      "track_centerline_mm": 4.117116,
+      "pad_and_junction_mm": 1.108244,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "0a6c7eb3-6b1c-4075-8f69-7977a8b893a4",
+        "508f1604-e555-4b92-91e8-1f4937a8d7af",
+        "624b749f-7ace-4fc4-958b-895cd9a5f2d3",
+        "862521fe-968e-448e-a7e5-fac0e2b95ad3"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 32.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 33.1433,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.0139,
+          "y": 34.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2337,
+          "y": 34.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.605,
+          "y": 34.5535,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 34.975,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 34.975,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 35.825,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 35.825,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 36.725,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 36.725,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.3026
+    },
+    {
+      "name": "V VS return from C29",
+      "group": "driver_bootstrap_return",
+      "source": {
+        "ref": "U8",
+        "pin": "6"
+      },
+      "target": {
+        "ref": "C29",
+        "pin": "2"
+      },
+      "expected_net": "V_PHASE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "54a648fd-4860-4a08-b4e9-c44227314d65",
+            "x": 41.975,
+            "y": 30.365,
+            "net": "V_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "e650320e-09f2-4ca9-921c-a0567d7bb06d",
+            "x": 43.2,
+            "y": 39.675,
+            "net": "V_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 9.390246,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "V VB to C30",
+      "group": "driver_bootstrap",
+      "source": {
+        "ref": "U8",
+        "pin": "8"
+      },
+      "target": {
+        "ref": "C30",
+        "pin": "1"
+      },
+      "expected_net": "/V half bridge/V_BOOT",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2618891d-34ad-4015-b964-76882609e59d",
+            "x": 41.975,
+            "y": 32.905,
+            "net": "/V half bridge/V_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "a657f86b-ae90-414c-bb39-eb2a3f1c746c",
+            "x": 44.1,
+            "y": 34.975,
+            "net": "/V half bridge/V_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.966568,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.102568,
+      "track_centerline_mm": 1.994324,
+      "pad_and_junction_mm": 1.108244,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "508f1604-e555-4b92-91e8-1f4937a8d7af",
+        "862521fe-968e-448e-a7e5-fac0e2b95ad3"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 32.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 33.1433,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.0139,
+          "y": 34.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2337,
+          "y": 34.1822,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.605,
+          "y": 34.5535,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.1,
+          "y": 34.975,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0458
+    },
+    {
+      "name": "V VS return from C30",
+      "group": "driver_bootstrap_return",
+      "source": {
+        "ref": "U8",
+        "pin": "6"
+      },
+      "target": {
+        "ref": "C30",
+        "pin": "2"
+      },
+      "expected_net": "V_PHASE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "54a648fd-4860-4a08-b4e9-c44227314d65",
+            "x": 41.975,
+            "y": 30.365,
+            "net": "V_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "4a4bdb52-7c89-4b5c-8c69-224f817dd91b",
+            "x": 44.1,
+            "y": 33.425,
+            "net": "V_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.725483,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "V VCC to C31",
+      "group": "driver_vcc",
+      "source": {
+        "ref": "U8",
+        "pin": "5"
+      },
+      "target": {
+        "ref": "C31",
+        "pin": "1"
+      },
+      "expected_net": "+12V_DRV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "0a11e549-9ec6-4906-ab81-2f6a5ed2b7ef",
+            "x": 41.975,
+            "y": 29.095,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "5c10ed1f-a384-45e3-92c3-da567d5f3962",
+            "x": 36.65,
+            "y": 27.0,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.722294,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 6.898291,
+      "track_centerline_mm": 6.753291,
+      "pad_and_junction_mm": 0.145,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "185a6aaf-7630-4f9b-9147-c41f9e1d03c4",
+        "3aec0a96-f57c-4ac8-83c1-bf25fc8187b9",
+        "3ca8b929-baa5-4553-9394-326088fa61c6",
+        "8f3553c4-bf2f-42b6-abca-10c1043ff6fe"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 29.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 28.95,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 39.2759,
+          "y": 26.2509,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 39.2759,
+          "y": 26.2509,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.3991,
+          "y": 26.2509,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.3991,
+          "y": 26.2509,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.65,
+          "y": 27.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.65,
+          "y": 27.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.2055
+    },
+    {
+      "name": "V COM return from C31",
+      "group": "driver_com_return",
+      "source": {
+        "ref": "U8",
+        "pin": "3"
+      },
+      "target": {
+        "ref": "C31",
+        "pin": "2"
+      },
+      "expected_net": "V_SOURCE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "25866332-e928-4c5d-a741-ad2773f716a6",
+            "x": 37.025,
+            "y": 30.365,
+            "net": "V_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "8b7e6f91-b7da-4635-a72a-bb83878a7ddf",
+            "x": 34.75,
+            "y": 27.0,
+            "net": "V_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.061878,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.716801,
+      "track_centerline_mm": 3.48846,
+      "pad_and_junction_mm": 1.22834,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "4ee7aac7-9ab1-4871-b843-7afb7e907e36",
+        "76894153-2c22-493d-b9a1-d7fae65e33c9"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 30.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.326,
+          "y": 30.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 35.1243,
+          "y": 29.1633,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 35.1243,
+          "y": 29.1633,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 35.1243,
+          "y": 27.3743,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 27.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1612
+    },
+    {
+      "name": "V VCC to C32",
+      "group": "driver_vcc",
+      "source": {
+        "ref": "U8",
+        "pin": "5"
+      },
+      "target": {
+        "ref": "C32",
+        "pin": "1"
+      },
+      "expected_net": "+12V_DRV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "0a11e549-9ec6-4906-ab81-2f6a5ed2b7ef",
+            "x": 41.975,
+            "y": 29.095,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "96bfa470-fb47-4a04-b31b-e8bf261e1780",
+            "x": 40.275,
+            "y": 27.25,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.50879,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.549163,
+      "track_centerline_mm": 2.404163,
+      "pad_and_junction_mm": 0.145,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "8f3553c4-bf2f-42b6-abca-10c1043ff6fe"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 29.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 28.95,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 27.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0161
+    },
+    {
+      "name": "V COM return from C32",
+      "group": "driver_com_return",
+      "source": {
+        "ref": "U8",
+        "pin": "3"
+      },
+      "target": {
+        "ref": "C32",
+        "pin": "2"
+      },
+      "expected_net": "V_SOURCE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "25866332-e928-4c5d-a741-ad2773f716a6",
+            "x": 37.025,
+            "y": 30.365,
+            "net": "V_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "1387fd49-23a6-4190-a6ba-ae724a08af76",
+            "x": 38.725,
+            "y": 27.25,
+            "net": "V_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.548693,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.379058,
+      "track_centerline_mm": 4.379058,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "35c93861-f5cc-4e55-bd67-1fbbb72a38dd",
+        "6b379ea2-3bbc-4c75-b2cd-908dd4de1b52",
+        "7c7f4930-05df-49c4-894f-500d54765223"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 30.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 30.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7692,
+          "y": 29.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7692,
+          "y": 29.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 29.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 29.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 27.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.234
+    },
+    {
+      "name": "W HO to gate resistor",
+      "group": "driver_gate",
+      "source": {
+        "ref": "U9",
+        "pin": "7"
+      },
+      "target": {
+        "ref": "R31",
+        "pin": "1"
+      },
+      "expected_net": "/W half bridge/W_HO",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "4f0b120a-1b20-4e0e-b71c-f1a84e0c2e02",
+            "x": 41.975,
+            "y": 46.635,
+            "net": "/W half bridge/W_HO",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "4039b1cf-8128-460d-91cd-fa4192aca641",
+            "x": 43.925,
+            "y": 40.2875,
+            "net": "/W half bridge/W_HO",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 6.640275,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 1,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 9.172822,
+      "track_centerline_mm": 8.445751,
+      "pad_and_junction_mm": 0.72707,
+      "via_uuids": [
+        "e1f02594-73cf-46d1-aec4-4d47fe6a60cc"
+      ],
+      "via_objects_touched_count": 1,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "3d291d26-ab6b-46f9-bc59-9caf562c8d0c",
+        "58a7f781-3749-420f-9af0-7b1f926d6c90",
+        "f8741708-3440-44bf-bbf4-0d703e985fb2"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 46.635,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 42.6274,
+          "y": 46.635,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 45.1033,
+          "y": 44.1591,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 45.1033,
+          "y": 44.1591,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 45.1033,
+          "y": 40.3403,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 45.1033,
+          "y": 40.3403,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 45.1033,
+          "y": 40.3403,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 45.1033,
+          "y": 40.3403,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.9778,
+          "y": 40.3403,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 43.925,
+          "y": 40.2875,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.3814
+    },
+    {
+      "name": "W LO to gate resistor",
+      "group": "driver_gate",
+      "source": {
+        "ref": "U9",
+        "pin": "4"
+      },
+      "target": {
+        "ref": "R32",
+        "pin": "1"
+      },
+      "expected_net": "/W half bridge/W_LO",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "f74dbeb1-51cd-479f-800f-fbb99f1a81dc",
+            "x": 37.025,
+            "y": 44.095,
+            "net": "/W half bridge/W_LO",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "54da7046-ed5b-4b77-8045-b361dd1ba32d",
+            "x": 56.8125,
+            "y": 42.0,
+            "net": "/W half bridge/W_LO",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 19.898095,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 2,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu",
+        "In2.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 25.904126,
+      "track_centerline_mm": 24.936804,
+      "pad_and_junction_mm": 0.967322,
+      "via_uuids": [
+        "03293bb4-368d-4af7-a457-6a2bd9f47776",
+        "9737d1c4-6411-424c-be31-e381efa01b9a"
+      ],
+      "via_objects_touched_count": 2,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "504c36d2-0bd3-410d-b6f5-8556bfa44721",
+        "5791ce19-d5a1-4545-9b61-0af84fd079b6",
+        "7bbeb7d2-f6e1-4207-9619-8ad0e8fc8956",
+        "d2216418-878e-4d5c-b5ab-af0c0eb4cf08",
+        "e5ce12bf-4dff-4d16-a115-947f69fbef1c",
+        "fa74a814-7231-4701-9427-3613621f97ee"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 35.7475,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 35.5971,
+          "y": 43.9446,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 35.5971,
+          "y": 43.9446,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 35.5971,
+          "y": 43.9446,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 53.3554,
+          "y": 43.9446,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 53.3554,
+          "y": 43.9446,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 54.0252,
+          "y": 43.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 54.0252,
+          "y": 43.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 55.9796,
+          "y": 43.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 55.9796,
+          "y": 43.2748,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.788,
+          "y": 41.4664,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.788,
+          "y": 41.4664,
+          "layer": "In2.Cu"
+        },
+        {
+          "x": 57.788,
+          "y": 41.4664,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 57.788,
+          "y": 41.4664,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 57.3461,
+          "y": 41.4664,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 56.8125,
+          "y": 42.0,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.3018
+    },
+    {
+      "name": "W VB to C33",
+      "group": "driver_bootstrap",
+      "source": {
+        "ref": "U9",
+        "pin": "8"
+      },
+      "target": {
+        "ref": "C33",
+        "pin": "1"
+      },
+      "expected_net": "/W half bridge/W_BOOT",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "54b4845b-6a03-4ecd-8e67-a252cf33b989",
+            "x": 41.975,
+            "y": 47.905,
+            "net": "/W half bridge/W_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "bae85580-82c9-4c71-b7fa-e55150c994f4",
+            "x": 43.2,
+            "y": 50.225,
+            "net": "/W half bridge/W_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.623552,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.827412,
+      "track_centerline_mm": 2.827412,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "12142c97-276d-45fc-9726-d2e924b40964",
+        "761bfaed-5df6-4235-b89d-da1a0b9b9865"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 47.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 47.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 49.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 49.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 50.225,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 50.225,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0777
+    },
+    {
+      "name": "W VS return from C33",
+      "group": "driver_bootstrap_return",
+      "source": {
+        "ref": "U9",
+        "pin": "6"
+      },
+      "target": {
+        "ref": "C33",
+        "pin": "2"
+      },
+      "expected_net": "W_PHASE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2692f7ad-b268-41c2-869d-a49147641072",
+            "x": 41.975,
+            "y": 45.365,
+            "net": "W_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "29104f6d-12af-4129-8534-58970eb5fd56",
+            "x": 43.2,
+            "y": 53.175,
+            "net": "W_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 7.905487,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "W VB to C34",
+      "group": "driver_bootstrap",
+      "source": {
+        "ref": "U9",
+        "pin": "8"
+      },
+      "target": {
+        "ref": "C34",
+        "pin": "1"
+      },
+      "expected_net": "/W half bridge/W_BOOT",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "54b4845b-6a03-4ecd-8e67-a252cf33b989",
+            "x": 41.975,
+            "y": 47.905,
+            "net": "/W half bridge/W_BOOT",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "578fc4a7-5b95-46d4-b87f-a443d4baef87",
+            "x": 46.875,
+            "y": 49.8,
+            "net": "/W half bridge/W_BOOT",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.253668,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 1,
+      "layers_used": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 7.574714,
+      "track_centerline_mm": 7.194314,
+      "pad_and_junction_mm": 0.3804,
+      "via_uuids": [
+        "39f16a58-08a8-4bdf-8f7c-98a369b3c27c"
+      ],
+      "via_objects_touched_count": 1,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "12142c97-276d-45fc-9726-d2e924b40964",
+        "761bfaed-5df6-4235-b89d-da1a0b9b9865",
+        "c65c58f0-54e3-48e7-a84e-74edcd2c160f",
+        "f26c85f3-d501-439c-aa5d-f5e77b8f43b8",
+        "fe93dead-719c-4b26-907a-64a937206f9f"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 47.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 47.905,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 49.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 49.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 50.225,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 43.2,
+          "y": 50.225,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.0129,
+          "y": 51.0379,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 44.0129,
+          "y": 51.0379,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 46.0175,
+          "y": 51.0379,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 46.0175,
+          "y": 51.0379,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 46.0175,
+          "y": 51.0379,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 46.0175,
+          "y": 51.0379,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 46.875,
+          "y": 50.1804,
+          "layer": "F.Cu"
+        },
+        {
+          "x": 46.875,
+          "y": 49.8,
+          "layer": "F.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.4418
+    },
+    {
+      "name": "W VS return from C34",
+      "group": "driver_bootstrap_return",
+      "source": {
+        "ref": "U9",
+        "pin": "6"
+      },
+      "target": {
+        "ref": "C34",
+        "pin": "2"
+      },
+      "expected_net": "W_PHASE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2692f7ad-b268-41c2-869d-a49147641072",
+            "x": 41.975,
+            "y": 45.365,
+            "net": "W_PHASE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "3b06aced-9268-491e-92dc-7089e0983bcf",
+            "x": 45.325,
+            "y": 49.8,
+            "net": "W_PHASE",
+            "layers": [
+              "F.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.558032,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "W VCC to C35",
+      "group": "driver_vcc",
+      "source": {
+        "ref": "U9",
+        "pin": "5"
+      },
+      "target": {
+        "ref": "C35",
+        "pin": "1"
+      },
+      "expected_net": "+12V_DRV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "a9063aa8-9b88-4568-92d1-1093c8ec84e9",
+            "x": 41.975,
+            "y": 44.095,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89729d60-26aa-4f6c-87f9-9828b30f3ccc",
+            "x": 36.65,
+            "y": 42.0,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.722294,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 6.882882,
+      "track_centerline_mm": 6.369082,
+      "pad_and_junction_mm": 0.5138,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2d495e03-d10e-49a6-9bf2-f95d578e2a50",
+        "ab8e0f5f-c057-4ec9-a68a-18bf612751f1",
+        "c387629f-47fe-44bf-98d5-cfb66c6136f4",
+        "e94174c2-8d66-4c6f-8d26-b91871896a5b"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 42.395,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 42.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 39.2945,
+          "y": 41.2695,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.9257,
+          "y": 41.2695,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.3805,
+          "y": 41.2695,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.3805,
+          "y": 41.2695,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.65,
+          "y": 42.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.65,
+          "y": 42.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.2028
+    },
+    {
+      "name": "W COM return from C35",
+      "group": "driver_com_return",
+      "source": {
+        "ref": "U9",
+        "pin": "3"
+      },
+      "target": {
+        "ref": "C35",
+        "pin": "2"
+      },
+      "expected_net": "W_SOURCE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "8c90bfd8-df98-4386-8d17-501bee2a9378",
+            "x": 37.025,
+            "y": 45.365,
+            "net": "W_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "748af21e-d88e-4e68-8ea3-40237db18b07",
+            "x": 34.75,
+            "y": 42.0,
+            "net": "W_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.061878,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.753822,
+      "track_centerline_mm": 3.991622,
+      "pad_and_junction_mm": 0.7622,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "904d1f3f-e32a-410a-a085-fc336144fa8f",
+        "930654b7-a5c0-480f-9f65-7a305733706f"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 45.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 36.2628,
+          "y": 45.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 43.8522,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 43.8522,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 42.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 34.75,
+          "y": 42.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1704
+    },
+    {
+      "name": "W VCC to C36",
+      "group": "driver_vcc",
+      "source": {
+        "ref": "U9",
+        "pin": "5"
+      },
+      "target": {
+        "ref": "C36",
+        "pin": "1"
+      },
+      "expected_net": "+12V_DRV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "a9063aa8-9b88-4568-92d1-1093c8ec84e9",
+            "x": 41.975,
+            "y": 44.095,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "31ac8a99-631d-4644-a8ac-13dd049fbbfb",
+            "x": 40.275,
+            "y": 42.25,
+            "net": "+12V_DRV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.50879,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.549163,
+      "track_centerline_mm": 2.404163,
+      "pad_and_junction_mm": 0.145,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2d495e03-d10e-49a6-9bf2-f95d578e2a50"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 41.975,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 41.975,
+          "y": 44.095,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 42.395,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 40.275,
+          "y": 42.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0161
+    },
+    {
+      "name": "W COM return from C36",
+      "group": "driver_com_return",
+      "source": {
+        "ref": "U9",
+        "pin": "3"
+      },
+      "target": {
+        "ref": "C36",
+        "pin": "2"
+      },
+      "expected_net": "W_SOURCE",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "8c90bfd8-df98-4386-8d17-501bee2a9378",
+            "x": 37.025,
+            "y": 45.365,
+            "net": "W_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "2c410c42-0673-4e6b-aa24-5c7aa324fc7f",
+            "x": 38.725,
+            "y": 42.25,
+            "net": "W_SOURCE",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.548693,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.379058,
+      "track_centerline_mm": 4.379058,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "531cc8e5-ca03-4a4f-b59a-db344a6dd823",
+        "62677d5d-4e6a-4827-8f79-81462bbe0782",
+        "8ac7a435-712b-42f3-a2ba-1af86e9bc5f5"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 37.025,
+          "y": 45.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.025,
+          "y": 45.365,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7692,
+          "y": 44.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 37.7692,
+          "y": 44.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 44.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 44.6208,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 42.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 38.725,
+          "y": 42.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.234
+    },
+    {
+      "name": "C63 MCU supply pin16",
+      "group": "mcu_decoupling",
+      "source": {
+        "ref": "C63",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "16"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "3cc9b4d8-3f24-4274-a461-773013bbaea2",
+            "x": 24.02,
+            "y": 28.0,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "8feba5bd-a39a-4e21-b45f-59f595e22e42",
+            "x": 22.175,
+            "y": 27.25,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 1.991614,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.15566,
+      "track_centerline_mm": 2.15566,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "ad8821f7-063f-40d3-82e9-34da0f77d015",
+        "c9f81ce6-7973-468f-ac5b-26deede1daed"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 24.02,
+          "y": 28.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.02,
+          "y": 28.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.27,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.27,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 27.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0824
+    },
+    {
+      "name": "C63 MCU ground pin15",
+      "group": "mcu_decoupling_return",
+      "source": {
+        "ref": "C63",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "15"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "c4b46619-e0b2-4f03-92af-5e44cb453ba3",
+            "x": 24.98,
+            "y": 28.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "711b54b1-2343-4b51-916f-8b7c7733b8ad",
+            "x": 22.175,
+            "y": 26.75,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.070916,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 2,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.515162,
+      "track_centerline_mm": 3.186723,
+      "pad_and_junction_mm": 0.32844,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "da4ae34f-0799-4f69-b37f-d47ce44d9ec5",
+        "fbe99c2d-fbeb-43ad-93bf-8ca9ad5afb75"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": true,
+      "path_points": [
+        {
+          "x": 24.98,
+          "y": 28.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.98,
+          "y": 27.7937,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.9485,
+          "y": 26.7622,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.8513,
+          "y": 26.665,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.8513,
+          "y": 26.6642,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.2608,
+          "y": 26.6642,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 26.75,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1447
+    },
+    {
+      "name": "C64 MCU supply pin32",
+      "group": "mcu_decoupling",
+      "source": {
+        "ref": "C64",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "32"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "4d02e9e0-2ba7-4991-8071-3a37aacb85a8",
+            "x": 11.78,
+            "y": 30.9,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "408ccc5a-c4d5-4f58-89fd-4d5f1faa698d",
+            "x": 12.75,
+            "y": 29.175,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 1.979021,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.126787,
+      "track_centerline_mm": 2.126787,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "31e9cd75-7e93-4024-b5fd-39242b512477",
+        "64b5010d-94cd-411e-8304-840df5dff4f3"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 11.78,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.78,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.78,
+          "y": 30.145,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.78,
+          "y": 30.145,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.75,
+          "y": 29.175,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.75,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0747
+    },
+    {
+      "name": "C64 MCU ground pin31",
+      "group": "mcu_decoupling_return",
+      "source": {
+        "ref": "C64",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "31"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "d6c54a02-8c0d-40a3-a7bc-5bebd97b62e6",
+            "x": 10.82,
+            "y": 30.9,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "1ea0cda1-7b4e-4c75-b58c-621e14065318",
+            "x": 13.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.980021,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 2,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 5.56877,
+      "track_centerline_mm": 4.70177,
+      "pad_and_junction_mm": 0.867,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "3256b7a9-a68a-49a8-849a-e5ecbc732f29",
+        "8c536eda-eb07-4bff-a39a-1f0c72b72216",
+        "987c9533-915c-474b-9850-f377fc87c85c"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": true,
+      "path_points": [
+        {
+          "x": 10.82,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.82,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.82,
+          "y": 29.4488,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.82,
+          "y": 29.4488,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.4739,
+          "y": 27.7949,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.6054,
+          "y": 27.7949,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.25,
+          "y": 28.4395,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.25,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.8687
+    },
+    {
+      "name": "C65 MCU supply pin48",
+      "group": "mcu_decoupling",
+      "source": {
+        "ref": "C65",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "48"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "4bc92d0e-7d1c-4760-a733-28d68fdc2d74",
+            "x": 8.9,
+            "y": 20.28,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "9d6bdb52-e7fb-407b-8fc0-68505c4feee7",
+            "x": 10.825,
+            "y": 19.75,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 1.996628,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 6.948632,
+      "track_centerline_mm": 6.503013,
+      "pad_and_junction_mm": 0.445619,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "3067a701-0dd5-483d-8835-1a06660ff657",
+        "31a75166-76c6-4894-857f-46cd8f770670",
+        "8fa679d8-195d-4be9-8e67-6b36cc6db8b5",
+        "d0e9bffd-7f88-4f48-825a-ec0ae706fe9d",
+        "e828ce14-7903-4bb2-828f-227ac40a002c",
+        "ecfbfd69-c8fc-47f3-8d7a-160385a12eef"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 8.9,
+          "y": 20.28,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 8.9,
+          "y": 20.28,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 8.51,
+          "y": 20.67,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 8.51,
+          "y": 20.67,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.9575,
+          "y": 20.67,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.9575,
+          "y": 20.67,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.3375,
+          "y": 20.05,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.3375,
+          "y": 20.05,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.3375,
+          "y": 19.1,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.3375,
+          "y": 19.1,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 7.6526,
+          "y": 18.7849,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.8599,
+          "y": 18.7849,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.8599,
+          "y": 18.7849,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.825,
+          "y": 19.75,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.825,
+          "y": 19.75,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 3.4802
+    },
+    {
+      "name": "C65 MCU ground pin47",
+      "group": "mcu_decoupling_return",
+      "source": {
+        "ref": "C65",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "47"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "efdf16e0-ad33-4e2c-9001-52a9b0117211",
+            "x": 8.9,
+            "y": 19.32,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "41a9fa06-d66b-4612-a267-54d0474d1a91",
+            "x": 10.825,
+            "y": 20.25,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.137879,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 2,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.407049,
+      "track_centerline_mm": 2.407049,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "273b4077-d994-4333-bf89-ca8c259344e4",
+        "6965c683-4071-459d-83d8-e3ab782b35bf",
+        "ec95125c-e455-4fef-9869-f3898700f96b"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": true,
+      "path_points": [
+        {
+          "x": 8.9,
+          "y": 19.32,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 8.9,
+          "y": 19.32,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6647,
+          "y": 20.0847,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6647,
+          "y": 20.0847,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6647,
+          "y": 20.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6647,
+          "y": 20.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.825,
+          "y": 20.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.825,
+          "y": 20.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1259
+    },
+    {
+      "name": "C66 MCU supply pin64",
+      "group": "mcu_decoupling",
+      "source": {
+        "ref": "C66",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "64"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "75ad0d2a-cc0e-453c-a294-108c0a664d6a",
+            "x": 20.02,
+            "y": 15.0,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "2effa3fc-ff5f-497e-9a0c-db01793742ee",
+            "x": 20.25,
+            "y": 17.825,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.834347,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.920269,
+      "track_centerline_mm": 2.595,
+      "pad_and_junction_mm": 0.325269,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "cd0719ed-6e8f-4083-bd47-5a39a7e95332"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 20.02,
+          "y": 15.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.25,
+          "y": 15.23,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.25,
+          "y": 17.825,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.25,
+          "y": 17.825,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0303
+    },
+    {
+      "name": "C66 MCU ground pin63",
+      "group": "mcu_decoupling_return",
+      "source": {
+        "ref": "C66",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "63"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "e1c065b1-40e3-4938-b86b-97e0eb1ebd47",
+            "x": 20.98,
+            "y": 15.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "bfd45da4-7fc9-446d-8f9a-203d2844440e",
+            "x": 19.75,
+            "y": 17.825,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.081156,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C67 MCU supply pin1",
+      "group": "mcu_decoupling",
+      "source": {
+        "ref": "C67",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "1"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "8f8112c6-1e17-466f-b976-6eacaae6f40e",
+            "x": 24.02,
+            "y": 20.3,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "fd5b6f9d-baa2-4e6b-86d3-cefee2bdf883",
+            "x": 22.175,
+            "y": 19.75,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 1.925234,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.072817,
+      "track_centerline_mm": 2.072817,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2d1c693f-8e2b-424c-9bbd-e6f15f85d1ad",
+        "c53679c5-5107-4f62-9780-777335f81996"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 24.02,
+          "y": 20.3,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.02,
+          "y": 20.3,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.47,
+          "y": 19.75,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.47,
+          "y": 19.75,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 19.75,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 19.75,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0767
+    },
+    {
+      "name": "C67 MCU ground pin63",
+      "group": "mcu_decoupling_return",
+      "source": {
+        "ref": "C67",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "63"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "cb927d1c-2fa1-4db6-aeb6-ef321299d18f",
+            "x": 24.98,
+            "y": 20.3,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "bfd45da4-7fc9-446d-8f9a-203d2844440e",
+            "x": 19.75,
+            "y": 17.825,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.786063,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C68 bulk to VDD16",
+      "group": "mcu_bulk_distribution",
+      "source": {
+        "ref": "C68",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "16"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "db8d1118-ba06-44de-9721-214ad318cd21",
+            "x": 26.725,
+            "y": 29.0,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "8feba5bd-a39a-4e21-b45f-59f595e22e42",
+            "x": 22.175,
+            "y": 27.25,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.874936,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 9.179599,
+      "track_centerline_mm": 9.179599,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2239b6c4-81b8-4340-8ab0-cfa29cd0f408",
+        "4291f94d-dc0a-4e60-b8a3-975be4b80881",
+        "d76945da-5d66-44a1-a509-cf7a4e24c6d1",
+        "ec18bd89-5e01-4371-ad1d-8e74fe21a1a9",
+        "ecac1261-345a-4bf3-be44-23cfa3bdecb4",
+        "edb02808-f99d-44ad-a337-9ec2ba551a80"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 26.725,
+          "y": 29.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 26.725,
+          "y": 29.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.8342,
+          "y": 29.8908,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.8342,
+          "y": 29.8908,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.698,
+          "y": 29.8908,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.698,
+          "y": 29.8908,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.24,
+          "y": 31.3488,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.24,
+          "y": 31.3488,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 21.9556,
+          "y": 30.0644,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 21.9556,
+          "y": 30.0644,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 29.845,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 29.845,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 27.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 27.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.883
+    },
+    {
+      "name": "C68 bulk to VDD32",
+      "group": "mcu_bulk_distribution",
+      "source": {
+        "ref": "C68",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "32"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "db8d1118-ba06-44de-9721-214ad318cd21",
+            "x": 26.725,
+            "y": 29.0,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "408ccc5a-c4d5-4f58-89fd-4d5f1faa698d",
+            "x": 12.75,
+            "y": 29.175,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 13.976096,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C68 bulk to VDD48",
+      "group": "mcu_bulk_distribution",
+      "source": {
+        "ref": "C68",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "48"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "db8d1118-ba06-44de-9721-214ad318cd21",
+            "x": 26.725,
+            "y": 29.0,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "9d6bdb52-e7fb-407b-8fc0-68505c4feee7",
+            "x": 10.825,
+            "y": 19.75,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 18.394904,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C68 bulk to VDD64",
+      "group": "mcu_bulk_distribution",
+      "source": {
+        "ref": "C68",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "64"
+      },
+      "expected_net": "+3V3_INV",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "db8d1118-ba06-44de-9721-214ad318cd21",
+            "x": 26.725,
+            "y": 29.0,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "2effa3fc-ff5f-497e-9a0c-db01793742ee",
+            "x": 20.25,
+            "y": 17.825,
+            "net": "+3V3_INV",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 12.915349,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C68 ground to physically nearest MCU VSS",
+      "group": "mcu_bulk_return",
+      "source": {
+        "ref": "C68",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "15"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "c97cb9fc-d93c-4783-9687-b4e635975144",
+            "x": 28.275,
+            "y": 29.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "711b54b1-2343-4b51-916f-8b7c7733b8ad",
+            "x": 22.175,
+            "y": 26.75,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 6.501731,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C77 analog supply pin29",
+      "group": "mcu_analog_decoupling",
+      "source": {
+        "ref": "C77",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "29"
+      },
+      "expected_net": "+3V3_A_MCU",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "66323ac2-5904-459f-b828-95a94691143c",
+            "x": 12.92,
+            "y": 30.9,
+            "net": "+3V3_A_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "96137ad9-245f-4e1f-8051-322aa814e86a",
+            "x": 14.25,
+            "y": 29.175,
+            "net": "+3V3_A_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.178193,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.496101,
+      "track_centerline_mm": 1.725201,
+      "pad_and_junction_mm": 0.7709,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "3dbb4128-11a9-4930-a9d1-1a0b4b077430",
+        "9e57c957-e4e9-4c61-b37f-833a43ebcf79",
+        "c70b937b-cd32-48b9-83e0-3964e72e10c3"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 12.92,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.92,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.4572,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.4572,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.8331,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.8331,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.25,
+          "y": 29.9459,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.25,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.146
+    },
+    {
+      "name": "C77 analog return VSSA",
+      "group": "mcu_analog_return",
+      "source": {
+        "ref": "C77",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "031a176f-f09b-45c8-ac74-b08eee32fe62",
+            "x": 13.88,
+            "y": 30.9,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.202845,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C78 analog supply pin29",
+      "group": "mcu_analog_decoupling",
+      "source": {
+        "ref": "C78",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "29"
+      },
+      "expected_net": "+3V3_A_MCU",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "a1d0180f-4808-48c1-9863-e07cecc99cb6",
+            "x": 10.4,
+            "y": 35.175,
+            "net": "+3V3_A_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "96137ad9-245f-4e1f-8051-322aa814e86a",
+            "x": 14.25,
+            "y": 29.175,
+            "net": "+3V3_A_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 7.12899,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 10.003634,
+      "track_centerline_mm": 8.998659,
+      "pad_and_junction_mm": 1.004975,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "15ae3b19-94cf-4cfb-a858-6c7364f3e7c3",
+        "28cd6f68-dc72-4a35-aa25-29a6e753a08c",
+        "2fa45229-618d-4ece-8b0f-604f9c1ec61c",
+        "328edbce-80eb-44a5-864e-93e764eaad9c",
+        "3d84b561-ca5a-4889-b0de-c51ade691fde",
+        "3dbb4128-11a9-4930-a9d1-1a0b4b077430",
+        "4bd39ee7-54fc-4199-9d68-a7b1ab180039",
+        "7c755346-154d-43bf-b1be-554ee0fd0862",
+        "8f86d7ee-7336-4a2a-9a80-a36135f1b197",
+        "9e57c957-e4e9-4c61-b37f-833a43ebcf79",
+        "a2c34f73-268a-4470-96c9-0852667ce031",
+        "c70b937b-cd32-48b9-83e0-3964e72e10c3",
+        "d80a4a9b-d218-4510-889f-720d0c1ce5f2",
+        "ef555376-b85e-4b69-9c7d-215b58d6f366",
+        "f41a3419-4505-468f-b581-661c0321fa15"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 10.4,
+          "y": 35.175,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.4,
+          "y": 35.175,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.735,
+          "y": 34.51,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.735,
+          "y": 34.51,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.0709,
+          "y": 34.51,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.0709,
+          "y": 34.51,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.0709,
+          "y": 34.1947,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.0709,
+          "y": 34.1947,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.2799,
+          "y": 33.9857,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.2799,
+          "y": 33.9857,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.5607,
+          "y": 33.9857,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.5607,
+          "y": 33.9857,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.5607,
+          "y": 33.7594,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6244,
+          "y": 33.6957,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6244,
+          "y": 33.4875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6244,
+          "y": 33.4875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6244,
+          "y": 33.2856,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 9.6244,
+          "y": 33.2856,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.66,
+          "y": 32.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 10.76,
+          "y": 32.1464,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.4537,
+          "y": 31.4527,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.4537,
+          "y": 31.4527,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.3673,
+          "y": 31.4527,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.3673,
+          "y": 31.4527,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.92,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.92,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.4572,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.4572,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.8331,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 13.8331,
+          "y": 30.3628,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.25,
+          "y": 29.9459,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.25,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.4032
+    },
+    {
+      "name": "C78 analog return VSSA",
+      "group": "mcu_analog_return",
+      "source": {
+        "ref": "C78",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "23fa69f3-16ed-47a2-a40b-a1cc7bce64e7",
+            "x": 10.4,
+            "y": 33.625,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 6.582173,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 2,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": [
+        {
+          "zone_uuid": "5769c9e0-6787-4913-86f5-7ac72d758a66",
+          "island": "5769c9e0-6787-4913-86f5-7ac72d758a66:4:0",
+          "layers": [
+            "In1.Cu"
+          ]
+        },
+        {
+          "zone_uuid": "dd7b4995-be47-4ff6-98bb-ffa77a901644",
+          "island": "dd7b4995-be47-4ff6-98bb-ffa77a901644:10:0",
+          "layers": [
+            "In4.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C79 analog supply pin28",
+      "group": "mcu_analog_decoupling",
+      "source": {
+        "ref": "C79",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "28"
+      },
+      "expected_net": "VREF_MCU",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "1866d39d-df90-4baa-8e55-abbc5e71ba3a",
+            "x": 15.32,
+            "y": 30.9,
+            "net": "VREF_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "ea95384b-88d6-488e-9de3-7175af8f4e29",
+            "x": 14.75,
+            "y": 29.175,
+            "net": "VREF_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 1.816735,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 1.961102,
+      "track_centerline_mm": 1.961102,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "4f6096fe-3e47-4b7f-b982-cea61f9bdae9",
+        "bafc127f-f7b8-404c-b0b6-79e48ff56113"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 15.32,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 15.32,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.75,
+          "y": 30.33,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.75,
+          "y": 30.33,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.75,
+          "y": 29.175,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 14.75,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0795
+    },
+    {
+      "name": "C79 analog return VSSA",
+      "group": "mcu_analog_return",
+      "source": {
+        "ref": "C79",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "98e4c715-0df2-43c1-acaf-5dbb6d9bc86c",
+            "x": 16.28,
+            "y": 30.9,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.00911,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.219357,
+      "track_centerline_mm": 1.293157,
+      "pad_and_junction_mm": 0.9262,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "edd18f79-2658-4f8e-985f-1cb08f93d5c3"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 16.28,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 16.1644,
+          "y": 30.9,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 15.25,
+          "y": 29.9856,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 15.25,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1046
+    },
+    {
+      "name": "C80 analog supply pin28",
+      "group": "mcu_analog_decoupling",
+      "source": {
+        "ref": "C80",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "28"
+      },
+      "expected_net": "VREF_MCU",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "232ba31b-242e-4b24-ad6c-c3927a4a17b3",
+            "x": 21.4,
+            "y": 34.175,
+            "net": "VREF_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "ea95384b-88d6-488e-9de3-7175af8f4e29",
+            "x": 14.75,
+            "y": 29.175,
+            "net": "VREF_MCU",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 8.320006,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C80 analog return VSSA",
+      "group": "mcu_analog_return",
+      "source": {
+        "ref": "C80",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "45346a0e-8fef-4e92-9ca1-27f00b336533",
+            "x": 21.4,
+            "y": 32.625,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 7.051596,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R84 output to C69",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R84",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C69",
+        "pin": "1"
+      },
+      "expected_net": "ADC_I_U",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "03386816-5563-4e5a-a023-c06329b3a0f3",
+            "x": 28.51,
+            "y": 22.0,
+            "net": "ADC_I_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "51077ce0-c86f-4384-b145-95b6d8365dcc",
+            "x": 25.02,
+            "y": 22.0,
+            "net": "ADC_I_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.49,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C69 ADC to MCU pin8",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C69",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "8"
+      },
+      "expected_net": "ADC_I_U",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "51077ce0-c86f-4384-b145-95b6d8365dcc",
+            "x": 25.02,
+            "y": 22.0,
+            "net": "ADC_I_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "2c6fbbc6-528b-4f44-9dd9-584443b16193",
+            "x": 22.175,
+            "y": 23.25,
+            "net": "ADC_I_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.107495,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.39144,
+      "track_centerline_mm": 2.713172,
+      "pad_and_junction_mm": 0.678267,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "5a2a6153-dca9-4616-8fe9-c3151e1194f6",
+        "687e8aab-4e2d-4a88-ab6f-03b0350b0dad",
+        "7038b729-c0eb-4ca8-8305-9abab9b62b20"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 25.02,
+          "y": 22.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 22.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.1627,
+          "y": 22.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.1627,
+          "y": 22.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.1156,
+          "y": 23.0471,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.1156,
+          "y": 23.0471,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.8504,
+          "y": 23.3123,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 23.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0914
+    },
+    {
+      "name": "C69 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C69",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "83df1a48-3933-431a-acc5-3eda880b44ed",
+            "x": 25.98,
+            "y": 22.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 12.907886,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R85 output to C70",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R85",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C70",
+        "pin": "1"
+      },
+      "expected_net": "ADC_I_V",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "835e1f46-4801-4989-b8c4-2fe75f62d09e",
+            "x": 28.51,
+            "y": 23.4,
+            "net": "ADC_I_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "053e19b6-b43a-4c6c-8929-e1fc83f84c5a",
+            "x": 25.02,
+            "y": 23.4,
+            "net": "ADC_I_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.49,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.945469,
+      "track_centerline_mm": 3.945469,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "1409f922-15ad-4b3d-923b-dc1c5e2b92e5",
+        "4111c3a5-f253-4184-9aea-581c3049fb4d",
+        "d4f44301-63b6-4621-8e52-6be6285740d8"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 28.51,
+          "y": 23.4,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 28.51,
+          "y": 23.4,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 27.9602,
+          "y": 23.9498,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 27.9602,
+          "y": 23.9498,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.5698,
+          "y": 23.9498,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.5698,
+          "y": 23.9498,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 23.4,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 23.4,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.1305
+    },
+    {
+      "name": "C70 ADC to MCU pin9",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C70",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "9"
+      },
+      "expected_net": "ADC_I_V",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "053e19b6-b43a-4c6c-8929-e1fc83f84c5a",
+            "x": 25.02,
+            "y": 23.4,
+            "net": "ADC_I_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "a7aeca3f-c8a7-4853-adcd-0abaf912df2b",
+            "x": 22.175,
+            "y": 23.75,
+            "net": "ADC_I_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.866448,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.104476,
+      "track_centerline_mm": 2.31761,
+      "pad_and_junction_mm": 0.786866,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "4c882757-f199-4bc1-a704-2e6e1fc70bbe",
+        "f5b53d5c-497b-4e93-b748-9b38ef50c763"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 25.02,
+          "y": 23.4,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 23.4,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.4317,
+          "y": 23.4,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.3283,
+          "y": 23.2966,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.8126,
+          "y": 23.8123,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 23.75,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.083
+    },
+    {
+      "name": "C70 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C70",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "ddcb288b-eb75-420d-8c6d-632a0671ef23",
+            "x": 25.98,
+            "y": 23.4,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 12.185382,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R86 output to C71",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R86",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C71",
+        "pin": "1"
+      },
+      "expected_net": "ADC_I_W",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2f8a192e-bf19-41a9-b06a-c9d412a0fc47",
+            "x": 28.51,
+            "y": 24.8,
+            "net": "ADC_I_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "316f98eb-381e-4b00-ac7f-ac9a180a3d3e",
+            "x": 25.02,
+            "y": 24.8,
+            "net": "ADC_I_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.49,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C71 ADC to MCU pin10",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C71",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "10"
+      },
+      "expected_net": "ADC_I_W",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "316f98eb-381e-4b00-ac7f-ac9a180a3d3e",
+            "x": 25.02,
+            "y": 24.8,
+            "net": "ADC_I_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "9a1a5b9f-b7bb-49fe-aefe-e740c95eb747",
+            "x": 22.175,
+            "y": 24.25,
+            "net": "ADC_I_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.897676,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.072817,
+      "track_centerline_mm": 2.735386,
+      "pad_and_junction_mm": 0.337431,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "0ee512a3-c919-4945-a83a-62e5f6a06bbc",
+        "381a6563-b1cd-4391-ac5c-56853b93abca",
+        "54cb2c17-cf85-4dd3-badb-c8225f9c05ba"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 25.02,
+          "y": 24.8,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.7814,
+          "y": 24.5614,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.0613,
+          "y": 24.5614,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.0613,
+          "y": 24.5614,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.7499,
+          "y": 24.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.7499,
+          "y": 24.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 24.25,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 24.25,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0604
+    },
+    {
+      "name": "C71 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C71",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "ab18bb7a-8d16-40d4-b37b-68e50a7871a9",
+            "x": 25.98,
+            "y": 24.8,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 11.587645,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R87 output to C72",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R87",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C72",
+        "pin": "1"
+      },
+      "expected_net": "ADC_V_DC",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "e93e77de-65ef-4efc-ad60-23ef0a6b2cd0",
+            "x": 28.51,
+            "y": 26.2,
+            "net": "ADC_V_DC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "c44cbf26-5c70-46b9-9e67-bc2b4a82d943",
+            "x": 25.02,
+            "y": 26.2,
+            "net": "ADC_V_DC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.49,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 4.356206,
+      "track_centerline_mm": 4.356206,
+      "pad_and_junction_mm": 0.0,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "1053e2f0-db9e-494a-8d65-88e087d38126",
+        "f03f54b7-3c94-4cb2-8f50-defbd82c6ef7",
+        "f1a39888-ef4e-4339-8fc0-706eef4004ab"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 28.51,
+          "y": 26.2,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 28.51,
+          "y": 26.2,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 27.8975,
+          "y": 25.5875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 27.8975,
+          "y": 25.5875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 25.5875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 25.5875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 26.2,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 26.2,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.2482
+    },
+    {
+      "name": "C72 ADC to MCU pin11",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C72",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "11"
+      },
+      "expected_net": "ADC_V_DC",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "c44cbf26-5c70-46b9-9e67-bc2b4a82d943",
+            "x": 25.02,
+            "y": 26.2,
+            "net": "ADC_V_DC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "7e2669ea-650e-4df4-bbbc-dad4b3ac3970",
+            "x": 22.175,
+            "y": 24.75,
+            "net": "ADC_V_DC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.1932,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.893492,
+      "track_centerline_mm": 3.028272,
+      "pad_and_junction_mm": 0.86522,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "5674f781-45b0-4b27-ab3b-e01afc9dbb21",
+        "a95468dc-72c4-4d12-885e-8ce71aa6556d",
+        "ad884d22-f7d4-46b0-b510-a32d854ebf0d",
+        "ea81a53b-6e66-4d98-bc8b-d1e1a97adaf0",
+        "eff00560-3ac4-43c5-b641-8ea2bae96321",
+        "f03f54b7-3c94-4cb2-8f50-defbd82c6ef7",
+        "f0b3b80b-0d10-4bea-8d49-d1adf47a6004"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 25.02,
+          "y": 26.2,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 26.2,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 25.02,
+          "y": 25.5875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.9478,
+          "y": 25.5875,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.2234,
+          "y": 24.8631,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 24.2234,
+          "y": 24.8631,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.9363,
+          "y": 24.8631,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.9363,
+          "y": 24.8631,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.6775,
+          "y": 24.6043,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.6775,
+          "y": 24.6043,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.2641,
+          "y": 24.6043,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.2641,
+          "y": 24.6043,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.0206,
+          "y": 24.6043,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 23.0206,
+          "y": 24.6043,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.9631,
+          "y": 24.6618,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 22.175,
+          "y": 24.75,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.2193
+    },
+    {
+      "name": "C72 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C72",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "a1154551-c9e5-4707-8905-3c3200e158df",
+            "x": 25.98,
+            "y": 26.2,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 11.134789,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R88 output to C73",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R88",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C73",
+        "pin": "1"
+      },
+      "expected_net": "ADC_V_U",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "888d2a3e-32fc-42fa-8199-c190b4adfe98",
+            "x": 20.01,
+            "y": 34.0,
+            "net": "ADC_V_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "d9885601-c1b3-4b04-bb16-a95c514d8536",
+            "x": 19.02,
+            "y": 32.0,
+            "net": "ADC_V_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.231614,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.916242,
+      "track_centerline_mm": 2.485755,
+      "pad_and_junction_mm": 0.430487,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "2cc543dc-6bdb-4f27-8954-465c740a4ddc",
+        "57e9ba05-4ca6-4658-9472-73df8e1b08d4",
+        "7b014ef3-0311-4d4e-b1fc-f6e629a7d289",
+        "a69634d1-f841-41ad-923f-a85f2e0827d0"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 20.01,
+          "y": 34.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.3144,
+          "y": 33.6956,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.3144,
+          "y": 32.8608,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.3144,
+          "y": 32.8608,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.0047,
+          "y": 32.5511,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 20.0047,
+          "y": 32.5511,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.5711,
+          "y": 32.5511,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.5711,
+          "y": 32.5511,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.02,
+          "y": 32.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.02,
+          "y": 32.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.3068
+    },
+    {
+      "name": "C73 ADC to MCU pin18",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C73",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "18"
+      },
+      "expected_net": "ADC_V_U",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "d9885601-c1b3-4b04-bb16-a95c514d8536",
+            "x": 19.02,
+            "y": 32.0,
+            "net": "ADC_V_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "882c3431-e5ee-4fef-8bc1-3d9cd7dd67b3",
+            "x": 19.75,
+            "y": 29.175,
+            "net": "ADC_V_U",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.917795,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 3.194595,
+      "track_centerline_mm": 2.691545,
+      "pad_and_junction_mm": 0.50305,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "7cb29b93-d0e0-4b6d-a14f-a4d649482f1f",
+        "e48cfc1b-21d4-4791-9599-a1cdee27855b",
+        "f421ff20-c26b-4632-9d92-032f3ed3e094"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 19.02,
+          "y": 32.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.02,
+          "y": 32.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.02,
+          "y": 31.3688,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.02,
+          "y": 31.3688,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.8745,
+          "y": 30.5143,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.8745,
+          "y": 30.5143,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.8745,
+          "y": 29.6624,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 19.75,
+          "y": 29.175,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.0949
+    },
+    {
+      "name": "C73 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C73",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "5e7aff92-2021-4e29-b61a-914a2efc282b",
+            "x": 19.98,
+            "y": 32.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 5.509403,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R89 output to C74",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R89",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C74",
+        "pin": "1"
+      },
+      "expected_net": "ADC_V_V",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "358d8385-3769-4ec4-8cae-4fb69920ce12",
+            "x": 17.61,
+            "y": 34.0,
+            "net": "ADC_V_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "edeaefd9-1e6e-4d51-8c86-a95e45855cc8",
+            "x": 16.62,
+            "y": 32.0,
+            "net": "ADC_V_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.231614,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C74 ADC to MCU pin24",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C74",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "24"
+      },
+      "expected_net": "ADC_V_V",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "edeaefd9-1e6e-4d51-8c86-a95e45855cc8",
+            "x": 16.62,
+            "y": 32.0,
+            "net": "ADC_V_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "23005ad7-891f-4d52-b7ca-32220c86837a",
+            "x": 16.75,
+            "y": 29.175,
+            "net": "ADC_V_V",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.82799,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C74 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C74",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "7b5f5211-829f-45bd-b234-01da3d73f0f4",
+            "x": 17.58,
+            "y": 32.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.661902,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R90 output to C75",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R90",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C75",
+        "pin": "1"
+      },
+      "expected_net": "ADC_V_W",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "d0aaca11-6cba-40cc-833d-1e8ed64f2080",
+            "x": 15.21,
+            "y": 34.0,
+            "net": "ADC_V_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "2a76594b-375a-4a76-9292-a0113d6922de",
+            "x": 14.22,
+            "y": 32.0,
+            "net": "ADC_V_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.231614,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C75 ADC to MCU pin25",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C75",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "25"
+      },
+      "expected_net": "ADC_V_W",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "2a76594b-375a-4a76-9292-a0113d6922de",
+            "x": 14.22,
+            "y": 32.0,
+            "net": "ADC_V_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "37ced9e2-a2e3-4257-bb62-343633a23250",
+            "x": 16.25,
+            "y": 29.175,
+            "net": "ADC_V_W",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.478725,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C75 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C75",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "a8c1f450-c8da-4540-9a2e-4fc8a7a34a36",
+            "x": 15.18,
+            "y": 32.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.825867,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "R91 output to C76",
+      "group": "adc_rc_node",
+      "source": {
+        "ref": "R91",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "C76",
+        "pin": "1"
+      },
+      "expected_net": "ADC_TEMP_NTC",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "8518b792-f51f-4e5b-97ed-30c92ac06df0",
+            "x": 12.81,
+            "y": 34.0,
+            "net": "ADC_TEMP_NTC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "66263e04-795e-4e6f-8931-e693e4cb0a33",
+            "x": 11.82,
+            "y": 32.0,
+            "net": "ADC_TEMP_NTC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 2.231614,
+      "saved_copper_connected": true,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": 0,
+      "layers_used": [
+        "B.Cu"
+      ],
+      "unfilled_zone_layer_count": 0,
+      "status": "quantified_explicit_route",
+      "planar_copper_path_model_mm": 2.410071,
+      "track_centerline_mm": 2.215051,
+      "pad_and_junction_mm": 0.19502,
+      "via_uuids": [],
+      "via_objects_touched_count": 0,
+      "plated_pad_layer_changes": 0,
+      "track_uuids": [
+        "bab5ee11-1077-44ed-bae8-ca647735e9ad",
+        "bb37419e-8e99-4111-9d88-b1deab346fb8"
+      ],
+      "globally_shortest_copper_length_proven": false,
+      "pour_shortcuts_not_quantified": false,
+      "path_points": [
+        {
+          "x": 12.81,
+          "y": 34.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.6721,
+          "y": 33.8621,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.6721,
+          "y": 32.8521,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 12.6721,
+          "y": 32.8521,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.82,
+          "y": 32.0,
+          "layer": "B.Cu"
+        },
+        {
+          "x": 11.82,
+          "y": 32.0,
+          "layer": "B.Cu"
+        }
+      ],
+      "model_detour_ratio": 1.08
+    },
+    {
+      "name": "C76 ADC to MCU pin26",
+      "group": "adc_to_mcu",
+      "source": {
+        "ref": "C76",
+        "pin": "1"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "26"
+      },
+      "expected_net": "ADC_TEMP_NTC",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "66263e04-795e-4e6f-8931-e693e4cb0a33",
+            "x": 11.82,
+            "y": 32.0,
+            "net": "ADC_TEMP_NTC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "0997b389-32db-407c-ac34-bac96fa769f4",
+            "x": 15.75,
+            "y": 29.175,
+            "net": "ADC_TEMP_NTC",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 4.839992,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    },
+    {
+      "name": "C76 ground reference to VSSA",
+      "group": "adc_ground_reference",
+      "source": {
+        "ref": "C76",
+        "pin": "2"
+      },
+      "target": {
+        "ref": "U30",
+        "pin": "27"
+      },
+      "expected_net": "GND",
+      "endpoints": {
+        "source": [
+          {
+            "uuid": "c8f7def0-fc96-4f59-90d0-f4bef1b1cdf9",
+            "x": 12.78,
+            "y": 32.0,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ],
+        "target": [
+          {
+            "uuid": "89c963f3-dab4-4ce8-8496-129767fe0783",
+            "x": 15.25,
+            "y": 29.175,
+            "net": "GND",
+            "layers": [
+              "B.Cu"
+            ]
+          }
+        ]
+      },
+      "straight_line_mm": 3.752536,
+      "saved_copper_connected": false,
+      "pour_islands_in_source_component": 0,
+      "length_including_pours_mm": null,
+      "via_count": null,
+      "layers_used": null,
+      "unfilled_zone_layer_count": 0,
+      "status": "missing_saved_copper_path",
+      "planar_copper_path_model_mm": null,
+      "track_centerline_mm": null,
+      "connectivity_pour_evidence": []
+    }
+  ]
+}

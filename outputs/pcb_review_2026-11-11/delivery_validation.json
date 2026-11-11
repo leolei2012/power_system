@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "mapping": "364 refs / 1202 unique pins",
+  "mating_contacts": 64,
+  "geometry_errors": 0,
+  "controller_routing": "COMPLETE",
+  "inverter_routing": "INCOMPLETE",
+  "inverter_unconnected": 236,
+  "native_sources_and_manifests_current": true,
+  "markdown_links_valid": true,
+  "local_links_checked": 89,
+  "schematic_pages_unchanged": 27,
+  "final_kelvin_review_current": true
+}

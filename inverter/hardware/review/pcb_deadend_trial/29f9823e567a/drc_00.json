@@ -1,0 +1,82 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-06T11:41:24",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "inverter.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_U_HIGH_OK] (F.Cu), 长度: 1.5045 mm",
+                    "pos": {
+                        "x": 124.45,
+                        "y": 78.5875
+                    },
+                    "uuid": "ed01e91b-2cf8-4df5-9922-afd10a143c6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_V_HIGH_OK] (F.Cu), 长度: 1.6285 mm",
+                    "pos": {
+                        "x": 150.039,
+                        "y": 77.8735
+                    },
+                    "uuid": "43c791a3-240c-4dd1-93ee-d2525b2c23ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 0.4000 mm",
+                    "pos": {
+                        "x": 124.838,
+                        "y": 76.4385
+                    },
+                    "uuid": "c8f162c4-86a7-4f1e-b75a-22aeda7ed0e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

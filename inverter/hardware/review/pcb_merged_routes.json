@@ -1,0 +1,10 @@
+[
+  {
+    "patch": "inverter\\hardware\\tools\\pcb_final_power_necks.json",
+    "removed": 10,
+    "already_removed": [],
+    "added_segments": 10,
+    "added_vias": 0,
+    "placements": 0
+  }
+]

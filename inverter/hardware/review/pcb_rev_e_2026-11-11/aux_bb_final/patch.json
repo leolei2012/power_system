@@ -1,0 +1,262 @@
+{
+  "source_sha": "6bb4958470c935d956d909d5eeb91285f9c45fd58fad3ec0ce5f09ca1b4dcf24",
+  "source_board": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\fourth_finish\\inverter.kicad_pcb",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "/Driver supply/BB_L1",
+      "layer": "B.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          124.525,
+          135.3
+        ],
+        [
+          126.4,
+          138.1
+        ],
+        [
+          127.30000000000001,
+          141.55
+        ],
+        [
+          127.376,
+          141.749
+        ]
+      ],
+      "endpoint_refs": [
+        "L1.1",
+        "existing BB_L1 via/locked feeder"
+      ],
+      "reason": "new-source local actual-shape A* attachment",
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          116.55,
+          148.2
+        ],
+        [
+          116.4,
+          148.1
+        ],
+        [
+          116.1,
+          148.1
+        ],
+        [
+          115.8,
+          147.8
+        ],
+        [
+          115.1,
+          147.8
+        ],
+        [
+          114.7,
+          147.4
+        ],
+        [
+          114.6,
+          147.4
+        ],
+        [
+          114.5,
+          147.3
+        ],
+        [
+          114.1,
+          147.3
+        ],
+        [
+          113.5,
+          146.7
+        ],
+        [
+          113.5,
+          145.9
+        ],
+        [
+          113.1,
+          145.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          113.1,
+          145.5
+        ],
+        [
+          113.1,
+          146.3
+        ],
+        [
+          117.0,
+          150.2
+        ],
+        [
+          117.0,
+          151.1
+        ],
+        [
+          116.9,
+          151.2
+        ],
+        [
+          116.9,
+          151.3
+        ],
+        [
+          116.8,
+          151.4
+        ],
+        [
+          116.8,
+          151.5
+        ],
+        [
+          116.7,
+          151.6
+        ],
+        [
+          116.7,
+          151.7
+        ],
+        [
+          116.6,
+          151.8
+        ],
+        [
+          116.6,
+          151.9
+        ],
+        [
+          116.5,
+          152.0
+        ],
+        [
+          116.5,
+          152.2
+        ],
+        [
+          114.7,
+          154.0
+        ],
+        [
+          114.1,
+          154.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          114.1,
+          154.0
+        ],
+        [
+          114.3,
+          154.0
+        ],
+        [
+          114.4,
+          154.1
+        ],
+        [
+          114.5,
+          154.1
+        ],
+        [
+          114.6,
+          154.2
+        ],
+        [
+          114.7,
+          154.2
+        ],
+        [
+          114.8,
+          154.3
+        ],
+        [
+          114.9,
+          154.3
+        ],
+        [
+          115.0,
+          154.4
+        ],
+        [
+          115.2,
+          154.4
+        ],
+        [
+          115.3,
+          154.5
+        ],
+        [
+          115.5,
+          154.5
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "x": 113.1,
+      "y": 145.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "x": 114.1,
+      "y": 154.0,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "unresolved": [],
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\vreg_tp_finish.work\\inverter.kicad_pcb",
+  "candidate_sha": "532715bd712d693de91ffc3041b387f939ab15a911a9a02825c65cee54b4f18f",
+  "source_unchanged": true,
+  "validation": {
+    "source_unchanged": true,
+    "initial_native_gaps": 235,
+    "final_native_gaps": 233,
+    "actual_remaining_electrical_errors": 0,
+    "new_error_count": 0,
+    "last_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\vreg_tp_finish.work\\drc_001.json",
+    "ordinary_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "invariants": "Only new same-net tracks/vias; no part, rule, original track/via, Kelvin, hole or header changes."
+  },
+  "notes": [
+    "Cumulative new-source patch: BB_L1 .6 B attachment to existing .6/.3 via plus .2 VREG TP2 attachment.",
+    "Do not apply obsolete aux_bb_local patch. Root owns merge and final global validation."
+  ]
+}

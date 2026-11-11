@@ -1,0 +1,16 @@
+{
+  "kicad": "10.0.7",
+  "freerouting": "2.5.0 Java local CLI",
+  "freerouting_jar_sha256": "f6f51bb02245e8e717f9359bd260cc9c5c0b1bc0acc8b7cb2cd5b8ffeb5de3c7",
+  "source": "https://github.com/freerouting/freerouting/releases/tag/v2.5.0",
+  "java_runtime": "Eclipse Temurin 25.0.5+8 JRE",
+  "jre_archive_sha256": "da78d54a2fcdbba1e92d5e3f07dd30236f96297891c4a21a781c3f38f5c0beae",
+  "execution": "Local DSN/SES files; -da analytics disabled; API server and GUI disabled; no design upload",
+  "manual_routing": "Locked main power copper, source/shunt paths, gate resistors, independent Kelvin branches and local MLCC connections",
+  "routing_layers": [
+    "F.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "reference_plane": "In1.Cu retained as GND plane"
+}

@@ -1,0 +1,65 @@
+﻿Pin,GPIO,Net,Function,AF,Notes
+1,VBAT,+3V3_MCU,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+2,PC13,PC13,GPIO base-ready input,,PC13 receives protected base-ready from application base; raw MCU pad remains exposed.
+3,PC14,PC14,GPIO expansion reserve,,Raw unused application GPIO exposed on core header; corresponding base socket pad is NC.
+4,PC15,PC15,GPIO expansion reserve,,Raw unused application GPIO exposed on core header; corresponding base socket pad is NC.
+5,PF0,HSE_IN,OSC_IN,,HSE crystal input; frequency/load components subject to crystal selection; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+6,PF1,HSE_OUT,OSC_OUT,,HSE crystal output; frequency/load components subject to crystal selection; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+7,PG10-NRST,NRST,NRST,,Open-drain TPS3808 RESET plus SWD reset and reset key; retain NRST option-byte function; no push-pull driver; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+8,PC0,PC0,ADC1_IN6,Analog,PC0 supports ADC1/2 channel 6; selected ADC1. Three currents cannot all be converted simultaneously by only two ADCs.; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+9,PC1,PC1,ADC2_IN7,Analog,PC1 supports ADC1/2 channel 7; selected ADC2 for simultaneous U/V pair; injected trigger/sample windows still require verification; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+10,PC2,PC2,ADC1_IN8,Analog,PC2 supports ADC1/2 channel 8; selected ADC1 sequential conversion; low-side shunt valid windows and reconstruction require review; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+11,PC3,PC3,ADC2_IN9,Analog,PC3 supports ADC1/2 channel 9; selected ADC2; voltage/temperature scan timing separate from fast current sampling; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+12,PA0,PA0,TIM2_CH1,AF1,Incremental encoder A; 3.3 V single-ended MCU-side input; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+13,PA1,PA1,TIM2_CH2,AF1,Incremental encoder B; same TIM2 encoder counter as ENC_A_A; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+14,PA2,PA2,GPIO_EXTI2,,Index input via EXTI2; not promised to reset timer in hardware; do not use USART2 TX here; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+15,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+16,VDD,+3V3_MCU,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+17,PA3,PA3,GPIO_EXTI3,,Index input via EXTI3; not promised to reset timer in hardware; do not use USART2 RX here; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+18,PA4,PA4,ADC2_IN17,Analog,PA4 external ADC2 channel17; preserve SPI1 CS on PA15 instead; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+19,PA5,PA5,SPI1_SCK,AF5,Independent hardware SPI1; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+20,PA6,PA6,SPI1_MISO,AF5,Independent hardware SPI1; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+21,PA7,PA7,SPI1_MOSI,AF5,Independent hardware SPI1; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+22,PC4,PC4,GPIO_Output,,Active-high bridge enable; external pulldown; remains low during reset; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+23,PC5,PC5,GPIO_Output,,Programmable RUN LED; series resistor and modest GPIO current; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+24,PB0,PB0,ADC1_IN15,Analog,PB0 external ADC1 channel15; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+25,PB1,PB1,ADC1_IN12,Analog,PB1 external ADC1 channel12; not ADC2 channel12; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+26,PB2,PB2,ADC2_IN12,Analog,PB2 external ADC2 channel12; not ADC1 channel12; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+27,VSSA,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+28,VREF+,VREF_MCU,VREF+,,Reference input from filtered analog supply; VREFBUF disabled unless separately designed; local decoupling
+29,VDDA,+3V3_A_MCU,VDDA,,Filtered 3.3 V analog supply; local decoupling; do not omit VDDA
+30,PB10,PB10,USART3_TX,AF7,3.3 V TTL serial; no RS232/5 V assumption; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+31,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+32,VDD,+3V3_MCU,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+33,PB11,PB11,USART3_RX,AF7,3.3 V TTL serial; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+34,PB12,PB12,TIM1_BKIN,AF6,Local open-collector/open-drain fault with 3.3 V pullup; configure BKIN active-low; input readback can share this pad; no automatic output restart; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+35,PB13,PB13,TIM1_CH1N,AF6,U low-side complementary PWM; goes through independent hardware gating; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+36,PB14,PB14,TIM1_CH2N,AF6,V low-side complementary PWM; goes through independent hardware gating; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+37,PB15,PB15,TIM1_CH3N,AF4,W low-side PWM uses AF4 (not AF6); DS12589 Rev6 Table13 page62; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+38,PC6,PC6,TIM8_CH1,AF4,Independent brake timebase and enable; must not be gated by bridge FAULT_N/ENABLE; external default pulldown; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+39,PC7,PC7,GPIO RUN_ARM,,PC7 defaults LOW via local 10k. Inverter application explicitly arms after safe initialization; G431 ROM loader does not use PC7.
+40,PC8,PC8,GPIO_Output,,Programmable FAULT LED; do not select TIM8_CH3 on this pad; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+41,PC9,PC9,GPIO_Output,,SPI3 software chip-select; external pullup; not TIM8_CH4/BKIN2; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+42,PA8,PA8,TIM1_CH1,AF6,U high-side PWM; goes through independent hardware gating; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+43,PA9,PA9,TIM1_CH2,AF6,V high-side PWM; disable unused UCPD dead-battery pulls before using PA9/PA10 as PWM; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+44,PA10,PA10,TIM1_CH3,AF6,W high-side PWM; disable unused UCPD dead-battery pulls before using PA9/PA10 as PWM; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+45,PA11,PA11,FDCAN1_RX,AF9,Optional classic CAN with existing SN65HVD232; transceiver is not a CAN-FD PHY guarantee; USB not used; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+46,PA12,PA12,FDCAN1_TX,AF9,Optional classic CAN; configure classic frames for SN65HVD232; USB not used; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+47,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+48,VDD,+3V3_MCU,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+49,PA13,PA13,SWDIO,AF0,Keep SWD accessible; do not repurpose during normal debug; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+50,PA14,PA14,SWCLK,AF0,Keep SWD accessible; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+51,PA15,PA15,GPIO_Output,,SPI1 software chip-select; external pullup; release JTDI while retaining PA13/PA14 SWD; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+52,PC10,PC10,SPI3_SCK,AF6,Second independent hardware SPI uses SPI3; SPI2 pins conflict with TIM1 low-side outputs; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+53,PC11,PC11,SPI3_MISO,AF6,Second independent hardware SPI3; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+54,PC12,PC12,SPI3_MOSI,AF6,Second independent hardware SPI3; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+55,PD2,PD2,GPIO_Output,,Programmable communication LED; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+56,PB3,PB3,GPIO expansion reserve,,Raw unused application GPIO exposed on core header; corresponding base socket pad is NC.
+57,PB4,PB4,GPIO expansion reserve,,Raw unused application GPIO exposed on core header; corresponding base socket pad is NC.
+58,PB5,PB5,GPIO_Output,,Fourth programmable LED; power LED separately tied to supply and uses no MCU GPIO; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+59,PB6,PB6,TIM4_CH1,AF2,Incremental encoder A; disable unused UCPD dead-battery function on PB6 if needed; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+60,PB7,PB7,TIM4_CH2,AF2,Incremental encoder B; same TIM4 encoder counter as ENC_B_A; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+61,PB8-BOOT0,PB8_BOOT0,BOOT0,,External 10k pulldown to GND; option bytes nBOOT0/nSWBOOT0 must be reviewed; not an unused NC; Raw MCU pad exposed on GPIO header; application conditioning is on base.
+62,PB9,PB9,GPIO expansion reserve,,Raw unused application GPIO exposed on core header; corresponding base socket pad is NC.
+63,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+64,VDD,+3V3_MCU,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "original/official_download_page.html",
+    "url": "https://www.openedv.com/docs/boards/stm32dj/ATK-PD6010B.html",
+    "final_url": "https://www.openedv.com/docs/boards/stm32dj/ATK-PD6010B.html",
+    "checked_date": "2026-10-31",
+    "bytes": 22786,
+    "sha256": "4b8c89c1d0b174a13dd9142045ae4387007e1bef0cfc891dfe89827dbf1f0514",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded"
+  },
+  {
+    "file": "original/official_download_index.rst",
+    "url": "https://raw.githubusercontent.com/alientek-openedv/Products/d917adac269f72ea1fb008baaed4d25319fcdf0c/zdyz_docs/boards/stm32dj/ATK-PD6010B.rst",
+    "final_url": "https://raw.githubusercontent.com/alientek-openedv/Products/d917adac269f72ea1fb008baaed4d25319fcdf0c/zdyz_docs/boards/stm32dj/ATK-PD6010B.rst",
+    "checked_date": "2026-10-31",
+    "bytes": 1731,
+    "sha256": "bc3bfd09037d86b87ec7323e664c5d2e42dc1ebbb01cf1291f0a7db65c11d1df",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded"
+  },
+  {
+    "file": "original/official_DMF407_index.rst",
+    "url": "https://raw.githubusercontent.com/alientek-openedv/Products/d917adac269f72ea1fb008baaed4d25319fcdf0c/zdyz_docs/boards/stm32dj/ATK-DMF407.rst",
+    "final_url": "https://raw.githubusercontent.com/alientek-openedv/Products/d917adac269f72ea1fb008baaed4d25319fcdf0c/zdyz_docs/boards/stm32dj/ATK-DMF407.rst",
+    "checked_date": "2026-10-31",
+    "bytes": 1865,
+    "sha256": "66e483397c616f6969ed9dcc99f3f04e5716bb19e348b41854a5fe2cabd2c2dd",
+    "content_type": "text/plain; charset=utf-8",
+    "status": "downloaded"
+  },
+  {
+    "file": "original/official_board_front.png",
+    "url": "https://www.openedv.com/docs/_images/qdbb.png",
+    "final_url": "https://www.openedv.com/docs/_images/qdbb.png",
+    "checked_date": "2026-10-31",
+    "bytes": 206780,
+    "sha256": "f6b8c2b3bd6663ea67a79d295961a2ef27708682b76fe0d3007becff1346c7bf",
+    "content_type": "image/png",
+    "status": "downloaded"
+  },
+  {
+    "file": "original/official_hardware_forum.html",
+    "url": "https://www.openedv.com/thread-336839-1-1.html",
+    "final_url": "https://www.openedv.com/thread-336839-1-1.html",
+    "checked_date": "2026-10-31",
+    "bytes": 47803,
+    "sha256": "0ed7b99686b3cb42f92e334b6582c5d1c59284816376a6d786d785a36622a172",
+    "content_type": "text/html; charset=gbk",
+    "status": "downloaded"
+  },
+  {
+    "file": "original/official_ch21_blog.html",
+    "url": "https://blog.51cto.com/u_15046463/5632029",
+    "final_url": "https://blog.51cto.com/u_15046463/5632029",
+    "checked_date": "2026-10-31",
+    "bytes": 986,
+    "sha256": "dde1930d349ee04d9b473fbf1d5c8b3af710189d3a4c6a3de8649c2b7e9aa0cb",
+    "content_type": "text/html",
+    "status": "not_downloaded",
+    "error": "Returned bot-check JavaScript instead of article; response not retained as technical material"
+  },
+  {
+    "item": "ATK-PD6010B 用户手册 PDF",
+    "status": "not_downloaded",
+    "note": "Official archive not retrieved. No verified downloadable standalone PD6010B user manual found on GitHub; DMG474 manual is for the companion controller board.",
+    "checked_date": "2026-10-31"
+  },
+  {
+    "item": "ATK-PD6010B 原理图",
+    "status": "downloaded_third_party_copy",
+    "note": "GitHub V1.0 PDF obtained; two public repository copies byte-identical. Official archive comparison pending; see github_downloads.json.",
+    "checked_date": "2026-10-31",
+    "file": "original/github/ATK-PD6010B_V1.0.pdf"
+  },
+  {
+    "item": "ATK-PD6010B PCB或源工程",
+    "status": "not_verified",
+    "note": "Whether these files are provided in official archive is not yet verified",
+    "checked_date": "2026-10-31"
+  }
+]

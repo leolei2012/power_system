@@ -1,0 +1,171 @@
+{
+  "net": "DRIVE_PERMIT",
+  "paths": [
+    {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          10.131175,
+          27.9868
+        ],
+        [
+          10.15,
+          27.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "DRIVE_PERMIT",
+      "layer": "In3.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          10.15,
+          27.9
+        ],
+        [
+          10.15,
+          24.9
+        ],
+        [
+          9.55,
+          24.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "DRIVE_PERMIT",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          9.55,
+          24.3
+        ],
+        [
+          11.4,
+          22.45
+        ],
+        [
+          11.45,
+          22.45
+        ],
+        [
+          11.5,
+          22.4
+        ],
+        [
+          11.55,
+          22.4
+        ],
+        [
+          11.6,
+          22.35
+        ],
+        [
+          11.65,
+          22.35
+        ],
+        [
+          11.7,
+          22.3
+        ],
+        [
+          11.75,
+          22.3
+        ],
+        [
+          11.8,
+          22.25
+        ],
+        [
+          11.9,
+          22.25
+        ],
+        [
+          11.95,
+          22.2
+        ],
+        [
+          16.8,
+          22.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          16.8,
+          22.2
+        ],
+        [
+          15.9,
+          21.3
+        ],
+        [
+          15.85,
+          21.3
+        ],
+        [
+          15.4,
+          20.85
+        ],
+        [
+          15.35,
+          20.85
+        ],
+        [
+          15.3,
+          20.8
+        ],
+        [
+          15.24,
+          20.75
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "DRIVE_PERMIT",
+      "x": 10.15,
+      "y": 27.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "DRIVE_PERMIT",
+      "x": 9.55,
+      "y": 24.3,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "DRIVE_PERMIT",
+      "x": 16.8,
+      "y": 22.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 97784,
+    "seconds": 2.547,
+    "start_candidates": 372,
+    "goal_candidates": 12
+  }
+}

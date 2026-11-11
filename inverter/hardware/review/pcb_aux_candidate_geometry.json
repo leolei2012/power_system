@@ -1,0 +1,787 @@
+{
+  "source_sha": "ad8f26911e94d155b6a1d089ae41c8ac9b5ebb3df0191390a60637154cc26036",
+  "ripup_uuids": [
+    "92c8d919-5ded-4cb4-b3a0-dd986e8f88e7",
+    "0bc8df21-1380-4e61-a516-f00a07adac23",
+    "3b3d05a8-5923-4ae4-9c9d-83867d9f54b3",
+    "6c140850-c27d-408e-8f4d-fddefc306d41",
+    "6cab4875-3c20-4722-88c5-6bced47965a7",
+    "7e8de9e7-90f4-4ca2-8c16-68adeca6e365",
+    "92f93658-a22c-4038-b2e7-31b30ffa7f7c",
+    "95472b50-fffe-42b6-a427-be95a387df93",
+    "a486ed35-da02-432c-8957-cb45a981dfcb",
+    "f0ab0d3b-abed-47b8-b2d7-174d6e39a5b3",
+    "f2ad6b76-3ff4-4a57-8a48-a71650fbd4e1",
+    "f3787587-7192-44b3-82a4-93d461fbca3d",
+    "052533ba-1caf-4a67-8d9d-7d3808b7733b",
+    "46e081b7-4762-4a8e-8be0-4807b384663d",
+    "048ea4d5-27c3-44f2-b3ff-c1b8ad5c144d",
+    "76fcb758-5dba-4cbd-a7bb-8455f539b3f7",
+    "e2b7da1f-ce4e-4cb7-86a6-004c3b687bce",
+    "be84b850-1649-4731-a035-5b4afc2da4db",
+    "3cb82534-9754-4432-bd4f-e1ff9683ea59",
+    "7675a549-0035-4bf1-baff-c88c3d78aef1",
+    "77b6daf3-8a2e-4a0f-b5b7-a0138e62fc68",
+    "19f9b6aa-be0d-4df3-9ac3-1a1a9065d960",
+    "37219d82-92f8-4710-af48-5b92b79dc0bb",
+    "3831c080-78c7-49f5-b5c0-d06442a7f028",
+    "5d22b36c-fb74-4b0b-9921-80280b6d6eb0",
+    "64a7e9cd-2f99-48a9-a597-fa00291bad59",
+    "64e32be7-a623-4981-80f9-87a841376f6f",
+    "ad8fb5ac-c51c-464f-ac03-0465ffac1827",
+    "ed1e1491-7d63-4dc3-a440-e05ad21aa24b",
+    "ef7e6f30-eea6-4a0d-b69a-216c8779adf4",
+    "7b8eae6c-630d-448a-84c5-eda80dc21cf4",
+    "27bc6de8-c173-43e1-bd41-3eaf394f2bf1",
+    "774db6c1-ec58-4438-8baa-c2f105936814",
+    "a5d9cd26-e6a0-4481-8b9e-025be11c4f2f",
+    "de239241-8f0d-47e5-80f0-d47446af4718",
+    "0aea5541-22c8-40f9-ab49-a738043c4ac8",
+    "226cff24-c7d5-4512-81ad-ed3a7c7bed9b",
+    "0866dc98-e8b8-4ada-bba6-6d127f5fc6d0",
+    "55ed5701-61f9-4fab-b4d5-9b11a17bdd77",
+    "2571ec8e-d9fe-4e38-a082-945909f96b55",
+    "3f1a3bb1-793b-432c-9ed0-85bc342d42fc",
+    "7479e031-dac4-41a4-a702-60ca36f89774",
+    "ca8c876f-8e9d-4442-81a2-b42e8e5f0710",
+    "d97b1aa2-8787-45fc-8d07-524a51d50abd",
+    "8a527d07-20f3-4093-9f2d-4596f66d4a9f",
+    "c764e39a-32fc-41d1-8bd9-ae85781f5087",
+    "755edfb3-7ab4-476d-a9a1-33fb86ad4d34",
+    "799469a5-3b3c-4ac5-8ec2-0c4b5279f783"
+  ],
+  "paths": [
+    {
+      "net": "/Auxiliary input/AUX_DVDT",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          31.8625,
+          118.825
+        ],
+        [
+          33.825,
+          119.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_BST1",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          52.6,
+          117.375
+        ],
+        [
+          50,
+          117.375
+        ],
+        [
+          50.0,
+          116.775
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_L1",
+      "layer": "F.Cu",
+      "width": 0.3,
+      "points": [
+        [
+          52.6,
+          116.725
+        ],
+        [
+          51.2,
+          116.725
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_L1",
+      "layer": "F.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          51.2,
+          116.725
+        ],
+        [
+          51.2,
+          115.225
+        ],
+        [
+          50.0,
+          115.225
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_ILIM",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          31.8625,
+          119.475
+        ],
+        [
+          32.95,
+          119.475
+        ],
+        [
+          32.95,
+          119.9
+        ],
+        [
+          33.3,
+          120.25
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_ILIM",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          34.1,
+          123.225
+        ],
+        [
+          33,
+          123.225
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_ILIM",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          33.3,
+          120.25
+        ],
+        [
+          33,
+          120.55
+        ],
+        [
+          33,
+          123.225
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          52.6,
+          116.075
+        ],
+        [
+          51.8,
+          116.075
+        ],
+        [
+          51.8,
+          114.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          50.0,
+          118.55
+        ],
+        [
+          50,
+          119.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "AUX_FLT_N",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          31.8625,
+          117.525
+        ],
+        [
+          33,
+          117.525
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "AUX_FLT_N",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          36.175,
+          124.0
+        ],
+        [
+          35.0,
+          124
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "AUX_FLT_N",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          33,
+          117.525
+        ],
+        [
+          35,
+          119.525
+        ],
+        [
+          35,
+          124
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_FUSED",
+      "layer": "F.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          22.9512,
+          116.748
+        ],
+        [
+          22.9512,
+          115.5
+        ],
+        [
+          25.5,
+          115.5
+        ],
+        [
+          25.5,
+          116.225
+        ],
+        [
+          26.1375,
+          116.225
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_FUSED",
+      "layer": "F.Cu",
+      "width": 0.3,
+      "points": [
+        [
+          26.1375,
+          116.225
+        ],
+        [
+          26.1375,
+          116.875
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          26.1375,
+          117.525
+        ],
+        [
+          25.1,
+          117.525
+        ],
+        [
+          24.6,
+          117.025
+        ],
+        [
+          24.6,
+          116.7
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          23.825,
+          119.0
+        ],
+        [
+          23.825,
+          118
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          24.6,
+          116.7
+        ],
+        [
+          23.825,
+          117.475
+        ],
+        [
+          23.825,
+          118
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          23.825,
+          119.0
+        ],
+        [
+          23.825,
+          120
+        ],
+        [
+          22.175,
+          120
+        ],
+        [
+          22.175,
+          121.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          26.1375,
+          118.825
+        ],
+        [
+          25.025,
+          118.825
+        ],
+        [
+          24.7,
+          118.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          23.825,
+          123.0
+        ],
+        [
+          23.825,
+          122.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          24.7,
+          118.5
+        ],
+        [
+          23.3,
+          119.9
+        ],
+        [
+          23.3,
+          122.2
+        ],
+        [
+          23.825,
+          122.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          23.825,
+          123.0
+        ],
+        [
+          24.7,
+          123
+        ],
+        [
+          24.7,
+          124
+        ],
+        [
+          22.175,
+          124
+        ],
+        [
+          22.175,
+          125.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_MODE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          26.1375,
+          119.475
+        ],
+        [
+          25,
+          119.475
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_MODE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          26.5,
+          126.325
+        ],
+        [
+          28,
+          126.325
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_MODE",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          25,
+          119.475
+        ],
+        [
+          27,
+          121.475
+        ],
+        [
+          27,
+          126.325
+        ],
+        [
+          28,
+          126.325
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          26.1375,
+          120.125
+        ],
+        [
+          24.8,
+          120.125
+        ],
+        [
+          24.8,
+          120.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          27.625,
+          113.0
+        ],
+        [
+          28.8,
+          113
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          28.8,
+          113
+        ],
+        [
+          20,
+          113
+        ],
+        [
+          20,
+          120.3
+        ],
+        [
+          24.8,
+          120.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          11.0,
+          123.5
+        ],
+        [
+          10,
+          123.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          10,
+          123.5
+        ],
+        [
+          10,
+          121.5
+        ],
+        [
+          20,
+          121.5
+        ],
+        [
+          20,
+          120.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          11,
+          123.5
+        ],
+        [
+          17.5,
+          123.5
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Auxiliary input/AUX_ILIM",
+      "x": 33.3,
+      "y": 120.25,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_ILIM",
+      "x": 33,
+      "y": 123.225,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "GND",
+      "x": 51.8,
+      "y": 114.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "GND",
+      "x": 50,
+      "y": 119.3,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "AUX_FLT_N",
+      "x": 33,
+      "y": 117.525,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "AUX_FLT_N",
+      "x": 35,
+      "y": 124,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "x": 24.6,
+      "y": 116.7,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "x": 23.825,
+      "y": 118,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "x": 24.7,
+      "y": 118.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "x": 23.825,
+      "y": 122.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_MODE",
+      "x": 25,
+      "y": 119.475,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_MODE",
+      "x": 28,
+      "y": 126.325,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "x": 24.8,
+      "y": 120.3,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "x": 28.8,
+      "y": 113,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "x": 10,
+      "y": 123.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\inverter_aux_candidate.kicad_pcb"
+}

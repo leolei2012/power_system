@@ -1,0 +1,56 @@
+{
+  "net": "/Debug and communication/CAN_L",
+  "paths": [
+    {
+      "net": "/Debug and communication/CAN_L",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          47.27,
+          2.0
+        ],
+        [
+          47.27,
+          1.048
+        ],
+        [
+          16.824,
+          1.048
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Debug and communication/CAN_L",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          16.824,
+          1.048
+        ],
+        [
+          16.8583,
+          1.0823
+        ],
+        [
+          16.8583,
+          2.6472
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Debug and communication/CAN_L",
+      "x": 16.824,
+      "y": 1.048,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "native_octilinear_one_via"
+}

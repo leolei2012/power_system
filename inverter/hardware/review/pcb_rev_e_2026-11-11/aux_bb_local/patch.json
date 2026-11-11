@@ -1,0 +1,428 @@
+{
+  "source_sha": "91b5e35402699f73413452d4a63ff839f2f2ce67af26fc1191466aed7af4d143",
+  "source_board": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\full_route\\inverter.kicad_pcb",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_1",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          109.3375,
+          129.45
+        ],
+        [
+          109.3375,
+          130.1
+        ]
+      ],
+      "endpoint_refs": [
+        "U22.3",
+        "U22.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_5",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.1375,
+          123.65
+        ],
+        [
+          116.1375,
+          124.3
+        ]
+      ],
+      "endpoint_refs": [
+        "U23.3",
+        "U23.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_9",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          120.5375,
+          129.55
+        ],
+        [
+          120.5375,
+          130.2
+        ]
+      ],
+      "endpoint_refs": [
+        "U24.3",
+        "U24.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          134.55,
+          122.8375
+        ],
+        [
+          134.55,
+          121.1625
+        ]
+      ],
+      "endpoint_refs": [
+        "U15.3",
+        "U15.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_V",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          134.75,
+          130.3375
+        ],
+        [
+          134.75,
+          128.6625
+        ]
+      ],
+      "endpoint_refs": [
+        "U16.3",
+        "U16.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_W",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          126.7375,
+          136.55
+        ],
+        [
+          125.0625,
+          136.55
+        ]
+      ],
+      "endpoint_refs": [
+        "U17.3",
+        "U17.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          121.4625,
+          117.05
+        ],
+        [
+          123.1375,
+          117.05
+        ]
+      ],
+      "endpoint_refs": [
+        "U13.3",
+        "U13.4"
+      ],
+      "reason": "same-package local tie",
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_L1",
+      "layer": "B.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          124.525,
+          135.3
+        ],
+        [
+          127.25,
+          140.95000000000002
+        ],
+        [
+          127.376,
+          141.749
+        ]
+      ],
+      "endpoint_refs": [
+        "L1.1",
+        "existing BB_L1 through-via"
+      ],
+      "reason": "local actual-shape A* attachment",
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          119.6,
+          144.475
+        ],
+        [
+          118.7,
+          144.6
+        ],
+        [
+          118.55000000000001,
+          144.8
+        ],
+        [
+          118.55000000000001,
+          145.5
+        ],
+        [
+          118.75,
+          145.65
+        ],
+        [
+          119.6,
+          145.775
+        ]
+      ],
+      "endpoint_refs": [
+        "U2.14",
+        "U2.12"
+      ],
+      "reason": "local actual-shape A* attachment",
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          116.55,
+          148.2
+        ],
+        [
+          116.4,
+          148.1
+        ],
+        [
+          116.1,
+          148.1
+        ],
+        [
+          115.8,
+          147.8
+        ],
+        [
+          115.1,
+          147.8
+        ],
+        [
+          114.7,
+          147.4
+        ],
+        [
+          114.6,
+          147.4
+        ],
+        [
+          114.5,
+          147.3
+        ],
+        [
+          114.1,
+          147.3
+        ],
+        [
+          113.5,
+          146.7
+        ],
+        [
+          113.5,
+          146.1
+        ],
+        [
+          113.4,
+          146.0
+        ]
+      ],
+      "locked": false,
+      "endpoint_refs": [
+        "C10.1",
+        "new VREG via (113.4,146.0)"
+      ]
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          113.4,
+          146.0
+        ],
+        [
+          113.4,
+          147.8
+        ],
+        [
+          114.4,
+          148.8
+        ],
+        [
+          114.4,
+          148.9
+        ],
+        [
+          114.5,
+          149.0
+        ],
+        [
+          114.5,
+          152.3
+        ]
+      ],
+      "locked": false,
+      "endpoint_refs": [
+        "new VREG via (113.4,146.0)",
+        "new VREG via (114.5,152.3)"
+      ]
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          114.5,
+          152.3
+        ],
+        [
+          114.6,
+          152.4
+        ],
+        [
+          114.6,
+          152.9
+        ],
+        [
+          114.7,
+          153.0
+        ],
+        [
+          114.7,
+          153.1
+        ],
+        [
+          115.2,
+          153.6
+        ],
+        [
+          115.2,
+          153.7
+        ],
+        [
+          115.3,
+          153.8
+        ],
+        [
+          115.3,
+          153.9
+        ],
+        [
+          115.4,
+          154.0
+        ],
+        [
+          115.4,
+          154.2
+        ],
+        [
+          115.5,
+          154.3
+        ],
+        [
+          115.5,
+          154.5
+        ]
+      ],
+      "locked": false,
+      "endpoint_refs": [
+        "new VREG via (114.5,152.3)",
+        "TP2.1"
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "x": 113.4,
+      "y": 146.0,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "x": 114.5,
+      "y": 152.3,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "unresolved": [],
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_local\\vreg_tp_finish.work\\inverter.kicad_pcb",
+  "candidate_sha": "75bf69905788893b6983ed4973d78648474f39d02a29a372d0f457a04634d38d",
+  "source_unchanged": true,
+  "validation": {
+    "source_unchanged": true,
+    "initial_gaps": 368,
+    "final_gaps": 358,
+    "last_native_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_local\\vreg_tp_finish.work\\drc_001.json",
+    "new_electrical_errors": 0,
+    "actual_electrical_errors": 0,
+    "local_steps": [
+      "7 local F .15 ties",
+      "BB_L1 B .60 to existing via, no new BB_L1 via",
+      "BB_VREG U2.14 to existing U2.12 B .20",
+      "BB_VREG testpoint ordinary .20 multilayer attachment"
+    ],
+    "fixed_copper": "277 tracks/98 vias/41 zones unchanged; seven identical baseline contacts are entirely within actual RSx.2 star pickup pad, not off-pad Kelvin taps.",
+    "fixed_geometry_preserved": true,
+    "baseline_Kelvin_issues": 7,
+    "candidate_Kelvin_issues": 7,
+    "Kelvin_issues_identical_to_baseline": true,
+    "Kelvin_star_review": "kelvin_star_contact_review.json",
+    "Kelvin_all_seven_contacts_inside_RS_pad": true,
+    "Kelvin_endpoint_star_contacts": "7 baseline-original locked via contacts entirely within actual RSx.2 pad copper (Boolean proof); no new Kelvin attachment; negative dedicated via remains isolated from In1/In4.",
+    "fixed_geometry_report": "fixed_check.json",
+    "star_contact_report": "kelvin_star_contact_review.json"
+  },
+  "notes": [
+    "Only additions; root must recheck geometry after fourth-router SES import.",
+    "Source excludes current fourth-router output: frozen before SES; source SHA retained.",
+    "BB_L1 new .6 B branch replaces no existing .3 pad neck, which remains a thermal/current review issue."
+  ]
+}

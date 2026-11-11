@@ -1,0 +1,128 @@
+{
+  "changes": [
+    {
+      "phase": "U",
+      "old_kelvin_segments_removed": 1,
+      "return_segments_widened_to_2mm": 0,
+      "positive_inner_pad_branch": [
+        [
+          119.35,
+          68.55000000000001
+        ],
+        [
+          124.22500000000001,
+          68.55000000000001
+        ],
+        [
+          124.22500000000001,
+          69.8625
+        ],
+        [
+          125.025,
+          69.8625
+        ]
+      ],
+      "negative_inner_pad_branch": [
+        [
+          119.35,
+          73.44999999999999
+        ],
+        [
+          124.22500000000001,
+          73.44999999999999
+        ],
+        [
+          124.22500000000001,
+          72.1375
+        ],
+        [
+          125.025,
+          72.1375
+        ]
+      ]
+    },
+    {
+      "phase": "V",
+      "old_kelvin_segments_removed": 1,
+      "return_segments_widened_to_2mm": 0,
+      "positive_inner_pad_branch": [
+        [
+          143.35,
+          68.55000000000001
+        ],
+        [
+          148.225,
+          68.55000000000001
+        ],
+        [
+          148.225,
+          69.8625
+        ],
+        [
+          149.025,
+          69.8625
+        ]
+      ],
+      "negative_inner_pad_branch": [
+        [
+          143.35,
+          73.44999999999999
+        ],
+        [
+          148.225,
+          73.44999999999999
+        ],
+        [
+          148.225,
+          72.1375
+        ],
+        [
+          149.025,
+          72.1375
+        ]
+      ]
+    },
+    {
+      "phase": "W",
+      "old_kelvin_segments_removed": 1,
+      "return_segments_widened_to_2mm": 0,
+      "positive_inner_pad_branch": [
+        [
+          167.35,
+          68.55000000000001
+        ],
+        [
+          172.225,
+          68.55000000000001
+        ],
+        [
+          172.225,
+          69.8625
+        ],
+        [
+          173.025,
+          69.8625
+        ]
+      ],
+      "negative_inner_pad_branch": [
+        [
+          167.35,
+          73.44999999999999
+        ],
+        [
+          172.225,
+          73.44999999999999
+        ],
+        [
+          172.225,
+          72.1375
+        ],
+        [
+          173.025,
+          72.1375
+        ]
+      ]
+    }
+  ],
+  "note": "Sense branches originate at the resistor-facing pad edges; only pad copper is shared with the high-current return."
+}

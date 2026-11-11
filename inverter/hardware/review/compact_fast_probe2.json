@@ -1,0 +1,123 @@
+{
+  "source_sha": "4d4f0c2ae1d5177ebf351e92cd70ae8483fde624233a5b98dc958461cede13fb",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "OC_LOW_REF",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          32.0,
+          29.51
+        ],
+        [
+          32.0,
+          29.85
+        ],
+        [
+          31.95,
+          29.9
+        ],
+        [
+          31.95,
+          31.05
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OC_LOW_REF",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.95,
+          31.05
+        ],
+        [
+          31.4,
+          30.5
+        ],
+        [
+          31.35,
+          30.5
+        ],
+        [
+          31.3,
+          30.45
+        ],
+        [
+          31.2,
+          30.45
+        ],
+        [
+          31.15,
+          30.4
+        ],
+        [
+          31.046972727272728,
+          30.392527272727275
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "OC_LOW_REF",
+      "x": 31.95,
+      "y": 31.05,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fast_probe2.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "OC_LOW_REF",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 3041,
+        "seconds": 60.125,
+        "start_candidates": 12,
+        "goal_candidates": 120
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fast_probe2.work\\drc_001.json"
+    }
+  ],
+  "unresolved": [],
+  "validation": {
+    "source_drc_endpoint_uuids": 68,
+    "resolved_source_drc_endpoint_uuids": 68,
+    "source_drc_sha": "952a81469da3daa1735e951110aa6df065e24efd8ae0c376b01fad280ede8b89",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_analog.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fast_probe2.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 215,
+    "after_unconnected": 214,
+    "before_drc_listed_unconnected": 215,
+    "after_drc_listed_unconnected": 214,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fast_probe2.work\\drc_001.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

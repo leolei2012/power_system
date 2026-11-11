@@ -1,0 +1,3949 @@
+{
+  "tracks": [
+    {
+      "uuid": "f5a3a5cd-5ede-42d0-a4d5-e238adb80d9d",
+      "net": "U_PHASE",
+      "layer": "B.Cu",
+      "width_mm": 4.0,
+      "a": [
+        49.625,
+        16.0
+      ],
+      "b": [
+        57.0,
+        16.0
+      ],
+      "purpose": "U main output"
+    },
+    {
+      "uuid": "6af037e7-1a6e-4ea7-a3d8-5ddc0c4633bc",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        17.905
+      ],
+      "b": [
+        53.3,
+        17.905
+      ],
+      "purpose": "U SOURCE pin neck"
+    },
+    {
+      "uuid": "19c5f622-cc90-44f3-b7dd-8645bbce1f52",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.3,
+        17.905
+      ],
+      "b": [
+        53.3,
+        16.635
+      ],
+      "purpose": "U SOURCE pin neck"
+    },
+    {
+      "uuid": "0096a21c-fda1-4223-8d2e-37704c616668",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        16.635
+      ],
+      "b": [
+        53.3,
+        16.635
+      ],
+      "purpose": "U SOURCE pin neck"
+    },
+    {
+      "uuid": "a1350036-d9cd-465e-af77-1923d6ed22bb",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        15.365
+      ],
+      "b": [
+        53.3,
+        15.365
+      ],
+      "purpose": "U SOURCE pin neck"
+    },
+    {
+      "uuid": "ba6e2fa5-8ed8-4417-916b-0e53dd53ab9d",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.3,
+        15.365
+      ],
+      "b": [
+        53.3,
+        16.635
+      ],
+      "purpose": "U SOURCE pin neck"
+    },
+    {
+      "uuid": "6d9a9d73-03ee-4f2d-ac3c-433993f7b9bf",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        53.3,
+        16.635
+      ],
+      "b": [
+        53.3,
+        20.5375
+      ],
+      "purpose": "U SOURCE main stem"
+    },
+    {
+      "uuid": "309baeb8-0326-4378-8f5f-6d1a55df93c1",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        53.3,
+        20.5375
+      ],
+      "b": [
+        51.5,
+        20.5375
+      ],
+      "purpose": "U SOURCE main stem"
+    },
+    {
+      "uuid": "1e2c06d1-2786-40f8-9734-f0b0f1278c89",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        51.5,
+        26.4625
+      ],
+      "b": [
+        52.0,
+        26.4625
+      ],
+      "purpose": "U shunt return main"
+    },
+    {
+      "uuid": "ff8b8449-7324-4a04-861d-425374a9681b",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        52.0,
+        26.4625
+      ],
+      "b": [
+        52.0,
+        25.0
+      ],
+      "purpose": "U shunt return main"
+    },
+    {
+      "uuid": "ae2ebe8a-d8e5-4af4-888f-6c152fd7959d",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        25.0
+      ],
+      "b": [
+        53.4,
+        22.2
+      ],
+      "purpose": "U shunt individual via spoke"
+    },
+    {
+      "uuid": "99ef86e6-843c-4fa1-9a80-3365a20a8745",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        25.0
+      ],
+      "b": [
+        53.4,
+        23.6
+      ],
+      "purpose": "U shunt individual via spoke"
+    },
+    {
+      "uuid": "5dee3992-c0a8-429f-a25b-77f2b31d076b",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        25.0
+      ],
+      "b": [
+        53.4,
+        25.0
+      ],
+      "purpose": "U shunt individual via spoke"
+    },
+    {
+      "uuid": "82e5dc14-e450-41b5-82b0-afe73de033d1",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        25.0
+      ],
+      "b": [
+        53.4,
+        26.4
+      ],
+      "purpose": "U shunt individual via spoke"
+    },
+    {
+      "uuid": "da0b263e-8b61-4bab-8c59-bbd27ab143fb",
+      "net": "/U half bridge/U_GATE_H",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        43.925,
+        12.1125
+      ],
+      "b": [
+        43.925,
+        14.095
+      ],
+      "purpose": "U gate resistor to MOS"
+    },
+    {
+      "uuid": "c3d95f3d-dbc1-4a39-a52d-94599560c275",
+      "net": "/U half bridge/U_GATE_L",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        54.9875,
+        12.0
+      ],
+      "b": [
+        53.125,
+        14.095
+      ],
+      "purpose": "U gate resistor to MOS"
+    },
+    {
+      "uuid": "b8465d62-32bb-44b0-86ab-29db3bb44774",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.15,
+        20.9875
+      ],
+      "b": [
+        49.2,
+        22.2
+      ],
+      "purpose": "U positive Kelvin"
+    },
+    {
+      "uuid": "ecdfee63-9b7f-4ad7-8d37-f1f1d30254d7",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.15,
+        26.0125
+      ],
+      "b": [
+        49.0,
+        26.2
+      ],
+      "purpose": "U negative Kelvin"
+    },
+    {
+      "uuid": "71d29e5a-7de3-42a7-a1ef-5f821131fcb7",
+      "net": "U_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.2,
+        22.2
+      ],
+      "b": [
+        49.8,
+        22.2
+      ],
+      "purpose": "U positive Kelvin"
+    },
+    {
+      "uuid": "317c0e64-56a2-44ba-97ad-d218ceab0534",
+      "net": "U_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.8,
+        22.2
+      ],
+      "b": [
+        49.8,
+        25.5
+      ],
+      "purpose": "U positive Kelvin"
+    },
+    {
+      "uuid": "4cfc3502-0e19-4947-80dd-ebb2243b77b8",
+      "net": "U_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.8,
+        25.5
+      ],
+      "b": [
+        48.8375,
+        24.975
+      ],
+      "purpose": "U positive Kelvin"
+    },
+    {
+      "uuid": "0cde3ac3-4775-41aa-9217-c0adac371501",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.0,
+        26.2
+      ],
+      "b": [
+        47.7,
+        26.2
+      ],
+      "purpose": "U negative Kelvin"
+    },
+    {
+      "uuid": "650f45ba-cbb4-4b20-a66e-b4dc960c897a",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        47.7,
+        26.2
+      ],
+      "b": [
+        46.5625,
+        24.975
+      ],
+      "purpose": "U negative Kelvin"
+    },
+    {
+      "uuid": "ce28d549-83df-4f98-b1a9-4d93b65fd255",
+      "net": "V_PHASE",
+      "layer": "B.Cu",
+      "width_mm": 4.0,
+      "a": [
+        49.625,
+        31.0
+      ],
+      "b": [
+        57.0,
+        31.0
+      ],
+      "purpose": "V main output"
+    },
+    {
+      "uuid": "cdcd65c3-836a-4a8e-8c63-2b4d0d5a5dc8",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        32.905
+      ],
+      "b": [
+        53.3,
+        32.905
+      ],
+      "purpose": "V SOURCE pin neck"
+    },
+    {
+      "uuid": "a336464b-3864-442f-a8d2-022b0b2ccb5d",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.3,
+        32.905
+      ],
+      "b": [
+        53.3,
+        31.635
+      ],
+      "purpose": "V SOURCE pin neck"
+    },
+    {
+      "uuid": "e08f2d59-3115-4381-8810-5d80a9274b7b",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        31.635
+      ],
+      "b": [
+        53.3,
+        31.635
+      ],
+      "purpose": "V SOURCE pin neck"
+    },
+    {
+      "uuid": "fb3dbe11-dca8-4ce8-9cb3-d45ef349459a",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        30.365
+      ],
+      "b": [
+        53.3,
+        30.365
+      ],
+      "purpose": "V SOURCE pin neck"
+    },
+    {
+      "uuid": "f163acf2-afd9-43c9-802f-980fde6ec429",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.3,
+        30.365
+      ],
+      "b": [
+        53.3,
+        31.635
+      ],
+      "purpose": "V SOURCE pin neck"
+    },
+    {
+      "uuid": "1a08bd28-4fe4-4aa3-87df-47cd3a8a7ee6",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        53.3,
+        31.635
+      ],
+      "b": [
+        53.3,
+        35.5375
+      ],
+      "purpose": "V SOURCE main stem"
+    },
+    {
+      "uuid": "5c0facda-bb42-4429-8733-c910949cf21b",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        53.3,
+        35.5375
+      ],
+      "b": [
+        51.5,
+        35.5375
+      ],
+      "purpose": "V SOURCE main stem"
+    },
+    {
+      "uuid": "4a7a2bc0-d3dc-4955-99ba-cee7b2780c93",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        51.5,
+        41.4625
+      ],
+      "b": [
+        52.0,
+        41.4625
+      ],
+      "purpose": "V shunt return main"
+    },
+    {
+      "uuid": "d7e10ef0-0199-47be-92a1-8d4de57a436e",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        52.0,
+        41.4625
+      ],
+      "b": [
+        52.0,
+        40.0
+      ],
+      "purpose": "V shunt return main"
+    },
+    {
+      "uuid": "d817cea5-cec9-41fe-b077-8ecdd5348110",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        40.0
+      ],
+      "b": [
+        53.4,
+        37.2
+      ],
+      "purpose": "V shunt individual via spoke"
+    },
+    {
+      "uuid": "728f5918-7ede-42c4-85c2-9147ffbb1f12",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        40.0
+      ],
+      "b": [
+        53.4,
+        38.6
+      ],
+      "purpose": "V shunt individual via spoke"
+    },
+    {
+      "uuid": "d615d53c-ad83-4aa7-8bcb-747e384f2855",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        40.0
+      ],
+      "b": [
+        53.4,
+        40.0
+      ],
+      "purpose": "V shunt individual via spoke"
+    },
+    {
+      "uuid": "51f60b8d-6d92-4ee6-aa34-ee2c88ff1e9e",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        40.0
+      ],
+      "b": [
+        53.4,
+        41.4
+      ],
+      "purpose": "V shunt individual via spoke"
+    },
+    {
+      "uuid": "90cb5e34-77db-423a-9a62-9721d93ea49d",
+      "net": "/V half bridge/V_GATE_H",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        43.925,
+        27.1125
+      ],
+      "b": [
+        43.925,
+        29.095
+      ],
+      "purpose": "V gate resistor to MOS"
+    },
+    {
+      "uuid": "4a16f9ec-d4e8-49d8-95b1-c2fd484de960",
+      "net": "/V half bridge/V_GATE_L",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        54.9875,
+        27.0
+      ],
+      "b": [
+        53.125,
+        29.095
+      ],
+      "purpose": "V gate resistor to MOS"
+    },
+    {
+      "uuid": "2813904a-7ad9-4051-ba28-b240f41b7f55",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.15,
+        35.987500000000004
+      ],
+      "b": [
+        49.2,
+        37.2
+      ],
+      "purpose": "V positive Kelvin"
+    },
+    {
+      "uuid": "cbda3420-4107-4ccc-9e5d-43d60d18b035",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.15,
+        41.012499999999996
+      ],
+      "b": [
+        49.0,
+        41.2
+      ],
+      "purpose": "V negative Kelvin"
+    },
+    {
+      "uuid": "22bf332a-fb52-4f31-8951-4a01d408e519",
+      "net": "V_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.2,
+        37.2
+      ],
+      "b": [
+        49.8,
+        37.2
+      ],
+      "purpose": "V positive Kelvin"
+    },
+    {
+      "uuid": "70686af0-dc02-4174-a231-37004525b015",
+      "net": "V_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.8,
+        37.2
+      ],
+      "b": [
+        49.8,
+        40.5
+      ],
+      "purpose": "V positive Kelvin"
+    },
+    {
+      "uuid": "7bcf24b4-cf95-4c2d-8574-ca8db5f781bf",
+      "net": "V_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.8,
+        40.5
+      ],
+      "b": [
+        48.8375,
+        39.975
+      ],
+      "purpose": "V positive Kelvin"
+    },
+    {
+      "uuid": "9e8d7c5f-49a1-49f6-b090-599d36c51041",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.0,
+        41.2
+      ],
+      "b": [
+        47.7,
+        41.2
+      ],
+      "purpose": "V negative Kelvin"
+    },
+    {
+      "uuid": "6e5ea4e2-aed5-40c4-b9f0-00ab01c95579",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        47.7,
+        41.2
+      ],
+      "b": [
+        46.5625,
+        39.975
+      ],
+      "purpose": "V negative Kelvin"
+    },
+    {
+      "uuid": "0f0c5026-6fb2-4fcd-a318-be78d44dfe43",
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "width_mm": 4.0,
+      "a": [
+        49.625,
+        46.0
+      ],
+      "b": [
+        57.0,
+        46.0
+      ],
+      "purpose": "W main output"
+    },
+    {
+      "uuid": "62f6f3af-e85f-42d6-a725-d3614978085d",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        47.905
+      ],
+      "b": [
+        53.3,
+        47.905
+      ],
+      "purpose": "W SOURCE pin neck"
+    },
+    {
+      "uuid": "1a3bb3d3-fcca-42f9-a7cc-19324f0ea054",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.3,
+        47.905
+      ],
+      "b": [
+        53.3,
+        46.635
+      ],
+      "purpose": "W SOURCE pin neck"
+    },
+    {
+      "uuid": "e404c045-7f61-4704-9eb8-bf8e6cfe9358",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        46.635
+      ],
+      "b": [
+        53.3,
+        46.635
+      ],
+      "purpose": "W SOURCE pin neck"
+    },
+    {
+      "uuid": "352dd8be-d775-4c92-8b8a-cae9c6b06844",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.125,
+        45.365
+      ],
+      "b": [
+        53.3,
+        45.365
+      ],
+      "purpose": "W SOURCE pin neck"
+    },
+    {
+      "uuid": "5fde3df4-e372-4175-91f1-e778a74eb121",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        53.3,
+        45.365
+      ],
+      "b": [
+        53.3,
+        46.635
+      ],
+      "purpose": "W SOURCE pin neck"
+    },
+    {
+      "uuid": "1b9b6504-7ffe-4a73-9663-1b2564c7cd9f",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        53.3,
+        46.635
+      ],
+      "b": [
+        53.3,
+        50.5375
+      ],
+      "purpose": "W SOURCE main stem"
+    },
+    {
+      "uuid": "f788ee93-504e-4cb9-827a-e8af2bf90e48",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        53.3,
+        50.5375
+      ],
+      "b": [
+        51.5,
+        50.5375
+      ],
+      "purpose": "W SOURCE main stem"
+    },
+    {
+      "uuid": "971f1afd-01a2-4e5f-a2af-afac15375e7d",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        51.5,
+        56.4625
+      ],
+      "b": [
+        52.0,
+        56.4625
+      ],
+      "purpose": "W shunt return main"
+    },
+    {
+      "uuid": "228c7c96-120e-48f9-be15-7ef78c92303e",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2.0,
+      "a": [
+        52.0,
+        56.4625
+      ],
+      "b": [
+        52.0,
+        55.0
+      ],
+      "purpose": "W shunt return main"
+    },
+    {
+      "uuid": "9d5f39af-b2bd-4459-99b7-3c5219b3d141",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        55.0
+      ],
+      "b": [
+        53.4,
+        52.2
+      ],
+      "purpose": "W shunt individual via spoke"
+    },
+    {
+      "uuid": "6b8b4ecb-ae69-453c-afe9-5b5b034fae9a",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        55.0
+      ],
+      "b": [
+        53.4,
+        53.6
+      ],
+      "purpose": "W shunt individual via spoke"
+    },
+    {
+      "uuid": "02666259-a0ef-48e7-9051-99ff971f386f",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        55.0
+      ],
+      "b": [
+        53.4,
+        55.0
+      ],
+      "purpose": "W shunt individual via spoke"
+    },
+    {
+      "uuid": "4f65dfe0-04f3-438a-9168-601bb1449585",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        52.0,
+        55.0
+      ],
+      "b": [
+        53.4,
+        56.4
+      ],
+      "purpose": "W shunt individual via spoke"
+    },
+    {
+      "uuid": "b1006864-34c6-4aae-a31f-c38b70436ab4",
+      "net": "/W half bridge/W_GATE_H",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        43.925,
+        42.1125
+      ],
+      "b": [
+        43.925,
+        44.095
+      ],
+      "purpose": "W gate resistor to MOS"
+    },
+    {
+      "uuid": "43da113f-0870-4246-aae7-89cc84c548b3",
+      "net": "/W half bridge/W_GATE_L",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        54.9875,
+        42.0
+      ],
+      "b": [
+        53.125,
+        44.095
+      ],
+      "purpose": "W gate resistor to MOS"
+    },
+    {
+      "uuid": "13f2810c-9c76-4ada-ba2a-155c709614d7",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.15,
+        50.987500000000004
+      ],
+      "b": [
+        50.3,
+        52.2
+      ],
+      "purpose": "W positive Kelvin"
+    },
+    {
+      "uuid": "2ba9d442-87e8-4ea9-9649-9cd7043221de",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.15,
+        56.012499999999996
+      ],
+      "b": [
+        49.0,
+        56.1
+      ],
+      "purpose": "W negative Kelvin"
+    },
+    {
+      "uuid": "a9609bf1-15a5-448b-a645-1906aa4e9bfc",
+      "net": "W_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        50.3,
+        52.2
+      ],
+      "b": [
+        51.1,
+        52.2
+      ],
+      "purpose": "W positive Kelvin"
+    },
+    {
+      "uuid": "451e30e9-b614-4283-887a-842257f2cfcd",
+      "net": "W_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        51.1,
+        52.2
+      ],
+      "b": [
+        51.1,
+        55.5
+      ],
+      "purpose": "W positive Kelvin"
+    },
+    {
+      "uuid": "3192349b-a3d8-462f-adee-677d7da28523",
+      "net": "W_SOURCE",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        51.1,
+        55.5
+      ],
+      "b": [
+        50.1375,
+        54.975
+      ],
+      "purpose": "W positive Kelvin"
+    },
+    {
+      "uuid": "a96ab8a6-96cb-4809-8378-5002c72bf7db",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "a": [
+        49.0,
+        56.1
+      ],
+      "b": [
+        47.8625,
+        54.975
+      ],
+      "purpose": "W negative Kelvin"
+    },
+    {
+      "uuid": "a0ce9d64-89f3-423a-adcd-03750340ac9e",
+      "net": "VBUS",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        39.025,
+        21.3
+      ],
+      "b": [
+        37.0,
+        21.1
+      ],
+      "purpose": "C21 VBUS wide access"
+    },
+    {
+      "uuid": "53827f02-b6b3-4c81-926e-58892b71d50f",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1.3,
+      "a": [
+        41.975,
+        19.400000000000002
+      ],
+      "b": [
+        40.5,
+        19.400000000000002
+      ],
+      "purpose": "C21 GND wide access"
+    },
+    {
+      "uuid": "b4e23585-7ee0-4fc8-84f5-1afa7476be88",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1.3,
+      "a": [
+        41.975,
+        21.3
+      ],
+      "b": [
+        41.975,
+        19.400000000000002
+      ],
+      "purpose": "C21 GND wide access"
+    },
+    {
+      "uuid": "4ec5c496-793a-416e-a1c2-8db347c4c279",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1.3,
+      "a": [
+        41.975,
+        19.400000000000002
+      ],
+      "b": [
+        41.9,
+        19.400000000000002
+      ],
+      "purpose": "C21 GND wide access"
+    },
+    {
+      "uuid": "958345af-4fbb-48c0-b819-ab6809de9a47",
+      "net": "VBUS",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        39.025,
+        36.3
+      ],
+      "b": [
+        37.0,
+        36.099999999999994
+      ],
+      "purpose": "C22 VBUS wide access"
+    },
+    {
+      "uuid": "69e9636e-578e-4f8f-b0f3-73cb5c1e1d03",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1.3,
+      "a": [
+        41.975,
+        34.4
+      ],
+      "b": [
+        40.5,
+        34.4
+      ],
+      "purpose": "C22 GND wide access"
+    },
+    {
+      "uuid": "bd0fa125-d990-4e5b-8540-eddbcb7fa319",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1.3,
+      "a": [
+        41.975,
+        36.3
+      ],
+      "b": [
+        41.975,
+        34.4
+      ],
+      "purpose": "C22 GND wide access"
+    },
+    {
+      "uuid": "39219dcb-1a13-4737-84df-c15bfad35020",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1.3,
+      "a": [
+        41.975,
+        34.4
+      ],
+      "b": [
+        41.9,
+        34.4
+      ],
+      "purpose": "C22 GND wide access"
+    },
+    {
+      "uuid": "23979db1-19d1-4daa-8aed-a613d2619bea",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        5.5,
+        8.5
+      ],
+      "b": [
+        1.5,
+        8.5
+      ],
+      "purpose": "DC input outer conductor"
+    },
+    {
+      "uuid": "058167e6-f762-44e9-9747-352e84207c45",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        1.5,
+        8.5
+      ],
+      "b": [
+        1.5,
+        19.5
+      ],
+      "purpose": "DC input outer conductor"
+    },
+    {
+      "uuid": "73a9fde3-624e-4f2c-a7a3-c11b83c7c269",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        1.5,
+        19.5
+      ],
+      "b": [
+        4.045,
+        19.5
+      ],
+      "purpose": "DC input outer conductor"
+    },
+    {
+      "uuid": "6d1e7bc8-2d32-4e33-aa8f-01ff35223d2a",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "In2.Cu",
+      "width_mm": 2,
+      "a": [
+        5.5,
+        8.5
+      ],
+      "b": [
+        1.5,
+        8.5
+      ],
+      "purpose": "DC input parallel inner conductor"
+    },
+    {
+      "uuid": "3e1983fa-1dd9-496b-a305-595318c9d74b",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "In2.Cu",
+      "width_mm": 2,
+      "a": [
+        1.5,
+        8.5
+      ],
+      "b": [
+        1.5,
+        19.5
+      ],
+      "purpose": "DC input parallel inner conductor"
+    },
+    {
+      "uuid": "2b022454-7291-4cf2-8590-29a1f8c834d1",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "In2.Cu",
+      "width_mm": 2,
+      "a": [
+        1.5,
+        19.5
+      ],
+      "b": [
+        2.5,
+        19.5
+      ],
+      "purpose": "DC input parallel inner conductor"
+    },
+    {
+      "uuid": "1a34d380-bdde-44fc-80bf-896e85d6cc88",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "a": [
+        4.045,
+        19.5
+      ],
+      "b": [
+        1.1,
+        18.1
+      ],
+      "purpose": "DC input individual fuse-via spoke"
+    },
+    {
+      "uuid": "404c7b93-1bcd-4db4-9656-f8cea8e045ee",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "a": [
+        4.045,
+        19.5
+      ],
+      "b": [
+        2.5,
+        18.1
+      ],
+      "purpose": "DC input individual fuse-via spoke"
+    },
+    {
+      "uuid": "9f468abd-6b68-4732-9160-389f342291d1",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "a": [
+        4.045,
+        19.5
+      ],
+      "b": [
+        1.1,
+        19.5
+      ],
+      "purpose": "DC input individual fuse-via spoke"
+    },
+    {
+      "uuid": "64b29b7b-9cc6-4e44-ab28-b708a7c705d0",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "a": [
+        4.045,
+        19.5
+      ],
+      "b": [
+        2.5,
+        19.5
+      ],
+      "purpose": "DC input individual fuse-via spoke"
+    },
+    {
+      "uuid": "73036483-37e1-4151-952a-22a7a5cd0c71",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        8.955,
+        19.5
+      ],
+      "b": [
+        8.955,
+        17.4
+      ],
+      "purpose": "fuse output broad common neck"
+    },
+    {
+      "uuid": "c120a691-5f4e-469f-a943-db793a7dc596",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        8.955,
+        17.4
+      ],
+      "b": [
+        8.7,
+        16.0
+      ],
+      "purpose": "fuse output individual parallel via spoke"
+    },
+    {
+      "uuid": "3a7408c8-f67f-4253-92b6-1778a6209677",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        8.955,
+        17.4
+      ],
+      "b": [
+        9.9,
+        16.0
+      ],
+      "purpose": "fuse output individual parallel via spoke"
+    },
+    {
+      "uuid": "5d0a0713-4c79-4a75-8fac-b5af9c27b9e5",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        8.955,
+        17.4
+      ],
+      "b": [
+        8.7,
+        17.4
+      ],
+      "purpose": "fuse output individual parallel via spoke"
+    },
+    {
+      "uuid": "ac21f9f3-3685-40ae-819f-5d9d6b44f1f5",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        8.955,
+        17.4
+      ],
+      "b": [
+        9.9,
+        17.4
+      ],
+      "purpose": "fuse output individual parallel via spoke"
+    },
+    {
+      "uuid": "ecdb7a5a-0856-43ad-9345-5726ba463e3c",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        9.9,
+        17.4
+      ],
+      "b": [
+        9.9,
+        15
+      ],
+      "purpose": "fused DC main feed"
+    },
+    {
+      "uuid": "2db68356-a19d-4c09-9caf-15603caa1e57",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        9.9,
+        15
+      ],
+      "b": [
+        9.9,
+        5
+      ],
+      "purpose": "fused DC main feed"
+    },
+    {
+      "uuid": "a13c63ac-466d-49cf-afb8-9cedd3647512",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        9.9,
+        5
+      ],
+      "b": [
+        46.8,
+        5
+      ],
+      "purpose": "fused DC main feed"
+    },
+    {
+      "uuid": "26a449ef-9781-4002-abb7-be5f8d140b98",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        46.8,
+        5
+      ],
+      "b": [
+        46.8,
+        5.2
+      ],
+      "purpose": "upper rectifier feed"
+    },
+    {
+      "uuid": "f40b3c4e-ed8d-45ee-a472-a23aae70f4dd",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2,
+      "a": [
+        46.8,
+        5
+      ],
+      "b": [
+        48.2,
+        5
+      ],
+      "purpose": "lower rectifier feed"
+    },
+    {
+      "uuid": "e83dc7a1-844e-4877-8dd3-99000970e040",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2,
+      "a": [
+        48.2,
+        5
+      ],
+      "b": [
+        48.2,
+        12.5
+      ],
+      "purpose": "lower rectifier feed"
+    },
+    {
+      "uuid": "265a9d2d-0903-4d13-b7b7-86061e07031d",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "In2.Cu",
+      "width_mm": 2,
+      "a": [
+        48.2,
+        12.5
+      ],
+      "b": [
+        46.8,
+        12.5
+      ],
+      "purpose": "lower rectifier feed"
+    },
+    {
+      "uuid": "4f1f1e39-81ce-4005-9d44-f02a73e66887",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 2,
+      "a": [
+        46.8,
+        5.2
+      ],
+      "b": [
+        46.46,
+        6.92
+      ],
+      "purpose": "upper rectifier anode"
+    },
+    {
+      "uuid": "fc00b7c4-b694-4be2-b291-2ba8317f1e16",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 2,
+      "a": [
+        46.8,
+        12.5
+      ],
+      "b": [
+        46.46,
+        11.48
+      ],
+      "purpose": "lower rectifier anode"
+    },
+    {
+      "uuid": "0527332e-b158-4085-9be7-d7a8092b42ee",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.3,
+      "a": [
+        46.46,
+        11.48
+      ],
+      "b": [
+        48.2,
+        12.5
+      ],
+      "purpose": "lower rectifier second via spoke"
+    },
+    {
+      "uuid": "91d252e0-442e-4031-a086-3e1e00e9e2d4",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 1.2,
+      "a": [
+        46.46,
+        9.2
+      ],
+      "b": [
+        52.76,
+        9.2
+      ],
+      "purpose": "rectifier cathode lead to tab"
+    },
+    {
+      "uuid": "6c8c78e6-9811-47f8-af31-0fb6f06032b5",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 3,
+      "a": [
+        52.76,
+        3.8
+      ],
+      "b": [
+        51.5,
+        3.8
+      ],
+      "purpose": "rectifier VBUS broad neck"
+    },
+    {
+      "uuid": "710994fb-b48a-4518-8c67-91d55f86e8ff",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 3,
+      "a": [
+        52.76,
+        9.2
+      ],
+      "b": [
+        52.76,
+        3.8
+      ],
+      "purpose": "rectifier VBUS broad neck"
+    },
+    {
+      "uuid": "bf28ca3c-a33e-4e0f-9c9d-7a25dd8d742a",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 3,
+      "a": [
+        52.76,
+        3.8
+      ],
+      "b": [
+        52.9,
+        3.8
+      ],
+      "purpose": "rectifier VBUS broad neck"
+    },
+    {
+      "uuid": "9e8597b8-7a18-47e4-a49d-5aff57473b60",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 3,
+      "a": [
+        52.76,
+        5.2
+      ],
+      "b": [
+        51.5,
+        5.2
+      ],
+      "purpose": "rectifier VBUS broad neck"
+    },
+    {
+      "uuid": "6df40b5e-b5da-4f80-b026-39905784cae6",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 3,
+      "a": [
+        52.76,
+        9.2
+      ],
+      "b": [
+        52.76,
+        5.2
+      ],
+      "purpose": "rectifier VBUS broad neck"
+    },
+    {
+      "uuid": "7439853c-9f9f-412d-a7ea-fddc2c2baf53",
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width_mm": 3,
+      "a": [
+        52.76,
+        5.2
+      ],
+      "b": [
+        52.9,
+        5.2
+      ],
+      "purpose": "rectifier VBUS broad neck"
+    },
+    {
+      "uuid": "01e21c58-6582-499b-8a08-3cdef89104fe",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        30.6,
+        56.9
+      ],
+      "b": [
+        30.6,
+        52
+      ],
+      "purpose": "brake switched-return main"
+    },
+    {
+      "uuid": "bc51484f-4645-41e7-9353-62e0428207d1",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        30.6,
+        52
+      ],
+      "b": [
+        35.8,
+        52
+      ],
+      "purpose": "brake switched-return main"
+    },
+    {
+      "uuid": "d1a636a6-615b-42c4-970a-4b46c09aa1d9",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        35.8,
+        52
+      ],
+      "b": [
+        37.2,
+        53
+      ],
+      "purpose": "brake switched-return main"
+    },
+    {
+      "uuid": "d1f80a43-17fb-4a7d-a963-44bc5b91d940",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        37.2,
+        53
+      ],
+      "b": [
+        44.0,
+        53
+      ],
+      "purpose": "brake switched-return main"
+    },
+    {
+      "uuid": "0283a886-9293-44f8-9184-6042164c9025",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "In2.Cu",
+      "width_mm": 2.4,
+      "a": [
+        44.0,
+        53
+      ],
+      "b": [
+        44.0,
+        57.0
+      ],
+      "purpose": "brake switched-return main"
+    },
+    {
+      "uuid": "6cebbfe1-93f8-4d12-8ade-207f6df075ec",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        33.825,
+        55.905
+      ],
+      "b": [
+        34.3,
+        55.905
+      ],
+      "purpose": "brake SOURCE pin neck"
+    },
+    {
+      "uuid": "b8ce98ae-89b3-4bb0-8c0d-fc8603cce42b",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        33.825,
+        54.635
+      ],
+      "b": [
+        34.3,
+        54.635
+      ],
+      "purpose": "brake SOURCE pin neck"
+    },
+    {
+      "uuid": "f9583267-ca4c-4718-b533-491a9792028f",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        34.3,
+        54.635
+      ],
+      "b": [
+        34.3,
+        55.905
+      ],
+      "purpose": "brake SOURCE pin neck"
+    },
+    {
+      "uuid": "11a2f3cd-0679-450f-b389-cfcc06eb245a",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        33.825,
+        53.365
+      ],
+      "b": [
+        34.3,
+        53.365
+      ],
+      "purpose": "brake SOURCE pin neck"
+    },
+    {
+      "uuid": "409448c4-7555-4645-9663-ca8032ecda32",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "a": [
+        34.3,
+        53.365
+      ],
+      "b": [
+        34.3,
+        55.905
+      ],
+      "purpose": "brake SOURCE pin neck"
+    },
+    {
+      "uuid": "14b1cef5-2cbe-4844-beb8-cf2c2c8c13ed",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 2,
+      "a": [
+        34.05,
+        55.905
+      ],
+      "b": [
+        34.3,
+        55.905
+      ],
+      "purpose": "brake GND broad common neck"
+    },
+    {
+      "uuid": "0864a33b-97ef-4a39-b842-4bd5036de063",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        34.3,
+        55.905
+      ],
+      "b": [
+        34.9,
+        54.2
+      ],
+      "purpose": "brake individual GND via spoke"
+    },
+    {
+      "uuid": "b7593e35-ea38-4c7b-bbca-a2d17db921ff",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        34.3,
+        55.905
+      ],
+      "b": [
+        34.9,
+        55.6
+      ],
+      "purpose": "brake individual GND via spoke"
+    },
+    {
+      "uuid": "f8975227-d080-426e-add8-aa030a42b0e8",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        34.3,
+        55.905
+      ],
+      "b": [
+        34.9,
+        57.0
+      ],
+      "purpose": "brake individual GND via spoke"
+    },
+    {
+      "uuid": "3bd40e0e-9eee-4f29-86b8-fe288a4b11bd",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "a": [
+        34.3,
+        55.905
+      ],
+      "b": [
+        34.9,
+        58.4
+      ],
+      "purpose": "brake individual GND via spoke"
+    },
+    {
+      "uuid": "76e057a2-80f0-43ca-9be3-a384f64f42a1",
+      "net": "/Bus and brake/BR_GATE",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "a": [
+        35.8,
+        51.4125
+      ],
+      "b": [
+        33.825,
+        52.095
+      ],
+      "purpose": "brake gate resistor to MOS"
+    }
+  ],
+  "vias": [
+    {
+      "uuid": "c537dfe3-854e-4530-9b23-e317b0c766b1",
+      "net": "U_PHASE",
+      "xy": [
+        45.1,
+        17.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE source transfer"
+    },
+    {
+      "uuid": "c1d986b9-806e-475d-b9d0-63325282194b",
+      "net": "U_PHASE",
+      "xy": [
+        45.1,
+        18.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE source transfer"
+    },
+    {
+      "uuid": "f405eaae-152e-4e66-ad42-b1b40d32c996",
+      "net": "U_PHASE",
+      "xy": [
+        46.5,
+        17.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE source transfer"
+    },
+    {
+      "uuid": "a441b1af-d9af-42dd-9cc9-e0e5ba3128c3",
+      "net": "U_PHASE",
+      "xy": [
+        46.5,
+        18.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE source transfer"
+    },
+    {
+      "uuid": "f1fde2eb-50bb-42ca-9699-7db1da68327e",
+      "net": "U_PHASE",
+      "xy": [
+        47.5,
+        19.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE drain transfer"
+    },
+    {
+      "uuid": "2ec70dcb-524a-42a0-8c23-69b4e6b80659",
+      "net": "U_PHASE",
+      "xy": [
+        47.5,
+        20.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE drain transfer"
+    },
+    {
+      "uuid": "8abcd531-ee51-492c-b95c-5eeae0fb308d",
+      "net": "U_PHASE",
+      "xy": [
+        48.9,
+        19.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE drain transfer"
+    },
+    {
+      "uuid": "3d5ed2a5-ca36-4a1f-9061-cc1f958cc1b9",
+      "net": "U_PHASE",
+      "xy": [
+        48.9,
+        20.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U PHASE drain transfer"
+    },
+    {
+      "uuid": "ca15d5fa-ab0c-4afc-a606-34dd31e46004",
+      "net": "GND",
+      "xy": [
+        53.4,
+        22.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U shunt return four-barrel bank"
+    },
+    {
+      "uuid": "cdc7e337-0885-4020-96a4-ce90fcd571e0",
+      "net": "GND",
+      "xy": [
+        53.4,
+        23.6
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U shunt return four-barrel bank"
+    },
+    {
+      "uuid": "908bb225-21ef-4aab-bd90-22c2ba5144d3",
+      "net": "GND",
+      "xy": [
+        53.4,
+        25.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U shunt return four-barrel bank"
+    },
+    {
+      "uuid": "08e2b842-0132-4334-8379-a13bf550653e",
+      "net": "GND",
+      "xy": [
+        53.4,
+        26.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U shunt return four-barrel bank"
+    },
+    {
+      "uuid": "2cb03fde-8698-47f8-afa0-b8fdb6a691dc",
+      "net": "VBUS",
+      "xy": [
+        35.6,
+        19.7
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "4d5a5009-7a3c-4e94-b81c-b03b80d715b1",
+      "net": "VBUS",
+      "xy": [
+        35.6,
+        21.1
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "a3f0154d-aba8-4e31-b138-674f5fc7f069",
+      "net": "VBUS",
+      "xy": [
+        37.0,
+        19.7
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "e5f053ef-26e8-4db5-92dc-c8c03fead97b",
+      "net": "VBUS",
+      "xy": [
+        37.0,
+        21.1
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "U drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "044ebd92-a454-4206-8851-0bdad46762f4",
+      "net": "U_SOURCE",
+      "xy": [
+        49.2,
+        22.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "purpose": "U positive Kelvin"
+    },
+    {
+      "uuid": "2ccd07b8-badd-463e-b155-21c995a77644",
+      "net": "GND",
+      "xy": [
+        49.0,
+        26.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "purpose": "U negative Kelvin isolated from planes"
+    },
+    {
+      "uuid": "5b9edfd8-6922-4853-ab37-52a3f2eba6a0",
+      "net": "V_PHASE",
+      "xy": [
+        45.1,
+        32.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE source transfer"
+    },
+    {
+      "uuid": "1b99333e-0476-4f52-85ef-a45450ceee07",
+      "net": "V_PHASE",
+      "xy": [
+        45.1,
+        33.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE source transfer"
+    },
+    {
+      "uuid": "2b4c3eb9-699a-4693-af3d-4810e50ba33a",
+      "net": "V_PHASE",
+      "xy": [
+        46.5,
+        32.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE source transfer"
+    },
+    {
+      "uuid": "80ac0848-9517-49f6-8e71-3000dc001151",
+      "net": "V_PHASE",
+      "xy": [
+        46.5,
+        33.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE source transfer"
+    },
+    {
+      "uuid": "b5295401-532a-4266-ab62-93f756c69fb3",
+      "net": "V_PHASE",
+      "xy": [
+        47.5,
+        34.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE drain transfer"
+    },
+    {
+      "uuid": "ce4f9da5-78e7-4d07-8083-4916fae109bf",
+      "net": "V_PHASE",
+      "xy": [
+        47.5,
+        35.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE drain transfer"
+    },
+    {
+      "uuid": "7637f096-fe87-451a-9048-602a60567808",
+      "net": "V_PHASE",
+      "xy": [
+        48.9,
+        34.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE drain transfer"
+    },
+    {
+      "uuid": "165d46c0-bf5b-4888-8e76-f95c28b82e3b",
+      "net": "V_PHASE",
+      "xy": [
+        48.9,
+        35.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V PHASE drain transfer"
+    },
+    {
+      "uuid": "40c736f2-a375-48ca-a7d0-761d4e871087",
+      "net": "GND",
+      "xy": [
+        53.4,
+        37.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V shunt return four-barrel bank"
+    },
+    {
+      "uuid": "bdc14baf-0a20-4ac3-a4d8-cb3c4c1ef729",
+      "net": "GND",
+      "xy": [
+        53.4,
+        38.6
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V shunt return four-barrel bank"
+    },
+    {
+      "uuid": "9b729e9f-eebf-40d1-9488-e358b56bba0c",
+      "net": "GND",
+      "xy": [
+        53.4,
+        40.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V shunt return four-barrel bank"
+    },
+    {
+      "uuid": "1b5df70e-20df-478a-b7a6-cd250ead65f8",
+      "net": "GND",
+      "xy": [
+        53.4,
+        41.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V shunt return four-barrel bank"
+    },
+    {
+      "uuid": "7c135658-9dfe-4478-94ad-b1567881e8a9",
+      "net": "VBUS",
+      "xy": [
+        35.6,
+        34.7
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "013ee664-3787-424b-836b-295f829e203f",
+      "net": "VBUS",
+      "xy": [
+        35.6,
+        36.1
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "7ffde2ad-84e7-4350-a1cf-1b44875e276f",
+      "net": "VBUS",
+      "xy": [
+        37.0,
+        34.7
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "d7be1130-b4d4-4920-b1cb-94d7755bdaae",
+      "net": "VBUS",
+      "xy": [
+        37.0,
+        36.1
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "V drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "cbca7302-df3e-405e-8405-9ecd2e2ae635",
+      "net": "V_SOURCE",
+      "xy": [
+        49.2,
+        37.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "purpose": "V positive Kelvin"
+    },
+    {
+      "uuid": "dfc23e25-d214-42e4-ae17-5ca97070f326",
+      "net": "GND",
+      "xy": [
+        49.0,
+        41.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "purpose": "V negative Kelvin isolated from planes"
+    },
+    {
+      "uuid": "968b939f-fc38-4867-bd14-2536a9ba6b0d",
+      "net": "W_PHASE",
+      "xy": [
+        45.1,
+        47.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W PHASE source transfer"
+    },
+    {
+      "uuid": "5a8420c7-095f-4d33-9276-16c363bf89ad",
+      "net": "W_PHASE",
+      "xy": [
+        45.1,
+        48.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W PHASE source transfer"
+    },
+    {
+      "uuid": "834856d6-e153-4a45-a871-8ac1456a1ba0",
+      "net": "W_PHASE",
+      "xy": [
+        46.5,
+        47.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W PHASE source transfer"
+    },
+    {
+      "uuid": "226daf85-ceb6-4b7c-904f-5c25efd064eb",
+      "net": "W_PHASE",
+      "xy": [
+        46.5,
+        48.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W PHASE source transfer"
+    },
+    {
+      "uuid": "d57408cb-c96a-4f23-acfd-8274d223bb79",
+      "net": "W_PHASE",
+      "xy": [
+        47.9,
+        50.8
+      ],
+      "diameter_mm": 0.7,
+      "drill_mm": 0.35,
+      "purpose": "W PHASE drain transfer"
+    },
+    {
+      "uuid": "716d35f9-9020-4f24-8ff1-2a4f55e54612",
+      "net": "W_PHASE",
+      "xy": [
+        49.0,
+        50.8
+      ],
+      "diameter_mm": 0.7,
+      "drill_mm": 0.35,
+      "purpose": "W PHASE drain transfer"
+    },
+    {
+      "uuid": "82d0a74e-ebfb-42a8-af62-b67a7e9f6044",
+      "net": "W_PHASE",
+      "xy": [
+        47.9,
+        51.9
+      ],
+      "diameter_mm": 0.7,
+      "drill_mm": 0.35,
+      "purpose": "W PHASE drain transfer"
+    },
+    {
+      "uuid": "51381b1b-134c-4891-afd9-0c253c6a538c",
+      "net": "W_PHASE",
+      "xy": [
+        49.0,
+        51.9
+      ],
+      "diameter_mm": 0.7,
+      "drill_mm": 0.35,
+      "purpose": "W PHASE drain transfer"
+    },
+    {
+      "uuid": "cc0b6fd8-6add-4e04-bf53-d97fb21a359b",
+      "net": "GND",
+      "xy": [
+        53.4,
+        52.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W shunt return four-barrel bank"
+    },
+    {
+      "uuid": "6cd79ad8-6a10-4ec3-a84f-58c30d306a38",
+      "net": "GND",
+      "xy": [
+        53.4,
+        53.6
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W shunt return four-barrel bank"
+    },
+    {
+      "uuid": "609dcd3d-b490-43c5-88b5-9a8610c8387f",
+      "net": "GND",
+      "xy": [
+        53.4,
+        55.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W shunt return four-barrel bank"
+    },
+    {
+      "uuid": "16a68bc2-d390-44f7-b6c5-60bf2f54e4f2",
+      "net": "GND",
+      "xy": [
+        53.4,
+        56.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W shunt return four-barrel bank"
+    },
+    {
+      "uuid": "86cd4bf0-1a9c-4ebf-a2c0-75f65e2af76f",
+      "net": "VBUS",
+      "xy": [
+        37.6,
+        49.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "a3619f4d-bb52-40c0-8e54-2a5e4bacdd9b",
+      "net": "VBUS",
+      "xy": [
+        39.0,
+        49.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "9884652a-8585-4c8b-ab65-fda5d16f07d5",
+      "net": "VBUS",
+      "xy": [
+        40.4,
+        49.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "9cc8a6e4-af42-433b-abd0-2795d1df4415",
+      "net": "VBUS",
+      "xy": [
+        38.5,
+        50.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "W drain VBUS four-barrel bank"
+    },
+    {
+      "uuid": "2792c523-f055-4fc6-b955-152ae7bb9f44",
+      "net": "W_SOURCE",
+      "xy": [
+        50.3,
+        52.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "purpose": "W positive Kelvin"
+    },
+    {
+      "uuid": "e433bc3b-bbf9-445b-9105-4be9ae7e836d",
+      "net": "GND",
+      "xy": [
+        49.0,
+        56.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "purpose": "W negative Kelvin isolated from planes"
+    },
+    {
+      "uuid": "d5d42f6f-0eca-4245-b32d-44c26ae8f60d",
+      "net": "GND",
+      "xy": [
+        40.5,
+        19.400000000000002
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "C21 ripple GND"
+    },
+    {
+      "uuid": "abf32bcc-4256-4114-adf9-80c1d9ea7e15",
+      "net": "GND",
+      "xy": [
+        41.9,
+        19.400000000000002
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "C21 ripple GND"
+    },
+    {
+      "uuid": "023bc690-61db-491a-9906-02f081c156da",
+      "net": "GND",
+      "xy": [
+        40.5,
+        34.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "C22 ripple GND"
+    },
+    {
+      "uuid": "7c48e85e-515f-4380-9ba2-5eb2d5f5a292",
+      "net": "GND",
+      "xy": [
+        41.9,
+        34.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "C22 ripple GND"
+    },
+    {
+      "uuid": "1559210e-10ed-40a0-860f-300fdfb98c66",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "xy": [
+        1.1,
+        18.1
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC input fuse four-barrel transfer"
+    },
+    {
+      "uuid": "3f95159e-07a0-4b46-8b08-c62361f98ce9",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "xy": [
+        2.5,
+        18.1
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC input fuse four-barrel transfer"
+    },
+    {
+      "uuid": "f1e1d6a6-d1d9-498e-b87e-96092245e6ea",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "xy": [
+        1.1,
+        19.5
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC input fuse four-barrel transfer"
+    },
+    {
+      "uuid": "1d9cc273-7b2a-492e-b683-571766af4f39",
+      "net": "/Bus and brake/DC_INPUT_POS",
+      "xy": [
+        2.5,
+        19.5
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC input fuse four-barrel transfer"
+    },
+    {
+      "uuid": "d76ce53a-8ea7-4a8d-82d2-bbbfe6a3b6df",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        8.7,
+        16.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC FUSED four-barrel transfer"
+    },
+    {
+      "uuid": "8e09264a-1ccb-4902-9b11-4260e0711b0b",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        9.9,
+        16.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC FUSED four-barrel transfer"
+    },
+    {
+      "uuid": "3bd2b0fe-3bf4-4ac4-9bad-1e31495f2b7d",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        8.7,
+        17.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC FUSED four-barrel transfer"
+    },
+    {
+      "uuid": "3732e737-d927-494c-9ca7-42baa588471e",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        9.9,
+        17.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "DC FUSED four-barrel transfer"
+    },
+    {
+      "uuid": "56408460-582e-4201-a375-8d2835ca8677",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        45.4,
+        3.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier anode supply"
+    },
+    {
+      "uuid": "87e85d0e-f791-45f4-95d4-4d3780645e2d",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        46.8,
+        3.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier anode supply"
+    },
+    {
+      "uuid": "f649afa3-69f6-4be5-99e8-70e6fbcb9a8b",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        45.4,
+        5.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier anode supply"
+    },
+    {
+      "uuid": "92dfb9e8-f111-4c44-946e-b1f3dd5d7d15",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        46.8,
+        5.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier anode supply"
+    },
+    {
+      "uuid": "a4bd6d6a-76a0-4b60-9c87-a65ee42abd5e",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        46.8,
+        12.5
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier anode supply"
+    },
+    {
+      "uuid": "9211b6bb-231b-4a34-9abb-2528b96b93ee",
+      "net": "/Bus and brake/DC_FUSED",
+      "xy": [
+        48.2,
+        12.5
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier anode supply"
+    },
+    {
+      "uuid": "1ab7300b-db7c-432a-bd77-6692239e57ac",
+      "net": "VBUS",
+      "xy": [
+        51.5,
+        3.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier cathode four-barrel transfer"
+    },
+    {
+      "uuid": "794c9aad-7c51-434f-9200-ec273122820b",
+      "net": "VBUS",
+      "xy": [
+        52.9,
+        3.8
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier cathode four-barrel transfer"
+    },
+    {
+      "uuid": "117d9514-56cd-4a4a-8715-d4e549012abd",
+      "net": "VBUS",
+      "xy": [
+        51.5,
+        5.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier cathode four-barrel transfer"
+    },
+    {
+      "uuid": "8b0f9cfb-a0a2-46cd-bbb8-87f5e870ae67",
+      "net": "VBUS",
+      "xy": [
+        52.9,
+        5.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "rectifier cathode four-barrel transfer"
+    },
+    {
+      "uuid": "e4398c67-9b39-4e7b-b16b-f4d3af61c336",
+      "net": "/Bus and brake/BR_SW",
+      "xy": [
+        30.6,
+        56.9
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake drain four-barrel transfer"
+    },
+    {
+      "uuid": "87877582-d7b8-4925-b5a9-7b279919926d",
+      "net": "/Bus and brake/BR_SW",
+      "xy": [
+        29.0,
+        56.9
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake drain four-barrel transfer"
+    },
+    {
+      "uuid": "cbad7969-0dfc-43f8-b066-5547ae1c997c",
+      "net": "/Bus and brake/BR_SW",
+      "xy": [
+        27.2,
+        55.3
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake drain four-barrel transfer"
+    },
+    {
+      "uuid": "3145e4c9-a27c-428b-9833-59f294b0f563",
+      "net": "/Bus and brake/BR_SW",
+      "xy": [
+        26.8,
+        56.7
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake drain four-barrel transfer"
+    },
+    {
+      "uuid": "d4fe4a3d-c3e2-4577-b62e-a9439bf27ba3",
+      "net": "GND",
+      "xy": [
+        34.9,
+        54.2
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake SOURCE GND four-barrel transfer"
+    },
+    {
+      "uuid": "da95908b-c520-477a-8500-d34509327fbc",
+      "net": "GND",
+      "xy": [
+        34.9,
+        55.6
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake SOURCE GND four-barrel transfer"
+    },
+    {
+      "uuid": "b027206d-7f5c-4545-9833-2d59501e5abf",
+      "net": "GND",
+      "xy": [
+        34.9,
+        57.0
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake SOURCE GND four-barrel transfer"
+    },
+    {
+      "uuid": "fc5fcfbd-6f17-4631-ae98-76f0847208be",
+      "net": "GND",
+      "xy": [
+        34.9,
+        58.4
+      ],
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "purpose": "brake SOURCE GND four-barrel transfer"
+    }
+  ],
+  "zones": [
+    {
+      "uuid": "eb3577fd-cc40-4b8e-b56a-c438da8f294a",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "name": "GND reference In1",
+      "points": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          59.5,
+          0.5
+        ],
+        [
+          59.5,
+          59.5
+        ],
+        [
+          0.5,
+          59.5
+        ]
+      ],
+      "clearance_mm": 0.2,
+      "keepout": false
+    },
+    {
+      "uuid": "3cd3d511-5233-4b35-a9f2-d83e9f9084ea",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "name": "GND reference In4",
+      "points": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          59.5,
+          0.5
+        ],
+        [
+          59.5,
+          59.5
+        ],
+        [
+          0.5,
+          59.5
+        ]
+      ],
+      "clearance_mm": 0.2,
+      "keepout": false
+    },
+    {
+      "uuid": "44612251-c1e1-47dc-9029-ff4a3ab62817",
+      "net": "VBUS",
+      "layer": "In3.Cu",
+      "name": "VBUS inner distribution",
+      "points": [
+        [
+          11,
+          6
+        ],
+        [
+          50.5,
+          6
+        ],
+        [
+          50.5,
+          3
+        ],
+        [
+          53.8,
+          3
+        ],
+        [
+          53.8,
+          6
+        ],
+        [
+          55.8,
+          6
+        ],
+        [
+          55.8,
+          58.8
+        ],
+        [
+          34.8,
+          58.8
+        ],
+        [
+          34.8,
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "f0ecf27d-a3c3-45dd-a19b-702398582a73",
+      "net": "VBUS",
+      "layer": "F.Cu",
+      "name": "VBUS parallel front spine",
+      "points": [
+        [
+          11,
+          6
+        ],
+        [
+          42.8,
+          6
+        ],
+        [
+          42.8,
+          51.4
+        ],
+        [
+          34.8,
+          51.4
+        ],
+        [
+          34.8,
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "c7820d92-efe5-45cf-aef4-bcfee47a804c",
+      "net": "U_PHASE",
+      "layer": "B.Cu",
+      "name": "U PHASE back power",
+      "points": [
+        [
+          44,
+          14.0
+        ],
+        [
+          59,
+          14.0
+        ],
+        [
+          59,
+          21.0
+        ],
+        [
+          44,
+          21.0
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "71ef255b-7f0d-405d-97f5-4511d37ecbb1",
+      "net": "U_PHASE",
+      "layer": "F.Cu",
+      "name": "U PHASE front commutation",
+      "points": [
+        [
+          43.1,
+          15.0
+        ],
+        [
+          52.0,
+          15.0
+        ],
+        [
+          52.0,
+          20.9
+        ],
+        [
+          43.1,
+          20.9
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "2a224cab-a506-480d-9394-61ab6bd6809b",
+      "net": null,
+      "layer": "In1.Cu",
+      "name": "U negative Kelvin plane isolation",
+      "points": [
+        [
+          48.3,
+          25.5
+        ],
+        [
+          49.7,
+          25.5
+        ],
+        [
+          49.7,
+          26.9
+        ],
+        [
+          48.3,
+          26.9
+        ]
+      ],
+      "clearance_mm": 0,
+      "keepout": true
+    },
+    {
+      "uuid": "8004a240-18af-4286-aa8b-debf840cbaa7",
+      "net": null,
+      "layer": "In4.Cu",
+      "name": "U negative Kelvin plane isolation",
+      "points": [
+        [
+          48.3,
+          25.5
+        ],
+        [
+          49.7,
+          25.5
+        ],
+        [
+          49.7,
+          26.9
+        ],
+        [
+          48.3,
+          26.9
+        ]
+      ],
+      "clearance_mm": 0,
+      "keepout": true
+    },
+    {
+      "uuid": "e2a8435c-906b-401e-aa02-d527e819f562",
+      "net": "V_PHASE",
+      "layer": "B.Cu",
+      "name": "V PHASE back power",
+      "points": [
+        [
+          44,
+          29.0
+        ],
+        [
+          59,
+          29.0
+        ],
+        [
+          59,
+          36.0
+        ],
+        [
+          44,
+          36.0
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "010a1f9b-821e-475a-b7e1-fa6ac6a3a6a8",
+      "net": "V_PHASE",
+      "layer": "F.Cu",
+      "name": "V PHASE front commutation",
+      "points": [
+        [
+          43.1,
+          30.0
+        ],
+        [
+          52.0,
+          30.0
+        ],
+        [
+          52.0,
+          35.9
+        ],
+        [
+          43.1,
+          35.9
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "b07f788f-73c1-4744-b1dc-93f75e8ec375",
+      "net": null,
+      "layer": "In1.Cu",
+      "name": "V negative Kelvin plane isolation",
+      "points": [
+        [
+          48.3,
+          40.5
+        ],
+        [
+          49.7,
+          40.5
+        ],
+        [
+          49.7,
+          41.900000000000006
+        ],
+        [
+          48.3,
+          41.900000000000006
+        ]
+      ],
+      "clearance_mm": 0,
+      "keepout": true
+    },
+    {
+      "uuid": "0f44df5a-ee24-4906-ae5a-11798ebb42f0",
+      "net": null,
+      "layer": "In4.Cu",
+      "name": "V negative Kelvin plane isolation",
+      "points": [
+        [
+          48.3,
+          40.5
+        ],
+        [
+          49.7,
+          40.5
+        ],
+        [
+          49.7,
+          41.900000000000006
+        ],
+        [
+          48.3,
+          41.900000000000006
+        ]
+      ],
+      "clearance_mm": 0,
+      "keepout": true
+    },
+    {
+      "uuid": "efa9b3e8-c363-42ec-b759-1eb9b339d3ce",
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "name": "W PHASE back power",
+      "points": [
+        [
+          44,
+          44.0
+        ],
+        [
+          59,
+          44.0
+        ],
+        [
+          59,
+          51.0
+        ],
+        [
+          44,
+          51.0
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "7f916231-4e19-450f-b490-3e0aa20f8521",
+      "net": "W_PHASE",
+      "layer": "F.Cu",
+      "name": "W PHASE front commutation",
+      "points": [
+        [
+          43.1,
+          45.0
+        ],
+        [
+          52.0,
+          45.0
+        ],
+        [
+          52.0,
+          50.9
+        ],
+        [
+          43.1,
+          50.9
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "a60818e0-f23f-4c2c-a4a5-68a129d74b1e",
+      "net": "W_PHASE",
+      "layer": "F.Cu",
+      "name": "W drain-bank local extension",
+      "points": [
+        [
+          47.4,
+          50.4
+        ],
+        [
+          49.5,
+          50.4
+        ],
+        [
+          49.5,
+          52.3
+        ],
+        [
+          47.4,
+          52.3
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "563ce50f-743a-4212-be2d-badf750eef8c",
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "name": "W drain-bank local extension",
+      "points": [
+        [
+          47.4,
+          50.4
+        ],
+        [
+          49.5,
+          50.4
+        ],
+        [
+          49.5,
+          52.3
+        ],
+        [
+          47.4,
+          52.3
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "4febf0c4-5b49-40d2-b4a2-9d77eae312fc",
+      "net": null,
+      "layer": "In1.Cu",
+      "name": "W negative Kelvin plane isolation",
+      "points": [
+        [
+          48.3,
+          55.4
+        ],
+        [
+          49.7,
+          55.4
+        ],
+        [
+          49.7,
+          56.800000000000004
+        ],
+        [
+          48.3,
+          56.800000000000004
+        ]
+      ],
+      "clearance_mm": 0,
+      "keepout": true
+    },
+    {
+      "uuid": "51f9ec92-8901-431c-9b1a-9de6dbb5ca3e",
+      "net": null,
+      "layer": "In4.Cu",
+      "name": "W negative Kelvin plane isolation",
+      "points": [
+        [
+          48.3,
+          55.4
+        ],
+        [
+          49.7,
+          55.4
+        ],
+        [
+          49.7,
+          56.800000000000004
+        ],
+        [
+          48.3,
+          56.800000000000004
+        ]
+      ],
+      "clearance_mm": 0,
+      "keepout": true
+    },
+    {
+      "uuid": "c358935b-97d5-4e5e-ba1f-6901b9506527",
+      "net": "/Bus and brake/DC_FUSED",
+      "layer": "B.Cu",
+      "name": "upper rectifier anode via fanout",
+      "points": [
+        [
+          45.0,
+          3.4
+        ],
+        [
+          47.3,
+          3.4
+        ],
+        [
+          47.3,
+          7.5
+        ],
+        [
+          45.0,
+          7.5
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "147a6055-1eaf-45f0-9015-9af902843c55",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "F.Cu",
+      "name": "brake drain front island",
+      "points": [
+        [
+          26.3,
+          51.4
+        ],
+        [
+          32.925,
+          51.4
+        ],
+        [
+          32.925,
+          57.4
+        ],
+        [
+          26.3,
+          57.4
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    },
+    {
+      "uuid": "6ff77ce6-f900-48bf-8bf6-8f20ce35a76c",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "In2.Cu",
+      "name": "brake drain inner access",
+      "points": [
+        [
+          26.3,
+          52
+        ],
+        [
+          31.5,
+          52
+        ],
+        [
+          31.5,
+          57.4
+        ],
+        [
+          26.3,
+          57.4
+        ]
+      ],
+      "clearance_mm": 0.4,
+      "keepout": false
+    }
+  ],
+  "kelvin": [
+    {
+      "phase": "U",
+      "RS": "RS1",
+      "INA": "U10",
+      "source_pad": [
+        51.5,
+        20.5375
+      ],
+      "ground_pad": [
+        51.5,
+        26.4625
+      ],
+      "positive_origin": [
+        50.15,
+        20.9875
+      ],
+      "negative_origin": [
+        50.15,
+        26.0125
+      ],
+      "positive_via": [
+        49.2,
+        22.2
+      ],
+      "negative_via": [
+        49.0,
+        26.2
+      ],
+      "positive_B_path": [
+        [
+          49.2,
+          22.2
+        ],
+        [
+          49.8,
+          22.2
+        ],
+        [
+          49.8,
+          25.5
+        ],
+        [
+          48.8375,
+          24.975
+        ]
+      ],
+      "negative_B_path": [
+        [
+          49.0,
+          26.2
+        ],
+        [
+          47.7,
+          26.2
+        ],
+        [
+          46.5625,
+          24.975
+        ]
+      ],
+      "positive_track_uuids": [
+        "b8465d62-32bb-44b0-86ab-29db3bb44774",
+        "71d29e5a-7de3-42a7-a1ef-5f821131fcb7",
+        "317c0e64-56a2-44ba-97ad-d218ceab0534",
+        "4cfc3502-0e19-4947-80dd-ebb2243b77b8"
+      ],
+      "negative_track_uuids": [
+        "ecdfee63-9b7f-4ad7-8d37-f1f1d30254d7",
+        "0cde3ac3-4775-41aa-9217-c0adac371501",
+        "650f45ba-cbb4-4b20-a66e-b4dc960c897a"
+      ],
+      "positive_via_uuid": "044ebd92-a454-4206-8851-0bdad46762f4",
+      "negative_via_uuid": "2ccd07b8-badd-463e-b155-21c995a77644",
+      "negative_via_ground_planes_isolated": true,
+      "width_mm": 0.2
+    },
+    {
+      "phase": "V",
+      "RS": "RS2",
+      "INA": "U11",
+      "source_pad": [
+        51.5,
+        35.5375
+      ],
+      "ground_pad": [
+        51.5,
+        41.4625
+      ],
+      "positive_origin": [
+        50.15,
+        35.987500000000004
+      ],
+      "negative_origin": [
+        50.15,
+        41.012499999999996
+      ],
+      "positive_via": [
+        49.2,
+        37.2
+      ],
+      "negative_via": [
+        49.0,
+        41.2
+      ],
+      "positive_B_path": [
+        [
+          49.2,
+          37.2
+        ],
+        [
+          49.8,
+          37.2
+        ],
+        [
+          49.8,
+          40.5
+        ],
+        [
+          48.8375,
+          39.975
+        ]
+      ],
+      "negative_B_path": [
+        [
+          49.0,
+          41.2
+        ],
+        [
+          47.7,
+          41.2
+        ],
+        [
+          46.5625,
+          39.975
+        ]
+      ],
+      "positive_track_uuids": [
+        "2813904a-7ad9-4051-ba28-b240f41b7f55",
+        "22bf332a-fb52-4f31-8951-4a01d408e519",
+        "70686af0-dc02-4174-a231-37004525b015",
+        "7bcf24b4-cf95-4c2d-8574-ca8db5f781bf"
+      ],
+      "negative_track_uuids": [
+        "cbda3420-4107-4ccc-9e5d-43d60d18b035",
+        "9e8d7c5f-49a1-49f6-b090-599d36c51041",
+        "6e5ea4e2-aed5-40c4-b9f0-00ab01c95579"
+      ],
+      "positive_via_uuid": "cbca7302-df3e-405e-8405-9ecd2e2ae635",
+      "negative_via_uuid": "dfc23e25-d214-42e4-ae17-5ca97070f326",
+      "negative_via_ground_planes_isolated": true,
+      "width_mm": 0.2
+    },
+    {
+      "phase": "W",
+      "RS": "RS3",
+      "INA": "U12",
+      "source_pad": [
+        51.5,
+        50.5375
+      ],
+      "ground_pad": [
+        51.5,
+        56.4625
+      ],
+      "positive_origin": [
+        50.15,
+        50.987500000000004
+      ],
+      "negative_origin": [
+        50.15,
+        56.012499999999996
+      ],
+      "positive_via": [
+        50.3,
+        52.2
+      ],
+      "negative_via": [
+        49.0,
+        56.1
+      ],
+      "positive_B_path": [
+        [
+          50.3,
+          52.2
+        ],
+        [
+          51.1,
+          52.2
+        ],
+        [
+          51.1,
+          55.5
+        ],
+        [
+          50.1375,
+          54.975
+        ]
+      ],
+      "negative_B_path": [
+        [
+          49.0,
+          56.1
+        ],
+        [
+          49.0,
+          56.1
+        ],
+        [
+          47.8625,
+          54.975
+        ]
+      ],
+      "positive_track_uuids": [
+        "13f2810c-9c76-4ada-ba2a-155c709614d7",
+        "a9609bf1-15a5-448b-a645-1906aa4e9bfc",
+        "451e30e9-b614-4283-887a-842257f2cfcd",
+        "3192349b-a3d8-462f-adee-677d7da28523"
+      ],
+      "negative_track_uuids": [
+        "2ba9d442-87e8-4ea9-9649-9cd7043221de",
+        "a96ab8a6-96cb-4809-8378-5002c72bf7db"
+      ],
+      "positive_via_uuid": "2792c523-f055-4fc6-b955-152ae7bb9f44",
+      "negative_via_uuid": "e433bc3b-bbf9-445b-9105-4be9ae7e836d",
+      "negative_via_ground_planes_isolated": true,
+      "width_mm": 0.2
+    }
+  ],
+  "critical": [
+    {
+      "phase": "U",
+      "source_bank": [
+        [
+          45.1,
+          17.4
+        ],
+        [
+          45.1,
+          18.8
+        ],
+        [
+          46.5,
+          17.4
+        ],
+        [
+          46.5,
+          18.8
+        ]
+      ],
+      "drain_bank": [
+        [
+          47.5,
+          19.0
+        ],
+        [
+          47.5,
+          20.4
+        ],
+        [
+          48.9,
+          19.0
+        ],
+        [
+          48.9,
+          20.4
+        ]
+      ],
+      "VBUS_bank": [
+        [
+          35.6,
+          19.7
+        ],
+        [
+          35.6,
+          21.1
+        ],
+        [
+          37.0,
+          19.7
+        ],
+        [
+          37.0,
+          21.1
+        ]
+      ],
+      "vias_per_phase_transfer": 4,
+      "phase_transfers_in_series": 2,
+      "parallel_barrels_per_transfer": 4,
+      "SOURCE_common_width_mm": 2,
+      "B_output_width_mm": 4
+    },
+    {
+      "phase": "V",
+      "source_bank": [
+        [
+          45.1,
+          32.4
+        ],
+        [
+          45.1,
+          33.8
+        ],
+        [
+          46.5,
+          32.4
+        ],
+        [
+          46.5,
+          33.8
+        ]
+      ],
+      "drain_bank": [
+        [
+          47.5,
+          34.0
+        ],
+        [
+          47.5,
+          35.4
+        ],
+        [
+          48.9,
+          34.0
+        ],
+        [
+          48.9,
+          35.4
+        ]
+      ],
+      "VBUS_bank": [
+        [
+          35.6,
+          34.7
+        ],
+        [
+          35.6,
+          36.1
+        ],
+        [
+          37.0,
+          34.7
+        ],
+        [
+          37.0,
+          36.1
+        ]
+      ],
+      "vias_per_phase_transfer": 4,
+      "phase_transfers_in_series": 2,
+      "parallel_barrels_per_transfer": 4,
+      "SOURCE_common_width_mm": 2,
+      "B_output_width_mm": 4
+    },
+    {
+      "phase": "W",
+      "source_bank": [
+        [
+          45.1,
+          47.0
+        ],
+        [
+          45.1,
+          48.4
+        ],
+        [
+          46.5,
+          47.0
+        ],
+        [
+          46.5,
+          48.4
+        ]
+      ],
+      "drain_bank": [
+        [
+          47.9,
+          50.8
+        ],
+        [
+          49.0,
+          50.8
+        ],
+        [
+          47.9,
+          51.9
+        ],
+        [
+          49.0,
+          51.9
+        ]
+      ],
+      "VBUS_bank": [
+        [
+          37.6,
+          49.4
+        ],
+        [
+          39.0,
+          49.4
+        ],
+        [
+          40.4,
+          49.4
+        ],
+        [
+          38.5,
+          50.8
+        ]
+      ],
+      "vias_per_phase_transfer": 4,
+      "phase_transfers_in_series": 2,
+      "parallel_barrels_per_transfer": 4,
+      "SOURCE_common_width_mm": 2,
+      "B_output_width_mm": 4
+    }
+  ],
+  "placements": {
+    "R100": {
+      "x": 12.5,
+      "y": 12.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "group": "fuse_fanout_clearance",
+      "previous_xy": [
+        9.5,
+        16.0
+      ]
+    },
+    "R122": {
+      "x": 9.0,
+      "y": 23.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "group": "fuse_fanout_clearance",
+      "previous_xy": [
+        9.0,
+        17.75
+      ]
+    },
+    "R98": {
+      "x": 9.0,
+      "y": 14.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "group": "fuse_fanout_clearance",
+      "previous_xy": [
+        9.0,
+        16.5
+      ]
+    }
+  },
+  "removed_exact_duplicate_track_uuids": [
+    "5e4f5946-a7a0-4f43-8f72-29193bb6d29b",
+    "6b35b6bd-c397-4c15-826f-71ce5a16f20d",
+    "12bd5901-ab11-4f92-b54b-cfe032a5a8fc",
+    "d7c5ff33-05bf-4ae3-befc-ffb1d0ea4c48"
+  ],
+  "connectivity_audit": {
+    "method": "Actual saved tracks/pads/vias and per-layer filled-zone islands; same-layer shape intersections plus plated through-layer links.",
+    "critical_paths": {
+      "DC_INPUT": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      },
+      "DC_FUSED": {
+        "pass": true,
+        "physical_pad_count": 3,
+        "components": 1
+      },
+      "VBUS": {
+        "pass": true,
+        "physical_pad_count": 22,
+        "components": 1
+      },
+      "GND_MAIN": {
+        "pass": true,
+        "physical_pad_count": 11,
+        "components": 1
+      },
+      "BRAKE_SW": {
+        "pass": true,
+        "physical_pad_count": 6,
+        "components": 1
+      },
+      "U_PHASE": {
+        "pass": true,
+        "physical_pad_count": 9,
+        "components": 1
+      },
+      "U_SOURCE": {
+        "pass": true,
+        "physical_pad_count": 5,
+        "components": 1
+      },
+      "U_NEGATIVE_KELVIN": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      },
+      "V_PHASE": {
+        "pass": true,
+        "physical_pad_count": 9,
+        "components": 1
+      },
+      "V_SOURCE": {
+        "pass": true,
+        "physical_pad_count": 5,
+        "components": 1
+      },
+      "V_NEGATIVE_KELVIN": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      },
+      "W_PHASE": {
+        "pass": true,
+        "physical_pad_count": 9,
+        "components": 1
+      },
+      "W_SOURCE": {
+        "pass": true,
+        "physical_pad_count": 5,
+        "components": 1
+      },
+      "W_NEGATIVE_KELVIN": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      }
+    },
+    "negative_kelvin_plane_isolation": [
+      {
+        "phase": "U",
+        "layer": "In1.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "U",
+        "layer": "In4.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "V",
+        "layer": "In1.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "V",
+        "layer": "In4.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "W",
+        "layer": "In1.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "W",
+        "layer": "In4.Cu",
+        "isolated": true
+      }
+    ]
+  },
+  "source": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_work\\inverter.kicad_pcb",
+  "source_sha256": "94bac718c7d2ed1b77947341d7839bd947b90185a40b281b90e9cd8fc3462634",
+  "candidate_sha256": "9670cd4e3799977b4a84df7dde10ca6f32450ace0d93f7692735bab1a11d1592",
+  "fixed_net_identity_mutations": [],
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_candidate\\inverter.kicad_pcb",
+  "status": "power copper candidate; actual DRC and heat validation required",
+  "copper_um": 35,
+  "layers": 6,
+  "limitations": [
+    "Placement/DRC does not validate 10 A temperature rise, current sharing or switching overshoot.",
+    "SOURCE pin fanout uses three short0.65mm necks before a2mm common stem.",
+    "Each phase has four source-transfer vias and four drain-transfer vias IN SERIES, never eight parallel vias.",
+    "No ordinary tracks use In1/In4; negative Kelvin GND vias have local pour keepouts on both planes."
+  ]
+}

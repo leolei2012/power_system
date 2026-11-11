@@ -1,0 +1,648 @@
+{
+  "changed_tracks": [
+    {
+      "uuid": "4ab4b88e-7fd8-4786-9457-f4280858ac1a",
+      "net": "PA0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "dff19be6-3215-4883-9fbb-1db36b86dcb9",
+      "net": "PA0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "f934f79e-effd-46ab-a821-166e072ba356",
+      "net": "PA0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "31ed52c5-d69c-4b00-89e4-c339aba5693a",
+      "net": "PA0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "e7173f0f-2850-4386-9435-f89fcf777581",
+      "net": "PA0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "01840966-e807-4b00-b63d-7e890689b1d2",
+      "net": "PA1",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1f0f9b6b-a20d-42fb-8140-a1bb084e2c88",
+      "net": "PA1",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "f84c295a-e0a0-4597-b6c0-e09709be9ff8",
+      "net": "PA1",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "139818ce-7512-44ac-bcc2-c877b7d46775",
+      "net": "PA2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "2cee08dc-4015-4efb-b2f2-412c5ca1ec0b",
+      "net": "PA2",
+      "before": 0.09,
+      "after": 0.15
+    },
+    {
+      "uuid": "5a8058b3-a7c5-4f6b-9ead-7cbe32256a54",
+      "net": "PA2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "5f65e163-1ed0-4341-9879-c51bb76a4633",
+      "net": "PA2",
+      "before": 0.09,
+      "after": 0.15
+    },
+    {
+      "uuid": "85674490-3772-4d70-b78b-3a0fe4aa1f68",
+      "net": "PA2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "9ac90fca-a169-42a9-ab34-e4c423e8b7e6",
+      "net": "PA2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "247fe6a8-f684-4449-ad08-36fd72ee2303",
+      "net": "PA2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "9e4bb780-95f7-4666-97e0-9b0cd15e443e",
+      "net": "PA2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "0ca951e2-ad1b-4c22-aeb1-7664fa06bf77",
+      "net": "PA4",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "0b0af1dd-f9a3-4b23-bdb7-47f3db327c8f",
+      "net": "PA6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "726df53c-769c-4e28-8260-a0ee0eb95a6a",
+      "net": "PA6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1087f978-5263-4b2c-bace-c0c7a8345d89",
+      "net": "PA8",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "3db7bdef-b96c-457d-8ddb-bf1883c9db3d",
+      "net": "PA8",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "02811c94-7801-4fb8-af41-d3fd41026d77",
+      "net": "PA9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "07eab540-81c7-40ad-99bd-b1939feaa094",
+      "net": "PA9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "56d5f425-77a6-4e37-a36d-b99b41f19fe4",
+      "net": "PA9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "70057164-5539-43c8-947d-995159a5727b",
+      "net": "PA10",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "8abd3879-15cd-4433-9d78-aa8391aa0e43",
+      "net": "PA10",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "f56bb431-8bbe-47fd-bc90-0d86bcb06089",
+      "net": "PA10",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "af839edc-5e4a-4f78-a48e-dd2b105f67ff",
+      "net": "PA11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "b6048c4a-c92c-427b-8d9f-ef57c275db76",
+      "net": "PA11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "fdeed9d2-91bd-4eba-a000-313dc6d46554",
+      "net": "PA11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1cd4d016-9e80-4b9d-911a-92dd646c64ba",
+      "net": "PA12",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1d5b0754-6c50-4615-a597-d92aff10da05",
+      "net": "PA12",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "34285d89-23f1-456c-a68e-ce2e6fef0a9b",
+      "net": "PA12",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "b3132300-0247-4842-b412-7f09198a307e",
+      "net": "PA12",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "6af8ae7a-5da5-4159-86dc-45a626e346d5",
+      "net": "PA14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "82c0ecfd-435c-4076-b7cd-cfed1f71d0e4",
+      "net": "PA14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "2aa4b5c3-35b6-4b6b-8a57-252cb31803b8",
+      "net": "PB0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "855ca9f3-85ab-4b0c-a950-d089bf111d86",
+      "net": "PB0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "091d44fc-7691-4584-a86e-aabdcfdaed77",
+      "net": "PB1",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "85bea827-b646-4b35-af6c-a87f0e70a8dc",
+      "net": "PB1",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "2272079a-ec82-4d14-aa55-34e1a85929f4",
+      "net": "PB6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "3f2da1af-1357-4af4-9e02-dc1ee704681b",
+      "net": "PB6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "422d9e49-60d6-4546-b623-0f53fc9ea714",
+      "net": "PB6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "5036cf9f-3a87-4c30-98ae-1ca48034a82b",
+      "net": "PB7",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "53f6acc8-9c20-4541-ad69-cc59d86cff43",
+      "net": "PB7",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "3c93e9b6-f606-4e98-a9c8-7cef92af3caf",
+      "net": "NRST",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "722e85af-60ce-46bd-ab16-a14059bf2a64",
+      "net": "NRST",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "d01e40c8-98b9-4a2f-84d5-b737f31abfa7",
+      "net": "NRST",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "fb9132f2-f033-4cec-9bdf-a13ac077118a",
+      "net": "NRST",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1b98b7b7-1394-49c9-944d-33926eacee30",
+      "net": "PB8_BOOT0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1d922e92-220a-4b37-9763-5c636e72b63c",
+      "net": "PB8_BOOT0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "8416e6ec-384f-4451-89d4-299258b1e6a9",
+      "net": "/Local power and reset/CORE_MR_5V_PRESENT",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "9ef35f21-29d8-4351-b637-22e05457a2ce",
+      "net": "/Local power and reset/CORE_MR_5V_PRESENT",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "331f5262-2b34-42ae-8eca-18e9e159798d",
+      "net": "PC14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "67e3bf28-126a-4a13-8d11-f599b25e79fb",
+      "net": "PC14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "87b50840-87a2-480f-8c6c-9efdeee11128",
+      "net": "PC14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "027f8d2a-c57f-4122-8627-716db047608b",
+      "net": "PC0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "0ab4483a-0a29-441f-9448-7fbc2b0e074d",
+      "net": "PC0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "36d9ddcb-18da-4128-a3f3-123e8c59cfb9",
+      "net": "PC0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "63c6c141-afc7-4ec3-b245-42f230be53fb",
+      "net": "PC0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "b2e46568-f66c-4ef7-92d8-3f8a95c47472",
+      "net": "PC0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "baebb7f8-76e8-4723-b0a6-882185f5d8c9",
+      "net": "PC0",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "62469e8c-bb30-4686-bcc9-75ed558f2982",
+      "net": "PC1",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "09874f97-25ba-444c-af7c-ee2a87380db4",
+      "net": "PC2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "2d3e5ebc-5b1d-45ea-9eb8-e3229af3f25d",
+      "net": "PC2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "3adca718-dd4e-4b96-9a74-882e7c1c28eb",
+      "net": "PC2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "645f2e5d-cf11-4e75-b551-024b6e26fe27",
+      "net": "PC2",
+      "before": 0.075,
+      "after": 0.15
+    },
+    {
+      "uuid": "9d62c8b7-ff9b-437c-a453-8d1545991bf5",
+      "net": "PC2",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "a1eb6426-fb94-4940-bfb7-bb094f1b005a",
+      "net": "PC2",
+      "before": 0.075,
+      "after": 0.15
+    },
+    {
+      "uuid": "1f227727-1870-43b2-9e18-7d72001145ec",
+      "net": "PC3",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "81de93e5-a6cc-4e74-8da6-41dd107a0a15",
+      "net": "PC3",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "e9ee4faf-b83c-4e8c-ace9-5399eba4637f",
+      "net": "PC3",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "059e324b-e318-43c1-ae36-51c288cdb0ca",
+      "net": "PC4",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ce30e541-2d1b-484c-9aaf-927139c78687",
+      "net": "PC4",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "8c07f140-d572-45f7-bf2d-a1f2fa7f9fdd",
+      "net": "PC5",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "98d1175e-f161-469d-be2f-35e9b4996be5",
+      "net": "PC5",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ab9fc107-8cba-4a1a-a652-6ab5b45a5236",
+      "net": "PC5",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "d2a9c008-c2e8-428e-990f-8fb4a52cbb11",
+      "net": "PC5",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "2c204db8-3d76-4f1e-999b-c2607d752f23",
+      "net": "PB10",
+      "before": 0.075,
+      "after": 0.15
+    },
+    {
+      "uuid": "87f5673c-7faf-47c0-892c-5f0b5d5d453d",
+      "net": "PB10",
+      "before": 0.075,
+      "after": 0.15
+    },
+    {
+      "uuid": "3584d335-37f9-4da2-8e8f-96a09e4432c4",
+      "net": "PB11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "613d8c40-1972-4e73-807b-cbebbf1e6755",
+      "net": "PB11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "6f97bcbc-65ed-4313-9217-b45b0105c7ab",
+      "net": "PB11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "b7a8c871-3d86-42ae-ac3d-6da0b8cf6ba4",
+      "net": "PB11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "c830f9a3-e215-430e-80b5-061694dbd3ac",
+      "net": "PB11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ce22b481-f96f-4066-8587-c7807890ecd3",
+      "net": "PB11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "08664103-3240-417f-a4ca-668f3b1816a1",
+      "net": "PB14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ae62c47f-6b95-4f21-909b-a7f852c5b856",
+      "net": "PB14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ca6c5c14-2b3d-4fe9-8552-c3afa693795a",
+      "net": "PB14",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "07b90379-d06a-4a3d-863b-47e9870dc3ab",
+      "net": "PB15",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "76c3f68a-ae65-4c78-84d9-362481766499",
+      "net": "PB15",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "163969fa-d285-4385-987a-3d2abc4275e3",
+      "net": "PC6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "db8142c9-c53d-4b7a-bd2a-699f7b7e2f68",
+      "net": "PC6",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "3a328545-e683-4921-abef-de0b333dfe2c",
+      "net": "PC8",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "77d4cf5e-2e45-4758-9a07-efef1ad5e5ff",
+      "net": "PC8",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ba940baf-4acd-4dc7-b8b3-2b5edad153b9",
+      "net": "PC8",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "3edc9fa2-e3a4-479d-b6ea-50f2b3c33a6e",
+      "net": "PC9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "5eef17e2-ac83-4ccf-98db-aecaf9b496dd",
+      "net": "PC9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "734e64f0-14d3-4bcb-9a7b-d5ad91c4105f",
+      "net": "PC9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "73d2184c-ae35-4d28-be1b-e46adfaff8da",
+      "net": "PC11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "c036f691-d87e-46a0-b0b0-ba8d319479e1",
+      "net": "PC11",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "1ceceb8e-1eaa-46a2-a1ea-7af78db9ada5",
+      "net": "PB9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "7542618f-e226-4072-8a52-05188dfcdd2a",
+      "net": "PB9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "8a058eb3-75c7-4264-abe0-e69ef4f93e9d",
+      "net": "PB9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "f069153c-72c5-4024-80e0-d0db5b3bb053",
+      "net": "PB9",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "2fcdd499-9472-4df1-901d-317d4baa9b6c",
+      "net": "CTRL_READY",
+      "before": 0.1124,
+      "after": 0.15
+    },
+    {
+      "uuid": "ae73d161-a7c2-4740-bd5b-f24f849f4ce6",
+      "net": "CTRL_READY",
+      "before": 0.1124,
+      "after": 0.15
+    }
+  ],
+  "minimum_rule_mm": 0.15,
+  "rule_unchanged": true
+}

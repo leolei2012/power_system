@@ -1,0 +1,55 @@
+{
+  "board": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fine_smoke\\inverter.kicad_pcb",
+  "board_sha256": "4d4f0c2ae1d5177ebf351e92cd70ae8483fde624233a5b98dc958461cede13fb",
+  "project": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fine_smoke\\inverter.kicad_pro",
+  "before_project_sha256": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+  "selected_exact_nets": [
+    "MCU_ENABLE",
+    "SPI_A_SCK"
+  ],
+  "changed_global_minima": {
+    "min_track_width": {
+      "before": 0.15,
+      "after": 0.125
+    },
+    "min_through_hole_diameter": {
+      "before": 0.3,
+      "after": 0.2
+    },
+    "min_via_annular_width": {
+      "before": 0.1,
+      "after": 0.15
+    },
+    "min_clearance": {
+      "before": 0.0,
+      "after": 0.15
+    }
+  },
+  "fine_class": {
+    "bus_width": 12,
+    "clearance": 0.15,
+    "diff_pair_gap": 0.25,
+    "diff_pair_via_gap": 0.25,
+    "diff_pair_width": 0.2,
+    "line_style": 0,
+    "microvia_diameter": 0.3,
+    "microvia_drill": 0.1,
+    "name": "FineSignal",
+    "pcb_color": "rgba(0, 0, 0, 0.000)",
+    "priority": 1,
+    "schematic_color": "rgba(0, 0, 0, 0.000)",
+    "track_width": 0.125,
+    "tuning_profile": "",
+    "via_diameter": 0.5,
+    "via_drill": 0.2,
+    "wire_width": 6
+  },
+  "preserved_original_classes": [
+    "Default",
+    "Gate",
+    "Auxiliary",
+    "HV"
+  ],
+  "policy": "Only .125 trace/.5-.2 throughvia minima and explicit FineSignal opt-in; real minimum clearance .15, annular .15; all original class definitions, patterns, severities, hole/edge rules, routing preferences and all PCB bytes preserved.",
+  "after_project_sha256": "fe3ccd2ff723ff18b900e1e1e99ead51522d2dbe6c868cfcab37f9beb4be2fe9"
+}

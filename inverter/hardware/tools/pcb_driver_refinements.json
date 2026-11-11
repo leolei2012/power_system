@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "source_pcb_sha256": "add35f88e75ef4ec4da25766be329f500f4f022a27f3cda5c5da7ffc46db3a00",
+  "control_refinements_sha256": "983415c8c7f9be2ad3ecfa67f09a67f84445b4bf3987029b1c503055a4251894",
+  "purpose": "Eight local VCC/COM decoupling and divider-clearance refinements; only this JSON written.",
+  "units": "mm",
+  "placements": {
+    "C28": {
+      "x": 115.15,
+      "y": 55.25,
+      "rotation_deg": 180,
+      "group": "driver_local_decoupling_1"
+    },
+    "C27": {
+      "x": 111.9,
+      "y": 56.25,
+      "rotation_deg": 90,
+      "group": "driver_local_decoupling_1"
+    },
+    "C32": {
+      "x": 139.15,
+      "y": 55.25,
+      "rotation_deg": 180,
+      "group": "driver_local_decoupling_2"
+    },
+    "C31": {
+      "x": 135.9,
+      "y": 56.25,
+      "rotation_deg": 90,
+      "group": "driver_local_decoupling_2"
+    },
+    "C36": {
+      "x": 163.15,
+      "y": 55.25,
+      "rotation_deg": 180,
+      "group": "driver_local_decoupling_3"
+    },
+    "C35": {
+      "x": 159.9,
+      "y": 56.25,
+      "rotation_deg": 90,
+      "group": "driver_local_decoupling_3"
+    },
+    "R58": {
+      "x": 98.5,
+      "y": 53.5,
+      "rotation_deg": 0,
+      "group": "voltage_divider_clearance"
+    },
+    "R59": {
+      "x": 102,
+      "y": 53.5,
+      "rotation_deg": 0,
+      "group": "voltage_divider_clearance"
+    }
+  },
+  "actual_pad_distance_comparison": {
+    "C28": {
+      "driver": "U7",
+      "actual_value": "100n",
+      "before": {
+        "x": 122.25,
+        "y": 53.5,
+        "rotation_deg": 0.0,
+        "cap_positive_to_VCC_mm": 3.6013,
+        "cap_negative_to_COM_mm": 10.1918
+      },
+      "after": {
+        "cap_positive_to_VCC_mm": 2.6845,
+        "cap_negative_to_COM_mm": 3.4359
+      }
+    },
+    "C27": {
+      "driver": "U7",
+      "actual_value": "4.7u",
+      "before": {
+        "x": 112.0,
+        "y": 59.5,
+        "rotation_deg": 0.0,
+        "cap_positive_to_VCC_mm": 9.1504,
+        "cap_negative_to_COM_mm": 7.365
+      },
+      "after": {
+        "cap_positive_to_VCC_mm": 7.0783,
+        "cap_negative_to_COM_mm": 3.3268
+      }
+    },
+    "C32": {
+      "driver": "U8",
+      "actual_value": "100n",
+      "before": {
+        "x": 146.25,
+        "y": 53.5,
+        "rotation_deg": 0.0,
+        "cap_positive_to_VCC_mm": 3.6013,
+        "cap_negative_to_COM_mm": 10.1918
+      },
+      "after": {
+        "cap_positive_to_VCC_mm": 2.6845,
+        "cap_negative_to_COM_mm": 3.4359
+      }
+    },
+    "C31": {
+      "driver": "U8",
+      "actual_value": "4.7u",
+      "before": {
+        "x": 136.0,
+        "y": 59.5,
+        "rotation_deg": 0.0,
+        "cap_positive_to_VCC_mm": 9.1504,
+        "cap_negative_to_COM_mm": 7.365
+      },
+      "after": {
+        "cap_positive_to_VCC_mm": 7.0783,
+        "cap_negative_to_COM_mm": 3.3268
+      }
+    },
+    "C36": {
+      "driver": "U9",
+      "actual_value": "100n",
+      "before": {
+        "x": 170.25,
+        "y": 53.5,
+        "rotation_deg": 0.0,
+        "cap_positive_to_VCC_mm": 3.6013,
+        "cap_negative_to_COM_mm": 10.1918
+      },
+      "after": {
+        "cap_positive_to_VCC_mm": 2.6845,
+        "cap_negative_to_COM_mm": 3.4359
+      }
+    },
+    "C35": {
+      "driver": "U9",
+      "actual_value": "4.7u",
+      "before": {
+        "x": 160.0,
+        "y": 59.5,
+        "rotation_deg": 0.0,
+        "cap_positive_to_VCC_mm": 9.1504,
+        "cap_negative_to_COM_mm": 7.365
+      },
+      "after": {
+        "cap_positive_to_VCC_mm": 7.0783,
+        "cap_negative_to_COM_mm": 3.3268
+      }
+    }
+  },
+  "divider_moves": {
+    "before": {
+      "R58": {
+        "x": 114.75,
+        "y": 55.25,
+        "rotation_deg": 0.0
+      },
+      "R59": {
+        "x": 111.25,
+        "y": 55.25,
+        "rotation_deg": 0.0
+      }
+    },
+    "after": {
+      "R58": {
+        "x": 98.5,
+        "y": 53.5,
+        "rotation_deg": 0,
+        "group": "voltage_divider_clearance"
+      },
+      "R59": {
+        "x": 102,
+        "y": 53.5,
+        "rotation_deg": 0,
+        "group": "voltage_divider_clearance"
+      }
+    },
+    "R58_R59_center_distance_before_mm": 3.5,
+    "R58_R59_center_distance_after_mm": 3.5,
+    "pin_nets_preserved": {
+      "R58": {
+        "1": "V_PHASE",
+        "2": "/Voltage and NTC/V_V_DIV1"
+      },
+      "R59": {
+        "1": "/Voltage and NTC/V_V_DIV1",
+        "2": "/Voltage and NTC/V_V_DIV2"
+      }
+    },
+    "note": "Keep original3.5mm center spacing and same physical package; move both to free region left of U16. R58.2-R59.1 remains the series DIV1 connection. No value/net assignment changed."
+  },
+  "validation": {
+    "combined_control_refinements_count": 48,
+    "actual_physical_footprints": 317,
+    "new_ref_courtyard_collisions": [],
+    "all_combined_courtyard_collisions": [],
+    "method": "Native pcbnew BuildCourtyardCaches; transformed F.CrtYd polygon BooleanIntersection; cutoff0.0001mm2. Distances are Euclidean pad-center separation, not routed loop lengths."
+  },
+  "notes": [
+    "All three100n: VCC/COM distance3.60/10.19mm ->2.68/3.44mm. Same placement relative to each driver.",
+    "All three4.7uF: VCC/COM distance9.15/7.37mm ->7.08/3.33mm. Actual C27/C31/C35 native value4.7uF unchanged.",
+    "R58/R59 moves explicitly authorized to free U7 underside. No input pulldown, gate-series or bootstrap moves needed.",
+    "Route each cap negative directly to matching driver COM on same-phase SOURCE local return, not global GND or a detour via shunt.",
+    "F.Cu only. Parent should apply with48 control refinements, regenerate locked power copper, refill and perform complete electrical/clearance DRC."
+  ]
+}

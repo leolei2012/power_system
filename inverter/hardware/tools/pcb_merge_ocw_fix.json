@@ -1,0 +1,221 @@
+{
+  "source_sha": "4da4f4da9f44d68162d8256dcd716cd2c5eeff520aa5dd1509e777f2fe0f84fe",
+  "ripup_uuids": [
+    "1fb15eb5-6a23-437c-85f4-c5f33fe092b0",
+    "09381763-66c2-4400-8e44-0562233b7d6f",
+    "10f62f6d-aefa-479a-a76a-b89671722137",
+    "17dcbb88-4422-43e2-9cc7-e5f9c2cc9b24",
+    "1955c600-abd6-4996-b438-00aa6d1161c6",
+    "24ac19a3-c1b1-496d-ad6a-7449662133ae",
+    "2b8e4408-9f84-497b-a7f3-f6938c1f45e8",
+    "33107391-a8c7-4eaf-898f-609f725d781e",
+    "34aecda8-2b6e-4b0a-9cb6-3910cd4ecee7",
+    "35f092bd-ebd8-41df-84c5-691b97fbcf21",
+    "4bda5bec-a1cb-44e0-b54a-ef7fb04b69d5",
+    "57886a60-bf88-4253-82a3-df20e6d3f61f",
+    "57c10296-506e-4420-88ec-3c5916d85c59",
+    "5c0e7fa0-9d79-47d1-89fd-d2ba5436c948",
+    "67cbba67-ab8e-4751-a3d5-13c16c8f1d85",
+    "69d0f1a3-1214-4604-8b39-8c07a3db6787",
+    "903effdb-7878-4d86-b944-be4bec23fd82",
+    "9c81c29e-6d74-40aa-a669-bc6edb54c61c",
+    "9fde613d-f3ea-424d-9b31-b2f5432abd11",
+    "a172a525-1c09-432d-98c2-a35795b1b21f",
+    "b4e20510-951a-4498-9663-9d7b614d958a",
+    "c837b0db-9f0c-41c4-b458-3ea8e396aa84",
+    "c9efc99a-0acd-45a3-97db-f7e834bd8cc7",
+    "d08e7f0f-5cba-4789-b162-49e660ba47d5",
+    "e17db1bc-7220-40db-86e3-6058d085b2a0",
+    "f9b6b0f0-7942-42b3-b487-e65fc1825c73",
+    "8a4e18ac-c73b-43e8-be52-16ef28836f3a"
+  ],
+  "paths": [
+    {
+      "net": "OC_W_HIGH_OK",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          158.6,
+          73.4
+        ],
+        [
+          158.6,
+          72.6
+        ],
+        [
+          159.2,
+          72.6
+        ],
+        [
+          159.3,
+          72.5
+        ],
+        [
+          159.9,
+          72.5
+        ],
+        [
+          160.6,
+          73.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OC_W_HIGH_OK",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          160.6,
+          73.2
+        ],
+        [
+          162.7,
+          75.3
+        ],
+        [
+          162.7,
+          76.6
+        ],
+        [
+          162.8,
+          76.7
+        ],
+        [
+          162.8,
+          76.8
+        ],
+        [
+          165.2,
+          76.8
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "OC_W_HIGH_OK",
+      "x": 160.6,
+      "y": 73.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "review/inverter_merge_ocw_candidate.kicad_pcb",
+  "notes": [
+    "Only OC_W_HIGH_OK local zigzag/via around158.8,73.2 is replaced. W_HIN long route/via and all locked2mm VBUS feeds remain unchanged.",
+    "R48/OC_U, all fixed power/SOURCE/Kelvin and auxiliary circuitry are untouched.",
+    "Complete B.Cu PHASE outlines remain blocked for new signal copper and through vias. Root must actual-DRC the merged board."
+  ],
+  "route_stats": {
+    "expanded": 4858,
+    "seconds": 0.06,
+    "grid_mm": 0.1
+  },
+  "validation": {
+    "actual_drc": "review/inverter_merge_ocw_candidate_drc.json",
+    "local_OCW_errors": 0,
+    "unconnected_items": 0,
+    "remaining_out_of_scope_errors": [
+      {
+        "description": "\u77ed\u8def\u4e86\u4e24\u4e2a\u4e0d\u540c\u7f51\u7edc\u7684\u9879\u76ee (\u7f51\u7edc OC_U_LOW_OK \u548c VBUS)",
+        "items": [
+          {
+            "description": "\u8d70\u7ebf [OC_U_LOW_OK] (B.Cu), \u957f\u5ea6: 3.2000 mm",
+            "pos": {
+              "x": 124.8,
+              "y": 79.2
+            },
+            "uuid": "074e613c-3eaf-4931-8b01-d6c40c23437f"
+          },
+          {
+            "description": "\u8d70\u7ebf [VBUS] (B.Cu), \u957f\u5ea6: 6.8431 mm",
+            "pos": {
+              "x": 124.125,
+              "y": 86.875
+            },
+            "uuid": "2044b96f-c791-428d-aae6-f5a794ff966f"
+          }
+        ],
+        "severity": "error",
+        "type": "shorting_items"
+      },
+      {
+        "description": "Tracks crossing",
+        "items": [
+          {
+            "description": "\u8d70\u7ebf [OC_U_HIGH_OK] (B.Cu), \u957f\u5ea6: 4.8000 mm",
+            "pos": {
+              "x": 119.4,
+              "y": 81.8
+            },
+            "uuid": "09711db1-7ee9-4e59-8913-c26df6eb5a6b"
+          },
+          {
+            "description": "\u8d70\u7ebf [VBUS] (B.Cu), \u957f\u5ea6: 10.1500 mm",
+            "pos": {
+              "x": 118.498,
+              "y": 77.4946
+            },
+            "uuid": "452641ec-a9d1-4c0e-a12c-b652743bf91b"
+          }
+        ],
+        "severity": "error",
+        "type": "tracks_crossing"
+      },
+      {
+        "description": "\u77ed\u8def\u4e86\u4e24\u4e2a\u4e0d\u540c\u7f51\u7edc\u7684\u9879\u76ee (\u7f51\u7edc VBUS \u548c OC_U_HIGH_OK)",
+        "items": [
+          {
+            "description": "\u8d70\u7ebf [VBUS] (B.Cu), \u957f\u5ea6: 10.1500 mm",
+            "pos": {
+              "x": 118.498,
+              "y": 77.4946
+            },
+            "uuid": "452641ec-a9d1-4c0e-a12c-b652743bf91b"
+          },
+          {
+            "description": "\u8fc7\u5b54 [OC_U_HIGH_OK] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 120.0,
+              "y": 82.4
+            },
+            "uuid": "9956e940-7022-469d-a304-5acfa5a56bd7"
+          }
+        ],
+        "severity": "error",
+        "type": "shorting_items"
+      },
+      {
+        "description": "\u95f4\u8ddd\u8fdd\u89c4 (\u7f51\u7edc\u7c7b 'HV' \u95f4\u8ddd 0.4000 mm; \u5b9e\u9645 0.1894 mm)",
+        "items": [
+          {
+            "description": "\u8d70\u7ebf [VBUS] (B.Cu), \u957f\u5ea6: 6.8431 mm",
+            "pos": {
+              "x": 124.125,
+              "y": 86.875
+            },
+            "uuid": "2044b96f-c791-428d-aae6-f5a794ff966f"
+          },
+          {
+            "description": "\u8d70\u7ebf [OC_U_HIGH_OK] (B.Cu), \u957f\u5ea6: 5.6000 mm",
+            "pos": {
+              "x": 124.2,
+              "y": 78.0
+            },
+            "uuid": "78f0ff5a-659b-4986-88f9-a00e8fba96b9"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    ],
+    "canonical_source_unchanged": true,
+    "candidate_sha256": "97fa15220ad3a8f6b4e151d2b97d34ef3617f7b7efc425b8ae41fd3f6c88bfac"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "expected_rejection_passed": true,
+  "returncode": 1,
+  "reason": "ValueError: Native net disagrees with intended power-report net for 048592c2-0d22-43a8-af8b-35cd8e74d2cb: W_SOURCE != W_PHASE",
+  "note": "Deliberately retained the old intended W_PHASE record to prove propagated W_SOURCE cannot be accepted; fixture only."
+}

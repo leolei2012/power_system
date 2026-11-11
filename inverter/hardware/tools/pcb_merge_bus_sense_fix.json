@@ -1,0 +1,354 @@
+{
+  "source_sha": "4da4f4da9f44d68162d8256dcd716cd2c5eeff520aa5dd1509e777f2fe0f84fe",
+  "ripup_uuids": [
+    "2044b96f-c791-428d-aae6-f5a794ff966f",
+    "30e090ea-f906-4649-b925-431a8253870f",
+    "452641ec-a9d1-4c0e-a12c-b652743bf91b",
+    "5aaa6b00-6977-4469-8f21-a32dac9352fb",
+    "8342763e-e548-40ab-8e5f-e4ad70423fa0",
+    "89207aeb-b11a-433c-a26e-90a81ca7b90f",
+    "9789554d-d797-4074-be03-46397c5579cc",
+    "d4f0d690-10be-450b-9eed-07e30743412e",
+    "d5adaede-da83-4d11-b75d-1592652eac4b",
+    "e20d7b56-f486-4126-8d12-5bc9da4f9c95"
+  ],
+  "paths": [
+    {
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          118.498,
+          88.5
+        ],
+        [
+          142.0,
+          87.0
+        ],
+        [
+          142.625,
+          86.5
+        ],
+        [
+          142.75,
+          85.75
+        ],
+        [
+          132.5,
+          73.75
+        ],
+        [
+          132.125,
+          73.25
+        ],
+        [
+          132.25,
+          72.5
+        ],
+        [
+          133.425,
+          71.5
+        ]
+      ],
+      "locked": false,
+      "reason": "R48 sampling branch only; reroute after merged OC_U copper; no power feeder changes.",
+      "search": {
+        "visited": 42984,
+        "elapsed": 1.109000000054948,
+        "fixed_other_net_objects": 800,
+        "minimum_clearance": 0.4,
+        "step": 0.125
+      }
+    }
+  ],
+  "vias": [],
+  "placements": {},
+  "status": "PASS_R48_GROUP_DRC_ZERO_NO_NEW_UNCONNECTED",
+  "validation": {
+    "drc_flags": [
+      "--all-track-errors"
+    ],
+    "unconnected": 0,
+    "remaining_error_count": 11,
+    "remaining_errors": [
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.1200 mm)",
+        "items": [
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2828 mm",
+            "pos": {
+              "x": 159.2,
+              "y": 73.4
+            },
+            "uuid": "34aecda8-2b6e-4b0a-9cb6-3910cd4ecee7"
+          },
+          {
+            "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "587012c0-3093-4a24-8ead-4635515c612b"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.1250 mm)",
+        "items": [
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2000 mm",
+            "pos": {
+              "x": 159.4,
+              "y": 73.6
+            },
+            "uuid": "33107391-a8c7-4eaf-898f-609f725d781e"
+          },
+          {
+            "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "587012c0-3093-4a24-8ead-4635515c612b"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "Tracks crossing",
+        "items": [
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2828 mm",
+            "pos": {
+              "x": 159.2,
+              "y": 73.4
+            },
+            "uuid": "34aecda8-2b6e-4b0a-9cb6-3910cd4ecee7"
+          },
+          {
+            "description": "走线 [W_HIN] (B.Cu), 长度: 5.5195 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "3b1d30c4-82e9-4df6-b7b8-4202a20def0f"
+          }
+        ],
+        "severity": "error",
+        "type": "tracks_crossing"
+      },
+      {
+        "description": "间距违规 (网络类 'HV' 间距 0.4000 mm; 实际 0.1876 mm)",
+        "items": [
+          {
+            "description": "过孔 [OC_W_HIGH_OK] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 158.8,
+              "y": 73.2
+            },
+            "uuid": "1fb15eb5-6a23-437c-85f4-c5f33fe092b0"
+          },
+          {
+            "description": "走线 [VBUS] (B.Cu), 长度: 4.7516 mm",
+            "pos": {
+              "x": 154.75,
+              "y": 74.25
+            },
+            "uuid": "52c90ed0-c2e1-470e-a577-c74199287631"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.0560 mm)",
+        "items": [
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2000 mm",
+            "pos": {
+              "x": 159.4,
+              "y": 73.6
+            },
+            "uuid": "33107391-a8c7-4eaf-898f-609f725d781e"
+          },
+          {
+            "description": "走线 [W_HIN] (B.Cu), 长度: 5.5195 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "3b1d30c4-82e9-4df6-b7b8-4202a20def0f"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.0702 mm)",
+        "items": [
+          {
+            "description": "过孔 [OC_W_HIGH_OK] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 158.8,
+              "y": 73.2
+            },
+            "uuid": "1fb15eb5-6a23-437c-85f4-c5f33fe092b0"
+          },
+          {
+            "description": "走线 [W_HIN] (B.Cu), 长度: 5.5195 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "3b1d30c4-82e9-4df6-b7b8-4202a20def0f"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.2202 mm)",
+        "items": [
+          {
+            "description": "走线 [W_HIN] (B.Cu), 长度: 5.5195 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "3b1d30c4-82e9-4df6-b7b8-4202a20def0f"
+          },
+          {
+            "description": "过孔 [OC_W_HIGH_OK] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 158.8,
+              "y": 73.2
+            },
+            "uuid": "1fb15eb5-6a23-437c-85f4-c5f33fe092b0"
+          }
+        ],
+        "severity": "error",
+        "type": "hole_clearance"
+      },
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.0125 mm)",
+        "items": [
+          {
+            "description": "走线 [W_HIN] (B.Cu), 长度: 5.5195 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "3b1d30c4-82e9-4df6-b7b8-4202a20def0f"
+          },
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2828 mm",
+            "pos": {
+              "x": 158.8,
+              "y": 73.2
+            },
+            "uuid": "57886a60-bf88-4253-82a3-df20e6d3f61f"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "短路了两个不同网络的项目 (网络 W_HIN 和 OC_W_HIGH_OK)",
+        "items": [
+          {
+            "description": "走线 [W_HIN] (B.Cu), 长度: 5.5195 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "3b1d30c4-82e9-4df6-b7b8-4202a20def0f"
+          },
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2000 mm",
+            "pos": {
+              "x": 159.0,
+              "y": 73.4
+            },
+            "uuid": "67cbba67-ab8e-4751-a3d5-13c16c8f1d85"
+          }
+        ],
+        "severity": "error",
+        "type": "shorting_items"
+      },
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.1250 mm)",
+        "items": [
+          {
+            "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "587012c0-3093-4a24-8ead-4635515c612b"
+          },
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2828 mm",
+            "pos": {
+              "x": 159.6,
+              "y": 73.6
+            },
+            "uuid": "5c0e7fa0-9d79-47d1-89fd-d2ba5436c948"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      },
+      {
+        "description": "间距违规 (网络类 'Default' 间距 0.1500 mm; 实际 0.1250 mm)",
+        "items": [
+          {
+            "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 159.6,
+              "y": 73.1
+            },
+            "uuid": "587012c0-3093-4a24-8ead-4635515c612b"
+          },
+          {
+            "description": "走线 [OC_W_HIGH_OK] (B.Cu), 长度: 0.2000 mm",
+            "pos": {
+              "x": 159.0,
+              "y": 73.4
+            },
+            "uuid": "67cbba67-ab8e-4751-a3d5-13c16c8f1d85"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    ],
+    "note": "Remaining OC_W/W_HIN/locked-feeder conflicts belong to other concurrent fixes. No remaining error references the replacement 0.4mm R48 branch.",
+    "drc_report": "review/inverter_merge_bus_sense_candidate_drc.json",
+    "candidate_sha256": "52494b14efee17c57ed300151191ff303f2aa82ac4bc694adbf46bd25b1e7657",
+    "replacement_track_uuids": [
+      "0bc72eac-1770-4dbc-8c43-4272872c2ab6",
+      "23352c6e-4d4f-4a23-8642-783fc200cfef",
+      "433881a0-c7c9-4b5a-b397-c7d533b69cc6",
+      "8ce47c36-85ca-4fcd-8357-9752085caf9b",
+      "8e409063-f98b-4bde-8897-e2ba7e69e212",
+      "b7c77d0e-8918-48a7-b1c4-1340aea38f3f",
+      "e7a212a0-9129-4022-a03a-77a9dbc5c022"
+    ],
+    "replacement_group_error_count": 0,
+    "source_total_electrical_errors": 24,
+    "source_R48_error_count_removed": 13,
+    "no_new_unconnected": true,
+    "main_sha_unchanged": true,
+    "route_length_mm": 43.820542293904815
+  },
+  "integrity": [
+    "Only ten unlocked 0.4mm B.Cu R48 sensing-branch tracks removed and replaced.",
+    "Existing 0.6mm R48 B vertical spine at x118.498 is reused at y88.5.",
+    "No via, footprint, pad, locked 2mm feeder, primary bus or phase geometry changed.",
+    "Main board/pro/schematic untouched."
+  ]
+}

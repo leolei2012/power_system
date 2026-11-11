@@ -1,0 +1,507 @@
+{
+  "status": "CONDITIONAL RESOURCE BOUNDARY ONLY - NOT AN APPROVED DUAL-FOC DESIGN",
+  "source_pinplan": "controller\\hardware\\g431_core\\STM32G431RBT6_pin_plan.csv",
+  "source_sha256": "964f0d8fadee55cea60fae64154bebc7dd9bb3412ffc79325668bcffb75d17dc",
+  "primary_local_datasheet": "D:/workspace/kicad_library/datasheets/ST_STM32G431xB_DS12589_Rev1_lcsc.pdf",
+  "evidence": "Table12 p52-59 for package pads/ADC; Table13 p61-63 for AF. All proposed mappings checked against these pages.",
+  "physical_signal_pads": 52,
+  "assigned_signal_pads": 52,
+  "spare_signal_pads": 0,
+  "peripherals_preserved_in_this_conditional_map": [
+    "TIM1 complementary 3-phase PWM",
+    "TIM8 complementary 3-phase PWM",
+    "10 external ADC pins: six currents, two buses, two NTC",
+    "2 ABZ encoder timers + relocated Z",
+    "2 independent SPI peripherals SPI1/SPI3 with software CS",
+    "I2C1",
+    "application USART3 TTL",
+    "classic-CAN-capable FDCAN1 pins",
+    "SWD",
+    "RESET/BOOT/HSE",
+    "one TIM15 brake PWM",
+    "one local RUN_ARM",
+    "two hardware fault inputs, second uses TIM8_BKIN2"
+  ],
+  "NOT_preserved_from_current_design": [
+    "MCU_ENABLE / separate bridge enable command",
+    "BASE_READY input",
+    "four programmable GPIO LEDs PC5/PC8/PD2/PB5"
+  ],
+  "blocking_facts": [
+    "No pin remains for even one separate ENABLE plus one BASE_READY. Separate per-motor ENABLE/READY would require four more GPIO.",
+    "This conditional map therefore does NOT prove the current safety/status interfaces and all features can be preserved for dual FOC.",
+    "Six additional phase-voltage ADC signals would raise the occupied pad requirement from52 to58 before restoring omitted ENABLE/READY/LEDs, so 16ADC with all listed concurrent interfaces does not fit this map/package.",
+    "Only two ADC hardware converters remain; current-sequence timing and dual loop CPU/ThreadX budget are unvalidated.",
+    "Pin reassignment requires schematic/PCB/ROM-startup interlock and connector redesign, not just firmware selection."
+  ],
+  "pin_plan": [
+    {
+      "Pin": 2,
+      "GPIO": "PC13",
+      "Signal": "RUN_ARM",
+      "Function": "GPIO output",
+      "AF": "",
+      "CurrentFunction": "GPIO base-ready input",
+      "Notes": "Local supervisor AND gate/pulldown must be rewired from PC7; PC13 static output load must respect datasheet constraints; ROM safety revalidation required."
+    },
+    {
+      "Pin": 3,
+      "GPIO": "PC14",
+      "Signal": "ENC_A_Z",
+      "Function": "GPIO_EXTI14",
+      "AF": "",
+      "CurrentFunction": "GPIO expansion reserve",
+      "Notes": "LSE disabled; input only. Preserve both ABZ encoders; moved from PA2."
+    },
+    {
+      "Pin": 4,
+      "GPIO": "PC15",
+      "Signal": "ENC_B_Z",
+      "Function": "GPIO_EXTI15",
+      "AF": "",
+      "CurrentFunction": "GPIO expansion reserve",
+      "Notes": "LSE disabled; input only. Moved from PA3."
+    },
+    {
+      "Pin": 5,
+      "GPIO": "PF0",
+      "Signal": "HSE_IN",
+      "Function": "OSC_IN",
+      "AF": "",
+      "CurrentFunction": "OSC_IN",
+      "Notes": ""
+    },
+    {
+      "Pin": 6,
+      "GPIO": "PF1",
+      "Signal": "HSE_OUT",
+      "Function": "OSC_OUT",
+      "AF": "",
+      "CurrentFunction": "OSC_OUT",
+      "Notes": ""
+    },
+    {
+      "Pin": 7,
+      "GPIO": "PG10",
+      "Signal": "NRST",
+      "Function": "NRST",
+      "AF": "",
+      "CurrentFunction": "NRST",
+      "Notes": ""
+    },
+    {
+      "Pin": 8,
+      "GPIO": "PC0",
+      "Signal": "M1_I_U",
+      "Function": "ADC1_IN6 / ADC2_IN6",
+      "AF": "Analog",
+      "CurrentFunction": "ADC1_IN6",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 9,
+      "GPIO": "PC1",
+      "Signal": "M1_I_V",
+      "Function": "ADC1_IN7 / ADC2_IN7",
+      "AF": "Analog",
+      "CurrentFunction": "ADC2_IN7",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 10,
+      "GPIO": "PC2",
+      "Signal": "M1_I_W",
+      "Function": "ADC1_IN8 / ADC2_IN8",
+      "AF": "Analog",
+      "CurrentFunction": "ADC1_IN8",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 11,
+      "GPIO": "PC3",
+      "Signal": "M2_I_U",
+      "Function": "ADC1_IN9 / ADC2_IN9",
+      "AF": "Analog",
+      "CurrentFunction": "ADC2_IN9",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 12,
+      "GPIO": "PA0",
+      "Signal": "ENC_A_A",
+      "Function": "TIM2_CH1",
+      "AF": "AF1",
+      "CurrentFunction": "TIM2_CH1",
+      "Notes": ""
+    },
+    {
+      "Pin": 13,
+      "GPIO": "PA1",
+      "Signal": "ENC_A_B",
+      "Function": "TIM2_CH2",
+      "AF": "AF1",
+      "CurrentFunction": "TIM2_CH2",
+      "Notes": ""
+    },
+    {
+      "Pin": 14,
+      "GPIO": "PA2",
+      "Signal": "SPI_A_CS",
+      "Function": "GPIO software CS",
+      "AF": "",
+      "CurrentFunction": "GPIO_EXTI2",
+      "Notes": "External pullup. PA2 is ROM USART2_TX; sensor behaviour during boot must be reviewed, bridge remains unarmed."
+    },
+    {
+      "Pin": 17,
+      "GPIO": "PA3",
+      "Signal": "BRAKE_PWM",
+      "Function": "TIM15_CH2",
+      "AF": "AF9",
+      "CurrentFunction": "GPIO_EXTI3",
+      "Notes": "Independent timer. Prefer over PA2 ROM USART2_TX for brake; ROM modes and input-bias behaviour still require review."
+    },
+    {
+      "Pin": 18,
+      "GPIO": "PA4",
+      "Signal": "M1_VBUS",
+      "Function": "ADC2_IN17",
+      "AF": "Analog",
+      "CurrentFunction": "ADC2_IN17",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 19,
+      "GPIO": "PA5",
+      "Signal": "SPI_A_SCK",
+      "Function": "SPI1_SCK",
+      "AF": "AF5",
+      "CurrentFunction": "SPI1_SCK",
+      "Notes": ""
+    },
+    {
+      "Pin": 20,
+      "GPIO": "PA6",
+      "Signal": "SPI_A_MISO",
+      "Function": "SPI1_MISO",
+      "AF": "AF5",
+      "CurrentFunction": "SPI1_MISO",
+      "Notes": ""
+    },
+    {
+      "Pin": 21,
+      "GPIO": "PA7",
+      "Signal": "SPI_A_MOSI",
+      "Function": "SPI1_MOSI",
+      "AF": "AF5",
+      "CurrentFunction": "SPI1_MOSI",
+      "Notes": ""
+    },
+    {
+      "Pin": 22,
+      "GPIO": "PC4",
+      "Signal": "M2_I_V",
+      "Function": "ADC2_IN5",
+      "AF": "Analog",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 23,
+      "GPIO": "PC5",
+      "Signal": "M2_I_W",
+      "Function": "ADC2_IN11",
+      "AF": "Analog",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 24,
+      "GPIO": "PB0",
+      "Signal": "M2_VBUS",
+      "Function": "ADC1_IN15",
+      "AF": "Analog",
+      "CurrentFunction": "ADC1_IN15",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 25,
+      "GPIO": "PB1",
+      "Signal": "M1_NTC",
+      "Function": "ADC1_IN12",
+      "AF": "Analog",
+      "CurrentFunction": "ADC1_IN12",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 26,
+      "GPIO": "PB2",
+      "Signal": "M2_NTC",
+      "Function": "ADC2_IN12",
+      "AF": "Analog",
+      "CurrentFunction": "ADC2_IN12",
+      "Notes": "ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions."
+    },
+    {
+      "Pin": 30,
+      "GPIO": "PB10",
+      "Signal": "UART_TX",
+      "Function": "USART3_TX",
+      "AF": "AF7",
+      "CurrentFunction": "USART3_TX",
+      "Notes": ""
+    },
+    {
+      "Pin": 33,
+      "GPIO": "PB11",
+      "Signal": "UART_RX",
+      "Function": "USART3_RX",
+      "AF": "AF7",
+      "CurrentFunction": "USART3_RX",
+      "Notes": ""
+    },
+    {
+      "Pin": 34,
+      "GPIO": "PB12",
+      "Signal": "FAULT_M1_N",
+      "Function": "TIM1_BKIN",
+      "AF": "AF6",
+      "CurrentFunction": "TIM1_BKIN",
+      "Notes": "Active low; retain receiving-side bias/clamp and explicit restart policy."
+    },
+    {
+      "Pin": 35,
+      "GPIO": "PB13",
+      "Signal": "M1_UL",
+      "Function": "TIM1_CH1N",
+      "AF": "AF6",
+      "CurrentFunction": "TIM1_CH1N",
+      "Notes": ""
+    },
+    {
+      "Pin": 36,
+      "GPIO": "PB14",
+      "Signal": "M1_VL",
+      "Function": "TIM1_CH2N",
+      "AF": "AF6",
+      "CurrentFunction": "TIM1_CH2N",
+      "Notes": ""
+    },
+    {
+      "Pin": 37,
+      "GPIO": "PB15",
+      "Signal": "M1_WL",
+      "Function": "TIM1_CH3N",
+      "AF": "AF4",
+      "CurrentFunction": "TIM1_CH3N",
+      "Notes": ""
+    },
+    {
+      "Pin": 38,
+      "GPIO": "PC6",
+      "Signal": "M2_UH",
+      "Function": "TIM8_CH1",
+      "AF": "AF4",
+      "CurrentFunction": "TIM8_CH1",
+      "Notes": ""
+    },
+    {
+      "Pin": 39,
+      "GPIO": "PC7",
+      "Signal": "M2_VH",
+      "Function": "TIM8_CH2",
+      "AF": "AF4",
+      "CurrentFunction": "GPIO RUN_ARM",
+      "Notes": ""
+    },
+    {
+      "Pin": 40,
+      "GPIO": "PC8",
+      "Signal": "M2_WH",
+      "Function": "TIM8_CH3",
+      "AF": "AF4",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": ""
+    },
+    {
+      "Pin": 41,
+      "GPIO": "PC9",
+      "Signal": "FAULT_M2_N",
+      "Function": "TIM8_BKIN2",
+      "AF": "AF6",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": "Second break input, NOT TIM8_BKIN. Configure BK2E/polarity correctly; SDK support not assumed."
+    },
+    {
+      "Pin": 42,
+      "GPIO": "PA8",
+      "Signal": "M1_UH",
+      "Function": "TIM1_CH1",
+      "AF": "AF6",
+      "CurrentFunction": "TIM1_CH1",
+      "Notes": ""
+    },
+    {
+      "Pin": 43,
+      "GPIO": "PA9",
+      "Signal": "M1_VH",
+      "Function": "TIM1_CH2",
+      "AF": "AF6",
+      "CurrentFunction": "TIM1_CH2",
+      "Notes": ""
+    },
+    {
+      "Pin": 44,
+      "GPIO": "PA10",
+      "Signal": "M1_WH",
+      "Function": "TIM1_CH3",
+      "AF": "AF6",
+      "CurrentFunction": "TIM1_CH3",
+      "Notes": ""
+    },
+    {
+      "Pin": 45,
+      "GPIO": "PA11",
+      "Signal": "CAN_RX",
+      "Function": "FDCAN1_RX",
+      "AF": "AF9",
+      "CurrentFunction": "FDCAN1_RX",
+      "Notes": ""
+    },
+    {
+      "Pin": 46,
+      "GPIO": "PA12",
+      "Signal": "CAN_TX",
+      "Function": "FDCAN1_TX",
+      "AF": "AF9",
+      "CurrentFunction": "FDCAN1_TX",
+      "Notes": ""
+    },
+    {
+      "Pin": 49,
+      "GPIO": "PA13",
+      "Signal": "SWDIO",
+      "Function": "SWDIO",
+      "AF": "AF0",
+      "CurrentFunction": "SWDIO",
+      "Notes": ""
+    },
+    {
+      "Pin": 50,
+      "GPIO": "PA14",
+      "Signal": "SWCLK",
+      "Function": "SWCLK",
+      "AF": "AF0",
+      "CurrentFunction": "SWCLK",
+      "Notes": ""
+    },
+    {
+      "Pin": 51,
+      "GPIO": "PA15",
+      "Signal": "I2C_SCL",
+      "Function": "I2C1_SCL",
+      "AF": "AF4",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": "Release JTDI, retain SWD. Moved SPI_A CS away."
+    },
+    {
+      "Pin": 52,
+      "GPIO": "PC10",
+      "Signal": "M2_UL",
+      "Function": "TIM8_CH1N",
+      "AF": "AF4",
+      "CurrentFunction": "SPI3_SCK",
+      "Notes": ""
+    },
+    {
+      "Pin": 53,
+      "GPIO": "PC11",
+      "Signal": "M2_VL",
+      "Function": "TIM8_CH2N",
+      "AF": "AF4",
+      "CurrentFunction": "SPI3_MISO",
+      "Notes": ""
+    },
+    {
+      "Pin": 54,
+      "GPIO": "PC12",
+      "Signal": "M2_WL",
+      "Function": "TIM8_CH3N",
+      "AF": "AF4",
+      "CurrentFunction": "SPI3_MOSI",
+      "Notes": ""
+    },
+    {
+      "Pin": 55,
+      "GPIO": "PD2",
+      "Signal": "SPI_B_CS",
+      "Function": "GPIO software CS",
+      "AF": "",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": "External pullup; moved from PC9 to make TIM8_BKIN2 available."
+    },
+    {
+      "Pin": 56,
+      "GPIO": "PB3",
+      "Signal": "SPI_B_SCK",
+      "Function": "SPI3_SCK",
+      "AF": "AF6",
+      "CurrentFunction": "GPIO expansion reserve",
+      "Notes": "Release JTAG/SWO functions while preserving PA13/PA14 SWD."
+    },
+    {
+      "Pin": 57,
+      "GPIO": "PB4",
+      "Signal": "SPI_B_MISO",
+      "Function": "SPI3_MISO",
+      "AF": "AF6",
+      "CurrentFunction": "GPIO expansion reserve",
+      "Notes": "Release JTAG/SWO functions while preserving PA13/PA14 SWD."
+    },
+    {
+      "Pin": 58,
+      "GPIO": "PB5",
+      "Signal": "SPI_B_MOSI",
+      "Function": "SPI3_MOSI",
+      "AF": "AF6",
+      "CurrentFunction": "GPIO_Output",
+      "Notes": "Release JTAG/SWO functions while preserving PA13/PA14 SWD."
+    },
+    {
+      "Pin": 59,
+      "GPIO": "PB6",
+      "Signal": "ENC_B_A",
+      "Function": "TIM4_CH1",
+      "AF": "AF2",
+      "CurrentFunction": "TIM4_CH1",
+      "Notes": ""
+    },
+    {
+      "Pin": 60,
+      "GPIO": "PB7",
+      "Signal": "ENC_B_B",
+      "Function": "TIM4_CH2",
+      "AF": "AF2",
+      "CurrentFunction": "TIM4_CH2",
+      "Notes": ""
+    },
+    {
+      "Pin": 61,
+      "GPIO": "PB8",
+      "Signal": "BOOT0",
+      "Function": "BOOT0",
+      "AF": "",
+      "CurrentFunction": "BOOT0",
+      "Notes": "Retain local BOOT pulldown/button/option-byte behaviour."
+    },
+    {
+      "Pin": 62,
+      "GPIO": "PB9",
+      "Signal": "I2C_SDA",
+      "Function": "I2C1_SDA",
+      "AF": "AF4",
+      "CurrentFunction": "GPIO expansion reserve",
+      "Notes": ""
+    }
+  ]
+}

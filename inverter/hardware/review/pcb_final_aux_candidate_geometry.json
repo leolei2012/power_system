@@ -1,0 +1,82 @@
+{
+  "source_sha": "205b05ed84c46be5816c5103284097eb2c653a7406a0484beabc30718c7c20f1",
+  "ripup_uuids": [
+    "0a72b7fe-8a2a-4bf7-be8f-f27e59ea1717",
+    "a9185f03-f5f6-417e-9b43-f5151a74b05b",
+    "2e0c3c23-ea33-4c5d-a196-9fd140de1def"
+  ],
+  "paths": [
+    {
+      "net": "+5V_INV",
+      "layer": "F.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          87.8625,
+          126.65
+        ],
+        [
+          87.8625,
+          129
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+5V_INV",
+      "layer": "F.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          91.475,
+          119
+        ],
+        [
+          91.475,
+          117.6
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+5V_INV",
+      "layer": "In2.Cu",
+      "width": 0.6,
+      "points": [
+        [
+          91.475,
+          117.6
+        ],
+        [
+          91.475,
+          129
+        ],
+        [
+          87.8625,
+          129
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "+5V_INV",
+      "x": 91.475,
+      "y": 117.6,
+      "diameter": 0.8,
+      "drill": 0.4,
+      "tented": true
+    },
+    {
+      "net": "+5V_INV",
+      "x": 87.8625,
+      "y": 129,
+      "diameter": 0.8,
+      "drill": 0.4,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\inverter_final_aux_candidate.kicad_pcb"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "Superseded dual-power-port planning snapshots; native Rev E was not changed.",
+  "files": [
+    {
+      "original": "README.md",
+      "snapshot": "README.md",
+      "sha256": "b99759700708696744a7982239523ab8693a709838f45f8f8c0285b6a3a52ae4"
+    },
+    {
+      "original": "docs/controller_daughterboard.md",
+      "snapshot": "controller_daughterboard.md",
+      "sha256": "54e8fad0e140ad9afd5a1738d43a90d2e042b7c0f3f63d728b9d2a8785fa1afd"
+    },
+    {
+      "original": "docs/terminal_interface_plan.json",
+      "snapshot": "terminal_interface_plan.json",
+      "sha256": "bf353f19f134490d4ff41a634d7b6ba8aa021ded0ea56192e1478a4d4ce3596d"
+    },
+    {
+      "original": "docs/controller_dual_pwm_pin_plan.json",
+      "snapshot": "controller_dual_pwm_pin_plan.json",
+      "sha256": "be797df004b54193d728c572739e139fdcb99a97bdf83a426e08441e44377fcc"
+    },
+    {
+      "original": "docs/controller_dual_pwm_pin_plan.csv",
+      "snapshot": "controller_dual_pwm_pin_plan.csv",
+      "sha256": "b893446644bf19609bc78ad11a37491323ab2c3b54d10e9b092cb2db423c25bd"
+    },
+    {
+      "original": "docs/controller_dual_pwm_ports.csv",
+      "snapshot": "controller_dual_pwm_ports.csv",
+      "sha256": "a5f02715e2276bbafe90b5d7887c5ed659e7ab4f1dc3e5920f0dbb256b105c25"
+    },
+    {
+      "original": "docs/controller_LQFP100_all_pins.csv",
+      "snapshot": "controller_LQFP100_all_pins.csv",
+      "sha256": "7a68f16f57699e6bd985d3010c77f99206c898ec80c4fa4b54b716ed0256ea62"
+    },
+    {
+      "original": "docs/controller_connector_inventory.json",
+      "snapshot": "controller_connector_inventory.json",
+      "sha256": "5d6a7ce32cfe44a95115207bc40257aed04a6865d21e06212629bdb48a5cfee9"
+    },
+    {
+      "original": "docs/controller_connector_inventory.csv",
+      "snapshot": "controller_connector_inventory.csv",
+      "sha256": "7adbf40a0fe97f2d830f876627e8f1054d74f3b91524ed679f0d2e642b7ffcdb"
+    },
+    {
+      "original": "docs/controller_ADC_mode_examples.csv",
+      "snapshot": "controller_ADC_mode_examples.csv",
+      "sha256": "712bd5b86321c542da21677c2c93db160cbbc94cb9f89ffb478bc43522ce9f16"
+    },
+    {
+      "original": "docs/controller_60mm_fit_study.json",
+      "snapshot": "controller_60mm_fit_study.json",
+      "sha256": "f1ce91cf622a247fba26bf7ee1c7bb809f402289b912d0f6f6b7c19bd455d9c0"
+    }
+  ]
+}

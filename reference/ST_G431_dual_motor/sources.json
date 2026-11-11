@@ -1,0 +1,56 @@
+{
+  "scope": "Manufacturer references for G431 dual-motor feasibility; this project remains single-motor until explicitly changed.",
+  "sources": [
+    {
+      "file": "original/ST_Multiaxis_servo_drives.pdf",
+      "source_url": "https://www.st.com/content/dam/is22/plenary/plenary-mc-cc-seven-zeng-en.pdf",
+      "download_date_UTC": "2026-11-11T08:34:37.868396+00:00",
+      "bytes": 2215221,
+      "sha256": "ecdb74aea98c2b87698b0697a5649a48458e408994328217fa075bafd7812356",
+      "pages": 13,
+      "unmodified_original": true
+    },
+    {
+      "file": "original/UM2896_EVSPIN32G4_DUAL_Rev1.pdf",
+      "source_url": "https://www.st.com/resource/en/user_manual/um2896-getting-started-with-the-evspin32g4dual--stmicroelectronics.pdf",
+      "download_date_UTC": "2026-11-11T08:34:44.016257+00:00",
+      "bytes": 1741803,
+      "sha256": "28fe696b8041121624fa8665e29a5ef3d472e4ea6e4405b49c412e038f9adbc8",
+      "pages": 27,
+      "unmodified_original": true
+    }
+  ],
+  "checked_date": "2026-11-11",
+  "evidence": [
+    {
+      "kind": "manufacturer_benchmark_statement",
+      "file": "original/ST_Multiaxis_servo_drives.pdf",
+      "page": 7,
+      "claim": "STM32G431 dual FOC16kHz, CPU load23%",
+      "limits": "Algorithm, current sensing topology, interrupts and RTOS configuration are not fully stated on the benchmark page; not a measurement of this project."
+    },
+    {
+      "kind": "manufacturer_reference_hardware",
+      "file": "original/UM2896_EVSPIN32G4_DUAL_Rev1.pdf",
+      "document_revision": "UM2896 Rev1 September2023",
+      "claim": "One STM32G431 embedded in STSPIN32G4 plus STDRIVE101 controls two power stages; single-shunt sensing."
+    },
+    {
+      "kind": "independent_author_runtime_report",
+      "author": "Pat",
+      "date": "2024-10-18",
+      "url": "https://community.simplefoc.com/t/how-to-use-stm32-flash-settings-storage-with-2-motors/5676",
+      "claim": "Reports same STM32G431 MCU controlling two motors working fine.",
+      "limits": "No demonstrated two-current-loop frequency, complete firmware or simultaneous operation video supplied in the thread."
+    },
+    {
+      "kind": "independent_open_hardware_and_author_test",
+      "project": "Gooser5/5.8",
+      "url": "https://oshwlab.com/dekutree64/gooser5",
+      "author_test": "https://community.simplefoc.com/t/gooser-a-4-in-1-lepton-derivative/5325/96",
+      "author_update": "https://community.simplefoc.com/t/gooser-a-4-in-1-lepton-derivative/5325/103",
+      "claim": "Project states two motors per G431 using TIM1/TIM8; author reports Gooser5 functional and publishes assembled-board/current tests.",
+      "limits": "No verified simultaneous two-current-loop20kHz measurement; do not reuse single-motor frequency or earlier quad-motor status as proof."
+    }
+  ]
+}

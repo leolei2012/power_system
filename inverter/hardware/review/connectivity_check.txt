@@ -1,0 +1,38 @@
+PASS
+
+- 18 native KiCad sheets / 313 unique component records; all explicit author pin-net assertions and BOM references match KiCad export.
+- All 64 G431 physical pins independently checked: 7 NC, 6 TIM1 commands, active-low BKIN, independent TIM8 brake, ENABLE, 8 ADC inputs, two ABZ, SPI1/SPI3, USART3, SWD and optional classic CAN. CSV matches actual netlist.
+- External controller J1 and brake-command J6 removed; local fault pullup, reset supervisor/button/SWD, BOOT pulldown, per-pin power connections, VDDA/VREF and eight local ADC RC filters checked. 1.65 V bias is not tied to MCU VREF.
+- Two ABZ and two independent SPI connectors plus SWD/TTL/CAN checked. Sensor power links, optional CAN PHY and HSE default DNP. External IO is 3.3 V single-ended; 5 V sensor power does not imply 5 V logic compatibility.
+- All seven amplified analog outputs retain local 47-ohm isolators before MCU RC; current/bus trip sensing stays on the local side of each resistor.
+- All seven compact BSC110N15NS5 S1/2/3,G4,D5/6/7/8 physical pins and project TDSON8 footprints checked. Every driver COM, LO reference, bootstrap and Kelvin input is on its own correct source/phase node; no direct shunt bypass.
+- Brake driver is a separate UCC27517 stage with IN- low and no bridge ENABLE/FAULT gating; BR+/BR_SW topology checked.
+- eFuse RTN/EP isolated from GND and MODE=402k; TPS55165 VREG/VREG_Q/VOS_FB, switch nodes/boots, 5 V PG pull-up/divider, AP63205 fixed-output feedback, LDO and repurposed optional 5 V sensor switch checked.
+- Comparator input polarity checked. 8192 actual-netlist logic cases passed: any active fault/power loss blocks every driver input; latched fault cannot restart with ENABLE high; reset only requested while all healthy and disabled.
+- All 64 raw PWM patterns tested with permit on/off. DFF /R fixed high, /S=HEALTH_ALL, D=0, delayed clock verified; illegal simultaneous asynchronous assertion structurally absent within the powered logic domain.
+- Four 50:1 dividers/followers, 1.65 V bias, nominal +/-20.008 A / 65 V / 11.193 V divider values, 2x220uF and 2x2.2uF checked; ordinary small R/C are YAGEO. No precharge relay or dedicated bus bleeder added.
+
+NOMINAL CALCULATIONS
+{
+  "oc_low_v": 0.6496062992125984,
+  "oc_high_v": 2.6503937007874017,
+  "oc_abs_a": 20.007874015748033,
+  "bus_ov_nominal_v": 65.0,
+  "driver_uv_nominal_v": 11.193,
+  "aux_uv_rising_nominal_v": 10.5553,
+  "aux_ov_nominal_v": 27.489,
+  "aux_ilim_approx_a": 1.4993646759847523,
+  "aux_ramp_24v_nominal_ms": 4.223999999999999,
+  "sensor_ilim_min_a_nominal_r": 0.4749491296536493,
+  "sensor_ilim_max_a_nominal_r": 0.5822848778465237,
+  "bus_stored_energy_at_60v_j": 0.792,
+  "bus_stored_energy_at_65v_j": 0.9295,
+  "reset_rc_us": 100.0,
+  "pg_logic_high_nominal_v": 2.5
+}
+
+LIMITATIONS
+Static connectivity and powered-domain Boolean logic only; no SPICE switching, gate waveform, timing/SOA/thermal or hardware test.
+RC reset edge requires analog recovery/pulse and noise validation; brief faults during reset may remain safely latched until another deliberate disable cycle.
+Main input diode/TVS/fuse, exact inductors/passives, connectors, gate-drive corner margin and isolation/source domain remain release blockers.
+G431 ADC sampling windows, 3.3 V LDO current/thermal budget, HSE/CAN clock accuracy, 3.3 V external IO protection and power-off injection remain design review items.

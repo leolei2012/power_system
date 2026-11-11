@@ -1,0 +1,116 @@
+{
+  "revision": "E-shared-library-draft",
+  "date": "2026-11-11",
+  "board_role": "STM32G431 minimum-system plug-in core",
+  "native_project": "controller.kicad_pro",
+  "native_schematic": "controller.kicad_sch",
+  "pcb_status": "Rev E PCB 0.1 layout review draft; routing/DRC progress is recorded separately. Not released for manufacture.",
+  "component_count": 47,
+  "DNP_count": 3,
+  "pages": [
+    {
+      "file": "controller.kicad_sch",
+      "title": "STM32G431 minimum-system plug-in core",
+      "sheet_path": "/",
+      "sha256": "144bfe4602f50e1c35f447b42cec397e454a0063a16bd51e1339b514f81a0fd5"
+    },
+    {
+      "file": "mcu.kicad_sch",
+      "title": "Minimum core - STM32G431RBT6 and decoupling",
+      "sheet_path": "/MCU and decoupling/",
+      "sha256": "b908d381891d2e8360958840f3fd36ae8a6bfe2795a5b4f075cc2d3f1f295456"
+    },
+    {
+      "file": "mcu_analog.kicad_sch",
+      "title": "Minimum core - local VDDA and VREF",
+      "sheet_path": "/Local VDDA and VREF/",
+      "sha256": "1307ab91db66bc7d9719691c99529800fa0cd2b0db2bea491a446315cc955ab6"
+    },
+    {
+      "file": "mcu_control.kicad_sch",
+      "title": "Minimum core - RESET BOOT and optional HSE",
+      "sheet_path": "/RESET BOOT and optional HSE/",
+      "sha256": "3936917285db3df9da6f37c7072e37fc1250233116a252dc9b18057c9d65650c"
+    },
+    {
+      "file": "core_supply.kicad_sch",
+      "title": "Minimum core - independent power and local reset",
+      "sheet_path": "/Local power and reset/",
+      "sha256": "2ba75a1d4b49b6c75f9d9be0a39b7740d8b7c0f460dd60606b6ba34d4a8651e0"
+    },
+    {
+      "file": "core_arm.kicad_sch",
+      "title": "Minimum core - application run permission",
+      "sheet_path": "/Application run permission/",
+      "sha256": "9c5f439ece4984f458aeafae808d40e6678e53351c2858db17d908506881371a"
+    },
+    {
+      "file": "core_interface.kicad_sch",
+      "title": "Minimum core GPIO headers",
+      "sheet_path": "/64-pin GPIO headers/",
+      "sha256": "61f9a323af011d0f3ca0ff121085ddb10360a367996a91498a479eb0eed4e509"
+    }
+  ],
+  "page_count": 7,
+  "erc": {
+    "errors": 0,
+    "warnings": 0,
+    "date": "2026-11-11T00:11:27",
+    "kicad_version": "10.0.7",
+    "ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ]
+  },
+  "netlist": {
+    "file": "review\\controller.net.xml",
+    "sha256": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1"
+  },
+  "project_sources": {
+    "controller.kicad_pro": "eee90522ecd4723c9008d179d486d2d13183a5bfecfc777efbf051ae34da5474",
+    "sym-lib-table": "a804baeafc55de93756970d2a4f7b13c6a1f0d3eee4e18f7870db1f3a3e37e41",
+    "fp-lib-table": "cc9d7b5c944536f51a48e364a161c5485bcdb1b361e8482ee3803e4d656b8951",
+    "CoreProtection.kicad_sym": "90b81db74b5e425399d3f00ffd34c295abeacc2fa5af430b993785a423c56025",
+    "InverterLocal.kicad_sym": "b88321e1528cb6448565f726e67dfd5834e1047fb0544fc9b9bc37946e40fc20",
+    "Inverter_Compact.pretty\\BSC110N15NS5_TDSON8_8PhysicalPins.kicad_mod": "a6c607fdb3827db6a2429ea29c17e26e06e648693aba96e4157fb858a2fad4a5",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm.kicad_mod": "c4d410ced64a71c3bac36525a0c8574c7f981b508292f33a7807d9fd1613d06f",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm.kicad_mod": "01c91aabd7724798d9e1c1073db75cd76a878ba41e18c3d7deca98c5b4849bbb",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm.kicad_mod": "1b15a4ccc17e98454b36b58faa310b15994dd5648d5191953ccae4880aa6e39e",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm.kicad_mod": "1424a1cde201daec08dc8be864ae468e37f3a7a1b31644eb7933462d1c57bd7b",
+    "Inverter_Compact.pretty\\WireSolder_2P_P6.00mm_D2.00mm.kicad_mod": "97c693e2d2b526c28c36603f0cc473976c9bc1976418d98699fcc9d590879379",
+    "Inverter_Compact.pretty\\WireSolder_3P_P15.00mm_D2.00mm.kicad_mod": "2a0d7e8061cd573bf2380e38053941fa0c784de2a7b61a36678cb1a8535e364c"
+  },
+  "shared_library_sha256": {
+    "parts.csv": "24c6a7b585e69986d848ad5ac1df4a2a7e68bb207ae8c494a67b4455a03d0cf4",
+    "symbols/MyParts.kicad_sym": "b1e747b59ebcf4737b3850df58d5f87cc5b9a92d24ebbfaf2ab6c8b3895f7338"
+  },
+  "selection_pending_references": 26,
+  "library_intake_candidate_models": 0,
+  "manufacturing_release": false,
+  "limits": [
+    "Schematic connection checks and PCB layout review are separate; no assembly or prototype qualification.",
+    "Common-ground non-isolated interface; clamps do not guarantee MCU survival after a power-stage failure.",
+    "Exact passive MPNs, mating connector mechanics, transient behavior and thermal performance require completion."
+  ],
+  "pcb": {
+    "file": "controller.kicad_pcb",
+    "sha256": "00ff41b76c650b255ecb764b31ca10304ceb86030d61b25ac067c998bb4bf07c",
+    "stack_contract": "../../../docs/pcb_stack_contract_rev_e.json",
+    "review": "../../../docs/pcb_review_2026-11-11.md",
+    "manufacturing_release": false
+  }
+}

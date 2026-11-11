@@ -1,0 +1,1063 @@
+{
+  "source_sha": "77f1a488a2180b51eb8890eafa1ecbdd563a02f12f7529860cec07e86d297d29",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          43.2,
+          53.175
+        ],
+        [
+          43.25,
+          53.15
+        ],
+        [
+          44.9,
+          53.15
+        ],
+        [
+          45.8,
+          52.25
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_PHASE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          45.8,
+          52.25
+        ],
+        [
+          46.2,
+          52.25
+        ],
+        [
+          46.55,
+          51.9
+        ],
+        [
+          47.9,
+          51.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_PHASE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          47.375,
+          44.095
+        ],
+        [
+          47.35,
+          44.0
+        ],
+        [
+          47.35,
+          42.55
+        ],
+        [
+          46.25,
+          41.45
+        ],
+        [
+          46.25,
+          41.35
+        ],
+        [
+          46.15,
+          41.25
+        ],
+        [
+          46.15,
+          36.65
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_PHASE",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          46.15,
+          36.65
+        ],
+        [
+          45.45,
+          37.35
+        ],
+        [
+          44.15,
+          37.35
+        ],
+        [
+          44.1,
+          37.4
+        ],
+        [
+          43.0,
+          37.4
+        ],
+        [
+          42.95,
+          37.45
+        ],
+        [
+          42.85,
+          37.45
+        ],
+        [
+          42.75,
+          37.55
+        ],
+        [
+          42.7,
+          37.55
+        ],
+        [
+          40.3,
+          39.95
+        ],
+        [
+          40.15,
+          39.95
+        ],
+        [
+          40.1,
+          40.0
+        ],
+        [
+          40.0,
+          40.0
+        ],
+        [
+          39.95,
+          40.05
+        ],
+        [
+          39.9,
+          40.05
+        ],
+        [
+          39.65,
+          40.3
+        ],
+        [
+          39.65,
+          40.35
+        ],
+        [
+          39.6,
+          40.4
+        ],
+        [
+          39.6,
+          40.45
+        ],
+        [
+          39.55,
+          40.5
+        ],
+        [
+          39.55,
+          41.1
+        ],
+        [
+          39.6,
+          41.15
+        ],
+        [
+          39.6,
+          41.2
+        ],
+        [
+          39.65,
+          41.25
+        ],
+        [
+          39.65,
+          41.3
+        ],
+        [
+          39.75,
+          41.4
+        ],
+        [
+          39.75,
+          41.45
+        ],
+        [
+          41.2,
+          42.9
+        ],
+        [
+          42.3,
+          42.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          42.3,
+          42.9
+        ],
+        [
+          42.65,
+          43.25
+        ],
+        [
+          43.05,
+          43.25
+        ],
+        [
+          43.1,
+          43.3
+        ],
+        [
+          43.2,
+          43.3
+        ],
+        [
+          43.4,
+          43.5
+        ],
+        [
+          43.4,
+          43.55
+        ],
+        [
+          43.45,
+          43.6
+        ],
+        [
+          43.45,
+          43.65
+        ],
+        [
+          43.5,
+          43.7
+        ],
+        [
+          43.5,
+          44.5
+        ],
+        [
+          43.45,
+          44.55
+        ],
+        [
+          43.45,
+          44.6
+        ],
+        [
+          43.4,
+          44.65
+        ],
+        [
+          43.4,
+          44.7
+        ],
+        [
+          43.25,
+          44.85
+        ],
+        [
+          43.2,
+          44.85
+        ],
+        [
+          43.15,
+          44.9
+        ],
+        [
+          43.1,
+          44.9
+        ],
+        [
+          43.05,
+          44.95
+        ],
+        [
+          42.75,
+          44.95
+        ],
+        [
+          42.7,
+          45.0
+        ],
+        [
+          42.65,
+          45.0
+        ],
+        [
+          42.6,
+          45.05
+        ],
+        [
+          42.5,
+          45.05
+        ],
+        [
+          42.45,
+          45.1
+        ],
+        [
+          42.4,
+          45.1
+        ],
+        [
+          42.35,
+          45.15
+        ],
+        [
+          42.3,
+          45.15
+        ],
+        [
+          42.25,
+          45.2
+        ],
+        [
+          42.2,
+          45.2
+        ],
+        [
+          42.15,
+          45.25
+        ],
+        [
+          42.05,
+          45.25
+        ],
+        [
+          42.0,
+          45.3
+        ],
+        [
+          41.975,
+          45.365
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          56.5,
+          37.9
+        ],
+        [
+          56.4,
+          37.9
+        ],
+        [
+          55.65,
+          37.15
+        ],
+        [
+          55.25,
+          37.15
+        ],
+        [
+          54.15,
+          36.05
+        ],
+        [
+          54.05,
+          36.05
+        ],
+        [
+          53.8,
+          35.8
+        ],
+        [
+          53.75,
+          35.8
+        ],
+        [
+          53.7,
+          35.75
+        ],
+        [
+          53.65,
+          35.75
+        ],
+        [
+          53.6,
+          35.7
+        ],
+        [
+          53.55,
+          35.7
+        ],
+        [
+          53.5,
+          35.65
+        ],
+        [
+          53.4,
+          35.65
+        ],
+        [
+          53.35,
+          35.6
+        ],
+        [
+          53.3,
+          35.5375
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "W_PHASE",
+      "x": 45.8,
+      "y": 52.25,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "W_PHASE",
+      "x": 46.15,
+      "y": 36.65,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "W_PHASE",
+      "x": 42.3,
+      "y": 42.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "W_PHASE",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 7858,
+        "seconds": 3.64,
+        "start_candidates": 12,
+        "goal_candidates": 276
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_006.json"
+    },
+    {
+      "net": "W_PHASE",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 315015,
+        "seconds": 5.859,
+        "start_candidates": 192,
+        "goal_candidates": 12
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_007.json"
+    },
+    {
+      "net": "V_SOURCE",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 1231,
+        "seconds": 2.406,
+        "start_candidates": 12,
+        "goal_candidates": 337
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_010.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "net": "W_SOURCE",
+      "items": [
+        "2a1d0999-3634-4de9-b13e-c3464a719d75",
+        "7f779625-67ff-4ee5-b515-53e929cd7198"
+      ],
+      "reason": "Actual filled-board DRC rejected candidate",
+      "new_error_count": 0,
+      "fixed_copper_Kelvin_issues": [
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "W",
+            "polarity": "positive",
+            "net": "W_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "2a1d0999-3634-4de9-b13e-c3464a719d75",
+            "other": {
+              "uuid": "9014a66e-86d0-4209-8e1e-ff6d244791e1",
+              "class": "PCB_VIA",
+              "net": "W_SOURCE",
+              "locked": false,
+              "at": [
+                50.2,
+                51.55
+              ],
+              "diameter_mm": 0.6,
+              "drill_mm": 0.3
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.117472799192,
+              "bbox_mm": [
+                50.084568,
+                51.25,
+                50.352323,
+                51.85
+              ],
+              "sample_mm": [
+                50.207212,
+                51.250077
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "W",
+            "polarity": "positive",
+            "net": "W_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "2a1d0999-3634-4de9-b13e-c3464a719d75",
+            "other": {
+              "uuid": "f2437df2-1fe9-4623-812c-155e585ab7eb",
+              "class": "PCB_TRACK",
+              "net": "W_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                50.224999,
+                51.59375
+              ],
+              "b": [
+                50.2,
+                51.55
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.03989584233,
+              "bbox_mm": [
+                50.112774,
+                51.44999,
+                50.325009,
+                51.693761
+              ],
+              "sample_mm": [
+                50.202785,
+                51.450028
+              ]
+            }
+          }
+        }
+      ],
+      "native_other_net_component_regressions": {},
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "before_total_gaps": 206,
+      "after_total_gaps": 205,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_001.json"
+    },
+    {
+      "items": [
+        "41a4a8d5-495b-49f9-bbda-5fac5f38679d",
+        "f11f88ae-f239-4666-931c-e8407fa14ca0"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1022 nodes)"
+    },
+    {
+      "items": [
+        "4da381d0-2100-4396-b5ab-27a530eb8e52",
+        "c437ede6-9134-4d15-a76d-929c9db7544c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2393 nodes)"
+    },
+    {
+      "items": [
+        "3af96214-a46e-4e7b-8601-afd172930f86",
+        "54a648fd-4860-4a08-b4e9-c44227314d65"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1507 nodes)"
+    },
+    {
+      "items": [
+        "54a648fd-4860-4a08-b4e9-c44227314d65",
+        "de9234e3-79ac-40d1-930c-25d814120bdc"
+      ],
+      "reason": "No path within conservative grid/node/time budget (328702 nodes)"
+    },
+    {
+      "items": [
+        "8523dbee-1a2a-431a-bfc2-7cf79cfea82b",
+        "ece539c8-379b-41ca-8ee6-e14153658d6b"
+      ],
+      "reason": "No path within conservative grid/node/time budget (5030 nodes)"
+    },
+    {
+      "net": "V_SOURCE",
+      "items": [
+        "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+        "c634ab40-9a46-4272-b9a1-d4a6a37ce508"
+      ],
+      "reason": "Actual filled-board DRC rejected candidate",
+      "new_error_count": 0,
+      "fixed_copper_Kelvin_issues": [
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+            "other": {
+              "uuid": "7faf080c-b681-43d0-ada3-30b05fb0956e",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                49.1,
+                37.2
+              ],
+              "b": [
+                49.2,
+                37.2
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.031755359485,
+              "bbox_mm": [
+                49.099992,
+                37.1,
+                49.3,
+                37.3
+              ],
+              "sample_mm": [
+                49.204207,
+                37.100079
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+            "other": {
+              "uuid": "0ccf3eb2-d605-452d-9f79-700d9f01378b",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                49.05,
+                37.15
+              ],
+              "b": [
+                49.1,
+                37.2
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.012431506362,
+              "bbox_mm": [
+                49.099992,
+                37.105545,
+                49.200001,
+                37.286605
+              ],
+              "sample_mm": [
+                49.171703,
+                37.130282
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+            "other": {
+              "uuid": "0b079ff4-8777-4fa1-a060-d04464ef3efe",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                48.95,
+                37.15
+              ],
+              "b": [
+                49.05,
+                37.15
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.0035579402015,
+              "bbox_mm": [
+                49.099992,
+                37.111507,
+                49.15,
+                37.233096
+              ],
+              "sample_mm": [
+                49.142925,
+                37.113027
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+            "other": {
+              "uuid": "7faf080c-b681-43d0-ada3-30b05fb0956e",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                49.1,
+                37.2
+              ],
+              "b": [
+                49.2,
+                37.2
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.05141808072,
+              "bbox_mm": [
+                49.0,
+                37.1,
+                49.3,
+                37.3
+              ],
+              "sample_mm": [
+                49.204207,
+                37.100079
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+            "other": {
+              "uuid": "0ccf3eb2-d605-452d-9f79-700d9f01378b",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                49.05,
+                37.15
+              ],
+              "b": [
+                49.1,
+                37.2
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.045560294378,
+              "bbox_mm": [
+                48.95,
+                37.05,
+                49.200001,
+                37.300001
+              ],
+              "sample_mm": [
+                49.054207,
+                37.050078
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+            "other": {
+              "uuid": "0b079ff4-8777-4fa1-a060-d04464ef3efe",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                48.95,
+                37.15
+              ],
+              "b": [
+                49.05,
+                37.15
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.043510034551,
+              "bbox_mm": [
+                48.9,
+                37.05,
+                49.15,
+                37.25
+              ],
+              "sample_mm": [
+                49.054207,
+                37.050079
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+            "other": {
+              "uuid": "57eb46da-369a-46fd-bf95-86c57abf862e",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                48.9,
+                37.1
+              ],
+              "b": [
+                48.95,
+                37.15
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.024525250849,
+              "bbox_mm": [
+                48.9,
+                37.019999,
+                49.050001,
+                37.250001
+              ],
+              "sample_mm": [
+                48.961252,
+                37.020943
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+            "other": {
+              "uuid": "4f2bfeb2-5083-4b61-9b37-a83fa5cec1f0",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                48.85,
+                37.1
+              ],
+              "b": [
+                48.9,
+                37.1
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.011449558708,
+              "bbox_mm": [
+                48.9,
+                37.019999,
+                49.0,
+                37.2
+              ],
+              "sample_mm": [
+                48.961252,
+                37.020942
+              ]
+            }
+          }
+        },
+        {
+          "kind": "Kelvin_same_net_attachment",
+          "contact": {
+            "phase": "V",
+            "polarity": "positive",
+            "net": "V_SOURCE",
+            "layer": "F.Cu",
+            "subject_uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+            "other": {
+              "uuid": "04691bda-cfb4-4874-8322-fc3a9b2350d7",
+              "class": "PCB_TRACK",
+              "net": "V_SOURCE",
+              "locked": false,
+              "layer": "F.Cu",
+              "a": [
+                48.8,
+                37.05
+              ],
+              "b": [
+                48.85,
+                37.1
+              ],
+              "width_mm": 0.2
+            },
+            "allowed": false,
+            "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+            "contact": {
+              "empty": false,
+              "area_mm2": 0.003409628014,
+              "bbox_mm": [
+                48.900305,
+                37.053191,
+                48.950001,
+                37.186427
+              ],
+              "sample_mm": [
+                48.939489,
+                37.055348
+              ]
+            }
+          }
+        }
+      ],
+      "native_other_net_component_regressions": {},
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "before_total_gaps": 204,
+      "after_total_gaps": 203,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_009.json"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 49,
+    "resolved_source_drc_endpoint_uuids": 49,
+    "source_drc_sha": "2cefffeae9d463df72756a6ce310283f6c69a96f9fd9b191af97ec529fb690af",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_power.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 206,
+    "after_unconnected": 203,
+    "before_drc_listed_unconnected": 206,
+    "after_drc_listed_unconnected": 203,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phasefine.work\\drc_010.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

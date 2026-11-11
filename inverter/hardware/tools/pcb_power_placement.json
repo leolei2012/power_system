@@ -1,0 +1,1989 @@
+{
+  "schema_version": 1,
+  "purpose": "Read-only schematic/netlist review and provisional PCB placement for integrated inverter; no schematic/BOM/routing modifications.",
+  "units": "mm",
+  "coordinate_convention": "KiCad PCB coordinates, origin at board top-left. x right,y down. rotation_deg is KiCad counterclockwise-positive. x/y is native footprint origin (e.g. terminal/radial pad1), not body center.",
+  "board": {
+    "width": 200,
+    "height": 140,
+    "layers": 4,
+    "mounting_holes": [
+      [
+        5,
+        5
+      ],
+      [
+        195,
+        5
+      ],
+      [
+        195,
+        135
+      ],
+      [
+        5,
+        135
+      ]
+    ],
+    "power_region": [
+      110,
+      10,
+      195,
+      105
+    ],
+    "auxiliary_region": [
+      10,
+      100,
+      95,
+      130
+    ]
+  },
+  "source_netlist": "inverter/hardware/review/inverter.net.xml",
+  "placements": {
+    "J3": {
+      "x": 124,
+      "y": 14,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "main_bus_input",
+      "note": "Pad1=DC+, pad2=DC-. Proposed 9.52mm terminal opens toward top edge. Keep clear of mounting holes.",
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        109.22,
+        5.5,
+        129.26,
+        19.0
+      ]
+    },
+    "F1": {
+      "x": 135,
+      "y": 12.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "main_bus_input",
+      "note": "6.3x32mm Littelfuse clip assembly candidate from mapping file. Four numbered copper pads and mechanical body must be kept clear; fuse DC rating remains pending.",
+      "footprint": "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        133.25,
+        8.29,
+        171.45,
+        16.71
+      ]
+    },
+    "D1": {
+      "x": 179,
+      "y": 29,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "main_bus_input",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "Pads1 and3=DC_FUSED. Pad2 and tab=VBUS. Leads face right. Use both anode pads with broad copper; tab thermal copper is VBUS.",
+      "courtyard_bbox": [
+        172.55,
+        23.35,
+        189.2,
+        34.65
+      ]
+    },
+    "C19": {
+      "x": 128,
+      "y": 29,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "main_bus_bulk",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "note": "Origin is positive pad1; negative pad2 is +5mm in x. Body center is +2.5mm in x, radius6.25mm, height25mm.",
+      "courtyard_bbox": [
+        123.75,
+        22.25,
+        137.25,
+        35.75
+      ]
+    },
+    "C20": {
+      "x": 157,
+      "y": 29,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "main_bus_bulk",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "note": "Origin is positive pad1; negative pad2 is +5mm in x. Same radial body as C19.",
+      "courtyard_bbox": [
+        152.75,
+        22.25,
+        166.25,
+        35.75
+      ]
+    },
+    "C21": {
+      "x": 135.5,
+      "y": 67.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "main_bus_bypass",
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "note": "Pad1=VBUS, pad2=GND. In gap between U/V source regions; short paired bus connection, not a gate-return connection.",
+      "courtyard_bbox": [
+        133.2,
+        65.9,
+        137.8,
+        69.1
+      ]
+    },
+    "C22": {
+      "x": 159.5,
+      "y": 67.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "main_bus_bypass",
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "note": "Pad1=VBUS, pad2=GND. In gap between V/W source regions. Preserve clearance to SOURCE islands.",
+      "courtyard_bbox": [
+        157.2,
+        65.9,
+        161.8,
+        69.1
+      ]
+    },
+    "D2": {
+      "x": 184,
+      "y": 74,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "main_bus_input",
+      "footprint": "Diode_SMD:D_SMC",
+      "note": "DNP SMC TVS footprint. Route directly to VBUS/GND bus pair; do not route its pulse through logic ground.",
+      "courtyard_bbox": [
+        180.65,
+        69.1,
+        187.35,
+        78.9
+      ]
+    },
+    "J4": {
+      "x": 194,
+      "y": 44,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "phase_output",
+      "note": "9.52mm 3pin candidate: pad1 U at y44, pad2 V at y53.52, pad3 W at y63.04. Courtyard approximately x185.5..199, y38.74..68.3.",
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        185.5,
+        38.74,
+        199.0,
+        68.3
+      ]
+    },
+    "Q1": {
+      "x": 127,
+      "y": 43,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "TO263 pad1 gate=(x-7.65,y-2.54), pad2/tab drain=(x+1.5,y), pad3 source=(x-7.65,y+2.54). High-side tab=VBUS.",
+      "courtyard_bbox": [
+        116.8,
+        37.35,
+        133.45,
+        48.65
+      ]
+    },
+    "Q2": {
+      "x": 127,
+      "y": 60,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "Low-side tab and pad2=PHASE; pad3=SOURCE above shunt. Keep PHASE copper local and separate from gate/quiet ground.",
+      "courtyard_bbox": [
+        116.8,
+        54.35,
+        133.45,
+        65.65
+      ]
+    },
+    "U7": {
+      "x": 115.4,
+      "y": 51.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "note": "COM pad3=SOURCE; VS pad6=PHASE; VB pad8=BOOT. Route each gate with its own source-return partner; SOURCE island below driver is not GND.",
+      "courtyard_bbox": [
+        111.7,
+        48.8,
+        119.1,
+        54.2
+      ]
+    },
+    "R19": {
+      "x": 114.8,
+      "y": 40.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series high gate; pad2 faces Q high pad1. Keep this resistor at gate end of HO route.",
+      "courtyard_bbox": [
+        113.12,
+        39.51,
+        116.48,
+        41.41
+      ]
+    },
+    "R20": {
+      "x": 114.8,
+      "y": 57.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series low gate; pad2 faces Q low pad1. Keep this resistor at gate end of LO route.",
+      "courtyard_bbox": [
+        113.12,
+        56.51,
+        116.48,
+        58.41
+      ]
+    },
+    "R21": {
+      "x": 114.8,
+      "y": 44.4,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "High gate-source pulldown returns to PHASE at Q high source, never GND.",
+      "courtyard_bbox": [
+        114.07,
+        42.92,
+        115.53,
+        45.88
+      ]
+    },
+    "R22": {
+      "x": 114.8,
+      "y": 63.8,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Low gate-source pulldown returns to SOURCE at Q low source, never GND.",
+      "courtyard_bbox": [
+        114.07,
+        62.32,
+        115.53,
+        65.28
+      ]
+    },
+    "R23": {
+      "x": 110,
+      "y": 49.6,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "HIN pulldown returns to local driver COM/SOURCE.",
+      "courtyard_bbox": [
+        108.52,
+        48.87,
+        111.48,
+        50.33
+      ]
+    },
+    "R24": {
+      "x": 110,
+      "y": 51.6,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "LIN pulldown returns to local driver COM/SOURCE.",
+      "courtyard_bbox": [
+        108.52,
+        50.87,
+        111.48,
+        52.33
+      ]
+    },
+    "C25": {
+      "x": 121.8,
+      "y": 49.9,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Bootstrap bulk. Pad1 BOOT near driver8; pad2 PHASE near driver6 / high source.",
+      "courtyard_bbox": [
+        119.5,
+        48.75,
+        124.1,
+        51.05
+      ]
+    },
+    "C26": {
+      "x": 121.8,
+      "y": 51.95,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "Bootstrap 100n. Same BOOT/PHASE pair; avoid long testpoint or pour stubs.",
+      "courtyard_bbox": [
+        120.32,
+        51.22,
+        123.28,
+        52.68
+      ]
+    },
+    "C27": {
+      "x": 112,
+      "y": 59.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "VCC bulk decoupling pad2=SOURCE. Use local SOURCE copper island, not global GND.",
+      "courtyard_bbox": [
+        110.3,
+        58.52,
+        113.7,
+        60.48
+      ]
+    },
+    "C28": {
+      "x": 121.8,
+      "y": 53.55,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "VCC 100n pad1=12V, pad2=SOURCE, close to driver5 with short local return to driver3.",
+      "courtyard_bbox": [
+        120.32,
+        52.82,
+        123.28,
+        54.28
+      ]
+    },
+    "RS1": {
+      "x": 119.35,
+      "y": 71,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "note": "2512 pad1 SOURCE at y68.0375; pad2 GND at y73.9625. Power current enters top and exits bottom. Independent Kelvin sense takes off at inner pad edges.",
+      "courtyard_bbox": [
+        117.42,
+        67.17,
+        121.28,
+        74.83
+      ]
+    },
+    "TP5": {
+      "x": 130.5,
+      "y": 51.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "PHASE exposed pad. Keep outside gate loop and allow probe clearance; not a scope-ground attachment.",
+      "courtyard_bbox": [
+        129.25,
+        50.25,
+        131.75,
+        52.75
+      ]
+    },
+    "TP6": {
+      "x": 123.5,
+      "y": 67.8,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_u",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "SOURCE testpoint. Return to source island with a short branch, away from Kelvin sense pair.",
+      "courtyard_bbox": [
+        122.25,
+        66.55,
+        124.75,
+        69.05
+      ]
+    },
+    "Q3": {
+      "x": 151,
+      "y": 43,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "TO263 pad1 gate=(x-7.65,y-2.54), pad2/tab drain=(x+1.5,y), pad3 source=(x-7.65,y+2.54). High-side tab=VBUS.",
+      "courtyard_bbox": [
+        140.8,
+        37.35,
+        157.45,
+        48.65
+      ]
+    },
+    "Q4": {
+      "x": 151,
+      "y": 60,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "Low-side tab and pad2=PHASE; pad3=SOURCE above shunt. Keep PHASE copper local and separate from gate/quiet ground.",
+      "courtyard_bbox": [
+        140.8,
+        54.35,
+        157.45,
+        65.65
+      ]
+    },
+    "U8": {
+      "x": 139.4,
+      "y": 51.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "note": "COM pad3=SOURCE; VS pad6=PHASE; VB pad8=BOOT. Route each gate with its own source-return partner; SOURCE island below driver is not GND.",
+      "courtyard_bbox": [
+        135.7,
+        48.8,
+        143.1,
+        54.2
+      ]
+    },
+    "R25": {
+      "x": 138.8,
+      "y": 40.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series high gate; pad2 faces Q high pad1. Keep this resistor at gate end of HO route.",
+      "courtyard_bbox": [
+        137.12,
+        39.51,
+        140.48,
+        41.41
+      ]
+    },
+    "R26": {
+      "x": 138.8,
+      "y": 57.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series low gate; pad2 faces Q low pad1. Keep this resistor at gate end of LO route.",
+      "courtyard_bbox": [
+        137.12,
+        56.51,
+        140.48,
+        58.41
+      ]
+    },
+    "R27": {
+      "x": 138.8,
+      "y": 44.4,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "High gate-source pulldown returns to PHASE at Q high source, never GND.",
+      "courtyard_bbox": [
+        138.07,
+        42.92,
+        139.53,
+        45.88
+      ]
+    },
+    "R28": {
+      "x": 138.8,
+      "y": 63.8,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Low gate-source pulldown returns to SOURCE at Q low source, never GND.",
+      "courtyard_bbox": [
+        138.07,
+        62.32,
+        139.53,
+        65.28
+      ]
+    },
+    "R29": {
+      "x": 134,
+      "y": 49.6,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "HIN pulldown returns to local driver COM/SOURCE.",
+      "courtyard_bbox": [
+        132.52,
+        48.87,
+        135.48,
+        50.33
+      ]
+    },
+    "R30": {
+      "x": 134,
+      "y": 51.6,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "LIN pulldown returns to local driver COM/SOURCE.",
+      "courtyard_bbox": [
+        132.52,
+        50.87,
+        135.48,
+        52.33
+      ]
+    },
+    "C29": {
+      "x": 145.8,
+      "y": 49.9,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Bootstrap bulk. Pad1 BOOT near driver8; pad2 PHASE near driver6 / high source.",
+      "courtyard_bbox": [
+        143.5,
+        48.75,
+        148.1,
+        51.05
+      ]
+    },
+    "C30": {
+      "x": 145.8,
+      "y": 51.95,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "Bootstrap 100n. Same BOOT/PHASE pair; avoid long testpoint or pour stubs.",
+      "courtyard_bbox": [
+        144.32,
+        51.22,
+        147.28,
+        52.68
+      ]
+    },
+    "C31": {
+      "x": 136,
+      "y": 59.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "VCC bulk decoupling pad2=SOURCE. Use local SOURCE copper island, not global GND.",
+      "courtyard_bbox": [
+        134.3,
+        58.52,
+        137.7,
+        60.48
+      ]
+    },
+    "C32": {
+      "x": 145.8,
+      "y": 53.55,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "VCC 100n pad1=12V, pad2=SOURCE, close to driver5 with short local return to driver3.",
+      "courtyard_bbox": [
+        144.32,
+        52.82,
+        147.28,
+        54.28
+      ]
+    },
+    "RS2": {
+      "x": 143.35,
+      "y": 71,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "note": "2512 pad1 SOURCE at y68.0375; pad2 GND at y73.9625. Power current enters top and exits bottom. Independent Kelvin sense takes off at inner pad edges.",
+      "courtyard_bbox": [
+        141.42,
+        67.17,
+        145.28,
+        74.83
+      ]
+    },
+    "TP7": {
+      "x": 154.5,
+      "y": 51.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "PHASE exposed pad. Keep outside gate loop and allow probe clearance; not a scope-ground attachment.",
+      "courtyard_bbox": [
+        153.25,
+        50.25,
+        155.75,
+        52.75
+      ]
+    },
+    "TP8": {
+      "x": 147.5,
+      "y": 67.8,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_v",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "SOURCE testpoint. Return to source island with a short branch, away from Kelvin sense pair.",
+      "courtyard_bbox": [
+        146.25,
+        66.55,
+        148.75,
+        69.05
+      ]
+    },
+    "Q5": {
+      "x": 175,
+      "y": 43,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "TO263 pad1 gate=(x-7.65,y-2.54), pad2/tab drain=(x+1.5,y), pad3 source=(x-7.65,y+2.54). High-side tab=VBUS.",
+      "courtyard_bbox": [
+        164.8,
+        37.35,
+        181.45,
+        48.65
+      ]
+    },
+    "Q6": {
+      "x": 175,
+      "y": 60,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "Low-side tab and pad2=PHASE; pad3=SOURCE above shunt. Keep PHASE copper local and separate from gate/quiet ground.",
+      "courtyard_bbox": [
+        164.8,
+        54.35,
+        181.45,
+        65.65
+      ]
+    },
+    "U9": {
+      "x": 163.4,
+      "y": 51.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "note": "COM pad3=SOURCE; VS pad6=PHASE; VB pad8=BOOT. Route each gate with its own source-return partner; SOURCE island below driver is not GND.",
+      "courtyard_bbox": [
+        159.7,
+        48.8,
+        167.1,
+        54.2
+      ]
+    },
+    "R31": {
+      "x": 162.8,
+      "y": 40.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series high gate; pad2 faces Q high pad1. Keep this resistor at gate end of HO route.",
+      "courtyard_bbox": [
+        161.12,
+        39.51,
+        164.48,
+        41.41
+      ]
+    },
+    "R32": {
+      "x": 162.8,
+      "y": 57.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series low gate; pad2 faces Q low pad1. Keep this resistor at gate end of LO route.",
+      "courtyard_bbox": [
+        161.12,
+        56.51,
+        164.48,
+        58.41
+      ]
+    },
+    "R33": {
+      "x": 162.8,
+      "y": 44.4,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "High gate-source pulldown returns to PHASE at Q high source, never GND.",
+      "courtyard_bbox": [
+        162.07,
+        42.92,
+        163.53,
+        45.88
+      ]
+    },
+    "R34": {
+      "x": 162.8,
+      "y": 63.8,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Low gate-source pulldown returns to SOURCE at Q low source, never GND.",
+      "courtyard_bbox": [
+        162.07,
+        62.32,
+        163.53,
+        65.28
+      ]
+    },
+    "R35": {
+      "x": 158,
+      "y": 49.6,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "HIN pulldown returns to local driver COM/SOURCE.",
+      "courtyard_bbox": [
+        156.52,
+        48.87,
+        159.48,
+        50.33
+      ]
+    },
+    "R36": {
+      "x": 158,
+      "y": 51.6,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "LIN pulldown returns to local driver COM/SOURCE.",
+      "courtyard_bbox": [
+        156.52,
+        50.87,
+        159.48,
+        52.33
+      ]
+    },
+    "C33": {
+      "x": 169.8,
+      "y": 49.9,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Bootstrap bulk. Pad1 BOOT near driver8; pad2 PHASE near driver6 / high source.",
+      "courtyard_bbox": [
+        167.5,
+        48.75,
+        172.1,
+        51.05
+      ]
+    },
+    "C34": {
+      "x": 169.8,
+      "y": 51.95,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "Bootstrap 100n. Same BOOT/PHASE pair; avoid long testpoint or pour stubs.",
+      "courtyard_bbox": [
+        168.32,
+        51.22,
+        171.28,
+        52.68
+      ]
+    },
+    "C35": {
+      "x": 160,
+      "y": 59.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "VCC bulk decoupling pad2=SOURCE. Use local SOURCE copper island, not global GND.",
+      "courtyard_bbox": [
+        158.3,
+        58.52,
+        161.7,
+        60.48
+      ]
+    },
+    "C36": {
+      "x": 169.8,
+      "y": 53.55,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "VCC 100n pad1=12V, pad2=SOURCE, close to driver5 with short local return to driver3.",
+      "courtyard_bbox": [
+        168.32,
+        52.82,
+        171.28,
+        54.28
+      ]
+    },
+    "RS3": {
+      "x": 167.35,
+      "y": 71,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "note": "2512 pad1 SOURCE at y68.0375; pad2 GND at y73.9625. Power current enters top and exits bottom. Independent Kelvin sense takes off at inner pad edges.",
+      "courtyard_bbox": [
+        165.42,
+        67.17,
+        169.28,
+        74.83
+      ]
+    },
+    "TP9": {
+      "x": 178.5,
+      "y": 51.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "PHASE exposed pad. Keep outside gate loop and allow probe clearance; not a scope-ground attachment.",
+      "courtyard_bbox": [
+        177.25,
+        50.25,
+        179.75,
+        52.75
+      ]
+    },
+    "TP10": {
+      "x": 171.5,
+      "y": 67.8,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "bridge_w",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "SOURCE testpoint. Return to source island with a short branch, away from Kelvin sense pair.",
+      "courtyard_bbox": [
+        170.25,
+        66.55,
+        172.75,
+        69.05
+      ]
+    },
+    "J5": {
+      "x": 194,
+      "y": 90,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "brake",
+      "note": "9.52mm 2pin candidate: pad1=VBUS at y90; pad2=BR_SW at y99.52. Body approximately x185.5..199,y84.74..104.78.",
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        185.5,
+        84.74,
+        199.0,
+        104.78
+      ]
+    },
+    "Q7": {
+      "x": 176,
+      "y": 90,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "note": "Tab/pad2=BR_SW. Do not connect this tab to VBUS, PHASE or common heatsink copper. Source pad3=GND.",
+      "courtyard_bbox": [
+        165.8,
+        84.35,
+        182.45,
+        95.65
+      ]
+    },
+    "U29": {
+      "x": 159.5,
+      "y": 87.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "MyFootprints:SOT-23-5",
+      "note": "Pads2 and4 GND. Return these with decouplers to Q7 source Kelvin branch; separate from brake power drain/source current path.",
+      "courtyard_bbox": [
+        157.45,
+        85.76,
+        161.55,
+        89.16
+      ]
+    },
+    "R17": {
+      "x": 163.8,
+      "y": 87.46,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "note": "Series resistor pad2 faces Q7 gate. Final gate route should avoid BR_SW copper.",
+      "courtyard_bbox": [
+        162.12,
+        86.51,
+        165.48,
+        88.41
+      ]
+    },
+    "R18": {
+      "x": 163.8,
+      "y": 91,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Gate-to-GND pulldown at Q7 source side.",
+      "courtyard_bbox": [
+        163.07,
+        89.52,
+        164.53,
+        92.48
+      ]
+    },
+    "R16": {
+      "x": 156,
+      "y": 90,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "BRAKE_IN pulldown at driver input.",
+      "courtyard_bbox": [
+        155.27,
+        88.52,
+        156.73,
+        91.48
+      ]
+    },
+    "C23": {
+      "x": 156.5,
+      "y": 82.5,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "12V/GND driver bulk; short return to U29 GND and Q7 source.",
+      "courtyard_bbox": [
+        155.77,
+        81.02,
+        157.23,
+        83.98
+      ]
+    },
+    "C24": {
+      "x": 159.5,
+      "y": 82.5,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "brake",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "100n close to U29 VDD pad1 and GND pad2.",
+      "courtyard_bbox": [
+        158.77,
+        81.02,
+        160.23,
+        83.98
+      ]
+    },
+    "J2": {
+      "x": 15,
+      "y": 105,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "note": "5.08mm 2pin candidate: positive pad1 at right, GND pad2 at left; final mechanical anchor pending.",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        6.87,
+        99.9,
+        18.04,
+        110.71
+      ]
+    },
+    "F2": {
+      "x": 22,
+      "y": 105,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "note": "Reserve small DC-rated auxiliary fuse body; exact holder/fuse pending.",
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        18.31,
+        103.17,
+        25.69,
+        106.83
+      ]
+    },
+    "U1": {
+      "x": 29,
+      "y": 118.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "MyFootprints:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm",
+      "note": "IN1/2 left upper, OUT15/16 right upper. Exposed pad17 and pin8=EFUSE_RTN, NOT GND. GND is pin9.",
+      "courtyard_bbox": [
+        25.1,
+        115.75,
+        32.9,
+        121.25
+      ]
+    },
+    "C1": {
+      "x": 22.8,
+      "y": 113.4,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "Input bypass across AUX_FUSED/GND at eFuse IN side.",
+      "courtyard_bbox": [
+        21.1,
+        112.42,
+        24.5,
+        114.38
+      ]
+    },
+    "C3": {
+      "x": 35.5,
+      "y": 116.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Output bypass across AUX_PROTECTED/GND at eFuse OUT side.",
+      "courtyard_bbox": [
+        33.2,
+        115.35,
+        37.8,
+        117.65
+      ]
+    },
+    "R1": {
+      "x": 23,
+      "y": 119,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        21.52,
+        118.27,
+        24.48,
+        119.73
+      ]
+    },
+    "R2": {
+      "x": 23,
+      "y": 121,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        21.52,
+        120.27,
+        24.48,
+        121.73
+      ]
+    },
+    "R3": {
+      "x": 23,
+      "y": 123,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        21.52,
+        122.27,
+        24.48,
+        123.73
+      ]
+    },
+    "R4": {
+      "x": 23,
+      "y": 125,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        21.52,
+        124.27,
+        24.48,
+        125.73
+      ]
+    },
+    "R5": {
+      "x": 26.5,
+      "y": 125.5,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        25.77,
+        124.02,
+        27.23,
+        126.98
+      ]
+    },
+    "R6": {
+      "x": 34.1,
+      "y": 122.4,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        33.37,
+        120.92,
+        34.83,
+        123.88
+      ]
+    },
+    "R7": {
+      "x": 37,
+      "y": 124,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        35.52,
+        123.27,
+        38.48,
+        124.73
+      ]
+    },
+    "R8": {
+      "x": 26.8,
+      "y": 113,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Keep UV/OV/MODE/ILIM and SHDN returns on EFUSE_RTN reference island according to netlist; R7 is FLT pullup to3V3.",
+      "courtyard_bbox": [
+        25.32,
+        112.27,
+        28.28,
+        113.73
+      ]
+    },
+    "C2": {
+      "x": 34.6,
+      "y": 119.2,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "DVDT to EFUSE_RTN, immediately beside U1 control pins. No global-ground thermal via.",
+      "courtyard_bbox": [
+        33.12,
+        118.47,
+        36.08,
+        119.93
+      ]
+    },
+    "SW1": {
+      "x": 11,
+      "y": 123.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "aux_input",
+      "note": "AUX_RESET: SHDN to EFUSE_RTN. Switch has no GND pin. Reserve6x6mm candidate body.",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        9.5,
+        122.0,
+        19.0,
+        129.5
+      ]
+    },
+    "U2": {
+      "x": 55.5,
+      "y": 119,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "MyFootprints:TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm",
+      "note": "HTSSOP20 EP21=GND. L1-switch pads2 and20 are at x52.6/58.4,y116.725/116.075. Keep input and output commutation loops tight.",
+      "courtyard_bbox": [
+        51.55,
+        115.45,
+        59.45,
+        122.55
+      ]
+    },
+    "L1": {
+      "x": 55.5,
+      "y": 107.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "note": "10.4x10.4mm inductor candidate: pads at x51.35,59.65. Connect each directly to its switch node; not a through connection to GND.",
+      "footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        49.75,
+        102.05,
+        61.25,
+        112.95
+      ]
+    },
+    "C4": {
+      "x": 50,
+      "y": 116,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "BST1 pad1 to U2.3, pad2 to L1-switch U2.2. Keep short.",
+      "courtyard_bbox": [
+        49.27,
+        114.52,
+        50.73,
+        117.48
+      ]
+    },
+    "C5": {
+      "x": 61,
+      "y": 115.6,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "BST2 pad1 to U2.19, pad2 to L2-switch U2.20. Keep short.",
+      "courtyard_bbox": [
+        60.27,
+        114.12,
+        61.73,
+        117.08
+      ]
+    },
+    "C6": {
+      "x": 46.6,
+      "y": 118.6,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Input bulk: positive pad1 faces U2 input-side pins.",
+      "courtyard_bbox": [
+        44.3,
+        117.45,
+        48.9,
+        119.75
+      ]
+    },
+    "C7": {
+      "x": 50,
+      "y": 119.5,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "Input high-frequency bypass to local power GND.",
+      "courtyard_bbox": [
+        49.02,
+        117.8,
+        50.98,
+        121.2
+      ]
+    },
+    "C8": {
+      "x": 65,
+      "y": 118.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "note": "12V output bulk, pad1 faces U2 output-side pins.",
+      "courtyard_bbox": [
+        62.7,
+        116.9,
+        67.3,
+        120.1
+      ]
+    },
+    "C9": {
+      "x": 61,
+      "y": 118.1,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "12V high-frequency bypass immediately beside U2 VOUT/GND.",
+      "courtyard_bbox": [
+        59.52,
+        117.37,
+        62.48,
+        118.83
+      ]
+    },
+    "C10": {
+      "x": 61.5,
+      "y": 123,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "VREG local decoupling only. No load or 12V pour on this net.",
+      "courtyard_bbox": [
+        59.8,
+        122.02,
+        63.2,
+        123.98
+      ]
+    },
+    "R9": {
+      "x": 50,
+      "y": 124,
+      "rotation_deg": 90,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "PG delay quiet component, away from switch-node copper.",
+      "courtyard_bbox": [
+        49.27,
+        122.52,
+        50.73,
+        125.48
+      ]
+    },
+    "R10": {
+      "x": 68.5,
+      "y": 126,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "PG level conversion; quiet separate block.",
+      "courtyard_bbox": [
+        67.02,
+        125.27,
+        69.98,
+        126.73
+      ]
+    },
+    "R11": {
+      "x": 72,
+      "y": 126,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "PG level conversion; quiet separate block.",
+      "courtyard_bbox": [
+        70.52,
+        125.27,
+        73.48,
+        126.73
+      ]
+    },
+    "R12": {
+      "x": 75.5,
+      "y": 126,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "PG level conversion; quiet separate block.",
+      "courtyard_bbox": [
+        74.02,
+        125.27,
+        76.98,
+        126.73
+      ]
+    },
+    "TP1": {
+      "x": 69,
+      "y": 118.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "12V testpoint, outside hot loop.",
+      "courtyard_bbox": [
+        67.75,
+        117.25,
+        70.25,
+        119.75
+      ]
+    },
+    "TP2": {
+      "x": 65.5,
+      "y": 122.8,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "VREG testpoint; do not use as a supply output.",
+      "courtyard_bbox": [
+        64.25,
+        121.55,
+        66.75,
+        124.05
+      ]
+    },
+    "TP3": {
+      "x": 72,
+      "y": 130,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_12v",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "Driver PG logic testpoint.",
+      "courtyard_bbox": [
+        70.75,
+        128.75,
+        73.25,
+        131.25
+      ]
+    },
+    "U3": {
+      "x": 79,
+      "y": 111,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_5v",
+      "footprint": "MyFootprints:TSOT-23-6",
+      "note": "VIN/EN left, SW right-center, BST right-top. Keep C11-U3-GND loop and U3-L2-C13/14 loop compact.",
+      "courtyard_bbox": [
+        76.95,
+        109.3,
+        81.05,
+        112.7
+      ]
+    },
+    "L2": {
+      "x": 88.5,
+      "y": 107.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_5v",
+      "note": "10.4mm candidate body. Pad1 left at x84.35=SW, pad2 right at92.65=5V. Thermal/current part choice remains pending.",
+      "footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        82.75,
+        102.05,
+        94.25,
+        112.95
+      ]
+    },
+    "C11": {
+      "x": 74.5,
+      "y": 111.5,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "supply_5v",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Input MLCC pad1 faces U3 input. Ground returns directly to U3.4 and power GND plane.",
+      "courtyard_bbox": [
+        72.2,
+        110.35,
+        76.8,
+        112.65
+      ]
+    },
+    "C12": {
+      "x": 82,
+      "y": 111,
+      "rotation_deg": 270,
+      "side": "F.Cu",
+      "group": "supply_5v",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "BST pad1 above, SW pad2 below, next to U3.6/U3.5.",
+      "courtyard_bbox": [
+        81.27,
+        109.52,
+        82.73,
+        112.48
+      ]
+    },
+    "C13": {
+      "x": 90,
+      "y": 116.2,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "supply_5v",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Output positive pad1 right, toward L2 output.",
+      "courtyard_bbox": [
+        87.7,
+        115.05,
+        92.3,
+        117.35
+      ]
+    },
+    "C14": {
+      "x": 90,
+      "y": 119,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "supply_5v",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "note": "Output positive pad1 left, toward L2 output.",
+      "courtyard_bbox": [
+        87.7,
+        117.85,
+        92.3,
+        120.15
+      ]
+    },
+    "U4": {
+      "x": 80.5,
+      "y": 123.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_3v3",
+      "footprint": "MyFootprints:SOT-23-5",
+      "note": "3.3V shared200mA LDO. Provide local copper for heat and verify total load; do not place beneath a power heatsink.",
+      "courtyard_bbox": [
+        78.45,
+        121.8,
+        82.55,
+        125.2
+      ]
+    },
+    "C15": {
+      "x": 76.8,
+      "y": 122.55,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "supply_3v3",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "5V input MLCC at U4.1.",
+      "courtyard_bbox": [
+        75.32,
+        121.82,
+        78.28,
+        123.28
+      ]
+    },
+    "C16": {
+      "x": 84.2,
+      "y": 122.55,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "supply_3v3",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "note": "3.3V output MLCC at U4.5.",
+      "courtyard_bbox": [
+        82.72,
+        121.82,
+        85.68,
+        123.28
+      ]
+    },
+    "U5": {
+      "x": 89,
+      "y": 125.7,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "sensor_power",
+      "footprint": "MyFootprints:SOT-23-6",
+      "note": "Sensor5V switch. Pins1/3 left input, pin6 right-top output.",
+      "courtyard_bbox": [
+        86.95,
+        124.0,
+        91.05,
+        127.4
+      ]
+    },
+    "C18": {
+      "x": 93.3,
+      "y": 124.75,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "sensor_power",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "note": "Sensor5V local output cap.",
+      "courtyard_bbox": [
+        91.6,
+        123.77,
+        95.0,
+        125.73
+      ]
+    },
+    "R14": {
+      "x": 92.8,
+      "y": 128.3,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "sensor_power",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "Quiet ILIM resistor at U5.5, return to local GND.",
+      "courtyard_bbox": [
+        91.32,
+        127.57,
+        94.28,
+        129.03
+      ]
+    },
+    "R15": {
+      "x": 84.8,
+      "y": 126.65,
+      "rotation_deg": 180,
+      "side": "F.Cu",
+      "group": "sensor_power",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "note": "3.3V fault pullup; keep separate from switcher SW copper.",
+      "courtyard_bbox": [
+        83.32,
+        125.92,
+        86.28,
+        127.38
+      ]
+    },
+    "J7": {
+      "x": 78,
+      "y": 130,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "sensor_power",
+      "note": "DNP1x02 vertical2.54mm header: pad1 at origin, pad2 extends downward at rotation0. Body remains within board.",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "mechanical_candidate": true,
+      "courtyard_bbox": [
+        76.23,
+        128.23,
+        79.77,
+        134.32
+      ]
+    },
+    "TP4": {
+      "x": 82,
+      "y": 128.5,
+      "rotation_deg": 0,
+      "side": "F.Cu",
+      "group": "sensor_power",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "note": "Sensor fault testpoint.",
+      "courtyard_bbox": [
+        80.75,
+        127.25,
+        83.25,
+        129.75
+      ]
+    }
+  },
+  "controlled_elsewhere": [
+    "U6",
+    "R13",
+    "C17",
+    "all current-sense amplifiers, analog filtering, comparators, MCU and logic"
+  ],
+  "critical_actual_pin_nets": {
+    "U1": {
+      "12": "/Auxiliary input/AUX_DVDT",
+      "1": "/Auxiliary input/AUX_FUSED",
+      "2": "/Auxiliary input/AUX_FUSED",
+      "11": "/Auxiliary input/AUX_ILIM",
+      "6": "/Auxiliary input/AUX_MODE",
+      "5": "/Auxiliary input/AUX_OV_DIV",
+      "7": "/Auxiliary input/AUX_SHDN_N",
+      "3": "/Auxiliary input/AUX_UV_DIV",
+      "17": "/Auxiliary input/EFUSE_RTN",
+      "8": "/Auxiliary input/EFUSE_RTN",
+      "14": "AUX_FLT_N",
+      "15": "AUX_PROTECTED",
+      "16": "AUX_PROTECTED",
+      "9": "GND",
+      "10": "unconnected-(U1-IMON-Pad10)",
+      "4": "unconnected-(U1-NC-Pad4)",
+      "13": "unconnected-(U1-NC-Pad13)"
+    },
+    "U2": {
+      "16": "+12V_DRV",
+      "17": "+12V_DRV",
+      "3": "/Driver supply/BB_BST1",
+      "19": "/Driver supply/BB_BST2",
+      "2": "/Driver supply/BB_L1",
+      "20": "/Driver supply/BB_L2",
+      "10": "/Driver supply/BB_PG_DLY",
+      "11": "/Driver supply/BB_VREG",
+      "12": "/Driver supply/BB_VREG",
+      "14": "/Driver supply/BB_VREG",
+      "15": "/Driver supply/DRV_PG_NOM",
+      "4": "AUX_PROTECTED",
+      "5": "AUX_PROTECTED",
+      "6": "AUX_PROTECTED",
+      "1": "GND",
+      "13": "GND",
+      "18": "GND",
+      "21": "GND",
+      "7": "GND",
+      "8": "GND",
+      "9": "GND"
+    },
+    "U3": {
+      "1": "+5V_INV",
+      "6": "/Logic and sensors/BUCK_BST",
+      "5": "/Logic and sensors/BUCK_SW",
+      "2": "AUX_PROTECTED",
+      "3": "AUX_PROTECTED",
+      "4": "GND"
+    },
+    "U4": {
+      "5": "+3V3_INV",
+      "1": "+5V_INV",
+      "3": "+5V_INV",
+      "2": "GND",
+      "4": "unconnected-(U4-NC-Pad4)"
+    },
+    "U5": {
+      "1": "+5V_INV",
+      "3": "+5V_INV",
+      "6": "+5V_SENSOR",
+      "5": "/Logic and sensors/SENSOR_ILIM",
+      "4": "/Logic and sensors/SENSOR_PWR_FLT_N",
+      "2": "GND"
+    },
+    "U7": {
+      "5": "+12V_DRV",
+      "8": "/U half bridge/U_BOOT",
+      "7": "/U half bridge/U_HO",
+      "4": "/U half bridge/U_LO",
+      "1": "U_HIN",
+      "2": "U_LIN",
+      "6": "U_PHASE",
+      "3": "U_SOURCE"
+    },
+    "U8": {
+      "5": "+12V_DRV",
+      "8": "/V half bridge/V_BOOT",
+      "7": "/V half bridge/V_HO",
+      "4": "/V half bridge/V_LO",
+      "1": "V_HIN",
+      "2": "V_LIN",
+      "6": "V_PHASE",
+      "3": "V_SOURCE"
+    },
+    "U9": {
+      "5": "+12V_DRV",
+      "8": "/W half bridge/W_BOOT",
+      "7": "/W half bridge/W_HO",
+      "4": "/W half bridge/W_LO",
+      "1": "W_HIN",
+      "2": "W_LIN",
+      "6": "W_PHASE",
+      "3": "W_SOURCE"
+    },
+    "U29": {
+      "1": "+12V_DRV",
+      "5": "/Bus and brake/BR_DRV",
+      "3": "BRAKE_IN",
+      "2": "GND",
+      "4": "GND"
+    },
+    "Q1": {
+      "1": "/U half bridge/U_GATE_H",
+      "3": "U_PHASE",
+      "2": "VBUS"
+    },
+    "Q2": {
+      "1": "/U half bridge/U_GATE_L",
+      "2": "U_PHASE",
+      "3": "U_SOURCE"
+    },
+    "Q3": {
+      "1": "/V half bridge/V_GATE_H",
+      "2": "VBUS",
+      "3": "V_PHASE"
+    },
+    "Q4": {
+      "1": "/V half bridge/V_GATE_L",
+      "2": "V_PHASE",
+      "3": "V_SOURCE"
+    },
+    "Q5": {
+      "1": "/W half bridge/W_GATE_H",
+      "2": "VBUS",
+      "3": "W_PHASE"
+    },
+    "Q6": {
+      "1": "/W half bridge/W_GATE_L",
+      "2": "W_PHASE",
+      "3": "W_SOURCE"
+    },
+    "Q7": {
+      "1": "/Bus and brake/BR_GATE",
+      "2": "/Bus and brake/BR_SW",
+      "3": "GND"
+    },
+    "D1": {
+      "1": "/Bus and brake/DC_FUSED",
+      "3": "/Bus and brake/DC_FUSED",
+      "2": "VBUS"
+    },
+    "D2": {
+      "2": "GND",
+      "1": "VBUS"
+    },
+    "RS1": {
+      "2": "GND",
+      "1": "U_SOURCE"
+    },
+    "RS2": {
+      "2": "GND",
+      "1": "V_SOURCE"
+    },
+    "RS3": {
+      "2": "GND",
+      "1": "W_SOURCE"
+    },
+    "C19": {
+      "2": "GND",
+      "1": "VBUS"
+    },
+    "C20": {
+      "2": "GND",
+      "1": "VBUS"
+    },
+    "C21": {
+      "2": "GND",
+      "1": "VBUS"
+    },
+    "C22": {
+      "2": "GND",
+      "1": "VBUS"
+    }
+  },
+  "mandatory_connectivity_constraints": [
+    {
+      "id": "SOURCE_IS_NOT_GND",
+      "rule": "For each phase, lower MOS source, driver COM, VCC-cap negative, low-gate pulldown and HIN/LIN pulldowns connect to that phase SOURCE island ABOVE its shunt. Only shunt pad2 connects to GND/DC-. No same-net-name substitution or automatic GND thermal connection to SOURCE."
+    },
+    {
+      "id": "KELVIN_SHUNT",
+      "rule": "RS1/2/3 are actual two-terminal2512 parts. Take separate quiet sense routes directly from the resistor pad inner edges to the corresponding INA241 inputs, including a dedicated GND-side Kelvin trace. Do not sense through power copper or share sense routes with gate/source return."
+    },
+    {
+      "id": "HIGH_SIDE_REFERENCE",
+      "rule": "Driver VS, bootstrap-negative and high-gate pulldown return to the corresponding PHASE/high-MOS source. Bootstrap positive is BOOT only. Neither return is GND."
+    },
+    {
+      "id": "EFUSE_FLOATING_REFERENCE",
+      "rule": "U1 pad17/exposed pad and pin8 are EFUSE_RTN. Keep a separate small reference island for R2/R4/R5/R6/C2/SW1. U1 pin9 and input/output cap negatives are board GND. Thermal vias under U1 EP must be EFUSE_RTN or isolated, never global GND."
+    },
+    {
+      "id": "TO263_TABS",
+      "rule": "TO263 pad2/tab is drain. Q1/3/5 tabs and D1 tab are VBUS; Q2/4/6 tabs are separate U/V/W_PHASE; Q7 tab is BR_SW. Never combine their thermal copper or uninsulated conductive heatsink surfaces. Thermal vias must use each actual net."
+    },
+    {
+      "id": "BUS_CURRENT",
+      "rule": "Main commutation current path is C21/22 positive to upper MOS drain, PHASE to lower MOS drain, SOURCE through shunt to cap negative. Use broad paired bus copper; no inner-layer thin track, single small via, shared signal return or narrow thermal spokes for10A power flow."
+    },
+    {
+      "id": "GATE_PAIR",
+      "rule": "Route HO with PHASE-return and LO with SOURCE-return as short pairs, keep gate resistors at MOS gate, and keep phase/drain pours from running under gate/input/sense traces. Use local SOURCE island for driver COM/VCC-cap return, not the global plane."
+    },
+    {
+      "id": "NO_HOTNODE_PLANE",
+      "rule": "Keep U/V/W_PHASE, BR_SW, BB_L1/BB_L2 and BUCK_SW copper compact. Do not create broad board-wide inner planes for these nodes; keep them away from MCU/ADC/reference/Kelvin/control routes and mounting hardware."
+    },
+    {
+      "id": "AUX_SWITCHERS",
+      "rule": "For U2, wire inductor ends only to BB_L1/BB_L2, bootstrap caps to their matching switch nodes, VREG local only, VOUT_SENSE to output cap positive. For U3, SW area short to L2, bootstrap adjacent, FB sense after L2 at quiet output cap."
+    },
+    {
+      "id": "BRAKE_CURRENT",
+      "rule": "J5.1=VBUS and J5.2=BR_SW; external resistor goes between them. Q7 source return joins DC- power bus. Driver GND/control branch returns to Q7 source through a separate short branch, not the high-current drain/source path."
+    },
+    {
+      "id": "LOGIC_GROUND",
+      "rule": "Maintain a quiet continuous GND reference for MCU, analog and digital signals outside local power/SOURCE islands. Join DC- power returns at shunt-low/bus-cap negative region; do not insert a deliberate split under returning logic signals or route power current through analog ground."
+    },
+    {
+      "id": "LAYERS",
+      "rule": "Suggested F.Cu components/power/gates, In1 mostly quiet GND outside local switch/SOURCE regions, In2 paired VBUS/GND copper and low-voltage rails, B.Cu signals/thermal distribution. All layers still obey actual nets and hot-node keepouts."
+    }
+  ],
+  "limitations": [
+    "U6/R13 intentionally omitted: parent control placement puts the supervisor next to MCU.",
+    "Formerly empty footprint candidates are taken from pcb_footprint_candidates.json. mechanical_candidate means exact procured part/rating remains pending; actual library pad geometry is used for this placement.",
+    "L1/L2 10.4x10.4mm, F1 open6.3x32mm and connectors are mechanical candidates, not final procurement or current/thermal validation.",
+    "Only two main-bus2.2uF MLCCs exist for three bridge cells. This placement shares them between cells; switching-loop inductance, effective biased capacitance and overshoot require review before release. No third capacitor is silently added.",
+    "C19/C20 are25mm-tall radial capacitors; keep service/tool/heatsink clearance above them. C19/C20 origin is positive lead, not body center.",
+    "Power copper widths/thicknesses, via arrays, MOS/shunt/diode temperatures, heatsink, EMI, creepage/clearance and transient behavior have not been validated by this coordinate proposal.",
+    "No mains isolation claim: present design is low-voltage laboratory12..60V DC bus with12..24V auxiliary input. Future mains board requires a new safety/insulation review."
+  ],
+  "footprint_mapping_source": "inverter/hardware/tools/pcb_footprint_candidates.json",
+  "placement_check": {
+    "refs": 111,
+    "all_footprint_files_exist": true,
+    "courtyard_boxes": 111,
+    "missing_courtyards": [],
+    "courtyard_bbox_overlaps": [],
+    "outline_excursions": [],
+    "C17_included": false,
+    "method": "Actual native footprint F.CrtYd line/rectangle/circle/arc bounds transformed using KiCad rotation convention. Conservative bbox comparison among these111refs only; parent must run complete-board collision/DRC checks.",
+    "mounting_hole_keepout_radius": 3,
+    "mounting_hole_conflicts": []
+  },
+  "reserved_regions": [
+    {
+      "group": "VBIAS_analog_by_control_agent",
+      "bounds": [
+        140,
+        90,
+        156,
+        105
+      ],
+      "anchor": [
+        149,
+        96
+      ],
+      "rule": "U13/R40/R41/C40/C41 quiet reference block. Do not pass brake or bus current through this area."
+    }
+  ]
+}

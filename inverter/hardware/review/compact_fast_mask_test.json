@@ -1,0 +1,11 @@
+{
+  "checked": 3390,
+  "types": {
+    "SH_SEGMENT": 46,
+    "SH_COMPOUND": 24,
+    "SH_CIRCLE": 29,
+    "SH_POLY_SET": 14
+  },
+  "false_free": [],
+  "false_blocked": []
+}

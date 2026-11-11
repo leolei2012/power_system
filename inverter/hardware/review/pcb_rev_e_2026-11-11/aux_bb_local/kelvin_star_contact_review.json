@@ -1,0 +1,190 @@
+{
+  "all_seven_identical_in_baseline": true,
+  "all_contacts_within_actual_star_pickup_pad": true,
+  "source": "actual native Boolean intersection minus actual RS pad copper polygon, not bounding-box judgement",
+  "contacts": [
+    {
+      "phase": "U",
+      "RS_pad": "RS1.2",
+      "track_uuid": "197c4d40-e8e6-416e-ba7c-38569d95f086",
+      "via_uuid": "16b98c31-5ef2-4711-8c3f-5aff21384a81",
+      "via_xy": [
+        152.1,
+        127.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.1430045191675,
+        "bbox_mm": [
+          151.714346,
+          127.204378,
+          152.498999,
+          127.471715
+        ],
+        "sample_mm": [
+          152.422319,
+          127.263121
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    },
+    {
+      "phase": "U",
+      "RS_pad": "RS1.2",
+      "track_uuid": "197c4d40-e8e6-416e-ba7c-38569d95f086",
+      "via_uuid": "2c1781f3-d9be-45af-9248-5baa20eaab1d",
+      "via_xy": [
+        150.9,
+        127.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.106069080026,
+        "bbox_mm": [
+          150.56603,
+          127.105465,
+          151.270734,
+          127.349792
+        ],
+        "sample_mm": [
+          151.042181,
+          127.126122
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    },
+    {
+      "phase": "V",
+      "RS_pad": "RS2.2",
+      "track_uuid": "e2951b6d-29e6-47d5-9673-61c869d6847d",
+      "via_uuid": "91f68e2c-0e6f-4682-b47f-65fea3cf0db9",
+      "via_xy": [
+        152.1,
+        142.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.1430045191675,
+        "bbox_mm": [
+          151.714346,
+          142.204378,
+          152.498999,
+          142.471715
+        ],
+        "sample_mm": [
+          152.422319,
+          142.263121
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    },
+    {
+      "phase": "V",
+      "RS_pad": "RS2.2",
+      "track_uuid": "e2951b6d-29e6-47d5-9673-61c869d6847d",
+      "via_uuid": "956f624a-3b20-4557-8318-58086f9762db",
+      "via_xy": [
+        150.9,
+        142.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.106069080026,
+        "bbox_mm": [
+          150.56603,
+          142.105465,
+          151.270734,
+          142.349792
+        ],
+        "sample_mm": [
+          151.042181,
+          142.126122
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    },
+    {
+      "phase": "W",
+      "RS_pad": "RS3.2",
+      "track_uuid": "8201c04f-0383-41a1-8f41-dc3688294d26",
+      "via_uuid": "ee83d142-354c-4b7a-a091-c4070c3b5112",
+      "via_xy": [
+        150.6,
+        157.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.153891110423,
+        "bbox_mm": [
+          150.2,
+          157.464688,
+          150.999548,
+          157.715337
+        ],
+        "sample_mm": [
+          150.999548,
+          157.519132
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    },
+    {
+      "phase": "W",
+      "RS_pad": "RS3.2",
+      "track_uuid": "8201c04f-0383-41a1-8f41-dc3688294d26",
+      "via_uuid": "f3df0963-a807-4d6f-b704-11d67711a607",
+      "via_xy": [
+        149.4,
+        157.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.124772393398,
+        "bbox_mm": [
+          149.14999,
+          157.39999,
+          149.8,
+          157.636128
+        ],
+        "sample_mm": [
+          149.252604,
+          157.400024
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    },
+    {
+      "phase": "W",
+      "RS_pad": "RS3.2",
+      "track_uuid": "70b0d932-4fcc-48dd-a702-9503199fb0bf",
+      "via_uuid": "f3df0963-a807-4d6f-b704-11d67711a607",
+      "via_xy": [
+        149.4,
+        157.5
+      ],
+      "actual_contact": {
+        "empty": false,
+        "area_mm2": 0.069223440917,
+        "bbox_mm": [
+          149.006006,
+          157.243803,
+          149.350009,
+          157.600009
+        ],
+        "sample_mm": [
+          149.31407,
+          157.423208
+        ]
+      },
+      "contact_fully_inside_actual_RS_pad": true,
+      "outside_pad_outline_count": 0
+    }
+  ],
+  "interpretation": "Legacy checker allows original locked return tracks inside RS pad but unconditionally rejects original locked vias there. These seven are endpoint star contacts, not new taps beyond the pickup pad."
+}

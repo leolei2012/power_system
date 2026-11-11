@@ -1,0 +1,112 @@
+{
+  "source_sha": "74bb98c4f16b8283a06acfa1dad65329315763cc8f731c242e7b820e9467275b",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "/Driver supply/BB_BST1",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          27.0731,
+          45.0175
+        ],
+        [
+          27.15,
+          45.0
+        ],
+        [
+          27.2,
+          45.05
+        ],
+        [
+          27.25,
+          45.05
+        ],
+        [
+          27.3,
+          45.1
+        ],
+        [
+          27.3,
+          45.15
+        ],
+        [
+          27.3389,
+          45.2833
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxfine.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "/Driver supply/BB_BST1",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 68,
+        "seconds": 1.078,
+        "start_candidates": 357,
+        "goal_candidates": 60
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxfine.work\\drc_004.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "items": [
+        "4806ae7e-c4a6-4b86-aa8d-792509d3c2e7",
+        "6ec6e9d5-83b7-4326-a516-8c2763fd6638"
+      ],
+      "reason": "No path within conservative grid/node/time budget (150739 nodes)"
+    },
+    {
+      "items": [
+        "30351f14-db16-48c5-a99f-4ffdfbd701cd",
+        "5147a29c-7d51-47fa-92f4-0813fd52d411"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1594 nodes)"
+    },
+    {
+      "items": [
+        "4d4854da-f17c-4ce9-b15e-1aeddc533083",
+        "8c7fe385-1b22-4bc6-b334-c2c3f7411d82"
+      ],
+      "reason": "No path within conservative grid/node/time budget (383 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 49,
+    "resolved_source_drc_endpoint_uuids": 49,
+    "source_drc_sha": "2cefffeae9d463df72756a6ce310283f6c69a96f9fd9b191af97ec529fb690af",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_power.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxfine.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 207,
+    "after_unconnected": 206,
+    "before_drc_listed_unconnected": 207,
+    "after_drc_listed_unconnected": 206,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxfine.work\\drc_004.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

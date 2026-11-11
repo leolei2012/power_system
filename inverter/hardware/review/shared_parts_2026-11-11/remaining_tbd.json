@@ -1,0 +1,1667 @@
+{
+  "refs": 207,
+  "groups": 52,
+  "by_ref_prefix": {
+    "C": 50,
+    "R": 152,
+    "D": 5
+  },
+  "items": [
+    {
+      "ref": "C1",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "100V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C2",
+      "value": "22n",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C3",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "50V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R1",
+      "value": "78.7k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R3",
+      "value": "221k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R5",
+      "value": "402k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R6",
+      "value": "7.87k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R8",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "C6",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "50V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C7",
+      "value": "470n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "50V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C8",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C10",
+      "value": "4.7u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "10V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R9",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R10",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R12",
+      "value": "20k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C11",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "50V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C13",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "16V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C14",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "16V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C15",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C16",
+      "value": "2.2u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C17",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C18",
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "16V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R14",
+      "value": "49.9k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C23",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R16",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R17",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R18",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C25",
+      "value": "2.2u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C27",
+      "value": "4.7u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R19",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R20",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R21",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R22",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R24",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C29",
+      "value": "2.2u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C31",
+      "value": "4.7u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R25",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R26",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R27",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R28",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R29",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R30",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C33",
+      "value": "2.2u",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C35",
+      "value": "4.7u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R31",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R32",
+      "value": "15",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R33",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R34",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R35",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R36",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C40",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C41",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C62",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R37",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R38",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R39",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R40",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R41",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R42",
+      "value": "39k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R43",
+      "value": "1.8k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R44",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R45",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R46",
+      "value": "1.8k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R47",
+      "value": "39k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "C42",
+      "value": "100p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C43",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C44",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C45",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C46",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C47",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C48",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C49",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C50",
+      "value": "10n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R48",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R49",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R50",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R51",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R52",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R53",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R54",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R55",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R56",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R57",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R58",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R59",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R60",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R61",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R62",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R63",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R64",
+      "value": "240k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R65",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R66",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R67",
+      "value": "47",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R68",
+      "value": "20k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R69",
+      "value": "13k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R70",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C54",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R71",
+      "value": "76.1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "R72",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "0.1%",
+      "dnp": false
+    },
+    {
+      "ref": "C55",
+      "value": "10n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R73",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R74",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R75",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C56",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C57",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C58",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C59",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C60",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C61",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "25V",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R76",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R77",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R78",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R79",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R80",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R81",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R82",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R83",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R160",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "D3",
+      "value": "PWR",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R130",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R135",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R136",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R137",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R138",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R139",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R140",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R141",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R142",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R143",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "C69",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C70",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C71",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C72",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C73",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C74",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C75",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "C76",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R84",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R85",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R86",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R87",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R88",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R89",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R90",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R91",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R201",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R202",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R203",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R204",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R205",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R206",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R207",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R208",
+      "value": "360",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R209",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R210",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R211",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R94",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R95",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R96",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R97",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R98",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R99",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R100",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R101",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R102",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R103",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R104",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R105",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R106",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R107",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R108",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R109",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R110",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R111",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R112",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R113",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R114",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R115",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R116",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R117",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R118",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R119",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "C82",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "voltage": "16 V minimum",
+      "tolerance": "",
+      "dnp": true
+    },
+    {
+      "ref": "D4",
+      "value": "LED_RUN",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "D5",
+      "value": "LED_FAULT",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "D6",
+      "value": "LED_COMM",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "D7",
+      "value": "LED_AUX",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "voltage": "",
+      "tolerance": "",
+      "dnp": false
+    },
+    {
+      "ref": "R120",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R121",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R123",
+      "value": "33",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R124",
+      "value": "100",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R125",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R126",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R127",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R128",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R129",
+      "value": "120",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": true
+    },
+    {
+      "ref": "R131",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R132",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R133",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    },
+    {
+      "ref": "R134",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "voltage": "",
+      "tolerance": "1%",
+      "dnp": false
+    }
+  ]
+}

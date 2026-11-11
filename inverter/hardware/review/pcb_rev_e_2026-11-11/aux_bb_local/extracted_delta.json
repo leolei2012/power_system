@@ -1,0 +1,704 @@
+{
+  "source_sha": "91b5e35402699f73413452d4a63ff839f2f2ce67af26fc1191466aed7af4d143",
+  "base": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\full_route\\inverter.kicad_pcb",
+  "candidate": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_local\\vreg_tp_finish.work\\inverter.kicad_pcb",
+  "candidate_sha256": "75bf69905788893b6983ed4973d78648474f39d02a29a372d0f457a04634d38d",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "/Voltage and NTC/V_W",
+      "layer": "F.Cu",
+      "points": [
+        [
+          126.7375,
+          136.55
+        ],
+        [
+          125.0625,
+          136.55
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_1",
+      "layer": "F.Cu",
+      "points": [
+        [
+          109.3375,
+          129.449999
+        ],
+        [
+          109.3375,
+          130.1
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_L1",
+      "layer": "B.Cu",
+      "points": [
+        [
+          124.525,
+          135.3
+        ],
+        [
+          127.25,
+          140.95
+        ]
+      ],
+      "width": 0.6,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_L1",
+      "layer": "B.Cu",
+      "points": [
+        [
+          127.25,
+          140.95
+        ],
+        [
+          127.376,
+          141.749
+        ]
+      ],
+      "width": 0.6,
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_5",
+      "layer": "F.Cu",
+      "points": [
+        [
+          116.1375,
+          123.65
+        ],
+        [
+          116.1375,
+          124.3
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_9",
+      "layer": "F.Cu",
+      "points": [
+        [
+          120.5375,
+          129.55
+        ],
+        [
+          120.5375,
+          130.199999
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "layer": "F.Cu",
+      "points": [
+        [
+          134.55,
+          122.8375
+        ],
+        [
+          134.55,
+          121.1625
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_V",
+      "layer": "F.Cu",
+      "points": [
+        [
+          134.75,
+          130.3375
+        ],
+        [
+          134.75,
+          128.6625
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "layer": "F.Cu",
+      "points": [
+        [
+          121.4625,
+          117.05
+        ],
+        [
+          123.1375,
+          117.05
+        ]
+      ],
+      "width": 0.15,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          114.7,
+          153.0
+        ],
+        [
+          114.7,
+          153.1
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          114.6,
+          152.4
+        ],
+        [
+          114.6,
+          152.9
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.2,
+          153.6
+        ],
+        [
+          115.2,
+          153.7
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.4,
+          154.2
+        ],
+        [
+          115.5,
+          154.3
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          114.6,
+          152.9
+        ],
+        [
+          114.7,
+          153.0
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.4,
+          154.0
+        ],
+        [
+          115.4,
+          154.2
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.5,
+          154.3
+        ],
+        [
+          115.5,
+          154.5
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          114.5,
+          152.3
+        ],
+        [
+          114.6,
+          152.4
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.2,
+          153.7
+        ],
+        [
+          115.3,
+          153.8
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          114.7,
+          153.1
+        ],
+        [
+          115.2,
+          153.6
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.3,
+          153.9
+        ],
+        [
+          115.4,
+          154.0
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "points": [
+        [
+          115.3,
+          153.8
+        ],
+        [
+          115.3,
+          153.9
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          119.6,
+          144.475
+        ],
+        [
+          118.7,
+          144.6
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          116.1,
+          148.1
+        ],
+        [
+          115.8,
+          147.8
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          116.55,
+          148.2
+        ],
+        [
+          116.4,
+          148.1
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          118.7,
+          144.6
+        ],
+        [
+          118.55,
+          144.8
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          114.7,
+          147.4
+        ],
+        [
+          114.6,
+          147.4
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          113.5,
+          146.1
+        ],
+        [
+          113.4,
+          146.0
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          115.1,
+          147.8
+        ],
+        [
+          114.7,
+          147.4
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          114.1,
+          147.3
+        ],
+        [
+          113.5,
+          146.7
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          114.5,
+          147.3
+        ],
+        [
+          114.1,
+          147.3
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          113.5,
+          146.7
+        ],
+        [
+          113.5,
+          146.1
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          118.55,
+          145.5
+        ],
+        [
+          118.75,
+          145.65
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          115.8,
+          147.8
+        ],
+        [
+          115.1,
+          147.8
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          116.4,
+          148.1
+        ],
+        [
+          116.1,
+          148.1
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          118.75,
+          145.65
+        ],
+        [
+          119.6,
+          145.775
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          114.6,
+          147.4
+        ],
+        [
+          114.5,
+          147.3
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "points": [
+        [
+          118.55,
+          144.8
+        ],
+        [
+          118.55,
+          145.5
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "points": [
+        [
+          114.4,
+          148.8
+        ],
+        [
+          114.4,
+          148.9
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "points": [
+        [
+          113.4,
+          147.8
+        ],
+        [
+          114.4,
+          148.8
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "points": [
+        [
+          114.5,
+          149.0
+        ],
+        [
+          114.5,
+          152.3
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "points": [
+        [
+          113.4,
+          146.0
+        ],
+        [
+          113.4,
+          147.8
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "points": [
+        [
+          114.4,
+          148.9
+        ],
+        [
+          114.5,
+          149.0
+        ]
+      ],
+      "width": 0.2,
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "point": [
+        114.5,
+        152.3
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "point": [
+        113.4,
+        146.0
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "locked": false
+    }
+  ],
+  "placements": {}
+}

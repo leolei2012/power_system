@@ -1,0 +1,1238 @@
+{
+  "source_sha": "4d4f0c2ae1d5177ebf351e92cd70ae8483fde624233a5b98dc958461cede13fb",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "OC_LOW_REF",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          32.0,
+          29.51
+        ],
+        [
+          32.0,
+          29.85
+        ],
+        [
+          31.95,
+          29.9
+        ],
+        [
+          31.95,
+          31.05
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OC_LOW_REF",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.95,
+          31.05
+        ],
+        [
+          31.4,
+          30.5
+        ],
+        [
+          31.35,
+          30.5
+        ],
+        [
+          31.3,
+          30.45
+        ],
+        [
+          31.2,
+          30.45
+        ],
+        [
+          31.15,
+          30.4
+        ],
+        [
+          31.046972727272728,
+          30.392527272727275
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OV_REF_1V30",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          33.0,
+          35.51
+        ],
+        [
+          33.05,
+          35.45
+        ],
+        [
+          33.3,
+          35.2
+        ],
+        [
+          33.3,
+          35.15
+        ],
+        [
+          33.55,
+          34.9
+        ],
+        [
+          33.55,
+          34.85
+        ],
+        [
+          33.6,
+          34.8
+        ],
+        [
+          33.6,
+          34.15
+        ],
+        [
+          33.4,
+          33.95
+        ],
+        [
+          32.6,
+          33.95
+        ],
+        [
+          32.55,
+          34.0
+        ],
+        [
+          31.95,
+          34.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OV_REF_1V30",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.95,
+          34.0
+        ],
+        [
+          30.75,
+          34.0
+        ],
+        [
+          30.55,
+          34.2
+        ],
+        [
+          30.55,
+          34.8
+        ],
+        [
+          30.5,
+          34.85
+        ],
+        [
+          30.5,
+          34.95
+        ],
+        [
+          30.45,
+          35.0
+        ],
+        [
+          30.425,
+          35.0875
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Analog protection/DRV_UV_DIV",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.075,
+          35.0875
+        ],
+        [
+          31.1,
+          35.05
+        ],
+        [
+          31.4,
+          34.75
+        ],
+        [
+          31.7,
+          34.75
+        ],
+        [
+          31.75,
+          34.7
+        ],
+        [
+          32.1,
+          34.7
+        ],
+        [
+          32.5,
+          34.3
+        ],
+        [
+          32.5,
+          34.2
+        ],
+        [
+          32.55,
+          34.15
+        ],
+        [
+          32.55,
+          33.85
+        ],
+        [
+          32.5,
+          33.8
+        ],
+        [
+          32.5,
+          33.7
+        ],
+        [
+          32.25,
+          33.45
+        ],
+        [
+          32.2,
+          33.45
+        ],
+        [
+          31.95,
+          33.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Analog protection/DRV_UV_DIV",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.95,
+          33.2
+        ],
+        [
+          31.7,
+          33.45
+        ],
+        [
+          31.65,
+          33.45
+        ],
+        [
+          30.25,
+          34.85
+        ],
+        [
+          30.25,
+          37.65
+        ],
+        [
+          30.2,
+          37.7
+        ],
+        [
+          30.2,
+          37.75
+        ],
+        [
+          29.65,
+          38.3
+        ],
+        [
+          29.65,
+          38.35
+        ],
+        [
+          29.45,
+          38.55
+        ],
+        [
+          29.4,
+          38.55
+        ],
+        [
+          29.35,
+          38.6
+        ],
+        [
+          28.75,
+          38.6
+        ],
+        [
+          28.7,
+          38.65
+        ],
+        [
+          27.2,
+          38.65
+        ],
+        [
+          24.9,
+          40.95
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Analog protection/DRV_UV_DIV",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          24.9,
+          40.95
+        ],
+        [
+          24.65,
+          40.7
+        ],
+        [
+          24.6,
+          40.7
+        ],
+        [
+          24.55,
+          40.65
+        ],
+        [
+          24.5,
+          40.65
+        ],
+        [
+          24.45,
+          40.6
+        ],
+        [
+          24.35,
+          40.6
+        ],
+        [
+          24.3,
+          40.55
+        ],
+        [
+          24.25,
+          40.51
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "V_DC",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.05,
+          16.2625
+        ],
+        [
+          30.95,
+          16.25
+        ],
+        [
+          30.7,
+          16.0
+        ],
+        [
+          30.55,
+          16.0
+        ],
+        [
+          30.05,
+          15.5
+        ],
+        [
+          30.0,
+          15.5
+        ],
+        [
+          29.95,
+          15.45
+        ],
+        [
+          29.55,
+          15.45
+        ],
+        [
+          29.5,
+          15.5
+        ],
+        [
+          29.45,
+          15.5
+        ],
+        [
+          29.05,
+          15.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "V_DC",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          29.05,
+          15.9
+        ],
+        [
+          29.25,
+          16.1
+        ],
+        [
+          29.25,
+          16.15
+        ],
+        [
+          29.3,
+          16.2
+        ],
+        [
+          29.3,
+          16.25
+        ],
+        [
+          29.35,
+          16.3
+        ],
+        [
+          29.35,
+          16.35
+        ],
+        [
+          29.4,
+          16.4
+        ],
+        [
+          29.4,
+          16.45
+        ],
+        [
+          29.45,
+          16.5
+        ],
+        [
+          29.45,
+          16.6
+        ],
+        [
+          29.5,
+          16.65
+        ],
+        [
+          29.49,
+          16.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          32.0,
+          20.51
+        ],
+        [
+          32.05,
+          20.45
+        ],
+        [
+          32.05,
+          20.4
+        ],
+        [
+          32.55,
+          19.9
+        ],
+        [
+          32.55,
+          19.85
+        ],
+        [
+          32.6,
+          19.8
+        ],
+        [
+          32.6,
+          18.95
+        ],
+        [
+          32.85,
+          18.7
+        ],
+        [
+          33.5,
+          18.7
+        ],
+        [
+          33.7,
+          18.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "layer": "In3.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          33.7,
+          18.5
+        ],
+        [
+          33.1,
+          19.1
+        ],
+        [
+          33.1,
+          24.35
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          33.1,
+          24.35
+        ],
+        [
+          32.1,
+          23.35
+        ],
+        [
+          32.05,
+          23.35
+        ],
+        [
+          32.0,
+          23.3
+        ],
+        [
+          31.95,
+          23.3
+        ],
+        [
+          31.9,
+          23.25
+        ],
+        [
+          31.85,
+          23.25
+        ],
+        [
+          31.8,
+          23.2
+        ],
+        [
+          31.75,
+          23.2
+        ],
+        [
+          31.7,
+          23.15
+        ],
+        [
+          31.6,
+          23.15
+        ],
+        [
+          31.55,
+          23.1
+        ],
+        [
+          31.5,
+          23.1
+        ],
+        [
+          31.45,
+          23.05
+        ],
+        [
+          31.4,
+          23.05
+        ],
+        [
+          31.35,
+          23.0
+        ],
+        [
+          31.3,
+          23.0
+        ],
+        [
+          31.25,
+          22.95
+        ],
+        [
+          31.15,
+          22.95
+        ],
+        [
+          31.1,
+          22.9
+        ],
+        [
+          31.05,
+          22.8375
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          16.5363,
+          31.4357
+        ],
+        [
+          16.9,
+          31.4
+        ],
+        [
+          17.95,
+          31.4
+        ],
+        [
+          18.1,
+          31.55
+        ],
+        [
+          18.1,
+          31.6
+        ],
+        [
+          18.15,
+          31.65
+        ],
+        [
+          18.15,
+          34.1
+        ],
+        [
+          18.65,
+          34.6
+        ],
+        [
+          19.55,
+          34.6
+        ],
+        [
+          19.8,
+          34.85
+        ],
+        [
+          19.8,
+          35.65
+        ],
+        [
+          19.6,
+          35.85
+        ],
+        [
+          18.45,
+          35.85
+        ],
+        [
+          17.7,
+          36.6
+        ],
+        [
+          17.65,
+          36.6
+        ],
+        [
+          17.6,
+          36.65
+        ],
+        [
+          17.55,
+          36.65
+        ],
+        [
+          17.5,
+          36.7
+        ],
+        [
+          16.55,
+          36.7
+        ],
+        [
+          16.0,
+          36.15
+        ],
+        [
+          15.9,
+          36.15
+        ],
+        [
+          15.85,
+          36.1
+        ],
+        [
+          12.2,
+          36.1
+        ],
+        [
+          11.85,
+          36.45
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          11.85,
+          36.45
+        ],
+        [
+          11.35,
+          36.95
+        ],
+        [
+          11.3,
+          36.95
+        ],
+        [
+          11.25,
+          37.0
+        ],
+        [
+          11.2,
+          37.0
+        ],
+        [
+          11.15,
+          37.05
+        ],
+        [
+          10.1,
+          37.05
+        ],
+        [
+          10.0,
+          37.15
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          10.0,
+          37.15
+        ],
+        [
+          8.5,
+          35.65
+        ],
+        [
+          8.5,
+          35.6
+        ],
+        [
+          8.45,
+          35.55
+        ],
+        [
+          8.45,
+          35.1
+        ],
+        [
+          8.4,
+          35.05
+        ],
+        [
+          8.4,
+          34.2
+        ],
+        [
+          8.45,
+          34.15
+        ],
+        [
+          8.45,
+          34.1
+        ],
+        [
+          8.9,
+          33.65
+        ],
+        [
+          8.9,
+          33.6
+        ],
+        [
+          8.95,
+          33.55
+        ],
+        [
+          9.0,
+          33.49
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "OC_LOW_REF",
+      "x": 31.95,
+      "y": 31.05,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "OV_REF_1V30",
+      "x": 31.95,
+      "y": 34.0,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Analog protection/DRV_UV_DIV",
+      "x": 31.95,
+      "y": 33.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Analog protection/DRV_UV_DIV",
+      "x": 24.9,
+      "y": 40.95,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "V_DC",
+      "x": 29.05,
+      "y": 15.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "x": 33.7,
+      "y": 18.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "x": 33.1,
+      "y": 24.35,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "VREF_MCU",
+      "x": 11.85,
+      "y": 36.45,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "VREF_MCU",
+      "x": 10.0,
+      "y": 37.15,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "OC_LOW_REF",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 3041,
+        "seconds": 4.609,
+        "start_candidates": 12,
+        "goal_candidates": 120
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_001.json"
+    },
+    {
+      "net": "OV_REF_1V30",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 12100,
+        "seconds": 2.797,
+        "start_candidates": 12,
+        "goal_candidates": 178
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_002.json"
+    },
+    {
+      "net": "/Analog protection/DRV_UV_DIV",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 93947,
+        "seconds": 2.141,
+        "start_candidates": 12,
+        "goal_candidates": 48
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_007.json"
+    },
+    {
+      "net": "V_DC",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 11281,
+        "seconds": 0.656,
+        "start_candidates": 52,
+        "goal_candidates": 12
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_014.json"
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 61607,
+        "seconds": 1.765,
+        "start_candidates": 12,
+        "goal_candidates": 48
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_022.json"
+    },
+    {
+      "net": "VREF_MCU",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 119966,
+        "seconds": 2.328,
+        "start_candidates": 104,
+        "goal_candidates": 12
+      },
+      "before_net_components": 3,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_031.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "items": [
+        "7ffd5248-1c05-41fb-ad07-f8e2e8a922b2",
+        "c259b30b-8339-4be6-849c-e1d842f3fc0d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1078 nodes)"
+    },
+    {
+      "items": [
+        "7ffd5248-1c05-41fb-ad07-f8e2e8a922b2",
+        "e0625196-86bf-4193-b1c8-7405666da6fc"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1134 nodes)"
+    },
+    {
+      "items": [
+        "d4388c75-7695-40e4-b683-ba159937f250",
+        "e0625196-86bf-4193-b1c8-7405666da6fc"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3120 nodes)"
+    },
+    {
+      "items": [
+        "37e38ce0-4bf5-45da-ba7c-c06dfe5ffc72",
+        "752fea98-2bb1-4d54-986c-e2fab83f4dc2"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "0c9874f7-e49b-4c6f-8d5e-03a24de9b9b6",
+        "f8ac5595-4a2d-44eb-9b85-3b1ab4a10263"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1063 nodes)"
+    },
+    {
+      "items": [
+        "2b725302-3282-4944-b14f-c0857de80bd0",
+        "3b3f8343-0ce1-40ad-858a-8c438d84d4ab"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3102 nodes)"
+    },
+    {
+      "items": [
+        "a12c73d0-31e6-4d62-827b-0c9f8bda75f5",
+        "e4f279c5-a510-4207-a100-c70927e0eec9"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "19dafed7-d298-4103-ba5e-8dadfb1c1d2e",
+        "338b3c09-9f59-4b84-8a33-586f1e0c526d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (158 nodes)"
+    },
+    {
+      "items": [
+        "a32c16cc-79b4-4417-82ad-d7621b1d43d9",
+        "e4594fdd-238f-4ccd-a703-3d4499ae2922"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "7a45b7c9-b7b8-4e25-baa3-100603304eef",
+        "f6d51dd2-eef3-4bc3-9491-5efc3ab65b28"
+      ],
+      "reason": "No path within conservative grid/node/time budget (314 nodes)"
+    },
+    {
+      "items": [
+        "226bbbc1-2e33-4b98-8e9c-d22d0caa7e34",
+        "75810aad-99d6-40ba-bfa3-553dd92dedc0"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "ab88f5a8-97f0-438d-b255-64826b4bfc9b",
+        "beeec448-5634-4a2b-bb6f-3b187f33f154"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "2ce994f1-8477-42ba-b494-e389b474004b",
+        "31107746-989f-45bc-88e4-e1338d919602"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3014 nodes)"
+    },
+    {
+      "items": [
+        "31107746-989f-45bc-88e4-e1338d919602",
+        "ad1e1dea-87d0-4dac-b837-b4c2f9847ff4"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "2ce994f1-8477-42ba-b494-e389b474004b",
+        "6f61abe1-c066-4970-a3ea-35e6255fa535"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "964e9953-fd96-4e6e-974c-4a99853a2a20",
+        "dfb5720e-73b7-4d48-845f-d6a1ad9ae98a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1863 nodes)"
+    },
+    {
+      "items": [
+        "628b05d6-797c-46df-adf6-d51905d6723d",
+        "dfb5720e-73b7-4d48-845f-d6a1ad9ae98a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "32451fc2-5017-4d60-b74b-847ffe2fde68",
+        "a12c73d0-31e6-4d62-827b-0c9f8bda75f5"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "0bd01eb6-cc52-4abf-a03f-d8fc30b386a3",
+        "da930286-8eae-484b-b40b-e3b6d163d0a3"
+      ],
+      "reason": "No path within conservative grid/node/time budget (471 nodes)"
+    },
+    {
+      "items": [
+        "0997b389-32db-407c-ac34-bac96fa769f4",
+        "1d1acd13-573b-425e-bd30-2794da8015e1"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "c857e607-b058-4275-b6c4-ea2de15e6b06",
+        "f2ebb76d-53ec-4714-9a16-41545fb34e47"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "0e5df2e6-b3fa-44b9-bde0-0299f85d16fb",
+        "a8fe9601-73f4-4332-a318-a7ef569c68ea"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1405 nodes)"
+    },
+    {
+      "items": [
+        "4f5042c3-8ee5-4a37-93f0-c7427a89abb1",
+        "fcd2d55b-74db-4394-ac28-a88f5c5e4be3"
+      ],
+      "reason": "No path within conservative grid/node/time budget (929 nodes)"
+    },
+    {
+      "items": [
+        "7668f342-9c35-4864-b60d-cd3e325dbd93",
+        "eb0e274e-9945-48fc-83aa-5d6d240d93ec"
+      ],
+      "reason": "No path within conservative grid/node/time budget (414 nodes)"
+    },
+    {
+      "items": [
+        "01f47ebc-b2da-4bba-9fdb-a5174660630f",
+        "dffc4cc9-8862-4634-bb93-caedaa63751c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3001 nodes)"
+    },
+    {
+      "items": [
+        "0997b389-32db-407c-ac34-bac96fa769f4",
+        "f571cc17-31b2-46d9-9773-8fc81283d1f7"
+      ],
+      "reason": "No path within conservative grid/node/time budget (120000 nodes)"
+    },
+    {
+      "items": [
+        "44766f7b-d954-492a-9cd0-c63b8c431bb4",
+        "d9d036ca-b3bb-437d-a47d-6e4eff4744c3"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1580 nodes)"
+    },
+    {
+      "items": [
+        "34f696a6-56fc-435e-906c-d6317bf6545c",
+        "37ced9e2-a2e3-4257-bb62-343633a23250"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2005 nodes)"
+    },
+    {
+      "items": [
+        "6c980d7e-68ca-4357-8546-a2cddb112389",
+        "dbe4798e-2efa-4156-9b40-5be3b346a999"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3230 nodes)"
+    },
+    {
+      "items": [
+        "23005ad7-891f-4d52-b7ca-32220c86837a",
+        "abd9f3b9-60d5-4b9a-9f33-f87cc459c23e"
+      ],
+      "reason": "No path within conservative grid/node/time budget (83153 nodes)"
+    },
+    {
+      "items": [
+        "63ec1f50-9f17-4438-a622-241792701a92",
+        "b0aec1dc-8b89-4496-9cef-01a9a186439c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (234 nodes)"
+    },
+    {
+      "items": [
+        "03386816-5563-4e5a-a023-c06329b3a0f3",
+        "ff9fc64c-2eec-49c2-9826-ee826d9ecfe4"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1358 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 68,
+    "resolved_source_drc_endpoint_uuids": 68,
+    "source_drc_sha": "952a81469da3daa1735e951110aa6df065e24efd8ae0c376b01fad280ede8b89",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_analog.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 215,
+    "after_unconnected": 208,
+    "before_drc_listed_unconnected": 215,
+    "after_drc_listed_unconnected": 208,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_analog_fast.work\\drc_031.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

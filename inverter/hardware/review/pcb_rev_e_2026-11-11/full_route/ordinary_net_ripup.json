@@ -1,0 +1,9 @@
+{
+  "nets": [
+    "OC_W_HIGH_OK",
+    "PB5",
+    "PC0"
+  ],
+  "removed_items": 48,
+  "fixed_copper_preserved": true
+}

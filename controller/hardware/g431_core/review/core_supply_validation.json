@@ -1,0 +1,532 @@
+{
+  "revision": "E-core-draft",
+  "scope": "20-part local supply plus 3-part application ARM; current 47-part minimum-system top",
+  "source_netlist": {
+    "path": "controller/hardware/g431_core/review/controller.net.xml",
+    "sha256": "fc56b75c31b6a8a1c2f2b18b869e6d8ba61d3a0f91da6b196c0124dec1eab665",
+    "schematic_source": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_sch",
+    "exported_at": "2026-11-07T01:13:01",
+    "component_count": 47
+  },
+  "assertions": 51,
+  "arm_assertions": 9,
+  "total_supply_arm_pin_assertions": 60,
+  "mismatches": [],
+  "supply_pin_checks": [
+    {
+      "pin": "R301.1",
+      "expected": "+5V_CORE_IN",
+      "actual": "+5V_CORE_IN",
+      "pass": true
+    },
+    {
+      "pin": "R301.2",
+      "expected": "CORE_5V_TVS",
+      "actual": "/Local power and reset/CORE_5V_TVS",
+      "pass": true
+    },
+    {
+      "pin": "D101.1",
+      "expected": "CORE_5V_TVS",
+      "actual": "/Local power and reset/CORE_5V_TVS",
+      "pass": true
+    },
+    {
+      "pin": "D101.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "D102.1",
+      "expected": "CORE_LDO_IN",
+      "actual": "/Local power and reset/CORE_LDO_IN",
+      "pass": true
+    },
+    {
+      "pin": "D102.2",
+      "expected": "CORE_5V_TVS",
+      "actual": "/Local power and reset/CORE_5V_TVS",
+      "pass": true
+    },
+    {
+      "pin": "D103.1",
+      "expected": "CORE_LDO_IN",
+      "actual": "/Local power and reset/CORE_LDO_IN",
+      "pass": true
+    },
+    {
+      "pin": "D103.2",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U101.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U101.2",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U101.3",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "U101.4",
+      "expected": "CORE_LDO_IN",
+      "actual": "/Local power and reset/CORE_LDO_IN",
+      "pass": true
+    },
+    {
+      "pin": "U101.5",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "U101.6",
+      "expected": "CORE_LDO_IN",
+      "actual": "/Local power and reset/CORE_LDO_IN",
+      "pass": true
+    },
+    {
+      "pin": "U101.7",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "U102.1",
+      "expected": "NRST",
+      "actual": "NRST",
+      "pass": true
+    },
+    {
+      "pin": "U102.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "U102.3",
+      "expected": "CORE_MR_5V_PRESENT",
+      "actual": "/Local power and reset/CORE_MR_5V_PRESENT",
+      "pass": true
+    },
+    {
+      "pin": "U102.5",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U102.6",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U103.2",
+      "expected": "NRST",
+      "actual": "NRST",
+      "pass": true
+    },
+    {
+      "pin": "U103.3",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "U103.4",
+      "expected": "CORE_RESET_OK",
+      "actual": "CORE_RESET_OK",
+      "pass": true
+    },
+    {
+      "pin": "U103.5",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U104.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "U104.2",
+      "expected": "CORE_SHUNT_REF",
+      "actual": "/Local power and reset/CORE_SHUNT_REF",
+      "pass": true
+    },
+    {
+      "pin": "U104.3",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "R302.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "R302.2",
+      "expected": "CORE_SHUNT_REF",
+      "actual": "/Local power and reset/CORE_SHUNT_REF",
+      "pass": true
+    },
+    {
+      "pin": "R303.1",
+      "expected": "CORE_SHUNT_REF",
+      "actual": "/Local power and reset/CORE_SHUNT_REF",
+      "pass": true
+    },
+    {
+      "pin": "R303.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "R304.1",
+      "expected": "CORE_5V_TVS",
+      "actual": "/Local power and reset/CORE_5V_TVS",
+      "pass": true
+    },
+    {
+      "pin": "R304.2",
+      "expected": "CORE_MR_5V_PRESENT",
+      "actual": "/Local power and reset/CORE_MR_5V_PRESENT",
+      "pass": true
+    },
+    {
+      "pin": "R305.1",
+      "expected": "CORE_MR_5V_PRESENT",
+      "actual": "/Local power and reset/CORE_MR_5V_PRESENT",
+      "pass": true
+    },
+    {
+      "pin": "R305.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "R306.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "R306.2",
+      "expected": "NRST",
+      "actual": "NRST",
+      "pass": true
+    },
+    {
+      "pin": "C301.1",
+      "expected": "CORE_5V_TVS",
+      "actual": "/Local power and reset/CORE_5V_TVS",
+      "pass": true
+    },
+    {
+      "pin": "C301.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C302.1",
+      "expected": "CORE_LDO_IN",
+      "actual": "/Local power and reset/CORE_LDO_IN",
+      "pass": true
+    },
+    {
+      "pin": "C302.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C303.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "C303.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C304.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "C304.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C305.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "C305.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C306.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "C306.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C307.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "C307.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    }
+  ],
+  "arm_pin_checks": [
+    {
+      "pin": "U105.1",
+      "expected": "CORE_RESET_OK",
+      "actual": "CORE_RESET_OK",
+      "pass": true
+    },
+    {
+      "pin": "U105.2",
+      "expected": "PC7",
+      "actual": "PC7",
+      "pass": true
+    },
+    {
+      "pin": "U105.3",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "U105.4",
+      "expected": "CTRL_READY",
+      "actual": "CTRL_READY",
+      "pass": true
+    },
+    {
+      "pin": "U105.5",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "R402.1",
+      "expected": "PC7",
+      "actual": "PC7",
+      "pass": true
+    },
+    {
+      "pin": "R402.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "pin": "C308.1",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "C308.2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    }
+  ],
+  "no_connect_checks": [
+    {
+      "pin": "U102.4",
+      "actual": "unconnected-(U102-CT-Pad4)",
+      "nodes": [
+        "U102.4"
+      ],
+      "pass": true
+    },
+    {
+      "pin": "U103.1",
+      "actual": "unconnected-(U103-NC-Pad1)",
+      "nodes": [
+        "U103.1"
+      ],
+      "pass": true
+    }
+  ],
+  "interface_checks": [
+    {
+      "pin": "J101.1",
+      "expected": "+5V_CORE_IN",
+      "actual": "+5V_CORE_IN",
+      "pass": true
+    },
+    {
+      "pin": "J101.3",
+      "expected": "+5V_CORE_IN",
+      "actual": "+5V_CORE_IN",
+      "pass": true
+    },
+    {
+      "pin": "J101.22",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "J101.32",
+      "expected": "+3V3_MCU",
+      "actual": "+3V3_MCU",
+      "pass": true
+    },
+    {
+      "pin": "J102.10",
+      "expected": "CTRL_READY",
+      "actual": "CTRL_READY",
+      "pass": true
+    },
+    {
+      "pin": "J102.18",
+      "expected": "PC7",
+      "actual": "PC7",
+      "pass": true
+    },
+    {
+      "pin": "J102.32",
+      "expected": "NRST",
+      "actual": "NRST",
+      "pass": true
+    },
+    {
+      "pin": "J102.1",
+      "expected": "PB8_BOOT0",
+      "actual": "PB8_BOOT0",
+      "pass": true
+    }
+  ],
+  "arm_component_checks": [
+    {
+      "ref": "U105",
+      "expected_value": "SN74LVC1G08DBVR",
+      "actual_value": "SN74LVC1G08DBVR",
+      "pass": true
+    },
+    {
+      "ref": "R402",
+      "expected_value": "10k",
+      "actual_value": "10k",
+      "pass": true
+    },
+    {
+      "ref": "C308",
+      "expected_value": "100n",
+      "actual_value": "100n",
+      "pass": true
+    },
+    {
+      "ref": "U105",
+      "expected_LCSC": "C7666",
+      "actual_LCSC": "C7666",
+      "pass": true
+    }
+  ],
+  "whole_top_erc_violations": 0,
+  "whole_top_erc_errors": 0,
+  "whole_top_erc_warnings": 0,
+  "erc_source": {
+    "path": "controller/hardware/g431_core/review/erc.json",
+    "sha256": "ae27f340f7e9bde79b9af0b686c59097898580854d9d3ed036ea1a4c19d7d30b",
+    "note": "Read root-exported Rev E ERC; no native regeneration or exporter run by this review"
+  },
+  "page_sha256": "7af66d644e326e1ff7a41321bfec522fae8b51250a4d24034afe71a12f2a916e",
+  "arm_page_sha256": "abf70fc6041f18a9706d480601fcc89e2b6f144964ea7cf4921fce98548416d2",
+  "local_symbol_sha256": "90b81db74b5e425399d3f00ffd34c295abeacc2fa5af430b993785a423c56025",
+  "physical_refs": [
+    "R301",
+    "D101",
+    "C301",
+    "D102",
+    "C302",
+    "U101",
+    "D103",
+    "C303",
+    "C304",
+    "R302",
+    "R303",
+    "U104",
+    "C305",
+    "U102",
+    "R304",
+    "R305",
+    "C306",
+    "R306",
+    "U103",
+    "C307"
+  ],
+  "arm_physical_refs": [
+    "U105",
+    "R402",
+    "C308"
+  ],
+  "connection_changes_from_old_supply_expectations": {
+    "MCU_RESET_N": "NRST",
+    "U103.4": "CORE_RESET_OK"
+  },
+  "interface_notes": {
+    "core_reference_return": "J101.22 and J101.32 export +3V3_MCU to base +3V3_CORE_REF; never hard-parallel with base +3V3_INV",
+    "independent_power": "Regulated 4.75-5.25V via J101.1/J101.3 and GND, no added power connector or selector",
+    "arm": "PC7 is RUN_ARM when on the power base; external pull-up/driver must not bypass default-low ARM",
+    "reset": "NRST now exported at J102.32 for base SWD/debug; power faults still use base shutdown/BKIN"
+  },
+  "engineering_budgets": {
+    "continuous_core_3v3_mA": 100,
+    "positive_short_injection_mA": 50,
+    "adc_series_ohm": 360,
+    "digital_series_ohm": 1000,
+    "calculated_conservative_injection_mA": 48.9337822671156,
+    "calculation_assumptions": "all inputs <=5.25V; core rail >=3.25V; diode Vf ignored; resistors -1%; not hard current limiting",
+    "base_ADC_RC_us": 0.46,
+    "sustained_60V_fault_immunity": false
+  },
+  "review_limits": "Pin/net and metadata checks only; electrical dynamic, insertion, clamp-current and thermal prototype validation remain open; final root export may refresh file hashes"
+}

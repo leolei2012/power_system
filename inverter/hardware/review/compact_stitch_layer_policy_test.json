@@ -1,0 +1,99 @@
+{
+  "segment": [
+    [
+      45,
+      24
+    ],
+    [
+      45,
+      25
+    ]
+  ],
+  "contains_In3_VBUS": true,
+  "native_line_legal_by_layer": {
+    "B.Cu": true,
+    "In2.Cu": true,
+    "In3.Cu": false
+  },
+  "through_via_legal": false,
+  "zone_layers": [
+    {
+      "uuid": "430e2b73-e045-42ad-8232-d1dca492c02e",
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "59e3526f-2dac-4b5d-b4a2-4464b4efa143",
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "829e5ad6-5d2c-4949-91f9-071875abde24",
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "9d3de7a0-a39f-4b75-8382-d9b0f4129287",
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "ce9e7178-a7fa-459e-8475-c53e7e074021",
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "d22e08f8-d4f0-4e4a-bf2d-9e47555637e6",
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "45922089-4c62-44b3-a42a-a157327d9c92",
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "4da381d0-2100-4396-b5ab-27a530eb8e52",
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "5232db7e-5932-4841-aa7a-be6926fb7c0d",
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "8f60b539-3876-4777-9845-939e02952db8",
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "bf67915c-3543-4e92-bb99-cfb09de82bea",
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "6a8f59a7-ed38-4677-bec2-459973eaaa48",
+      "layers": [
+        "In2.Cu"
+      ]
+    },
+    {
+      "uuid": "debdfac2-4cfa-4ec2-a365-c5c715b7a98f",
+      "layers": [
+        "In3.Cu"
+      ]
+    }
+  ]
+}

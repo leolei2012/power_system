@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-11",
+  "status": "SUPERSEDED planning: user reduced to one power PWM port.",
+  "board_mm": [
+    60,
+    60
+  ],
+  "holes_mm": [
+    [
+      4,
+      4
+    ],
+    [
+      56,
+      4
+    ],
+    [
+      4,
+      56
+    ],
+    [
+      56,
+      56
+    ]
+  ],
+  "legacy_mounting_keepout_radius_mm": 2.8,
+  "all_side_entry_single_face": {
+    "GH_header_body_width_sum_mm": 186.0,
+    "estimated_power_header_width_mm": [
+      4,
+      6
+    ],
+    "total_bodies_mm": [
+      190,
+      192
+    ],
+    "inter_header_gaps_at_1mm_mm": 20,
+    "total_with_gaps_mm": [
+      210,
+      212
+    ],
+    "estimated_clear_perimeter_after_corners_mm": [
+      176,
+      184
+    ],
+    "conclusion": "Insufficient comfortable edge length for all24 single-face, single-row side-entry ports, even before buttons and final footprints."
+  },
+  "two_face_alternative": {
+    "front_connector_count": 18,
+    "back_connector_count": 6,
+    "front_edge_body_spans_mm": {
+      "left": 44.5,
+      "right": 44.5,
+      "top": 43.5,
+      "bottom": 38.3
+    },
+    "back_edge_body_spans_mm": {
+      "top": 33.5,
+      "bottom": 17.5
+    },
+    "unapproved_back_side_ports": [
+      "I2C_A",
+      "I2C_B",
+      "CAN",
+      "TTL",
+      "SWD",
+      "5V_IN"
+    ],
+    "buttons": "RESET and BOOT stay on the MCU/top face near an edge, using actual rotated switch courtyards.",
+    "coordinate_frame": "Both drawings use the SAME assembly XY frame; rear drawing is not a solder-side mirrored manufacturing view.",
+    "rectangles": [
+      {
+        "label": "ADC01",
+        "face": "front",
+        "x": 0.5,
+        "y": 7.75,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC02",
+        "face": "front",
+        "x": 0.5,
+        "y": 14.5,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC03",
+        "face": "front",
+        "x": 0.5,
+        "y": 21.25,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC04",
+        "face": "front",
+        "x": 0.5,
+        "y": 28.0,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC05",
+        "face": "front",
+        "x": 0.5,
+        "y": 34.75,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "CTRL_A",
+        "face": "front",
+        "x": 0.5,
+        "y": 41.5,
+        "width": 5,
+        "height": 10.75,
+        "kind": "CTRL",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC06",
+        "face": "front",
+        "x": 54.5,
+        "y": 7.75,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC07",
+        "face": "front",
+        "x": 54.5,
+        "y": 14.5,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC08",
+        "face": "front",
+        "x": 54.5,
+        "y": 21.25,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC09",
+        "face": "front",
+        "x": 54.5,
+        "y": 28.0,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ADC10",
+        "face": "front",
+        "x": 54.5,
+        "y": 34.75,
+        "width": 5,
+        "height": 5.75,
+        "kind": "ADC",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "CTRL_B",
+        "face": "front",
+        "x": 54.5,
+        "y": 41.5,
+        "width": 5,
+        "height": 10.75,
+        "kind": "CTRL",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "SPI_A",
+        "face": "front",
+        "x": 8.25,
+        "y": 0.5,
+        "width": 10.75,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "SPI_B",
+        "face": "front",
+        "x": 20.0,
+        "y": 0.5,
+        "width": 10.75,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ENC_A",
+        "face": "front",
+        "x": 31.75,
+        "y": 0.5,
+        "width": 9.5,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "ENC_B",
+        "face": "front",
+        "x": 42.25,
+        "y": 0.5,
+        "width": 9.5,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "PWM_A",
+        "face": "front",
+        "x": 10.850000000000001,
+        "y": 54.5,
+        "width": 13.25,
+        "height": 5,
+        "kind": "PWM",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "RESET",
+        "face": "front",
+        "x": 25.1,
+        "y": 50.65,
+        "width": 4.4,
+        "height": 9.1,
+        "kind": "BUTTON",
+        "geometry": "reviewed switch courtyard, 90deg rotation"
+      },
+      {
+        "label": "BOOT",
+        "face": "front",
+        "x": 30.5,
+        "y": 50.65,
+        "width": 4.4,
+        "height": 9.1,
+        "kind": "BUTTON",
+        "geometry": "reviewed switch courtyard, 90deg rotation"
+      },
+      {
+        "label": "PWM_B",
+        "face": "front",
+        "x": 35.9,
+        "y": 54.5,
+        "width": 13.25,
+        "height": 5,
+        "kind": "PWM",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "I2C_A",
+        "face": "back",
+        "x": 13.25,
+        "y": 0.5,
+        "width": 8.25,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "I2C_B",
+        "face": "back",
+        "x": 22.5,
+        "y": 0.5,
+        "width": 8.25,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "CAN",
+        "face": "back",
+        "x": 31.75,
+        "y": 0.5,
+        "width": 7.0,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "TTL",
+        "face": "back",
+        "x": 39.75,
+        "y": 0.5,
+        "width": 7.0,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "SWD",
+        "face": "back",
+        "x": 21.25,
+        "y": 54.5,
+        "width": 9.5,
+        "height": 5,
+        "kind": "DIG",
+        "geometry": "nominal body"
+      },
+      {
+        "label": "5V_IN",
+        "face": "back",
+        "x": 32.75,
+        "y": 53.5,
+        "width": 6,
+        "height": 6,
+        "kind": "POWER",
+        "geometry": "unselected power connector 6x6mm placeholder"
+      },
+      {
+        "label": "MCU",
+        "face": "front",
+        "x": 21,
+        "y": 21,
+        "width": 18,
+        "height": 18,
+        "kind": "MCU",
+        "geometry": "18x18mm estimated package/escape reservation; body14x14"
+      }
+    ],
+    "same_face_rectangle_overlap_count": 0,
+    "conclusion": "Nominal-body geometry has a feasible arrangement with both buttons and MCU reservation. Full footprints, routing, mating plugs, latch access and stack clearances NOT validated."
+  },
+  "limitations": [
+    "GH rectangles are bodies only, not checked courtyard/land patterns; other pin-count models still need exact selection.",
+    "Power inlet uses an unselected6x6 placeholder.",
+    "MCU18x18 reservation is an estimate; decoupling, regulator, protection circuits, CAN PHY and routing are not placed.",
+    "Rear-facing connectors require enclosure/feet clearance, and cable/latch access. Existing standoff height is not frozen.",
+    "Upper power board, wires, screw heads, tool/finger access and power-device thermal/EMI projections require assembly review.",
+    "A 4-layer board is the planning candidate, not a guarantee of a routable layout."
+  ],
+  "sources": [
+    "controller_connector_inventory.json",
+    "controller_signal_connector_candidates.json",
+    "pcb_stack_contract_rev_e.json",
+    "D:/workspace/kicad_library/footprints/MyFootprints.pretty/XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm.kicad_mod"
+  ],
+  "native_design_changed": false,
+  "superseded_by": "controller_single_power_pin_plan.json"
+}

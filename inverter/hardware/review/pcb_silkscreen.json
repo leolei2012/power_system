@@ -1,0 +1,18 @@
+{
+  "assembly_layer_dense_refs": [
+    "R122",
+    "C79",
+    "C80",
+    "C71",
+    "R120",
+    "C72",
+    "C7",
+    "R143"
+  ],
+  "assembly_layer_conflicting_labels": [
+    "J10",
+    "J12",
+    "TP10",
+    "R82"
+  ]
+}

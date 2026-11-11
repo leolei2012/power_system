@@ -1,0 +1,597 @@
+{
+  "source_sha256": "e1354c02de312c2b7e99a1a662941a681309ff83b5663f6455b6b278242a5440",
+  "phase_checks": {
+    "U": {
+      "B_filled_components": 1,
+      "B_filled_area_mm2": 274.0897,
+      "fixed_phase_via_contacts": [
+        {
+          "xy": [
+            129.2,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            120.05,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            121.45,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            127.8,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            126.4,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            118.65,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            130.6,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.251148
+        },
+        {
+          "xy": [
+            117.25,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.466114
+        }
+      ],
+      "all8_vias_contact_same_filled_polygon": true,
+      "core_erosion_radius_mm": 1.5,
+      "high_inner_to_low_inner_same_eroded_component": true,
+      "core_test_points": [
+        [
+          120.05,
+          47.34
+        ],
+        [
+          128.5,
+          63.5
+        ]
+      ],
+      "output_only4mm_track_path": {
+        "connected": true,
+        "points": [
+          [
+            130.6,
+            66.2
+          ],
+          [
+            137.75,
+            66.2
+          ],
+          [
+            137.75,
+            18.0
+          ],
+          [
+            194.0,
+            18.0
+          ],
+          [
+            194,
+            44.0
+          ]
+        ],
+        "length_mm": 137.6,
+        "min_track_width_mm": 3.99
+      },
+      "high_source_common_F_neck_width_mm": 1.1,
+      "high_source_common_F_neck_length_mm": 1.8,
+      "low_drain_common_F_stem_width_mm": 4,
+      "low_drain_common_F_stem_length_mm": 6.2
+    },
+    "V": {
+      "B_filled_components": 1,
+      "B_filled_area_mm2": 296.477,
+      "fixed_phase_via_contacts": [
+        {
+          "xy": [
+            153.2,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            142.65,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            150.4,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            151.8,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            144.05,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            145.45,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            154.6,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.251148
+        },
+        {
+          "xy": [
+            141.25,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.466113
+        }
+      ],
+      "all8_vias_contact_same_filled_polygon": true,
+      "core_erosion_radius_mm": 1.5,
+      "high_inner_to_low_inner_same_eroded_component": true,
+      "core_test_points": [
+        [
+          144.05,
+          47.34
+        ],
+        [
+          152.5,
+          63.5
+        ]
+      ],
+      "output_only4mm_track_path": {
+        "connected": true,
+        "points": [
+          [
+            154.6,
+            66.2
+          ],
+          [
+            161.75,
+            66.2
+          ],
+          [
+            161.75,
+            37.0
+          ],
+          [
+            168.0,
+            37.0
+          ],
+          [
+            168.0,
+            23.0
+          ],
+          [
+            188.0,
+            23.0
+          ],
+          [
+            188.0,
+            53.52
+          ],
+          [
+            194,
+            53.52
+          ]
+        ],
+        "length_mm": 113.12,
+        "min_track_width_mm": 3.99
+      },
+      "high_source_common_F_neck_width_mm": 1.1,
+      "high_source_common_F_neck_length_mm": 1.8,
+      "low_drain_common_F_stem_width_mm": 4,
+      "low_drain_common_F_stem_length_mm": 6.2
+    },
+    "W": {
+      "B_filled_components": 1,
+      "B_filled_area_mm2": 298.857,
+      "fixed_phase_via_contacts": [
+        {
+          "xy": [
+            169.45,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            178.6,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.251148
+        },
+        {
+          "xy": [
+            175.8,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            174.4,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            168.05,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            166.65,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.502296
+        },
+        {
+          "xy": [
+            165.25,
+            47.34
+          ],
+          "zone_contact_area_mm2": 0.466113
+        },
+        {
+          "xy": [
+            177.2,
+            66.2
+          ],
+          "zone_contact_area_mm2": 0.502296
+        }
+      ],
+      "all8_vias_contact_same_filled_polygon": true,
+      "core_erosion_radius_mm": 1.5,
+      "high_inner_to_low_inner_same_eroded_component": true,
+      "core_test_points": [
+        [
+          168.05,
+          47.34
+        ],
+        [
+          176.5,
+          63.5
+        ]
+      ],
+      "output_only4mm_track_path": {
+        "connected": true,
+        "points": [
+          [
+            178.6,
+            66.2
+          ],
+          [
+            186.0,
+            63.04
+          ],
+          [
+            194,
+            63.04
+          ]
+        ],
+        "length_mm": 16.0465,
+        "min_track_width_mm": 3.99
+      },
+      "high_source_common_F_neck_width_mm": 1.1,
+      "high_source_common_F_neck_length_mm": 1.8,
+      "low_drain_common_F_stem_width_mm": 4,
+      "low_drain_common_F_stem_length_mm": 6.2
+    }
+  },
+  "scope": "Read-only filled-copper and fixed-track geometry, no thermal/current-rating or fabrication approval.",
+  "C21_to_main_VBUS_without_sampling_tracks": {
+    "connected": true,
+    "points": [
+      [
+        134.625,
+        71.5
+      ],
+      [
+        139.25,
+        73.75
+      ],
+      [
+        144.5,
+        73.75
+      ],
+      [
+        145.5,
+        72.75
+      ],
+      [
+        150.5,
+        72.5
+      ],
+      [
+        153.75,
+        74.25
+      ],
+      [
+        154.75,
+        74.25
+      ],
+      [
+        158.625,
+        71.5
+      ]
+    ],
+    "length_mm": 26.2566,
+    "min_track_width_mm": 1.99
+  },
+  "MLCC_local_fanout": {
+    "C21_positive_F_width_mm": 1.3,
+    "C22_positive_F_width_mm": 1.3,
+    "positive_common_stem_length_mm": 4,
+    "positive_vias_each": 2,
+    "positive_via_diameter_drill_mm": [
+      0.7,
+      0.35
+    ],
+    "negative_F_width_mm": 0.7,
+    "negative_horizontal_length_mm": 2.85,
+    "negative_common_vertical_reach_mm": [
+      3.5,
+      4.5
+    ],
+    "negative_vias_each": 2,
+    "negative_via_diameter_drill_mm": [
+      0.7,
+      0.35
+    ]
+  },
+  "RS_fixed_power_branches": {
+    "RS1": {
+      "SOURCE_fixed2mm": {
+        "connected": true,
+        "points": [
+          [
+            119.35,
+            62.54
+          ],
+          [
+            119.35,
+            68.0375
+          ]
+        ],
+        "length_mm": 5.4975,
+        "min_track_width_mm": 1.99
+      },
+      "low_side_fixed2mm": {
+        "connected": true,
+        "points": [
+          [
+            119.35,
+            73.9625
+          ],
+          [
+            122.35,
+            73.9625
+          ]
+        ],
+        "length_mm": 3.0,
+        "min_track_width_mm": 1.99
+      },
+      "GND_via_to_In1_components": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "via_count": 4,
+      "via_diameter_drill_mm": [
+        0.7,
+        0.35
+      ]
+    },
+    "RS2": {
+      "SOURCE_fixed2mm": {
+        "connected": true,
+        "points": [
+          [
+            143.35,
+            62.54
+          ],
+          [
+            143.35,
+            68.0375
+          ]
+        ],
+        "length_mm": 5.4975,
+        "min_track_width_mm": 1.99
+      },
+      "low_side_fixed2mm": {
+        "connected": true,
+        "points": [
+          [
+            143.35,
+            73.9625
+          ],
+          [
+            146.35,
+            73.9625
+          ]
+        ],
+        "length_mm": 3.0,
+        "min_track_width_mm": 1.99
+      },
+      "GND_via_to_In1_components": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "via_count": 4,
+      "via_diameter_drill_mm": [
+        0.7,
+        0.35
+      ]
+    },
+    "RS3": {
+      "SOURCE_fixed2mm": {
+        "connected": true,
+        "points": [
+          [
+            167.35,
+            62.54
+          ],
+          [
+            167.35,
+            68.0375
+          ]
+        ],
+        "length_mm": 5.4975,
+        "min_track_width_mm": 1.99
+      },
+      "low_side_fixed2mm": {
+        "connected": true,
+        "points": [
+          [
+            167.35,
+            73.9625
+          ],
+          [
+            170.35,
+            73.9625
+          ]
+        ],
+        "length_mm": 3.0,
+        "min_track_width_mm": 1.99
+      },
+      "GND_via_to_In1_components": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "via_count": 4,
+      "via_diameter_drill_mm": [
+        0.7,
+        0.35
+      ]
+    }
+  },
+  "In1_GND_components": 1,
+  "In1_GND_key_membership": {
+    "J3_negative": [
+      0
+    ],
+    "C19_negative": [
+      0
+    ],
+    "C20_negative": [
+      0
+    ],
+    "RS1_74.4625": [
+      0
+    ],
+    "RS1_75.4625": [
+      0
+    ],
+    "RS1_76.4625": [
+      0
+    ],
+    "RS1_77.4625": [
+      0
+    ],
+    "RS2_74.4625": [
+      0
+    ],
+    "RS2_75.4625": [
+      0
+    ],
+    "RS2_76.4625": [
+      0
+    ],
+    "RS2_77.4625": [
+      0
+    ],
+    "RS3_74.4625": [
+      0
+    ],
+    "RS3_75.4625": [
+      0
+    ],
+    "RS3_76.4625": [
+      0
+    ],
+    "RS3_77.4625": [
+      0
+    ]
+  },
+  "B_GND_components": 25,
+  "pass_summary": {
+    "phase_main_copper": true,
+    "C21_2mm_feed": true,
+    "all_RS_fixed_2mm": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "removed": {
+    "24adfb81-ce2d-4f62-9253-fb34947b767a": {
+      "net": "ENC_B_A",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "8349204f-93d7-49e5-b6e7-689b0a969720": {
+      "net": "ENC_B_A",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "562cbcb8-9520-4376-821b-40ccfb2db4df": {
+      "net": "ENC_B_A",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "cd98d54d-138c-4915-8559-e9841898df27": {
+      "net": "/Current sensing/VBIAS_DIV",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "ef0737a1-417d-43ee-b11e-de85439e2c1b": {
+      "net": "/Hardware latch/FAULT_BASE",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "dace3ebd-a9e3-4351-9312-b41ee823ad5e": {
+      "net": "/Hardware latch/FAULT_BASE",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "d1fea0df-4e0e-4fec-9b21-4b7008878475": {
+      "net": "/Current sensing/VBIAS_DIV",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "d9c3dd42-410a-47ea-a56a-452ffae09e37": {
+      "net": "+3V3_INV",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "8fcbb224-0cd7-4334-87bb-f31ea3daf0bc": {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "04fa0445-0fa1-419b-98dc-cc36bfeef0e3": {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "b0b42b1c-fac8-40d9-97f5-d9440c8c48c1": {
+      "net": "HSE_IN",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "c4af3852-968b-4ebd-b490-29c7deaaa6c7": {
+      "net": "HSE_IN",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "f0ed7189-ee70-4ef7-9e97-f2fae42fd622": {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "2abdee48-4836-4faa-bf3b-2205031c4ce9": {
+      "net": "+3V3_INV",
+      "layer": "F.Cu",
+      "because": "clearance"
+    }
+  },
+  "fixed_geometry_unchanged": true
+}

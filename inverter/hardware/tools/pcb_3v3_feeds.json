@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "source_pcb_sha256": "f1ae53d5d6b1eb44096b6b6f3a9ebd958afe0875d15eb7f55662a89128661c28",
+  "source_drc_date": "2026-11-06T10:22:14",
+  "feeds": [
+    {
+      "ref": "R133",
+      "pin": "1",
+      "via": [
+        39.3,
+        29.55
+      ],
+      "path": [
+        [
+          40.0,
+          28.825
+        ],
+        [
+          39.3,
+          29.55
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R133.1"
+      ]
+    },
+    {
+      "ref": "C62",
+      "pin": "1",
+      "via": [
+        55.0,
+        76.8
+      ],
+      "path": [
+        [
+          55.0,
+          75.775
+        ],
+        [
+          55.0,
+          76.8
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R7.2",
+        "R106.2",
+        "R102.2",
+        "R104.2",
+        "U28.10",
+        "R134.1",
+        "U28.13",
+        "U28.1",
+        "U28.14",
+        "C62.1"
+      ]
+    },
+    {
+      "ref": "C82",
+      "pin": "1",
+      "via": [
+        27.0,
+        62.8
+      ],
+      "path": [
+        [
+          27.0,
+          61.775
+        ],
+        [
+          27.0,
+          62.8
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R99.2",
+        "R97.2",
+        "R132.1",
+        "R95.2",
+        "R131.1",
+        "R130.1",
+        "J13.1",
+        "R70.1",
+        "U31.3",
+        "R128.2",
+        "C82.1"
+      ]
+    },
+    {
+      "ref": "R118",
+      "pin": "2",
+      "via": [
+        54.7,
+        58.45
+      ],
+      "path": [
+        [
+          54.0,
+          59.175
+        ],
+        [
+          54.7,
+          58.45
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R118.2"
+      ]
+    },
+    {
+      "ref": "C63",
+      "pin": "1",
+      "via": [
+        72.6,
+        43.6
+      ],
+      "path": [
+        [
+          74.725,
+          41.5
+        ],
+        [
+          72.6,
+          43.6
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R112.2",
+        "U26.14",
+        "C63.1",
+        "C60.1",
+        "U30.16",
+        "C58.1",
+        "U24.14",
+        "C68.1",
+        "U30.64",
+        "C66.1",
+        "C61.1",
+        "U27.14"
+      ]
+    },
+    {
+      "ref": "R125",
+      "pin": "2",
+      "via": [
+        55.3,
+        38.15
+      ],
+      "path": [
+        [
+          56.0,
+          38.875
+        ],
+        [
+          55.3,
+          38.15
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R125.2"
+      ]
+    },
+    {
+      "ref": "C64",
+      "pin": "1",
+      "via": [
+        61.0,
+        40.3
+      ],
+      "path": [
+        [
+          60.0,
+          40.275
+        ],
+        [
+          61.0,
+          40.3
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R92.1",
+        "U30.32",
+        "C64.1"
+      ]
+    },
+    {
+      "ref": "R143",
+      "pin": "2",
+      "via": [
+        56.8,
+        41.45
+      ],
+      "path": [
+        [
+          57.5,
+          42.175
+        ],
+        [
+          56.8,
+          41.45
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R143.2"
+      ]
+    },
+    {
+      "ref": "C65",
+      "pin": "1",
+      "via": [
+        59.3,
+        52.5
+      ],
+      "path": [
+        [
+          59.275,
+          51.5
+        ],
+        [
+          59.3,
+          52.5
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "C65.1",
+        "U30.48"
+      ]
+    },
+    {
+      "ref": "C67",
+      "pin": "1",
+      "via": [
+        73.65,
+        53.65
+      ],
+      "path": [
+        [
+          74.725,
+          54.7
+        ],
+        [
+          73.65,
+          53.65
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "C67.1",
+        "U30.1"
+      ]
+    },
+    {
+      "ref": "C17",
+      "pin": "1",
+      "via": [
+        85.2,
+        57.0
+      ],
+      "path": [
+        [
+          86.225,
+          57.0
+        ],
+        [
+          85.2,
+          57.0
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R13.2",
+        "U6.3",
+        "U15.5",
+        "C45.1",
+        "U6.5",
+        "U6.6",
+        "U23.14",
+        "C17.1",
+        "C57.1",
+        "U22.14",
+        "C56.1"
+      ]
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "via": [
+        83.4,
+        121.55
+      ],
+      "path": [
+        [
+          83.425,
+          122.55
+        ],
+        [
+          83.4,
+          121.55
+        ]
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "+3V3_INV",
+      "tented": true,
+      "group_pads": [
+        "R15.2",
+        "C16.1",
+        "U4.5",
+        "U25.14",
+        "R68.1",
+        "C59.1",
+        "U16.5",
+        "U17.5",
+        "C49.1",
+        "C47.1",
+        "C43.1",
+        "U21.8",
+        "U14.5",
+        "C54.1"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "group_pads": [
+        "C51.1",
+        "U18.8",
+        "U10.6"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    },
+    {
+      "group_pads": [
+        "C37.1"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    },
+    {
+      "group_pads": [
+        "R45.1",
+        "C41.1",
+        "U13.5",
+        "R40.1",
+        "R42.1"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    },
+    {
+      "group_pads": [
+        "U11.6"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    },
+    {
+      "group_pads": [
+        "C38.1"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    },
+    {
+      "group_pads": [
+        "U19.8",
+        "C52.1"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    },
+    {
+      "group_pads": [
+        "U12.6",
+        "C39.1",
+        "C53.1",
+        "U20.8"
+      ],
+      "reason": "No SMD pad in requested narrowed plane polygon."
+    }
+  ],
+  "check_basis": {
+    "plane_polygon": [
+      [
+        15,
+        20
+      ],
+      [
+        100,
+        20
+      ],
+      [
+        100,
+        95
+      ],
+      [
+        90,
+        95
+      ],
+      [
+        90,
+        128
+      ],
+      [
+        70,
+        128
+      ],
+      [
+        70,
+        95
+      ],
+      [
+        15,
+        95
+      ]
+    ],
+    "actual_pad_track_via_count": [
+      977,
+      2146,
+      293
+    ],
+    "recursive_actual_connectivity_groups": 19,
+    "clearance_mm": {
+      "Default": 0.15,
+      "Gate": 0.2,
+      "HV_and_conservatively_all_Power_classes": 0.4
+    },
+    "additional_margin_mm": 0.01,
+    "drill_to_drill_mm": 0.25,
+    "same_net_pad_mask_gap_mm": 0.05,
+    "offset_range_mm": [
+      1,
+      3
+    ],
+    "geometry": "Axis-aligned actual pad copper bounding boxes (conservative); track capsules and via circles. Via checked against pads/tracks/vias on all layers and every drill hole; F.Cu fanout checked against F.Cu foreign copper and all vias. Same-net copper allowed; no via-in-pad.",
+    "deduplication": "Recursive GetConnectivity().GetConnectedItems over same-net copper; one feed per isolated connected group.",
+    "zones": "Zone polygons are re-filled by root; no current filled-zone copper treated as immutable obstruction."
+  },
+  "notes": [
+    "No native PCB/pro/schematic was changed. Apply only to matching source board and rerun actual KiCad DRC.",
+    "Outside-plane groups and dense groups with no conservative legal escape stay unresolved. Clearances were never relaxed."
+  ]
+}

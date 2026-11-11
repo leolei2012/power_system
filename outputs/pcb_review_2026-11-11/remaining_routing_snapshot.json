@@ -1,0 +1,10305 @@
+{
+  "source_board": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\full_route\\inverter.kicad_pcb",
+  "source_drc": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\full_route\\edge_margin_final_drc.json",
+  "date": "2026-11-11T11:17:11",
+  "unconnected_by_net": {
+    "PWM_UL_IN": 1,
+    "GND": 37,
+    "VBUS": 1,
+    "/Auxiliary input/AUX_SHDN_N": 1,
+    "/Auxiliary input/EFUSE_RTN": 6,
+    "/Voltage and NTC/V_DC_DIV": 1,
+    "V_DC": 3,
+    "+3V3_INV": 58,
+    "/Hardware latch/FAULT_LATCH": 1,
+    "/SWD UART CAN and status/LED_AN_3": 1,
+    "/Auxiliary input/AUX_IN": 1,
+    "TEMP_NTC": 3,
+    "Net-(D208-K1{slash}A2)": 2,
+    "+5V_SENSOR": 4,
+    "/Encoders and SPI/ENC_A_Z_PORT": 1,
+    "PA2": 1,
+    "OC_HIGH_REF": 4,
+    "W_SOURCE": 4,
+    "DRIVE_PERMIT": 1,
+    "/V half bridge/V_GATE_L": 1,
+    "V_SOURCE": 3,
+    "null": 1,
+    "/Voltage and NTC/V_U_DIV1": 1,
+    "/Voltage and NTC/V_U_DIV2": 1,
+    "/SWD UART CAN and status/UART_TX_PORT": 1,
+    "/SWD UART CAN and status/UART_RX_PORT": 1,
+    "+3V3_CORE_REF": 3,
+    "PC13": 2,
+    "/Auxiliary input/AUX_UV_DIV": 1,
+    "/Current sensing/OC_LO_MID": 1,
+    "OC_LOW_REF": 2,
+    "+12V_DRV": 8,
+    "/Voltage and NTC/V_DC_DIV1": 1,
+    "/Base LEDs/LED_PWR_AN": 1,
+    "/W half bridge/W_GATE_H": 1,
+    "W_PHASE": 2,
+    "/Auxiliary input/AUX_FUSED": 4,
+    "AUX_PROTECTED": 5,
+    "ENABLE_IN": 3,
+    "/Voltage and NTC/V_V_DIV1": 1,
+    "/Voltage and NTC/V_V_DIV2": 1,
+    "/Hardware latch/RESET_REQUEST": 1,
+    "/Hardware latch/RESET_CLK": 2,
+    "/Encoders and SPI/ENC_B_Z_PORT": 1,
+    "PA3": 1,
+    "PWM_WL_IN": 2,
+    "/Voltage and NTC/V_W": 2,
+    "V_W_PORT": 1,
+    "Net-(D207-K1{slash}A2)": 2,
+    "/Auxiliary input/AUX_DVDT": 1,
+    "/Bus and brake/BR_GATE": 2,
+    "/Current sensing/VBIAS_DIV": 3,
+    "PB5": 1,
+    "/SWD UART CAN and status/LED_AN_4": 1,
+    "/U half bridge/U_GATE_H": 1,
+    "/Voltage and NTC/V_W_DIV2": 1,
+    "/Voltage and NTC/V_W_DIV": 2,
+    "/W half bridge/W_GATE_L": 1,
+    "/SWD UART CAN and status/SWDIO_PORT": 1,
+    "/SWD UART CAN and status/SWCLK_PORT": 1,
+    "NRST": 1,
+    "OC_U_LOW_OK": 1,
+    "/Hardware latch/HEALTH_CHAIN_1": 1,
+    "OC_V_HIGH_OK": 1,
+    "/Hardware latch/HEALTH_CHAIN_2": 1,
+    "/Hardware latch/HEALTH_CHAIN_3": 1,
+    "OC_V_LOW_OK": 1,
+    "/Hardware latch/HEALTH_CHAIN_4": 1,
+    "OC_W_HIGH_OK": 1,
+    "/Driver supply/BB_BST1": 1,
+    "/Driver supply/BB_L1": 1,
+    "/Driver supply/BB_BST2": 1,
+    "/Auxiliary input/AUX_OV_DIV": 1,
+    "/V half bridge/V_GATE_H": 1,
+    "/Auxiliary input/AUX_ILIM": 1,
+    "/Hardware latch/FAULT_ACTIVE": 1,
+    "/Hardware latch/FAULT_BASE": 2,
+    "U_SOURCE": 3,
+    "PWM_VL_IN": 1,
+    "/Voltage and NTC/V_DC_DIV2": 1,
+    "OC_W_LOW_OK": 1,
+    "/Hardware latch/HEALTH_CHAIN_5": 1,
+    "BUS_OV_OK": 1,
+    "/Hardware latch/HEALTH_CHAIN_6": 1,
+    "/Hardware latch/HEALTH_CHAIN_7": 1,
+    "DRV_UV_OK": 1,
+    "/Hardware latch/HEALTH_CHAIN_8": 1,
+    "BASE_LOGIC_OK": 2,
+    "/Logic and sensors/SENSOR_PWR_FLT_N": 1,
+    "/Hardware latch/HEALTH_ALL": 4,
+    "/Hardware latch/NO_LATCH": 2,
+    "/SWD UART CAN and status/LED_AN_1": 1,
+    "DRV_PG_LOGIC": 3,
+    "/Hardware latch/HEALTH_CHAIN_9": 1,
+    "AUX_FLT_N": 2,
+    "/Voltage and NTC/V_U_DIV": 2,
+    "/Voltage and NTC/V_U": 2,
+    "PWM_WH_IN": 2,
+    "PWM_UH_IN": 2,
+    "OV_REF_1V30": 3,
+    "/SWD UART CAN and status/CAN_H": 1,
+    "/SWD UART CAN and status/CAN_L": 2,
+    "FAULT_N": 2,
+    "/Voltage and NTC/V_V_DIV": 2,
+    "/Voltage and NTC/V_V": 2,
+    "/SWD UART CAN and status/LED_AN_2": 1,
+    "/Current sensing/VBIAS_1V65": 7,
+    "/Encoders and SPI/ENC_B_VCC": 1,
+    "/Encoders and SPI/ENC_B_A_PORT": 1,
+    "/Encoders and SPI/ENC_B_B_PORT": 1,
+    "PWM_VH_IN": 1,
+    "/Encoders and SPI/SPI_B_VCC": 1,
+    "/Encoders and SPI/SPI_B_SCK_PORT": 1,
+    "/Encoders and SPI/SPI_B_MOSI_PORT": 1,
+    "/Encoders and SPI/SPI_B_MISO_PORT": 1,
+    "/Encoders and SPI/SPI_B_CS_PORT": 1,
+    "/Driver supply/BB_VREG": 2,
+    "/U half bridge/U_GATE_L": 1,
+    "/Analog protection/DRV_UV_DIV": 2,
+    "/Encoders and SPI/SPI_A_VCC": 1,
+    "/Encoders and SPI/SPI_A_SCK_PORT": 1,
+    "/Encoders and SPI/SPI_A_MOSI_PORT": 1,
+    "/Encoders and SPI/SPI_A_MISO_PORT": 1,
+    "/Encoders and SPI/SPI_A_CS_PORT": 1,
+    "PB11": 1,
+    "/Encoders and SPI/ENC_A_VCC": 1,
+    "/Encoders and SPI/ENC_A_A_PORT": 1,
+    "/Encoders and SPI/ENC_A_B_PORT": 1,
+    "Net-(D204-K1{slash}A2)": 2,
+    "/Voltage and NTC/V_W_DIV1": 1,
+    "V_V_PORT": 1,
+    "Net-(D206-K1{slash}A2)": 1,
+    "PC10": 1,
+    "PB2": 2,
+    "Net-(D202-K1{slash}A2)": 1,
+    "V_LIN": 1,
+    "Net-(D205-K1{slash}A2)": 1,
+    "/V half bridge/V_BOOT": 1,
+    "PB12": 2,
+    "W_HIN": 1,
+    "U_LIN": 1,
+    "PB6": 1,
+    "/SWD UART CAN and status/CAN_TX_PHY": 1,
+    "PA10": 1,
+    "PA4": 1,
+    "PB0": 1,
+    "Net-(D201-K1{slash}A2)": 2,
+    "PC0": 1,
+    "+5V_INV": 4,
+    "PA1": 1,
+    "I_W": 3,
+    "PC3": 1,
+    "/Current sensing/OC_HI_MID": 1,
+    "PA8": 1,
+    "PA13": 1,
+    "PA14": 1,
+    "PA15": 2,
+    "PB1": 2,
+    "PC12": 1,
+    "W_LIN": 2,
+    "/W half bridge/W_BOOT": 1,
+    "BRAKE_IN": 1,
+    "PC1": 1,
+    "I_U": 2,
+    "PB15": 1,
+    "I_W_PORT": 1,
+    "PC2": 1,
+    "PC4": 1,
+    "PC9": 2,
+    "PC11": 1,
+    "I_V": 1,
+    "ENABLE_QUALIFIED": 1,
+    "BASE_READY": 1,
+    "U_HIN": 1,
+    "/Driver supply/DRV_PG_NOM": 2,
+    "V_HIN": 1,
+    "Net-(D203-K1{slash}A2)": 1,
+    "I_U_PORT": 1,
+    "V_DC_PORT": 1,
+    "V_U_PORT": 1,
+    "I_V_PORT": 1
+  },
+  "unconnected": [
+    [
+      {
+        "ref": "R77",
+        "pad": "1",
+        "net": "PWM_UL_IN",
+        "xy": [
+          109.2,
+          141.71
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "PWM_UL_IN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          122.7,
+          119.138
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          101.16,
+          151.92
+        ]
+      },
+      {
+        "ref": "J101",
+        "pad": "31",
+        "net": "GND",
+        "xy": [
+          104.73,
+          149.05
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          107.27,
+          110.95
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "C82",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          104.18,
+          108.2
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "4",
+        "net": "GND",
+        "xy": [
+          107.27,
+          113.49
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "U6",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          110.7625,
+          113.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U27",
+        "pad": "7",
+        "net": "GND",
+        "xy": [
+          108.5375,
+          101.45
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "C82",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          104.18,
+          108.2
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          111.306,
+          133.159
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          110.075,
+          134.2
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R12",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          110.6,
+          150.625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          111.75,
+          151.625
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.75,
+          156.25
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          118.06,
+          158.02
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          118.0,
+          108.0
+        ]
+      },
+      {
+        "ref": "U31",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          116.625,
+          103.935
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U2",
+        "pad": "18",
+        "net": "GND",
+        "xy": [
+          119.6,
+          141.875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          122.5,
+          143.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "7",
+        "net": "GND",
+        "xy": [
+          119.91,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "U2",
+        "pad": "18",
+        "net": "GND",
+        "xy": [
+          119.6,
+          141.875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U13",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          121.4625,
+          116.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          122.95,
+          117.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R9",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          123.9,
+          148.475
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          124.4,
+          147.375
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          124.61,
+          125.542
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          127.015,
+          125.639
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          126.377,
+          144.475
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          127.12,
+          143.97
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U17",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          126.7375,
+          137.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_VIA",
+        "xy": [
+          125.649999,
+          139.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C58",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          127.2,
+          118.12
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "9",
+        "net": "GND",
+        "xy": [
+          128.73,
+          121.11
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          133.1,
+          151.82
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          128.425,
+          149.355
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C17",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          133.8,
+          102.22
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          140.02,
+          104.82
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U16",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          134.1,
+          130.3375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "J8",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          134.0,
+          125.33
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U20",
+        "pad": "4",
+        "net": "GND",
+        "xy": [
+          134.525,
+          155.9125
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          137.25,
+          156.975
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.96,
+          117.928
+        ]
+      },
+      {
+        "ref": "D210",
+        "pad": "1",
+        "net": "GND",
+        "xy": [
+          134.869,
+          116.109
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.485,
+          139.225
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          136.162,
+          140.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U18",
+        "pad": "4",
+        "net": "GND",
+        "xy": [
+          136.3875,
+          124.225
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.037,
+          124.995
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R61",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          138.577,
+          112.853
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "D210",
+        "pad": "1",
+        "net": "GND",
+        "xy": [
+          134.869,
+          116.109
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_VIA",
+        "xy": [
+          140.289,
+          156.169
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          138.3,
+          156.975
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C71",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          142.5,
+          136.92
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          141.975,
+          139.108
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          141.7,
+          143.09
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          144.343,
+          140.561
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C76",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          145.894,
+          153.779
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "U12",
+        "pad": "4",
+        "net": "GND",
+        "xy": [
+          147.8625,
+          154.425
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C76",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          145.894,
+          153.779
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "C60",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          143.526,
+          151.967
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U10",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          146.5625,
+          125.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          147.5,
+          126.875
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U11",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          146.5625,
+          140.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U11",
+        "pad": "4",
+        "net": "GND",
+        "xy": [
+          146.5625,
+          139.425
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          147.5,
+          141.875
+        ]
+      },
+      {
+        "ref": "U11",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          146.5625,
+          140.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U12",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          147.8625,
+          155.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          149.25,
+          157.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U12",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          147.8625,
+          155.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U12",
+        "pad": "4",
+        "net": "GND",
+        "xy": [
+          147.8625,
+          154.425
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C20",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          147.9,
+          107.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.6,
+          1.6
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          145.6,
+          106.12
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C70",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          153.237,
+          121.828
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "GND",
+        "kind": "PCB_VIA",
+        "xy": [
+          152.1,
+          127.5
+        ]
+      }
+    ],
+    [
+      {
+        "net": "GND",
+        "kind": "PCB_TRACK",
+        "xy": [
+          150.0,
+          158.0
+        ]
+      },
+      {
+        "ref": "C39",
+        "pad": "2",
+        "net": "GND",
+        "xy": [
+          152.4,
+          155.425
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "VBUS",
+        "kind": "PCB_TRACK",
+        "xy": [
+          141.172,
+          109.17
+        ]
+      },
+      {
+        "ref": "R48",
+        "pad": "1",
+        "net": "VBUS",
+        "xy": [
+          133.8765,
+          104.467
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "7",
+        "net": "/Auxiliary input/AUX_SHDN_N",
+        "xy": [
+          115.5375,
+          148.625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "net": "/Auxiliary input/AUX_SHDN_N",
+        "kind": "PCB_TRACK",
+        "xy": [
+          115.5451,
+          157.2402
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R4",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          102.8,
+          149.375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          110.3777,
+          153.9527
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "17",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          118.4,
+          147.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          3.4,
+          5.0
+        ]
+      },
+      {
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          115.5375,
+          149.275
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R2",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          119.225,
+          150.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "17",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          118.4,
+          147.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          3.4,
+          5.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R2",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          119.225,
+          150.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "C2",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          123.625,
+          149.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "SW1",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          119.9,
+          152.775
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.05,
+          2.0
+        ]
+      },
+      {
+        "ref": "R2",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          119.225,
+          150.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C2",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          123.625,
+          149.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "R6",
+        "pad": "2",
+        "net": "/Auxiliary input/EFUSE_RTN",
+        "xy": [
+          126.9,
+          146.675
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Voltage and NTC/V_DC_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.7841,
+          113.3924
+        ]
+      },
+      {
+        "net": "/Voltage and NTC/V_DC_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          142.0325,
+          108.7162
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U21",
+        "pad": "2",
+        "net": "V_DC",
+        "xy": [
+          133.775,
+          139.3125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "ref": "U14",
+        "pad": "3",
+        "net": "V_DC",
+        "xy": [
+          134.55,
+          117.9375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U14",
+        "pad": "4",
+        "net": "V_DC",
+        "xy": [
+          134.55,
+          116.2625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "U14",
+        "pad": "3",
+        "net": "V_DC",
+        "xy": [
+          134.55,
+          117.9375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R52",
+        "pad": "1",
+        "net": "V_DC",
+        "xy": [
+          140.09,
+          112.3
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U14",
+        "pad": "4",
+        "net": "V_DC",
+        "xy": [
+          134.55,
+          116.2625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R102",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          101.1,
+          134.99
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "C16",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          102.1,
+          141.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C16",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          102.1,
+          141.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "R99",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          102.11,
+          146.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R99",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          102.11,
+          146.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R97",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          103.91,
+          151.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          103.22,
+          108.2
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          110.762,
+          112.45
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R97",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          103.91,
+          151.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R15",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          106.225,
+          150.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          110.769,
+          133.131
+        ]
+      },
+      {
+        "ref": "R102",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          101.1,
+          134.99
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          112.238,
+          137.75
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          112.29,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          112.29,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          111.299,
+          134.925
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          112.29,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "C62",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          115.5,
+          142.48
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "13",
+        "net": "+3V3_INV",
+        "xy": [
+          113.56,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          112.29,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "13",
+        "net": "+3V3_INV",
+        "xy": [
+          113.56,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "10",
+        "net": "+3V3_INV",
+        "xy": [
+          117.37,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          113.038,
+          113.59
+        ]
+      },
+      {
+        "ref": "R104",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          115.7,
+          115.69
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          115.0625,
+          128.15
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "C56",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          118.2,
+          130.58
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R131",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          115.7,
+          151.01
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "C62",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          115.5,
+          142.48
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.561,
+          108.801
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          115.51,
+          107.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "10",
+        "net": "+3V3_INV",
+        "xy": [
+          117.37,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "U17",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          125.0625,
+          137.85
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R133",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          117.99,
+          156.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R131",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          115.7,
+          151.01
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C56",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          118.2,
+          130.58
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "10",
+        "net": "+3V3_INV",
+        "xy": [
+          117.37,
+          134.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          118.9,
+          158.98
+        ]
+      },
+      {
+        "ref": "R133",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          117.99,
+          156.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R132",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          120.4,
+          155.41
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          120.9634,
+          157.1834
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          121.8625,
+          122.35
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U25",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          125.95,
+          119.1375
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          121.8625,
+          122.35
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "C61",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          126.22,
+          126.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C57",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          122.9,
+          112.68
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "C41",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          124.32,
+          111.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C57",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          122.9,
+          112.68
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "U13",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          123.1375,
+          115.75
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R128",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          125.1,
+          101.59
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          129.9796,
+          103.0474
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R128",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          125.1,
+          101.59
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.561,
+          105.737
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          125.8625,
+          110.95
+        ]
+      },
+      {
+        "ref": "C41",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          124.32,
+          111.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U25",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          125.95,
+          119.1375
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R40",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          126.01,
+          119.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R40",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          126.01,
+          119.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U13",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          123.1375,
+          115.75
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          126.2625,
+          128.25
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "C61",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          126.22,
+          126.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          126.2625,
+          128.25
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "C56",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          118.2,
+          130.58
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C58",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          127.2,
+          119.08
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "R40",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          126.01,
+          119.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          129.9796,
+          104.3934
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          126.1157,
+          110.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R7",
+        "pad": "2",
+        "net": "+3V3_INV",
+        "xy": [
+          129.925,
+          150.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.3,
+          149.42
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R42",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          132.79,
+          132.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U16",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          133.45,
+          128.6625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C43",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          133.02,
+          119.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "C58",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          127.2,
+          119.08
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U21",
+        "pad": "8",
+        "net": "+3V3_INV",
+        "xy": [
+          133.125,
+          135.0875
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "ref": "R42",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          132.79,
+          132.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U14",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          133.25,
+          116.2625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "C43",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          133.02,
+          119.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U15",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          133.25,
+          121.1625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "C43",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          133.02,
+          119.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U16",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          133.45,
+          128.6625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "C51",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          139.275,
+          125.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U16",
+        "pad": "5",
+        "net": "+3V3_INV",
+        "xy": [
+          133.45,
+          128.6625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "14",
+        "net": "+3V3_INV",
+        "xy": [
+          126.2625,
+          128.25
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R68",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          134.59,
+          141.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R130",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          137.59,
+          137.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R45",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          136.0,
+          133.01
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R42",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          132.79,
+          132.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R45",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          136.0,
+          133.01
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R130",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          137.59,
+          137.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U20",
+        "pad": "8",
+        "net": "+3V3_INV",
+        "xy": [
+          136.475,
+          151.6875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.3,
+          148.3822
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R130",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          137.59,
+          137.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "C52",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          139.275,
+          140.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C51",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          139.275,
+          125.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "U18",
+        "pad": "8",
+        "net": "+3V3_INV",
+        "xy": [
+          140.6125,
+          126.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          140.6125,
+          141.175
+        ]
+      },
+      {
+        "ref": "C52",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          139.275,
+          140.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C53",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          141.9,
+          153.825
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "C60",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          142.566,
+          151.967
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C53",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          141.9,
+          153.825
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "U20",
+        "pad": "8",
+        "net": "+3V3_INV",
+        "xy": [
+          136.475,
+          151.6875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R134",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          142.4,
+          128.61
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U18",
+        "pad": "8",
+        "net": "+3V3_INV",
+        "xy": [
+          140.6125,
+          126.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C45",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          143.004,
+          122.947
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "U18",
+        "pad": "8",
+        "net": "+3V3_INV",
+        "xy": [
+          140.6125,
+          126.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C47",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          144.5,
+          106.98
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          133.8,
+          103.18
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U10",
+        "pad": "6",
+        "net": "+3V3_INV",
+        "xy": [
+          148.8375,
+          125.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "C45",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          143.004,
+          122.947
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U11",
+        "pad": "6",
+        "net": "+3V3_INV",
+        "xy": [
+          148.8375,
+          140.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "net": "+3V3_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          140.6125,
+          141.175
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C37",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          149.354,
+          131.322
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "U10",
+        "pad": "6",
+        "net": "+3V3_INV",
+        "xy": [
+          148.8375,
+          125.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C38",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          149.354,
+          146.322
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "U11",
+        "pad": "6",
+        "net": "+3V3_INV",
+        "xy": [
+          148.8375,
+          140.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U12",
+        "pad": "6",
+        "net": "+3V3_INV",
+        "xy": [
+          150.1375,
+          155.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "C60",
+        "pad": "1",
+        "net": "+3V3_INV",
+        "xy": [
+          142.566,
+          151.967
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP14",
+        "pad": "1",
+        "net": "/Hardware latch/FAULT_LATCH",
+        "xy": [
+          109.8,
+          135.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "5",
+        "net": "/Hardware latch/FAULT_LATCH",
+        "xy": [
+          117.37,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R133",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_3",
+        "xy": [
+          119.01,
+          156.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "D6",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_3",
+        "xy": [
+          129.7875,
+          152.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.875,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J2",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_IN",
+        "xy": [
+          109.5,
+          152.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.2,
+          1.75
+        ]
+      },
+      {
+        "ref": "F2",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_IN",
+        "xy": [
+          110.5,
+          148.955
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.96,
+          3.15
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C50",
+        "pad": "1",
+        "net": "TEMP_NTC",
+        "xy": [
+          101.52,
+          150.6
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "J8",
+        "pad": "1",
+        "net": "TEMP_NTC",
+        "xy": [
+          134.0,
+          126.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R208",
+        "pad": "1",
+        "net": "TEMP_NTC",
+        "xy": [
+          123.289,
+          106.801
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "J8",
+        "pad": "1",
+        "net": "TEMP_NTC",
+        "xy": [
+          134.0,
+          126.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R70",
+        "pad": "2",
+        "net": "TEMP_NTC",
+        "xy": [
+          129.296,
+          104.057
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R208",
+        "pad": "1",
+        "net": "TEMP_NTC",
+        "xy": [
+          123.289,
+          106.801
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R91",
+        "pad": "1",
+        "net": "Net-(D208-K1{slash}A2)",
+        "xy": [
+          116.5,
+          155.61
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "D208",
+        "pad": "3",
+        "net": "Net-(D208-K1{slash}A2)",
+        "xy": [
+          124.3,
+          128.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D208",
+        "pad": "3",
+        "net": "Net-(D208-K1{slash}A2)",
+        "xy": [
+          124.3,
+          128.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      },
+      {
+        "ref": "R208",
+        "pad": "2",
+        "net": "Net-(D208-K1{slash}A2)",
+        "xy": [
+          123.289,
+          105.151
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R100",
+        "pad": "1",
+        "net": "+5V_SENSOR",
+        "xy": [
+          111.69,
+          111.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R113",
+        "pad": "1",
+        "net": "+5V_SENSOR",
+        "xy": [
+          109.99,
+          108.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+5V_SENSOR",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.15,
+          134.562
+        ]
+      },
+      {
+        "ref": "J7",
+        "pad": "1",
+        "net": "+5V_SENSOR",
+        "xy": [
+          125.6,
+          152.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+5V_SENSOR",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.352,
+          123.838
+        ]
+      },
+      {
+        "ref": "R100",
+        "pad": "1",
+        "net": "+5V_SENSOR",
+        "xy": [
+          111.69,
+          111.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R107",
+        "pad": "1",
+        "net": "+5V_SENSOR",
+        "xy": [
+          118.01,
+          127.8
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "+5V_SENSOR",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.352,
+          127.212
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J9",
+        "pad": "5",
+        "net": "/Encoders and SPI/ENC_A_Z_PORT",
+        "xy": [
+          102.0,
+          115.62
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R98",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_A_Z_PORT",
+        "xy": [
+          107.61,
+          109.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PA2",
+        "kind": "PCB_TRACK",
+        "xy": [
+          104.73,
+          118.57
+        ]
+      },
+      {
+        "ref": "R99",
+        "pad": "1",
+        "net": "PA2",
+        "xy": [
+          101.09,
+          146.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U20",
+        "pad": "3",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          135.175,
+          155.9125
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "ref": "U19",
+        "pad": "3",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          136.3875,
+          139.875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R45",
+        "pad": "2",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          136.0,
+          131.99
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U19",
+        "pad": "3",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          136.3875,
+          139.875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U18",
+        "pad": "3",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          136.3875,
+          124.875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "ref": "R45",
+        "pad": "2",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          136.0,
+          131.99
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R46",
+        "pad": "1",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          142.788,
+          117.798
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U18",
+        "pad": "3",
+        "net": "OC_HIGH_REF",
+        "xy": [
+          136.3875,
+          124.875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R35",
+        "pad": "2",
+        "net": "W_SOURCE",
+        "xy": [
+          138.827,
+          153.628
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "TP10",
+        "pad": "1",
+        "net": "W_SOURCE",
+        "xy": [
+          138.256,
+          157.88
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R36",
+        "pad": "2",
+        "net": "W_SOURCE",
+        "xy": [
+          143.202,
+          147.458
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R34",
+        "pad": "2",
+        "net": "W_SOURCE",
+        "xy": [
+          144.369,
+          136.619
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "W_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          146.55,
+          154.125
+        ]
+      },
+      {
+        "ref": "R36",
+        "pad": "2",
+        "net": "W_SOURCE",
+        "xy": [
+          143.202,
+          147.458
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "W_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          146.55,
+          154.125
+        ]
+      },
+      {
+        "ref": "R35",
+        "pad": "2",
+        "net": "W_SOURCE",
+        "xy": [
+          138.827,
+          153.628
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "10",
+        "net": "DRIVE_PERMIT",
+        "xy": [
+          125.8625,
+          108.35
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "net": "DRIVE_PERMIT",
+        "kind": "PCB_TRACK",
+        "xy": [
+          123.979,
+          113.156
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/V half bridge/V_GATE_L",
+        "kind": "PCB_TRACK",
+        "xy": [
+          152.55,
+          130.9
+        ]
+      },
+      {
+        "ref": "R28",
+        "pad": "1",
+        "net": "/V half bridge/V_GATE_L",
+        "xy": [
+          144.369,
+          123.269
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "V_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.3,
+          133.125
+        ]
+      },
+      {
+        "ref": "R28",
+        "pad": "2",
+        "net": "V_SOURCE",
+        "xy": [
+          144.369,
+          121.619
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "V_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          144.775,
+          139.4
+        ]
+      },
+      {
+        "net": "V_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          136.775,
+          136.2
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP8",
+        "pad": "1",
+        "net": "V_SOURCE",
+        "xy": [
+          145.7,
+          141.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "net": "V_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          145.128,
+          141.69
+        ]
+      }
+    ],
+    [
+      {
+        "description": "填充区 'REV E / V commutation sheet' [V_PHASE]在 F.Cu 上, 优先级 10",
+        "xy": {
+          "x": 143.3,
+          "y": 131.4
+        }
+      },
+      {
+        "ref": "R27",
+        "pad": "2",
+        "net": "V_PHASE",
+        "xy": [
+          143.325,
+          128.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R53",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_U_DIV1",
+        "xy": [
+          124.642,
+          108.4725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "R54",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_U_DIV1",
+        "xy": [
+          124.6875,
+          120.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R55",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_U_DIV2",
+        "xy": [
+          126.0,
+          116.325
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R54",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_U_DIV2",
+        "xy": [
+          126.5125,
+          120.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R123",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/UART_TX_PORT",
+        "xy": [
+          126.2,
+          115.69
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J14",
+        "pad": "1",
+        "net": "/SWD UART CAN and status/UART_TX_PORT",
+        "xy": [
+          129.8,
+          108.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R124",
+        "pad": "1",
+        "net": "/SWD UART CAN and status/UART_RX_PORT",
+        "xy": [
+          127.486,
+          107.084
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J14",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/UART_RX_PORT",
+        "xy": [
+          131.07,
+          108.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_CORE_REF",
+        "kind": "PCB_TRACK",
+        "xy": [
+          115.6385,
+          123.57
+        ]
+      },
+      {
+        "ref": "D207",
+        "pad": "2",
+        "net": "+3V3_CORE_REF",
+        "xy": [
+          115.711,
+          120.433
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_CORE_REF",
+        "kind": "PCB_TRACK",
+        "xy": [
+          119.0,
+          123.45
+        ]
+      },
+      {
+        "ref": "D208",
+        "pad": "2",
+        "net": "+3V3_CORE_REF",
+        "xy": [
+          126.3,
+          129.45
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+3V3_CORE_REF",
+        "kind": "PCB_TRACK",
+        "xy": [
+          122.5689,
+          118.587
+        ]
+      },
+      {
+        "net": "+3V3_CORE_REF",
+        "kind": "PCB_TRACK",
+        "xy": [
+          121.05,
+          117.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D209",
+        "pad": "3",
+        "net": "PC13",
+        "xy": [
+          119.933,
+          119.537
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      },
+      {
+        "net": "PC13",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.7096,
+          123.1846
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R209",
+        "pad": "1",
+        "net": "PC13",
+        "xy": [
+          136.1,
+          121.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "PC13",
+        "kind": "PCB_VIA",
+        "xy": [
+          135.178,
+          123.1846
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Auxiliary input/AUX_UV_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          117.575,
+          150.7742
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "3",
+        "net": "/Auxiliary input/AUX_UV_DIV",
+        "xy": [
+          115.5375,
+          146.025
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R42",
+        "pad": "2",
+        "net": "/Current sensing/OC_LO_MID",
+        "xy": [
+          133.81,
+          132.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R43",
+        "pad": "1",
+        "net": "/Current sensing/OC_LO_MID",
+        "xy": [
+          134.9,
+          132.71
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R43",
+        "pad": "2",
+        "net": "OC_LOW_REF",
+        "xy": [
+          134.9,
+          131.69
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "OC_LOW_REF",
+        "kind": "PCB_TRACK",
+        "xy": [
+          139.48,
+          127.4865
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U20",
+        "pad": "6",
+        "net": "OC_LOW_REF",
+        "xy": [
+          135.175,
+          151.6875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "net": "OC_LOW_REF",
+        "kind": "PCB_TRACK",
+        "xy": [
+          140.565,
+          143.439
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+12V_DRV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          119.6,
+          142.525
+        ]
+      },
+      {
+        "ref": "U2",
+        "pad": "16",
+        "net": "+12V_DRV",
+        "xy": [
+          119.6,
+          143.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+12V_DRV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          119.6,
+          142.525
+        ]
+      },
+      {
+        "ref": "C9",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          120.575,
+          130.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U2",
+        "pad": "16",
+        "net": "+12V_DRV",
+        "xy": [
+          119.6,
+          143.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      },
+      {
+        "ref": "C8",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          124.4,
+          144.425
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.15,
+          2.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C8",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          124.4,
+          144.425
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.15,
+          2.7
+        ]
+      },
+      {
+        "ref": "C24",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          125.8,
+          148.025
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C24",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          125.8,
+          148.025
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "C23",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          129.975,
+          152.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C23",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          129.975,
+          152.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "ref": "TP1",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          134.4,
+          146.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP1",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          134.4,
+          146.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "net": "+12V_DRV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          140.9914,
+          148.5906
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP1",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          134.4,
+          146.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "ref": "R71",
+        "pad": "1",
+        "net": "+12V_DRV",
+        "xy": [
+          133.49,
+          139.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R49",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_DC_DIV1",
+        "xy": [
+          133.3875,
+          110.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "R48",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_DC_DIV1",
+        "xy": [
+          135.7015,
+          104.467
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D3",
+        "pad": "2",
+        "net": "/Base LEDs/LED_PWR_AN",
+        "xy": [
+          119.0875,
+          116.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.875,
+          0.95
+        ]
+      },
+      {
+        "ref": "R130",
+        "pad": "2",
+        "net": "/Base LEDs/LED_PWR_AN",
+        "xy": [
+          138.61,
+          137.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/W half bridge/W_GATE_H",
+        "kind": "PCB_TRACK",
+        "xy": [
+          141.25,
+          142.375
+        ]
+      },
+      {
+        "ref": "R33",
+        "pad": "1",
+        "net": "/W half bridge/W_GATE_H",
+        "xy": [
+          141.675,
+          143.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R63",
+        "pad": "1",
+        "net": "W_PHASE",
+        "xy": [
+          120.9655,
+          127.226
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "R33",
+        "pad": "2",
+        "net": "W_PHASE",
+        "xy": [
+          143.325,
+          143.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R33",
+        "pad": "2",
+        "net": "W_PHASE",
+        "xy": [
+          143.325,
+          143.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "description": "填充区 'REV E / W commutation sheet' [W_PHASE]在 F.Cu 上, 优先级 10",
+        "xy": {
+          "x": 143.3,
+          "y": 146.4
+        }
+      }
+    ],
+    [
+      {
+        "ref": "F2",
+        "pad": "2",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          110.5,
+          144.045
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.96,
+          3.15
+        ]
+      },
+      {
+        "net": "/Auxiliary input/AUX_FUSED",
+        "kind": "PCB_TRACK",
+        "xy": [
+          112.6017,
+          151.9484
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C1",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          113.8,
+          143.35
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.45
+        ]
+      },
+      {
+        "ref": "F2",
+        "pad": "2",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          110.5,
+          144.045
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.96,
+          3.15
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          115.5375,
+          144.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "C1",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          113.8,
+          143.35
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.45
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "2",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          115.5375,
+          145.375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_FUSED",
+        "xy": [
+          115.5375,
+          144.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "net": "AUX_PROTECTED",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.275,
+          152.8
+        ]
+      },
+      {
+        "net": "AUX_PROTECTED",
+        "kind": "PCB_TRACK",
+        "xy": [
+          112.25,
+          150.5375
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "16",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          121.2625,
+          144.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "15",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          121.2625,
+          145.375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "16",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          121.2625,
+          144.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "C6",
+        "pad": "1",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          119.875,
+          142.8
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.15,
+          1.8
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U2",
+        "pad": "6",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          125.4,
+          143.825
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      },
+      {
+        "ref": "U2",
+        "pad": "5",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          125.4,
+          143.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U2",
+        "pad": "6",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          125.4,
+          143.825
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "16",
+        "net": "AUX_PROTECTED",
+        "xy": [
+          121.2625,
+          144.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R82",
+        "pad": "1",
+        "net": "ENABLE_IN",
+        "xy": [
+          117.1,
+          130.01
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "TP17",
+        "pad": "1",
+        "net": "ENABLE_IN",
+        "xy": [
+          137.63,
+          133.93
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "12",
+        "net": "ENABLE_IN",
+        "xy": [
+          125.8625,
+          109.65
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R82",
+        "pad": "1",
+        "net": "ENABLE_IN",
+        "xy": [
+          117.1,
+          130.01
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R141",
+        "pad": "2",
+        "net": "ENABLE_IN",
+        "xy": [
+          126.49,
+          101.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U26",
+        "pad": "12",
+        "net": "ENABLE_IN",
+        "xy": [
+          125.8625,
+          109.65
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R59",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_V_DIV1",
+        "xy": [
+          133.6,
+          114.7125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "R58",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_V_DIV1",
+        "xy": [
+          136.0445,
+          119.533
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R60",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_V_DIV2",
+        "xy": [
+          129.008,
+          101.415
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R59",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_V_DIV2",
+        "xy": [
+          133.6,
+          112.8875
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R73",
+        "pad": "1",
+        "net": "/Hardware latch/RESET_REQUEST",
+        "xy": [
+          110.41,
+          137.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "8",
+        "net": "/Hardware latch/RESET_REQUEST",
+        "xy": [
+          126.2625,
+          132.15
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R73",
+        "pad": "2",
+        "net": "/Hardware latch/RESET_CLK",
+        "xy": [
+          109.39,
+          137.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "C55",
+        "pad": "1",
+        "net": "/Hardware latch/RESET_CLK",
+        "xy": [
+          110.5,
+          141.68
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C55",
+        "pad": "1",
+        "net": "/Hardware latch/RESET_CLK",
+        "xy": [
+          110.5,
+          141.68
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "3",
+        "net": "/Hardware latch/RESET_CLK",
+        "xy": [
+          114.83,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J10",
+        "pad": "5",
+        "net": "/Encoders and SPI/ENC_B_Z_PORT",
+        "xy": [
+          102.0,
+          108.12
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R105",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_B_Z_PORT",
+        "xy": [
+          123.2,
+          120.01
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R105",
+        "pad": "2",
+        "net": "PA3",
+        "xy": [
+          123.2,
+          118.99
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "PA3",
+        "kind": "PCB_TRACK",
+        "xy": [
+          114.185,
+          115.125
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "9",
+        "net": "PWM_WL_IN",
+        "xy": [
+          125.8625,
+          107.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R81",
+        "pad": "1",
+        "net": "PWM_WL_IN",
+        "xy": [
+          118.21,
+          132.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R140",
+        "pad": "2",
+        "net": "PWM_WL_IN",
+        "xy": [
+          128.31,
+          103.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U26",
+        "pad": "9",
+        "net": "PWM_WL_IN",
+        "xy": [
+          125.8625,
+          107.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U17",
+        "pad": "3",
+        "net": "/Voltage and NTC/V_W",
+        "xy": [
+          126.7375,
+          136.55
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "U17",
+        "pad": "4",
+        "net": "/Voltage and NTC/V_W",
+        "xy": [
+          125.0625,
+          136.55
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R67",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_W",
+        "xy": [
+          133.2,
+          143.01
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U17",
+        "pad": "3",
+        "net": "/Voltage and NTC/V_W",
+        "xy": [
+          126.7375,
+          136.55
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R207",
+        "pad": "1",
+        "net": "V_W_PORT",
+        "xy": [
+          116.1,
+          114.925
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R67",
+        "pad": "2",
+        "net": "V_W_PORT",
+        "xy": [
+          133.2,
+          141.99
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D207",
+        "pad": "3",
+        "net": "Net-(D207-K1{slash}A2)",
+        "xy": [
+          117.711,
+          119.483
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      },
+      {
+        "ref": "R207",
+        "pad": "2",
+        "net": "Net-(D207-K1{slash}A2)",
+        "xy": [
+          116.1,
+          113.275
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R90",
+        "pad": "1",
+        "net": "Net-(D207-K1{slash}A2)",
+        "xy": [
+          121.4,
+          150.71
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "D207",
+        "pad": "3",
+        "net": "Net-(D207-K1{slash}A2)",
+        "xy": [
+          117.711,
+          119.483
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "12",
+        "net": "/Auxiliary input/AUX_DVDT",
+        "xy": [
+          121.2625,
+          147.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "C2",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_DVDT",
+        "xy": [
+          125.175,
+          149.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R18",
+        "pad": "1",
+        "net": "/Bus and brake/BR_GATE",
+        "xy": [
+          138.3,
+          158.625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R17",
+        "pad": "2",
+        "net": "/Bus and brake/BR_GATE",
+        "xy": [
+          143.4585,
+          157.685
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R17",
+        "pad": "2",
+        "net": "/Bus and brake/BR_GATE",
+        "xy": [
+          143.4585,
+          157.685
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "Q7",
+        "pad": "4",
+        "net": "/Bus and brake/BR_GATE",
+        "xy": [
+          140.025,
+          151.595
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.2,
+          0.65
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U13",
+        "pad": "1",
+        "net": "/Current sensing/VBIAS_DIV",
+        "xy": [
+          121.4625,
+          115.75
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "R41",
+        "pad": "1",
+        "net": "/Current sensing/VBIAS_DIV",
+        "xy": [
+          123.5,
+          114.71
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R41",
+        "pad": "1",
+        "net": "/Current sensing/VBIAS_DIV",
+        "xy": [
+          123.5,
+          114.71
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R40",
+        "pad": "2",
+        "net": "/Current sensing/VBIAS_DIV",
+        "xy": [
+          124.99,
+          119.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C40",
+        "pad": "1",
+        "net": "/Current sensing/VBIAS_DIV",
+        "xy": [
+          125.02,
+          113.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "ref": "R41",
+        "pad": "1",
+        "net": "/Current sensing/VBIAS_DIV",
+        "xy": [
+          123.5,
+          114.71
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "28",
+        "net": "PB5",
+        "xy": [
+          107.27,
+          143.97
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "D7",
+        "pad": "1",
+        "net": "PB5",
+        "xy": [
+          134.5125,
+          158.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.875,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D7",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_4",
+        "xy": [
+          136.0875,
+          158.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.875,
+          0.95
+        ]
+      },
+      {
+        "ref": "R134",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_4",
+        "xy": [
+          142.4,
+          127.59
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R21",
+        "pad": "1",
+        "net": "/U half bridge/U_GATE_H",
+        "xy": [
+          146.775,
+          121.3
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "/U half bridge/U_GATE_H",
+        "kind": "PCB_TRACK",
+        "xy": [
+          145.25,
+          115.75
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R65",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_W_DIV2",
+        "xy": [
+          123.2,
+          138.725
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R64",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_W_DIV2",
+        "xy": [
+          126.8125,
+          134.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R66",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_W_DIV",
+        "xy": [
+          123.425,
+          135.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R65",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_W_DIV",
+        "xy": [
+          123.2,
+          137.075
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Voltage and NTC/V_W_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          126.795,
+          137.7925
+        ]
+      },
+      {
+        "ref": "R65",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_W_DIV",
+        "xy": [
+          123.2,
+          137.075
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/W half bridge/W_GATE_L",
+        "kind": "PCB_TRACK",
+        "xy": [
+          152.55,
+          145.9
+        ]
+      },
+      {
+        "ref": "R34",
+        "pad": "1",
+        "net": "/W half bridge/W_GATE_L",
+        "xy": [
+          144.369,
+          138.269
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R120",
+        "pad": "1",
+        "net": "/SWD UART CAN and status/SWDIO_PORT",
+        "xy": [
+          107.4,
+          108.21
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J13",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/SWDIO_PORT",
+        "xy": [
+          109.27,
+          158.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J13",
+        "pad": "3",
+        "net": "/SWD UART CAN and status/SWCLK_PORT",
+        "xy": [
+          110.54,
+          158.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R121",
+        "pad": "1",
+        "net": "/SWD UART CAN and status/SWCLK_PORT",
+        "xy": [
+          128.79,
+          106.2
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J13",
+        "pad": "5",
+        "net": "NRST",
+        "xy": [
+          113.08,
+          158.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "32",
+        "net": "NRST",
+        "xy": [
+          131.27,
+          149.05
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "2",
+        "net": "OC_U_LOW_OK",
+        "xy": [
+          109.3375,
+          128.8
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U18",
+        "pad": "7",
+        "net": "OC_U_LOW_OK",
+        "xy": [
+          140.6125,
+          125.525
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "3",
+        "net": "/Hardware latch/HEALTH_CHAIN_1",
+        "xy": [
+          109.3375,
+          129.45
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U22",
+        "pad": "4",
+        "net": "/Hardware latch/HEALTH_CHAIN_1",
+        "xy": [
+          109.3375,
+          130.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "5",
+        "net": "OC_V_HIGH_OK",
+        "xy": [
+          109.3375,
+          130.75
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U19",
+        "pad": "1",
+        "net": "OC_V_HIGH_OK",
+        "xy": [
+          136.3875,
+          141.175
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "6",
+        "net": "/Hardware latch/HEALTH_CHAIN_2",
+        "xy": [
+          109.3375,
+          131.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U22",
+        "pad": "9",
+        "net": "/Hardware latch/HEALTH_CHAIN_2",
+        "xy": [
+          115.0625,
+          131.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "12",
+        "net": "/Hardware latch/HEALTH_CHAIN_3",
+        "xy": [
+          115.0625,
+          129.45
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U22",
+        "pad": "8",
+        "net": "/Hardware latch/HEALTH_CHAIN_3",
+        "xy": [
+          115.0625,
+          132.05
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "10",
+        "net": "OC_V_LOW_OK",
+        "xy": [
+          115.0625,
+          130.75
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U19",
+        "pad": "7",
+        "net": "OC_V_LOW_OK",
+        "xy": [
+          140.6125,
+          140.525
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "11",
+        "net": "/Hardware latch/HEALTH_CHAIN_4",
+        "xy": [
+          115.0625,
+          130.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U23",
+        "pad": "1",
+        "net": "/Hardware latch/HEALTH_CHAIN_4",
+        "xy": [
+          116.1375,
+          122.35
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U22",
+        "pad": "13",
+        "net": "OC_W_HIGH_OK",
+        "xy": [
+          115.0625,
+          128.8
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U20",
+        "pad": "1",
+        "net": "OC_W_HIGH_OK",
+        "xy": [
+          136.475,
+          155.9125
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Driver supply/BB_BST1",
+        "kind": "PCB_TRACK",
+        "xy": [
+          127.0,
+          142.875
+        ]
+      },
+      {
+        "net": "/Driver supply/BB_BST1",
+        "kind": "PCB_TRACK",
+        "xy": [
+          125.4,
+          141.875
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "L1",
+        "pad": "1",
+        "net": "/Driver supply/BB_L1",
+        "xy": [
+          124.525,
+          135.3
+        ],
+        "layer": "B.Cu",
+        "size": [
+          2.35,
+          3.5
+        ]
+      },
+      {
+        "net": "/Driver supply/BB_L1",
+        "kind": "PCB_TRACK",
+        "xy": [
+          125.4,
+          141.225
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Driver supply/BB_BST2",
+        "kind": "PCB_TRACK",
+        "xy": [
+          119.6,
+          141.225
+        ]
+      },
+      {
+        "net": "/Driver supply/BB_BST2",
+        "kind": "PCB_TRACK",
+        "xy": [
+          121.6,
+          140.275
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Auxiliary input/AUX_OV_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          114.725,
+          154.8
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "5",
+        "net": "/Auxiliary input/AUX_OV_DIV",
+        "xy": [
+          115.5375,
+          147.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R27",
+        "pad": "1",
+        "net": "/V half bridge/V_GATE_H",
+        "xy": [
+          141.675,
+          128.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "/V half bridge/V_GATE_H",
+        "kind": "PCB_TRACK",
+        "xy": [
+          138.5,
+          130.375
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "11",
+        "net": "/Auxiliary input/AUX_ILIM",
+        "xy": [
+          121.2625,
+          147.975
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "R6",
+        "pad": "1",
+        "net": "/Auxiliary input/AUX_ILIM",
+        "xy": [
+          126.9,
+          148.325
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U27",
+        "pad": "6",
+        "net": "/Hardware latch/FAULT_ACTIVE",
+        "xy": [
+          108.5375,
+          102.1
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R74",
+        "pad": "1",
+        "net": "/Hardware latch/FAULT_ACTIVE",
+        "xy": [
+          108.9,
+          139.61
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R74",
+        "pad": "2",
+        "net": "/Hardware latch/FAULT_BASE",
+        "xy": [
+          108.9,
+          138.59
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R75",
+        "pad": "1",
+        "net": "/Hardware latch/FAULT_BASE",
+        "xy": [
+          110.2,
+          139.41
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R75",
+        "pad": "1",
+        "net": "/Hardware latch/FAULT_BASE",
+        "xy": [
+          110.2,
+          139.41
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "Q8",
+        "pad": "1",
+        "net": "/Hardware latch/FAULT_BASE",
+        "xy": [
+          124.025,
+          122.55
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.95,
+          0.56
+        ]
+      }
+    ],
+    [
+      {
+        "net": "U_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.675,
+          121.5
+        ]
+      },
+      {
+        "net": "U_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          144.133,
+          124.667
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP6",
+        "pad": "1",
+        "net": "U_SOURCE",
+        "xy": [
+          145.7,
+          126.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "net": "U_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          144.775,
+          124.4
+        ]
+      }
+    ],
+    [
+      {
+        "net": "U_SOURCE",
+        "kind": "PCB_TRACK",
+        "xy": [
+          153.0,
+          116.765
+        ]
+      },
+      {
+        "ref": "R22",
+        "pad": "2",
+        "net": "U_SOURCE",
+        "xy": [
+          156.625,
+          111.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PWM_VL_IN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          125.834,
+          111.676
+        ]
+      },
+      {
+        "ref": "R79",
+        "pad": "1",
+        "net": "PWM_VL_IN",
+        "xy": [
+          122.31,
+          134.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R49",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_DC_DIV2",
+        "xy": [
+          135.2125,
+          110.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "R50",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_DC_DIV2",
+        "xy": [
+          147.223,
+          104.916
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "2",
+        "net": "OC_W_LOW_OK",
+        "xy": [
+          116.1375,
+          123.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U20",
+        "pad": "7",
+        "net": "OC_W_LOW_OK",
+        "xy": [
+          135.825,
+          151.6875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "3",
+        "net": "/Hardware latch/HEALTH_CHAIN_5",
+        "xy": [
+          116.1375,
+          123.65
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U23",
+        "pad": "4",
+        "net": "/Hardware latch/HEALTH_CHAIN_5",
+        "xy": [
+          116.1375,
+          124.3
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "5",
+        "net": "BUS_OV_OK",
+        "xy": [
+          116.1375,
+          124.95
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U21",
+        "pad": "1",
+        "net": "BUS_OV_OK",
+        "xy": [
+          133.125,
+          139.3125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "6",
+        "net": "/Hardware latch/HEALTH_CHAIN_6",
+        "xy": [
+          116.1375,
+          125.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U23",
+        "pad": "9",
+        "net": "/Hardware latch/HEALTH_CHAIN_6",
+        "xy": [
+          121.8625,
+          125.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "12",
+        "net": "/Hardware latch/HEALTH_CHAIN_7",
+        "xy": [
+          121.8625,
+          123.65
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U23",
+        "pad": "8",
+        "net": "/Hardware latch/HEALTH_CHAIN_7",
+        "xy": [
+          121.8625,
+          126.25
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U23",
+        "pad": "10",
+        "net": "DRV_UV_OK",
+        "xy": [
+          121.8625,
+          124.95
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U21",
+        "pad": "7",
+        "net": "DRV_UV_OK",
+        "xy": [
+          133.775,
+          135.0875
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "1",
+        "net": "/Hardware latch/HEALTH_CHAIN_8",
+        "xy": [
+          120.5375,
+          128.25
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U23",
+        "pad": "11",
+        "net": "/Hardware latch/HEALTH_CHAIN_8",
+        "xy": [
+          121.8625,
+          124.3
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "net": "BASE_LOGIC_OK",
+        "kind": "PCB_TRACK",
+        "xy": [
+          109.5,
+          129.41
+        ]
+      },
+      {
+        "ref": "U23",
+        "pad": "13",
+        "net": "BASE_LOGIC_OK",
+        "xy": [
+          121.8625,
+          123.0
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U27",
+        "pad": "9",
+        "net": "BASE_LOGIC_OK",
+        "xy": [
+          114.2625,
+          102.1
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "net": "BASE_LOGIC_OK",
+        "kind": "PCB_TRACK",
+        "xy": [
+          110.762,
+          114.35
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Logic and sensors/SENSOR_PWR_FLT_N",
+        "kind": "PCB_TRACK",
+        "xy": [
+          126.413,
+          135.766
+        ]
+      },
+      {
+        "ref": "R15",
+        "pad": "1",
+        "net": "/Logic and sensors/SENSOR_PWR_FLT_N",
+        "xy": [
+          104.575,
+          150.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U27",
+        "pad": "4",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          108.5375,
+          103.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "6",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          120.5375,
+          131.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "6",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          120.5375,
+          131.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "9",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          126.2625,
+          131.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "6",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          120.5375,
+          131.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U28",
+        "pad": "4",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          116.1,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "9",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          126.2625,
+          131.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "12",
+        "net": "/Hardware latch/HEALTH_ALL",
+        "xy": [
+          126.2625,
+          129.55
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U28",
+        "pad": "6",
+        "net": "/Hardware latch/NO_LATCH",
+        "xy": [
+          118.64,
+          139.275
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "13",
+        "net": "/Hardware latch/NO_LATCH",
+        "xy": [
+          126.2625,
+          128.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "13",
+        "net": "/Hardware latch/NO_LATCH",
+        "xy": [
+          126.2625,
+          128.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U27",
+        "pad": "5",
+        "net": "/Hardware latch/NO_LATCH",
+        "xy": [
+          108.5375,
+          102.75
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R131",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_1",
+        "xy": [
+          115.7,
+          149.99
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "D4",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_1",
+        "xy": [
+          124.7,
+          116.0125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.875,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R12",
+        "pad": "1",
+        "net": "DRV_PG_LOGIC",
+        "xy": [
+          110.6,
+          148.975
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "DRV_PG_LOGIC",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.3289,
+          150.5711
+        ]
+      }
+    ],
+    [
+      {
+        "net": "DRV_PG_LOGIC",
+        "kind": "PCB_TRACK",
+        "xy": [
+          118.375,
+          150.1
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "2",
+        "net": "DRV_PG_LOGIC",
+        "xy": [
+          120.5375,
+          128.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "2",
+        "net": "DRV_PG_LOGIC",
+        "xy": [
+          120.5375,
+          128.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U27",
+        "pad": "10",
+        "net": "DRV_PG_LOGIC",
+        "xy": [
+          114.2625,
+          102.75
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "3",
+        "net": "/Hardware latch/HEALTH_CHAIN_9",
+        "xy": [
+          120.5375,
+          129.55
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U24",
+        "pad": "4",
+        "net": "/Hardware latch/HEALTH_CHAIN_9",
+        "xy": [
+          120.5375,
+          130.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U24",
+        "pad": "5",
+        "net": "AUX_FLT_N",
+        "xy": [
+          120.5375,
+          130.85
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "14",
+        "net": "AUX_FLT_N",
+        "xy": [
+          121.2625,
+          146.025
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U1",
+        "pad": "14",
+        "net": "AUX_FLT_N",
+        "xy": [
+          121.2625,
+          146.025
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.575,
+          0.4
+        ]
+      },
+      {
+        "ref": "R7",
+        "pad": "1",
+        "net": "AUX_FLT_N",
+        "xy": [
+          128.275,
+          150.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R55",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_U_DIV",
+        "xy": [
+          126.0,
+          114.675
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "/Voltage and NTC/V_U_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          133.9,
+          111.425
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R55",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_U_DIV",
+        "xy": [
+          126.0,
+          114.675
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "U15",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_U_DIV",
+        "xy": [
+          133.25,
+          122.8375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U15",
+        "pad": "4",
+        "net": "/Voltage and NTC/V_U",
+        "xy": [
+          134.55,
+          121.1625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "U15",
+        "pad": "3",
+        "net": "/Voltage and NTC/V_U",
+        "xy": [
+          134.55,
+          122.8375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U15",
+        "pad": "3",
+        "net": "/Voltage and NTC/V_U",
+        "xy": [
+          134.55,
+          122.8375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "R57",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_U",
+        "xy": [
+          143.885,
+          132.233
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "4",
+        "net": "PWM_WH_IN",
+        "xy": [
+          120.1375,
+          109.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R80",
+        "pad": "1",
+        "net": "PWM_WH_IN",
+        "xy": [
+          126.7,
+          145.41
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R139",
+        "pad": "2",
+        "net": "PWM_WH_IN",
+        "xy": [
+          142.6,
+          102.49
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U26",
+        "pad": "4",
+        "net": "PWM_WH_IN",
+        "xy": [
+          120.1375,
+          109.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U25",
+        "pad": "4",
+        "net": "PWM_UH_IN",
+        "xy": [
+          124.0,
+          124.8625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R76",
+        "pad": "1",
+        "net": "PWM_UH_IN",
+        "xy": [
+          103.1,
+          140.91
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R135",
+        "pad": "2",
+        "net": "PWM_UH_IN",
+        "xy": [
+          144.79,
+          127.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U25",
+        "pad": "4",
+        "net": "PWM_UH_IN",
+        "xy": [
+          124.0,
+          124.8625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U21",
+        "pad": "6",
+        "net": "OV_REF_1V30",
+        "xy": [
+          134.425,
+          135.0875
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "ref": "U21",
+        "pad": "3",
+        "net": "OV_REF_1V30",
+        "xy": [
+          134.425,
+          139.3125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U21",
+        "pad": "3",
+        "net": "OV_REF_1V30",
+        "xy": [
+          134.425,
+          139.3125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "ref": "R68",
+        "pad": "2",
+        "net": "OV_REF_1V30",
+        "xy": [
+          135.61,
+          141.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R68",
+        "pad": "2",
+        "net": "OV_REF_1V30",
+        "xy": [
+          135.61,
+          141.1
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R69",
+        "pad": "1",
+        "net": "OV_REF_1V30",
+        "xy": [
+          144.167,
+          141.757
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/SWD UART CAN and status/CAN_H",
+        "kind": "PCB_TRACK",
+        "xy": [
+          124.376,
+          104.586
+        ]
+      },
+      {
+        "ref": "J15",
+        "pad": "1",
+        "net": "/SWD UART CAN and status/CAN_H",
+        "xy": [
+          155.6,
+          108.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U31",
+        "pad": "6",
+        "net": "/SWD UART CAN and status/CAN_L",
+        "xy": [
+          121.575,
+          102.665
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "ref": "R129",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/CAN_L",
+        "xy": [
+          124.9,
+          104.09
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R129",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/CAN_L",
+        "xy": [
+          124.9,
+          104.09
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J15",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/CAN_L",
+        "xy": [
+          156.87,
+          108.4
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP16",
+        "pad": "1",
+        "net": "FAULT_N",
+        "xy": [
+          111.3,
+          131.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "ref": "R211",
+        "pad": "1",
+        "net": "FAULT_N",
+        "xy": [
+          102.0,
+          149.325
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "Q8",
+        "pad": "3",
+        "net": "FAULT_N",
+        "xy": [
+          125.975,
+          123.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.95,
+          0.56
+        ]
+      },
+      {
+        "ref": "TP16",
+        "pad": "1",
+        "net": "FAULT_N",
+        "xy": [
+          111.3,
+          131.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U16",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_V_DIV",
+        "xy": [
+          133.45,
+          130.3375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "net": "/Voltage and NTC/V_V_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          138.577,
+          114.267
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C46",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_V_DIV",
+        "xy": [
+          145.6,
+          107.08
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "/Voltage and NTC/V_V_DIV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          139.5744,
+          109.1683
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U16",
+        "pad": "4",
+        "net": "/Voltage and NTC/V_V",
+        "xy": [
+          134.75,
+          128.6625
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "U16",
+        "pad": "3",
+        "net": "/Voltage and NTC/V_V",
+        "xy": [
+          134.75,
+          130.3375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U16",
+        "pad": "3",
+        "net": "/Voltage and NTC/V_V",
+        "xy": [
+          134.75,
+          130.3375
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "R62",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_V",
+        "xy": [
+          144.59,
+          142.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R132",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_2",
+        "xy": [
+          120.4,
+          154.39
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "D5",
+        "pad": "2",
+        "net": "/SWD UART CAN and status/LED_AN_2",
+        "xy": [
+          123.1,
+          151.3125
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.875,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U13",
+        "pad": "4",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          123.1375,
+          117.05
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      },
+      {
+        "ref": "U13",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          121.4625,
+          117.05
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U10",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          146.5625,
+          125.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U13",
+        "pad": "4",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          123.1375,
+          117.05
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          0.35
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U11",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          146.5625,
+          140.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U11",
+        "pad": "7",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          148.8375,
+          140.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U12",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          147.8625,
+          155.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U12",
+        "pad": "7",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          150.1375,
+          155.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U12",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          147.8625,
+          155.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U11",
+        "pad": "7",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          148.8375,
+          140.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U10",
+        "pad": "7",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          148.8375,
+          125.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U10",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          146.5625,
+          125.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U10",
+        "pad": "7",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          148.8375,
+          125.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      },
+      {
+        "ref": "U11",
+        "pad": "3",
+        "net": "/Current sensing/VBIAS_1V65",
+        "xy": [
+          146.5625,
+          140.075
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J10",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_B_VCC",
+        "xy": [
+          102.0,
+          113.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R107",
+        "pad": "2",
+        "net": "/Encoders and SPI/ENC_B_VCC",
+        "xy": [
+          116.99,
+          127.8
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R101",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_B_A_PORT",
+        "xy": [
+          101.09,
+          114.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J10",
+        "pad": "3",
+        "net": "/Encoders and SPI/ENC_B_A_PORT",
+        "xy": [
+          102.0,
+          110.66
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J10",
+        "pad": "4",
+        "net": "/Encoders and SPI/ENC_B_B_PORT",
+        "xy": [
+          102.0,
+          109.39
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R103",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_B_B_PORT",
+        "xy": [
+          110.71,
+          147.3
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PWM_VH_IN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          125.0267,
+          120.1161
+        ]
+      },
+      {
+        "ref": "R78",
+        "pad": "1",
+        "net": "PWM_VH_IN",
+        "xy": [
+          103.1,
+          143.21
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J12",
+        "pad": "1",
+        "net": "/Encoders and SPI/SPI_B_VCC",
+        "xy": [
+          102.0,
+          129.6
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R119",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_B_VCC",
+        "xy": [
+          117.71,
+          123.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J12",
+        "pad": "3",
+        "net": "/Encoders and SPI/SPI_B_SCK_PORT",
+        "xy": [
+          102.0,
+          127.06
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R114",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_B_SCK_PORT",
+        "xy": [
+          118.586,
+          110.424
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J12",
+        "pad": "4",
+        "net": "/Encoders and SPI/SPI_B_MOSI_PORT",
+        "xy": [
+          102.0,
+          125.79
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R115",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_B_MOSI_PORT",
+        "xy": [
+          111.51,
+          106.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J12",
+        "pad": "5",
+        "net": "/Encoders and SPI/SPI_B_MISO_PORT",
+        "xy": [
+          102.0,
+          124.52
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R116",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_B_MISO_PORT",
+        "xy": [
+          108.9,
+          107.19
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J12",
+        "pad": "6",
+        "net": "/Encoders and SPI/SPI_B_CS_PORT",
+        "xy": [
+          102.0,
+          123.25
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R117",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_B_CS_PORT",
+        "xy": [
+          124.654,
+          116.323
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Driver supply/BB_VREG",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.55,
+          148.2
+        ]
+      },
+      {
+        "ref": "TP2",
+        "pad": "1",
+        "net": "/Driver supply/BB_VREG",
+        "xy": [
+          115.5,
+          154.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/Driver supply/BB_VREG",
+        "kind": "PCB_TRACK",
+        "xy": [
+          119.6,
+          146.425
+        ]
+      },
+      {
+        "ref": "U2",
+        "pad": "14",
+        "net": "/Driver supply/BB_VREG",
+        "xy": [
+          119.6,
+          144.475
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/U half bridge/U_GATE_L",
+        "kind": "PCB_TRACK",
+        "xy": [
+          152.55,
+          115.9
+        ]
+      },
+      {
+        "ref": "R22",
+        "pad": "1",
+        "net": "/U half bridge/U_GATE_L",
+        "xy": [
+          154.975,
+          111.5
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R72",
+        "pad": "1",
+        "net": "/Analog protection/DRV_UV_DIV",
+        "xy": [
+          133.49,
+          140.2
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R71",
+        "pad": "2",
+        "net": "/Analog protection/DRV_UV_DIV",
+        "xy": [
+          134.51,
+          139.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R71",
+        "pad": "2",
+        "net": "/Analog protection/DRV_UV_DIV",
+        "xy": [
+          134.51,
+          139.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "U21",
+        "pad": "5",
+        "net": "/Analog protection/DRV_UV_DIV",
+        "xy": [
+          135.075,
+          135.0875
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J11",
+        "pad": "1",
+        "net": "/Encoders and SPI/SPI_A_VCC",
+        "xy": [
+          102.3,
+          138.2
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R113",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_A_VCC",
+        "xy": [
+          111.01,
+          108.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J11",
+        "pad": "3",
+        "net": "/Encoders and SPI/SPI_A_SCK_PORT",
+        "xy": [
+          102.3,
+          135.66
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R108",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_A_SCK_PORT",
+        "xy": [
+          114.0,
+          109.99
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J11",
+        "pad": "4",
+        "net": "/Encoders and SPI/SPI_A_MOSI_PORT",
+        "xy": [
+          102.3,
+          134.39
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R109",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_A_MOSI_PORT",
+        "xy": [
+          109.5,
+          109.69
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J11",
+        "pad": "5",
+        "net": "/Encoders and SPI/SPI_A_MISO_PORT",
+        "xy": [
+          102.3,
+          133.12
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R110",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_A_MISO_PORT",
+        "xy": [
+          112.31,
+          109.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J11",
+        "pad": "6",
+        "net": "/Encoders and SPI/SPI_A_CS_PORT",
+        "xy": [
+          102.3,
+          131.85
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R111",
+        "pad": "2",
+        "net": "/Encoders and SPI/SPI_A_CS_PORT",
+        "xy": [
+          118.543,
+          111.649
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R124",
+        "pad": "2",
+        "net": "PB11",
+        "xy": [
+          127.486,
+          106.064
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "PB11",
+        "kind": "PCB_TRACK",
+        "xy": [
+          127.398,
+          114.588
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J9",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_A_VCC",
+        "xy": [
+          102.0,
+          120.7
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R100",
+        "pad": "2",
+        "net": "/Encoders and SPI/ENC_A_VCC",
+        "xy": [
+          112.71,
+          111.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J9",
+        "pad": "3",
+        "net": "/Encoders and SPI/ENC_A_A_PORT",
+        "xy": [
+          102.0,
+          118.16
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "ref": "R94",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_A_A_PORT",
+        "xy": [
+          124.89,
+          131.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R96",
+        "pad": "1",
+        "net": "/Encoders and SPI/ENC_A_B_PORT",
+        "xy": [
+          101.1,
+          132.91
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J9",
+        "pad": "4",
+        "net": "/Encoders and SPI/ENC_A_B_PORT",
+        "xy": [
+          102.0,
+          116.89
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R204",
+        "pad": "2",
+        "net": "Net-(D204-K1{slash}A2)",
+        "xy": [
+          120.351,
+          123.577
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R87",
+        "pad": "1",
+        "net": "Net-(D204-K1{slash}A2)",
+        "xy": [
+          120.09,
+          129.3
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D204",
+        "pad": "3",
+        "net": "Net-(D204-K1{slash}A2)",
+        "xy": [
+          135.578,
+          106.923
+        ],
+        "layer": "F.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      },
+      {
+        "ref": "R204",
+        "pad": "2",
+        "net": "Net-(D204-K1{slash}A2)",
+        "xy": [
+          120.351,
+          123.577
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R63",
+        "pad": "2",
+        "net": "/Voltage and NTC/V_W_DIV1",
+        "xy": [
+          122.7905,
+          127.226
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      },
+      {
+        "ref": "R64",
+        "pad": "1",
+        "net": "/Voltage and NTC/V_W_DIV1",
+        "xy": [
+          124.9875,
+          134.9
+        ],
+        "layer": "F.Cu",
+        "size": [
+          1.025,
+          1.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R206",
+        "pad": "1",
+        "net": "V_V_PORT",
+        "xy": [
+          116.2,
+          111.725
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R62",
+        "pad": "2",
+        "net": "V_V_PORT",
+        "xy": [
+          145.61,
+          142.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "net": "Net-(D206-K1{slash}A2)",
+        "kind": "PCB_TRACK",
+        "xy": [
+          114.3795,
+          125.4205
+        ]
+      },
+      {
+        "ref": "R89",
+        "pad": "1",
+        "net": "Net-(D206-K1{slash}A2)",
+        "xy": [
+          108.5,
+          155.31
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R114",
+        "pad": "1",
+        "net": "PC10",
+        "xy": [
+          117.566,
+          110.424
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "21",
+        "net": "PC10",
+        "xy": [
+          128.73,
+          136.35
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "25",
+        "net": "PB2",
+        "xy": [
+          104.73,
+          141.43
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R91",
+        "pad": "2",
+        "net": "PB2",
+        "xy": [
+          116.5,
+          154.59
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R91",
+        "pad": "2",
+        "net": "PB2",
+        "xy": [
+          116.5,
+          154.59
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "C76",
+        "pad": "1",
+        "net": "PB2",
+        "xy": [
+          145.894,
+          154.739
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R85",
+        "pad": "1",
+        "net": "Net-(D202-K1{slash}A2)",
+        "xy": [
+          134.19,
+          130.1
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "Net-(D202-K1{slash}A2)",
+        "kind": "PCB_TRACK",
+        "xy": [
+          118.4852,
+          120.9898
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "3",
+        "net": "V_LIN",
+        "xy": [
+          120.1375,
+          109.65
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "net": "V_LIN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.952,
+          138.042
+        ]
+      }
+    ],
+    [
+      {
+        "net": "Net-(D205-K1{slash}A2)",
+        "kind": "PCB_TRACK",
+        "xy": [
+          118.7196,
+          127.6761
+        ]
+      },
+      {
+        "ref": "R88",
+        "pad": "1",
+        "net": "Net-(D205-K1{slash}A2)",
+        "xy": [
+          133.79,
+          148.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C29",
+        "pad": "1",
+        "net": "/V half bridge/V_BOOT",
+        "xy": [
+          140.5,
+          133.39
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.15,
+          1.8
+        ]
+      },
+      {
+        "net": "/V half bridge/V_BOOT",
+        "kind": "PCB_TRACK",
+        "xy": [
+          143.3,
+          134.09
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R143",
+        "pad": "1",
+        "net": "PB12",
+        "xy": [
+          119.0,
+          126.51
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R211",
+        "pad": "2",
+        "net": "PB12",
+        "xy": [
+          102.0,
+          147.675
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PB12",
+        "kind": "PCB_TRACK",
+        "xy": [
+          128.73,
+          116.03
+        ]
+      },
+      {
+        "ref": "R143",
+        "pad": "1",
+        "net": "PB12",
+        "xy": [
+          119.0,
+          126.51
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "6",
+        "net": "W_HIN",
+        "xy": [
+          120.1375,
+          107.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "net": "W_HIN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          147.562,
+          143.937
+        ]
+      }
+    ],
+    [
+      {
+        "net": "U_LIN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          136.313,
+          120.488
+        ]
+      },
+      {
+        "ref": "U7",
+        "pad": "2",
+        "net": "U_LIN",
+        "xy": [
+          150.475,
+          119.865
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R101",
+        "pad": "2",
+        "net": "PB6",
+        "xy": [
+          102.11,
+          114.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "PB6",
+        "kind": "PCB_TRACK",
+        "xy": [
+          101.1,
+          136.7344
+        ]
+      }
+    ],
+    [
+      {
+        "net": "/SWD UART CAN and status/CAN_TX_PHY",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.625,
+          105.205
+        ]
+      },
+      {
+        "ref": "R128",
+        "pad": "1",
+        "net": "/SWD UART CAN and status/CAN_TX_PHY",
+        "xy": [
+          125.1,
+          102.61
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "15",
+        "net": "PA10",
+        "xy": [
+          104.73,
+          128.73
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R139",
+        "pad": "1",
+        "net": "PA10",
+        "xy": [
+          142.6,
+          103.51
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C73",
+        "pad": "1",
+        "net": "PA4",
+        "xy": [
+          133.1,
+          152.88
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "PA4",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.4036,
+          148.2064
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PB0",
+        "kind": "PCB_TRACK",
+        "xy": [
+          108.476,
+          154.29
+        ]
+      },
+      {
+        "ref": "C74",
+        "pad": "1",
+        "net": "PB0",
+        "xy": [
+          116.62,
+          158.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "D201",
+        "pad": "3",
+        "net": "Net-(D201-K1{slash}A2)",
+        "xy": [
+          115.5,
+          121.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      },
+      {
+        "ref": "R84",
+        "pad": "1",
+        "net": "Net-(D201-K1{slash}A2)",
+        "xy": [
+          122.7,
+          130.41
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R201",
+        "pad": "2",
+        "net": "Net-(D201-K1{slash}A2)",
+        "xy": [
+          115.6,
+          116.575
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "D201",
+        "pad": "3",
+        "net": "Net-(D201-K1{slash}A2)",
+        "xy": [
+          115.5,
+          121.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.7,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PC0",
+        "kind": "PCB_TRACK",
+        "xy": [
+          128.73,
+          124.3046
+        ]
+      },
+      {
+        "ref": "C69",
+        "pad": "1",
+        "net": "PC0",
+        "xy": [
+          144.82,
+          102.2
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C15",
+        "pad": "1",
+        "net": "+5V_INV",
+        "xy": [
+          101.9,
+          143.125
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.9,
+          0.95
+        ]
+      },
+      {
+        "net": "+5V_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          108.796,
+          137.2464
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+5V_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          114.189,
+          146.36
+        ]
+      },
+      {
+        "ref": "U3",
+        "pad": "1",
+        "net": "+5V_INV",
+        "xy": [
+          114.15,
+          150.5375
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "+5V_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          116.569,
+          138.434
+        ]
+      },
+      {
+        "ref": "U5",
+        "pad": "1",
+        "net": "+5V_INV",
+        "xy": [
+          116.15,
+          136.8375
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.325,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R10",
+        "pad": "1",
+        "net": "+5V_INV",
+        "xy": [
+          122.225,
+          148.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "+5V_INV",
+        "kind": "PCB_TRACK",
+        "xy": [
+          120.825,
+          152.6
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PA1",
+        "kind": "PCB_TRACK",
+        "xy": [
+          102.99,
+          130.0
+        ]
+      },
+      {
+        "ref": "R97",
+        "pad": "1",
+        "net": "PA1",
+        "xy": [
+          102.89,
+          151.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "TP13",
+        "pad": "1",
+        "net": "I_W",
+        "xy": [
+          134.5,
+          132.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "ref": "U20",
+        "pad": "5",
+        "net": "I_W",
+        "xy": [
+          134.525,
+          151.6875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U20",
+        "pad": "5",
+        "net": "I_W",
+        "xy": [
+          134.525,
+          151.6875
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      },
+      {
+        "net": "I_W",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.825,
+          155.912
+        ]
+      }
+    ],
+    [
+      {
+        "net": "I_W",
+        "kind": "PCB_TRACK",
+        "xy": [
+          147.283,
+          157.549
+        ]
+      },
+      {
+        "net": "I_W",
+        "kind": "PCB_TRACK",
+        "xy": [
+          135.825,
+          155.912
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C72",
+        "pad": "1",
+        "net": "PC3",
+        "xy": [
+          145.0,
+          126.68
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "PC3",
+        "kind": "PCB_TRACK",
+        "xy": [
+          129.836,
+          127.624
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R46",
+        "pad": "2",
+        "net": "/Current sensing/OC_HI_MID",
+        "xy": [
+          142.788,
+          116.778
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R47",
+        "pad": "1",
+        "net": "/Current sensing/OC_HI_MID",
+        "xy": [
+          143.0,
+          144.11
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "13",
+        "net": "PA8",
+        "xy": [
+          104.73,
+          126.19
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R135",
+        "pad": "1",
+        "net": "PA8",
+        "xy": [
+          145.81,
+          127.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "18",
+        "net": "PA13",
+        "xy": [
+          107.27,
+          131.27
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R120",
+        "pad": "2",
+        "net": "PA13",
+        "xy": [
+          107.4,
+          107.19
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "19",
+        "net": "PA14",
+        "xy": [
+          104.73,
+          133.81
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R121",
+        "pad": "2",
+        "net": "PA14",
+        "xy": [
+          129.81,
+          106.2
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "20",
+        "net": "PA15",
+        "xy": [
+          107.27,
+          133.81
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R111",
+        "pad": "1",
+        "net": "PA15",
+        "xy": [
+          117.523,
+          111.649
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R111",
+        "pad": "1",
+        "net": "PA15",
+        "xy": [
+          117.523,
+          111.649
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R112",
+        "pad": "1",
+        "net": "PA15",
+        "xy": [
+          114.79,
+          108.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J101",
+        "pad": "24",
+        "net": "PB1",
+        "xy": [
+          107.27,
+          138.89
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "C75",
+        "pad": "1",
+        "net": "PB1",
+        "xy": [
+          101.1,
+          152.88
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R90",
+        "pad": "2",
+        "net": "PB1",
+        "xy": [
+          121.4,
+          149.69
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J101",
+        "pad": "24",
+        "net": "PB1",
+        "xy": [
+          107.27,
+          138.89
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R115",
+        "pad": "1",
+        "net": "PC12",
+        "xy": [
+          110.49,
+          106.9
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "23",
+        "net": "PC12",
+        "xy": [
+          128.73,
+          138.89
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U26",
+        "pad": "8",
+        "net": "W_LIN",
+        "xy": [
+          125.8625,
+          107.05
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R36",
+        "pad": "1",
+        "net": "W_LIN",
+        "xy": [
+          143.202,
+          145.808
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R36",
+        "pad": "1",
+        "net": "W_LIN",
+        "xy": [
+          143.202,
+          145.808
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "U9",
+        "pad": "2",
+        "net": "W_LIN",
+        "xy": [
+          150.475,
+          149.865
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.95,
+          0.6
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C33",
+        "pad": "1",
+        "net": "/W half bridge/W_BOOT",
+        "xy": [
+          140.5,
+          148.39
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.15,
+          1.8
+        ]
+      },
+      {
+        "net": "/W half bridge/W_BOOT",
+        "kind": "PCB_TRACK",
+        "xy": [
+          143.3,
+          149.09
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R142",
+        "pad": "2",
+        "net": "BRAKE_IN",
+        "xy": [
+          134.31,
+          104.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "BRAKE_IN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          140.266,
+          155.25
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "C70",
+        "pad": "1",
+        "net": "PC1",
+        "xy": [
+          152.277,
+          121.828
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      {
+        "net": "PC1",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.356,
+          127.388
+        ]
+      }
+    ],
+    [
+      {
+        "net": "I_U",
+        "kind": "PCB_TRACK",
+        "xy": [
+          148.242,
+          124.425
+        ]
+      },
+      {
+        "ref": "U18",
+        "pad": "5",
+        "net": "I_U",
+        "xy": [
+          140.6125,
+          124.225
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.625,
+          0.5
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R37",
+        "pad": "1",
+        "net": "I_U",
+        "xy": [
+          148.4,
+          129.625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "I_U",
+        "kind": "PCB_TRACK",
+        "xy": [
+          147.7,
+          125.192
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R140",
+        "pad": "1",
+        "net": "PB15",
+        "xy": [
+          127.29,
+          103.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "8",
+        "net": "PB15",
+        "xy": [
+          131.27,
+          118.57
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R203",
+        "pad": "1",
+        "net": "I_W_PORT",
+        "xy": [
+          119.067,
+          114.933
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R39",
+        "pad": "2",
+        "net": "I_W_PORT",
+        "xy": [
+          147.925,
+          158.5
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "PC2",
+        "kind": "PCB_TRACK",
+        "xy": [
+          133.949,
+          127.839
+        ]
+      },
+      {
+        "ref": "C71",
+        "pad": "1",
+        "net": "PC2",
+        "xy": [
+          142.5,
+          137.88
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R141",
+        "pad": "1",
+        "net": "PC4",
+        "xy": [
+          127.51,
+          101.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "15",
+        "net": "PC4",
+        "xy": [
+          128.73,
+          128.73
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R117",
+        "pad": "1",
+        "net": "PC9",
+        "xy": [
+          124.654,
+          117.343
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "R118",
+        "pad": "1",
+        "net": "PC9",
+        "xy": [
+          114.49,
+          107.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "J102",
+        "pad": "20",
+        "net": "PC9",
+        "xy": [
+          131.27,
+          133.81
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      },
+      {
+        "ref": "R117",
+        "pad": "1",
+        "net": "PC9",
+        "xy": [
+          124.654,
+          117.343
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R116",
+        "pad": "1",
+        "net": "PC11",
+        "xy": [
+          108.9,
+          108.21
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "ref": "J102",
+        "pad": "22",
+        "net": "PC11",
+        "xy": [
+          131.27,
+          136.35
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.7,
+          1.7
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R38",
+        "pad": "1",
+        "net": "I_V",
+        "xy": [
+          148.4,
+          144.625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "net": "I_V",
+        "kind": "PCB_TRACK",
+        "xy": [
+          148.8375,
+          139.425
+        ]
+      }
+    ],
+    [
+      {
+        "net": "ENABLE_QUALIFIED",
+        "kind": "PCB_TRACK",
+        "xy": [
+          124.595,
+          109.0
+        ]
+      },
+      {
+        "ref": "U25",
+        "pad": "2",
+        "net": "ENABLE_QUALIFIED",
+        "xy": [
+          125.3,
+          124.8625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U27",
+        "pad": "11",
+        "net": "BASE_READY",
+        "xy": [
+          114.2625,
+          103.4
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "ref": "R210",
+        "pad": "1",
+        "net": "BASE_READY",
+        "xy": [
+          133.8,
+          123.925
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "net": "U_HIN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          134.435,
+          119.61
+        ]
+      },
+      {
+        "ref": "U25",
+        "pad": "6",
+        "net": "U_HIN",
+        "xy": [
+          122.7,
+          124.8625
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R11",
+        "pad": "1",
+        "net": "/Driver supply/DRV_PG_NOM",
+        "xy": [
+          120.025,
+          150.1
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R10",
+        "pad": "2",
+        "net": "/Driver supply/DRV_PG_NOM",
+        "xy": [
+          120.575,
+          148.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R10",
+        "pad": "2",
+        "net": "/Driver supply/DRV_PG_NOM",
+        "xy": [
+          120.575,
+          148.0
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "U2",
+        "pad": "15",
+        "net": "/Driver supply/DRV_PG_NOM",
+        "xy": [
+          119.6,
+          143.825
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.5,
+          0.45
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "U25",
+        "pad": "11",
+        "net": "V_HIN",
+        "xy": [
+          124.0,
+          119.1375
+        ],
+        "layer": "B.Cu",
+        "size": [
+          1.475,
+          0.4
+        ]
+      },
+      {
+        "net": "V_HIN",
+        "kind": "PCB_TRACK",
+        "xy": [
+          138.662,
+          128.113
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R86",
+        "pad": "1",
+        "net": "Net-(D203-K1{slash}A2)",
+        "xy": [
+          133.89,
+          128.8
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      },
+      {
+        "net": "Net-(D203-K1{slash}A2)",
+        "kind": "PCB_TRACK",
+        "xy": [
+          122.0,
+          115.0
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R201",
+        "pad": "1",
+        "net": "I_U_PORT",
+        "xy": [
+          115.6,
+          118.225
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R37",
+        "pad": "2",
+        "net": "I_U_PORT",
+        "xy": [
+          148.4,
+          127.975
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R204",
+        "pad": "1",
+        "net": "V_DC_PORT",
+        "xy": [
+          120.351,
+          125.227
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R52",
+        "pad": "2",
+        "net": "V_DC_PORT",
+        "xy": [
+          141.11,
+          112.3
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R205",
+        "pad": "1",
+        "net": "V_U_PORT",
+        "xy": [
+          118.125,
+          128.7
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R57",
+        "pad": "2",
+        "net": "V_U_PORT",
+        "xy": [
+          143.885,
+          131.213
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.54,
+          0.64
+        ]
+      }
+    ],
+    [
+      {
+        "ref": "R202",
+        "pad": "1",
+        "net": "I_V_PORT",
+        "xy": [
+          119.2,
+          121.925
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      },
+      {
+        "ref": "R38",
+        "pad": "2",
+        "net": "I_V_PORT",
+        "xy": [
+          148.4,
+          142.975
+        ],
+        "layer": "B.Cu",
+        "size": [
+          0.8,
+          0.95
+        ]
+      }
+    ]
+  ],
+  "scope": "Read-only remaining-work snapshot, not final routing report."
+}

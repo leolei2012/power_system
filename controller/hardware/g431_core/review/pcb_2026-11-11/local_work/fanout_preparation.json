@@ -1,0 +1,110 @@
+[
+  {
+    "uuid": "7f71c247-c567-424d-88f6-54a5b7c6b387",
+    "net": "+3V3_MCU",
+    "locked": true,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "aaf951fe-7edb-4d5a-994a-47822d9bc196",
+    "net": "+3V3_MCU",
+    "locked": true,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "4a5cd78f-b64f-4239-9674-0da9dfccc07a",
+    "net": "+3V3_MCU",
+    "locked": true,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "541ae028-9d96-4eb8-bc15-7a1a2a0c42b5",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "7ed1c355-e9c2-4dc1-855b-ffe9e2e45f7e",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "902c7a43-0666-4207-b33a-1e581475a162",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "002990eb-9f08-49a4-82d8-167042166bc4",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "13d738a7-378d-403e-ac6f-1fc294bd1688",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "2aa4b5c3-35b6-4b6b-8a57-252cb31803b8",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "31cde213-4056-4efc-b315-947e32f8e6bd",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "855ca9f3-85ab-4b0c-a950-d089bf111d86",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "9f7b95b2-d752-4b3e-82b5-e7fc241c98ea",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "c341a8b2-5e3e-4984-86ed-a995317c9d8c",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "ea6a02d1-9598-41de-b5a2-0ed029a190d5",
+    "net": "PB0",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "12868b2f-6aac-4371-800a-d84e863cca89",
+    "net": "PC13",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "2c34dded-73e7-494d-9aa3-7ad8a4f4f63e",
+    "net": "PC13",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "c8dfa268-8a64-441f-9c09-7c019e569d8f",
+    "net": "PC13",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  },
+  {
+    "uuid": "5b2f3f78-4e99-461c-b4b3-d22c073a3214",
+    "net": "PC13",
+    "locked": false,
+    "reason": "PB0 ordinary refanout / PC13 escape replacement / redundant VBAT local via simplification"
+  }
+]

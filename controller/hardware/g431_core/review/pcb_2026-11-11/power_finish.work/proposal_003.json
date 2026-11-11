@@ -1,0 +1,42 @@
+{
+  "net": "+3V3_MCU",
+  "paths": [
+    {
+      "net": "+3V3_MCU",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          120.25,
+          133.75
+        ],
+        [
+          120.25,
+          134.5
+        ],
+        [
+          120.3,
+          134.55
+        ],
+        [
+          120.3,
+          135.6
+        ],
+        [
+          120.25,
+          135.75
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 89,
+    "seconds": 2.922,
+    "start_candidates": 176,
+    "goal_candidates": 197
+  }
+}

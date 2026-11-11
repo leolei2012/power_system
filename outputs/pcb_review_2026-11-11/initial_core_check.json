@@ -1,0 +1,1115 @@
+{
+  "board": "controller\\hardware\\g431_core\\controller.kicad_pcb",
+  "XML": "controller\\hardware\\g431_core\\review\\controller.net.xml",
+  "input_sha256": {
+    "board": "8e54d95c2b53accad5a1647ad61c3523dc73a0bf57f2243bc95af88fd9f972e0",
+    "XML": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1"
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "check": "missing_3D_model_files",
+      "count": 18
+    }
+  ],
+  "mapping": {
+    "counts": {
+      "references": 47,
+      "pins": 233,
+      "DNP": 3
+    },
+    "PCB_footprints": 51,
+    "board_only_mounting_references": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "unique_physical_pin_nodes": 233,
+    "numbered_copper_pads_checked": 233,
+    "duplicate_numbers_checked_individually": [],
+    "NC_pads": [
+      {
+        "reference": "U102",
+        "pin": "4",
+        "net": "unconnected-(U102-CT-Pad4)"
+      },
+      {
+        "reference": "U103",
+        "pin": "1",
+        "net": "unconnected-(U103-NC-Pad1)"
+      }
+    ],
+    "non_NC_net_partitions_equal": true,
+    "mismatches": []
+  },
+  "mapping_pass": true,
+  "placements": {
+    "U101": {
+      "position_mm": [
+        132.5,
+        106.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "DNP": false
+    },
+    "C308": {
+      "position_mm": [
+        141.7,
+        125.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C83": {
+      "position_mm": [
+        124.7,
+        128.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": true
+    },
+    "C305": {
+      "position_mm": [
+        122.4,
+        144.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:KEMET_T491_B_3528_Pad1.80x2.23mm_Gap1.12mm",
+      "DNP": false
+    },
+    "C301": {
+      "position_mm": [
+        118.0,
+        111.3
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C304": {
+      "position_mm": [
+        136.5,
+        104.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C68": {
+      "position_mm": [
+        116.0,
+        139.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "J101": {
+      "position_mm": [
+        104.73,
+        110.95
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+      "DNP": false
+    },
+    "C84": {
+      "position_mm": [
+        125.7,
+        135.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": true
+    },
+    "H3": {
+      "position_mm": [
+        104.0,
+        156.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "H2": {
+      "position_mm": [
+        156.0,
+        104.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "R306": {
+      "position_mm": [
+        134.8,
+        117.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "TP15": {
+      "position_mm": [
+        146.5,
+        150.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "D103": {
+      "position_mm": [
+        132.5,
+        102.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+      "DNP": false
+    },
+    "D101": {
+      "position_mm": [
+        114.8,
+        106.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:MCC_SOD-123FL_Pad0.91x1.22mm_Gap2.36mm",
+      "DNP": false
+    },
+    "C78": {
+      "position_mm": [
+        113.8,
+        119.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C66": {
+      "position_mm": [
+        120.25,
+        137.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R304": {
+      "position_mm": [
+        135.8,
+        109.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C63": {
+      "position_mm": [
+        125.0,
+        126.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C306": {
+      "position_mm": [
+        140.0,
+        112.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C307": {
+      "position_mm": [
+        141.0,
+        116.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "H1": {
+      "position_mm": [
+        104.0,
+        104.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "SW3": {
+      "position_mm": [
+        140.0,
+        156.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+      "DNP": false
+    },
+    "R305": {
+      "position_mm": [
+        139.5,
+        114.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "U102": {
+      "position_mm": [
+        135.8,
+        112.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-23-6",
+      "DNP": false
+    },
+    "D102": {
+      "position_mm": [
+        122.7,
+        106.7
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm",
+      "DNP": false
+    },
+    "C303": {
+      "position_mm": [
+        136.0,
+        106.65
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "R93": {
+      "position_mm": [
+        116.9,
+        116.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "Y1": {
+      "position_mm": [
+        125.1,
+        132.0
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "DNP": true
+    },
+    "R302": {
+      "position_mm": [
+        112.8,
+        142.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:R_0603_1608Metric",
+      "DNP": false
+    },
+    "U30": {
+      "position_mm": [
+        116.5,
+        130.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:ST_LQFP-64_10x10mm_P0.5mm_Pad1.2x0.3mm",
+      "DNP": false
+    },
+    "SW2": {
+      "position_mm": [
+        119.0,
+        156.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+      "DNP": false
+    },
+    "R303": {
+      "position_mm": [
+        112.8,
+        145.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C77": {
+      "position_mm": [
+        114.3,
+        122.15
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "J102": {
+      "position_mm": [
+        128.729999,
+        110.95
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+      "DNP": false
+    },
+    "R301": {
+      "position_mm": [
+        111.2,
+        108.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R92": {
+      "position_mm": [
+        113.3,
+        116.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C302": {
+      "position_mm": [
+        129.0,
+        106.65
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C64": {
+      "position_mm": [
+        112.75,
+        122.15
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "U104": {
+      "position_mm": [
+        117.0,
+        143.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TI_DBZ0003A_Pad1.30x0.60mm_P2.10mm",
+      "DNP": false
+    },
+    "U105": {
+      "position_mm": [
+        137.5,
+        126.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+      "DNP": false
+    },
+    "U103": {
+      "position_mm": [
+        137.8,
+        119.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+      "DNP": false
+    },
+    "R401": {
+      "position_mm": [
+        146.2,
+        154.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "H4": {
+      "position_mm": [
+        156.0,
+        156.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "C80": {
+      "position_mm": [
+        117.5,
+        119.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C79": {
+      "position_mm": [
+        116.0,
+        122.15
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C81": {
+      "position_mm": [
+        121.5,
+        130.75
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R402": {
+      "position_mm": [
+        112.0,
+        129.25
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C65": {
+      "position_mm": [
+        111.5,
+        133.75
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R122": {
+      "position_mm": [
+        118.75,
+        135.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C67": {
+      "position_mm": [
+        121.4,
+        133.75
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    }
+  },
+  "geometry": {
+    "outline_pass": true,
+    "outline_bbox_mm": [
+      100.0,
+      100.0,
+      160.0,
+      160.0
+    ],
+    "copper_layers": 4,
+    "mounting_holes": [
+      {
+        "reference": "H1",
+        "position_mm": [
+          104.0,
+          104.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H2",
+        "position_mm": [
+          156.0,
+          104.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H3",
+        "position_mm": [
+          104.0,
+          156.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H4",
+        "position_mm": [
+          156.0,
+          156.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      }
+    ],
+    "mounting_copper_keepout_radius_mm": 2.8,
+    "mounting_copper_intrusions": [],
+    "unfilled_copper_zones": [],
+    "mounting_hardware_courtyard_review": [],
+    "courtyard_missing": [],
+    "courtyard_outside_board": [],
+    "courtyard_overlaps": [],
+    "core_buttons": [
+      {
+        "reference": "SW2",
+        "position_mm": [
+          119.0,
+          156.5
+        ],
+        "layer": "F.Cu",
+        "nominal_height_mm": 2.5,
+        "height_tolerance_mm": 0.1,
+        "edge_placement_pass": true
+      },
+      {
+        "reference": "SW3",
+        "position_mm": [
+          140.0,
+          156.5
+        ],
+        "layer": "F.Cu",
+        "nominal_height_mm": 2.5,
+        "height_tolerance_mm": 0.1,
+        "edge_placement_pass": true
+      }
+    ],
+    "upper_board_button_access_obstacles": []
+  },
+  "3D_models": {
+    "links": [
+      {
+        "reference": "U101",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C308",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C83",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C305",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/CP_EIA-3528-21_Kemet-B.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\CP_EIA-3528-21_Kemet-B.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C301",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C304",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C68",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "J101",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\PinHeader_2x16_P2.54mm_Vertical.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C84",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R306",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D103",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/Nexperia_CFP3_SOD-123W.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\Nexperia_CFP3_SOD-123W.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "D101",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/D_SOD-123F.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\D_SOD-123F.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C78",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C66",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R304",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C63",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C306",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C307",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "R305",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U102",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-6.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23-6.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "D102",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/D_SMA.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\D_SMA.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C303",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R93",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "Y1",
+        "model": "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Crystal.3dshapes\\Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R302",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/R_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\R_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U30",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/LQFP-64_10x10mm_P0.5mm.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\LQFP-64_10x10mm_P0.5mm.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "R303",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/R_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\R_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C77",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "J102",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\PinHeader_2x16_P2.54mm_Vertical.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "R301",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R92",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C302",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C64",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U104",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U105",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23-5.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U103",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23-5.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "R401",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C80",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C79",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C81",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R402",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C65",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R122",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C67",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      }
+    ],
+    "references_without_model": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "SW2",
+      "SW3",
+      "TP15"
+    ],
+    "missing_files": [
+      {
+        "reference": "U101",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C308",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C305",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/CP_EIA-3528-21_Kemet-B.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\CP_EIA-3528-21_Kemet-B.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C304",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "J101",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\PinHeader_2x16_P2.54mm_Vertical.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "D103",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/Nexperia_CFP3_SOD-123W.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\Nexperia_CFP3_SOD-123W.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "D101",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/D_SOD-123F.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\D_SOD-123F.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C306",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "C307",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U102",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-6.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23-6.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "D102",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/D_SMA.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\D_SMA.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "R302",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/R_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\R_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U30",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/LQFP-64_10x10mm_P0.5mm.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\LQFP-64_10x10mm_P0.5mm.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "R303",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/R_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\R_0603_1608Metric.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "J102",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/PinHeader_2x16_P2.54mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\PinHeader_2x16_P2.54mm_Vertical.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U104",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U105",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23-5.step",
+        "exists": false,
+        "shown": true
+      },
+      {
+        "reference": "U103",
+        "model": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+        "resolved_path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\kicad_library\\3dmodels\\SOT-23-5.step",
+        "exists": false,
+        "shown": true
+      }
+    ],
+    "scope": "File resolution only; a generic model does not qualify exact body or mating height."
+  },
+  "routing": {
+    "raw_pcbnew_unconnected": 167,
+    "track_segments": 0,
+    "vias": 0,
+    "zones": 4
+  },
+  "board_unchanged_during_read": true,
+  "scope": "Initial core-only readback; owner continues routing; no final PCB claim or source edits.",
+  "initial_owner_DRC_reference": {
+    "path": "controller/hardware/g431_core/review/pcb_2026-11-11/initial_drc.json",
+    "sha256": "c50d3fc52450676ef68819ffad72e8f164005a6af1ef4db8b7c45a090a574f18",
+    "date": "2026-11-11T09:34:22",
+    "violations": 0,
+    "unconnected_items": 167,
+    "schematic_parity": 15,
+    "parity_classification": "All 15 warnings report missing ki_fp_filters metadata; exact FPID/value/pad/net mapping independently passes.",
+    "note": "Owner initial report; not a new DRC run or final-board report."
+  }
+}

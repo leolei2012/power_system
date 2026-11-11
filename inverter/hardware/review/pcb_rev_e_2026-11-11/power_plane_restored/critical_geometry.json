@@ -1,0 +1,107 @@
+{
+  "method": "Actual saved tracks/pads/vias and per-layer filled-zone islands; same-layer shape intersections plus plated through-layer links.",
+  "critical_paths": {
+    "DC_INPUT": {
+      "pass": true,
+      "physical_pad_count": 2,
+      "components": 1
+    },
+    "DC_FUSED": {
+      "pass": true,
+      "physical_pad_count": 3,
+      "components": 1
+    },
+    "VBUS": {
+      "pass": true,
+      "physical_pad_count": 21,
+      "components": 1
+    },
+    "GND_MAIN": {
+      "pass": true,
+      "physical_pad_count": 11,
+      "components": 1
+    },
+    "BRAKE_SW": {
+      "pass": true,
+      "physical_pad_count": 6,
+      "components": 1
+    },
+    "U_PHASE": {
+      "pass": true,
+      "physical_pad_count": 9,
+      "components": 1
+    },
+    "U_SOURCE": {
+      "pass": true,
+      "physical_pad_count": 5,
+      "components": 1
+    },
+    "U_NEGATIVE_KELVIN": {
+      "pass": true,
+      "physical_pad_count": 2,
+      "components": 1
+    },
+    "V_PHASE": {
+      "pass": true,
+      "physical_pad_count": 9,
+      "components": 1
+    },
+    "V_SOURCE": {
+      "pass": true,
+      "physical_pad_count": 5,
+      "components": 1
+    },
+    "V_NEGATIVE_KELVIN": {
+      "pass": true,
+      "physical_pad_count": 2,
+      "components": 1
+    },
+    "W_PHASE": {
+      "pass": true,
+      "physical_pad_count": 9,
+      "components": 1
+    },
+    "W_SOURCE": {
+      "pass": true,
+      "physical_pad_count": 5,
+      "components": 1
+    },
+    "W_NEGATIVE_KELVIN": {
+      "pass": true,
+      "physical_pad_count": 2,
+      "components": 1
+    }
+  },
+  "negative_kelvin_plane_isolation": [
+    {
+      "phase": "U",
+      "layer": "In1.Cu",
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "layer": "In4.Cu",
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "layer": "In1.Cu",
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "layer": "In4.Cu",
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "layer": "In1.Cu",
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "layer": "In4.Cu",
+      "isolated": true
+    }
+  ]
+}

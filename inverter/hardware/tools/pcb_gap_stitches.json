@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "status": "READ_ONLY_TARGETED_CANDIDATE; apply only after source/airwire revalidation and zone refill plus DRC",
+  "board_sha256": "4aa2369dfa8ed45183b20d7fe2c45f9f9c89eb96170b892d40a6530e6b950be4",
+  "source_drc_sha256": "1f3103eee406316fd6dfe6919a94cb40715d429b32e3b36688681190707e8f7a",
+  "source_unconnected_items": 29,
+  "paths": [],
+  "vias": [
+    {
+      "net": "U_LIN",
+      "x": 117.03,
+      "y": 48.5738,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reason": "Exact same XY: F.Cu endpoint of bbbba91e-ed65-4c0f-8cfc-285e5f826816 and In2.Cu endpoint of cd77ac0f-5ec1-4e20-b094-6305bd20603d. Current DRC item 28 reports this cross-layer gap. No fixed opposite-net pad/track/via obstacle on any copper layer.",
+      "status": "FIXED_COPPER_CLEAR_REQUIRES_ZONE_REFILL_DRC",
+      "distance_mm": 0,
+      "all_layer_clearance_mm_min": 0.2,
+      "fixed_other_net_obstacles": [],
+      "same_net_touching_objects": [
+        {
+          "uuid": "bbbba91e-ed65-4c0f-8cfc-285e5f826816",
+          "layer": "F.Cu",
+          "kind": "PCB_TRACK"
+        },
+        {
+          "uuid": "cd77ac0f-5ec1-4e20-b094-6305bd20603d",
+          "layer": "In2.Cu",
+          "kind": "PCB_TRACK"
+        }
+      ],
+      "existing_pours_requiring_antipads_after_refill": [
+        {
+          "uuid": "761545eb-9751-4760-99d8-fb24cf451d65",
+          "net": "GND",
+          "layer": "In1.Cu",
+          "required_antipad_diameter_mm": 1.0
+        },
+        {
+          "uuid": "128e3814-81c5-44e8-9e15-818b36a8a8bb",
+          "net": "VBUS",
+          "layer": "In2.Cu",
+          "required_antipad_diameter_mm": 1.4
+        },
+        {
+          "uuid": "6576336a-2992-4919-ad2c-b62077da5871",
+          "net": "U_PHASE",
+          "layer": "B.Cu",
+          "required_antipad_diameter_mm": 1.4
+        },
+        {
+          "uuid": "f022abb6-990a-490d-86a3-e374ccd97b2e",
+          "net": "GND",
+          "layer": "B.Cu",
+          "required_antipad_diameter_mm": 1.0
+        }
+      ],
+      "mandatory": "Refill affected zones before DRC; current filled opposite-net pour intersects proposed via until antipad regeneration."
+    }
+  ],
+  "unresolved": [
+    {
+      "drc_index": 0,
+      "uuids": [
+        "128e3814-81c5-44e8-9e15-818b36a8a8bb",
+        "128e3814-81c5-44e8-9e15-818b36a8a8bb"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 1,
+      "uuids": [
+        "128e3814-81c5-44e8-9e15-818b36a8a8bb",
+        "128e3814-81c5-44e8-9e15-818b36a8a8bb"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 2,
+      "uuids": [
+        "d037c304-63c7-4670-8ac1-38dddbfd94da",
+        "8989750d-8712-4fcb-8c03-d30ca3542544"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 3,
+      "uuids": [
+        "11e525e7-ecd7-4204-be27-9dd24457445f",
+        "6fdcdedf-d33a-4899-8a08-938e422059a2"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 4,
+      "uuids": [
+        "2f8990a3-c9ac-4416-9426-2f68ce9cb166",
+        "8833036b-4369-438b-89ba-e7fb4a772e5b"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 5,
+      "uuids": [
+        "69483a70-9445-4941-83d8-a5970ae9e0ab",
+        "8d264327-d198-4d72-96e8-a46f17008573"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 6,
+      "uuids": [
+        "e74326d9-429d-415f-9e95-c481b094216c",
+        "2af22f1d-07f4-4914-bbfc-0e49590fa133"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 7,
+      "uuids": [
+        "2f6cfa09-765c-4527-ba10-e7020567ea9b",
+        "d922929e-10bf-4634-8a49-1af546e931a7"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 8,
+      "uuids": [
+        "4015e73c-827a-460e-a5bb-c924d6a3cac3",
+        "e58bcd32-1016-47ad-8696-175accca2275"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 9,
+      "uuids": [
+        "d9240d3e-9deb-42d5-a5a6-735a941ee812",
+        "97e62663-4ade-43bf-984f-61f4220530e6"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 10,
+      "uuids": [
+        "97e62663-4ade-43bf-984f-61f4220530e6",
+        "2f49b3b8-d27c-4d41-81f5-bfac2108c5aa"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 11,
+      "uuids": [
+        "7dffa723-c936-484c-b746-b9114154560e",
+        "8d7d5b8e-46c3-4b0f-9012-83294c02a2ea"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 12,
+      "uuids": [
+        "4555079a-88a6-47ee-a6b5-e85ef8d10d94",
+        "e3c735b5-2cf9-4be1-8a41-b533ffeacff7"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 13,
+      "uuids": [
+        "a0a6f05c-57ce-45e6-8e90-c86966528472",
+        "4555079a-88a6-47ee-a6b5-e85ef8d10d94"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 14,
+      "uuids": [
+        "4cadfaec-7efd-4849-a884-49ac95326b34",
+        "cf600a0f-c6da-412b-9cff-ba3fda64002f"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 15,
+      "uuids": [
+        "32f9e969-194e-4c6e-bcbf-3942a460f3cf",
+        "987cd089-bbf1-48e3-9922-e68780af036a"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 16,
+      "uuids": [
+        "af5ea060-ea37-4f98-8d7c-21988e452b9d",
+        "db947695-c8f8-4b50-8a08-4eb2209a8a49"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 17,
+      "uuids": [
+        "64b12359-7283-44c8-8501-d1949693a2c7",
+        "af5ea060-ea37-4f98-8d7c-21988e452b9d"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 18,
+      "uuids": [
+        "d95388cc-36ac-4d80-bc1a-33cd0ec73012",
+        "a23ff43a-ace2-4621-ac9e-3ab6727813da"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 19,
+      "uuids": [
+        "775dba9b-c7c1-4420-9445-f2ea5c3a657c",
+        "2c894358-e9ff-49e5-817a-668f39c26494"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 20,
+      "uuids": [
+        "2ee76a91-a67f-43f9-bdb1-e3aac3b08306",
+        "4366f128-9166-46e7-9dfb-bb3e253df36a"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 21,
+      "uuids": [
+        "2a69a4e7-d894-473b-a707-ca7da8dc43e9",
+        "2c1f87cd-ca26-4624-bafd-e423d911fb89"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 22,
+      "uuids": [
+        "2c1f87cd-ca26-4624-bafd-e423d911fb89",
+        "e151e170-c84a-49a1-9bc6-f62f3fa22fc4"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 23,
+      "uuids": [
+        "9756abc5-6b2e-49cd-b7a7-5e2f9d664188",
+        "fa179070-a638-4c23-846b-9fdf9ac3ee14"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 24,
+      "uuids": [
+        "6069937b-21ac-4eba-aae4-632938bec7c7",
+        "c7445ad7-6eee-4da1-a18e-6ac39788c1bd"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 25,
+      "uuids": [
+        "bb7a41a6-76fa-4041-946a-903c98b01ba7",
+        "4741b59e-5f58-4bd3-896e-1b12278271ff"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 26,
+      "uuids": [
+        "114b072e-4c70-4f12-bd99-9ce233d391fb",
+        "fca72e6f-ed87-41cf-a15d-2fd6c19a25d1"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    },
+    {
+      "drc_index": 27,
+      "uuids": [
+        "114b072e-4c70-4f12-bd99-9ce233d391fb",
+        "0a946f44-6dc8-4965-ae3a-ffbd42a8208c"
+      ],
+      "reason": "No sufficiently verified short same-layer fixed-copper stitch in this review; long routes remain scoped-router work. VBUS/V_PHASE filled-zone topology must be checked as separate polygon islands, not collapsed by zone UUID."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "REVIEW_WITH_FINDINGS",
+  "mapping_pass": true,
+  "mating_pass": true,
+  "contacts": 64,
+  "boards": {
+    "controller": {
+      "references": 47,
+      "pins": 233,
+      "mapping_pass": true,
+      "errors": 0,
+      "warnings": 0,
+      "DRC": {
+        "violations": null,
+        "unconnected_items": null,
+        "schematic_parity": null
+      },
+      "raw_unconnected": 0
+    },
+    "inverter": {
+      "references": 317,
+      "pins": 969,
+      "mapping_pass": true,
+      "errors": 0,
+      "warnings": 1,
+      "DRC": {
+        "violations": null,
+        "unconnected_items": null,
+        "schematic_parity": null
+      },
+      "raw_unconnected": 235
+    }
+  }
+}

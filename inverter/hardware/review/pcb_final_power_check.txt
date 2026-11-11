@@ -1,0 +1,23 @@
+Independent PCB readback check
+==============================
+Status: PASS_MAPPING
+Verification completed: True
+Physical mapping pass: True
+Board: inverter\hardware\review\inverter_final_power_candidate.kicad_pcb
+XML netlist: D:\workspace\power_system\inverter\hardware\review\inverter.net.xml
+Expected / present physical references: 313 / 313
+Numbered physical pads checked: 933
+Copper layers / mounting holes: 4 / 4
+Tracks+arcs / vias / zones: 2931 / 384 / 8
+Unconnected (pcbnew raw): 15
+Unconnected (external CLI DRC): 15
+Layout geometry pass: True
+Routing complete: False
+Fabrication release: NOT APPROVED
+
+Errors (0):
+
+Warnings (1):
+{"check": "routing_incomplete", "unconnected": 15, "note": "A placement review is not a routed or fabrication-ready PCB."}
+
+Full pad mismatches, courtyard intersections, bounds and DRC summary are in pcb_check.json.

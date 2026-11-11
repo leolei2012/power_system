@@ -1,0 +1,3044 @@
+{
+  "relationships": [
+    {
+      "group": "U_bridge",
+      "purpose": "HO to high-side gate resistor input",
+      "from": "U7.7",
+      "to": "R19.1",
+      "XML_net": "/U half bridge/U_HO",
+      "from_XY_mm": [
+        140.875,
+        118.535
+      ],
+      "to_XY_mm": [
+        144.5875,
+        117.0
+      ],
+      "pad_center_distance_mm": 4.0173,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side resistor output to MOS gate",
+      "from": "R19.2",
+      "to": "Q1.4",
+      "XML_net": "/U half bridge/U_GATE_H",
+      "from_XY_mm": [
+        146.4125,
+        117.0
+      ],
+      "to_XY_mm": [
+        143.925,
+        115.495
+      ],
+      "pad_center_distance_mm": 2.9073,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "LO to low-side gate resistor input",
+      "from": "U7.4",
+      "to": "R20.1",
+      "XML_net": "/U half bridge/U_LO",
+      "from_XY_mm": [
+        135.925,
+        115.995
+      ],
+      "to_XY_mm": [
+        156.8125,
+        113.4
+      ],
+      "pad_center_distance_mm": 21.0481,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side resistor output to MOS gate",
+      "from": "R20.2",
+      "to": "Q2.4",
+      "XML_net": "/U half bridge/U_GATE_L",
+      "from_XY_mm": [
+        154.9875,
+        113.4
+      ],
+      "to_XY_mm": [
+        152.825,
+        115.495
+      ],
+      "pad_center_distance_mm": 3.0109,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U7.6",
+      "to": "Q1.1",
+      "XML_net": "U_PHASE",
+      "from_XY_mm": [
+        140.875,
+        117.265
+      ],
+      "to_XY_mm": [
+        143.925,
+        119.305
+      ],
+      "pad_center_distance_mm": 3.6693,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U7.3",
+      "to": "Q2.1",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        135.925,
+        117.265
+      ],
+      "to_XY_mm": [
+        152.825,
+        119.305
+      ],
+      "pad_center_distance_mm": 17.0227,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q2.1",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        119.305
+      ],
+      "to_XY_mm": [
+        151.5,
+        121.8
+      ],
+      "pad_center_distance_mm": 2.825,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U7.6",
+      "to": "Q1.2",
+      "XML_net": "U_PHASE",
+      "from_XY_mm": [
+        140.875,
+        117.265
+      ],
+      "to_XY_mm": [
+        143.925,
+        118.035
+      ],
+      "pad_center_distance_mm": 3.1457,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U7.3",
+      "to": "Q2.2",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        135.925,
+        117.265
+      ],
+      "to_XY_mm": [
+        152.825,
+        118.035
+      ],
+      "pad_center_distance_mm": 16.9175,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q2.2",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        118.035
+      ],
+      "to_XY_mm": [
+        151.5,
+        121.8
+      ],
+      "pad_center_distance_mm": 3.9913,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U7.6",
+      "to": "Q1.3",
+      "XML_net": "U_PHASE",
+      "from_XY_mm": [
+        140.875,
+        117.265
+      ],
+      "to_XY_mm": [
+        143.925,
+        116.765
+      ],
+      "pad_center_distance_mm": 3.0907,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U7.3",
+      "to": "Q2.3",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        135.925,
+        117.265
+      ],
+      "to_XY_mm": [
+        152.825,
+        116.765
+      ],
+      "pad_center_distance_mm": 16.9074,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q2.3",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        116.765
+      ],
+      "to_XY_mm": [
+        151.5,
+        121.8
+      ],
+      "pad_center_distance_mm": 5.2064,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "COM return to shunt hot terminal",
+      "from": "U7.3",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        135.925,
+        117.265
+      ],
+      "to_XY_mm": [
+        151.5,
+        121.8
+      ],
+      "pad_center_distance_mm": 16.2218,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C25.1",
+      "to": "U7.8",
+      "XML_net": "/U half bridge/U_BOOT",
+      "from_XY_mm": [
+        143.2,
+        123.125
+      ],
+      "to_XY_mm": [
+        140.875,
+        119.805
+      ],
+      "pad_center_distance_mm": 4.0532,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C25.2",
+      "to": "U7.6",
+      "XML_net": "U_PHASE",
+      "from_XY_mm": [
+        143.2,
+        126.075
+      ],
+      "to_XY_mm": [
+        140.875,
+        117.265
+      ],
+      "pad_center_distance_mm": 9.1116,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C26.1",
+      "to": "U7.8",
+      "XML_net": "/U half bridge/U_BOOT",
+      "from_XY_mm": [
+        144.1,
+        121.375
+      ],
+      "to_XY_mm": [
+        140.875,
+        119.805
+      ],
+      "pad_center_distance_mm": 3.5869,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C26.2",
+      "to": "U7.6",
+      "XML_net": "U_PHASE",
+      "from_XY_mm": [
+        144.1,
+        119.825
+      ],
+      "to_XY_mm": [
+        140.875,
+        117.265
+      ],
+      "pad_center_distance_mm": 4.1176,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C27.1",
+      "to": "U7.5",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        136.65,
+        113.4
+      ],
+      "to_XY_mm": [
+        140.875,
+        115.995
+      ],
+      "pad_center_distance_mm": 4.9583,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C27.2",
+      "to": "U7.3",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        134.75,
+        113.4
+      ],
+      "to_XY_mm": [
+        135.925,
+        117.265
+      ],
+      "pad_center_distance_mm": 4.0397,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C28.1",
+      "to": "U7.5",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        140.275,
+        113.65
+      ],
+      "to_XY_mm": [
+        140.875,
+        115.995
+      ],
+      "pad_center_distance_mm": 2.4205,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C28.2",
+      "to": "U7.3",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        138.725,
+        113.65
+      ],
+      "to_XY_mm": [
+        135.925,
+        117.265
+      ],
+      "pad_center_distance_mm": 4.5726,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA positive Kelvin takeoff",
+      "from": "U10.8",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE",
+      "from_XY_mm": [
+        148.8375,
+        126.375
+      ],
+      "to_XY_mm": [
+        151.5,
+        121.8
+      ],
+      "pad_center_distance_mm": 5.2933,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA negative Kelvin takeoff",
+      "from": "U10.1",
+      "to": "RS1.2",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        146.5625,
+        126.375
+      ],
+      "to_XY_mm": [
+        151.5,
+        128.0
+      ],
+      "pad_center_distance_mm": 5.198,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA local decoupling positive",
+      "from": "C37.1",
+      "to": "U10.6",
+      "XML_net": "+3V3_INV",
+      "from_XY_mm": [
+        150.725,
+        125.4
+      ],
+      "to_XY_mm": [
+        148.8375,
+        125.075
+      ],
+      "pad_center_distance_mm": 1.9153,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA local decoupling return",
+      "from": "C37.2",
+      "to": "U10.2",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        152.275,
+        125.4
+      ],
+      "to_XY_mm": [
+        146.5625,
+        125.725
+      ],
+      "pad_center_distance_mm": 5.7217,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "HO to high-side gate resistor input",
+      "from": "U8.7",
+      "to": "R25.1",
+      "XML_net": "/V half bridge/V_HO",
+      "from_XY_mm": [
+        141.975,
+        133.035
+      ],
+      "to_XY_mm": [
+        144.5875,
+        129.5
+      ],
+      "pad_center_distance_mm": 4.3956,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side resistor output to MOS gate",
+      "from": "R25.2",
+      "to": "Q3.4",
+      "XML_net": "/V half bridge/V_GATE_H",
+      "from_XY_mm": [
+        146.4125,
+        129.5
+      ],
+      "to_XY_mm": [
+        143.925,
+        130.495
+      ],
+      "pad_center_distance_mm": 2.6791,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "LO to low-side gate resistor input",
+      "from": "U8.4",
+      "to": "R26.1",
+      "XML_net": "/V half bridge/V_LO",
+      "from_XY_mm": [
+        137.025,
+        130.495
+      ],
+      "to_XY_mm": [
+        148.1,
+        125.8875
+      ],
+      "pad_center_distance_mm": 11.9952,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side resistor output to MOS gate",
+      "from": "R26.2",
+      "to": "Q4.4",
+      "XML_net": "/V half bridge/V_GATE_L",
+      "from_XY_mm": [
+        148.1,
+        127.7125
+      ],
+      "to_XY_mm": [
+        152.825,
+        130.495
+      ],
+      "pad_center_distance_mm": 5.4834,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U8.6",
+      "to": "Q3.1",
+      "XML_net": "V_PHASE",
+      "from_XY_mm": [
+        141.975,
+        131.765
+      ],
+      "to_XY_mm": [
+        143.925,
+        134.305
+      ],
+      "pad_center_distance_mm": 3.2022,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U8.3",
+      "to": "Q4.1",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        131.765
+      ],
+      "to_XY_mm": [
+        152.825,
+        134.305
+      ],
+      "pad_center_distance_mm": 16.0029,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q4.1",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        134.305
+      ],
+      "to_XY_mm": [
+        151.5,
+        136.8
+      ],
+      "pad_center_distance_mm": 2.825,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U8.6",
+      "to": "Q3.2",
+      "XML_net": "V_PHASE",
+      "from_XY_mm": [
+        141.975,
+        131.765
+      ],
+      "to_XY_mm": [
+        143.925,
+        133.035
+      ],
+      "pad_center_distance_mm": 2.3271,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U8.3",
+      "to": "Q4.2",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        131.765
+      ],
+      "to_XY_mm": [
+        152.825,
+        133.035
+      ],
+      "pad_center_distance_mm": 15.851,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q4.2",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        133.035
+      ],
+      "to_XY_mm": [
+        151.5,
+        136.8
+      ],
+      "pad_center_distance_mm": 3.9913,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U8.6",
+      "to": "Q3.3",
+      "XML_net": "V_PHASE",
+      "from_XY_mm": [
+        141.975,
+        131.765
+      ],
+      "to_XY_mm": [
+        143.925,
+        131.765
+      ],
+      "pad_center_distance_mm": 1.95,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U8.3",
+      "to": "Q4.3",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        131.765
+      ],
+      "to_XY_mm": [
+        152.825,
+        131.765
+      ],
+      "pad_center_distance_mm": 15.8,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q4.3",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        131.765
+      ],
+      "to_XY_mm": [
+        151.5,
+        136.8
+      ],
+      "pad_center_distance_mm": 5.2064,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "COM return to shunt hot terminal",
+      "from": "U8.3",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        131.765
+      ],
+      "to_XY_mm": [
+        151.5,
+        136.8
+      ],
+      "pad_center_distance_mm": 15.3257,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C29.1",
+      "to": "U8.8",
+      "XML_net": "/V half bridge/V_BOOT",
+      "from_XY_mm": [
+        143.2,
+        138.125
+      ],
+      "to_XY_mm": [
+        141.975,
+        134.305
+      ],
+      "pad_center_distance_mm": 4.0116,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C29.2",
+      "to": "U8.6",
+      "XML_net": "V_PHASE",
+      "from_XY_mm": [
+        143.2,
+        141.075
+      ],
+      "to_XY_mm": [
+        141.975,
+        131.765
+      ],
+      "pad_center_distance_mm": 9.3902,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C30.1",
+      "to": "U8.8",
+      "XML_net": "/V half bridge/V_BOOT",
+      "from_XY_mm": [
+        144.1,
+        136.375
+      ],
+      "to_XY_mm": [
+        141.975,
+        134.305
+      ],
+      "pad_center_distance_mm": 2.9666,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C30.2",
+      "to": "U8.6",
+      "XML_net": "V_PHASE",
+      "from_XY_mm": [
+        144.1,
+        134.825
+      ],
+      "to_XY_mm": [
+        141.975,
+        131.765
+      ],
+      "pad_center_distance_mm": 3.7255,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C31.1",
+      "to": "U8.5",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        136.65,
+        128.4
+      ],
+      "to_XY_mm": [
+        141.975,
+        130.495
+      ],
+      "pad_center_distance_mm": 5.7223,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C31.2",
+      "to": "U8.3",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        134.75,
+        128.4
+      ],
+      "to_XY_mm": [
+        137.025,
+        131.765
+      ],
+      "pad_center_distance_mm": 4.0619,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C32.1",
+      "to": "U8.5",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        140.275,
+        128.65
+      ],
+      "to_XY_mm": [
+        141.975,
+        130.495
+      ],
+      "pad_center_distance_mm": 2.5088,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C32.2",
+      "to": "U8.3",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        138.725,
+        128.65
+      ],
+      "to_XY_mm": [
+        137.025,
+        131.765
+      ],
+      "pad_center_distance_mm": 3.5487,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA positive Kelvin takeoff",
+      "from": "U11.8",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE",
+      "from_XY_mm": [
+        148.8375,
+        141.375
+      ],
+      "to_XY_mm": [
+        151.5,
+        136.8
+      ],
+      "pad_center_distance_mm": 5.2933,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA negative Kelvin takeoff",
+      "from": "U11.1",
+      "to": "RS2.2",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        146.5625,
+        141.375
+      ],
+      "to_XY_mm": [
+        151.5,
+        143.0
+      ],
+      "pad_center_distance_mm": 5.198,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA local decoupling positive",
+      "from": "C38.1",
+      "to": "U11.6",
+      "XML_net": "+3V3_INV",
+      "from_XY_mm": [
+        150.725,
+        140.4
+      ],
+      "to_XY_mm": [
+        148.8375,
+        140.075
+      ],
+      "pad_center_distance_mm": 1.9153,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA local decoupling return",
+      "from": "C38.2",
+      "to": "U11.2",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        152.275,
+        140.4
+      ],
+      "to_XY_mm": [
+        146.5625,
+        140.725
+      ],
+      "pad_center_distance_mm": 5.7217,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "HO to high-side gate resistor input",
+      "from": "U9.7",
+      "to": "R31.1",
+      "XML_net": "/W half bridge/W_HO",
+      "from_XY_mm": [
+        141.975,
+        148.035
+      ],
+      "to_XY_mm": [
+        144.5875,
+        144.5
+      ],
+      "pad_center_distance_mm": 4.3956,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side resistor output to MOS gate",
+      "from": "R31.2",
+      "to": "Q5.4",
+      "XML_net": "/W half bridge/W_GATE_H",
+      "from_XY_mm": [
+        146.4125,
+        144.5
+      ],
+      "to_XY_mm": [
+        143.925,
+        145.495
+      ],
+      "pad_center_distance_mm": 2.6791,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "LO to low-side gate resistor input",
+      "from": "U9.4",
+      "to": "R32.1",
+      "XML_net": "/W half bridge/W_LO",
+      "from_XY_mm": [
+        137.025,
+        145.495
+      ],
+      "to_XY_mm": [
+        148.1,
+        140.8875
+      ],
+      "pad_center_distance_mm": 11.9952,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side resistor output to MOS gate",
+      "from": "R32.2",
+      "to": "Q6.4",
+      "XML_net": "/W half bridge/W_GATE_L",
+      "from_XY_mm": [
+        148.1,
+        142.7125
+      ],
+      "to_XY_mm": [
+        152.825,
+        145.495
+      ],
+      "pad_center_distance_mm": 5.4834,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U9.6",
+      "to": "Q5.1",
+      "XML_net": "W_PHASE",
+      "from_XY_mm": [
+        141.975,
+        146.765
+      ],
+      "to_XY_mm": [
+        143.925,
+        149.305
+      ],
+      "pad_center_distance_mm": 3.2022,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U9.3",
+      "to": "Q6.1",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        146.765
+      ],
+      "to_XY_mm": [
+        152.825,
+        149.305
+      ],
+      "pad_center_distance_mm": 16.0029,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q6.1",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        149.305
+      ],
+      "to_XY_mm": [
+        150.0,
+        151.8
+      ],
+      "pad_center_distance_mm": 3.769,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U9.6",
+      "to": "Q5.2",
+      "XML_net": "W_PHASE",
+      "from_XY_mm": [
+        141.975,
+        146.765
+      ],
+      "to_XY_mm": [
+        143.925,
+        148.035
+      ],
+      "pad_center_distance_mm": 2.3271,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U9.3",
+      "to": "Q6.2",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        146.765
+      ],
+      "to_XY_mm": [
+        152.825,
+        148.035
+      ],
+      "pad_center_distance_mm": 15.851,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q6.2",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        148.035
+      ],
+      "to_XY_mm": [
+        150.0,
+        151.8
+      ],
+      "pad_center_distance_mm": 4.707,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U9.6",
+      "to": "Q5.3",
+      "XML_net": "W_PHASE",
+      "from_XY_mm": [
+        141.975,
+        146.765
+      ],
+      "to_XY_mm": [
+        143.925,
+        146.765
+      ],
+      "pad_center_distance_mm": 1.95,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U9.3",
+      "to": "Q6.3",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        146.765
+      ],
+      "to_XY_mm": [
+        152.825,
+        146.765
+      ],
+      "pad_center_distance_mm": 15.8,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q6.3",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        152.825,
+        146.765
+      ],
+      "to_XY_mm": [
+        150.0,
+        151.8
+      ],
+      "pad_center_distance_mm": 5.7734,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "COM return to shunt hot terminal",
+      "from": "U9.3",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        137.025,
+        146.765
+      ],
+      "to_XY_mm": [
+        150.0,
+        151.8
+      ],
+      "pad_center_distance_mm": 13.9177,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C33.1",
+      "to": "U9.8",
+      "XML_net": "/W half bridge/W_BOOT",
+      "from_XY_mm": [
+        143.7,
+        151.625
+      ],
+      "to_XY_mm": [
+        141.975,
+        149.305
+      ],
+      "pad_center_distance_mm": 2.891,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C33.2",
+      "to": "U9.6",
+      "XML_net": "W_PHASE",
+      "from_XY_mm": [
+        143.7,
+        154.575
+      ],
+      "to_XY_mm": [
+        141.975,
+        146.765
+      ],
+      "pad_center_distance_mm": 7.9982,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C34.1",
+      "to": "U9.8",
+      "XML_net": "/W half bridge/W_BOOT",
+      "from_XY_mm": [
+        146.7,
+        151.225
+      ],
+      "to_XY_mm": [
+        141.975,
+        149.305
+      ],
+      "pad_center_distance_mm": 5.1002,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C34.2",
+      "to": "U9.6",
+      "XML_net": "W_PHASE",
+      "from_XY_mm": [
+        146.7,
+        152.775
+      ],
+      "to_XY_mm": [
+        141.975,
+        146.765
+      ],
+      "pad_center_distance_mm": 7.645,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C35.1",
+      "to": "U9.5",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        136.65,
+        143.4
+      ],
+      "to_XY_mm": [
+        141.975,
+        145.495
+      ],
+      "pad_center_distance_mm": 5.7223,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C35.2",
+      "to": "U9.3",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        134.75,
+        143.4
+      ],
+      "to_XY_mm": [
+        137.025,
+        146.765
+      ],
+      "pad_center_distance_mm": 4.0619,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C36.1",
+      "to": "U9.5",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        140.275,
+        143.65
+      ],
+      "to_XY_mm": [
+        141.975,
+        145.495
+      ],
+      "pad_center_distance_mm": 2.5088,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C36.2",
+      "to": "U9.3",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        138.725,
+        143.65
+      ],
+      "to_XY_mm": [
+        137.025,
+        146.765
+      ],
+      "pad_center_distance_mm": 3.5487,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA positive Kelvin takeoff",
+      "from": "U12.8",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE",
+      "from_XY_mm": [
+        150.1375,
+        156.375
+      ],
+      "to_XY_mm": [
+        150.0,
+        151.8
+      ],
+      "pad_center_distance_mm": 4.5771,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA negative Kelvin takeoff",
+      "from": "U12.1",
+      "to": "RS3.2",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        147.8625,
+        156.375
+      ],
+      "to_XY_mm": [
+        150.0,
+        158.0
+      ],
+      "pad_center_distance_mm": 2.6851,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA local decoupling positive",
+      "from": "C39.1",
+      "to": "U12.6",
+      "XML_net": "+3V3_INV",
+      "from_XY_mm": [
+        152.4,
+        156.975
+      ],
+      "to_XY_mm": [
+        150.1375,
+        155.075
+      ],
+      "pad_center_distance_mm": 2.9545,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA local decoupling return",
+      "from": "C39.2",
+      "to": "U12.2",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        152.4,
+        155.425
+      ],
+      "to_XY_mm": [
+        147.8625,
+        155.725
+      ],
+      "pad_center_distance_mm": 4.5474,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor to VINP",
+      "from": "C3.1",
+      "to": "U2.4",
+      "XML_net": "AUX_PROTECTED",
+      "from_XY_mm": [
+        123.325,
+        141.9
+      ],
+      "to_XY_mm": [
+        125.4,
+        142.525
+      ],
+      "pad_center_distance_mm": 2.1671,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor power return",
+      "from": "C3.2",
+      "to": "U2.1",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        126.275,
+        141.9
+      ],
+      "to_XY_mm": [
+        125.4,
+        140.575
+      ],
+      "pad_center_distance_mm": 1.5878,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor to VINP",
+      "from": "C6.1",
+      "to": "U2.4",
+      "XML_net": "AUX_PROTECTED",
+      "from_XY_mm": [
+        119.875,
+        142.8
+      ],
+      "to_XY_mm": [
+        125.4,
+        142.525
+      ],
+      "pad_center_distance_mm": 5.5318,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor power return",
+      "from": "C6.2",
+      "to": "U2.1",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        116.925,
+        142.8
+      ],
+      "to_XY_mm": [
+        125.4,
+        140.575
+      ],
+      "pad_center_distance_mm": 8.7622,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor to VINP",
+      "from": "C7.1",
+      "to": "U2.4",
+      "XML_net": "AUX_PROTECTED",
+      "from_XY_mm": [
+        126.55,
+        139.5
+      ],
+      "to_XY_mm": [
+        125.4,
+        142.525
+      ],
+      "pad_center_distance_mm": 3.2362,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor power return",
+      "from": "C7.2",
+      "to": "U2.1",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        124.65,
+        139.5
+      ],
+      "to_XY_mm": [
+        125.4,
+        140.575
+      ],
+      "pad_center_distance_mm": 1.3108,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "switch node L1 to inductor end",
+      "from": "U2.2",
+      "to": "L1.1",
+      "XML_net": "/Driver supply/BB_L1",
+      "from_XY_mm": [
+        125.4,
+        141.225
+      ],
+      "to_XY_mm": [
+        124.525,
+        135.3
+      ],
+      "pad_center_distance_mm": 5.9893,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "switch node L2 to inductor end",
+      "from": "U2.20",
+      "to": "L1.2",
+      "XML_net": "/Driver supply/BB_L2",
+      "from_XY_mm": [
+        119.6,
+        140.575
+      ],
+      "to_XY_mm": [
+        118.475,
+        135.3
+      ],
+      "pad_center_distance_mm": 5.3936,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor positive",
+      "from": "C4.1",
+      "to": "U2.3",
+      "XML_net": "/Driver supply/BB_BST1",
+      "from_XY_mm": [
+        134.0,
+        140.675
+      ],
+      "to_XY_mm": [
+        125.4,
+        141.875
+      ],
+      "pad_center_distance_mm": 8.6833,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor switch return",
+      "from": "C4.2",
+      "to": "U2.2",
+      "XML_net": "/Driver supply/BB_L1",
+      "from_XY_mm": [
+        134.0,
+        139.125
+      ],
+      "to_XY_mm": [
+        125.4,
+        141.225
+      ],
+      "pad_center_distance_mm": 8.8527,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor positive",
+      "from": "C5.1",
+      "to": "U2.19",
+      "XML_net": "/Driver supply/BB_BST2",
+      "from_XY_mm": [
+        116.475,
+        130.4
+      ],
+      "to_XY_mm": [
+        119.6,
+        141.225
+      ],
+      "pad_center_distance_mm": 11.267,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor switch return",
+      "from": "C5.2",
+      "to": "U2.20",
+      "XML_net": "/Driver supply/BB_L2",
+      "from_XY_mm": [
+        114.925,
+        130.4
+      ],
+      "to_XY_mm": [
+        119.6,
+        140.575
+      ],
+      "pad_center_distance_mm": 11.1976,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor positive to VOUT",
+      "from": "C8.1",
+      "to": "U2.17",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        124.4,
+        144.125
+      ],
+      "to_XY_mm": [
+        119.6,
+        142.525
+      ],
+      "pad_center_distance_mm": 5.0596,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor power return",
+      "from": "C8.2",
+      "to": "U2.21",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        124.4,
+        147.075
+      ],
+      "to_XY_mm": [
+        122.5,
+        143.5
+      ],
+      "pad_center_distance_mm": 4.0485,
+      "from_footprint_layer": "F.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "quiet output sense to output capacitor",
+      "from": "U2.16",
+      "to": "C8.1",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        119.6,
+        143.175
+      ],
+      "to_XY_mm": [
+        124.4,
+        144.125
+      ],
+      "pad_center_distance_mm": 4.8931,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "F.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor positive to VOUT",
+      "from": "C9.1",
+      "to": "U2.17",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        120.575,
+        130.8
+      ],
+      "to_XY_mm": [
+        119.6,
+        142.525
+      ],
+      "pad_center_distance_mm": 11.7655,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor power return",
+      "from": "C9.2",
+      "to": "U2.21",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        119.025,
+        130.8
+      ],
+      "to_XY_mm": [
+        122.5,
+        143.5
+      ],
+      "pad_center_distance_mm": 13.1668,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "quiet output sense to output capacitor",
+      "from": "U2.16",
+      "to": "C9.1",
+      "XML_net": "+12V_DRV",
+      "from_XY_mm": [
+        119.6,
+        143.175
+      ],
+      "to_XY_mm": [
+        120.575,
+        130.8
+      ],
+      "pad_center_distance_mm": 12.4133,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "internal VREG local bypass",
+      "from": "C10.1",
+      "to": "U2.12",
+      "XML_net": "/Driver supply/BB_VREG",
+      "from_XY_mm": [
+        116.55,
+        148.2
+      ],
+      "to_XY_mm": [
+        119.6,
+        145.775
+      ],
+      "pad_center_distance_mm": 3.8966,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "internal VREG bypass ground",
+      "from": "C10.2",
+      "to": "U2.13",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        118.45,
+        148.2
+      ],
+      "to_XY_mm": [
+        119.6,
+        145.125
+      ],
+      "pad_center_distance_mm": 3.283,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "input capacitor to VIN",
+      "from": "C11.1",
+      "to": "U3.3",
+      "XML_net": "AUX_PROTECTED",
+      "from_XY_mm": [
+        116.275,
+        152.8
+      ],
+      "to_XY_mm": [
+        112.25,
+        150.5375
+      ],
+      "pad_center_distance_mm": 4.6173,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "input capacitor to local GND",
+      "from": "C11.2",
+      "to": "U3.4",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        113.325,
+        152.8
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ],
+      "pad_center_distance_mm": 4.6631,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "switch node to inductor input",
+      "from": "U3.5",
+      "to": "L2.1",
+      "XML_net": "/Logic and sensors/BUCK_SW",
+      "from_XY_mm": [
+        113.2,
+        148.2625
+      ],
+      "to_XY_mm": [
+        110.775,
+        143.1
+      ],
+      "pad_center_distance_mm": 5.7037,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "bootstrap positive to BST",
+      "from": "C12.1",
+      "to": "U3.6",
+      "XML_net": "/Logic and sensors/BUCK_BST",
+      "from_XY_mm": [
+        116.575,
+        157.0
+      ],
+      "to_XY_mm": [
+        114.15,
+        148.2625
+      ],
+      "pad_center_distance_mm": 9.0678,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "bootstrap return to SW",
+      "from": "C12.2",
+      "to": "U3.5",
+      "XML_net": "/Logic and sensors/BUCK_SW",
+      "from_XY_mm": [
+        115.025,
+        157.0
+      ],
+      "to_XY_mm": [
+        113.2,
+        148.2625
+      ],
+      "pad_center_distance_mm": 8.9261,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "inductor output to output capacitor",
+      "from": "L2.2",
+      "to": "C13.1",
+      "XML_net": "+5V_INV",
+      "from_XY_mm": [
+        116.825,
+        143.1
+      ],
+      "to_XY_mm": [
+        120.825,
+        152.6
+      ],
+      "pad_center_distance_mm": 10.3078,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "output capacitor return to local GND",
+      "from": "C13.2",
+      "to": "U3.4",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        123.775,
+        152.6
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ],
+      "pad_center_distance_mm": 12.3142,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "quiet FB sense to output capacitor",
+      "from": "U3.1",
+      "to": "C13.1",
+      "XML_net": "+5V_INV",
+      "from_XY_mm": [
+        114.15,
+        150.5375
+      ],
+      "to_XY_mm": [
+        120.825,
+        152.6
+      ],
+      "pad_center_distance_mm": 6.9864,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "inductor output to output capacitor",
+      "from": "L2.2",
+      "to": "C14.1",
+      "XML_net": "+5V_INV",
+      "from_XY_mm": [
+        116.825,
+        143.1
+      ],
+      "to_XY_mm": [
+        118.6,
+        152.325
+      ],
+      "pad_center_distance_mm": 9.3942,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "output capacitor return to local GND",
+      "from": "C14.2",
+      "to": "U3.4",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        118.6,
+        155.275
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ],
+      "pad_center_distance_mm": 9.4603,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "quiet FB sense to output capacitor",
+      "from": "U3.1",
+      "to": "C14.1",
+      "XML_net": "+5V_INV",
+      "from_XY_mm": [
+        114.15,
+        150.5375
+      ],
+      "to_XY_mm": [
+        118.6,
+        152.325
+      ],
+      "pad_center_distance_mm": 4.7956,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "inductor output to output capacitor",
+      "from": "L2.2",
+      "to": "C15.1",
+      "XML_net": "+5V_INV",
+      "from_XY_mm": [
+        116.825,
+        143.1
+      ],
+      "to_XY_mm": [
+        101.9,
+        143.125
+      ],
+      "pad_center_distance_mm": 14.925,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "output capacitor return to local GND",
+      "from": "C15.2",
+      "to": "U3.4",
+      "XML_net": "GND",
+      "from_XY_mm": [
+        101.9,
+        144.675
+      ],
+      "to_XY_mm": [
+        112.25,
+        148.2625
+      ],
+      "pad_center_distance_mm": 10.9541,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "quiet FB sense to output capacitor",
+      "from": "U3.1",
+      "to": "C15.1",
+      "XML_net": "+5V_INV",
+      "from_XY_mm": [
+        114.15,
+        150.5375
+      ],
+      "to_XY_mm": [
+        101.9,
+        143.125
+      ],
+      "pad_center_distance_mm": 14.3181,
+      "from_footprint_layer": "B.Cu",
+      "to_footprint_layer": "B.Cu",
+      "whole_net_explicit_copper": {
+        "track_length_mm": 0,
+        "segments": 0,
+        "vias": 0,
+        "layers": []
+      }
+    }
+  ],
+  "component_values": {
+    "C3": "10u",
+    "C4": "100n",
+    "C5": "100n",
+    "C6": "10u",
+    "C7": "470n",
+    "C8": "22u",
+    "C9": "100n",
+    "C10": "4.7u",
+    "L1": "4.7uH",
+    "U2": "TPS55165QPWPRQ1",
+    "C11": "10u",
+    "C12": "100n",
+    "C13": "22u",
+    "C14": "22u",
+    "C15": "1u",
+    "L2": "4.7uH",
+    "U3": "AP63205WU-7",
+    "C25": "2.2u",
+    "C26": "100n",
+    "C27": "4.7u",
+    "C28": "100n",
+    "Q1": "BSC110N15NS5",
+    "Q2": "BSC110N15NS5",
+    "R19": "15",
+    "R20": "15",
+    "RS1": "5m / 3W / 1%",
+    "U7": "2ED2182S06FXUMA1",
+    "C29": "2.2u",
+    "C30": "100n",
+    "C31": "4.7u",
+    "C32": "100n",
+    "Q3": "BSC110N15NS5",
+    "Q4": "BSC110N15NS5",
+    "R25": "15",
+    "R26": "15",
+    "RS2": "5m / 3W / 1%",
+    "U8": "2ED2182S06FXUMA1",
+    "C33": "2.2u",
+    "C34": "100n",
+    "C35": "4.7u",
+    "C36": "100n",
+    "Q5": "BSC110N15NS5",
+    "Q6": "BSC110N15NS5",
+    "R31": "15",
+    "R32": "15",
+    "RS3": "5m / 3W / 1%",
+    "U9": "2ED2182S06FXUMA1",
+    "C37": "100n",
+    "C38": "100n",
+    "C39": "100n",
+    "U10": "INA241A1IDDFR",
+    "U11": "INA241A1IDDFR",
+    "U12": "INA241A1IDDFR"
+  },
+  "interpretation": "Center-to-center distance is a geometric lower bound. Whole-net copper length is not a two-pad route length; GND totals include unrelated circuits. Separate Kelvin takeoffs, local return loops, switch-node exposure and real routed copper require manual review.",
+  "distance_threshold_used": null,
+  "board_sha256_before": "7cb3facfac688367bf0a8da8922346affe2612efff903ad2ec7f23be30910851",
+  "board_sha256_after": "7cb3facfac688367bf0a8da8922346affe2612efff903ad2ec7f23be30910851",
+  "board_changed_during_read": false,
+  "scope": "Functional placement snapshot during owner copper routing; no final routing claim.",
+  "physical_snapshot": {
+    "mapping_pass": true,
+    "errors": [],
+    "geometry": {
+      "outline_pass": true,
+      "outline_bbox_mm": [
+        100.0,
+        100.0,
+        160.0,
+        160.0
+      ],
+      "copper_layers": 6,
+      "mounting_holes": [
+        {
+          "reference": "H1",
+          "position_mm": [
+            104.0,
+            104.0
+          ],
+          "drill_mm": [
+            2.2
+          ],
+          "pass": true
+        },
+        {
+          "reference": "H2",
+          "position_mm": [
+            156.0,
+            104.0
+          ],
+          "drill_mm": [
+            2.2
+          ],
+          "pass": true
+        },
+        {
+          "reference": "H3",
+          "position_mm": [
+            104.0,
+            156.0
+          ],
+          "drill_mm": [
+            2.2
+          ],
+          "pass": true
+        },
+        {
+          "reference": "H4",
+          "position_mm": [
+            156.0,
+            156.0
+          ],
+          "drill_mm": [
+            2.2
+          ],
+          "pass": true
+        }
+      ],
+      "mounting_copper_keepout_radius_mm": 2.8,
+      "mounting_copper_intrusions": [],
+      "unfilled_copper_zones": [],
+      "mounting_hardware_courtyard_review": [],
+      "courtyard_missing": [],
+      "courtyard_outside_board": [],
+      "courtyard_overlaps": [],
+      "core_buttons": [],
+      "upper_board_button_access_obstacles": [
+        {
+          "reference": "J5",
+          "bbox": [
+            121.755,
+            153.905,
+            133.295,
+            159.495
+          ],
+          "connector": true
+        },
+        {
+          "reference": "C76",
+          "bbox": [
+            145.095,
+            153.245,
+            146.105,
+            155.155
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C23",
+          "bbox": [
+            127.674999,
+            151.225,
+            130.724999,
+            152.775
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R35",
+          "bbox": [
+            139.275,
+            155.625,
+            142.325,
+            157.175
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C73",
+          "bbox": [
+            132.595,
+            151.445,
+            133.605,
+            153.355
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C74",
+          "bbox": [
+            116.145,
+            157.995,
+            118.055,
+            159.005
+          ],
+          "connector": false
+        },
+        {
+          "reference": "U20",
+          "bbox": [
+            133.705,
+            150.575,
+            137.295,
+            157.025
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C14",
+          "bbox": [
+            117.405,
+            151.455,
+            119.795,
+            156.145
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C59",
+          "bbox": [
+            119.895,
+            156.145,
+            120.905,
+            158.055
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R133",
+          "bbox": [
+            117.525,
+            156.285,
+            119.475,
+            157.315
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R16",
+          "bbox": [
+            133.975,
+            157.125,
+            137.025,
+            158.675
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C48",
+          "bbox": [
+            130.995,
+            151.345,
+            132.005,
+            153.255
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C13",
+          "bbox": [
+            119.955,
+            151.405,
+            124.645,
+            153.795
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R3",
+          "bbox": [
+            112.375,
+            154.225,
+            115.425,
+            155.775
+          ],
+          "connector": false
+        },
+        {
+          "reference": "U29",
+          "bbox": [
+            138.105,
+            151.455,
+            142.295,
+            154.945
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C33",
+          "bbox": [
+            142.505,
+            150.755,
+            144.895,
+            155.445
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R132",
+          "bbox": [
+            119.885,
+            153.925,
+            120.915,
+            155.875
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R91",
+          "bbox": [
+            115.985,
+            154.125,
+            117.015,
+            156.075
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C12",
+          "bbox": [
+            114.275,
+            156.225,
+            117.325,
+            157.775
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R18",
+          "bbox": [
+            137.525,
+            156.275,
+            139.075,
+            159.325
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C49",
+          "bbox": [
+            118.395,
+            157.545,
+            119.405,
+            159.455
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C11",
+          "bbox": [
+            112.455,
+            151.605,
+            117.145,
+            153.995
+          ],
+          "connector": false
+        }
+      ]
+    },
+    "models_missing": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source_sha": "ec2eadd5ad93190fbadea1628fa9fa1390df6e36473cf7236b40afa7bddade0c",
+  "ripup_uuids": [],
+  "paths": [],
+  "vias": [
+    {
+      "net": "HSE_OUT",
+      "x": 26.6,
+      "y": 15.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_via_example.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "HSE_OUT",
+      "method": "exact_same_xy_via",
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_via_example.work\\drc_001.json"
+    }
+  ],
+  "unresolved": [],
+  "validation": {
+    "source_drc_endpoint_uuids": 598,
+    "resolved_source_drc_endpoint_uuids": 598,
+    "source_drc_sha": "53b4c3f87352e9d4d0bb80535f1f30b509034914e42923bae82c9f1f83c97758",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_via_fixture\\scope_drc.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_via_example.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "protected_zone_policy": "Whole original PHASE/BR_SW/VBUS/power zone outlines, on every copper layer; no passage or unfilled-island shortcut. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 705,
+    "after_unconnected": 704,
+    "before_drc_listed_unconnected": 499,
+    "after_drc_listed_unconnected": 499,
+    "drc_airwire_list_may_be_truncated": true,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_via_example.work\\drc_001.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

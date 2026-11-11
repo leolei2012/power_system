@@ -1,0 +1,53 @@
+﻿Pin,GPIO,Signal,Function,AF,CurrentFunction,Notes
+2,PC13,RUN_ARM,GPIO output,,GPIO base-ready input,Local supervisor AND gate/pulldown must be rewired from PC7; PC13 static output load must respect datasheet constraints; ROM safety revalidation required.
+3,PC14,ENC_A_Z,GPIO_EXTI14,,GPIO expansion reserve,LSE disabled; input only. Preserve both ABZ encoders; moved from PA2.
+4,PC15,ENC_B_Z,GPIO_EXTI15,,GPIO expansion reserve,LSE disabled; input only. Moved from PA3.
+5,PF0,HSE_IN,OSC_IN,,OSC_IN,
+6,PF1,HSE_OUT,OSC_OUT,,OSC_OUT,
+7,PG10,NRST,NRST,,NRST,
+8,PC0,M1_I_U,ADC1_IN6 / ADC2_IN6,Analog,ADC1_IN6,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+9,PC1,M1_I_V,ADC1_IN7 / ADC2_IN7,Analog,ADC2_IN7,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+10,PC2,M1_I_W,ADC1_IN8 / ADC2_IN8,Analog,ADC1_IN8,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+11,PC3,M2_I_U,ADC1_IN9 / ADC2_IN9,Analog,ADC2_IN9,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+12,PA0,ENC_A_A,TIM2_CH1,AF1,TIM2_CH1,
+13,PA1,ENC_A_B,TIM2_CH2,AF1,TIM2_CH2,
+14,PA2,SPI_A_CS,GPIO software CS,,GPIO_EXTI2,"External pullup. PA2 is ROM USART2_TX; sensor behaviour during boot must be reviewed, bridge remains unarmed."
+17,PA3,BRAKE_PWM,TIM15_CH2,AF9,GPIO_EXTI3,Independent timer. Prefer over PA2 ROM USART2_TX for brake; ROM modes and input-bias behaviour still require review.
+18,PA4,M1_VBUS,ADC2_IN17,Analog,ADC2_IN17,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+19,PA5,SPI_A_SCK,SPI1_SCK,AF5,SPI1_SCK,
+20,PA6,SPI_A_MISO,SPI1_MISO,AF5,SPI1_MISO,
+21,PA7,SPI_A_MOSI,SPI1_MOSI,AF5,SPI1_MOSI,
+22,PC4,M2_I_V,ADC2_IN5,Analog,GPIO_Output,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+23,PC5,M2_I_W,ADC2_IN11,Analog,GPIO_Output,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+24,PB0,M2_VBUS,ADC1_IN15,Analog,ADC1_IN15,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+25,PB1,M1_NTC,ADC1_IN12,Analog,ADC1_IN12,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+26,PB2,M2_NTC,ADC2_IN12,Analog,ADC2_IN12,ADC instance/trigger/rank schedule not frozen. No three simultaneous independent current conversions.
+30,PB10,UART_TX,USART3_TX,AF7,USART3_TX,
+33,PB11,UART_RX,USART3_RX,AF7,USART3_RX,
+34,PB12,FAULT_M1_N,TIM1_BKIN,AF6,TIM1_BKIN,Active low; retain receiving-side bias/clamp and explicit restart policy.
+35,PB13,M1_UL,TIM1_CH1N,AF6,TIM1_CH1N,
+36,PB14,M1_VL,TIM1_CH2N,AF6,TIM1_CH2N,
+37,PB15,M1_WL,TIM1_CH3N,AF4,TIM1_CH3N,
+38,PC6,M2_UH,TIM8_CH1,AF4,TIM8_CH1,
+39,PC7,M2_VH,TIM8_CH2,AF4,GPIO RUN_ARM,
+40,PC8,M2_WH,TIM8_CH3,AF4,GPIO_Output,
+41,PC9,FAULT_M2_N,TIM8_BKIN2,AF6,GPIO_Output,"Second break input, NOT TIM8_BKIN. Configure BK2E/polarity correctly; SDK support not assumed."
+42,PA8,M1_UH,TIM1_CH1,AF6,TIM1_CH1,
+43,PA9,M1_VH,TIM1_CH2,AF6,TIM1_CH2,
+44,PA10,M1_WH,TIM1_CH3,AF6,TIM1_CH3,
+45,PA11,CAN_RX,FDCAN1_RX,AF9,FDCAN1_RX,
+46,PA12,CAN_TX,FDCAN1_TX,AF9,FDCAN1_TX,
+49,PA13,SWDIO,SWDIO,AF0,SWDIO,
+50,PA14,SWCLK,SWCLK,AF0,SWCLK,
+51,PA15,I2C_SCL,I2C1_SCL,AF4,GPIO_Output,"Release JTDI, retain SWD. Moved SPI_A CS away."
+52,PC10,M2_UL,TIM8_CH1N,AF4,SPI3_SCK,
+53,PC11,M2_VL,TIM8_CH2N,AF4,SPI3_MISO,
+54,PC12,M2_WL,TIM8_CH3N,AF4,SPI3_MOSI,
+55,PD2,SPI_B_CS,GPIO software CS,,GPIO_Output,External pullup; moved from PC9 to make TIM8_BKIN2 available.
+56,PB3,SPI_B_SCK,SPI3_SCK,AF6,GPIO expansion reserve,Release JTAG/SWO functions while preserving PA13/PA14 SWD.
+57,PB4,SPI_B_MISO,SPI3_MISO,AF6,GPIO expansion reserve,Release JTAG/SWO functions while preserving PA13/PA14 SWD.
+58,PB5,SPI_B_MOSI,SPI3_MOSI,AF6,GPIO_Output,Release JTAG/SWO functions while preserving PA13/PA14 SWD.
+59,PB6,ENC_B_A,TIM4_CH1,AF2,TIM4_CH1,
+60,PB7,ENC_B_B,TIM4_CH2,AF2,TIM4_CH2,
+61,PB8,BOOT0,BOOT0,,BOOT0,Retain local BOOT pulldown/button/option-byte behaviour.
+62,PB9,I2C_SDA,I2C1_SDA,AF4,GPIO expansion reserve,

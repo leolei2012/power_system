@@ -1,0 +1,197 @@
+﻿Reference,Value,Quantity,DNP,Sheet,Manufacturer,MPN,Supplier_PN,Purchase_URL,Footprint,Design_Note,Selection_Status
+J1,5V_IN_ONLY,1,no,power,,TBD,,,,,pin order draft; exact connector/footprint pending
+C1,10u,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0805_2012Metric,,value assigned; DC bias/MPN/LCSC pending
+C2,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+U2,TLV76733DRVR,1,no,power,TI,TLV76733DRVR,C2848334,https://item.szlcsc.com/3046559.html,MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,,
+C3,10u,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0805_2012Metric,,value assigned; DC bias/MPN/LCSC pending
+C4,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+U3,TPS3808G33DBVR,1,no,power,TI,TPS3808G33DBVR,C43698,https://item.szlcsc.com/44691.html,MyFootprints:SOT-23-6,,
+C5,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+R1,10k,1,no,power,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R2,10k,1,no,power,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+SW1,RESET,1,no,power,,,,,,,
+U1,LKS32MC451VCT8,1,no,power,LINKOSEMI,LKS32MC451VCT8,C17557026,https://item.szlcsc.com/18686247.html,MyFootprints:LQFP-100_14x14mm_P0.5mm,,
+C6,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Place next to U1 AVDD pin 14,value assigned; DC bias/MPN/LCSC pending
+C7,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Place next to U1 AVDD pin 42,value assigned; DC bias/MPN/LCSC pending
+C8,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Place next to U1 AVDD pin 71,value assigned; DC bias/MPN/LCSC pending
+C9,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Place next to U1 AVDD pin 92,value assigned; DC bias/MPN/LCSC pending
+C10,100n,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Place next to U1 AVDD pin 93,value assigned; DC bias/MPN/LCSC pending
+C11,4.7u,1,no,power,YAGEO,TBD,,,Capacitor_SMD:C_0805_2012Metric,,value assigned; DC bias/MPN/LCSC pending
+TP1,+5V_CTRL,1,no,power,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP2,+3V3_MCU,1,no,power,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP3,GND,1,no,power,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP4,DEBUG_nTRST_RESERVED,1,no,mcu,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP5,DEBUG_TDI_RESERVED,1,no,mcu,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP6,DEBUG_TDO_RESERVED,1,no,mcu,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP7,REF_TEST_RESERVED,1,no,mcu,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+TP8,LDO12_TEST_RESERVED,1,no,mcu,,,,,TestPoint:TestPoint_Pad_D1.5mm,,
+Y1,12MHz / CL TBD,1,no,mcu,,TBD,,,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,12 MHz; internal oscillator capacitors; ESR/CL/startup pending,
+J2,INV1_24P / 0.5mm TBD,1,no,inverter_1,,TBD,,,,,pin order draft; exact connector/footprint pending
+R3,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R4,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R5,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R6,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R7,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R8,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R9,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R10,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R11,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R12,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R13,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R14,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R15,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R16,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R17,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R18,4.7k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R19,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C12,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R20,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C13,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R21,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C14,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R22,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C15,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R23,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C16,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R24,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C17,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R25,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C18,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R26,100,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C19,1n,1,no,inverter_1,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+J3,BRAKE_1,1,no,inverter_1,,TBD,,,,,pin order draft; exact connector/footprint pending
+R27,33,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R28,10k,1,no,inverter_1,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+J4,INV2_24P / 0.5mm TBD,1,no,inverter_2,,TBD,,,,,pin order draft; exact connector/footprint pending
+R29,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R30,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R31,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R32,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R33,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R34,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R35,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R36,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R37,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R38,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R39,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R40,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R41,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R42,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R43,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R44,4.7k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R45,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C20,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R46,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C21,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R47,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C22,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R48,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C23,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R49,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C24,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R50,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C25,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R51,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C26,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R52,100,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C27,1n,1,no,inverter_2,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+J5,BRAKE_2,1,no,inverter_2,,TBD,,,,,pin order draft; exact connector/footprint pending
+R53,33,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R54,10k,1,no,inverter_2,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+J6,PFC_24P / 0.5mm TBD,1,no,pfc,,TBD,,,,,pin order draft; exact connector/footprint pending
+R55,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R56,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R57,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R58,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R59,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R60,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R61,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R62,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R63,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R64,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R65,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R66,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R67,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R68,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R69,33,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R70,10k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R71,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R72,4.7k,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R73,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C28,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R74,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C29,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R75,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C30,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R76,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C31,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R77,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C32,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R78,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C33,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R79,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C34,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R80,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C35,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+R81,100,1,no,pfc,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C36,1n,1,no,pfc,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,Provisional RC; source impedance/acquisition and overvoltage protection review pending,value assigned; DC bias/MPN/LCSC pending
+J7,ENC1: A B Z GND VOPT,1,no,sensors,,TBD,,,,,pin order draft; exact connector/footprint pending
+R82,100,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R83,100k,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R84,100,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R85,100k,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R86,100,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R87,100k,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R88,0,1,yes,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C37,100n,1,yes,sensors,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+J8,ENC2: A B Z GND VOPT,1,no,sensors,,TBD,,,,,pin order draft; exact connector/footprint pending
+R89,100,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R90,100k,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R91,100,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R92,100k,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R93,100,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R94,100k,1,no,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R95,0,1,yes,sensors,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C38,100n,1,yes,sensors,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+J9,SPI_A: SCK MOSI MISO CS GND VOPT,1,no,spi,,TBD,,,,,pin order draft; exact connector/footprint pending
+R96,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R97,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R98,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R99,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R100,10k,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R101,0,1,yes,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C39,100n,1,yes,spi,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+J10,SPI_B: SCK MOSI MISO CS GND VOPT,1,no,spi,,TBD,,,,,pin order draft; exact connector/footprint pending
+R102,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R103,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R104,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R105,33,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R106,10k,1,no,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R107,0,1,yes,spi,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C40,100n,1,yes,spi,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+J11,SWD: VTREF IO CLK GND NRST,1,no,debug_comms,,TBD,,,,,pin order draft; exact connector/footprint pending
+R108,33,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R109,33,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R110,10k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R111,10k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+J12,UART: TX RX GND,1,no,debug_comms,,TBD,,,,,pin order draft; exact connector/footprint pending
+R112,100,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R113,100,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R114,10k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+U4,SN65HVD232DR,1,yes,debug_comms,TI,SN65HVD232DR,C30530,https://item.szlcsc.com/31287.html,MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm,,
+R115,0,1,yes,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R116,0,1,yes,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+R117,10k,1,yes,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+C41,100n,1,yes,debug_comms,YAGEO,TBD,,,Capacitor_SMD:C_0603_1608Metric,,value assigned; DC bias/MPN/LCSC pending
+J13,CAN: H L GND NC,1,yes,debug_comms,,TBD,,,,,pin order draft; exact connector/footprint pending
+R118,120,1,yes,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,Fit only at a physical bus end; 0603 thermal review at bus fault required,value assigned; exact MPN/LCSC pending
+R119,2.2k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+D1,PWR / GREEN,1,no,debug_comms,,TBD,,,LED_SMD:LED_0603_1608Metric,Low-current visible LED; check Vf / brightness,
+R120,2.2k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+D2,LED_RUN1 / GREEN,1,no,debug_comms,,TBD,,,LED_SMD:LED_0603_1608Metric,Low-current visible LED; check Vf / brightness,
+R121,2.2k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+D3,LED_RUN2 / GREEN,1,no,debug_comms,,TBD,,,LED_SMD:LED_0603_1608Metric,Low-current visible LED; check Vf / brightness,
+R122,2.2k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+D4,LED_FAULT / RED,1,no,debug_comms,,TBD,,,LED_SMD:LED_0603_1608Metric,Low-current visible LED; check Vf / brightness,
+R123,2.2k,1,no,debug_comms,YAGEO,TBD,,,Resistor_SMD:R_0603_1608Metric,,value assigned; exact MPN/LCSC pending
+D5,LED_COMM / BLUE,1,no,debug_comms,,TBD,,,LED_SMD:LED_0603_1608Metric,Low-current visible LED; check Vf / brightness,

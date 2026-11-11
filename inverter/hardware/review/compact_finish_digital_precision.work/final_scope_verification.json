@@ -1,0 +1,171 @@
+{
+  "source_sha": "4d4f0c2ae1d5177ebf351e92cd70ae8483fde624233a5b98dc958461cede13fb",
+  "candidate_sha256": "9d78e3ff069cc3433477f316447c34a9cbbe8dd3f80a1e3561a6dcab5fb272fd",
+  "scope": "Owned 76 exact digital net names from original 88-gap DRC scope",
+  "before_scope_gaps": 88,
+  "after_scope_gaps": 68,
+  "digital_gaps_closed": 20,
+  "before_global_native_gaps": 215,
+  "after_global_native_gaps": 195,
+  "drc_listed_airwires": 195,
+  "drc_electrical_errors": 0,
+  "drc_nonconnection_violation_severities": {
+    "warning": 11
+  },
+  "drc_nonconnection_violation_types": {
+    "track_dangling": 11
+  },
+  "fixed_kelvin_pass": true,
+  "fixed_summary": {
+    "fixed_geometry_issue_count": 0,
+    "allowed_contacts": 12,
+    "suspicious_contacts": 0,
+    "negative_via_plane_checks": 6,
+    "negative_via_plane_contacts": 0
+  },
+  "original_geometry_changes": [],
+  "outside_scope_component_changes": {},
+  "component_regressions": {},
+  "project_identical": true,
+  "ripup_count": 0,
+  "added_segments": 792,
+  "added_vias": 33,
+  "drc_report": "review\\compact_finish_digital_precision.work\\final_drc.json",
+  "fixed_report": "review\\compact_finish_digital_precision.work\\final_fixed.json",
+  "remaining_scope_net_gaps": {
+    "/Debug and communication/CAN_TX_PHY": 1,
+    "/Debug and communication/LED_AN_1": 1,
+    "/Debug and communication/LED_AN_3": 1,
+    "/Debug and communication/UART_RX_PORT": 1,
+    "/Debug and communication/UART_TX_PORT": 1,
+    "/Encoders and SPI/ENC_B_VCC": 1,
+    "/Encoders and SPI/ENC_B_Z_PORT": 1,
+    "/Encoders and SPI/SPI_A_CS_PORT": 1,
+    "/Encoders and SPI/SPI_A_MISO_PORT": 1,
+    "/Encoders and SPI/SPI_A_MOSI_PORT": 1,
+    "/Encoders and SPI/SPI_A_SCK_PORT": 1,
+    "/Encoders and SPI/SPI_B_CS_PORT": 1,
+    "/Encoders and SPI/SPI_B_MISO_PORT": 1,
+    "/Encoders and SPI/SPI_B_MOSI_PORT": 1,
+    "/Encoders and SPI/SPI_B_SCK_PORT": 1,
+    "/Hardware latch/HEALTH_ALL": 2,
+    "/Hardware latch/HEALTH_CHAIN_3": 1,
+    "/Hardware latch/HEALTH_CHAIN_7": 1,
+    "/Hardware latch/NO_LATCH": 2,
+    "/Hardware latch/RESET_REQUEST": 1,
+    "BOOT0": 1,
+    "CAN_RX": 1,
+    "CAN_TX": 1,
+    "DRV_PG_LOGIC": 1,
+    "DRV_UV_OK": 1,
+    "ENABLE_IN": 1,
+    "ENC_A_B": 1,
+    "ENC_A_Z": 1,
+    "ENC_B_A": 1,
+    "ENC_B_B": 1,
+    "ENC_B_Z": 1,
+    "FAULT_N": 1,
+    "HSE_OUT": 1,
+    "LED_AUX": 1,
+    "LED_COMM": 1,
+    "LED_FAULT": 1,
+    "LED_RUN": 1,
+    "MCU_BRAKE": 1,
+    "MCU_ENABLE": 1,
+    "MCU_PWM_UH": 1,
+    "MCU_PWM_UL": 1,
+    "MCU_PWM_VH": 1,
+    "MCU_PWM_WH": 1,
+    "MCU_PWM_WL": 1,
+    "OC_U_LOW_OK": 1,
+    "OC_V_HIGH_OK": 1,
+    "OC_V_LOW_OK": 1,
+    "OC_W_HIGH_OK": 1,
+    "OC_W_LOW_OK": 1,
+    "PWM_UL_IN": 1,
+    "PWM_VH_IN": 2,
+    "PWM_WL_IN": 1,
+    "SPI_A_CS": 1,
+    "SPI_A_MISO": 1,
+    "SPI_A_SCK": 1,
+    "SPI_B_CS": 2,
+    "SPI_B_SCK": 1,
+    "SWCLK": 1,
+    "UART_RX": 2,
+    "U_HIN": 1,
+    "U_LIN": 1,
+    "V_HIN": 1,
+    "W_HIN": 1
+  },
+  "improved_nets": {
+    "/Debug and communication/CAN_L": {
+      "before": 1,
+      "after": 0
+    },
+    "/Hardware latch/HEALTH_ALL": {
+      "before": 3,
+      "after": 2
+    },
+    "/Hardware latch/HEALTH_CHAIN_2": {
+      "before": 1,
+      "after": 0
+    },
+    "/Hardware latch/HEALTH_UNLATCHED": {
+      "before": 1,
+      "after": 0
+    },
+    "AUX_FLT_N": {
+      "before": 1,
+      "after": 0
+    },
+    "BRAKE_IN": {
+      "before": 1,
+      "after": 0
+    },
+    "DRIVE_PERMIT": {
+      "before": 2,
+      "after": 0
+    },
+    "ENABLE_IN": {
+      "before": 2,
+      "after": 1
+    },
+    "ENC_B_A": {
+      "before": 2,
+      "after": 1
+    },
+    "HSE_IN": {
+      "before": 1,
+      "after": 0
+    },
+    "HSE_OUT": {
+      "before": 2,
+      "after": 1
+    },
+    "LOGIC_POWER_OK": {
+      "before": 3,
+      "after": 0
+    },
+    "OC_U_HIGH_OK": {
+      "before": 1,
+      "after": 0
+    },
+    "PWM_VL_IN": {
+      "before": 1,
+      "after": 0
+    },
+    "PWM_WH_IN": {
+      "before": 1,
+      "after": 0
+    },
+    "SPI_A_MOSI": {
+      "before": 1,
+      "after": 0
+    },
+    "SPI_B_MISO": {
+      "before": 1,
+      "after": 0
+    }
+  },
+  "source_unchanged": true
+}

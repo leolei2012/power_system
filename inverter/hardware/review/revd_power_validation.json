@@ -1,0 +1,525 @@
+{
+  "archive": "D:\\workspace\\power_system\\inverter\\history\\integrated_60x60_rev_c_before_mcu_split_2026-11-06.zip",
+  "archive_sha256": "d4b9bb6d17aa7f2f51b740622dbaa5cb63a99969d03cefa32909d799f05a6fc7",
+  "active_power_pages": [
+    "aux_input",
+    "supply_12v",
+    "supply_logic",
+    "bus_brake",
+    "bridge_u",
+    "bridge_v",
+    "bridge_w",
+    "current_sense",
+    "voltage_sense",
+    "comparators",
+    "fault_logic",
+    "control_interface",
+    "base_interlock",
+    "base_leds",
+    "power_interface"
+  ],
+  "top_linked_sheets": [
+    "aux_input.kicad_sch",
+    "supply_12v.kicad_sch",
+    "supply_logic.kicad_sch",
+    "bus_brake.kicad_sch",
+    "bridge_u.kicad_sch",
+    "bridge_v.kicad_sch",
+    "bridge_w.kicad_sch",
+    "current_sense.kicad_sch",
+    "voltage_sense.kicad_sch",
+    "comparators.kicad_sch",
+    "fault_logic.kicad_sch",
+    "control_interface.kicad_sch",
+    "base_interlock.kicad_sch",
+    "base_leds.kicad_sch",
+    "power_interface.kicad_sch"
+  ],
+  "retained_original_component_property_changes": [],
+  "testpoint_ui_filter_additions": [
+    {
+      "ref": "TP16",
+      "property": "ki_fp_filters",
+      "added": "Pin* Test*"
+    },
+    {
+      "ref": "TP17",
+      "property": "ki_fp_filters",
+      "added": "Pin* Test*"
+    }
+  ],
+  "allowed_changed_retained_pins": [
+    {
+      "ref": "D3",
+      "pin": "2",
+      "before": "/Debug and communication/LED_AN_0",
+      "after": "/Base LEDs/LED_PWR_AN"
+    },
+    {
+      "ref": "R130",
+      "pin": "2",
+      "before": "/Debug and communication/LED_AN_0",
+      "after": "/Base LEDs/LED_PWR_AN"
+    },
+    {
+      "ref": "U27",
+      "pin": "12",
+      "before": "GND",
+      "after": "/Base interlock/BASE_NOT_READY"
+    },
+    {
+      "ref": "U27",
+      "pin": "13",
+      "before": "GND",
+      "after": "/Base interlock/BASE_NOT_READY"
+    },
+    {
+      "ref": "U27",
+      "pin": "8",
+      "before": "unconnected-(U27-Pad8)",
+      "after": "/Base interlock/BASE_NOT_READY"
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "before": "LOGIC_POWER_OK",
+      "after": "BASE_LOGIC_OK"
+    },
+    {
+      "ref": "U23",
+      "pin": "13",
+      "before": "LOGIC_POWER_OK",
+      "after": "BASE_LOGIC_OK"
+    },
+    {
+      "ref": "U27",
+      "pin": "9",
+      "before": "GND",
+      "after": "BASE_LOGIC_OK"
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "before": "LOGIC_POWER_OK",
+      "after": "BASE_LOGIC_OK"
+    },
+    {
+      "ref": "U27",
+      "pin": "11",
+      "before": "unconnected-(U27-Pad11)",
+      "after": "BASE_READY"
+    },
+    {
+      "ref": "U26",
+      "pin": "13",
+      "before": "GND",
+      "after": "CTRL_READY"
+    },
+    {
+      "ref": "U27",
+      "pin": "10",
+      "before": "GND",
+      "after": "DRV_PG_LOGIC"
+    },
+    {
+      "ref": "U26",
+      "pin": "12",
+      "before": "GND",
+      "after": "ENABLE_IN"
+    },
+    {
+      "ref": "U25",
+      "pin": "2",
+      "before": "ENABLE_IN",
+      "after": "ENABLE_QUALIFIED"
+    },
+    {
+      "ref": "U26",
+      "pin": "11",
+      "before": "unconnected-(U26-Pad11)",
+      "after": "ENABLE_QUALIFIED"
+    },
+    {
+      "ref": "U27",
+      "pin": "1",
+      "before": "ENABLE_IN",
+      "after": "ENABLE_QUALIFIED"
+    },
+    {
+      "ref": "U27",
+      "pin": "2",
+      "before": "ENABLE_IN",
+      "after": "ENABLE_QUALIFIED"
+    }
+  ],
+  "new_refs": [
+    "J101",
+    "J102",
+    "R160"
+  ],
+  "removed_refs_migrated_to_controller": [
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J14",
+    "J15",
+    "J9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "SW2",
+    "TP15",
+    "U30",
+    "U31",
+    "Y1"
+  ],
+  "retained_physical_refs_in_current_top": 219,
+  "erc": {
+    "errors": 0,
+    "warnings": 0,
+    "by_type": {},
+    "report": "review/revd_power_erc.json",
+    "baseline_pending_header_warning_count": 9
+  },
+  "checks": {
+    "all_retained_values_footprints_supplier_fields_dnp_unchanged": true,
+    "only_explicit_safety_pin_changes": true,
+    "raw_enable_pull_down_retained": true,
+    "ctrl_ready_local_10k_pull_down_present": true,
+    "fault_n_collector_has_no_base_domain_pullup": true,
+    "mcu_nrst_pages_not_in_power_top": true,
+    "no_pcb_or_shared_library_written": true
+  },
+  "notes": [
+    "R160 and two inter-board connectors are the added base BOM items; R160 is 10k YAGEO with exact MPN pending like the retained pull-down family.",
+    "U26D and U27C/D reuse the original 74LVC08/00 packages; package power/bypass stays on control_interface.",
+    "D3/R130 remain on the base; D4-D7/R131-R134 migrate unchanged to the MCU sub-board.",
+    "TP16/TP17 are retained on the base interface with original value and footprint; their only added field is the non-electrical KiCad footprint-search filter.",
+    "The old Rev C PCB is historical and must not be used with this Rev D schematic."
+  ],
+  "header_contract": [
+    {
+      "ref": "J101",
+      "pin": "1",
+      "net": "+5V_INV",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "2",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "3",
+      "net": "+5V_INV",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "4",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "5",
+      "net": "PWM_UH_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "6",
+      "net": "PWM_UL_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "7",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "8",
+      "net": "PWM_VH_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "9",
+      "net": "PWM_VL_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "10",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "11",
+      "net": "PWM_WH_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "12",
+      "net": "PWM_WL_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "13",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "14",
+      "net": "ENABLE_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "15",
+      "net": "BRAKE_IN",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "16",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "17",
+      "net": "CTRL_READY",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "18",
+      "net": "BASE_READY",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "19",
+      "net": "FAULT_N",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "20",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "1",
+      "net": "I_U_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "2",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "3",
+      "net": "I_V_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "4",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "5",
+      "net": "I_W_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "6",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "7",
+      "net": "V_DC_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "8",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "9",
+      "net": "V_U_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "10",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "11",
+      "net": "V_V_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "12",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "13",
+      "net": "V_W_PORT",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "14",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "15",
+      "net": "TEMP_NTC",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "16",
+      "net": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "17",
+      "net": "+5V_SENSOR",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "18",
+      "net": "+5V_SENSOR",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "19",
+      "net": "unconnected-(J102-Pin_19-Pad19)",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "20",
+      "net": "unconnected-(J102-Pin_20-Pad20)",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T00:11:27",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac",
+            "violations": []
+        },
+        {
+            "path": "/Auxiliary input/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/c726d20c-ac00-5637-a6b0-cafe06570f94",
+            "violations": []
+        },
+        {
+            "path": "/Driver supply/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/39a4a4e8-92fd-519c-a5ca-201aa3b906b5",
+            "violations": []
+        },
+        {
+            "path": "/Logic and sensors/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/a182276a-82a8-59e8-aee7-b5b27f76fa18",
+            "violations": []
+        },
+        {
+            "path": "/Bus and brake/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/122d50e7-f4bd-50e5-9e7e-d7a23c9d1345",
+            "violations": []
+        },
+        {
+            "path": "/U half bridge/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/6c17c1d6-be22-5ee6-89db-2f50ce4c3f96",
+            "violations": []
+        },
+        {
+            "path": "/V half bridge/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/34f9789a-f675-5aef-b3a6-44c6feb8fdeb",
+            "violations": []
+        },
+        {
+            "path": "/W half bridge/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/300d50da-2879-5812-919d-d220b40723fd",
+            "violations": []
+        },
+        {
+            "path": "/Current sensing/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/10f5a102-eb5b-5f1e-afa9-38ad68b8bae0",
+            "violations": []
+        },
+        {
+            "path": "/Voltage and NTC/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/d6a3126e-5fb1-52ad-b1c4-853348407330",
+            "violations": []
+        },
+        {
+            "path": "/Analog protection/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/26e2fc00-e91b-506b-8505-260ac6430190",
+            "violations": []
+        },
+        {
+            "path": "/Hardware latch/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/2284a89b-55b9-59ca-badc-255e8053279c",
+            "violations": []
+        },
+        {
+            "path": "/Hardware PWM gates/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/df45f138-2d2c-5363-a7b3-64b696bb56cb",
+            "violations": []
+        },
+        {
+            "path": "/Base interlock/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/9b75aa3d-e548-55e1-bcd4-60696d4ea3f7",
+            "violations": []
+        },
+        {
+            "path": "/Base LEDs/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/dca29074-3a68-53b3-babb-6c0aef89faf6",
+            "violations": []
+        },
+        {
+            "path": "/GPIO command coupling/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/4e8cf8ae-738e-550a-ab68-d9bfb641014d",
+            "violations": []
+        },
+        {
+            "path": "/ADC and status returns/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/bf3c5cd5-cfd2-52ac-ba5a-6dd65deb4f05",
+            "violations": []
+        },
+        {
+            "path": "/Encoders and SPI/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/4cdb5207-b85a-5c9e-85f4-894860652dac",
+            "violations": []
+        },
+        {
+            "path": "/SWD UART CAN and status/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/215ab407-54dd-5f38-a173-23f2627e8b2b",
+            "violations": []
+        },
+        {
+            "path": "/64-pin core sockets/",
+            "uuid_path": "/c6bbe498-7a84-5001-ab1e-dd9afbac55ac/16993bd0-c868-5ff9-ae7a-bec23c5eb0fa",
+            "violations": []
+        }
+    ],
+    "source": "inverter.kicad_sch"
+}

@@ -1,0 +1,1437 @@
+{
+  "revision": "C / PCB0.2",
+  "board_mm": [
+    60,
+    60
+  ],
+  "snapshot": "inverter/history/pcb_0_1_200x140_before_60mm_2026-11-06.zip",
+  "mos_pin_contract": {
+    "G": [
+      4
+    ],
+    "D": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "S": [
+      1,
+      2,
+      3
+    ]
+  },
+  "changes": {
+    "Q1": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "Q2": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "Q3": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "Q4": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "Q5": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "Q6": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "Q7": {
+      "Value": "BSC110N15NS5",
+      "MPN": "BSC110N15NS5",
+      "Orderable_PN": "BSC110N15NS5ATMA1",
+      "Footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "Manufacturer": "Infineon",
+      "Supplier_PN": "C412739",
+      "Purchase_URL": "https://item.szlcsc.com/404529.html",
+      "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+      "Verification": "project_draft",
+      "Datasheet_Revision": "Rev 2.6, 2022-11-07",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "BSC110N15NS5 TDSON8 150V",
+      "Selection_Status": "60mm layout candidate; physical 1-3 S,4 G,5-8 D; thermal/pulse/EMI pending",
+      "Description": "150 V N MOSFET, TDSON-8; 1/2/3 Source,4 Gate,5/6/7/8 Drain; tab Drain. Project draft.",
+      "before_fields": {
+        "Value": "IRFS4227TRLPBF",
+        "MPN": "IRFS4227TRLPBF",
+        "Orderable_PN": "",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Manufacturer": "Infineon",
+        "Supplier_PN": "C146578",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "selected MOS; exact G1 D2 S3 and D2PAK confirmed; domestic URL/library review pending",
+        "Description": "200 V N-MOSFET; IRFS D2PAK; 1 Gate 2 Drain 3 Source; tab is Drain; project draft pin/footprint adaptation"
+      }
+    },
+    "D1": {
+      "Value": "MBRD20150CT-13",
+      "MPN": "MBRD20150CT-13",
+      "Manufacturer": "Diodes",
+      "Footprint": "Package_TO_SOT_SMD:TO-252-3_TabPin2",
+      "Supplier_PN": "C151357",
+      "Purchase_URL": "https://item.szlcsc.com/162697.html",
+      "Datasheet": "https://www.diodes.com/datasheet/download/MBRD20150CT.pdf",
+      "Verification": "project_draft",
+      "Selection_Status": "60mm input series-diode candidate; 1/3 A,2 K/tab visually checked Rev4-2 p1; thermal and production variant pending",
+      "Datasheet_Revision": "DS37086 Rev 4-2, September 2026",
+      "Library_Revision": "C-compact-project",
+      "ki_keywords": "MBRD20150CT-13 DPAK Schottky 150V",
+      "Description": "Dual 150 V common-cathode Schottky, TO252, 1/3 anode,2 cathode/tab; tied anodes retain original circuit.",
+      "before_fields": {
+        "Value": "STPS40150CG-TR / CANDIDATE",
+        "MPN": "STPS40150CG-TR",
+        "Manufacturer": "STMicroelectronics",
+        "Footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/stps40150c.pdf",
+        "Verification": "project_draft",
+        "Selection_Status": "candidate only; domestic LCSC availability and thermal/current sharing not frozen",
+        "Description": "Dual 150 V Schottky; A1=1 K=2 A2=3; tied anodes; main input blocking candidate"
+      }
+    },
+    "F1": {
+      "MPN": "0476015.MRSN",
+      "Manufacturer": "Littelfuse",
+      "Supplier_PN": "C3165851",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C3165851.html",
+      "Datasheet": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-476-datasheet?assetguid=9862ea73-9130-481f-996c-12625fcc7ed2",
+      "Footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "Selection_Status": "Exact 15 A / 125 V DC / 2410 candidate; electrical coordination and hot-board derating pending.",
+      "Value": "0476015.MRSN",
+      "before_fields": {
+        "MPN": "",
+        "Manufacturer": "",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "",
+        "Footprint": "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal",
+        "Selection_Status": "candidate; DC voltage, breaking capacity and I2t pending",
+        "Value": "15A / DC fuse TBD"
+      }
+    },
+    "F2": {
+      "MPN": "0451002.MRL",
+      "Manufacturer": "Littelfuse",
+      "Supplier_PN": "C99547",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C99547.html",
+      "Datasheet": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "Footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "Selection_Status": "Exact 2 A candidate fits current Nano2 451/453 footprint; converter inrush, short-circuit coordination and ambient derating remain application checks.",
+      "Value": "0451002.MRL",
+      "before_fields": {
+        "MPN": "",
+        "Manufacturer": "",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "",
+        "Footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+        "Selection_Status": "auxiliary branch fuse candidate; voltage/I2t/footprint pending",
+        "Value": "2A / DC rated TBD"
+      }
+    },
+    "L1": {
+      "MPN": "MWSA0603S-4R7MT",
+      "Manufacturer": "Sunlord",
+      "Supplier_PN": "C408447",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C408447.html",
+      "Datasheet": "https://www.sunlordinc.com/uploads/files/20230303/MWSA-S%C2%A0series%C2%A0of%C2%A0SMD%C2%A0Power%C2%A0Inductor.pdf",
+      "Footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "Selection_Status": "Meets requested nominal L, current-table and DCR targets; auxiliary-converter operating/thermal qualification pending.",
+      "Value": "4.7uH",
+      "before_fields": {
+        "MPN": "TBD",
+        "Manufacturer": "",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "",
+        "Footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+        "Selection_Status": "Isat target >=5A covers TI 4.5A max internal current limit; exact part/pad/thermal pending",
+        "Value": "4.7uH / Isat>=5A / DCR<=40m"
+      }
+    },
+    "L2": {
+      "MPN": "MWSA0603S-4R7MT",
+      "Manufacturer": "Sunlord",
+      "Supplier_PN": "C408447",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C408447.html",
+      "Datasheet": "https://www.sunlordinc.com/uploads/files/20230303/MWSA-S%C2%A0series%C2%A0of%C2%A0SMD%C2%A0Power%C2%A0Inductor.pdf",
+      "Footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "Selection_Status": "Meets requested nominal L, current-table and DCR targets; auxiliary-converter operating/thermal qualification pending.",
+      "Value": "4.7uH",
+      "before_fields": {
+        "MPN": "TBD",
+        "Manufacturer": "",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "",
+        "Footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+        "Selection_Status": "Isat >=5A target; check AP63205 peak/valley limits and short-circuit overshoot; exact part pending",
+        "Value": "4.7uH / Isat>=5A"
+      }
+    },
+    "SW1": {
+      "MPN": "TS-1088-AR02016",
+      "Manufacturer": "XUNPU",
+      "Supplier_PN": "C720477",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/tactile%20switches_xunpu_ts-1088-ar02016_C720477.html",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+      "Footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "Selection_Status": "Exact small SMD normally-open momentary 2-terminal switch; standard local footprint matches current manufacturer drawing. SW1 bias condition below remains an electrical-review hold point.",
+      "before_fields": {
+        "MPN": "",
+        "Manufacturer": "",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "",
+        "Footprint": "Button_Switch_THT:SW_PUSH_6mm",
+        "Selection_Status": ""
+      }
+    },
+    "SW2": {
+      "MPN": "TS-1088-AR02016",
+      "Manufacturer": "XUNPU",
+      "Supplier_PN": "C720477",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/tactile%20switches_xunpu_ts-1088-ar02016_C720477.html",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+      "Footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "Selection_Status": "Exact small SMD normally-open momentary 2-terminal switch; standard local footprint matches current manufacturer drawing. SW1 bias condition below remains an electrical-review hold point.",
+      "before_fields": {
+        "MPN": "",
+        "Manufacturer": "",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Datasheet": "",
+        "Footprint": "Button_Switch_THT:SW_PUSH_6mm",
+        "Selection_Status": ""
+      }
+    },
+    "J2": {
+      "MPN": "B2B-PH-K-S(LF)(SN)",
+      "Supplier_PN": "C131337",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C131337.html",
+      "Footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+        "Selection_Status": "connector mechanics, rated current and footprint pending"
+      }
+    },
+    "J3": {
+      "MPN": "PCB solder holes / wire assembly",
+      "Supplier_PN": "",
+      "Purchase_URL": "",
+      "Footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+        "Selection_Status": "connector mechanics, rated current and footprint pending"
+      }
+    },
+    "J4": {
+      "MPN": "PCB solder holes / wire assembly",
+      "Supplier_PN": "",
+      "Purchase_URL": "",
+      "Footprint": "Inverter_Compact:WireSolder_3P_P15.00mm_D2.00mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal",
+        "Selection_Status": "connector mechanics, rated current and footprint pending"
+      }
+    },
+    "J5": {
+      "MPN": "PCB solder holes / wire assembly",
+      "Supplier_PN": "",
+      "Purchase_URL": "",
+      "Footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+        "Selection_Status": "connector mechanics, rated current and footprint pending"
+      }
+    },
+    "J7": {
+      "MPN": "PZ127-1-02-Z",
+      "Supplier_PN": "C5372825",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372825.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+        "Selection_Status": "connector mechanics, rated current and footprint pending"
+      }
+    },
+    "J8": {
+      "MPN": "PZ127-1-02-Z",
+      "Supplier_PN": "C5372825",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372825.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+        "Selection_Status": "connector mechanics, rated current and footprint pending"
+      }
+    },
+    "J9": {
+      "MPN": "PZ127-1-05-Z",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "J10": {
+      "MPN": "PZ127-1-05-Z",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "J11": {
+      "MPN": "PZ127-1-06-Z",
+      "Supplier_PN": "C5372829",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372829.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "J12": {
+      "MPN": "PZ127-1-06-Z",
+      "Supplier_PN": "C5372829",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372829.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "J13": {
+      "MPN": "PZ127-1-05-Z",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "J14": {
+      "MPN": "PZ127-1-03-Z",
+      "Supplier_PN": "C5372826",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372826.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "J15": {
+      "MPN": "PZ127-1-03-Z",
+      "Supplier_PN": "C5372826",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372826.html",
+      "Footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "Selection_Status": "compact mechanical engineering candidate; original pin order retained",
+      "before_fields": {
+        "MPN": "TBD",
+        "Supplier_PN": "",
+        "Purchase_URL": "",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+        "Selection_Status": "pin order draft; exact connector/footprint pending"
+      }
+    },
+    "R13": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R40": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R41": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R42": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R43": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R44": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R45": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R46": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R47": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R52": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R57": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R62": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R67": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R68": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R69": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R70": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R71": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R72": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R73": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R74": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R75": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R76": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R77": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R78": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R79": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R80": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R81": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R82": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R83": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R84": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R85": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R86": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R87": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R88": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R89": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R90": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R91": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R92": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R93": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R94": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R95": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R96": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R97": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R98": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R99": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R100": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R101": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R102": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R103": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R104": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R105": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R106": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R107": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R108": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R109": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R110": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R111": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R112": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R113": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R114": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R115": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R116": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R117": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R118": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R119": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R120": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R121": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R122": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R123": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R124": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R125": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R126": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R127": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R128": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R129": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R130": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R131": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R132": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R133": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R134": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R135": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R136": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R137": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R138": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R139": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R140": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R141": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R142": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "R143": {
+      "Footprint": "Resistor_SMD:R_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0603_1608Metric"
+      }
+    },
+    "C17": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C40": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C41": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C42": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C43": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C44": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C45": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C46": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C47": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C48": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C49": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C50": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C54": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C55": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C56": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C57": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C58": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C59": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C60": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C61": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C62": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C63": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C64": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C65": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C66": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C67": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C69": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C70": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C71": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C72": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C73": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C74": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C75": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C76": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C77": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C79": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C81": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C82": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C83": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C84": {
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "R19": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "R20": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "R25": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "R26": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "R31": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "R32": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "R17": {
+      "Footprint": "Resistor_SMD:R_0805_2012Metric",
+      "Design_Note": "Retain 0805 gate resistor; exact YAGEO pulse-rated MPN and gate waveform verification pending",
+      "before_fields": {
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Design_Note": ""
+      }
+    },
+    "C26": {
+      "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C28": {
+      "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C30": {
+      "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C32": {
+      "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C34": {
+      "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "C36": {
+      "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "before_fields": {
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric"
+      }
+    },
+    "R8": {
+      "Design_Note": "DNP: remove external 12..24V SHDN pullup. TPS26600 internal SHDN bias is nominal 2.7V, recommended SHDN 0..4V. SW1 still pulls to EFUSE_RTN.",
+      "Selection_Status": "compact revision electrical correction; retain footprint, do not populate",
+      "before_fields": {
+        "Design_Note": "",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending"
+      }
+    }
+  },
+  "DNP_changes": {
+    "R8": {
+      "from": false,
+      "to": true,
+      "reason": "Remove high-voltage SHDN pullup; use internal 2.7V bias, retain reset switch. TI TPS2660 RevG pp6-7,26."
+    }
+  },
+  "topology": "All original net connectivity preserved modulo explicit transistor physical terminal expansion",
+  "fabrication_ready": false
+}

@@ -1,0 +1,40 @@
+{
+  "revision": "E-PCB-0.1-review",
+  "date": "2026-11-11",
+  "units": "mm",
+  "status": "Layout review candidate; connector insertion and support height require physical verification.",
+  "outline": {"min_x": 100.0, "min_y": 100.0, "max_x": 160.0, "max_y": 160.0},
+  "board_thickness": 1.6,
+  "mounting_holes": [
+    {"reference": "H1", "x": 104.0, "y": 104.0, "drill": 2.2},
+    {"reference": "H2", "x": 156.0, "y": 104.0, "drill": 2.2},
+    {"reference": "H3", "x": 104.0, "y": 156.0, "drill": 2.2},
+    {"reference": "H4", "x": 156.0, "y": 156.0, "drill": 2.2}
+  ],
+  "mounting_copper_keepout_radius": 2.8,
+  "headers": {
+    "J101": {"pad_1_x": 104.73, "pad_1_y": 110.95, "pad_2_x": 107.27, "pad_2_y": 110.95, "row_step_y": 2.54, "rows": 16},
+    "J102": {"pad_1_x": 128.73, "pad_1_y": 110.95, "pad_2_x": 131.27, "pad_2_y": 110.95, "row_step_y": 2.54, "rows": 16}
+  },
+  "controller": {
+    "assembly_position": "lower board",
+    "header_layer": "F.Cu",
+    "MCU_layer": "F.Cu",
+    "suggested_MCU_center": [118.0, 130.0],
+    "buttons_layer": "F.Cu",
+    "button_edge": "bottom, y=160",
+    "suggested_button_centers": {"SW2": [119.0, 156.5], "SW3": [140.0, 156.5]},
+    "copper_layers_candidate": 4
+  },
+  "inverter": {
+    "assembly_position": "upper board",
+    "header_layer": "B.Cu",
+    "power_region_preference": {"min_x": 135.0, "max_x": 159.0},
+    "power_components_layer_preference": "F.Cu",
+    "copper_layers_candidate": 6
+  },
+  "button_access_reserved": {"min_x": 113.0, "max_x": 146.0, "min_y": 152.0, "max_y": 160.0, "notes": "Keep tall parts and downward connectors out of the upper-board underside here; leave side finger/tool access to the two lower-board top buttons."},
+  "mating_rule": "Viewed in the same assembled XY frame, every same-number J101/J102 pad on both boards must have identical XY. Female footprint must be flipped to B.Cu with its geometry mirrored, not merely assigned a back layer.",
+  "support_height": "Not frozen. Nominal plastic heights 2.5 + 8.5 mm are not a verified insertion-depth or standoff specification.",
+  "scope": "No changes to the 64-pin electrical contract; no manufacturing or current/thermal qualification."
+}

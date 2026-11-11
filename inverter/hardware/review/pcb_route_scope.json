@@ -1,0 +1,32 @@
+{
+  "pending_nets": [
+    "+3V3_INV",
+    "+5V_INV",
+    "/Auxiliary input/AUX_DVDT",
+    "/Auxiliary input/AUX_SHDN_N",
+    "/Auxiliary input/AUX_UV_DIV",
+    "/Driver supply/BB_BST1",
+    "/Driver supply/BB_L1",
+    "AUX_FLT_N",
+    "BOOT0",
+    "OC_U_HIGH_OK",
+    "OC_U_LOW_OK",
+    "OC_V_HIGH_OK",
+    "OC_W_HIGH_OK",
+    "PWM_VH_IN",
+    "VBUS",
+    "V_HIN",
+    "V_PHASE",
+    "V_SOURCE",
+    "W_HIN",
+    "W_PHASE",
+    "W_SOURCE"
+  ],
+  "ignored_classes": [
+    "Done_kicad_default",
+    "Done_Auxiliary",
+    "Done_Gate",
+    "Done_HV"
+  ],
+  "source": "Actual native KiCad DRC; no circuit nets removed from the board or DSN."
+}

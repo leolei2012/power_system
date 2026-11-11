@@ -1,0 +1,295 @@
+{
+  "source_sha": "ad8f26911e94d155b6a1d089ae41c8ac9b5ebb3df0191390a60637154cc26036",
+  "ripup_uuids": [
+    "0e442cbf-45c7-447b-a81c-1dcb42fc8463",
+    "1bbac9f2-ef31-43ab-b1e2-f470ea7390fa",
+    "22ce51a0-4af1-477f-a4c4-4b7e5185396e",
+    "56403f95-9c97-4150-b76c-bf34523b642d",
+    "acbe9496-7be6-472a-a74b-1e2e1f9f46bb",
+    "e95b2b2f-8b12-444f-a962-271323f7dd94",
+    "6e87eb41-d67f-4026-97e6-81190b69755e",
+    "9efce103-e65e-4716-a4d1-d37e93e0bec1",
+    "abaca4e9-0d72-4d66-8b3d-b3605d2d2912",
+    "1294836f-4c52-470c-9903-4231a95aa3e0",
+    "77be9fff-de23-4408-b0d9-071dd97c897f",
+    "dec1f0d9-cc31-400c-b147-2ba5ae855ad0",
+    "4cad99bc-2325-426b-bafb-7b5a6943ce0e",
+    "9396f8cf-fea8-4bf3-b6c0-14451078dcbb",
+    "a50364fc-9b01-420a-9a31-6f2056fcddb2",
+    "15f96981-5e63-4952-bc83-9c98dddbdd88",
+    "cc5e87fa-e6ef-4de7-8fa2-ee7e3efce5cd",
+    "ccb38205-d88d-4a6e-a4dc-0cadb4b40413"
+  ],
+  "paths": [
+    {
+      "net": "+3V3_INV",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          169.6634,
+          78.0627
+        ],
+        [
+          170.2763,
+          78.0627
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_INV",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          168.3103,
+          76.1269
+        ],
+        [
+          169.6634,
+          77.48
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_INV",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          169.6634,
+          77.48
+        ],
+        [
+          169.6634,
+          78.0627
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_INV",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          170.2763,
+          78.0627
+        ],
+        [
+          170.3136,
+          78.1
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_INV",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          170.3136,
+          78.1
+        ],
+        [
+          171.2188,
+          78.1
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_INV",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          171.2188,
+          78.1
+        ],
+        [
+          171.6795,
+          78.5607
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "BOOT0",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          65.0,
+          64.0
+        ],
+        [
+          66.5,
+          64.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "BOOT0",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          68.0,
+          57.825
+        ],
+        [
+          69.05,
+          58.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "BOOT0",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          66.5,
+          64.0
+        ],
+        [
+          69.05,
+          64.0
+        ],
+        [
+          69.05,
+          58.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OC_V_HIGH_OK",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          148.888,
+          79.025
+        ],
+        [
+          148.9,
+          77.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OC_V_HIGH_OK",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          148.9,
+          77.5
+        ],
+        [
+          147.426,
+          78.0551
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "BOOT0",
+      "x": 66.5,
+      "y": 64.0,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "BOOT0",
+      "x": 69.05,
+      "y": 58.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "OC_V_HIGH_OK",
+      "x": 148.9,
+      "y": 77.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "unresolved": [
+    {
+      "net": "V_HIN",
+      "reason": "Removed forbidden In1 segments; their full original geometry could not move intact to any allowed layer."
+    },
+    {
+      "net": "OC_U_HIGH_OK",
+      "reason": "Removed forbidden In1 segments; their full original geometry could not move intact to any allowed layer."
+    },
+    {
+      "net": "OC_U_LOW_OK",
+      "reason": "Removed forbidden In1 segments; their full original geometry could not move intact to any allowed layer."
+    },
+    {
+      "net": "OC_V_HIGH_OK",
+      "reason": "Removed forbidden In1 segments; their full original geometry could not move intact to any allowed layer."
+    },
+    {
+      "net": "BOOT0",
+      "reason": "No legal conservative local bridge found."
+    },
+    {
+      "net": "PWM_VH_IN",
+      "reason": "Gap exceeds local 15mm bridge scope."
+    },
+    {
+      "net": "W_HIN",
+      "reason": "No legal conservative local bridge found."
+    },
+    {
+      "net": "OC_W_HIGH_OK",
+      "reason": "No legal conservative local bridge found."
+    },
+    {
+      "net": "OC_W_HIGH_OK",
+      "reason": "Gap exceeds local 15mm bridge scope."
+    }
+  ],
+  "checks": {
+    "non_GND_In1_tracks_remaining": 0,
+    "geometry": "Native KiCad effective pad/track/via shapes; Default .15, Gate .2, HV/Power .4 conservative clearance plus .01 margin; via drill gap .25; no via-in-pad. Actual DRC required.",
+    "source_Kelvin_auxiliary_power_touched": false
+  },
+  "validation": {
+    "actual_KiCad_DRC": "review/inverter_control_candidate_drc.json",
+    "electrical_and_geometry_error_count": 0,
+    "unconnected_count": 26,
+    "source_unconnected_count": 25,
+    "warnings_by_type": {
+      "track_dangling": 10,
+      "via_dangling": 11,
+      "lib_footprint_issues": 34
+    },
+    "non_GND_In1_tracks_remaining": 0,
+    "canonical_source_unchanged": true,
+    "candidate_sha256": "f3dcac4d80efae56a718ee30d94bc76007a3d4eec0eb47dcc3c4f50e7505abea"
+  },
+  "notes": [
+    "Only detached current In1 non-GND segments and added local allowed-layer geometry. No placements, Kelvin/source lines or auxiliary area were changed.",
+    "BOOT0 TP15 to R122 is closed; R122 to MCU pin61 is still unresolved. A trial R122 relocation was rejected after DRC and completely reverted.",
+    "OC_V_HIGH_OK local F.Cu-to-In2 gap is closed. Long V_HIN/OC forbidden-layer remnants could not all be migrated and are intentionally left as airwires after mandatory In1 cleanup.",
+    "Native DRC is zero errors. Unconnected count grows 25 to 26 because removal of all forbidden In1 non-GND copper creates more gaps than the limited local closure removes. Do not present this candidate as a completed-route board."
+  ]
+}

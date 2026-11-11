@@ -1,0 +1,56 @@
+{
+  "net": "LOGIC_POWER_OK",
+  "paths": [
+    {
+      "net": "LOGIC_POWER_OK",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          15.9,
+          25.0
+        ],
+        [
+          15.9,
+          22.209
+        ],
+        [
+          12.076,
+          18.385
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "LOGIC_POWER_OK",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          12.076,
+          18.385
+        ],
+        [
+          11.275,
+          17.584
+        ],
+        [
+          11.275,
+          17.0
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "LOGIC_POWER_OK",
+      "x": 12.076,
+      "y": 18.385,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "native_octilinear_one_via"
+}

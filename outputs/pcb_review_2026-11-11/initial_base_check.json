@@ -1,0 +1,5959 @@
+{
+  "board": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\work\\inverter.kicad_pcb",
+  "XML": "inverter\\hardware\\review\\inverter.net.xml",
+  "input_sha256": {
+    "board": "7fd921902ae4edd345eb92ed0d65b9352f548cc69d77cac5dc8dbe7efebf2227",
+    "XML": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b"
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "check": "courtyard_review",
+      "overlaps": 9,
+      "missing": [],
+      "outside_board": 0
+    },
+    {
+      "check": "upper_board_button_access_region",
+      "findings": [
+        {
+          "reference": "J5",
+          "bbox": [
+            134.955,
+            153.905,
+            146.495,
+            159.495
+          ],
+          "connector": true
+        },
+        {
+          "reference": "R132",
+          "bbox": [
+            120.225,
+            158.285,
+            122.175,
+            159.315
+          ],
+          "connector": false
+        },
+        {
+          "reference": "U2",
+          "bbox": [
+            118.805,
+            146.305,
+            126.795,
+            153.495
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C9",
+          "bbox": [
+            127.125,
+            155.575,
+            128.675,
+            158.625
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R18",
+          "bbox": [
+            129.475,
+            157.825,
+            132.525,
+            159.375
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C24",
+          "bbox": [
+            129.075,
+            155.625,
+            132.125,
+            157.175
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R12",
+          "bbox": [
+            122.375,
+            157.025,
+            125.425,
+            158.575
+          ],
+          "connector": false
+        },
+        {
+          "reference": "U29",
+          "bbox": [
+            130.655,
+            151.305,
+            134.145,
+            155.495
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C10",
+          "bbox": [
+            118.955,
+            153.675,
+            122.445,
+            155.725
+          ],
+          "connector": false
+        },
+        {
+          "reference": "U3",
+          "bbox": [
+            112.555,
+            149.105,
+            116.045,
+            153.295
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C23",
+          "bbox": [
+            129.025,
+            151.275,
+            130.575,
+            154.325
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C14",
+          "bbox": [
+            113.855,
+            154.005,
+            118.545,
+            156.395
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C13",
+          "bbox": [
+            116.105,
+            149.055,
+            118.495,
+            153.745
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R16",
+          "bbox": [
+            132.825,
+            155.575,
+            134.375,
+            158.625
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R11",
+          "bbox": [
+            119.175,
+            156.325,
+            122.225,
+            157.875
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R10",
+          "bbox": [
+            122.625,
+            153.575,
+            124.175,
+            156.625
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C73",
+          "bbox": [
+            113.895,
+            156.545,
+            114.905,
+            158.455
+          ],
+          "connector": false
+        },
+        {
+          "reference": "U20",
+          "bbox": [
+            134.475,
+            150.605,
+            140.925,
+            154.195
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C33",
+          "bbox": [
+            141.055,
+            151.405,
+            145.745,
+            153.795
+          ],
+          "connector": false
+        },
+        {
+          "reference": "C4",
+          "bbox": [
+            124.925,
+            153.675,
+            126.475,
+            156.725
+          ],
+          "connector": false
+        },
+        {
+          "reference": "R9",
+          "bbox": [
+            127.424999,
+            152.275,
+            128.974999,
+            155.325
+          ],
+          "connector": false
+        }
+      ],
+      "note": "Review height and hand/tool access; 2D courtyards do not prove 3D collision."
+    }
+  ],
+  "mapping": {
+    "counts": {
+      "references": 317,
+      "pins": 969,
+      "DNP": 14
+    },
+    "PCB_footprints": 321,
+    "board_only_mounting_references": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "unique_physical_pin_nodes": 969,
+    "numbered_copper_pads_checked": 976,
+    "duplicate_numbers_checked_individually": [
+      {
+        "reference": "Q7",
+        "number": "5",
+        "pads": 2
+      },
+      {
+        "reference": "Q1",
+        "number": "5",
+        "pads": 2
+      },
+      {
+        "reference": "Q2",
+        "number": "5",
+        "pads": 2
+      },
+      {
+        "reference": "Q3",
+        "number": "5",
+        "pads": 2
+      },
+      {
+        "reference": "Q4",
+        "number": "5",
+        "pads": 2
+      },
+      {
+        "reference": "Q5",
+        "number": "5",
+        "pads": 2
+      },
+      {
+        "reference": "Q6",
+        "number": "5",
+        "pads": 2
+      }
+    ],
+    "NC_pads": [
+      {
+        "reference": "U1",
+        "pin": "4",
+        "net": "unconnected-(U1-NC-Pad4)"
+      },
+      {
+        "reference": "U1",
+        "pin": "10",
+        "net": "unconnected-(U1-IMON-Pad10)"
+      },
+      {
+        "reference": "U1",
+        "pin": "13",
+        "net": "unconnected-(U1-NC-Pad13)"
+      },
+      {
+        "reference": "U4",
+        "pin": "4",
+        "net": "unconnected-(U4-NC-Pad4)"
+      },
+      {
+        "reference": "U6",
+        "pin": "4",
+        "net": "unconnected-(U6-CT-Pad4)"
+      },
+      {
+        "reference": "U28",
+        "pin": "8",
+        "net": "unconnected-(U28B-~{Q}-Pad8)"
+      },
+      {
+        "reference": "U28",
+        "pin": "9",
+        "net": "unconnected-(U28B-Q-Pad9)"
+      },
+      {
+        "reference": "U31",
+        "pin": "5",
+        "net": "unconnected-(U31-NC-Pad5)"
+      },
+      {
+        "reference": "U31",
+        "pin": "8",
+        "net": "unconnected-(U31-NC-Pad8)"
+      },
+      {
+        "reference": "J101",
+        "pin": "26",
+        "net": "unconnected-(J101-Pin_26-Pad26)"
+      },
+      {
+        "reference": "J101",
+        "pin": "27",
+        "net": "unconnected-(J101-Pin_27-Pad27)"
+      },
+      {
+        "reference": "J102",
+        "pin": "1",
+        "net": "unconnected-(J102-Pin_1-Pad1)"
+      },
+      {
+        "reference": "J102",
+        "pin": "2",
+        "net": "unconnected-(J102-Pin_2-Pad2)"
+      },
+      {
+        "reference": "J102",
+        "pin": "18",
+        "net": "unconnected-(J102-Pin_18-Pad18)"
+      },
+      {
+        "reference": "J102",
+        "pin": "25",
+        "net": "unconnected-(J102-Pin_25-Pad25)"
+      },
+      {
+        "reference": "J102",
+        "pin": "26",
+        "net": "unconnected-(J102-Pin_26-Pad26)"
+      },
+      {
+        "reference": "J102",
+        "pin": "29",
+        "net": "unconnected-(J102-Pin_29-Pad29)"
+      },
+      {
+        "reference": "J102",
+        "pin": "30",
+        "net": "unconnected-(J102-Pin_30-Pad30)"
+      }
+    ],
+    "non_NC_net_partitions_equal": true,
+    "mismatches": []
+  },
+  "mapping_pass": true,
+  "placements": {
+    "C20": {
+      "position_mm": [
+        142.9,
+        107.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "DNP": false
+    },
+    "R72": {
+      "position_mm": [
+        123.0,
+        133.6
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C3": {
+      "position_mm": [
+        118.7,
+        142.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "R54": {
+      "position_mm": [
+        125.6,
+        120.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "U28": {
+      "position_mm": [
+        116.5,
+        137.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOIC-14_3.9x8.7mm_P1.27mm",
+      "DNP": false
+    },
+    "U27": {
+      "position_mm": [
+        120.1,
+        153.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U13": {
+      "position_mm": [
+        123.5,
+        117.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "H1": {
+      "position_mm": [
+        104.0,
+        104.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "U14": {
+      "position_mm": [
+        133.9,
+        117.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "TP6": {
+      "position_mm": [
+        145.0,
+        124.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "J12": {
+      "position_mm": [
+        102.0,
+        135.1
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x06_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "R67": {
+      "position_mm": [
+        126.1,
+        133.699999
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C1": {
+      "position_mm": [
+        110.8,
+        138.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "J2": {
+      "position_mm": [
+        109.5,
+        152.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "DNP": false
+    },
+    "U26": {
+      "position_mm": [
+        124.2,
+        138.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "TP10": {
+      "position_mm": [
+        146.2,
+        152.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "J11": {
+      "position_mm": [
+        102.0,
+        137.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x06_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "J5": {
+      "position_mm": [
+        137.7,
+        156.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "DNP": false
+    },
+    "D3": {
+      "position_mm": [
+        118.3,
+        116.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "Q8": {
+      "position_mm": [
+        125.0,
+        123.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:onsemi_SOT-23_CASE318_Recommended",
+      "DNP": false
+    },
+    "R78": {
+      "position_mm": [
+        111.7,
+        149.7
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "Q1": {
+      "position_mm": [
+        141.1,
+        117.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "R82": {
+      "position_mm": [
+        118.2,
+        127.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C21": {
+      "position_mm": [
+        140.5,
+        122.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "DNP": false
+    },
+    "R28": {
+      "position_mm": [
+        144.7,
+        121.9
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "U22": {
+      "position_mm": [
+        112.2,
+        130.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "Q7": {
+      "position_mm": [
+        131.0,
+        154.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "R42": {
+      "position_mm": [
+        133.6,
+        124.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R31": {
+      "position_mm": [
+        145.4,
+        142.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "U24": {
+      "position_mm": [
+        123.4,
+        130.199999
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "H3": {
+      "position_mm": [
+        104.0,
+        156.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "U23": {
+      "position_mm": [
+        119.0,
+        124.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "R41": {
+      "position_mm": [
+        124.9,
+        114.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R66": {
+      "position_mm": [
+        135.9,
+        127.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R45": {
+      "position_mm": [
+        137.1,
+        139.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R17": {
+      "position_mm": [
+        136.9,
+        151.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "Q3": {
+      "position_mm": [
+        141.1,
+        132.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "R19": {
+      "position_mm": [
+        137.4,
+        112.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R83": {
+      "position_mm": [
+        127.0,
+        118.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R73": {
+      "position_mm": [
+        108.9,
+        138.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R1": {
+      "position_mm": [
+        115.0,
+        151.9
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R125": {
+      "position_mm": [
+        126.6,
+        114.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "H2": {
+      "position_mm": [
+        156.0,
+        104.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "C62": {
+      "position_mm": [
+        114.6,
+        155.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R68": {
+      "position_mm": [
+        136.4,
+        153.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "TP14": {
+      "position_mm": [
+        109.8,
+        135.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "R43": {
+      "position_mm": [
+        136.4,
+        124.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "J4": {
+      "position_mm": [
+        156.7,
+        117.7
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:WireSolder_3P_P15.00mm_D2.00mm",
+      "DNP": false
+    },
+    "R40": {
+      "position_mm": [
+        125.8,
+        118.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "RS1": {
+      "position_mm": [
+        151.5,
+        124.9
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm",
+      "DNP": false
+    },
+    "R76": {
+      "position_mm": [
+        101.4,
+        146.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U1": {
+      "position_mm": [
+        118.4,
+        147.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm",
+      "DNP": false
+    },
+    "R26": {
+      "position_mm": [
+        148.1,
+        126.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "J9": {
+      "position_mm": [
+        102.3,
+        123.1
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x05_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "D4": {
+      "position_mm": [
+        123.2,
+        113.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "U15": {
+      "position_mm": [
+        133.9,
+        122.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "J10": {
+      "position_mm": [
+        102.0,
+        115.2
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x05_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "R7": {
+      "position_mm": [
+        132.199999,
+        158.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "Q5": {
+      "position_mm": [
+        141.1,
+        147.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "R74": {
+      "position_mm": [
+        102.7,
+        146.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C58": {
+      "position_mm": [
+        126.3,
+        111.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "Q4": {
+      "position_mm": [
+        150.0,
+        132.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "R25": {
+      "position_mm": [
+        143.925,
+        127.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "C43": {
+      "position_mm": [
+        133.5,
+        119.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R98": {
+      "position_mm": [
+        107.1,
+        109.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C34": {
+      "position_mm": [
+        143.8,
+        152.2
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C22": {
+      "position_mm": [
+        140.5,
+        137.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "DNP": false
+    },
+    "D7": {
+      "position_mm": [
+        141.4,
+        152.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "R75": {
+      "position_mm": [
+        102.0,
+        126.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "TP5": {
+      "position_mm": [
+        147.7,
+        123.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "U21": {
+      "position_mm": [
+        134.1,
+        137.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "D5": {
+      "position_mm": [
+        154.0,
+        152.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "C57": {
+      "position_mm": [
+        124.9,
+        112.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R79": {
+      "position_mm": [
+        118.7,
+        131.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R4": {
+      "position_mm": [
+        136.9,
+        137.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "SW1": {
+      "position_mm": [
+        123.2,
+        157.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SW_SPST_TS-1088-xR020",
+      "DNP": false
+    },
+    "R77": {
+      "position_mm": [
+        101.6,
+        152.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R34": {
+      "position_mm": [
+        144.7,
+        136.9
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R80": {
+      "position_mm": [
+        117.3,
+        129.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R71": {
+      "position_mm": [
+        125.5,
+        145.8
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C40": {
+      "position_mm": [
+        123.0,
+        110.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C8": {
+      "position_mm": [
+        124.8,
+        148.2
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "DNP": false
+    },
+    "D6": {
+      "position_mm": [
+        129.0,
+        158.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "F2": {
+      "position_mm": [
+        134.5,
+        146.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Littelfuse_NANO2_451_476_Pad1.96x3.15mm_Gap2.95mm",
+      "DNP": false
+    },
+    "C41": {
+      "position_mm": [
+        125.0,
+        110.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R64": {
+      "position_mm": [
+        133.4,
+        131.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "TP9": {
+      "position_mm": [
+        157.0,
+        151.9
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "U17": {
+      "position_mm": [
+        125.4,
+        143.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "R81": {
+      "position_mm": [
+        133.3,
+        142.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R107": {
+      "position_mm": [
+        123.0,
+        120.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "J3": {
+      "position_mm": [
+        111.7,
+        117.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "DNP": false
+    },
+    "U25": {
+      "position_mm": [
+        111.3,
+        145.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "J8": {
+      "position_mm": [
+        102.1,
+        150.2
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x02_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "U16": {
+      "position_mm": [
+        133.9,
+        127.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "TP7": {
+      "position_mm": [
+        147.7,
+        138.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "J13": {
+      "position_mm": [
+        108.0,
+        158.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x05_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "R105": {
+      "position_mm": [
+        120.7,
+        116.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C52": {
+      "position_mm": [
+        140.5,
+        140.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R32": {
+      "position_mm": [
+        148.1,
+        141.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R65": {
+      "position_mm": [
+        135.3,
+        131.699999
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R33": {
+      "position_mm": [
+        137.9,
+        127.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C19": {
+      "position_mm": [
+        113.0,
+        108.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "DNP": false
+    },
+    "R123": {
+      "position_mm": [
+        125.8,
+        116.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "Q2": {
+      "position_mm": [
+        150.0,
+        117.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q6": {
+      "position_mm": [
+        150.0,
+        147.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Infineon_BSC110N15NS5_PG-TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "R15": {
+      "position_mm": [
+        117.2,
+        131.699999
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "J7": {
+      "position_mm": [
+        141.6,
+        142.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x02_P1.27mm_Drill0.70mm",
+      "DNP": true
+    },
+    "RS3": {
+      "position_mm": [
+        150.0,
+        154.9
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm",
+      "DNP": false
+    },
+    "C7": {
+      "position_mm": [
+        137.1,
+        141.6
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C51": {
+      "position_mm": [
+        138.5,
+        125.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C6": {
+      "position_mm": [
+        125.4,
+        152.3
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C2": {
+      "position_mm": [
+        124.7,
+        126.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C61": {
+      "position_mm": [
+        136.0,
+        122.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R2": {
+      "position_mm": [
+        115.4,
+        142.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R6": {
+      "position_mm": [
+        123.3,
+        144.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R104": {
+      "position_mm": [
+        115.7,
+        116.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "H4": {
+      "position_mm": [
+        156.0,
+        156.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "R22": {
+      "position_mm": [
+        155.8,
+        111.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C56": {
+      "position_mm": [
+        106.5,
+        108.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R27": {
+      "position_mm": [
+        141.8,
+        127.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C53": {
+      "position_mm": [
+        139.6,
+        152.2
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R20": {
+      "position_mm": [
+        155.9,
+        113.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R21": {
+      "position_mm": [
+        153.2,
+        111.7
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "TP8": {
+      "position_mm": [
+        145.0,
+        139.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "C55": {
+      "position_mm": [
+        102.3,
+        125.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "J15": {
+      "position_mm": [
+        137.2,
+        103.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x03_P1.27mm_Drill0.70mm",
+      "DNP": true
+    },
+    "F1": {
+      "position_mm": [
+        118.3,
+        119.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Littelfuse_NANO2_451_476_Pad1.96x3.15mm_Gap2.95mm",
+      "DNP": false
+    },
+    "TP3": {
+      "position_mm": [
+        105.5,
+        151.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "RS2": {
+      "position_mm": [
+        151.5,
+        139.9
+      ],
+      "angle_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm",
+      "DNP": false
+    },
+    "J14": {
+      "position_mm": [
+        115.8,
+        158.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HCTL_PZ127_1x03_P1.27mm_Drill0.70mm",
+      "DNP": false
+    },
+    "R132": {
+      "position_mm": [
+        121.2,
+        158.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "J101": {
+      "position_mm": [
+        104.73,
+        110.95
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:XFCN_PM254V-12-32-H85_2x16_P2.54mm_Vertical_Drill1.02mm",
+      "DNP": false
+    },
+    "R8": {
+      "position_mm": [
+        103.2,
+        152.2
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": true
+    },
+    "C27": {
+      "position_mm": [
+        134.0,
+        117.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "R100": {
+      "position_mm": [
+        112.2,
+        111.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "U2": {
+      "position_mm": [
+        122.8,
+        149.9
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm",
+      "DNP": false
+    },
+    "U6": {
+      "position_mm": [
+        111.9,
+        113.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-6",
+      "DNP": false
+    },
+    "C9": {
+      "position_mm": [
+        127.9,
+        157.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C70": {
+      "position_mm": [
+        118.6,
+        120.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C35": {
+      "position_mm": [
+        135.7,
+        143.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "R108": {
+      "position_mm": [
+        115.8,
+        114.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R84": {
+      "position_mm": [
+        119.7,
+        120.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C36": {
+      "position_mm": [
+        139.1,
+        143.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "TP1": {
+      "position_mm": [
+        134.4,
+        146.9
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "R29": {
+      "position_mm": [
+        142.8,
+        128.199999
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R18": {
+      "position_mm": [
+        131.0,
+        158.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R95": {
+      "position_mm": [
+        110.5,
+        127.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R113": {
+      "position_mm": [
+        111.3,
+        109.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "C75": {
+      "position_mm": [
+        120.2,
+        104.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "D201": {
+      "position_mm": [
+        116.0,
+        121.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "C50": {
+      "position_mm": [
+        101.1,
+        151.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R60": {
+      "position_mm": [
+        134.1,
+        125.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "D2": {
+      "position_mm": [
+        137.8,
+        109.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SMC_DO-214AB_Bidirectional",
+      "DNP": true
+    },
+    "C25": {
+      "position_mm": [
+        143.2,
+        124.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "R130": {
+      "position_mm": [
+        135.8,
+        136.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C24": {
+      "position_mm": [
+        130.6,
+        156.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "TP13": {
+      "position_mm": [
+        155.9,
+        151.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "R88": {
+      "position_mm": [
+        124.1,
+        135.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R160": {
+      "position_mm": [
+        114.4,
+        134.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R39": {
+      "position_mm": [
+        149.5,
+        158.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R87": {
+      "position_mm": [
+        133.5,
+        139.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U12": {
+      "position_mm": [
+        149.0,
+        155.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-8",
+      "DNP": false
+    },
+    "C28": {
+      "position_mm": [
+        144.5,
+        117.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C47": {
+      "position_mm": [
+        146.2,
+        122.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R44": {
+      "position_mm": [
+        139.8,
+        136.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C71": {
+      "position_mm": [
+        132.6,
+        107.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C60": {
+      "position_mm": [
+        121.5,
+        106.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R61": {
+      "position_mm": [
+        126.1,
+        135.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R91": {
+      "position_mm": [
+        111.2,
+        139.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "TP4": {
+      "position_mm": [
+        137.9,
+        137.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "R86": {
+      "position_mm": [
+        119.2,
+        126.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "D203": {
+      "position_mm": [
+        122.2,
+        121.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "R52": {
+      "position_mm": [
+        125.8,
+        121.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C38": {
+      "position_mm": [
+        151.5,
+        140.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C11": {
+      "position_mm": [
+        110.4,
+        155.2
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "TP2": {
+      "position_mm": [
+        117.8,
+        101.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "R206": {
+      "position_mm": [
+        119.1,
+        123.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R208": {
+      "position_mm": [
+        124.1,
+        114.9
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R5": {
+      "position_mm": [
+        106.8,
+        152.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C72": {
+      "position_mm": [
+        145.0,
+        126.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R59": {
+      "position_mm": [
+        125.8,
+        132.199999
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "C32": {
+      "position_mm": [
+        139.5,
+        128.65
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R58": {
+      "position_mm": [
+        134.1,
+        132.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R143": {
+      "position_mm": [
+        120.9,
+        107.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C54": {
+      "position_mm": [
+        134.0,
+        149.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "TP17": {
+      "position_mm": [
+        123.4,
+        133.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "R12": {
+      "position_mm": [
+        123.9,
+        157.8
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R62": {
+      "position_mm": [
+        134.6,
+        139.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R110": {
+      "position_mm": [
+        114.6,
+        111.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R127": {
+      "position_mm": [
+        116.1,
+        107.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R13": {
+      "position_mm": [
+        111.4,
+        120.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C16": {
+      "position_mm": [
+        118.2,
+        142.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C37": {
+      "position_mm": [
+        151.5,
+        125.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R24": {
+      "position_mm": [
+        125.2,
+        108.8
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R89": {
+      "position_mm": [
+        114.3,
+        131.199999
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C74": {
+      "position_mm": [
+        107.5,
+        155.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R141": {
+      "position_mm": [
+        119.5,
+        110.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "D205": {
+      "position_mm": [
+        116.0,
+        126.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "U4": {
+      "position_mm": [
+        111.1,
+        136.8
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-5",
+      "DNP": false
+    },
+    "R131": {
+      "position_mm": [
+        134.0,
+        141.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R97": {
+      "position_mm": [
+        109.5,
+        128.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R139": {
+      "position_mm": [
+        126.9,
+        107.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R36": {
+      "position_mm": [
+        144.5,
+        145.2
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C59": {
+      "position_mm": [
+        101.1,
+        121.1
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C76": {
+      "position_mm": [
+        101.7,
+        136.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C29": {
+      "position_mm": [
+        143.2,
+        139.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "R94": {
+      "position_mm": [
+        102.3,
+        125.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U29": {
+      "position_mm": [
+        132.4,
+        153.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-5",
+      "DNP": false
+    },
+    "R201": {
+      "position_mm": [
+        114.9,
+        117.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C82": {
+      "position_mm": [
+        116.5,
+        104.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": true
+    },
+    "L2": {
+      "position_mm": [
+        113.4,
+        144.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:L_Sunlord_MWSA0603S",
+      "DNP": false
+    },
+    "R38": {
+      "position_mm": [
+        146.9,
+        143.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "U8": {
+      "position_mm": [
+        139.5,
+        132.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": false
+    },
+    "C69": {
+      "position_mm": [
+        118.8,
+        115.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C17": {
+      "position_mm": [
+        107.8,
+        107.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "D204": {
+      "position_mm": [
+        125.1,
+        124.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "D206": {
+      "position_mm": [
+        117.9,
+        129.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "R37": {
+      "position_mm": [
+        146.9,
+        128.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R69": {
+      "position_mm": [
+        145.5,
+        135.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U5": {
+      "position_mm": [
+        115.2,
+        137.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-6",
+      "DNP": false
+    },
+    "C10": {
+      "position_mm": [
+        120.7,
+        154.7
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C5": {
+      "position_mm": [
+        117.9,
+        146.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R210": {
+      "position_mm": [
+        122.6,
+        130.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "U3": {
+      "position_mm": [
+        114.3,
+        151.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:TSOT-23-6",
+      "DNP": false
+    },
+    "C18": {
+      "position_mm": [
+        118.2,
+        138.9
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "R30": {
+      "position_mm": [
+        144.2,
+        132.3
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R70": {
+      "position_mm": [
+        117.8,
+        106.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U31": {
+      "position_mm": [
+        112.1,
+        103.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": true
+    },
+    "R35": {
+      "position_mm": [
+        144.2,
+        149.3
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R120": {
+      "position_mm": [
+        109.7,
+        108.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R118": {
+      "position_mm": [
+        115.8,
+        109.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C44": {
+      "position_mm": [
+        145.7,
+        119.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C46": {
+      "position_mm": [
+        146.7,
+        129.9
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R96": {
+      "position_mm": [
+        113.1,
+        126.9
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "L1": {
+      "position_mm": [
+        123.3,
+        141.6
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:L_Sunlord_MWSA0603S",
+      "DNP": false
+    },
+    "R128": {
+      "position_mm": [
+        110.7,
+        107.1
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R53": {
+      "position_mm": [
+        134.1,
+        121.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "TP11": {
+      "position_mm": [
+        151.5,
+        128.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "C23": {
+      "position_mm": [
+        129.8,
+        152.8
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R48": {
+      "position_mm": [
+        129.8,
+        107.8
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R135": {
+      "position_mm": [
+        141.6,
+        121.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R211": {
+      "position_mm": [
+        112.0,
+        133.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "TP12": {
+      "position_mm": [
+        151.5,
+        143.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "D202": {
+      "position_mm": [
+        117.9,
+        117.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "U10": {
+      "position_mm": [
+        147.7,
+        125.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-8",
+      "DNP": false
+    },
+    "R137": {
+      "position_mm": [
+        122.2,
+        108.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R50": {
+      "position_mm": [
+        123.1,
+        110.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R14": {
+      "position_mm": [
+        118.6,
+        136.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "U19": {
+      "position_mm": [
+        138.5,
+        140.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "R203": {
+      "position_mm": [
+        122.3,
+        117.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C14": {
+      "position_mm": [
+        116.2,
+        155.2
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C45": {
+      "position_mm": [
+        145.0,
+        123.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R204": {
+      "position_mm": [
+        125.8,
+        118.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R207": {
+      "position_mm": [
+        121.6,
+        124.0
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R102": {
+      "position_mm": [
+        106.0,
+        108.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C39": {
+      "position_mm": [
+        152.4,
+        156.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C12": {
+      "position_mm": [
+        122.0,
+        135.9
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R63": {
+      "position_mm": [
+        134.199999,
+        136.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R111": {
+      "position_mm": [
+        117.1,
+        114.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R109": {
+      "position_mm": [
+        109.5,
+        110.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R114": {
+      "position_mm": [
+        117.2,
+        112.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R124": {
+      "position_mm": [
+        120.6,
+        111.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R202": {
+      "position_mm": [
+        120.7,
+        116.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R142": {
+      "position_mm": [
+        133.699999,
+        112.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U11": {
+      "position_mm": [
+        147.7,
+        140.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-8",
+      "DNP": false
+    },
+    "R85": {
+      "position_mm": [
+        115.1,
+        128.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C13": {
+      "position_mm": [
+        117.3,
+        151.4
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "U18": {
+      "position_mm": [
+        138.5,
+        125.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "D208": {
+      "position_mm": [
+        125.3,
+        128.5
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "R16": {
+      "position_mm": [
+        133.6,
+        157.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R117": {
+      "position_mm": [
+        119.0,
+        112.3
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R106": {
+      "position_mm": [
+        114.7,
+        114.1
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R57": {
+      "position_mm": [
+        142.0,
+        113.3
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "U7": {
+      "position_mm": [
+        138.9,
+        118.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": false
+    },
+    "R136": {
+      "position_mm": [
+        121.0,
+        109.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R116": {
+      "position_mm": [
+        113.5,
+        109.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R11": {
+      "position_mm": [
+        120.7,
+        157.1
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R126": {
+      "position_mm": [
+        114.8,
+        107.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "C31": {
+      "position_mm": [
+        135.7,
+        128.4
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C48": {
+      "position_mm": [
+        144.6,
+        130.199999
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R209": {
+      "position_mm": [
+        120.6,
+        130.199999
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R112": {
+      "position_mm": [
+        115.9,
+        111.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C15": {
+      "position_mm": [
+        101.6,
+        146.4
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "R121": {
+      "position_mm": [
+        126.4,
+        115.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "D207": {
+      "position_mm": [
+        121.6,
+        126.8
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "R49": {
+      "position_mm": [
+        125.9,
+        112.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R129": {
+      "position_mm": [
+        119.5,
+        108.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R10": {
+      "position_mm": [
+        123.4,
+        155.1
+      ],
+      "angle_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R55": {
+      "position_mm": [
+        119.9,
+        113.9
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "D209": {
+      "position_mm": [
+        112.0,
+        130.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "R134": {
+      "position_mm": [
+        139.8,
+        122.0
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R205": {
+      "position_mm": [
+        116.5,
+        123.5
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R90": {
+      "position_mm": [
+        109.7,
+        130.699999
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R119": {
+      "position_mm": [
+        118.4,
+        110.7
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "C73": {
+      "position_mm": [
+        114.4,
+        157.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R56": {
+      "position_mm": [
+        124.0,
+        117.4
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C42": {
+      "position_mm": [
+        125.8,
+        122.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R138": {
+      "position_mm": [
+        133.5,
+        114.5
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R23": {
+      "position_mm": [
+        137.4,
+        121.8
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R133": {
+      "position_mm": [
+        101.7,
+        116.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "TP16": {
+      "position_mm": [
+        120.1,
+        133.5
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "U20": {
+      "position_mm": [
+        137.7,
+        152.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "R103": {
+      "position_mm": [
+        109.5,
+        133.199999
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "J102": {
+      "position_mm": [
+        128.729999,
+        110.95
+      ],
+      "angle_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:XFCN_PM254V-12-32-H85_2x16_P2.54mm_Vertical_Drill1.02mm",
+      "DNP": false
+    },
+    "U9": {
+      "position_mm": [
+        139.5,
+        147.4
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": false
+    },
+    "R47": {
+      "position_mm": [
+        141.0,
+        136.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R51": {
+      "position_mm": [
+        123.3,
+        112.9
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R3": {
+      "position_mm": [
+        110.7,
+        150.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "C33": {
+      "position_mm": [
+        143.4,
+        152.6
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "R101": {
+      "position_mm": [
+        101.1,
+        123.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R140": {
+      "position_mm": [
+        124.0,
+        107.2
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "D210": {
+      "position_mm": [
+        116.9,
+        132.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Nexperia_SOT23_Reflow_Pad0.70x0.60mm",
+      "DNP": false
+    },
+    "C4": {
+      "position_mm": [
+        125.7,
+        155.2
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C30": {
+      "position_mm": [
+        144.1,
+        135.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C49": {
+      "position_mm": [
+        146.0,
+        133.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "R9": {
+      "position_mm": [
+        128.199999,
+        153.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "D1": {
+      "position_mm": [
+        149.6,
+        112.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:Diodes_MBRD20150CT_TO252_Recommended",
+      "DNP": false
+    },
+    "R115": {
+      "position_mm": [
+        117.0,
+        110.8
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R46": {
+      "position_mm": [
+        134.0,
+        130.0
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R99": {
+      "position_mm": [
+        102.0,
+        127.1
+      ],
+      "angle_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "C26": {
+      "position_mm": [
+        144.1,
+        120.6
+      ],
+      "angle_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:C_0603_1608Metric",
+      "DNP": false
+    }
+  },
+  "geometry": {
+    "outline_pass": true,
+    "outline_bbox_mm": [
+      100.0,
+      100.0,
+      160.0,
+      160.0
+    ],
+    "copper_layers": 6,
+    "mounting_holes": [
+      {
+        "reference": "H1",
+        "position_mm": [
+          104.0,
+          104.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H2",
+        "position_mm": [
+          156.0,
+          104.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H3",
+        "position_mm": [
+          104.0,
+          156.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      },
+      {
+        "reference": "H4",
+        "position_mm": [
+          156.0,
+          156.0
+        ],
+        "drill_mm": [
+          2.2
+        ],
+        "pass": true
+      }
+    ],
+    "mounting_copper_keepout_radius_mm": 2.8,
+    "mounting_copper_intrusions": [],
+    "unfilled_copper_zones": [],
+    "mounting_hardware_courtyard_review": [],
+    "courtyard_missing": [],
+    "courtyard_outside_board": [],
+    "courtyard_overlaps": [
+      {
+        "references": [
+          "J5",
+          "U20"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.6631
+      },
+      {
+        "references": [
+          "J4",
+          "D1"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.0296
+      },
+      {
+        "references": [
+          "J3",
+          "U6"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.0836
+      },
+      {
+        "references": [
+          "J3",
+          "R95"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.0185
+      },
+      {
+        "references": [
+          "J3",
+          "D201"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.5092
+      },
+      {
+        "references": [
+          "J3",
+          "R13"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.777
+      },
+      {
+        "references": [
+          "J3",
+          "D205"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.4066
+      },
+      {
+        "references": [
+          "J3",
+          "R201"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.7965
+      },
+      {
+        "references": [
+          "J3",
+          "R96"
+        ],
+        "layer": "B.Courtyard",
+        "area_mm2": 0.2035
+      }
+    ],
+    "core_buttons": [],
+    "upper_board_button_access_obstacles": [
+      {
+        "reference": "J5",
+        "bbox": [
+          134.955,
+          153.905,
+          146.495,
+          159.495
+        ],
+        "connector": true
+      },
+      {
+        "reference": "R132",
+        "bbox": [
+          120.225,
+          158.285,
+          122.175,
+          159.315
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U2",
+        "bbox": [
+          118.805,
+          146.305,
+          126.795,
+          153.495
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C9",
+        "bbox": [
+          127.125,
+          155.575,
+          128.675,
+          158.625
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R18",
+        "bbox": [
+          129.475,
+          157.825,
+          132.525,
+          159.375
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C24",
+        "bbox": [
+          129.075,
+          155.625,
+          132.125,
+          157.175
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R12",
+        "bbox": [
+          122.375,
+          157.025,
+          125.425,
+          158.575
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U29",
+        "bbox": [
+          130.655,
+          151.305,
+          134.145,
+          155.495
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C10",
+        "bbox": [
+          118.955,
+          153.675,
+          122.445,
+          155.725
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U3",
+        "bbox": [
+          112.555,
+          149.105,
+          116.045,
+          153.295
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C23",
+        "bbox": [
+          129.025,
+          151.275,
+          130.575,
+          154.325
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C14",
+        "bbox": [
+          113.855,
+          154.005,
+          118.545,
+          156.395
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C13",
+        "bbox": [
+          116.105,
+          149.055,
+          118.495,
+          153.745
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R16",
+        "bbox": [
+          132.825,
+          155.575,
+          134.375,
+          158.625
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R11",
+        "bbox": [
+          119.175,
+          156.325,
+          122.225,
+          157.875
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R10",
+        "bbox": [
+          122.625,
+          153.575,
+          124.175,
+          156.625
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C73",
+        "bbox": [
+          113.895,
+          156.545,
+          114.905,
+          158.455
+        ],
+        "connector": false
+      },
+      {
+        "reference": "U20",
+        "bbox": [
+          134.475,
+          150.605,
+          140.925,
+          154.195
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C33",
+        "bbox": [
+          141.055,
+          151.405,
+          145.745,
+          153.795
+        ],
+        "connector": false
+      },
+      {
+        "reference": "C4",
+        "bbox": [
+          124.925,
+          153.675,
+          126.475,
+          156.725
+        ],
+        "connector": false
+      },
+      {
+        "reference": "R9",
+        "bbox": [
+          127.424999,
+          152.275,
+          128.974999,
+          155.325
+        ],
+        "connector": false
+      }
+    ]
+  },
+  "3D_models": {
+    "links": [
+      {
+        "reference": "C20",
+        "model": "D:/workspace/kicad_library/3dmodels/C_Radial_D12.5mm_H25.0mm_P5.00mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_Radial_D12.5mm_H25.0mm_P5.00mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R72",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C3",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R54",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U28",
+        "model": "D:/workspace/kicad_library/3dmodels/SOIC-14_3.9x8.7mm_P1.27mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOIC-14_3.9x8.7mm_P1.27mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U27",
+        "model": "D:/workspace/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSSOP-14_4.4x5mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U13",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-353_SC-70-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U14",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-353_SC-70-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R67",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C1",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "J2",
+        "model": "D:/workspace/kicad_library/3dmodels/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U26",
+        "model": "D:/workspace/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSSOP-14_4.4x5mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D3",
+        "model": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "Q8",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R78",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R82",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C21",
+        "model": "D:/workspace/kicad_library/3dmodels/C_1210_3225Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_1210_3225Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R28",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U22",
+        "model": "D:/workspace/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSSOP-14_4.4x5mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R42",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R31",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U24",
+        "model": "D:/workspace/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSSOP-14_4.4x5mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U23",
+        "model": "D:/workspace/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSSOP-14_4.4x5mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R41",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R66",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R45",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R17",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R19",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R83",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R73",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R1",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R125",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C62",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R68",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R43",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R40",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "RS1",
+        "model": "D:/workspace/kicad_library/3dmodels/R_2512_6332Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\R_2512_6332Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R76",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U1",
+        "model": "D:/workspace/kicad_library/3dmodels/HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R26",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D4",
+        "model": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U15",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-353_SC-70-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R7",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R74",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C58",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R25",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C43",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R98",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C34",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C22",
+        "model": "D:/workspace/kicad_library/3dmodels/C_1210_3225Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_1210_3225Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D7",
+        "model": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R75",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U21",
+        "model": "D:/workspace/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\VSSOP-8_3x3mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D5",
+        "model": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C57",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R79",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R4",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "SW1",
+        "model": "D:/workspace/kicad_library/3dmodels/SW_SPST_TS-1088-xR020.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SW_SPST_TS-1088-xR020.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R77",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R34",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R80",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R71",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C40",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C8",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1210_3225Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D6",
+        "model": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\LED_SMD.3dshapes\\LED_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C41",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R64",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U17",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-353_SC-70-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R81",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R107",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U25",
+        "model": "D:/workspace/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSSOP-14_4.4x5mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U16",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-353_SC-70-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R105",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C52",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R32",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R65",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R33",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C19",
+        "model": "D:/workspace/kicad_library/3dmodels/C_Radial_D12.5mm_H25.0mm_P5.00mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_Radial_D12.5mm_H25.0mm_P5.00mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R123",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R15",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "RS3",
+        "model": "D:/workspace/kicad_library/3dmodels/R_2512_6332Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\R_2512_6332Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C7",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C51",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C6",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C2",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C61",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R2",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R6",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R104",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R22",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C56",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R27",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C53",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R20",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R21",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C55",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "RS2",
+        "model": "D:/workspace/kicad_library/3dmodels/R_2512_6332Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\R_2512_6332Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R132",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "J101",
+        "model": "D:/workspace/kicad_library/3dmodels/PinSocket_2x16_P2.54mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\PinSocket_2x16_P2.54mm_Vertical.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R8",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C27",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R100",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U2",
+        "model": "D:/workspace/kicad_library/3dmodels/HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U6",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-6.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-6.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C9",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C70",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C35",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R108",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R84",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C36",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R29",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R18",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R95",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R113",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C75",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D201",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C50",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R60",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D2",
+        "model": "D:/workspace/kicad_library/3dmodels/D_SMC.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\D_SMC.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C25",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R130",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C24",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R88",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R160",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R39",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R87",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U12",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-8.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-8.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C28",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C47",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R44",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C71",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C60",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R61",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R91",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R86",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D203",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R52",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C38",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C11",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R206",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R208",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R5",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C72",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R59",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C32",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R58",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R143",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C54",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R12",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R62",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R110",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R127",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R13",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C16",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C37",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R24",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R89",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C74",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R141",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D205",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U4",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R131",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R97",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R139",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R36",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C59",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C76",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C29",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R94",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U29",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-5.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-5.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R201",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C82",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "L2",
+        "model": "D:/workspace/kicad_library/3dmodels/L_Sunlord_MWSA0603S.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\L_Sunlord_MWSA0603S.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R38",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U8",
+        "model": "D:/workspace/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C69",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C17",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D204",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D206",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R37",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R69",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U5",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-6.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-6.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C10",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C5",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R210",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U3",
+        "model": "D:/workspace/kicad_library/3dmodels/TSOT-23-6.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TSOT-23-6.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C18",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R30",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R70",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U31",
+        "model": "D:/workspace/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R35",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R120",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R118",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C44",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C46",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R96",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "L1",
+        "model": "D:/workspace/kicad_library/3dmodels/L_Sunlord_MWSA0603S.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\L_Sunlord_MWSA0603S.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R128",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R53",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C23",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R48",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R135",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R211",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D202",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U10",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-8.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-8.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R137",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R50",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R14",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U19",
+        "model": "D:/workspace/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\VSSOP-8_3x3mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R203",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C14",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C45",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R204",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R207",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R102",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C39",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C12",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R63",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R111",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R109",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R114",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R124",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R202",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R142",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U11",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23-8.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23-8.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R85",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C13",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U18",
+        "model": "D:/workspace/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\VSSOP-8_3x3mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D208",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R16",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R117",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R106",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R57",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U7",
+        "model": "D:/workspace/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R136",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R116",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R11",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R126",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C31",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C48",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R209",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R112",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C15",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R121",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D207",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R49",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0805_2012Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R129",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R10",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R55",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D209",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R134",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R205",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R90",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R119",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C73",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R56",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C42",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R138",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R23",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R133",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U20",
+        "model": "D:/workspace/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\VSSOP-8_3x3mm_P0.65mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R103",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "J102",
+        "model": "D:/workspace/kicad_library/3dmodels/PinSocket_2x16_P2.54mm_Vertical.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\PinSocket_2x16_P2.54mm_Vertical.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "U9",
+        "model": "D:/workspace/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R47",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R51",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R3",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C33",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R101",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R140",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D210",
+        "model": "D:/workspace/kicad_library/3dmodels/SOT-23.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\SOT-23.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C4",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C30",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C49",
+        "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R9",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "D1",
+        "model": "D:/workspace/kicad_library/3dmodels/TO-252-3_TabPin2.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\TO-252-3_TabPin2.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R115",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R46",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "R99",
+        "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+        "resolved_path": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels\\Resistor_SMD.3dshapes\\R_0402_1005Metric.step",
+        "exists": true,
+        "shown": true
+      },
+      {
+        "reference": "C26",
+        "model": "D:/workspace/kicad_library/3dmodels/C_0603_1608Metric.step",
+        "resolved_path": "D:\\workspace\\kicad_library\\3dmodels\\C_0603_1608Metric.step",
+        "exists": true,
+        "shown": true
+      }
+    ],
+    "references_without_model": [
+      "F1",
+      "F2",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "J10",
+      "J11",
+      "J12",
+      "J13",
+      "J14",
+      "J15",
+      "J3",
+      "J4",
+      "J5",
+      "J7",
+      "J8",
+      "J9",
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7",
+      "TP1",
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP14",
+      "TP16",
+      "TP17",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9"
+    ],
+    "missing_files": [],
+    "scope": "File resolution only; a generic model does not qualify exact body or mating height."
+  },
+  "routing": {
+    "raw_pcbnew_unconnected": 710,
+    "track_segments": 0,
+    "vias": 0,
+    "zones": 0
+  },
+  "board_unchanged_during_read": true,
+  "scope": "Initial work-path base readback; owner continues routing; model paths interpreted at the actual work directory, not canonical hardware."
+}

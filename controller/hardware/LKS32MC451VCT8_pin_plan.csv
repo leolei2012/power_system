@@ -1,0 +1,101 @@
+﻿Pin,GPIO,Symbol_Name,Symbol_Unit,Net,Group,Function,AF,Direction,Interface,State,Note
+1,P0_0,P0_0,A,INV1_ENABLE,INV1,GPIO,AF0,OUT,J_INV1.10,assigned,外部下拉；低有效封锁
+2,P0_1,P0_1,A,SPI_A_CS_N,SPI,GPIO,AF0,OUT,J_SPI_A.CS_N,assigned,软件片选；外部上拉
+3,P5_2,P5_2,C,INV2_ENABLE,INV2,GPIO,AF0,OUT,J_INV2.10,assigned,外部下拉；低有效封锁
+4,P0_2,P0_2,A,UART_TX,UART,UART0_TXD,AF4,OUT,J_UART.1,assigned,3.3 V TTL
+5,NC,NC,D,NC,NC,NC,NC,NC,,nc,不连接、不接电源或地
+6,P5_3,P5_3,C,PFC_ENABLE,PFC,GPIO,AF0,OUT,J_PFC.10,assigned,外部下拉；功率板硬件封锁
+7,P0_3,P0_3,A,SPI_A_MISO,SPI,SPI0_DI,AF5,IN,J_SPI_A.MISO,assigned,两组硬件 SPI 独立使用
+8,P0_4,P0_4,A,INV1_I_W,INV1,ADC2_CH13,AF0,ANALOG_IN,J_INV1.16,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+9,P0_5,P0_5,A,INV2_I_W,INV2,ADC2_CH12,AF0,ANALOG_IN,J_INV2.16,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+10,P0_6,P0_6/~{RST},A,MCU_NRST,SYSTEM,RST_n,SPECIAL,IN,J_SWD.5,assigned,保持 SWDMUX=0、RST_IO=0；外部晶振频率与最小系统另定
+11,P0_7,P0_7/OSC_OUT,A,OSC_OUT,SYSTEM,OSC_OUT,SPECIAL,OUT,Y1.OUT,assigned,保持 SWDMUX=0、RST_IO=0；外部晶振频率与最小系统另定
+12,VSS,VSS,D,GND,POWER,VSS,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+13,P0_8,P0_8/OSC_IN,A,OSC_IN,SYSTEM,OSC_IN,SPECIAL,IN,Y1.IN,assigned,保持 SWDMUX=0、RST_IO=0；外部晶振频率与最小系统另定
+14,AVDD,AVDD,D,+3V3_MCU,POWER,AVDD,POWER,POWER_IN,SUPPLY,power,3.3 V 供电；逐脚去耦；滤波与布局在最小系统设计落实
+15,P0_9,P0_9/~{TRST},A,DEBUG_nTRST_RESERVED,RESERVED,DEBUG_RESERVED,SPECIAL,RESERVED,TEST_PAD_OPTION,reserved,SWDMUX 为整组切换；为保留正常在线 SWD，不分配业务功能
+16,P0_10,P0_10/SWDIO/TMS,A,SWDIO,SYSTEM,SWDIO,SPECIAL,BIDIR,J_SWD.2,assigned,保持 SWDMUX=0、RST_IO=0；外部晶振频率与最小系统另定
+17,P0_11,P0_11/TDI,A,DEBUG_TDI_RESERVED,RESERVED,DEBUG_RESERVED,SPECIAL,RESERVED,TEST_PAD_OPTION,reserved,SWDMUX 为整组切换；为保留正常在线 SWD，不分配业务功能
+18,P0_12,P0_12/SWCLK/TCLK,A,SWCLK,SYSTEM,SWCLK,SPECIAL,IN,J_SWD.3,assigned,保持 SWDMUX=0、RST_IO=0；外部晶振频率与最小系统另定
+19,P0_13,P0_13/TDO,A,DEBUG_TDO_RESERVED,RESERVED,DEBUG_RESERVED,SPECIAL,RESERVED,TEST_PAD_OPTION,reserved,SWDMUX 为整组切换；为保留正常在线 SWD，不分配业务功能
+20,P0_14,P0_14,A,CAN_RX,CAN,CAN_RX,AFA,IN,U_CAN.RXD,assigned,预留 CAN 收发器；不是 CANL 引脚；TRACEMUX=0
+21,P0_15,P0_15,A,LED_RUN1,LED,GPIO,AF0,OUT,ONBOARD,assigned,五灯建议中的四路 GPIO；暂定低有效；电源灯直接接电源；TRACEMUX=0
+22,P1_0,P1_0,A,BRAKE_2,BRAKE,MCPWM1_CH3P,AF3,OUT,J_BRAKE2.CTRL,assigned,独立时基 1；外部下拉；TRACEMUX=0；独立保护另定
+23,P1_1,P1_1,A,SPI_B_SCK,SPI,SPI1_CLK,AF5,OUT,J_SPI_B.SCK,assigned,两组硬件 SPI 独立使用
+24,P1_2,P1_2,A,INV1_PWM_UH,INV1,MCPWM0_CH0P,AF3,OUT,J_INV1.1,assigned,复位/未使能时由外部电路保持关断
+25,P1_3,P1_3,A,INV1_PWM_VL,INV1,MCPWM0_CH1N,AF3,OUT,J_INV1.5,assigned,复位/未使能时由外部电路保持关断
+26,P1_4,P1_4,A,INV1_PWM_VH,INV1,MCPWM0_CH1P,AF3,OUT,J_INV1.4,assigned,复位/未使能时由外部电路保持关断
+27,P1_5,P1_5,A,INV1_PWM_WL,INV1,MCPWM0_CH2N,AF3,OUT,J_INV1.8,assigned,复位/未使能时由外部电路保持关断
+28,P1_6,P1_6,A,SPI_A_MOSI,SPI,SPI0_DO,AF5,OUT,J_SPI_A.MOSI,assigned,两组硬件 SPI 独立使用
+29,NC,NC,D,NC,NC,NC,NC,NC,,nc,不连接、不接电源或地
+30,P1_7,P1_7,A,SPI_B_CS_N,SPI,GPIO,AF0,OUT,J_SPI_B.CS_N,assigned,软件片选；外部上拉
+31,VSS,VSS,D,GND,POWER,VSS,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+32,P1_8,P1_8,A,BRAKE_1,BRAKE,MCPWM0_CH3P,AF3,OUT,J_BRAKE1.CTRL,assigned,独立时基 1；外部下拉；只引出 P 输出；独立保护另定
+33,P1_9,P1_9,A,SPI_B_MOSI,SPI,SPI1_DO,AF5,OUT,J_SPI_B.MOSI,assigned,两组硬件 SPI 独立使用
+34,P1_10,P1_10,A,SPI_B_MISO,SPI,SPI1_DI,AF5,IN,J_SPI_B.MISO,assigned,两组硬件 SPI 独立使用
+35,P1_11,P1_11,A,PFC_PWM_A2,PFC,TIM0_CH1,AF7,OUT,J_PFC.2,assigned,单路 Boost 使用 A1；Vienna 六路命令的同步/更新/驱动关系待验证
+36,P1_12,P1_12,A,PFC_PRECHARGE,PFC,GPIO,AF0,OUT,J_PFC.24,assigned,暂定高有效；外部下拉；仅驱动外部预充控制级
+37,P1_13,P1_13,A,SPI_A_SCK,SPI,SPI0_CLK,AF5,OUT,J_SPI_A.SCK,assigned,两组硬件 SPI 独立使用
+38,P1_14,P1_14,A,ENC1_A,ENCODER,TIM2_CH0,AF8,IN,J_ENC1.A,assigned,QEP2 / QEP3；接口电平调理、供电与接插件待定
+39,P1_15,P1_15,A,ENC1_B,ENCODER,TIM2_CH1,AF8,IN,J_ENC1.B,assigned,QEP2 / QEP3；接口电平调理、供电与接插件待定
+40,P2_0,P2_0,B,PFC_PWM_B1,PFC,TIM1_CH0,AF7,OUT,J_PFC.4,assigned,单路 Boost 使用 A1；Vienna 六路命令的同步/更新/驱动关系待验证
+41,P2_1,P2_1,B,PFC_FAULT_N,PFC,GPIO,AF0,IN,J_PFC.11,assigned,EXTI14 候选；PFC 关断不依赖 EXTI 或 CPU
+42,AVDD,AVDD,D,+3V3_MCU,POWER,AVDD,POWER,POWER_IN,SUPPLY,power,3.3 V 供电；逐脚去耦；滤波与布局在最小系统设计落实
+43,P2_2,P2_2,B,INV2_FAULT_N,INV2,MCPWM1_BKIN0,AF3,IN,J_INV2.11,assigned,低有效；配置 FAIL012；故障同时在功率板硬件关断
+44,VSS33,VSS33,D,GND,POWER,VSS33,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+45,P2_3,P2_3,B,INV2_PWM_WH,INV2,MCPWM1_CH2P,AF3,OUT,J_INV2.7,assigned,复位/未使能时由外部电路保持关断
+46,P2_4,P2_4,B,INV2_PWM_VH,INV2,MCPWM1_CH1P,AF3,OUT,J_INV2.4,assigned,复位/未使能时由外部电路保持关断
+47,P2_5,P2_5,B,INV2_PWM_UH,INV2,MCPWM1_CH0P,AF3,OUT,J_INV2.1,assigned,复位/未使能时由外部电路保持关断
+48,P2_6,P2_6,B,INV2_PWM_WL,INV2,MCPWM1_CH2N,AF3,OUT,J_INV2.8,assigned,复位/未使能时由外部电路保持关断
+49,P2_7,P2_7,B,INV2_PWM_VL,INV2,MCPWM1_CH1N,AF3,OUT,J_INV2.5,assigned,复位/未使能时由外部电路保持关断
+50,P2_8,P2_8,B,INV2_PWM_UL,INV2,MCPWM1_CH0N,AF3,OUT,J_INV2.2,assigned,复位/未使能时由外部电路保持关断
+51,P2_9,P2_9,B,ENC1_Z,ENCODER,TIM2_Z,AF8,IN,J_ENC1.Z,assigned,QEP2 / QEP3；接口电平调理、供电与接插件待定
+52,P2_10,P2_10,B,PFC_PWM_C1,PFC,TIM4_CH0,AF7,OUT,J_PFC.7,assigned,单路 Boost 使用 A1；Vienna 六路命令的同步/更新/驱动关系待验证
+53,P2_11,P2_11,B,UART_RX,UART,UART0_RXD,AF4,IN,J_UART.2,assigned,3.3 V TTL
+54,P2_12,P2_12,B,PFC_PWM_C2,PFC,TIM4_CH1,AF7,OUT,J_PFC.8,assigned,单路 Boost 使用 A1；Vienna 六路命令的同步/更新/驱动关系待验证
+55,P2_13,P2_13,B,LED_RUN2,LED,GPIO,AF0,OUT,ONBOARD,assigned,五灯建议中的四路 GPIO；暂定低有效；电源灯直接接电源；TRACEMUX=0
+56,P2_14,P2_14,B,INV1_PWM_UL,INV1,MCPWM0_CH0N,AF3,OUT,J_INV1.2,assigned,复位/未使能时由外部电路保持关断
+57,P2_15,P2_15,B,INV1_FAULT_N,INV1,MCPWM0_BKIN0,AF3,IN,J_INV1.11,assigned,低有效；配置 FAIL012；故障同时在功率板硬件关断
+58,P3_0,P3_0,B,INV1_I_U,INV1,ADC0_CH14,AF0,ANALOG_IN,J_INV1.14,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+59,P3_1,P3_1,B,INV2_I_U,INV2,ADC0_CH13,AF0,ANALOG_IN,J_INV2.14,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+60,NC,NC,D,NC,NC,NC,NC,NC,,nc,不连接、不接电源或地
+61,P3_2,P3_2,B,LED_FAULT,LED,GPIO,AF0,OUT,ONBOARD,assigned,五灯建议中的四路 GPIO；暂定低有效；电源灯直接接电源；TRACEMUX=0
+62,VSS,VSS,D,GND,POWER,VSS,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+63,P3_3,P3_3,B,INV1_I_V,INV1,ADC1_CH13,AF0,ANALOG_IN,J_INV1.15,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+64,P3_4,P3_4,B,INV2_I_V,INV2,ADC1_CH12,AF0,ANALOG_IN,J_INV2.15,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+65,P3_5,P3_5,B,PFC_I_B,PFC,ADC1_CH11,AF0,ANALOG_IN,J_PFC.15,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+66,P3_6,P3_6,B,PFC_PWM_B2,PFC,TIM1_CH1,AF7,OUT,J_PFC.5,assigned,单路 Boost 使用 A1；Vienna 六路命令的同步/更新/驱动关系待验证
+67,P3_7,P3_7,B,PFC_I_C,PFC,ADC2_CH11,AF0,ANALOG_IN,J_PFC.16,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+68,P3_8,P3_8,B,INV1_V_W,INV1,ADC2_CH10,AF0,ANALOG_IN,J_INV1.22,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+69,P3_9,P3_9,B,INV1_TEMP_NTC,INV1,ADC2_CH9,AF0,ANALOG_IN,J_INV1.23,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+70,P3_10,P3_10,B,INV2_V_W,INV2,ADC2_CH8,AF0,ANALOG_IN,J_INV2.22,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+71,AVDD,AVDD,D,+3V3_MCU,POWER,AVDD,POWER,POWER_IN,SUPPLY,power,3.3 V 供电；逐脚去耦；滤波与布局在最小系统设计落实
+72,NC,NC,D,NC,NC,NC,NC,NC,,nc,不连接、不接电源或地
+73,VSS33,VSS33,D,GND,POWER,VSS33,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+74,P3_11,P3_11/REF,B,REF_TEST_RESERVED,RESERVED,ANALOG_RESERVED,AF0,RESERVED,TEST_PAD_OPTION,reserved,可选高阻测试点；不接功率板；不是电源输入；不默认开启输出或接大电容
+75,P3_12,P3_12,B,INV2_TEMP_NTC,INV2,ADC2_CH6,AF0,ANALOG_IN,J_INV2.23,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+76,P3_13,P3_13,B,PFC_V_C,PFC,ADC2_CH5,AF0,ANALOG_IN,J_PFC.22,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+77,P3_14,P3_14,B,PFC_TEMP_NTC,PFC,ADC2_CH4,AF0,ANALOG_IN,J_PFC.23,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+78,P3_15,P3_15,B,PFC_PWM_A1,PFC,TIM0_CH0,AF7,OUT,J_PFC.1,assigned,单路 Boost 使用 A1；Vienna 六路命令的同步/更新/驱动关系待验证
+79,P4_0,P4_0,C,LED_COMM,LED,GPIO,AF0,OUT,ONBOARD,assigned,五灯建议中的四路 GPIO；暂定低有效；电源灯直接接电源；TRACEMUX=0
+80,P4_1,P4_1,C,INV1_V_V,INV1,ADC1_CH10,AF0,ANALOG_IN,J_INV1.20,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+81,P4_2,P4_2,C,INV2_V_V,INV2,ADC1_CH9,AF0,ANALOG_IN,J_INV2.20,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+82,P4_3,P4_3,C,CAN_TX,CAN,CAN_TX,AFA,OUT,U_CAN.TXD,assigned,预留 CAN 收发器；不是 CANH 引脚
+83,P4_4,P4_4,C,INV1_PWM_WH,INV1,MCPWM0_CH2P,AF3,OUT,J_INV1.7,assigned,复位/未使能时由外部电路保持关断
+84,P4_5,P4_5,C,INV1_V_DC,INV1,ADC0_CH11,AF0,ANALOG_IN,J_INV1.18,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+85,P4_6,P4_6/LDO12,C,LDO12_TEST_RESERVED,RESERVED,ANALOG_RESERVED,AF0,RESERVED,TEST_PAD_OPTION,reserved,可选高阻测试点；不接功率板；不是电源输入；不默认开启输出或接大电容
+86,P4_7,P4_7,C,PFC_V_A,PFC,ADC1_CH7,AF0,ANALOG_IN,J_PFC.19,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+87,P4_8,P4_8,C,PFC_V_B,PFC,ADC1_CH6,AF0,ANALOG_IN,J_PFC.20,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+88,P4_9,P4_9,C,ENC2_B,ENCODER,TIM3_CH1,AF8,IN,J_ENC2.B,assigned,QEP2 / QEP3；接口电平调理、供电与接插件待定
+89,P4_10,P4_10,C,ENC2_A,ENCODER,TIM3_CH0,AF8,IN,J_ENC2.A,assigned,QEP2 / QEP3；接口电平调理、供电与接插件待定
+90,P4_11,P4_11,C,ENC2_Z,ENCODER,TIM3_Z,AF8,IN,J_ENC2.Z,assigned,QEP2 / QEP3；接口电平调理、供电与接插件待定
+91,P4_12,P4_12,C,PFC_I_A,PFC,ADC0_CH12,AF0,ANALOG_IN,J_PFC.14,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+92,AVDD,AVDD,D,+3V3_MCU,POWER,AVDD,POWER,POWER_IN,SUPPLY,power,3.3 V 供电；逐脚去耦；滤波与布局在最小系统设计落实
+93,AVDD,AVDD,D,+3V3_MCU,POWER,AVDD,POWER,POWER_IN,SUPPLY,power,3.3 V 供电；逐脚去耦；滤波与布局在最小系统设计落实
+94,VSS33,VSS33,D,GND,POWER,VSS33,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+95,VSS33,VSS33,D,GND,POWER,VSS33,POWER,POWER_IN,GROUND,power,全部地脚连接；模拟/数字回流布局另审
+96,P4_13,P4_13,C,INV1_V_U,INV1,ADC0_CH10,AF0,ANALOG_IN,J_INV1.19,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+97,P4_14,P4_14,C,INV2_V_DC,INV2,ADC0_CH9,AF0,ANALOG_IN,J_INV2.18,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+98,P4_15,P4_15,C,INV2_V_U,INV2,ADC0_CH8,AF0,ANALOG_IN,J_INV2.19,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+99,P5_0,P5_0,C,PFC_V_BUS_LOWER,PFC,ADC0_CH7,AF0,ANALOG_IN,J_PFC.12,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定
+100,P5_1,P5_1,C,PFC_V_BUS_UPPER,PFC,ADC0_CH6,AF0,ANALOG_IN,J_PFC.18,assigned,关闭数字 IE/OE/上下拉及冲突模拟输出；前级调理与采样刻度另定

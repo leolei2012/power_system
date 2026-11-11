@@ -1,0 +1,9 @@
+{
+  "url": "https://www.st.com/resource/en/datasheet/stm32g431rb.pdf",
+  "local_path": "reference/ST_G431_dual_pwm/original/DS12589_STM32G431_Rev6.pdf",
+  "downloaded_utc": "2026-11-11T09:24:19.011405+00:00",
+  "sha256": "c2e903e3de4b05c0b5d77e5bfda037ce65e8652c41f7a4fe092f6893c870f6e9",
+  "bytes": 2654849,
+  "pages": 198,
+  "scope": "STM32G431VBT6 LQFP100 package, pin definitions and AF planning; not schematic/PCB validation."
+}

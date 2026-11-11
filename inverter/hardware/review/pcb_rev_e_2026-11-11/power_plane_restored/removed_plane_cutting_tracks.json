@@ -1,0 +1,78 @@
+[
+  {
+    "uuid": "7d55240e-99f1-4f89-a48c-982f2fe5537f",
+    "net": "+3V3_INV"
+  },
+  {
+    "uuid": "7ff69782-10ab-43ab-bc03-b7e1aefe4a99",
+    "net": "+3V3_INV"
+  },
+  {
+    "uuid": "fd720dbd-250f-49df-ba03-8fefd455cb39",
+    "net": "+3V3_INV"
+  },
+  {
+    "uuid": "23eef542-e2bc-4b17-8951-13f8491d6f61",
+    "net": "OC_HIGH_REF"
+  },
+  {
+    "uuid": "29f11473-aeb9-4a16-b448-b40929bd8cef",
+    "net": "OC_HIGH_REF"
+  },
+  {
+    "uuid": "5a28a34a-5d28-4953-b829-982c9676e03f",
+    "net": "OC_HIGH_REF"
+  },
+  {
+    "uuid": "898cd750-a1ec-40d1-a4fe-3de188174e2a",
+    "net": "OC_HIGH_REF"
+  },
+  {
+    "uuid": "b1588214-8c33-43ea-804e-517c17e5c13b",
+    "net": "OC_HIGH_REF"
+  },
+  {
+    "uuid": "d8d12ee4-7a67-4290-9531-d01cab69633f",
+    "net": "OC_HIGH_REF"
+  },
+  {
+    "uuid": "9131c246-20f0-401f-ba03-59c49ecb0514",
+    "net": "Net-(D206-K1{slash}A2)"
+  },
+  {
+    "uuid": "c7da2ad7-1ed3-48fe-8335-c171ddfb20c0",
+    "net": "Net-(D206-K1{slash}A2)"
+  },
+  {
+    "uuid": "2eaf8265-fc87-4cbf-8990-851711b4e554",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "640650f2-2fdb-4cf9-b729-a6fff5412f84",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "68c76524-92cf-4161-8b9b-f60076e1d932",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "713158ed-92a5-43b8-824f-615b0ef90d52",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "80de5dbe-1895-41d1-b403-73e14cf9f738",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "b5fec205-c3fc-4cde-b17d-63d26d23a1b7",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "cb7adf8b-a637-4d70-8afd-f60b9ef899b5",
+    "net": "+5V_INV"
+  },
+  {
+    "uuid": "ef368ce3-0802-419c-8466-2b614fcc7ba2",
+    "net": "+5V_INV"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "SESSION IMPORTED; native DRC required",
+  "source_sha256": "18a9ae427ddbe9b44b29637ea27585295eba57f96f8054cf480d973079a546a1",
+  "board_sha256": "cf546aa550372bf2e8243910b77fc34966e5529c90e9c560ab7d13e15f77d32a",
+  "fixed_items_preserved": 179,
+  "native_unconnected": 8,
+  "tracks": 726,
+  "vias": 91
+}

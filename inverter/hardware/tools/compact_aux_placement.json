@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "status": "46_ref_auxiliary_actual_courtyard_placement_candidate",
+  "board_mm": [
+    60,
+    60
+  ],
+  "source_pcb_sha256": "95cd8a9dc3d22d321a76ff74b8867fa2aac26cf016b614624c209a6a67e3eaac",
+  "coordinate_convention": "Top-view millimetres; native footprint origin. Flip to requested side first, then SetOrientationDegrees(rotation_deg), then SetPosition.",
+  "scope_count": 46,
+  "owned_refs": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C18",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "F2",
+    "J2",
+    "J7",
+    "L1",
+    "L2",
+    "R1",
+    "R10",
+    "R11",
+    "R12",
+    "R14",
+    "R15",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "SW1",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5"
+  ],
+  "placements": {
+    "J2": {
+      "side": "F",
+      "x": 8.5,
+      "y": 52.7,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        6.005,
+        50.455,
+        12.995,
+        56.045
+      ],
+      "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "group": "auxiliary_input"
+    },
+    "J7": {
+      "side": "F",
+      "x": 25,
+      "y": 53.9,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        23.405,
+        52.715,
+        26.595,
+        56.355
+      ],
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "group": "logic_and_sensors"
+    },
+    "F2": {
+      "side": "F",
+      "x": 8.5,
+      "y": 46.5,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        4.765,
+        44.625,
+        12.235,
+        48.375
+      ],
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "group": "auxiliary_input"
+    },
+    "U1": {
+      "side": "F",
+      "x": 18.4,
+      "y": 47,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        14.455,
+        44.205,
+        22.345,
+        49.795
+      ],
+      "footprint": "MyFootprints:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm",
+      "group": "auxiliary_input"
+    },
+    "C1": {
+      "side": "F",
+      "x": 13.3,
+      "y": 44.9,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        12.275,
+        43.155,
+        14.325,
+        46.645
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "auxiliary_input"
+    },
+    "C2": {
+      "side": "F",
+      "x": 24.7,
+      "y": 47.4,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        23.925,
+        45.875,
+        25.475,
+        48.925
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "C3": {
+      "side": "F",
+      "x": 26.5,
+      "y": 44.4,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        24.155,
+        43.205,
+        28.845,
+        45.595
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "auxiliary_input"
+    },
+    "SW1": {
+      "side": "F",
+      "x": 20,
+      "y": 54.55,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        16.955,
+        52.755,
+        23.045,
+        56.345
+      ],
+      "footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "group": "auxiliary_input"
+    },
+    "L1": {
+      "side": "B",
+      "x": 24.5,
+      "y": 40.8,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        20.005,
+        37.205,
+        28.995,
+        44.395
+      ],
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "group": "driver_12v"
+    },
+    "U2": {
+      "side": "B",
+      "x": 23.4,
+      "y": 48.5,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        19.405,
+        44.905,
+        27.395,
+        52.095
+      ],
+      "footprint": "MyFootprints:TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm",
+      "group": "driver_12v"
+    },
+    "L2": {
+      "side": "B",
+      "x": 12.85,
+      "y": 44.5,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        8.355,
+        40.905,
+        17.345,
+        48.095
+      ],
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "group": "logic_and_sensors"
+    },
+    "U3": {
+      "side": "B",
+      "x": 6.4,
+      "y": 45.9,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        4.655,
+        43.805,
+        8.145,
+        47.995
+      ],
+      "footprint": "MyFootprints:TSOT-23-6",
+      "group": "logic_and_sensors"
+    },
+    "U4": {
+      "side": "B",
+      "x": 6,
+      "y": 38.9,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        3.905,
+        37.155,
+        8.095,
+        40.645
+      ],
+      "footprint": "MyFootprints:SOT-23-5",
+      "group": "logic_and_sensors"
+    },
+    "U5": {
+      "side": "B",
+      "x": 12,
+      "y": 38.9,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        9.905,
+        37.155,
+        14.095,
+        40.645
+      ],
+      "footprint": "MyFootprints:SOT-23-6",
+      "group": "logic_and_sensors"
+    },
+    "C15": {
+      "side": "B",
+      "x": 4.4,
+      "y": 42.2,
+      "rotation_deg": 270,
+      "courtyard_bbox_mm": [
+        3.625,
+        40.675,
+        5.175,
+        43.725
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "logic_and_sensors"
+    },
+    "C16": {
+      "side": "B",
+      "x": 8.95,
+      "y": 39,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        8.175,
+        37.475,
+        9.725,
+        40.525
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "logic_and_sensors"
+    },
+    "C18": {
+      "side": "B",
+      "x": 15.7,
+      "y": 38.9,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        14.675,
+        37.155,
+        16.725,
+        40.645
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "logic_and_sensors"
+    },
+    "R14": {
+      "side": "B",
+      "x": 18,
+      "y": 38.9,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        17.225,
+        37.375,
+        18.775,
+        40.425
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "logic_and_sensors"
+    },
+    "C4": {
+      "side": "B",
+      "x": 29.5,
+      "y": 45.95,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        28.725,
+        44.425,
+        30.275,
+        47.475
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "C5": {
+      "side": "B",
+      "x": 18.35,
+      "y": 44.25,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        17.575,
+        42.725,
+        19.125,
+        45.775
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "C7": {
+      "side": "F",
+      "x": 28.4,
+      "y": 47.4,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        27.375,
+        45.655,
+        29.425,
+        49.145
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "driver_12v"
+    },
+    "C8": {
+      "side": "F",
+      "x": 24.8,
+      "y": 50.65,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        22.455,
+        49.005,
+        27.145,
+        52.295
+      ],
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "group": "driver_12v"
+    },
+    "C9": {
+      "side": "B",
+      "x": 18.35,
+      "y": 47.55,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        17.575,
+        46.025,
+        19.125,
+        49.075
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "C10": {
+      "side": "B",
+      "x": 18.25,
+      "y": 52.2,
+      "rotation_deg": 270,
+      "courtyard_bbox_mm": [
+        17.225,
+        50.455,
+        19.275,
+        53.945
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "driver_12v"
+    },
+    "C11": {
+      "side": "B",
+      "x": 6.5,
+      "y": 49.35,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        4.155,
+        48.155,
+        8.845,
+        50.545
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "logic_and_sensors"
+    },
+    "C12": {
+      "side": "B",
+      "x": 6.75,
+      "y": 42.2,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        5.225,
+        41.425,
+        8.275,
+        42.975
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "logic_and_sensors"
+    },
+    "C13": {
+      "side": "B",
+      "x": 15.5,
+      "y": 50.65,
+      "rotation_deg": 270,
+      "courtyard_bbox_mm": [
+        14.305,
+        48.305,
+        16.695,
+        52.995
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "logic_and_sensors"
+    },
+    "C14": {
+      "side": "B",
+      "x": 11.3,
+      "y": 50.25,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        8.955,
+        49.055,
+        13.645,
+        51.445
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "logic_and_sensors"
+    },
+    "TP2": {
+      "side": "F",
+      "x": 15.5,
+      "y": 54.5,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        14.202494,
+        53.20375,
+        16.794998,
+        55.796249
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "driver_12v"
+    },
+    "TP3": {
+      "side": "F",
+      "x": 15.5,
+      "y": 51.4,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        14.202494,
+        50.10375,
+        16.794998,
+        52.696249
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "driver_12v"
+    },
+    "C6": {
+      "side": "F",
+      "x": 20.0,
+      "y": 51.25,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        17.655,
+        50.055,
+        22.345,
+        52.445
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "driver_12v"
+    },
+    "R10": {
+      "side": "B",
+      "x": 21.25,
+      "y": 53.0,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        19.725,
+        52.225,
+        22.775,
+        53.775
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "R11": {
+      "side": "B",
+      "x": 19.75,
+      "y": 54.75,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        18.225,
+        53.975,
+        21.275,
+        55.525
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "R12": {
+      "side": "B",
+      "x": 16.5,
+      "y": 54.75,
+      "rotation_deg": 180,
+      "courtyard_bbox_mm": [
+        14.975,
+        53.975,
+        18.025,
+        55.525
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "R1": {
+      "side": "F",
+      "x": 13.5,
+      "y": 48.25,
+      "rotation_deg": 270,
+      "courtyard_bbox_mm": [
+        12.725,
+        46.725,
+        14.275,
+        49.775
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R2": {
+      "side": "F",
+      "x": 11.0,
+      "y": 49.25,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        9.475,
+        48.475,
+        12.525,
+        50.025
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R3": {
+      "side": "B",
+      "x": 13.5,
+      "y": 53.0,
+      "rotation_deg": 270,
+      "courtyard_bbox_mm": [
+        12.725,
+        51.475,
+        14.275,
+        54.525
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R4": {
+      "side": "F",
+      "x": 7.75,
+      "y": 49.25,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        6.225,
+        48.475,
+        9.275,
+        50.025
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R5": {
+      "side": "B",
+      "x": 11.0,
+      "y": 54.75,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        9.475,
+        53.975,
+        12.525,
+        55.525
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R6": {
+      "side": "F",
+      "x": 26.5,
+      "y": 47.25,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        25.725,
+        45.725,
+        27.275,
+        48.775
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R7": {
+      "side": "F",
+      "x": 28.75,
+      "y": 50.0,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        27.225,
+        49.225,
+        30.275,
+        50.775
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R8": {
+      "side": "B",
+      "x": 6.75,
+      "y": 52.25,
+      "rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        5.975,
+        50.725,
+        7.525,
+        53.775
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "auxiliary_input"
+    },
+    "R9": {
+      "side": "B",
+      "x": 27.75,
+      "y": 53.75,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        26.225,
+        52.975,
+        29.275,
+        54.525
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "driver_12v"
+    },
+    "R15": {
+      "side": "F",
+      "x": 5.0,
+      "y": 50.0,
+      "rotation_deg": 270,
+      "courtyard_bbox_mm": [
+        4.225,
+        48.475,
+        5.775,
+        51.525
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "logic_and_sensors"
+    },
+    "TP1": {
+      "side": "B",
+      "x": 30.5,
+      "y": 43.0,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        29.202494,
+        41.70375,
+        31.794998,
+        44.296249
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "driver_12v"
+    },
+    "TP4": {
+      "side": "B",
+      "x": 30.5,
+      "y": 38.5,
+      "rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        29.202494,
+        37.20375,
+        31.794998,
+        39.796249
+      ],
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "logic_and_sensors"
+    }
+  },
+  "validation": {
+    "own_own_and_own_fixed_courtyard_collisions": 0,
+    "all_46_placed": true,
+    "through_hole_opposite_side_guard_included": true,
+    "mounting_hole_keepout_both_sides": true,
+    "external_reference_files": [
+      "compact_control_placement.json",
+      "compact_power_placement.json"
+    ],
+    "algorithm_note": "Native KiCad loaded current full board, exact side/rotation applied for all313 placements; every auxiliary courtyard AABB tested against actual267 fixed courtyards and opposite-side solder-guard areas. AABB checks conservative. No board save.",
+    "native_reread_and_side_rotation_applied": true,
+    "source_pcb_sha256_checked_at_validation": "1d80c84bfa915c0de9d988ca399931471472fc48e1e60ebebdea855025ffe11a",
+    "opposite_side_through_hole_collisions": 0,
+    "courtyard_outside_60mm_count": 0,
+    "all313_FPIDs_DNP_and_numbered_pad_nets_unchanged_in_memory": true,
+    "U1_EP17_and_pin8_remain_EFUSE_RTN": true,
+    "external_reference_file_sha256": {
+      "compact_control_placement.json": "c9fdd4c40002a70eacf743da8df6596976547753d1e2befa535f52fee29f454a",
+      "compact_power_placement.json": "f89af317bb4549931956476759097c1cdd7f737c5fd94990ee25abbd3a22ac52"
+    },
+    "front_count": 19,
+    "back_count": 27
+  },
+  "layout_notes": [
+    "U1 exposed pad17 / pin8 stays EFUSE_RTN, not GND. Physical placement only; no net or part changes.",
+    "U2/L1 local coupled switching placement; C4/C5 bootstrap caps flanking upper switch pins, C6 input bulk B, C7 input HF F, C9 output HF B. F C7/C8 require paired short vias to B U2, to be checked in routing.",
+    "U3/L2 local switching placement; C12 bootstrap above U3, C11 input below. Quiet Kelvin feedback from output should avoid SW area.",
+    "U4/U5 B near lower MCU edge; J2/J7 F placed clear of control bottom headers.",
+    "TPs are accessible pads; all referenced DNP parts retain their actual DNP status.",
+    "Placement candidate is not a routed or thermally qualified converter.",
+    "C6 input bulk is F between U1 and SW1; main HF return is C7 adjacent to U2 on F using paired vias.",
+    "J7 final F native origin(25,53.9),rot0; J2 F(8.5,52.7),rot0. Through-hole solder guards are kept on B.",
+    "TP1/TP4 lie B x30.5 in unused space; test branches may be long and should not intercept the quiet Kelvin feedback path."
+  ],
+  "local_connection_centre_distances_mm": {
+    "U2_bootstrap_1": {
+      "C4.1_to_U2.3_mm": 3.204,
+      "C4.2_to_U2.2_mm": 3.368
+    },
+    "U2_bootstrap_2": {
+      "C5.1_to_U2.19_mm": 2.462,
+      "C5.2_to_U2.20_mm": 3.005
+    },
+    "U2_switch_L1": {
+      "U2.2_to_L1.1_mm": 5.562,
+      "U2.20_to_L1.2_mm": 4.874
+    },
+    "U2_input_HF": {
+      "C7.1_to_U2.6_mm": 2.153,
+      "opposite_side": true,
+      "note": "Short paired input/ground vias needed."
+    },
+    "U2_output_HF": {
+      "C9.1_to_U2.16_mm": 2.155,
+      "C9.2_to_U2.18_mm": 2.152
+    },
+    "U3_bootstrap": {
+      "C12.1_to_U3.6_mm": 2.568,
+      "C12.2_to_U3.5_mm": 2.598
+    },
+    "U3_switch_L2": {
+      "U3.5_to_L2.1_mm": 3.435
+    },
+    "U3_input_bulk": {
+      "C11.1_to_U3.2_mm": 2.798
+    },
+    "U4_output": {
+      "C16.1_to_U4.5_mm": 1.814
+    },
+    "U5_sensor_output": {
+      "C18.1_to_U5.6_mm": 2.562
+    }
+  }
+}

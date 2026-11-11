@@ -1,0 +1,56 @@
+{
+  "result": "PASS",
+  "reviewed_pdf": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\controller.pdf",
+  "pdf_sha256": "b660963026b9045587f5f0b01603069af169d92aa9c8c06bbaa030b6cb84e819",
+  "pages": 7,
+  "renderer": "Poppler pdftoppm 120 dpi",
+  "visual_checks": {
+    "all_7_pages_reviewed": true,
+    "changed_symbol_bodies_pin_names_reference_value_fields": true,
+    "button_top_side_and_combined_operation_note_legible": true,
+    "title_comments_fit_frame": true,
+    "no_new_wire_or_label_obscuration": true
+  },
+  "page_images": [
+    {
+      "page": 1,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-1.png",
+      "sha256": "0fa0b4299e68f51f3d573f7b207ba304155dd1aeab1fff676c386f20c88d53be"
+    },
+    {
+      "page": 2,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-2.png",
+      "sha256": "81d64e7c1ac0665f202c543a25dfcda8e0b511d57b84717d553f07ffc3e0c528"
+    },
+    {
+      "page": 3,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-3.png",
+      "sha256": "00d2b8140c07baf9e5aa8358dba9a24c0c008545c3c4089cf926f79048562082"
+    },
+    {
+      "page": 4,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-4.png",
+      "sha256": "e0034841981311265a372703f146b70cd46f2efcc9595b9fc3985ce219ed56d7"
+    },
+    {
+      "page": 5,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-5.png",
+      "sha256": "7a5a85874707a6d5b026488982d9a1e83c857bb424420841891de9299a52fa7f"
+    },
+    {
+      "page": 6,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-6.png",
+      "sha256": "1969cd4fb186771e15637f352dce8158c025ca8bacc3b1320580833e69b8ac6e"
+    },
+    {
+      "page": 7,
+      "path": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\page-7.png",
+      "sha256": "f4784375e46d013ff3ae33a5e8383bbc51c043bd16bca18ac872de6bce88d87f"
+    }
+  ],
+  "svg_count": 7,
+  "limits": [
+    "Visual schematic QA, not PCB/mechanical/thermal or prototype verification.",
+    "Root may refresh PDF metadata and system/BOM artifacts in its final export."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "source_sha256": "29f9823e567abe497e50d15a7470a03c61738ac70dc90166eb7fce71cee34e48",
+  "rounds": [
+    {
+      "removed": [
+        {
+          "uuid": "158d4764-11f5-470b-8398-a08500389467",
+          "net": "/W half bridge/W_HO",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            164.575,
+            48.6765
+          ],
+          "warning": "track_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "4a6f2332-9c3b-4ab8-a2b0-95ca66d203da",
+          "net": "/W half bridge/W_HO",
+          "kind": "PCB_VIA",
+          "start_mm": [
+            164.526,
+            41.8316
+          ],
+          "warning": "via_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "5a817230-9442-49c8-8c27-ef7e9bdb5c7b",
+          "net": "OC_U_HIGH_OK",
+          "kind": "PCB_VIA",
+          "start_mm": [
+            124.45,
+            77.083
+          ],
+          "warning": "via_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "7478ddb3-afa3-4ab5-8aa3-ff6ef0f74b14",
+          "net": "OC_U_HIGH_OK",
+          "kind": "PCB_VIA",
+          "start_mm": [
+            117.1288,
+            73.4639
+          ],
+          "warning": "via_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "6be6ba92-4200-440d-b6dd-4ba46457e9c0",
+          "net": "OC_V_HIGH_OK",
+          "kind": "PCB_VIA",
+          "start_mm": [
+            150.039,
+            77.8735
+          ],
+          "warning": "via_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "d04dca71-38b1-49ec-93e0-8d243b776cf9",
+          "net": "OC_V_HIGH_OK",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            97.3921,
+            78.0365
+          ],
+          "warning": "track_dangling",
+          "action": "trim unused span"
+        },
+        {
+          "uuid": "13c25847-18ea-4bf2-9f30-aef8947277f0",
+          "net": "I_V",
+          "kind": "PCB_VIA",
+          "start_mm": [
+            151.496,
+            71.0302
+          ],
+          "warning": "via_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "cd35b6bf-13a5-4876-a0b6-c39931207b3a",
+          "net": "ADC_TEMP_NTC",
+          "kind": "PCB_VIA",
+          "start_mm": [
+            72.5101,
+            33.6142
+          ],
+          "warning": "via_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "5b5fc713-6756-4076-a1c2-bc473f1e6199",
+          "net": "OC_W_HIGH_OK",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            125.232,
+            76.833
+          ],
+          "warning": "track_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "bbd260fb-afed-4040-8849-75dfa1ce8c00",
+          "net": "OC_W_HIGH_OK",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            121.546,
+            76.4385
+          ],
+          "warning": "track_dangling",
+          "action": "trim unused span"
+        }
+      ],
+      "unconnected_after_fill": 0,
+      "DRC_report": "review\\pcb_deadend_trial\\29f9823e567a\\drc_00.json"
+    },
+    {
+      "removed": [
+        {
+          "uuid": "ed01e91b-2cf8-4df5-9922-afd10a143c6b",
+          "net": "OC_U_HIGH_OK",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            124.45,
+            78.5875
+          ],
+          "warning": "track_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "43c791a3-240c-4dd1-93ee-d2525b2c23ad",
+          "net": "OC_V_HIGH_OK",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            150.039,
+            77.8735
+          ],
+          "warning": "track_dangling",
+          "action": "remove"
+        },
+        {
+          "uuid": "c8f162c4-86a7-4f1e-b75a-22aeda7ed0e2",
+          "net": "OC_W_HIGH_OK",
+          "kind": "PCB_TRACK",
+          "start_mm": [
+            124.838,
+            76.4385
+          ],
+          "warning": "track_dangling",
+          "action": "remove"
+        }
+      ],
+      "unconnected_after_fill": 0,
+      "DRC_report": "review\\pcb_deadend_trial\\29f9823e567a\\drc_01.json"
+    }
+  ],
+  "retained_locked": [],
+  "final_trial_unconnected": 0,
+  "next_step": "Run full DRC with schematic parity in owning project"
+}

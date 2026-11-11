@@ -1,0 +1,46 @@
+{
+  "source": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\kelvin_repair_input\\inverter.kicad_pcb",
+  "net": "GND",
+  "added_quiet_3v3_plane": false,
+  "added": [
+    {
+      "ref": "U11",
+      "pin": "4",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          146.5625,
+          139.425
+        ],
+        [
+          147.1,
+          138.70000000000002
+        ],
+        [
+          147.137,
+          138.039
+        ]
+      ],
+      "via": [
+        147.137,
+        138.039
+      ],
+      "tracks": [
+        "51629b96-c9e6-4179-bf00-2555aae72762",
+        "8d7d754c-f29d-4e1e-adad-ce78e1fea5ed"
+      ],
+      "via_uuid": "3ce95a45-7453-4f57-824a-a6ebe3b8b48b"
+    }
+  ],
+  "failed": [
+    "R44.2",
+    "R47.2",
+    "U11.2",
+    "U10.2",
+    "U12.2",
+    "C70.2"
+  ],
+  "initial_unconnected_SMD_pads": 7
+}

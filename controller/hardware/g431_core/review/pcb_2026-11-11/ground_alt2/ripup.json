@@ -1,0 +1,18 @@
+{
+  "uuids": [
+    "bf279593-4660-484d-9188-59ef455dbd70",
+    "9263e902-3197-4d53-b0d6-bf26d6dbc2a3",
+    "0babd347-78cb-484e-b9fd-0219635d536d",
+    "173300ad-6ea3-482d-bf74-81d364c126c5",
+    "2019463d-5f4b-4c20-92b8-afaafcb5150f",
+    "5cf153ac-2f7c-4c82-b94d-3436cb396c08",
+    "8b163fb9-962c-48fd-9ab8-ea77af7fbbfa",
+    "aa89a7b6-661c-4a4e-87d1-21ac59dd5f8f",
+    "ce8b38a4-f24e-45e0-a6ae-0566280f7860"
+  ],
+  "old_ground_via": [
+    116.325,
+    120.885
+  ],
+  "C79_new_rotation": 270
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-11",
+  "status": "Terminal-version planning inventory; saved Rev E schematic, PCB, BOM and library are unchanged.",
+  "count_basis": "PCB connector bodies, excluding cable housings/crimp contacts, buttons, LEDs, test points and power-board terminals.",
+  "signal_family": "XUNPU GH1.25 side-entry SMT accepted for planning. ADC2P and PWM8P board-header recommendations accepted; exact other pin-count models, footprints and mating views remain to be checked.",
+  "connector_groups": [
+    {"name": "PWM", "quantity": 2, "pins_each": 8, "contents": ["CH1", "CH1N", "CH2", "CH2N", "CH3", "CH3N", "GND", "GND"], "status": "Confirmed quantity/8P; see separate logical pin-order proposal.", "board_MPN": "WAFER-GH1.25-8PWB"},
+    {"name": "ADC", "quantity": 10, "pins_each": 2, "contents": ["Conditioned analog signal", "GND"], "status": "Confirmed quantity; 2P recommendation accepted, physical pin order pending.", "board_MPN": "WAFER-GH1.25-2PWB"},
+    {"name": "SPI", "quantity": 2, "pins_each": 6, "contents": ["SCK", "MOSI", "MISO", "CS_N", "PWR", "GND"], "status": "Two buses confirmed; retain saved 6P roles. Supply voltage/load/protection pending sensor selection."},
+    {"name": "I2C", "quantity": 2, "pins_each": 4, "contents": ["SCL", "SDA", "3V3", "GND"], "status": "Two independent buses confirmed; 4P structure proposed."},
+    {"name": "ABZ", "quantity": 2, "pins_each": 5, "contents": ["A", "B", "Z", "PWR", "GND"], "status": "Two ports confirmed; retain saved 5P roles. Supply voltage/load/protection pending sensor selection."},
+    {"name": "CAN", "quantity": 1, "pins_each": 3, "contents": ["CANH", "CANL", "GND"], "status": "One port confirmed; retain saved 3P roles. Requires transceiver on controller; existing PHY is classic CAN."},
+    {"name": "TTL_UART", "quantity": 1, "pins_each": 3, "contents": ["TX", "RX", "GND"], "status": "One port confirmed; retain saved 3P form, 3.3V logic, no added supply pin."},
+    {"name": "SWD", "quantity": 1, "pins_each": 5, "contents": ["VTREF_3V3", "SWDIO", "SWCLK", "GND", "NRST"], "status": "Retain one debug interface and saved 5P roles; VTREF is reference detection, not a supply inlet."},
+    {"name": "CTRL", "quantity": 2, "pins_each": 6, "contents": ["ENABLE", "FAULT_N", "BASE_READY", "CTRL_READY", "BRAKE", "GND"], "status": "Proposed two 6P control/protection ports; BRAKE_B is only a pin reserve, not an implemented second brake power stage."},
+    {"name": "5V_IN", "quantity": 1, "pins_each": 2, "contents": ["5V_IN", "GND"], "status": "Proposed regulated-5V inlet; exact connector TBD, preferably a visibly different mating geometry from ADC2P. Not a raw 12-24V input."}
+  ],
+  "total_connector_bodies": 24,
+  "total_connector_contacts": 91,
+  "contact_note": "Repeated GND, power and shared CTRL_READY contacts are included; 91 contacts are not 91 MCU GPIOs. MCU allocation remains 62 planned plus one optional brake pin.",
+  "GPIO_expansion_status": "The 23 unallocated MCU pads currently have no dedicated expansion connector in this terminal inventory. Any later GPIO expansion connector must be added explicitly and changes the total.",
+  "scope_notes": [
+    "BRAKE is included in CTRL, so no additional brake signal port is counted.",
+    "Brake-resistor power, DC bus and U/V/W terminals are on inverter, not controller.",
+    "The saved inverter optional sensor-5V output J7 has not been requested on controller; it is not added.",
+    "RESET/BOOT buttons and five onboard LEDs are not connectors; no USB or LLC connector is added.",
+    "SPI/ABZ supply PWR remains selectable by sensor design. Saved board routes optional/default-DNP zero-ohm links toward +5V_SENSOR; this is not a new 3.3V supply choice or permission for 5V logic.",
+    "I2C uses 3.3V pullups. External sensor supply load/protection and sequencing still need design.",
+    "Signal lists are contact roles, not finalized physical pin order; mating-view harness drawings remain necessary.",
+    "Controller input is regulated 5V from a power board or one suitable source. Do not parallel independent 5V supplies."
+  ],
+  "sources": ["controller_dual_pwm_pin_plan.json", "terminal_interface_plan.json", "controller_signal_connector_candidates.json", "../inverter/hardware/bom/bom.csv"]
+}

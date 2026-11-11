@@ -1,0 +1,83 @@
+{
+  "net": "OC_LOW_REF",
+  "paths": [
+    {
+      "net": "OC_LOW_REF",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          32.0,
+          29.51
+        ],
+        [
+          32.0,
+          29.85
+        ],
+        [
+          31.95,
+          29.9
+        ],
+        [
+          31.95,
+          31.05
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "OC_LOW_REF",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          31.95,
+          31.05
+        ],
+        [
+          31.4,
+          30.5
+        ],
+        [
+          31.35,
+          30.5
+        ],
+        [
+          31.3,
+          30.45
+        ],
+        [
+          31.2,
+          30.45
+        ],
+        [
+          31.15,
+          30.4
+        ],
+        [
+          31.046972727272728,
+          30.392527272727275
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "OC_LOW_REF",
+      "x": 31.95,
+      "y": 31.05,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 3041,
+    "seconds": 4.609,
+    "start_candidates": 12,
+    "goal_candidates": 120
+  }
+}

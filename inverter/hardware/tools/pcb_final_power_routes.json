@@ -1,0 +1,212 @@
+{
+  "source_sha": "205b05ed84c46be5816c5103284097eb2c653a7406a0484beabc30718c7c20f1",
+  "ripup_uuids": [
+    "4b036bc2-f710-4168-9435-e414bbcbca66",
+    "5020d792-3b1c-4a5d-ab85-5b4facd01b5b",
+    "56a467ac-b7e9-4969-aa02-592c98f2acf4",
+    "599545d4-8926-4a76-9e7b-56931694464d",
+    "7c94574f-80fa-4a4d-947c-e48ce71c0b3e",
+    "7cebcea9-b3b6-47e7-9905-40d0ff23f763",
+    "8a62cc0e-fc85-4b0b-b484-8c8ec441dd44",
+    "bdacd0d5-de66-4fb1-bd85-95e1c2540b5f",
+    "c795838b-16e9-492d-91c2-1b6b34552ac2",
+    "eafcb47f-8ebb-4081-af18-8e9cbca7897d",
+    "f70c165f-49ca-481d-b48e-f5a83e49c501",
+    "511428d0-8ade-49d0-9701-42118336ddaf",
+    "579afbe0-2714-4535-b31a-ab139cb3119a",
+    "623e3beb-ec45-49b0-a6ee-d848057ec8ae",
+    "684420a4-bf6e-40e8-b73c-15bed188cb19",
+    "9f388b41-0374-4747-af70-b7e410bc1154",
+    "bc361437-9165-4612-8de5-6ad9a3f52ef1",
+    "bce4cd6f-f622-4ab0-8a18-f5c157a505b5",
+    "c5fb302a-9342-4180-81e7-cb841813c3c5",
+    "dcef9836-6619-4970-9f3e-b0f555c5e149",
+    "ee4da9f1-0b2b-45a9-a7b7-4163de19cad5",
+    "fe64e6d9-b942-45fd-9cbc-fb40e0d621a8"
+  ],
+  "paths": [
+    {
+      "net": "/V half bridge/V_HO",
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          140.749,
+          48.6603
+        ],
+        [
+          139.8,
+          48.6603
+        ],
+        [
+          139.8,
+          41.8316
+        ],
+        [
+          140.526,
+          41.8316
+        ]
+      ],
+      "locked": false,
+      "reason": "Short HO reroute between existing vias; release B phase-current region without modifying current-carrying copper."
+    },
+    {
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          118.498,
+          77.4946
+        ],
+        [
+          122.375,
+          86.875
+        ],
+        [
+          122.75,
+          87.25
+        ],
+        [
+          123.375,
+          87.375
+        ],
+        [
+          124.125,
+          86.875
+        ],
+        [
+          125.25,
+          80.125
+        ],
+        [
+          126.125,
+          79.125
+        ],
+        [
+          130.375,
+          76.625
+        ],
+        [
+          131.875,
+          74.875
+        ],
+        [
+          132.25,
+          72.5
+        ],
+        [
+          133.425,
+          71.5
+        ]
+      ],
+      "locked": false,
+      "reason": "Only the R48 240k bus-voltage sensing branch; capacitor feed handled separately.",
+      "search": {
+        "visited": 16570,
+        "elapsed": 0.3279999999795109,
+        "fixed_other_net_objects": 618,
+        "minimum_clearance": 0.4,
+        "step": 0.125
+      }
+    },
+    {
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width": 2.0,
+      "points": [
+        [
+          134.625,
+          71.5
+        ],
+        [
+          139.25,
+          73.75
+        ],
+        [
+          144.5,
+          73.75
+        ],
+        [
+          145.5,
+          72.75
+        ],
+        [
+          150.5,
+          72.5
+        ],
+        [
+          153.75,
+          74.25
+        ],
+        [
+          154.75,
+          74.25
+        ],
+        [
+          158.625,
+          71.5
+        ]
+      ],
+      "locked": true,
+      "reason": "Dedicated C21 2.2u DC-link capacitor feed to existing C22 main-bus via array. Primary bus current copper unchanged.",
+      "search": {
+        "visited": 1472,
+        "elapsed": 0.030999999959021807,
+        "fixed_other_net_objects": 610,
+        "minimum_clearance": 0.4,
+        "step": 0.25
+      }
+    }
+  ],
+  "vias": [],
+  "placements": {},
+  "status": "CONDITIONAL_PASS_ELECTRICAL_DRC_FOR_COMBINED_PATCH",
+  "validation": {
+    "stable_checkpoint": {
+      "source_unconnected": 17,
+      "candidate_unconnected": 15,
+      "electrical_DRC_errors": 0,
+      "board": "review/inverter_final_power_checkpoint.kicad_pcb",
+      "report": "review/inverter_final_power_candidate_drc.json"
+    },
+    "conditional_wide_feed_proof": {
+      "electrical_DRC_errors": 0,
+      "unconnected_count_in_incomplete_dependency_proof": 14,
+      "drc_report": "review\\inverter_wide_feed_proof_drc.json",
+      "note": "Proof only: original W_HIN B tracks removed, replacement must be supplied by aux patch before integration. Stable final candidate not changed."
+    },
+    "conditional_proof_board": "review/inverter_wide_feed_proof.kicad_pcb",
+    "conditional_proof_sha256": "7df44d69dc56b865538c1718598bdac0e3d436e7061a0034ce748cae5d337cec",
+    "condition": "The proof removed the original W_HIN B chain without its replacement. It demonstrates zero copper/clearance errors for the wide feed, not a complete standalone W_HIN net. Root must merge the aux replacement and rerun current-board DRC.",
+    "scope": "No main board/pro/schematic written; no power-patch placements or new vias; all main-current copper widths preserved."
+  },
+  "rationale": [
+    "W_HO complete original F path retained; duplicate B loop removed. W_PHASE bootstrap island now joins main current polygon.",
+    "V_HO former B loop replaced with 0.4mm local In2 route, no ordinary In1 routing.",
+    "V_PHASE main copper still divided by W_HIN B long segment; main copper widths untouched."
+  ],
+  "depends_on": [
+    "Aux W_HIN long-segment relocation: the listed original B.Cu chain must be removed and electrically replaced before applying this power feed."
+  ],
+  "notes": [
+    {
+      "W_HIN_B_chain_dependency_uuids": [
+        "09314c39-afb3-4b29-ab08-41982473c009",
+        "1be57e65-98ee-47a0-b600-b22d4376147f",
+        "5634623f-c846-4676-bd9b-c97a9aa8f7ae",
+        "63fd87e2-6ad9-4d8e-baeb-c249a6e97e9d",
+        "836f858b-6649-46e2-b918-7f047d1a46c4",
+        "94024420-2645-42f8-a360-2915f6044f2f",
+        "a3ed869c-550b-4e31-a3d7-3a4213ace75c",
+        "f4cd8b3d-c466-4510-93b1-affb26a5958d"
+      ],
+      "action_owner": "aux W_HIN long-route patch; these are NOT repeated in power ripup_uuids."
+    },
+    "Main VBUS and phase current paths retain their original wide copper and parallel via arrays. The added 2.0mm B.Cu path is dedicated C21 2.2u local DC-link feed to C22/main VBUS.",
+    "The added 0.4mm VBUS path serves only R48 240k bus-voltage sensing; it must not be treated as the capacitor or main-current feed.",
+    "Refill all zones after the complete combined patch. Existing terminal via-array current sharing, transient loop inductance and capacitor ripple/thermal performance still require hardware review.",
+    "V_PHASE main copper closes only after the original W_HIN B chain no longer cuts its commutation polygon; do not replace that main-current path with a thin stitch."
+  ],
+  "root_merge_note": "The 2 mm capacitor power feed is locked during final merge to preserve its reviewed width in future route imports; geometry is unchanged."
+}

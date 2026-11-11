@@ -1,0 +1,64 @@
+{
+  "net": "VBUS",
+  "layer": "B.Cu",
+  "width": 2.0,
+  "points": [
+    [
+      134.625,
+      71.5
+    ],
+    [
+      139.25,
+      73.75
+    ],
+    [
+      144.5,
+      73.75
+    ],
+    [
+      145.5,
+      72.75
+    ],
+    [
+      150.5,
+      72.5
+    ],
+    [
+      153.75,
+      74.25
+    ],
+    [
+      154.75,
+      74.25
+    ],
+    [
+      158.625,
+      71.5
+    ]
+  ],
+  "locked": false,
+  "reason": "Dedicated C21 2.2u DC-link capacitor feed to existing C22 main-bus via array. Primary bus current copper unchanged.",
+  "requires_removed_uuids": [
+    "09314c39-afb3-4b29-ab08-41982473c009",
+    "1be57e65-98ee-47a0-b600-b22d4376147f",
+    "5634623f-c846-4676-bd9b-c97a9aa8f7ae",
+    "63fd87e2-6ad9-4d8e-baeb-c249a6e97e9d",
+    "836f858b-6649-46e2-b918-7f047d1a46c4",
+    "94024420-2645-42f8-a360-2915f6044f2f",
+    "a3ed869c-550b-4e31-a3d7-3a4213ace75c",
+    "f4cd8b3d-c466-4510-93b1-affb26a5958d"
+  ],
+  "search": {
+    "visited": 1472,
+    "elapsed": 0.030999999959021807,
+    "fixed_other_net_objects": 610,
+    "minimum_clearance": 0.4,
+    "step": 0.25
+  },
+  "dependency_validation": {
+    "electrical_DRC_errors": 0,
+    "unconnected_count_in_incomplete_dependency_proof": 14,
+    "drc_report": "review\\inverter_wide_feed_proof_drc.json",
+    "note": "Proof only: original W_HIN B tracks removed, replacement must be supplied by aux patch before integration. Stable final candidate not changed."
+  }
+}

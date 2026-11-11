@@ -1,0 +1,58 @@
+{
+  "net": "/Driver supply/BB_VREG",
+  "paths": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          19.0,
+          51.25
+        ],
+        [
+          19.1,
+          51.1
+        ],
+        [
+          19.3,
+          50.9
+        ],
+        [
+          19.3,
+          49.8
+        ],
+        [
+          19.4,
+          49.7
+        ],
+        [
+          19.4,
+          49.6
+        ],
+        [
+          19.5,
+          49.5
+        ],
+        [
+          19.9,
+          49.5
+        ],
+        [
+          20.5,
+          49.475
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 260,
+    "seconds": 6.453,
+    "start_candidates": 167,
+    "goal_candidates": 12
+  }
+}

@@ -1,0 +1,83 @@
+Compact inverter read-only route-length audit
+Board: D:\workspace\power_system\inverter\hardware\inverter.kicad_pcb
+SHA256: 606aed178df727ce13e9e1c054b019f9e49571ca466c7b2897d47f8b2a012f9a
+Counts: {"pair_count": 77, "statuses": {"quantified_explicit_route": 46, "missing_saved_copper_path": 31}, "endpoint_contract_errors": 0}
+Lengths are explicit-route graph model distances; pours/arcs/vertical barrels are not measured.
+
+U HO to gate resistor: quantified_explicit_route; route_mm=9.255699; straight_mm=6.640275; vias=1; layers=['B.Cu', 'F.Cu']
+U LO to gate resistor: quantified_explicit_route; route_mm=23.593038; straight_mm=19.898095; vias=2; layers=['B.Cu', 'F.Cu', 'In2.Cu']
+U VB to C25: quantified_explicit_route; route_mm=5.22536; straight_mm=4.011611; vias=0; layers=['B.Cu']
+U VS return from C25: missing_saved_copper_path; route_mm=None; straight_mm=9.390246; vias=None; layers=None
+U VB to C26: quantified_explicit_route; route_mm=3.102568; straight_mm=2.966568; vias=0; layers=['B.Cu']
+U VS return from C26: missing_saved_copper_path; route_mm=None; straight_mm=3.725483; vias=None; layers=None
+U VCC to C27: quantified_explicit_route; route_mm=6.924387; straight_mm=5.722294; vias=0; layers=['B.Cu']
+U COM return from C27: quantified_explicit_route; route_mm=4.855046; straight_mm=4.061878; vias=0; layers=['B.Cu']
+U VCC to C28: quantified_explicit_route; route_mm=2.549163; straight_mm=2.50879; vias=0; layers=['B.Cu']
+U COM return from C28: quantified_explicit_route; route_mm=4.379058; straight_mm=3.548693; vias=0; layers=['B.Cu']
+V HO to gate resistor: quantified_explicit_route; route_mm=9.327301; straight_mm=6.640275; vias=1; layers=['B.Cu', 'F.Cu']
+V LO to gate resistor: quantified_explicit_route; route_mm=23.040719; straight_mm=19.898095; vias=2; layers=['B.Cu', 'F.Cu', 'In2.Cu']
+V VB to C29: quantified_explicit_route; route_mm=5.22536; straight_mm=4.011611; vias=0; layers=['B.Cu']
+V VS return from C29: missing_saved_copper_path; route_mm=None; straight_mm=9.390246; vias=None; layers=None
+V VB to C30: quantified_explicit_route; route_mm=3.102568; straight_mm=2.966568; vias=0; layers=['B.Cu']
+V VS return from C30: missing_saved_copper_path; route_mm=None; straight_mm=3.725483; vias=None; layers=None
+V VCC to C31: quantified_explicit_route; route_mm=6.898291; straight_mm=5.722294; vias=0; layers=['B.Cu']
+V COM return from C31: quantified_explicit_route; route_mm=4.716801; straight_mm=4.061878; vias=0; layers=['B.Cu']
+V VCC to C32: quantified_explicit_route; route_mm=2.549163; straight_mm=2.50879; vias=0; layers=['B.Cu']
+V COM return from C32: quantified_explicit_route; route_mm=4.379058; straight_mm=3.548693; vias=0; layers=['B.Cu']
+W HO to gate resistor: quantified_explicit_route; route_mm=9.172822; straight_mm=6.640275; vias=1; layers=['B.Cu', 'F.Cu']
+W LO to gate resistor: quantified_explicit_route; route_mm=25.904126; straight_mm=19.898095; vias=2; layers=['B.Cu', 'F.Cu', 'In2.Cu']
+W VB to C33: quantified_explicit_route; route_mm=2.827412; straight_mm=2.623552; vias=0; layers=['B.Cu']
+W VS return from C33: missing_saved_copper_path; route_mm=None; straight_mm=7.905487; vias=None; layers=None
+W VB to C34: quantified_explicit_route; route_mm=7.574714; straight_mm=5.253668; vias=1; layers=['B.Cu', 'F.Cu']
+W VS return from C34: missing_saved_copper_path; route_mm=None; straight_mm=5.558032; vias=None; layers=None
+W VCC to C35: quantified_explicit_route; route_mm=6.882882; straight_mm=5.722294; vias=0; layers=['B.Cu']
+W COM return from C35: quantified_explicit_route; route_mm=4.753822; straight_mm=4.061878; vias=0; layers=['B.Cu']
+W VCC to C36: quantified_explicit_route; route_mm=2.549163; straight_mm=2.50879; vias=0; layers=['B.Cu']
+W COM return from C36: quantified_explicit_route; route_mm=4.379058; straight_mm=3.548693; vias=0; layers=['B.Cu']
+C63 MCU supply pin16: quantified_explicit_route; route_mm=2.15566; straight_mm=1.991614; vias=0; layers=['B.Cu']
+C63 MCU ground pin15: quantified_explicit_route; route_mm=3.515162; straight_mm=3.070916; vias=0; layers=['B.Cu']
+C64 MCU supply pin32: quantified_explicit_route; route_mm=2.126787; straight_mm=1.979021; vias=0; layers=['B.Cu']
+C64 MCU ground pin31: quantified_explicit_route; route_mm=5.56877; straight_mm=2.980021; vias=0; layers=['B.Cu']
+C65 MCU supply pin48: quantified_explicit_route; route_mm=6.948632; straight_mm=1.996628; vias=0; layers=['B.Cu']
+C65 MCU ground pin47: quantified_explicit_route; route_mm=2.407049; straight_mm=2.137879; vias=0; layers=['B.Cu']
+C66 MCU supply pin64: quantified_explicit_route; route_mm=2.920269; straight_mm=2.834347; vias=0; layers=['B.Cu']
+C66 MCU ground pin63: missing_saved_copper_path; route_mm=None; straight_mm=3.081156; vias=None; layers=None
+C67 MCU supply pin1: quantified_explicit_route; route_mm=2.072817; straight_mm=1.925234; vias=0; layers=['B.Cu']
+C67 MCU ground pin63: missing_saved_copper_path; route_mm=None; straight_mm=5.786063; vias=None; layers=None
+C68 bulk to VDD16: quantified_explicit_route; route_mm=9.179599; straight_mm=4.874936; vias=0; layers=['B.Cu']
+C68 bulk to VDD32: missing_saved_copper_path; route_mm=None; straight_mm=13.976096; vias=None; layers=None
+C68 bulk to VDD48: missing_saved_copper_path; route_mm=None; straight_mm=18.394904; vias=None; layers=None
+C68 bulk to VDD64: missing_saved_copper_path; route_mm=None; straight_mm=12.915349; vias=None; layers=None
+C68 ground to physically nearest MCU VSS: missing_saved_copper_path; route_mm=None; straight_mm=6.501731; vias=None; layers=None
+C77 analog supply pin29: quantified_explicit_route; route_mm=2.496101; straight_mm=2.178193; vias=0; layers=['B.Cu']
+C77 analog return VSSA: missing_saved_copper_path; route_mm=None; straight_mm=2.202845; vias=None; layers=None
+C78 analog supply pin29: quantified_explicit_route; route_mm=10.003634; straight_mm=7.12899; vias=0; layers=['B.Cu']
+C78 analog return VSSA: missing_saved_copper_path; route_mm=None; straight_mm=6.582173; vias=None; layers=None
+C79 analog supply pin28: quantified_explicit_route; route_mm=1.961102; straight_mm=1.816735; vias=0; layers=['B.Cu']
+C79 analog return VSSA: quantified_explicit_route; route_mm=2.219357; straight_mm=2.00911; vias=0; layers=['B.Cu']
+C80 analog supply pin28: missing_saved_copper_path; route_mm=None; straight_mm=8.320006; vias=None; layers=None
+C80 analog return VSSA: missing_saved_copper_path; route_mm=None; straight_mm=7.051596; vias=None; layers=None
+R84 output to C69: missing_saved_copper_path; route_mm=None; straight_mm=3.49; vias=None; layers=None
+C69 ADC to MCU pin8: quantified_explicit_route; route_mm=3.39144; straight_mm=3.107495; vias=0; layers=['B.Cu']
+C69 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=12.907886; vias=None; layers=None
+R85 output to C70: quantified_explicit_route; route_mm=3.945469; straight_mm=3.49; vias=0; layers=['B.Cu']
+C70 ADC to MCU pin9: quantified_explicit_route; route_mm=3.104476; straight_mm=2.866448; vias=0; layers=['B.Cu']
+C70 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=12.185382; vias=None; layers=None
+R86 output to C71: missing_saved_copper_path; route_mm=None; straight_mm=3.49; vias=None; layers=None
+C71 ADC to MCU pin10: quantified_explicit_route; route_mm=3.072817; straight_mm=2.897676; vias=0; layers=['B.Cu']
+C71 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=11.587645; vias=None; layers=None
+R87 output to C72: quantified_explicit_route; route_mm=4.356206; straight_mm=3.49; vias=0; layers=['B.Cu']
+C72 ADC to MCU pin11: quantified_explicit_route; route_mm=3.893492; straight_mm=3.1932; vias=0; layers=['B.Cu']
+C72 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=11.134789; vias=None; layers=None
+R88 output to C73: quantified_explicit_route; route_mm=2.916242; straight_mm=2.231614; vias=0; layers=['B.Cu']
+C73 ADC to MCU pin18: quantified_explicit_route; route_mm=3.194595; straight_mm=2.917795; vias=0; layers=['B.Cu']
+C73 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=5.509403; vias=None; layers=None
+R89 output to C74: missing_saved_copper_path; route_mm=None; straight_mm=2.231614; vias=None; layers=None
+C74 ADC to MCU pin24: missing_saved_copper_path; route_mm=None; straight_mm=2.82799; vias=None; layers=None
+C74 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=3.661902; vias=None; layers=None
+R90 output to C75: missing_saved_copper_path; route_mm=None; straight_mm=2.231614; vias=None; layers=None
+C75 ADC to MCU pin25: missing_saved_copper_path; route_mm=None; straight_mm=3.478725; vias=None; layers=None
+C75 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=2.825867; vias=None; layers=None
+R91 output to C76: quantified_explicit_route; route_mm=2.410071; straight_mm=2.231614; vias=0; layers=['B.Cu']
+C76 ADC to MCU pin26: missing_saved_copper_path; route_mm=None; straight_mm=4.839992; vias=None; layers=None
+C76 ground reference to VSSA: missing_saved_copper_path; route_mm=None; straight_mm=3.752536; vias=None; layers=None

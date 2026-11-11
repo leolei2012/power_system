@@ -1,0 +1,314 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T09:51:10",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "controller.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [+3V3_MCU] (F.Cu), 长度: 1.2500 mm",
+                    "pos": {
+                        "x": 120.6,
+                        "y": 133.75
+                    },
+                    "uuid": "aaf951fe-7edb-4d5a-994a-47822d9bc196"
+                },
+                {
+                    "description": "走线 [+3V3_MCU] (F.Cu), 长度: 1.5000 mm",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 126.25
+                    },
+                    "uuid": "4162868e-eab1-4dcf-8e19-57cd0d9272f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 1.0003 mm",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 124.25
+                    },
+                    "uuid": "b323a8ef-adcb-456b-a366-222fd6f6b999"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 27 [GND]",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 124.25
+                    },
+                    "uuid": "ef0231e7-fe81-48bf-a9c6-13324fc58c9a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 25 [PB2]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 141.43
+                    },
+                    "uuid": "7e44b8f8-876b-4374-8895-8412b25abaac"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 26 [PB2]",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 124.25
+                    },
+                    "uuid": "8365ab7e-2f7e-4389-8244-6377830b61ee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 30 [HSE_OUT]",
+                    "pos": {
+                        "x": 131.27,
+                        "y": 146.51
+                    },
+                    "uuid": "d65f73e2-e0c4-458d-b684-690b7925f9a0"
+                },
+                {
+                    "description": "走线 [HSE_OUT] (F.Cu), 长度: 2.0304 mm",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 131.25
+                    },
+                    "uuid": "a1e22b03-fdbc-482e-8989-0349062ed4a4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 2 [PC13]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.25
+                    },
+                    "uuid": "913ae2bc-c434-43ec-a8ed-0ff7381b29fe"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 24 [PC13]",
+                    "pos": {
+                        "x": 131.27,
+                        "y": 138.89
+                    },
+                    "uuid": "2d09a715-84ec-4f51-87bf-e72aee6cc8b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 134.79
+                    },
+                    "uuid": "632e7e4d-ce8a-418f-a861-7379e1598661"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 112.825,
+                        "y": 129.25
+                    },
+                    "uuid": "66f5489e-7e1d-477e-9cfd-6f893aa04319"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 111.98,
+                        "y": 133.75
+                    },
+                    "uuid": "e4b25f5a-58a2-4c12-945e-5035f439eea6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Y1 的参考字段",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 126.055
+                    },
+                    "uuid": "2a43b39b-bb46-4cae-a093-2eb46cdc1fd1"
+                },
+                {
+                    "description": "C63 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 125.36,
+                        "y": 126.507836
+                    },
+                    "uuid": "c1842179-f813-4067-b7da-2d0e162b5e81"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Y1 的参考字段",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 126.055
+                    },
+                    "uuid": "2a43b39b-bb46-4cae-a093-2eb46cdc1fd1"
+                },
+                {
+                    "description": "C63 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 124.64,
+                        "y": 126.507836
+                    },
+                    "uuid": "84c77bd4-5aeb-4c06-a501-8e91584af5f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Y1 的参考字段",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 126.055
+                    },
+                    "uuid": "2a43b39b-bb46-4cae-a093-2eb46cdc1fd1"
+                },
+                {
+                    "description": "F.Cu 上 C63 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 125.92
+                    },
+                    "uuid": "ea377792-cc3d-4238-b1e5-b058148c42d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C84 的参考字段",
+                    "pos": {
+                        "x": 124.7,
+                        "y": 129.855
+                    },
+                    "uuid": "e9378025-2fe7-459a-80b1-253391f2e16f"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 3 [HSE_OUT]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 130.9
+                    },
+                    "uuid": "327758e5-130c-48f7-99da-1171ef095759"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C84 的参考字段",
+                    "pos": {
+                        "x": 124.7,
+                        "y": 129.855
+                    },
+                    "uuid": "e9378025-2fe7-459a-80b1-253391f2e16f"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.95,
+                        "y": 130.9
+                    },
+                    "uuid": "5df01b66-f645-43d3-aaef-50d8dd958663"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

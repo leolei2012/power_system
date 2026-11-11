@@ -1,0 +1,173 @@
+{
+  "source": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\local_gaps\\inverter.kicad_pcb",
+  "protected_tracks_vias": 30,
+  "INA_input_pads_checked": 6,
+  "new_stitch_branches": 33,
+  "new_items_checked": 81,
+  "contacts": [
+    {
+      "stitch_origin": "U10.2",
+      "new_uuid": "155a3b9c-751b-468e-8337-1b123b9530ed",
+      "new_kind": "PCB_VIA",
+      "phase": "U",
+      "protected_kind": "negative_INA_pad",
+      "protected_id": "U10.1",
+      "layer": "B.Cu",
+      "new_start": [
+        147.302,
+        126.031
+      ],
+      "new_end": [
+        147.302,
+        126.031
+      ]
+    },
+    {
+      "stitch_origin": "U12.2",
+      "new_uuid": "f77e18fc-3931-4ae9-b6f2-f421ba4ba26d",
+      "new_kind": "PCB_TRACK",
+      "phase": "W",
+      "protected_kind": "negative_INA_pad",
+      "protected_id": "U12.1",
+      "layer": "B.Cu",
+      "new_start": [
+        147.8625,
+        155.725
+      ],
+      "new_end": [
+        146.802,
+        156.786
+      ]
+    }
+  ],
+  "near_contacts_below_0_15mm": [
+    {
+      "stitch_origin": "U11.4",
+      "new_uuid": "bfb23cd0-8661-47c3-bf70-4fa468c18b8f",
+      "new_kind": "PCB_VIA",
+      "phase": "V",
+      "protected_kind": "negative_INA_pad",
+      "protected_id": "U11.1",
+      "layer": "B.Cu",
+      "issue": "no nominal contact but less than0.15mm separation"
+    },
+    {
+      "stitch_origin": "U10.2",
+      "new_uuid": "7c7c01b7-db85-4171-9613-3b26f1cba8a1",
+      "new_kind": "PCB_TRACK",
+      "phase": "U",
+      "protected_kind": "negative_INA_pad",
+      "protected_id": "U10.1",
+      "layer": "B.Cu",
+      "issue": "no nominal contact but less than0.15mm separation"
+    }
+  ],
+  "negative_via_inner_plane_isolation": [
+    {
+      "phase": "U",
+      "via_uuid": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In1.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "via_uuid": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In2.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "via_uuid": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In3.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "via_uuid": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In4.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_uuid": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In1.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_uuid": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In2.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_uuid": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In3.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_uuid": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In4.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_uuid": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In1.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_uuid": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In2.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_uuid": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In3.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_uuid": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In4.Cu",
+      "GND_filled_zone_contacts": [],
+      "isolated": true
+    }
+  ],
+  "scope": "Read-only physical same-layer copper-shape intersections; via outer circle checked conservatively on every spanned layer, all 6 INA input pads included. No PCB save.",
+  "canonical_locked_geometry_comparison": {
+    "tracks": 277,
+    "vias": 98,
+    "changed_UUIDs": []
+  },
+  "filled_GND_zone_availability": [
+    {
+      "uuid": "bea1a1d5-b6f3-4a6c-a5c0-22fd6084ec0a",
+      "layers": [
+        "In1.Cu"
+      ],
+      "filled": true
+    },
+    {
+      "uuid": "9d0690fc-c616-421f-bc65-390c0f02ebbe",
+      "layers": [
+        "In4.Cu"
+      ],
+      "filled": true
+    }
+  ]
+}

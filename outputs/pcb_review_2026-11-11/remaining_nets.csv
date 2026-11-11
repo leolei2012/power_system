@@ -1,0 +1,150 @@
+﻿net,native_unconnected_items
++3V3_INV,23
+GND,10
++12V_DRV,7
+/Current sensing/VBIAS_1V65,6
++5V_INV,6
++5V_SENSOR,4
+OC_HIGH_REF,4
+AUX_PROTECTED,4
+TEMP_NTC,3
+ENABLE_IN,3
+/Current sensing/VBIAS_DIV,3
+Net-(D208-K1/A2),2
+W_SOURCE,2
+V_SOURCE,2
+W_PHASE,2
+/Auxiliary input/AUX_FUSED,2
+/Hardware latch/RESET_CLK,2
+PWM_WL_IN,2
+Net-(D207-K1/A2),2
+/Bus and brake/BR_GATE,2
+BASE_LOGIC_OK,2
+/Hardware latch/HEALTH_ALL,2
+/Hardware latch/NO_LATCH,2
+DRV_PG_LOGIC,2
+/Voltage and NTC/V_U_DIV,2
+PWM_WH_IN,2
+PWM_UH_IN,2
+FAULT_N,2
+Net-(D206-K1/A2),2
+PB2,2
+PB12,2
+I_W,2
+PA15,2
+PB1,2
+PC9,2
+/Driver supply/DRV_PG_NOM,2
+PWM_UL_IN,1
+VBUS,1
+/Auxiliary input/AUX_SHDN_N,1
+/Auxiliary input/EFUSE_RTN,1
+/Voltage and NTC/V_DC_DIV,1
+V_DC,1
+/SWD UART CAN and status/LED_AN_3,1
+PA2,1
+DRIVE_PERMIT,1
+/V half bridge/V_GATE_L,1
+V_PHASE,1
+/Voltage and NTC/V_U_DIV1,1
+/SWD UART CAN and status/UART_TX_PORT,1
+/SWD UART CAN and status/UART_RX_PORT,1
++3V3_CORE_REF,1
+PC13,1
+OC_LOW_REF,1
+/Voltage and NTC/V_DC_DIV1,1
+/Base LEDs/LED_PWR_AN,1
+/Voltage and NTC/V_V_DIV1,1
+/Voltage and NTC/V_V_DIV2,1
+/Hardware latch/RESET_REQUEST,1
+PA3,1
+V_W_PORT,1
+PB5,1
+/SWD UART CAN and status/LED_AN_4,1
+/U half bridge/U_GATE_H,1
+/SWD UART CAN and status/SWDIO_PORT,1
+/SWD UART CAN and status/SWCLK_PORT,1
+OC_U_LOW_OK,1
+OC_V_HIGH_OK,1
+OC_V_LOW_OK,1
+/Hardware latch/HEALTH_CHAIN_4,1
+OC_W_HIGH_OK,1
+/Driver supply/BB_BST1,1
+/Driver supply/BB_BST2,1
+/Auxiliary input/AUX_OV_DIV,1
+/V half bridge/V_GATE_H,1
+/Hardware latch/FAULT_ACTIVE,1
+/Hardware latch/FAULT_BASE,1
+U_SOURCE,1
+/Voltage and NTC/V_DC_DIV2,1
+OC_W_LOW_OK,1
+BUS_OV_OK,1
+/Hardware latch/HEALTH_CHAIN_6,1
+DRV_UV_OK,1
+/Hardware latch/HEALTH_CHAIN_8,1
+/Logic and sensors/SENSOR_PWR_FLT_N,1
+/SWD UART CAN and status/LED_AN_1,1
+AUX_FLT_N,1
+/Voltage and NTC/V_U,1
+OV_REF_1V30,1
+/SWD UART CAN and status/CAN_H,1
+/SWD UART CAN and status/CAN_L,1
+/Voltage and NTC/V_V_DIV,1
+/Voltage and NTC/V_V,1
+/SWD UART CAN and status/LED_AN_2,1
+/Encoders and SPI/ENC_B_VCC,1
+/Encoders and SPI/ENC_B_B_PORT,1
+PWM_VH_IN,1
+/Encoders and SPI/SPI_B_VCC,1
+/Encoders and SPI/SPI_B_SCK_PORT,1
+/Encoders and SPI/SPI_B_MOSI_PORT,1
+/Encoders and SPI/SPI_B_MISO_PORT,1
+/Encoders and SPI/SPI_B_CS_PORT,1
+/Encoders and SPI/SPI_A_VCC,1
+/Encoders and SPI/SPI_A_SCK_PORT,1
+/Encoders and SPI/SPI_A_MOSI_PORT,1
+/Encoders and SPI/SPI_A_MISO_PORT,1
+/Encoders and SPI/SPI_A_CS_PORT,1
+PB11,1
+/Encoders and SPI/ENC_A_A_PORT,1
+Net-(D204-K1/A2),1
+/Voltage and NTC/V_W_DIV1,1
+V_V_PORT,1
+PC10,1
+Net-(D202-K1/A2),1
+V_LIN,1
+Net-(D205-K1/A2),1
+/V half bridge/V_BOOT,1
+W_HIN,1
+U_LIN,1
+PB6,1
+/SWD UART CAN and status/CAN_TX_PHY,1
+PA10,1
+PA4,1
+Net-(D201-K1/A2),1
+PC0,1
+PC3,1
+/Current sensing/OC_HI_MID,1
+PA8,1
+PA13,1
+PA14,1
+PC12,1
+W_LIN,1
+/W half bridge/W_BOOT,1
+BRAKE_IN,1
+PC1,1
+I_U,1
+I_W_PORT,1
+PC2,1
+PC4,1
+PC11,1
+I_V,1
+ENABLE_QUALIFIED,1
+BASE_READY,1
+U_HIN,1
+V_HIN,1
+Net-(D203-K1/A2),1
+I_U_PORT,1
+V_DC_PORT,1
+V_U_PORT,1
+I_V_PORT,1

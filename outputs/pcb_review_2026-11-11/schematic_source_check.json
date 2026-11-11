@@ -1,0 +1,143 @@
+{
+  "result": "PASS",
+  "scope": "Schematic source files are unchanged while authoring PCBs.",
+  "schematic_pages": [
+    {
+      "path": "controller/hardware/g431_core/controller.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "144bfe4602f50e1c35f447b42cec397e454a0063a16bd51e1339b514f81a0fd5"
+    },
+    {
+      "path": "controller/hardware/g431_core/mcu.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "b908d381891d2e8360958840f3fd36ae8a6bfe2795a5b4f075cc2d3f1f295456"
+    },
+    {
+      "path": "controller/hardware/g431_core/mcu_analog.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "1307ab91db66bc7d9719691c99529800fa0cd2b0db2bea491a446315cc955ab6"
+    },
+    {
+      "path": "controller/hardware/g431_core/mcu_control.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "3936917285db3df9da6f37c7072e37fc1250233116a252dc9b18057c9d65650c"
+    },
+    {
+      "path": "controller/hardware/g431_core/core_supply.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "2ba75a1d4b49b6c75f9d9be0a39b7740d8b7c0f460dd60606b6ba34d4a8651e0"
+    },
+    {
+      "path": "controller/hardware/g431_core/core_arm.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "9c5f439ece4984f458aeafae808d40e6678e53351c2858db17d908506881371a"
+    },
+    {
+      "path": "controller/hardware/g431_core/core_interface.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "61f9a323af011d0f3ca0ff121085ddb10360a367996a91498a479eb0eed4e509"
+    },
+    {
+      "path": "inverter/hardware/inverter.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "0db30c67b5441b0d07c2a1268779398d794c88211bb3e86370a5e3c42af316d1"
+    },
+    {
+      "path": "inverter/hardware/aux_input.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "7a4d8b2730b804ccdfaef74d88ce8d220c19299174dcbf755fe53f4b2fda3f58"
+    },
+    {
+      "path": "inverter/hardware/supply_12v.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "1f911417e9c4ae4e8cbb736284cc73f98fb30b4fd46684ff78c9613b5b7371d7"
+    },
+    {
+      "path": "inverter/hardware/supply_logic.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "5198cf2dab5007576a3a8553fcd4416dcd9a67a84c7444ccdb866e5c6b55ca48"
+    },
+    {
+      "path": "inverter/hardware/bus_brake.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "b54c2e270c4ecefd90b28109b360d22a6897a012680476ded821f8cdb80b2217"
+    },
+    {
+      "path": "inverter/hardware/bridge_u.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "1a512db111110844a674146c2584e3ff68209fea24efcfbfcd3b8f27713cfde9"
+    },
+    {
+      "path": "inverter/hardware/bridge_v.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "7e08786bffd306210045e858a67d494c5719f144bdf8c5d062c9789304e5685e"
+    },
+    {
+      "path": "inverter/hardware/bridge_w.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "1609f08e9ef1218ff86f6f80b594a6042db32003ed50e6eca159a82f00bd0f4d"
+    },
+    {
+      "path": "inverter/hardware/current_sense.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "00b041f8e1e0a1b56d9b22b7bf0340a30fa340dd666fd3d586dd00733a22f12b"
+    },
+    {
+      "path": "inverter/hardware/voltage_sense.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "791e874815e286441244797dc96813df573916d81082144a1b033faaa6e8fda6"
+    },
+    {
+      "path": "inverter/hardware/comparators.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "f0af529ef4b6f1af932c7f9e4809c6711c4974eca08595f871910f754ea8eb3a"
+    },
+    {
+      "path": "inverter/hardware/fault_logic.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "a5f3f4fd361b5d7de9e590db88bc3944b6f9f948aaacbf8e5ba313c95c56a0b5"
+    },
+    {
+      "path": "inverter/hardware/control_interface.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "d92b3a6b9077bb8e929f8c7f1f01552e793f8617961082e3a8a93b661c112f28"
+    },
+    {
+      "path": "inverter/hardware/base_interlock.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "03452f80055abfaac7b5d7cb68c9033a9fcb1f82d12de35cfef74142cf3ddde1"
+    },
+    {
+      "path": "inverter/hardware/base_leds.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "1c06498bbab86128f331efcc35aaa9ecacae992ea948608d9c69fb235db0b48e"
+    },
+    {
+      "path": "inverter/hardware/mcu_coupling.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "21634598fef4b6225415633b4a40073636138ad5c1be97a0f5ca0bbb97ad0de6"
+    },
+    {
+      "path": "inverter/hardware/core_signal_protection.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "099d8b28860a6041cf15389862d568f1155b68d5108a4b61717b99863ab4be32"
+    },
+    {
+      "path": "inverter/hardware/sensors.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "240088ffa745d1ac0299ff93e73a8619ce564fbf514bad41624d52b34062a781"
+    },
+    {
+      "path": "inverter/hardware/debug_comms.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "26db8bb71d94d033cb16c36b9ee85ce97b4728efee7d60d78d0cbf0015c09c84"
+    },
+    {
+      "path": "inverter/hardware/power_interface.kicad_sch",
+      "matches_schematic_handoff": true,
+      "sha256": "b0454cbb07a5d2dd2b3b36c5500742f7dd6ab27afe136c65d43362f9fac8d3ef"
+    }
+  ],
+  "shared_library_parts": 51,
+  "shared_library_parts_sha256": "24c6a7b585e69986d848ad5ac1df4a2a7e68bb207ae8c494a67b4455a03d0cf4"
+}

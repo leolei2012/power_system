@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "purpose": "Prototype only; private project rules changed. Not mergeable into old 4d4f baseline.",
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fine_smoke\\stitch.work\\inverter.kicad_pcb",
+  "candidate_sha256": "39744a3d02a165c04d686addfa88febc8ee223e71951aa8e2f31de749e0b50d7",
+  "main_source_unchanged": true,
+  "main_project_unchanged": true,
+  "main_original_classes_and_clearances_preserved": true,
+  "default_preferred": ".15/.6/.3",
+  "fine_preferred": ".125/.5/.2",
+  "true_min_clearance": 0.15,
+  "via_copper_radius": 0.25,
+  "via_drill_radius": 0.1,
+  "annular_width": 0.15,
+  "all_original_geometry_preserved": true,
+  "closed_net": "SPI_A_SCK",
+  "global_gaps_before": 215,
+  "global_gaps_after": 214,
+  "actual_added_vias": 2,
+  "actual_added_segments": 60,
+  "native_exact_oracle_vias_tested": 400,
+  "native_exact_oracle_lines_tested": 400,
+  "native_exact_oracle_mismatches": 0,
+  "sampled_grid_points": 1200,
+  "via_grid_free_points_verified": 91,
+  "line_grid_free_points_verified": 590,
+  "electrical_errors": 0,
+  "listed_airwires": 214,
+  "warning_types": {
+    "track_dangling": 13
+  },
+  "fixed_kelvin_pass": true,
+  "fixed_summary": {
+    "fixed_geometry_issue_count": 0,
+    "allowed_contacts": 12,
+    "suspicious_contacts": 0,
+    "negative_via_plane_checks": 6,
+    "negative_via_plane_contacts": 0
+  },
+  "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fine_smoke\\stitch.work\\final_drc.json",
+  "fixed": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_fine_smoke\\stitch.work\\final_fixed.json"
+}

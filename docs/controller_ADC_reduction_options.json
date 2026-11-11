@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-11",
+  "status": "Feasibility discussion only. User asked whether two ADC ports can be removed; temperature-interface choice is not frozen and active plan remains ten ports until a reduction is selected.",
+  "baseline": {"ADC_ports": 10, "connector_bodies": 19, "contacts": 62, "used_signal_pads": 44, "free_signal_pads": 8},
+  "nine_port_option": {
+    "ADC_ports": 9,
+    "removed_ports": ["ADC10 / PB2, currently spare in all three single-power examples"],
+    "temperature": "Keep the existing analog NTC role on ADC09 / PB1.",
+    "mode_counts": {"motor": 8, "Boost": 4, "Vienna": 9},
+    "connector_bodies": 18, "contacts": 60, "used_signal_pads": 43, "free_signal_pads": 9,
+    "advantage": "Least change; no added temperature conversion hardware needed for the specified Vienna sensing set."
+  },
+  "eight_port_option": {
+    "ADC_ports": 8,
+    "removed_ports": ["ADC09 / PB1", "ADC10 / PB2"],
+    "port_roles": [
+      {"port": "ADC01", "GPIO": "PC0", "motor": "I_U", "Boost": "I_L", "Vienna": "I_L1"},
+      {"port": "ADC02", "GPIO": "PC1", "motor": "I_V", "Boost": "SPARE", "Vienna": "I_L2"},
+      {"port": "ADC03", "GPIO": "PC2", "motor": "I_W", "Boost": "SPARE", "Vienna": "I_L3"},
+      {"port": "ADC04", "GPIO": "PC3", "motor": "V_U_PHASE", "Boost": "V_RECTIFIED_INPUT", "Vienna": "V_AC1"},
+      {"port": "ADC05", "GPIO": "PA0", "motor": "V_V_PHASE", "Boost": "SPARE", "Vienna": "V_AC2"},
+      {"port": "ADC06", "GPIO": "PA1", "motor": "V_W_PHASE", "Boost": "SPARE", "Vienna": "V_AC3"},
+      {"port": "ADC07", "GPIO": "PA4", "motor": "V_DC", "Boost": "V_OUTPUT", "Vienna": "V_BUS_UPPER"},
+      {"port": "ADC08", "GPIO": "PB0", "motor": "POWER_BOARD_NTC", "Boost": "POWER_BOARD_NTC", "Vienna": "V_BUS_LOWER"}
+    ],
+    "mode_counts": {"motor_analog": 8, "Boost_analog": 4, "Vienna_analog": 8},
+    "Vienna_temperature_requirement": "Retain temperature sensing through a separately designed power-board I2C temperature front end using the existing I2C port, e.g. external ADC reading NTC or a suitable digital sensor. This adds power-board hardware and firmware; do not silently remove temperature protection.",
+    "connector_bodies": 17, "contacts": 58, "used_signal_pads": 42, "free_signal_pads": 10,
+    "limits": "Eight analog ports cover the selected Vienna electrical feedback only, not an additional analog NTC. No unreviewed phase-current/voltage reconstruction is assumed. I2C temperature conversion is slow monitoring, not current-loop sampling."
+  },
+  "recommendation": "If the priority is fewer analog connectors, eight is feasible with an explicit Vienna digital-temperature path. If the priority is the simplest sensor electronics retaining analog NTC, nine is the simpler choice. The extra ten-port channel is not mandatory.",
+  "sources": ["https://www.ti.com/lit/ug/tiducj0g/tiducj0g.pdf", "controller_single_power_pin_plan.json", "controller_ADC_mode_examples.csv"],
+  "native_changed": false
+}

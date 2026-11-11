@@ -1,0 +1,11 @@
+﻿Interface,Quantity,Pins_each,Contact_roles,Status
+PWM,2,8,CH1 / CH1N / CH2 / CH2N / CH3 / CH3N / GND / GND,Confirmed quantity/8P; see separate logical pin-order proposal.
+ADC,10,2,Conditioned analog signal / GND,"Confirmed quantity; 2P recommendation accepted, physical pin order pending."
+SPI,2,6,SCK / MOSI / MISO / CS_N / PWR / GND,Two buses confirmed; retain saved 6P roles. Supply voltage/load/protection pending sensor selection.
+I2C,2,4,SCL / SDA / 3V3 / GND,Two independent buses confirmed; 4P structure proposed.
+ABZ,2,5,A / B / Z / PWR / GND,Two ports confirmed; retain saved 5P roles. Supply voltage/load/protection pending sensor selection.
+CAN,1,3,CANH / CANL / GND,One port confirmed; retain saved 3P roles. Requires transceiver on controller; existing PHY is classic CAN.
+TTL_UART,1,3,TX / RX / GND,"One port confirmed; retain saved 3P form, 3.3V logic, no added supply pin."
+SWD,1,5,VTREF_3V3 / SWDIO / SWCLK / GND / NRST,"Retain one debug interface and saved 5P roles; VTREF is reference detection, not a supply inlet."
+CTRL,2,6,ENABLE / FAULT_N / BASE_READY / CTRL_READY / BRAKE / GND,"Proposed two 6P control/protection ports; BRAKE_B is only a pin reserve, not an implemented second brake power stage."
+5V_IN,1,2,5V_IN / GND,"Proposed regulated-5V inlet; exact connector TBD, preferably a visibly different mating geometry from ADC2P. Not a raw 12-24V input."

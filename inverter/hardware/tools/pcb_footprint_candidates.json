@@ -1,0 +1,1803 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "status": "PCB mechanical review candidates only; NOT RELEASED FOR FABRICATION OR PROCUREMENT",
+  "source_bom": "inverter/hardware/review/bom.csv",
+  "source_bom_count": 313,
+  "source_bom_sha256": "9d19d44590f962c34f6d02998b34a69a078755bd1014407b6488e6dc27b9487f",
+  "source_netlist": "inverter/hardware/review/inverter.net.xml",
+  "source_netlist_sha256": "1fd4ea493cc055970895c677983200a17671bcec78a803139798d5584e944b5e",
+  "local_kicad_footprint_root": "C:/Program Files/KiCad/10.0/share/kicad/footprints",
+  "candidate_count": 19,
+  "scope": "Only the 19 currently empty footprints; no schematic, PCB or shared library modified by this mapping.",
+  "procurement_policy": "Components must ultimately be sourced from LCSC domestic site; no order, approved stock, price or full manufacturer selection is made here.",
+  "validation_scope": [
+    "All 19 candidate files physically exist in local KiCad 10 standard footprint libraries.",
+    "Every candidate unique numbered-pad set exactly equals the corresponding current schematic pin-number set.",
+    "Duplicate numbered pads on switches and the F1 fuse-clip assembly are taken unchanged from official local library files.",
+    "Electrical ratings, manufacturer part compatibility, thermal behavior, supply eligibility and assembly clearance remain pending."
+  ],
+  "footprint_map": {
+    "J2": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "J3": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+    "J4": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal",
+    "J5": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+    "J7": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "J8": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "J9": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "J10": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "J11": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "J12": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "J13": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "J14": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "J15": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "F1": "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal",
+    "F2": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "L1": "Inductor_SMD:L_10.4x10.4_H4.8",
+    "L2": "Inductor_SMD:L_10.4x10.4_H4.8",
+    "SW1": "Button_Switch_THT:SW_PUSH_6mm",
+    "SW2": "Button_Switch_THT:SW_PUSH_6mm"
+  },
+  "candidates": [
+    {
+      "reference": "J2",
+      "value": "AUX: +12..24V / GND",
+      "sheet": "Auxiliary input",
+      "dnp": "no",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/TerminalBlock_Phoenix.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "3e5979c3588fed5d72b8f067cf123c52151009c63e4c4a34fca22441db16c9d0",
+      "local_description": "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x02",
+        "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Auxiliary input/AUX_IN",
+        "2": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "roundrect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            5.08,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "auxiliary_terminal_mechanical_candidate",
+      "reason": "辅助12..24 V输入采用5.08 mm两位直插螺钉端子机械候选，pad1=AUX_IN、pad2=GND，与现有符号一致。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "辅助支路实际最大电流、线径、端子插线朝向和直流额定待确认。"
+      ]
+    },
+    {
+      "reference": "J3",
+      "value": "DC INPUT: + / -",
+      "sheet": "Bus and brake",
+      "dnp": "no",
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/TerminalBlock_MetzConnect.pretty/TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "d70e052537e50a1c57028a4fdff8d9094c90f9199cfeb63156d3f8795ed76373",
+      "local_description": "terminal block Metz Connect Type703_RT10N02HGLU, 2 pins, pitch 9.52mm, size 19x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/317031/863835.PDF",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x02",
+        "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Bus and brake/DC_INPUT_POS",
+        "2": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "roundrect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            9.52,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "high_current_terminal_mechanical_candidate",
+      "reason": "使用本地真实存在的同系列9.52 mm间距端子机械候选，满足本轮大电流端子至少7.62 mm的布局方向；端子编号1..N与当前原理图直接一致。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "9.52 mm间距本身不证明额定电流；需确认立创可采购端子的持续电流、温升、导线截面、额定DC电压、螺钉及焊脚。",
+        "当前封装对应Metz Connect Type703系列机械图，不能直接替换为外形相似的7.62/9.5/10 mm端子。"
+      ]
+    },
+    {
+      "reference": "J4",
+      "value": "RAW PWM: U / V / W",
+      "sheet": "Bus and brake",
+      "dnp": "no",
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/TerminalBlock_MetzConnect.pretty/TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "5b70e3df3249a9f3c58e16e8f9d3c3b86dad89788d9be110d8339dd30436b701",
+      "local_description": "terminal block Metz Connect Type703_RT10N03HGLU, 3 pins, pitch 9.52mm, size 28.6x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/317031/863835.PDF",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x03",
+        "description": "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "U_PHASE",
+        "2": "V_PHASE",
+        "3": "W_PHASE"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "roundrect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            9.52,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            19.04,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "high_current_terminal_mechanical_candidate",
+      "reason": "使用本地真实存在的同系列9.52 mm间距端子机械候选，满足本轮大电流端子至少7.62 mm的布局方向；端子编号1..N与当前原理图直接一致。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "9.52 mm间距本身不证明额定电流；需确认立创可采购端子的持续电流、温升、导线截面、额定DC电压、螺钉及焊脚。",
+        "当前封装对应Metz Connect Type703系列机械图，不能直接替换为外形相似的7.62/9.5/10 mm端子。",
+        "三相输出端子按每相10 Arms设计目标复核；U/V/W为原始PWM输出。"
+      ]
+    },
+    {
+      "reference": "J5",
+      "value": "BRAKE POWER: BR+ / BR_SW",
+      "sheet": "Bus and brake",
+      "dnp": "no",
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/TerminalBlock_MetzConnect.pretty/TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "d70e052537e50a1c57028a4fdff8d9094c90f9199cfeb63156d3f8795ed76373",
+      "local_description": "terminal block Metz Connect Type703_RT10N02HGLU, 2 pins, pitch 9.52mm, size 19x12.5mm, drill diameter 1.3mm, pad diameter 2.6mm, https://www.metz-connect.com/externalfiles/317031/863835.PDF",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x02",
+        "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "VBUS",
+        "2": "/Bus and brake/BR_SW"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "roundrect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            9.52,
+            0
+          ],
+          "size": [
+            2.6,
+            2.6
+          ],
+          "drill": [
+            1.3
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "high_current_terminal_mechanical_candidate",
+      "reason": "使用本地真实存在的同系列9.52 mm间距端子机械候选，满足本轮大电流端子至少7.62 mm的布局方向；端子编号1..N与当前原理图直接一致。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "9.52 mm间距本身不证明额定电流；需确认立创可采购端子的持续电流、温升、导线截面、额定DC电压、螺钉及焊脚。",
+        "当前封装对应Metz Connect Type703系列机械图，不能直接替换为外形相似的7.62/9.5/10 mm端子。",
+        "端子2为制动开关节点BR_SW，不是GND；制动电阻电流/脉冲温升仍须独立计算。"
+      ]
+    },
+    {
+      "reference": "J7",
+      "value": "OPTIONAL SENSOR 5V / GND",
+      "sheet": "Logic and sensors",
+      "dnp": "yes",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "e5c0d699660a4479fa2414cc5be1835c6f52a38630dd85a2d18aab4dcd3ff8e5",
+      "local_description": "Through hole straight pin header, 1x02, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x02",
+        "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "+5V_SENSOR",
+        "2": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。"
+      ]
+    },
+    {
+      "reference": "J8",
+      "value": "EXTERNAL 10k NTC",
+      "sheet": "Voltage and NTC",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "e5c0d699660a4479fa2414cc5be1835c6f52a38630dd85a2d18aab4dcd3ff8e5",
+      "local_description": "Through hole straight pin header, 1x02, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x02",
+        "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "TEMP_NTC",
+        "2": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。"
+      ]
+    },
+    {
+      "reference": "J9",
+      "value": "ENC_A: PWR GND A B Z",
+      "sheet": "Encoders and SPI",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "a9beaa5e3bf9f73f4667fd503d8ddc47f81aec7999b51211890c919363099acf",
+      "local_description": "Through hole straight pin header, 1x05, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x05",
+        "description": "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Encoders and SPI/ENC_A_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/ENC_A_A_PORT",
+        "4": "/Encoders and SPI/ENC_A_B_PORT",
+        "5": "/Encoders and SPI/ENC_A_Z_PORT"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "4",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            7.62
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "5",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            10.16
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "信号仍为3.3 V单端；外设供电连接仍由原理图中的DNP零欧电阻控制，不能因指定针座而默认装配电源跳线。"
+      ]
+    },
+    {
+      "reference": "J10",
+      "value": "ENC_B: PWR GND A B Z",
+      "sheet": "Encoders and SPI",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "a9beaa5e3bf9f73f4667fd503d8ddc47f81aec7999b51211890c919363099acf",
+      "local_description": "Through hole straight pin header, 1x05, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x05",
+        "description": "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Encoders and SPI/ENC_B_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/ENC_B_A_PORT",
+        "4": "/Encoders and SPI/ENC_B_B_PORT",
+        "5": "/Encoders and SPI/ENC_B_Z_PORT"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "4",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            7.62
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "5",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            10.16
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "信号仍为3.3 V单端；外设供电连接仍由原理图中的DNP零欧电阻控制，不能因指定针座而默认装配电源跳线。"
+      ]
+    },
+    {
+      "reference": "J11",
+      "value": "SPI_A: PWR GND SCK MOSI MISO CS",
+      "sheet": "Encoders and SPI",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "e3c3501f520fc1fc39eeb5d72137e680e509c0df2348ca77fef1b9db6ab974f0",
+      "local_description": "Through hole straight pin header, 1x06, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x06",
+        "description": "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Encoders and SPI/SPI_A_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/SPI_A_SCK_PORT",
+        "4": "/Encoders and SPI/SPI_A_MOSI_PORT",
+        "5": "/Encoders and SPI/SPI_A_MISO_PORT",
+        "6": "/Encoders and SPI/SPI_A_CS_PORT"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "4",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            7.62
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "5",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            10.16
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "6",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            12.7
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "信号仍为3.3 V单端；外设供电连接仍由原理图中的DNP零欧电阻控制，不能因指定针座而默认装配电源跳线。"
+      ]
+    },
+    {
+      "reference": "J12",
+      "value": "SPI_B: PWR GND SCK MOSI MISO CS",
+      "sheet": "Encoders and SPI",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "e3c3501f520fc1fc39eeb5d72137e680e509c0df2348ca77fef1b9db6ab974f0",
+      "local_description": "Through hole straight pin header, 1x06, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x06",
+        "description": "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Encoders and SPI/SPI_B_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/SPI_B_SCK_PORT",
+        "4": "/Encoders and SPI/SPI_B_MOSI_PORT",
+        "5": "/Encoders and SPI/SPI_B_MISO_PORT",
+        "6": "/Encoders and SPI/SPI_B_CS_PORT"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "4",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            7.62
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "5",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            10.16
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "6",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            12.7
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "信号仍为3.3 V单端；外设供电连接仍由原理图中的DNP零欧电阻控制，不能因指定针座而默认装配电源跳线。"
+      ]
+    },
+    {
+      "reference": "J13",
+      "value": "SWD: VTREF IO CLK GND NRST",
+      "sheet": "Debug and communication",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "a9beaa5e3bf9f73f4667fd503d8ddc47f81aec7999b51211890c919363099acf",
+      "local_description": "Through hole straight pin header, 1x05, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x05",
+        "description": "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "+3V3_INV",
+        "2": "/Debug and communication/SWDIO_PORT",
+        "3": "/Debug and communication/SWCLK_PORT",
+        "4": "GND",
+        "5": "LOGIC_POWER_OK"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "4",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            7.62
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "5",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            10.16
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "这是本项目5针SWD自定义顺序，不能当作ARM标准2x5调试座；pin1为VTREF、pin5为监控复位LOGIC_POWER_OK。"
+      ]
+    },
+    {
+      "reference": "J14",
+      "value": "TTL: TX RX GND",
+      "sheet": "Debug and communication",
+      "dnp": "no",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "6a7dba97d6e733fd9d5f12d2d57f2cde29e8393e15b08d8b3e41bf2b430d83ed",
+      "local_description": "Through hole straight pin header, 1x03, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x03",
+        "description": "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Debug and communication/UART_TX_PORT",
+        "2": "/Debug and communication/UART_RX_PORT",
+        "3": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "TX/RX按板端方向；外接串口适配器须交叉连接，并使用3.3 V逻辑。"
+      ]
+    },
+    {
+      "reference": "J15",
+      "value": "CAN: H L GND",
+      "sheet": "Debug and communication",
+      "dnp": "yes",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "6a7dba97d6e733fd9d5f12d2d57f2cde29e8393e15b08d8b3e41bf2b430d83ed",
+      "local_description": "Through hole straight pin header, 1x03, 2.54mm pitch, single row",
+      "source_symbol": {
+        "lib": "Connector_Generic",
+        "part": "Conn_01x03",
+        "description": "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      },
+      "source_pin_nets": {
+        "1": "/Debug and communication/CAN_H",
+        "2": "/Debug and communication/CAN_L",
+        "3": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "rect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            2.54
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        },
+        {
+          "number": "3",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            5.08
+          ],
+          "size": [
+            1.7,
+            1.7
+          ],
+          "drill": [
+            1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "signal_header_mechanical_candidate",
+      "reason": "标准2.54 mm单排直插针座，编号顺序1..N直接对应当前通用连接器符号；适合第一版实验PCB接口占位。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "未加防反插或锁扣；实际线束/母座及引脚1方向需在实物和丝印中复核。",
+        "可选经典CAN接口及收发器相关原DNP状态保持；不得据此认定隔离或总线保护已验证。"
+      ]
+    },
+    {
+      "reference": "F1",
+      "value": "15A / DC fuse TBD",
+      "sheet": "Bus and brake",
+      "dnp": "no",
+      "footprint": "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Fuse.pretty/Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "fde264a31b273ad2ca17f3ce7ffc2db5ab2802a20d42f577f5bfdf89330a4971",
+      "local_description": "Fuseholder Clips, 6.3x32mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 102071, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_520_521_102071_datasheet.pdf.pdf",
+      "source_symbol": {
+        "lib": "Device",
+        "part": "Fuse",
+        "description": "Fuse"
+      },
+      "source_pin_nets": {
+        "1": "/Bus and brake/DC_INPUT_POS",
+        "2": "/Bus and brake/DC_FUSED"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "roundrect",
+          "at": [
+            0,
+            0
+          ],
+          "size": [
+            3,
+            3
+          ],
+          "drill": [
+            2
+          ]
+        },
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "roundrect",
+          "at": [
+            7.6,
+            0
+          ],
+          "size": [
+            3,
+            3
+          ],
+          "drill": [
+            2
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            27.1,
+            0
+          ],
+          "size": [
+            3,
+            3
+          ],
+          "drill": [
+            2
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            34.7,
+            0
+          ],
+          "size": [
+            3,
+            3
+          ],
+          "drill": [
+            2
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "main_dc_fuse_assembly_placeholder_unselected",
+      "reason": "6.3x32 mm圆筒熔断器双夹具组合的本地标准机械候选，为主母线15 A熔断器保留较大空间；夹具多焊脚原生重复编号1、1、2、2，无自造焊盘映射。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "主熔断器完整型号尚未选择；需确认>=60 V DC额定、直流分断能力、15 A时间电流/I2t和故障能量适配。",
+        "夹具102071本体的电流/温升、熔断器直径/长度和端帽接触均待核对；封装存在不代表夹具额定满足。",
+        "该封装描绘双夹具机械组合；采购/装配BOM还需明确两只夹具与一只熔断器的实际物料关系。"
+      ]
+    },
+    {
+      "reference": "F2",
+      "value": "2A / DC rated TBD",
+      "sheet": "Auxiliary input",
+      "dnp": "no",
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Fuse.pretty/Fuse_Littelfuse-NANO2-451_453.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "1e5c63293cf2fa83e70d53f8b488d8b5d4bbb596b20ceed26ef71cf468c40b14",
+      "local_description": "Littelfuse NANO2 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf",
+      "source_symbol": {
+        "lib": "Device",
+        "part": "Fuse",
+        "description": "Fuse"
+      },
+      "source_pin_nets": {
+        "1": "/Auxiliary input/AUX_IN",
+        "2": "/Auxiliary input/AUX_FUSED"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "smd",
+          "shape": "rect",
+          "at": [
+            -2.455,
+            0
+          ],
+          "size": [
+            1.96,
+            3.15
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "smd",
+          "shape": "rect",
+          "at": [
+            2.455,
+            0
+          ],
+          "size": [
+            1.96,
+            3.15
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "auxiliary_dc_fuse_mechanical_placeholder_unselected",
+      "reason": "本地NANO2 451/453尺寸的两焊盘SMD熔断器机械候选，pad1=AUX_IN、pad2=AUX_FUSED，适合先给辅助支路预留封装空间。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "2 A熔断器实际系列、时延、>=24 V DC额定、分断能力与I2t待选，不代表已批准451或453任一完整型号。"
+      ]
+    },
+    {
+      "reference": "L1",
+      "value": "4.7uH / Isat>=5A / DCR<=40m",
+      "sheet": "Driver supply",
+      "dnp": "no",
+      "footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Inductor_SMD.pretty/L_10.4x10.4_H4.8.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "8b8c78a1ae8b94c2127f1dfc586fd76af454e64061b896303a6d111a58b8c388",
+      "local_description": "Choke, SMD, 10.4x10.4mm 4.8mm height",
+      "source_symbol": {
+        "lib": "Device",
+        "part": "L",
+        "description": "Inductor"
+      },
+      "source_pin_nets": {
+        "1": "/Driver supply/BB_L1",
+        "2": "/Driver supply/BB_L2"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "smd",
+          "shape": "rect",
+          "at": [
+            -4.15,
+            0
+          ],
+          "size": [
+            2.7,
+            3.6
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "smd",
+          "shape": "rect",
+          "at": [
+            4.15,
+            0
+          ],
+          "size": [
+            2.7,
+            3.6
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "inductor_mechanical_placeholder_only",
+      "reason": "10.4x10.4 mm、高4.8 mm的本地通用两焊盘SMD电感机械占位；严格保留符号pin1/pin2对应原焊盘1/2。没有据此选择厂牌或料号。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "该封装仅供第一版摆放，不能据此下单、推定兼容任何外形相似电感或宣称电气选型完成。",
+        "4.7 uH、至少5 A饱和电流、有效电感随电流/温度变化、RMS温升、电感损耗及开关频率适配须按最终料号复核。",
+        "拟采购器件的实际推荐land pattern可能要求重新布局；装配前必须用厂家图纸替换/确认此机械占位。",
+        "L1还须满足原设计DCR<=40 mOhm；TPS55165峰值限流和buck-boost温升适配未由本次机械检查验证。"
+      ]
+    },
+    {
+      "reference": "L2",
+      "value": "4.7uH / Isat>=5A",
+      "sheet": "Logic and sensors",
+      "dnp": "no",
+      "footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Inductor_SMD.pretty/L_10.4x10.4_H4.8.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "8b8c78a1ae8b94c2127f1dfc586fd76af454e64061b896303a6d111a58b8c388",
+      "local_description": "Choke, SMD, 10.4x10.4mm 4.8mm height",
+      "source_symbol": {
+        "lib": "Device",
+        "part": "L",
+        "description": "Inductor"
+      },
+      "source_pin_nets": {
+        "1": "/Logic and sensors/BUCK_SW",
+        "2": "+5V_INV"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "smd",
+          "shape": "rect",
+          "at": [
+            -4.15,
+            0
+          ],
+          "size": [
+            2.7,
+            3.6
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "smd",
+          "shape": "rect",
+          "at": [
+            4.15,
+            0
+          ],
+          "size": [
+            2.7,
+            3.6
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "inductor_mechanical_placeholder_only",
+      "reason": "10.4x10.4 mm、高4.8 mm的本地通用两焊盘SMD电感机械占位；严格保留符号pin1/pin2对应原焊盘1/2。没有据此选择厂牌或料号。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "该封装仅供第一版摆放，不能据此下单、推定兼容任何外形相似电感或宣称电气选型完成。",
+        "4.7 uH、至少5 A饱和电流、有效电感随电流/温度变化、RMS温升、电感损耗及开关频率适配须按最终料号复核。",
+        "拟采购器件的实际推荐land pattern可能要求重新布局；装配前必须用厂家图纸替换/确认此机械占位。",
+        "L2须按AP63205峰/谷限流和短路过冲复核，不能以封装大小代替电气校核。"
+      ]
+    },
+    {
+      "reference": "SW1",
+      "value": "AUX_RESET",
+      "sheet": "Auxiliary input",
+      "dnp": "no",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Button_Switch_THT.pretty/SW_PUSH_6mm.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "e284d5bbfb435ef0ad577512ffc7da06ea7cf5c87753287922d89e84c7f4a2a7",
+      "local_description": "Generic 6mm SW tactile push button",
+      "source_symbol": {
+        "lib": "Switch",
+        "part": "SW_Push",
+        "description": "Push button switch, generic, two pins"
+      },
+      "source_pin_nets": {
+        "1": "/Auxiliary input/AUX_SHDN_N",
+        "2": "/Auxiliary input/EFUSE_RTN"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            0,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        },
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            6.5,
+            0,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            4.5,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            6.5,
+            4.5,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "push_button_mechanical_candidate",
+      "reason": "通用6 mm直插常开轻触按键封装，4个物理焊盘已由标准库原生编号为1、1、2、2，对应原理图两端按键。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "具体按键的内部常通腿必须与标准封装两组同号焊盘一致；6x6 mm外形不保证引脚方向兼容。",
+        "实际按键脚距6.5x4.5 mm、1.1 mm钻孔适配、按钮高度和操作空间待核对。"
+      ]
+    },
+    {
+      "reference": "SW2",
+      "value": "MCU_RESET",
+      "sheet": "Debug and communication",
+      "dnp": "no",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "local_path": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Button_Switch_THT.pretty/SW_PUSH_6mm.kicad_mod",
+      "local_footprint_exists": true,
+      "local_footprint_sha256": "e284d5bbfb435ef0ad577512ffc7da06ea7cf5c87753287922d89e84c7f4a2a7",
+      "local_description": "Generic 6mm SW tactile push button",
+      "source_symbol": {
+        "lib": "Switch",
+        "part": "SW_Push",
+        "description": "Push button switch, generic, two pins"
+      },
+      "source_pin_nets": {
+        "1": "LOGIC_POWER_OK",
+        "2": "GND"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            0,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        },
+        {
+          "number": "1",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            6.5,
+            0,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            0,
+            4.5,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "technology": "thru_hole",
+          "shape": "circle",
+          "at": [
+            6.5,
+            4.5,
+            90
+          ],
+          "size": [
+            2,
+            2
+          ],
+          "drill": [
+            1.1
+          ]
+        }
+      ],
+      "pin_number_set_matches_schematic": true,
+      "electrical_rating_validated": false,
+      "exact_purchased_part_compatibility_validated": false,
+      "selection_status": "push_button_mechanical_candidate",
+      "reason": "通用6 mm直插常开轻触按键封装，4个物理焊盘已由标准库原生编号为1、1、2、2，对应原理图两端按键。",
+      "pending": [
+        "完整制造商型号、立创国内商品编号和采购链接尚未确认；此候选不是采购发布。",
+        "装配前须按拟采购器件规格书核对尺寸、引脚/焊盘、插拔方向及配套件。",
+        "具体按键的内部常通腿必须与标准封装两组同号焊盘一致；6x6 mm外形不保证引脚方向兼容。",
+        "实际按键脚距6.5x4.5 mm、1.1 mm钻孔适配、按钮高度和操作空间待核对。"
+      ]
+    }
+  ]
+}

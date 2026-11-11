@@ -1,0 +1,45 @@
+﻿group,signal,gpio,mcu_pin,function,af,status,notes
+PWM,PWM_CH1,PA8,42,TIM1_CH1,6,planned,3.3V logic to power-board hardware-gated driver inputs.
+PWM,PWM_CH1N,PB13,35,TIM1_CH1N,6,planned,3.3V logic to power-board hardware-gated driver inputs.
+PWM,PWM_CH2,PA9,43,TIM1_CH2,6,planned,3.3V logic to power-board hardware-gated driver inputs.
+PWM,PWM_CH2N,PB14,36,TIM1_CH2N,6,planned,3.3V logic to power-board hardware-gated driver inputs.
+PWM,PWM_CH3,PA10,44,TIM1_CH3,6,planned,3.3V logic to power-board hardware-gated driver inputs.
+PWM,PWM_CH3N,PB15,37,TIM1_CH3N,4,planned,3.3V logic to power-board hardware-gated driver inputs.
+ADC,ADC01,PC0,8,ADC1_IN6/ADC2_IN6,,planned,Alternative examples: motor=I_U; Boost=I_L; Vienna=I_L1. One power application at a time.
+ADC,ADC02,PC1,9,ADC1_IN7/ADC2_IN7,,planned,Alternative examples: motor=I_V; Boost=SPARE; Vienna=I_L2. One power application at a time.
+ADC,ADC03,PC2,10,ADC1_IN8/ADC2_IN8,,planned,Alternative examples: motor=I_W; Boost=SPARE; Vienna=I_L3. One power application at a time.
+ADC,ADC04,PC3,11,ADC1_IN9/ADC2_IN9,,planned,Alternative examples: motor=V_U_PHASE; Boost=V_RECTIFIED_INPUT; Vienna=V_AC1. One power application at a time.
+ADC,ADC05,PA0,12,ADC1_IN1/ADC2_IN1,,planned,Alternative examples: motor=V_V_PHASE; Boost=SPARE; Vienna=V_AC2. One power application at a time.
+ADC,ADC06,PA1,13,ADC1_IN2/ADC2_IN2,,planned,Alternative examples: motor=V_W_PHASE; Boost=SPARE; Vienna=V_AC3. One power application at a time.
+ADC,ADC07,PA4,18,ADC2_IN17,,planned,Alternative examples: motor=V_DC; Boost=V_OUTPUT; Vienna=V_BUS_UPPER. One power application at a time.
+ADC,ADC08,PB0,24,ADC1_IN15,,planned,Alternative examples: motor=SPARE; Boost=SPARE; Vienna=V_BUS_LOWER. One power application at a time.
+ADC,ADC09,PB1,25,ADC1_IN12,,planned,Alternative examples: motor=POWER_BOARD_NTC; Boost=POWER_BOARD_NTC; Vienna=NTC. One power application at a time.
+ADC,ADC10,PB2,26,ADC2_IN12,,planned,Alternative examples: motor=SPARE; Boost=SPARE; Vienna=SPARE. One power application at a time.
+ENC,ENC_A,PB6,59,TIM4_CH1,2,planned,
+ENC,ENC_B,PB7,60,TIM4_CH2,2,planned,
+ENC,ENC_Z,PA3,17,GPIO_EXTI3,,planned,
+SPI,SPI_SCK,PA5,19,SPI1_SCK,5,planned,
+SPI,SPI_MISO,PA6,20,SPI1_MISO,5,planned,
+SPI,SPI_MOSI,PA7,21,SPI1_MOSI,5,planned,
+SPI,SPI_CS_N,PC9,41,GPIO_Output,,planned,
+I2C,I2C_SCL,PA15,51,I2C1_SCL,4,planned,
+I2C,I2C_SDA,PB9,62,I2C1_SDA,4,planned,
+TTL,TTL_TX,PB10,30,USART3_TX,7,planned,
+TTL,TTL_RX,PB11,33,USART3_RX,7,planned,
+CAN,CAN_RX,PA11,45,FDCAN1_RX,9,planned,
+CAN,CAN_TX,PA12,46,FDCAN1_TX,9,planned,
+SWD,SWD_DIO,PA13,49,SWDIO,0,planned,
+SWD,SWD_CLK,PA14,50,SWCLK,0,planned,
+CORE,CORE_HSE_IN,PF0,5,OSC_IN,,planned,
+CORE,CORE_HSE_OUT,PF1,6,OSC_OUT,,planned,
+CORE,CORE_NRST,PG10,7,NRST,,planned,
+CORE,CORE_BOOT0,PB8,61,BOOT0,,planned,
+LED,LED_RUN,PC5,23,GPIO_Output,,planned,
+LED,LED_FAULT,PC8,40,GPIO_Output,,planned,
+LED,LED_COMM,PD2,55,GPIO_Output,,planned,
+LED,LED_AUX,PB5,58,GPIO_Output,,planned,
+POWER_CTRL,POWER_CTRL_FAULT_N,PB12,34,TIM1_BKIN,6,planned,
+POWER_CTRL,POWER_CTRL_ENABLE,PC4,22,GPIO_Output,,planned,
+POWER_CTRL,POWER_CTRL_BASE_READY,PC13,2,GPIO_Input,,planned,
+POWER_CTRL,POWER_CTRL_RUN_ARM,PC7,39,GPIO_Output,,planned,
+POWER_CTRL,POWER_CTRL_BRAKE,PC6,38,TIM8_CH1,4,planned,

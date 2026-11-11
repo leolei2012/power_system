@@ -1,0 +1,251 @@
+{
+  "before_components": 317,
+  "after_components": 317,
+  "ref_set_equal": true,
+  "before_physical_pin_nodes": 969,
+  "after_physical_pin_nodes": 969,
+  "before_nets": 238,
+  "after_nets": 238,
+  "pin_partition_equal": true,
+  "explicit_net_names_preserved": true,
+  "automatic_net_renames": [
+    {
+      "before": "Net-(D201-common)",
+      "after": [
+        "Net-(D201-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D201",
+          "3"
+        ],
+        [
+          "R201",
+          "2"
+        ],
+        [
+          "R84",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D202-common)",
+      "after": [
+        "Net-(D202-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D202",
+          "3"
+        ],
+        [
+          "R202",
+          "2"
+        ],
+        [
+          "R85",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D203-common)",
+      "after": [
+        "Net-(D203-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D203",
+          "3"
+        ],
+        [
+          "R203",
+          "2"
+        ],
+        [
+          "R86",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D204-common)",
+      "after": [
+        "Net-(D204-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D204",
+          "3"
+        ],
+        [
+          "R204",
+          "2"
+        ],
+        [
+          "R87",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D205-common)",
+      "after": [
+        "Net-(D205-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D205",
+          "3"
+        ],
+        [
+          "R205",
+          "2"
+        ],
+        [
+          "R88",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D206-common)",
+      "after": [
+        "Net-(D206-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D206",
+          "3"
+        ],
+        [
+          "R206",
+          "2"
+        ],
+        [
+          "R89",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D207-common)",
+      "after": [
+        "Net-(D207-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D207",
+          "3"
+        ],
+        [
+          "R207",
+          "2"
+        ],
+        [
+          "R90",
+          "1"
+        ]
+      ]
+    },
+    {
+      "before": "Net-(D208-common)",
+      "after": [
+        "Net-(D208-K1/A2)"
+      ],
+      "nodes": [
+        [
+          "D208",
+          "3"
+        ],
+        [
+          "R208",
+          "2"
+        ],
+        [
+          "R91",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "value_changes": [],
+  "dnp_equal": true,
+  "dnp_count": 14,
+  "header64_pin_net_equal": true,
+  "shared_bound_refs": 91,
+  "mos_pad_map": {
+    "Q1": {
+      "1": "U_PHASE",
+      "2": "U_PHASE",
+      "3": "U_PHASE",
+      "4": "/U half bridge/U_GATE_H",
+      "5": "VBUS",
+      "6": "VBUS",
+      "7": "VBUS",
+      "8": "VBUS"
+    },
+    "Q2": {
+      "1": "U_SOURCE",
+      "2": "U_SOURCE",
+      "3": "U_SOURCE",
+      "4": "/U half bridge/U_GATE_L",
+      "5": "U_PHASE",
+      "6": "U_PHASE",
+      "7": "U_PHASE",
+      "8": "U_PHASE"
+    },
+    "Q3": {
+      "1": "V_PHASE",
+      "2": "V_PHASE",
+      "3": "V_PHASE",
+      "4": "/V half bridge/V_GATE_H",
+      "5": "VBUS",
+      "6": "VBUS",
+      "7": "VBUS",
+      "8": "VBUS"
+    },
+    "Q4": {
+      "1": "V_SOURCE",
+      "2": "V_SOURCE",
+      "3": "V_SOURCE",
+      "4": "/V half bridge/V_GATE_L",
+      "5": "V_PHASE",
+      "6": "V_PHASE",
+      "7": "V_PHASE",
+      "8": "V_PHASE"
+    },
+    "Q5": {
+      "1": "W_PHASE",
+      "2": "W_PHASE",
+      "3": "W_PHASE",
+      "4": "/W half bridge/W_GATE_H",
+      "5": "VBUS",
+      "6": "VBUS",
+      "7": "VBUS",
+      "8": "VBUS"
+    },
+    "Q6": {
+      "1": "W_SOURCE",
+      "2": "W_SOURCE",
+      "3": "W_SOURCE",
+      "4": "/W half bridge/W_GATE_L",
+      "5": "W_PHASE",
+      "6": "W_PHASE",
+      "7": "W_PHASE",
+      "8": "W_PHASE"
+    },
+    "Q7": {
+      "1": "GND",
+      "2": "GND",
+      "3": "GND",
+      "4": "/Bus and brake/BR_GATE",
+      "5": "/Bus and brake/BR_SW",
+      "6": "/Bus and brake/BR_SW",
+      "7": "/Bus and brake/BR_SW",
+      "8": "/Bus and brake/BR_SW"
+    }
+  },
+  "pass": true
+}

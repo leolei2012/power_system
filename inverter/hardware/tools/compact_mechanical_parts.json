@@ -1,0 +1,1530 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "scope": "60 x 60 mm integrated inverter compact mechanical candidates; no project, PCB, schematic or public-library changes are made by this file.",
+  "status": "Exact purchase candidates and mechanical definitions, pending application qualification. No purchases. New parts are not public-library reviewed.",
+  "constraints_preserved": [
+    "12..60 V DC bus, maximum 10 A input",
+    "One STM32G431, one three-phase bridge and one brake stage",
+    "12..24 V auxiliary input and both 4.7 uH converters",
+    "All 13 connectors and their original pin numbers, nets and DNP state",
+    "Two 220 uF / 100 V D12.5 x H25 mm bulk electrolytics"
+  ],
+  "source_files": {
+    "review/inverter.net.xml": {
+      "sha256": "bce946b56a764827574b14885d96c20f603b10a518d67fe3fb18f3821e694f63"
+    },
+    "bom/bom.csv": {
+      "sha256": "5819e11ebc33820758581ec389e0f377f20a72ebe80669d686dc7d580422e2b0"
+    },
+    "inverter.kicad_pcb": {
+      "sha256": "73a696fa93e1f9ccce0348db6354069bdf425d612fefd2bec6b8a00397311ec5"
+    }
+  },
+  "source_notes": [
+    "Supplier C-number pages establish exact orderable identities, not guaranteed future stock.",
+    "Manufacturer PDF values govern; distributor typical-current summaries do not replace test definitions.",
+    "Native project footprint derivatives described below do not yet exist and must be created by the compact-board implementation."
+  ],
+  "sources": {
+    "f1_official": {
+      "url": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-476-datasheet?assetguid=9862ea73-9130-481f-996c-12625fcc7ed2",
+      "revision": "2026-02-25",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "f2_official": {
+      "url": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "revision": "2025-12-01",
+      "pages": [
+        2,
+        3,
+        4
+      ]
+    },
+    "inductor_official": {
+      "url": "https://www.sunlordinc.com/uploads/files/20230303/MWSA-S%C2%A0series%C2%A0of%C2%A0SMD%C2%A0Power%C2%A0Inductor.pdf",
+      "revision": "2022-10-12",
+      "pages": {
+        "dimensions": 2,
+        "MWSA0603S_values": 6,
+        "definitions": 11
+      },
+      "download_sha256": "55a6f5de0d3424730210584c2a732f5209bba52cffa5c226885944f3d9e1be9a"
+    },
+    "hctl_manufacturer_drawing": {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "title": "PZ127-1-N-Z; Shenzhenhuacantianlu ELECTRONICS CO.,LTD; revision A",
+      "pages": [
+        1
+      ],
+      "provenance": "Exact PZ127-1-06-Z / C5372829 LCSC product datasheet; drawing is generic N=2..40 family. Visually inspected."
+    },
+    "jst_official": {
+      "url": "https://www.jst-mfg.com/product/index.php?lang=2&series=199",
+      "catalogue_pdf": "https://www.jst-mfg.com/product/pdf/jpn/PH.pdf"
+    },
+    "switch_manufacturer_drawing": {
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+      "manufacturer_product_page": "https://www.xunpu.com.cn/product/liaohao/1098.html",
+      "title": "DongGuan XunPu Electronics TS-1088-ARXXXX, Rev A, 1 page",
+      "inspected": "Actual current one-page drawing downloaded and visually inspected; legacy two-page drawing differs, so use this current drawing.",
+      "download_sha256": "368d4cc2c26b08cb63e1b67193f671d0860b6d3fb2e6b9f2696ffade401afc30"
+    },
+    "switch_node_voltage_reference": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps2660.pdf",
+      "section": "7.3 recommended SHDN0..4 V; 7.5 V(SHDN)2.0/2.7/3.4 V at0.1uA"
+    }
+  },
+  "parts": {
+    "F1": {
+      "manufacturer": "Littelfuse",
+      "MPN": "0476015.MRSN",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C3165851",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C3165851.html",
+      "Datasheet": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-476-datasheet?assetguid=9862ea73-9130-481f-996c-12625fcc7ed2",
+      "selection_status": "Exact 15 A / 125 V DC / 2410 candidate; electrical coordination and hot-board derating pending.",
+      "specifications": {
+        "rated_current_A": 15,
+        "rated_voltage_VDC": 125,
+        "interrupting_A_at_125VDC": 300,
+        "nominal_cold_resistance_ohm": 0.0045,
+        "nominal_melting_I2t_A2s": 61.286,
+        "I2t_test_opening_time_ms": 8,
+        "baseline_continuous_derating_factor": 0.75
+      },
+      "suffix_note": "MRSN has Sn-dipped caps. The 10 kA at 86 V DC 15 A option is MRS (S suffix), not this MRSN part.",
+      "body_nominal_mm": [
+        6.1,
+        2.69,
+        2.69
+      ],
+      "body_tolerance_mm": [
+        0.2,
+        0.25,
+        0.25
+      ],
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "footprint_match": "476 recommended pads 1.96 x 3.15 mm, outer land extent 6.86 mm; existing 451/453 geometry has centers +/-2.455, extent 6.87 mm (0.01 mm rounding), matching recommended geometry. Prefer project alias naming 476; do not substitute 451 electrical ratings.",
+      "pin_to_net": {
+        "2": "/Bus and brake/DC_FUSED",
+        "1": "/Bus and brake/DC_INPUT_POS"
+      },
+      "package_polarity": "Non-polar fuse; pads remain 1 and 2."
+    },
+    "F2": {
+      "manufacturer": "Littelfuse",
+      "MPN": "0451002.MRL",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C99547",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C99547.html",
+      "Datasheet": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "selection_status": "Exact 2 A candidate fits current Nano2 451/453 footprint; converter inrush, short-circuit coordination and ambient derating remain application checks.",
+      "specifications": {
+        "rated_current_A": 2,
+        "rated_voltage_VDC": 125,
+        "interrupting_A_at_125VDC": 50,
+        "interrupting_A_at_32VDC": 300,
+        "nominal_cold_resistance_ohm": 0.0367,
+        "nominal_melting_I2t_A2s": 0.53,
+        "I2t_test_opening_time_ms": 8
+      },
+      "body_nominal_mm": [
+        6.1,
+        2.69,
+        2.69
+      ],
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "pin_to_net": {
+        "2": "/Auxiliary input/AUX_FUSED",
+        "1": "/Auxiliary input/AUX_IN"
+      },
+      "package_polarity": "Non-polar fuse; pads remain 1 and 2."
+    },
+    "L1": {
+      "manufacturer": "Sunlord",
+      "MPN": "MWSA0603S-4R7MT",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C408447",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C408447.html",
+      "identity_evidence": "https://jlcpcb.com/partdetail/Sunlord-MWSA0603S4R7MT/C408447",
+      "procurement_verification": "Exact MPN/C408447 confirmed in JLC parts catalogue and the part appears in LCSC alternatives. Direct LCSC product page did not load with automated browsing; final stock/packaging check remains.",
+      "Datasheet": "https://www.sunlordinc.com/uploads/files/20230303/MWSA-S%C2%A0series%C2%A0of%C2%A0SMD%C2%A0Power%C2%A0Inductor.pdf",
+      "selection_status": "Meets requested nominal L, current-table and DCR targets; auxiliary-converter operating/thermal qualification pending.",
+      "specifications": {
+        "inductance_uH": 4.7,
+        "tolerance_percent": 20,
+        "DCR_max_milliohm": 33,
+        "Isat_20percent_L_drop_A": 7.2,
+        "Isat_30percent_L_drop_typ_A": 9.0,
+        "Irms_20C_rise_A": 5.0,
+        "Irms_40C_rise_typ_A": 6.0,
+        "reference_ambient_C": 20,
+        "absolute_max_voltage_VDC": 30,
+        "operating_temp_including_self_heat_C": [
+          -40,
+          125
+        ]
+      },
+      "current_definition_note": "Official columns label 7.2 A and 5.0 A as Max., and 9.0 A / 6.0 A as Typ.; 20%/30% inductance drop and 20 C/40 C rise definitions are preserved rather than reinterpreted as guaranteed minimum current ratings.",
+      "body_nominal_mm": [
+        7.0,
+        6.6,
+        2.8
+      ],
+      "body_max_mm": [
+        7.3,
+        6.8,
+        3.0
+      ],
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "footprint_match": "Official I=2.35, J=3.70 gap, H=3.50 mm. Pads 2.35 x 3.50 centered +/-3.025 mm match exactly.",
+      "pin_to_net": {
+        "1": "/Driver supply/BB_L1",
+        "2": "/Driver supply/BB_L2"
+      },
+      "package_polarity": "Non-polar inductor; original 1/2 numbering preserved.",
+      "reason": "L1 DCR maximum 33 mOhm is below 40 mOhm; both current columns exceed requested 5 A Isat threshold. One exact part can serve both auxiliary converters."
+    },
+    "L2": {
+      "manufacturer": "Sunlord",
+      "MPN": "MWSA0603S-4R7MT",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C408447",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C408447.html",
+      "identity_evidence": "https://jlcpcb.com/partdetail/Sunlord-MWSA0603S4R7MT/C408447",
+      "procurement_verification": "Exact MPN/C408447 confirmed in JLC parts catalogue and the part appears in LCSC alternatives. Direct LCSC product page did not load with automated browsing; final stock/packaging check remains.",
+      "Datasheet": "https://www.sunlordinc.com/uploads/files/20230303/MWSA-S%C2%A0series%C2%A0of%C2%A0SMD%C2%A0Power%C2%A0Inductor.pdf",
+      "selection_status": "Meets requested nominal L, current-table and DCR targets; auxiliary-converter operating/thermal qualification pending.",
+      "specifications": {
+        "inductance_uH": 4.7,
+        "tolerance_percent": 20,
+        "DCR_max_milliohm": 33,
+        "Isat_20percent_L_drop_A": 7.2,
+        "Isat_30percent_L_drop_typ_A": 9.0,
+        "Irms_20C_rise_A": 5.0,
+        "Irms_40C_rise_typ_A": 6.0,
+        "reference_ambient_C": 20,
+        "absolute_max_voltage_VDC": 30,
+        "operating_temp_including_self_heat_C": [
+          -40,
+          125
+        ]
+      },
+      "current_definition_note": "Official columns label 7.2 A and 5.0 A as Max., and 9.0 A / 6.0 A as Typ.; 20%/30% inductance drop and 20 C/40 C rise definitions are preserved rather than reinterpreted as guaranteed minimum current ratings.",
+      "body_nominal_mm": [
+        7.0,
+        6.6,
+        2.8
+      ],
+      "body_max_mm": [
+        7.3,
+        6.8,
+        3.0
+      ],
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "footprint_match": "Official I=2.35, J=3.70 gap, H=3.50 mm. Pads 2.35 x 3.50 centered +/-3.025 mm match exactly.",
+      "pin_to_net": {
+        "2": "+5V_INV",
+        "1": "/Logic and sensors/BUCK_SW"
+      },
+      "package_polarity": "Non-polar inductor; original 1/2 numbering preserved.",
+      "reason": "L1 DCR maximum 33 mOhm is below 40 mOhm; both current columns exceed requested 5 A Isat threshold. One exact part can serve both auxiliary converters."
+    },
+    "PZ127-1-02-Z": {
+      "manufacturer": "HCTL",
+      "MPN": "PZ127-1-02-Z",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C5372825",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372825.html",
+      "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "selection_status": "Exact 1.27 mm vertical through-hole 1xN family candidate. Project derivative required to match phi0.70 hole recommendation.",
+      "specifications": {
+        "pitch_mm": 1.27,
+        "rows": 1,
+        "positions": 2,
+        "current_A_per_contact": 1.0,
+        "mating_pin_length_catalogue_mm": 3.8,
+        "insulator_height_mm": 1.0,
+        "termination_pin_length_catalogue_mm": 2.4
+      },
+      "mechanical_source": "Generic official manufacturer PZ127-1-N-Z drawing supplied by LCSC for C5372829; N=2..40 includes selected sizes."
+    },
+    "PZ127-1-03-Z": {
+      "manufacturer": "HCTL",
+      "MPN": "PZ127-1-03-Z",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C5372826",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372826.html",
+      "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "selection_status": "Exact 1.27 mm vertical through-hole 1xN family candidate. Project derivative required to match phi0.70 hole recommendation.",
+      "specifications": {
+        "pitch_mm": 1.27,
+        "rows": 1,
+        "positions": 3,
+        "current_A_per_contact": 1.0,
+        "mating_pin_length_catalogue_mm": 3.8,
+        "insulator_height_mm": 1.0,
+        "termination_pin_length_catalogue_mm": 2.4
+      },
+      "mechanical_source": "Generic official manufacturer PZ127-1-N-Z drawing supplied by LCSC for C5372829; N=2..40 includes selected sizes."
+    },
+    "PZ127-1-05-Z": {
+      "manufacturer": "HCTL",
+      "MPN": "PZ127-1-05-Z",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "selection_status": "Exact 1.27 mm vertical through-hole 1xN family candidate. Project derivative required to match phi0.70 hole recommendation.",
+      "specifications": {
+        "pitch_mm": 1.27,
+        "rows": 1,
+        "positions": 5,
+        "current_A_per_contact": 1.0,
+        "mating_pin_length_catalogue_mm": 3.8,
+        "insulator_height_mm": 1.0,
+        "termination_pin_length_catalogue_mm": 2.4
+      },
+      "mechanical_source": "Generic official manufacturer PZ127-1-N-Z drawing supplied by LCSC for C5372829; N=2..40 includes selected sizes."
+    },
+    "PZ127-1-06-Z": {
+      "manufacturer": "HCTL",
+      "MPN": "PZ127-1-06-Z",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C5372829",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372829.html",
+      "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "selection_status": "Exact 1.27 mm vertical through-hole 1xN family candidate. Project derivative required to match phi0.70 hole recommendation.",
+      "specifications": {
+        "pitch_mm": 1.27,
+        "rows": 1,
+        "positions": 6,
+        "current_A_per_contact": 1.0,
+        "mating_pin_length_catalogue_mm": 3.8,
+        "insulator_height_mm": 1.0,
+        "termination_pin_length_catalogue_mm": 2.4
+      },
+      "mechanical_source": "Generic official manufacturer PZ127-1-N-Z drawing supplied by LCSC for C5372829; N=2..40 includes selected sizes."
+    },
+    "B2B-PH-K-S(LF)(SN)": {
+      "manufacturer": "JST",
+      "MPN": "B2B-PH-K-S(LF)(SN)",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C131337",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C131337.html",
+      "Datasheet": "https://www.jst-mfg.com/product/pdf/jpn/PH.pdf",
+      "manufacturer_product_page": "https://www.jst-mfg.com/product/index.php?lang=2&series=199",
+      "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "selection_status": "Compact 2 A auxiliary input connector candidate; maintain correct keyed pin-1 orientation with harness.",
+      "specifications": {
+        "pitch_mm": 2.0,
+        "positions": 2,
+        "rated_current_A_with_AWG24": 2.0,
+        "rated_voltage_V_AC_DC": 100,
+        "body_width_mm": 4.5,
+        "body_length_2pin_mm": 5.9,
+        "mated_height_mm": 8.0
+      },
+      "footprint_match": "Official layout 2.00 pitch, phi0.70 +0.1/-0 hole; existing local KiCad drill0.75 matches permitted range. Pads are 1 at(0,0), 2 at(2,0).",
+      "mating_harness": "PHR-2 housing with appropriate PH crimp terminals for AWG24 conductor at 2 A; separate harness item, do not assume included with header."
+    },
+    "SW1": {
+      "manufacturer": "XUNPU",
+      "MPN": "TS-1088-AR02016",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C720477",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/tactile%20switches_xunpu_ts-1088-ar02016_C720477.html",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+      "footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "selection_status": "Exact small SMD normally-open momentary 2-terminal switch; standard local footprint matches current manufacturer drawing. SW1 bias condition below remains an electrical-review hold point.",
+      "body_nominal_mm": [
+        3.9,
+        3.0,
+        2.0
+      ],
+      "lead_span_mm": 5.0,
+      "specifications": {
+        "contact_voltage_VDC": 12,
+        "contact_current_mA": 50,
+        "operating_force_gf": 160,
+        "operating_force_tolerance_gf": 50,
+        "contact_resistance_max_milliohm": 100,
+        "stroke_mm": 0.2,
+        "stroke_tolerance_mm": 0.1
+      },
+      "pin_to_net": {
+        "1": "/Auxiliary input/AUX_SHDN_N",
+        "2": "/Auxiliary input/EFUSE_RTN"
+      },
+      "dnp": false,
+      "contact_state": "SPST normally open; pressed connects only terminals1 and2. No shield pin or paired duplicate pads.",
+      "pin_order_changed": false,
+      "reason": "Replaces the large 6 mm THT switch with 3.9 x3.0 mm body; both original 2-pin switch symbols remain unchanged.",
+      "electrical_review_hold": "Actual XML has R8=100k from AUX_FUSED (12..24 V) to AUX_SHDN_N. TPS26600 SHDN recommended0..4 V and internal bias typ2.7 V; do not assume an AUX pull-up leaves the node below either the MCU/eFuse or switch voltage limits. Owner must review/remove/coordinate this existing bias; this selection file does not alter the circuit."
+    },
+    "SW2": {
+      "manufacturer": "XUNPU",
+      "MPN": "TS-1088-AR02016",
+      "Supplier": "LCSC",
+      "Supplier_PN": "C720477",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/tactile%20switches_xunpu_ts-1088-ar02016_C720477.html",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+      "footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "selection_status": "Exact small SMD normally-open momentary 2-terminal switch; standard local footprint matches current manufacturer drawing. SW1 bias condition below remains an electrical-review hold point.",
+      "body_nominal_mm": [
+        3.9,
+        3.0,
+        2.0
+      ],
+      "lead_span_mm": 5.0,
+      "specifications": {
+        "contact_voltage_VDC": 12,
+        "contact_current_mA": 50,
+        "operating_force_gf": 160,
+        "operating_force_tolerance_gf": 50,
+        "contact_resistance_max_milliohm": 100,
+        "stroke_mm": 0.2,
+        "stroke_tolerance_mm": 0.1
+      },
+      "pin_to_net": {
+        "1": "LOGIC_POWER_OK",
+        "2": "GND"
+      },
+      "dnp": false,
+      "contact_state": "SPST normally open; pressed connects only terminals1 and2. No shield pin or paired duplicate pads.",
+      "pin_order_changed": false,
+      "reason": "Replaces the large 6 mm THT switch with 3.9 x3.0 mm body; both original 2-pin switch symbols remain unchanged."
+    }
+  },
+  "footprint_definitions": {
+    "Fuse:Fuse_Littelfuse-NANO2-451_453": {
+      "id": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Fuse.pretty/Fuse_Littelfuse-NANO2-451_453.kicad_mod",
+      "exists": true,
+      "sha256": "1e5c63293cf2fa83e70d53f8b488d8b5d4bbb596b20ceed26ef71cf468c40b14",
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm": [
+            -2.455,
+            0
+          ],
+          "size_mm": [
+            1.96,
+            3.15
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm": [
+            2.455,
+            0
+          ],
+          "size_mm": [
+            1.96,
+            3.15
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    "Inductor_SMD:L_Sunlord_MWSA0603S": {
+      "id": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Inductor_SMD.pretty/L_Sunlord_MWSA0603S.kicad_mod",
+      "exists": true,
+      "sha256": "e9abc434e679ccecbf818e082ac05ddb942b9212677e2b4cba03024b93983b0b",
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "roundrect",
+          "at_mm": [
+            -3.025,
+            0
+          ],
+          "size_mm": [
+            2.35,
+            3.5
+          ],
+          "drill_mm": null
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "roundrect",
+          "at_mm": [
+            3.025,
+            0
+          ],
+          "size_mm": [
+            2.35,
+            3.5
+          ],
+          "drill_mm": null
+        }
+      ]
+    },
+    "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical": {
+      "id": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_JST.pretty/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.kicad_mod",
+      "exists": true,
+      "sha256": "d9ba86aaa376bf3218cc43ad10c0c4c59de8e812cbeabb3aeaa501082eb459cd",
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "roundrect",
+          "at_mm": [
+            0,
+            0
+          ],
+          "size_mm": [
+            1.2,
+            1.75
+          ],
+          "drill_mm": 0.75
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "oval",
+          "at_mm": [
+            2,
+            0
+          ],
+          "size_mm": [
+            1.2,
+            1.75
+          ],
+          "drill_mm": 0.75
+        }
+      ]
+    },
+    "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm": {
+      "id": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "exists": false,
+      "kind": "Engineering definition to be created in project footprint library",
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            4.5,
+            4.5
+          ],
+          "finished_drill_mm": 2.0,
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            6.0,
+            0.0
+          ],
+          "size_mm": [
+            4.5,
+            4.5
+          ],
+          "finished_drill_mm": 2.0,
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ]
+        }
+      ],
+      "pitch_mm": 6.0,
+      "pad_edge_gap_mm": 1.5,
+      "wire_candidate": {
+        "preferred": "AWG14 stranded copper, approx 2.08 mm2, bare-equivalent diameter 1.63 mm; verify actual tinned bundle fits finished 2.0 mm hole",
+        "alternative": "AWG16 approx 1.31 mm2 only after actual current/temperature and phase-current qualification; never downsize based on input current alone"
+      },
+      "assembly_notes": [
+        "Soldered cable termination; no separate connector purchase. Add wire/cable to assembly BOM.",
+        "Keep each pad on its original net; connect power copper directly on both outer layers with current-spreading vias as required; avoid thermal spokes limiting the load current.",
+        "Reserve edge clearance around copper and strain relief for actual insulation OD and cable bend; no castellated interpretation.",
+        "Through-hole geometry is a candidate, not a 10 A approval or a plated-barrel thermal result."
+      ]
+    },
+    "Inverter_Compact:WireSolder_3P_P6.00mm_D2.00mm": {
+      "id": "Inverter_Compact:WireSolder_3P_P6.00mm_D2.00mm",
+      "exists": false,
+      "kind": "Engineering definition to be created in project footprint library",
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            4.5,
+            4.5
+          ],
+          "finished_drill_mm": 2.0,
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ]
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            6.0,
+            0.0
+          ],
+          "size_mm": [
+            4.5,
+            4.5
+          ],
+          "finished_drill_mm": 2.0,
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ]
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            12.0,
+            0.0
+          ],
+          "size_mm": [
+            4.5,
+            4.5
+          ],
+          "finished_drill_mm": 2.0,
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ]
+        }
+      ],
+      "pitch_mm": 6.0,
+      "pad_edge_gap_mm": 1.5,
+      "wire_candidate": {
+        "preferred": "AWG14 stranded copper, approx 2.08 mm2, bare-equivalent diameter 1.63 mm; verify actual tinned bundle fits finished 2.0 mm hole",
+        "alternative": "AWG16 approx 1.31 mm2 only after actual current/temperature and phase-current qualification; never downsize based on input current alone"
+      },
+      "assembly_notes": [
+        "Soldered cable termination; no separate connector purchase. Add wire/cable to assembly BOM.",
+        "Keep each pad on its original net; connect power copper directly on both outer layers with current-spreading vias as required; avoid thermal spokes limiting the load current.",
+        "Reserve edge clearance around copper and strain relief for actual insulation OD and cable bend; no castellated interpretation.",
+        "Through-hole geometry is a candidate, not a 10 A approval or a plated-barrel thermal result."
+      ]
+    },
+    "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm": {
+      "id": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "exists": false,
+      "derivative_of": {
+        "id": "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical",
+        "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_1.27mm.pretty/PinHeader_1x02_P1.27mm_Vertical.kicad_mod",
+        "exists": true,
+        "sha256": "55136a1d6fde269a759611cb733fff2c30e1fb031aa4d1071c14c9a0aad27814",
+        "pads": [
+          {
+            "number": "1",
+            "type": "thru_hole",
+            "shape": "rect",
+            "at_mm": [
+              0,
+              0
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "2",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              1.27
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          }
+        ]
+      },
+      "required_modifications": [
+        "Change all finished plated holes from 0.65 to 0.70 mm per manufacturer drawing; keep numbered pad centers, pitch and 1.0 mm pad diameter.",
+        "Ensure body/courtyard includes maximum 2.15 mm width and row length N*1.27+0.30 mm plus assembly clearance. Pin 1 remains (0,0)."
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "at_mm": [
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            1.27
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        }
+      ],
+      "manufacturer_drawing": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "body_nominal_mm": [
+        2.0,
+        2.54,
+        1.0
+      ],
+      "body_max_xy_mm": [
+        2.15,
+        2.84
+      ],
+      "drawing_note": "0.4 mm square contacts, phi0.7 mm PCB hole, board-hole pitch tolerance +/-0.05 mm. Family drawing PA3.90/PC2.30; catalogue PA3.8/PC2.4; physical height tolerance to confirm with exact delivered part, not an electrical pin-map change."
+    },
+    "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm": {
+      "id": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "exists": false,
+      "derivative_of": {
+        "id": "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical",
+        "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_1.27mm.pretty/PinHeader_1x03_P1.27mm_Vertical.kicad_mod",
+        "exists": true,
+        "sha256": "cedf8cbd1feacfe6b70abdc77c97718bcaf71d02e311bfabc8672e1ccc9df0ea",
+        "pads": [
+          {
+            "number": "1",
+            "type": "thru_hole",
+            "shape": "rect",
+            "at_mm": [
+              0,
+              0
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "2",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              1.27
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "3",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              2.54
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          }
+        ]
+      },
+      "required_modifications": [
+        "Change all finished plated holes from 0.65 to 0.70 mm per manufacturer drawing; keep numbered pad centers, pitch and 1.0 mm pad diameter.",
+        "Ensure body/courtyard includes maximum 2.15 mm width and row length N*1.27+0.30 mm plus assembly clearance. Pin 1 remains (0,0)."
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "at_mm": [
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            1.27
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            2.54
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        }
+      ],
+      "manufacturer_drawing": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "body_nominal_mm": [
+        2.0,
+        3.81,
+        1.0
+      ],
+      "body_max_xy_mm": [
+        2.15,
+        4.11
+      ],
+      "drawing_note": "0.4 mm square contacts, phi0.7 mm PCB hole, board-hole pitch tolerance +/-0.05 mm. Family drawing PA3.90/PC2.30; catalogue PA3.8/PC2.4; physical height tolerance to confirm with exact delivered part, not an electrical pin-map change."
+    },
+    "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm": {
+      "id": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "exists": false,
+      "derivative_of": {
+        "id": "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical",
+        "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_1.27mm.pretty/PinHeader_1x05_P1.27mm_Vertical.kicad_mod",
+        "exists": true,
+        "sha256": "5015ab6da5175a90b0067a63f5c9fbb8ed099568b7649b88dcc6a4ace95ffa67",
+        "pads": [
+          {
+            "number": "1",
+            "type": "thru_hole",
+            "shape": "rect",
+            "at_mm": [
+              0,
+              0
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "2",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              1.27
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "3",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              2.54
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "4",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              3.81
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "5",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              5.08
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          }
+        ]
+      },
+      "required_modifications": [
+        "Change all finished plated holes from 0.65 to 0.70 mm per manufacturer drawing; keep numbered pad centers, pitch and 1.0 mm pad diameter.",
+        "Ensure body/courtyard includes maximum 2.15 mm width and row length N*1.27+0.30 mm plus assembly clearance. Pin 1 remains (0,0)."
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "at_mm": [
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            1.27
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            2.54
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            3.81
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            5.08
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        }
+      ],
+      "manufacturer_drawing": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "body_nominal_mm": [
+        2.0,
+        6.35,
+        1.0
+      ],
+      "body_max_xy_mm": [
+        2.15,
+        6.65
+      ],
+      "drawing_note": "0.4 mm square contacts, phi0.7 mm PCB hole, board-hole pitch tolerance +/-0.05 mm. Family drawing PA3.90/PC2.30; catalogue PA3.8/PC2.4; physical height tolerance to confirm with exact delivered part, not an electrical pin-map change."
+    },
+    "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm": {
+      "id": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "exists": false,
+      "derivative_of": {
+        "id": "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical",
+        "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinHeader_1.27mm.pretty/PinHeader_1x06_P1.27mm_Vertical.kicad_mod",
+        "exists": true,
+        "sha256": "87b36557c09d74237486ab20a9b499224461c0c9a572e112cdecc33a4293ee28",
+        "pads": [
+          {
+            "number": "1",
+            "type": "thru_hole",
+            "shape": "rect",
+            "at_mm": [
+              0,
+              0
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "2",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              1.27
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "3",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              2.54
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "4",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              3.81
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "5",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              5.08
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          },
+          {
+            "number": "6",
+            "type": "thru_hole",
+            "shape": "circle",
+            "at_mm": [
+              0,
+              6.35
+            ],
+            "size_mm": [
+              1,
+              1
+            ],
+            "drill_mm": 0.65
+          }
+        ]
+      },
+      "required_modifications": [
+        "Change all finished plated holes from 0.65 to 0.70 mm per manufacturer drawing; keep numbered pad centers, pitch and 1.0 mm pad diameter.",
+        "Ensure body/courtyard includes maximum 2.15 mm width and row length N*1.27+0.30 mm plus assembly clearance. Pin 1 remains (0,0)."
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "at_mm": [
+            0,
+            0
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            1.27
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            2.54
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            3.81
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            5.08
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        },
+        {
+          "number": "6",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm": [
+            0,
+            6.35
+          ],
+          "size_mm": [
+            1,
+            1
+          ],
+          "drill_mm": 0.7
+        }
+      ],
+      "manufacturer_drawing": "https://atta.szlcsc.com/upload/public/pdf/source/20240407/11460212CBFB9238DF6EEC00AAE28C4B.pdf",
+      "body_nominal_mm": [
+        2.0,
+        7.62,
+        1.0
+      ],
+      "body_max_xy_mm": [
+        2.15,
+        7.92
+      ],
+      "drawing_note": "0.4 mm square contacts, phi0.7 mm PCB hole, board-hole pitch tolerance +/-0.05 mm. Family drawing PA3.90/PC2.30; catalogue PA3.8/PC2.4; physical height tolerance to confirm with exact delivered part, not an electrical pin-map change."
+    },
+    "Button_Switch_SMD:SW_SPST_TS-1088-xR020": {
+      "id": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "local_file": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Button_Switch_SMD.pretty/SW_SPST_TS-1088-xR020.kicad_mod",
+      "exists": true,
+      "sha256": "add8704300b5fc07181e6a0feeb535dc7516376cbe0e66301f6db49741982496",
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "roundrect",
+          "at_mm": [
+            -2.225,
+            0
+          ],
+          "size_mm": [
+            1.05,
+            2
+          ]
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "roundrect",
+          "at_mm": [
+            2.225,
+            0
+          ],
+          "size_mm": [
+            1.05,
+            2
+          ]
+        }
+      ],
+      "courtyard_bbox_mm": [
+        -3,
+        -1.75,
+        3,
+        1.75
+      ],
+      "mechanical_match": "Current XUNPU recommended land outer span5.50 mm and inner gap3.40 mm imply each pad1.05 mm long; width2.00 mm. Centers +/-2.225 mm exactly match the local KiCad pads. Manufacturer terminal1 left/terminal2 right and normally-open 2-terminal diagram match footprint numbering."
+    }
+  },
+  "connectors": {
+    "J2": {
+      "original_value": "AUX: +12..24V / GND",
+      "positions": 2,
+      "dnp": false,
+      "kind": "Keyed 2.0 mm auxiliary input",
+      "MPN": "B2B-PH-K-S(LF)(SN)",
+      "Supplier_PN": "C131337",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C131337.html",
+      "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "pin_to_net": {
+        "1": "/Auxiliary input/AUX_IN",
+        "2": "GND"
+      },
+      "pin_order_changed": false
+    },
+    "J3": {
+      "original_value": "DC INPUT: + / -",
+      "positions": 2,
+      "dnp": false,
+      "kind": "Power cable solder holes",
+      "MPN": null,
+      "Supplier_PN": null,
+      "Purchase_URL": null,
+      "footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "pin_to_net": {
+        "1": "/Bus and brake/DC_INPUT_POS",
+        "2": "GND"
+      },
+      "pin_order_changed": false
+    },
+    "J4": {
+      "original_value": "RAW PWM: U / V / W",
+      "positions": 3,
+      "dnp": false,
+      "kind": "Power cable solder holes",
+      "MPN": null,
+      "Supplier_PN": null,
+      "Purchase_URL": null,
+      "footprint": "Inverter_Compact:WireSolder_3P_P6.00mm_D2.00mm",
+      "pin_to_net": {
+        "1": "U_PHASE",
+        "2": "V_PHASE",
+        "3": "W_PHASE"
+      },
+      "pin_order_changed": false
+    },
+    "J5": {
+      "original_value": "BRAKE POWER: BR+ / BR_SW",
+      "positions": 2,
+      "dnp": false,
+      "kind": "Power cable solder holes",
+      "MPN": null,
+      "Supplier_PN": null,
+      "Purchase_URL": null,
+      "footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "pin_to_net": {
+        "1": "VBUS",
+        "2": "/Bus and brake/BR_SW"
+      },
+      "pin_order_changed": false
+    },
+    "J7": {
+      "original_value": "OPTIONAL SENSOR 5V / GND",
+      "positions": 2,
+      "dnp": true,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-02-Z",
+      "Supplier_PN": "C5372825",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372825.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "+5V_SENSOR",
+        "2": "GND"
+      },
+      "pin_order_changed": false,
+      "current_note": "DNP remains DNP. HCTL candidate is 1 A/contact; if external sensor budget needs >1 A, use same JST 2 A PH 2P as J2 and preserve original pins 1=+5V_SENSOR,2=GND."
+    },
+    "J8": {
+      "original_value": "EXTERNAL 10k NTC",
+      "positions": 2,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-02-Z",
+      "Supplier_PN": "C5372825",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372825.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "TEMP_NTC",
+        "2": "GND"
+      },
+      "pin_order_changed": false
+    },
+    "J9": {
+      "original_value": "ENC_A: PWR GND A B Z",
+      "positions": 5,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-05-Z",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "/Encoders and SPI/ENC_A_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/ENC_A_A_PORT",
+        "4": "/Encoders and SPI/ENC_A_B_PORT",
+        "5": "/Encoders and SPI/ENC_A_Z_PORT"
+      },
+      "pin_order_changed": false
+    },
+    "J10": {
+      "original_value": "ENC_B: PWR GND A B Z",
+      "positions": 5,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-05-Z",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "/Encoders and SPI/ENC_B_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/ENC_B_A_PORT",
+        "4": "/Encoders and SPI/ENC_B_B_PORT",
+        "5": "/Encoders and SPI/ENC_B_Z_PORT"
+      },
+      "pin_order_changed": false
+    },
+    "J11": {
+      "original_value": "SPI_A: PWR GND SCK MOSI MISO CS",
+      "positions": 6,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-06-Z",
+      "Supplier_PN": "C5372829",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372829.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "/Encoders and SPI/SPI_A_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/SPI_A_SCK_PORT",
+        "4": "/Encoders and SPI/SPI_A_MOSI_PORT",
+        "5": "/Encoders and SPI/SPI_A_MISO_PORT",
+        "6": "/Encoders and SPI/SPI_A_CS_PORT"
+      },
+      "pin_order_changed": false
+    },
+    "J12": {
+      "original_value": "SPI_B: PWR GND SCK MOSI MISO CS",
+      "positions": 6,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-06-Z",
+      "Supplier_PN": "C5372829",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372829.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "/Encoders and SPI/SPI_B_VCC",
+        "2": "GND",
+        "3": "/Encoders and SPI/SPI_B_SCK_PORT",
+        "4": "/Encoders and SPI/SPI_B_MOSI_PORT",
+        "5": "/Encoders and SPI/SPI_B_MISO_PORT",
+        "6": "/Encoders and SPI/SPI_B_CS_PORT"
+      },
+      "pin_order_changed": false
+    },
+    "J13": {
+      "original_value": "SWD: VTREF IO CLK GND NRST",
+      "positions": 5,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-05-Z",
+      "Supplier_PN": "C5372828",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372828.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "+3V3_INV",
+        "2": "/Debug and communication/SWDIO_PORT",
+        "3": "/Debug and communication/SWCLK_PORT",
+        "4": "GND",
+        "5": "LOGIC_POWER_OK"
+      },
+      "pin_order_changed": false
+    },
+    "J14": {
+      "original_value": "TTL: TX RX GND",
+      "positions": 3,
+      "dnp": false,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-03-Z",
+      "Supplier_PN": "C5372826",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372826.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "/Debug and communication/UART_TX_PORT",
+        "2": "/Debug and communication/UART_RX_PORT",
+        "3": "GND"
+      },
+      "pin_order_changed": false
+    },
+    "J15": {
+      "original_value": "CAN: H L GND",
+      "positions": 3,
+      "dnp": true,
+      "kind": "1.27 mm single-row signal header",
+      "MPN": "PZ127-1-03-Z",
+      "Supplier_PN": "C5372826",
+      "Purchase_URL": "https://www.lcsc.com/product-detail/C5372826.html",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "pin_to_net": {
+        "1": "/Debug and communication/CAN_H",
+        "2": "/Debug and communication/CAN_L",
+        "3": "GND"
+      },
+      "pin_order_changed": false
+    }
+  },
+  "preserved_bulk_caps": {
+    "C19": {
+      "MPN": "EKYB101ELL221MK25S",
+      "Supplier_PN": "C1585673",
+      "Purchase_URL": "https://item.szlcsc.com/1676488.html",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "body_mm": {
+        "diameter": 12.5,
+        "height": 25,
+        "pitch": 5.0
+      },
+      "pin_to_net": {
+        "2": "GND",
+        "1": "VBUS"
+      },
+      "change": "None; retained as explicitly requested."
+    },
+    "C20": {
+      "MPN": "EKYB101ELL221MK25S",
+      "Supplier_PN": "C1585673",
+      "Purchase_URL": "https://item.szlcsc.com/1676488.html",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "body_mm": {
+        "diameter": 12.5,
+        "height": 25,
+        "pitch": 5.0
+      },
+      "pin_to_net": {
+        "2": "GND",
+        "1": "VBUS"
+      },
+      "change": "None; retained as explicitly requested."
+    }
+  },
+  "application_hold_points": [
+    "F1 DC breaking capacity and pre-arcing/total clearing I2t must be coordinated with actual supply short-circuit current, wiring, MOSFETs and copper. 0476015.MRSN is not the MRS high-interrupt suffix.",
+    "Check F1 temperature derating at 10 A continuous in the compact enclosure; 25% baseline derating leaves 11.25 A before ambient derating.",
+    "Auxiliary input remains 12..24 V; Sunlord winding maximum is 30 V DC, so these parts must never be moved into the 60 V power bus. Confirm transient differential voltage, operating peak/ripple current and temperature.",
+    "HCTL signal headers are rated 1 A per contact. Confirm external sensor-power budget; use the documented 2 A JST PH alternative for J7 if it must exceed that rating.",
+    "Power solder holes have no independent rated-current certificate; verify plated barrel, solder fill, copper spreading and thermal performance with actual wires, plus strain relief.",
+    "Confirm all connector mating-harness orientation from physical pin-1 markings before assembly. A single-row 1.27 mm header is not a standard 10-pin ARM SWD plug.",
+    "SW1 R8/AUX_SHDN_N bias must be checked by the circuit owner before approving the 12 V rated tactile switch; present XML pulls SHDN toward AUX through100k despite the TPS26600 recommended0..4 V limit. No electrical edits made here."
+  ],
+  "validation": {
+    "connector_count": 13,
+    "connector_physical_pin_count": 46,
+    "power_solder_pins": 7,
+    "all_connector_numbers_and_nets_copied_from_actualXML": true,
+    "DNP_preserved_refs": [
+      "J7",
+      "J15"
+    ],
+    "local_standard_footprints_read_and_pads_checked": true,
+    "custom_footprints_created": false,
+    "public_library_modified": false,
+    "schematic_or_PCB_modified": false,
+    "switch_count": 2,
+    "switch_physical_pad_count": 4,
+    "switch_pinmaps_checked_against_actualXML": true,
+    "switch_local_land_pattern_matches_current_official_drawing": true
+  }
+}

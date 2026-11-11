@@ -1,0 +1,65 @@
+﻿Pin,GPIO,Net,Function,AF,Notes
+1,VBAT,+3V3_INV,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+2,PC13,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+3,PC14,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+4,PC15,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+5,PF0,HSE_IN,OSC_IN,,HSE crystal input; frequency/load components subject to crystal selection
+6,PF1,HSE_OUT,OSC_OUT,,HSE crystal output; frequency/load components subject to crystal selection
+7,PG10-NRST,LOGIC_POWER_OK,NRST,,Open-drain TPS3808 RESET plus SWD reset and reset key; retain NRST option-byte function; no push-pull driver
+8,PC0,ADC_I_U,ADC1_IN6,Analog,PC0 supports ADC1/2 channel 6; selected ADC1. Three currents cannot all be converted simultaneously by only two ADCs.
+9,PC1,ADC_I_V,ADC2_IN7,Analog,PC1 supports ADC1/2 channel 7; selected ADC2 for simultaneous U/V pair; injected trigger/sample windows still require verification
+10,PC2,ADC_I_W,ADC1_IN8,Analog,PC2 supports ADC1/2 channel 8; selected ADC1 sequential conversion; low-side shunt valid windows and reconstruction require review
+11,PC3,ADC_V_DC,ADC2_IN9,Analog,PC3 supports ADC1/2 channel 9; selected ADC2; voltage/temperature scan timing separate from fast current sampling
+12,PA0,ENC_A_A,TIM2_CH1,AF1,Incremental encoder A; 3.3 V single-ended MCU-side input
+13,PA1,ENC_A_B,TIM2_CH2,AF1,Incremental encoder B; same TIM2 encoder counter as ENC_A_A
+14,PA2,ENC_A_Z,GPIO_EXTI2,,Index input via EXTI2; not promised to reset timer in hardware; do not use USART2 TX here
+15,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+16,VDD,+3V3_INV,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+17,PA3,ENC_B_Z,GPIO_EXTI3,,Index input via EXTI3; not promised to reset timer in hardware; do not use USART2 RX here
+18,PA4,ADC_V_U,ADC2_IN17,Analog,PA4 external ADC2 channel17; preserve SPI1 CS on PA15 instead
+19,PA5,SPI_A_SCK,SPI1_SCK,AF5,Independent hardware SPI1
+20,PA6,SPI_A_MISO,SPI1_MISO,AF5,Independent hardware SPI1
+21,PA7,SPI_A_MOSI,SPI1_MOSI,AF5,Independent hardware SPI1
+22,PC4,MCU_ENABLE,GPIO_Output,,Active-high bridge enable; external pulldown; remains low during reset
+23,PC5,LED_RUN,GPIO_Output,,Programmable RUN LED; series resistor and modest GPIO current
+24,PB0,ADC_V_V,ADC1_IN15,Analog,PB0 external ADC1 channel15
+25,PB1,ADC_V_W,ADC1_IN12,Analog,PB1 external ADC1 channel12; not ADC2 channel12
+26,PB2,ADC_TEMP_NTC,ADC2_IN12,Analog,PB2 external ADC2 channel12; not ADC1 channel12
+27,VSSA,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+28,VREF+,VREF_MCU,VREF+,,Reference input from filtered analog supply; VREFBUF disabled unless separately designed; local decoupling
+29,VDDA,+3V3_A_MCU,VDDA,,Filtered 3.3 V analog supply; local decoupling; do not omit VDDA
+30,PB10,UART_TX,USART3_TX,AF7,3.3 V TTL serial; no RS232/5 V assumption
+31,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+32,VDD,+3V3_INV,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+33,PB11,UART_RX,USART3_RX,AF7,3.3 V TTL serial
+34,PB12,FAULT_N,TIM1_BKIN,AF6,Local open-collector/open-drain fault with 3.3 V pullup; configure BKIN active-low; input readback can share this pad; no automatic output restart
+35,PB13,MCU_PWM_UL,TIM1_CH1N,AF6,U low-side complementary PWM; goes through independent hardware gating
+36,PB14,MCU_PWM_VL,TIM1_CH2N,AF6,V low-side complementary PWM; goes through independent hardware gating
+37,PB15,MCU_PWM_WL,TIM1_CH3N,AF4,W low-side PWM uses AF4 (not AF6); DS12589 Rev6 Table13 page62
+38,PC6,MCU_BRAKE,TIM8_CH1,AF4,Independent brake timebase and enable; must not be gated by bridge FAULT_N/ENABLE; external default pulldown
+39,PC7,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+40,PC8,LED_FAULT,GPIO_Output,,Programmable FAULT LED; do not select TIM8_CH3 on this pad
+41,PC9,SPI_B_CS,GPIO_Output,,SPI3 software chip-select; external pullup; not TIM8_CH4/BKIN2
+42,PA8,MCU_PWM_UH,TIM1_CH1,AF6,U high-side PWM; goes through independent hardware gating
+43,PA9,MCU_PWM_VH,TIM1_CH2,AF6,V high-side PWM; disable unused UCPD dead-battery pulls before using PA9/PA10 as PWM
+44,PA10,MCU_PWM_WH,TIM1_CH3,AF6,W high-side PWM; disable unused UCPD dead-battery pulls before using PA9/PA10 as PWM
+45,PA11,CAN_RX,FDCAN1_RX,AF9,Optional classic CAN with existing SN65HVD232; transceiver is not a CAN-FD PHY guarantee; USB not used
+46,PA12,CAN_TX,FDCAN1_TX,AF9,Optional classic CAN; configure classic frames for SN65HVD232; USB not used
+47,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+48,VDD,+3V3_INV,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12
+49,PA13,SWDIO,SWDIO,AF0,Keep SWD accessible; do not repurpose during normal debug
+50,PA14,SWCLK,SWCLK,AF0,Keep SWD accessible
+51,PA15,SPI_A_CS,GPIO_Output,,SPI1 software chip-select; external pullup; release JTDI while retaining PA13/PA14 SWD
+52,PC10,SPI_B_SCK,SPI3_SCK,AF6,Second independent hardware SPI uses SPI3; SPI2 pins conflict with TIM1 low-side outputs
+53,PC11,SPI_B_MISO,SPI3_MISO,AF6,Second independent hardware SPI3
+54,PC12,SPI_B_MOSI,SPI3_MOSI,AF6,Second independent hardware SPI3
+55,PD2,LED_COMM,GPIO_Output,,Programmable communication LED
+56,PB3,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+57,PB4,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+58,PB5,LED_AUX,GPIO_Output,,Fourth programmable LED; power LED separately tied to supply and uses no MCU GPIO
+59,PB6,ENC_B_A,TIM4_CH1,AF2,Incremental encoder A; disable unused UCPD dead-battery function on PB6 if needed
+60,PB7,ENC_B_B,TIM4_CH2,AF2,Incremental encoder B; same TIM4 encoder counter as ENC_B_A
+61,PB8-BOOT0,BOOT0,BOOT0,,External 10k pulldown to GND; option bytes nBOOT0/nSWBOOT0 must be reviewed; not an unused NC
+62,PB9,NC,NC,,Unassigned reserve; no symbol connection. PC14/PC15 not fitted with LSE. Firmware may set unused pins analog.
+63,VSS,GND,power,,VSSA analog return and VSS share system reference with controlled layout; DS12589 Rev6 Figure10/Table12
+64,VDD,+3V3_INV,power,,VBAT tied to VDD; local decoupling on every VDD; DS12589 Rev6 Figure10/Table12

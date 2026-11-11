@@ -1,0 +1,193 @@
+{
+  "pass": true,
+  "date_UTC": "2026-11-11T03:38:36.911391+00:00",
+  "source": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\power_plane_restored\\inverter.kicad_pcb",
+  "source_sha256_before": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792",
+  "source_sha256_after": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792",
+  "source_unchanged": true,
+  "baseline": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\power\\inverter.kicad_pcb",
+  "baseline_sha256_before": "b0e498fece7a8d967b4348d4cc51d9d1c3b3335e6e1c7efa71206b2052ef0a0e",
+  "baseline_sha256_after": "b0e498fece7a8d967b4348d4cc51d9d1c3b3335e6e1c7efa71206b2052ef0a0e",
+  "metadata": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\power\\power_copper.json",
+  "metadata_sha256_before": "f267468f597518ff1ef97f2e146d4d577d7a26d4c78f57c3750643e9651c62d0",
+  "metadata_sha256_after": "f267468f597518ff1ef97f2e146d4d577d7a26d4c78f57c3750643e9651c62d0",
+  "all_inputs_unchanged": true,
+  "checker_sha256": "c749a3754433045c9a8a14c65df0858b10e43a0e786c0af707c2fe8c7dcb5cd6",
+  "pcbnew_version": "10.0.7",
+  "minimum_same_net_clearance_mm": 0.25,
+  "canonical_locked_tracks": 277,
+  "canonical_locked_vias": 98,
+  "canonical_locked_changed_UUIDs": [],
+  "protected_tracks_vias": 30,
+  "INA_input_pads": 6,
+  "new_nonbaseline_tracks_vias_checked": 1772,
+  "errors": [],
+  "same_net_contacts_outside_actual_RS_star": [],
+  "same_net_clearance_below_minimum": [],
+  "RS_star_region_exceptions": [],
+  "same_net_filled_zone_contacts": [],
+  "same_net_filled_zone_clearance_below_minimum": [],
+  "filled_zone_availability": [
+    {
+      "UUID": "3f5bd00c-454f-456d-b8d5-c168bc9545dd",
+      "net": "/Bus and brake/BR_SW",
+      "layer": "F.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "94f35faf-5ab6-4886-bea2-7d5ce055d4bc",
+      "net": "W_PHASE",
+      "layer": "F.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "c98aa548-2538-4318-ae14-533ed740f5d0",
+      "net": "VBUS",
+      "layer": "F.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "f3004e1b-03b6-444b-a2f1-ca64e080b7e6",
+      "net": "V_PHASE",
+      "layer": "F.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "f30602d1-9615-487a-bbcf-a9ae2b30aa32",
+      "net": "U_PHASE",
+      "layer": "F.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "2ad3301c-d74d-4a29-a9a7-0c691015a161",
+      "net": "V_PHASE",
+      "layer": "B.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "49cdd991-e57c-4531-b013-799434fe6651",
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "6339d9ce-df19-4ca0-b607-d6649a5e0081",
+      "net": "U_PHASE",
+      "layer": "B.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "bea1a1d5-b6f3-4a6c-a5c0-22fd6084ec0a",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "1fe69278-8568-4b83-937b-c27f2e2c89ad",
+      "net": "VBUS",
+      "layer": "In3.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "7816d2f2-dcab-4713-99b7-7bb5488df102",
+      "net": "+3V3_INV",
+      "layer": "In3.Cu",
+      "filled": true
+    },
+    {
+      "UUID": "9d0690fc-c616-421f-bc65-390c0f02ebbe",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "filled": true
+    }
+  ],
+  "negative_via_actual_inner_plane_isolation": [
+    {
+      "phase": "U",
+      "via_UUID": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In1.Cu",
+      "filled_GND_zone_count": 1,
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "via_UUID": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In2.Cu",
+      "filled_GND_zone_count": 0,
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "via_UUID": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In3.Cu",
+      "filled_GND_zone_count": 0,
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "via_UUID": "673e1dc5-008e-40fb-8927-f095840fe71d",
+      "layer": "In4.Cu",
+      "filled_GND_zone_count": 1,
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_UUID": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In1.Cu",
+      "filled_GND_zone_count": 1,
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_UUID": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In2.Cu",
+      "filled_GND_zone_count": 0,
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_UUID": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In3.Cu",
+      "filled_GND_zone_count": 0,
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "via_UUID": "22985429-b16e-4b70-8a92-1881233b3dd7",
+      "layer": "In4.Cu",
+      "filled_GND_zone_count": 1,
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_UUID": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In1.Cu",
+      "filled_GND_zone_count": 1,
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_UUID": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In2.Cu",
+      "filled_GND_zone_count": 0,
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_UUID": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In3.Cu",
+      "filled_GND_zone_count": 0,
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "via_UUID": "88aa8449-3e9f-49c5-9fbf-b28279e1b720",
+      "layer": "In4.Cu",
+      "filled_GND_zone_count": 1,
+      "isolated": true
+    }
+  ],
+  "method": "All nonbaseline tracks/vias and actual same-net filled-zone polygons vs 30 protected Kelvin objects and six INA1/8 pads, on every common copper layer. Native copper shapes; conservative via outer disks. RS exceptions require the complete contact/proximity polygon to remain within the corresponding actual shunt pad (expanded only for the proximity margin).",
+  "read_only": true,
+  "scope": "Kelvin topology/clearance and immutable power copper audit; no PCB saved, no routing completeness or fabrication release claim."
+}

@@ -1,0 +1,1937 @@
+{
+  "contacts": 64,
+  "pins": [
+    {
+      "header": "J101",
+      "pin": 1,
+      "expected_XY_mm": [
+        104.73,
+        110.95
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            110.95
+          ],
+          "XML_net": "+5V_CORE_IN",
+          "expected_XML_net": "+5V_CORE_IN",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            110.95
+          ],
+          "XML_net": "+5V_INV",
+          "expected_XML_net": "+5V_INV",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 2,
+      "expected_XY_mm": [
+        107.27,
+        110.95
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            110.95
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            110.95
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 3,
+      "expected_XY_mm": [
+        104.73,
+        113.49000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            113.49
+          ],
+          "XML_net": "+5V_CORE_IN",
+          "expected_XML_net": "+5V_CORE_IN",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            113.49
+          ],
+          "XML_net": "+5V_INV",
+          "expected_XML_net": "+5V_INV",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 4,
+      "expected_XY_mm": [
+        107.27,
+        113.49000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            113.49
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            113.49
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 5,
+      "expected_XY_mm": [
+        104.73,
+        116.03
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            116.03
+          ],
+          "XML_net": "PA0",
+          "expected_XML_net": "PA0",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            116.03
+          ],
+          "XML_net": "PA0",
+          "expected_XML_net": "PA0",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 6,
+      "expected_XY_mm": [
+        107.27,
+        116.03
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            116.03
+          ],
+          "XML_net": "PA1",
+          "expected_XML_net": "PA1",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            116.03
+          ],
+          "XML_net": "PA1",
+          "expected_XML_net": "PA1",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 7,
+      "expected_XY_mm": [
+        104.73,
+        118.57000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            118.57
+          ],
+          "XML_net": "PA2",
+          "expected_XML_net": "PA2",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            118.57
+          ],
+          "XML_net": "PA2",
+          "expected_XML_net": "PA2",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 8,
+      "expected_XY_mm": [
+        107.27,
+        118.57000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            118.57
+          ],
+          "XML_net": "PA3",
+          "expected_XML_net": "PA3",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            118.57
+          ],
+          "XML_net": "PA3",
+          "expected_XML_net": "PA3",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 9,
+      "expected_XY_mm": [
+        104.73,
+        121.11
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            121.11
+          ],
+          "XML_net": "PA4",
+          "expected_XML_net": "PA4",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            121.11
+          ],
+          "XML_net": "PA4",
+          "expected_XML_net": "PA4",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 10,
+      "expected_XY_mm": [
+        107.27,
+        121.11
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            121.11
+          ],
+          "XML_net": "PA5",
+          "expected_XML_net": "PA5",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            121.11
+          ],
+          "XML_net": "PA5",
+          "expected_XML_net": "PA5",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 11,
+      "expected_XY_mm": [
+        104.73,
+        123.65
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            123.65
+          ],
+          "XML_net": "PA6",
+          "expected_XML_net": "PA6",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            123.65
+          ],
+          "XML_net": "PA6",
+          "expected_XML_net": "PA6",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 12,
+      "expected_XY_mm": [
+        107.27,
+        123.65
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            123.65
+          ],
+          "XML_net": "PA7",
+          "expected_XML_net": "PA7",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            123.65
+          ],
+          "XML_net": "PA7",
+          "expected_XML_net": "PA7",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 13,
+      "expected_XY_mm": [
+        104.73,
+        126.19
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            126.19
+          ],
+          "XML_net": "PA8",
+          "expected_XML_net": "PA8",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            126.19
+          ],
+          "XML_net": "PA8",
+          "expected_XML_net": "PA8",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 14,
+      "expected_XY_mm": [
+        107.27,
+        126.19
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            126.19
+          ],
+          "XML_net": "PA9",
+          "expected_XML_net": "PA9",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            126.19
+          ],
+          "XML_net": "PA9",
+          "expected_XML_net": "PA9",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 15,
+      "expected_XY_mm": [
+        104.73,
+        128.73000000000002
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            128.73
+          ],
+          "XML_net": "PA10",
+          "expected_XML_net": "PA10",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            128.73
+          ],
+          "XML_net": "PA10",
+          "expected_XML_net": "PA10",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 16,
+      "expected_XY_mm": [
+        107.27,
+        128.73000000000002
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            128.73
+          ],
+          "XML_net": "PA11",
+          "expected_XML_net": "PA11",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            128.73
+          ],
+          "XML_net": "PA11",
+          "expected_XML_net": "PA11",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 17,
+      "expected_XY_mm": [
+        104.73,
+        131.27
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            131.27
+          ],
+          "XML_net": "PA12",
+          "expected_XML_net": "PA12",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            131.27
+          ],
+          "XML_net": "PA12",
+          "expected_XML_net": "PA12",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 18,
+      "expected_XY_mm": [
+        107.27,
+        131.27
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            131.27
+          ],
+          "XML_net": "PA13",
+          "expected_XML_net": "PA13",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            131.27
+          ],
+          "XML_net": "PA13",
+          "expected_XML_net": "PA13",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 19,
+      "expected_XY_mm": [
+        104.73,
+        133.81
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            133.81
+          ],
+          "XML_net": "PA14",
+          "expected_XML_net": "PA14",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            133.81
+          ],
+          "XML_net": "PA14",
+          "expected_XML_net": "PA14",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 20,
+      "expected_XY_mm": [
+        107.27,
+        133.81
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            133.81
+          ],
+          "XML_net": "PA15",
+          "expected_XML_net": "PA15",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            133.81
+          ],
+          "XML_net": "PA15",
+          "expected_XML_net": "PA15",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 21,
+      "expected_XY_mm": [
+        104.73,
+        136.35
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            136.35
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            136.35
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 22,
+      "expected_XY_mm": [
+        107.27,
+        136.35
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            136.35
+          ],
+          "XML_net": "+3V3_MCU",
+          "expected_XML_net": "+3V3_MCU",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            136.35
+          ],
+          "XML_net": "+3V3_CORE_REF",
+          "expected_XML_net": "+3V3_CORE_REF",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 23,
+      "expected_XY_mm": [
+        104.73,
+        138.89000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            138.89
+          ],
+          "XML_net": "PB0",
+          "expected_XML_net": "PB0",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            138.89
+          ],
+          "XML_net": "PB0",
+          "expected_XML_net": "PB0",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 24,
+      "expected_XY_mm": [
+        107.27,
+        138.89000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            138.89
+          ],
+          "XML_net": "PB1",
+          "expected_XML_net": "PB1",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            138.89
+          ],
+          "XML_net": "PB1",
+          "expected_XML_net": "PB1",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 25,
+      "expected_XY_mm": [
+        104.73,
+        141.43
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            141.43
+          ],
+          "XML_net": "PB2",
+          "expected_XML_net": "PB2",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            141.43
+          ],
+          "XML_net": "PB2",
+          "expected_XML_net": "PB2",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 26,
+      "expected_XY_mm": [
+        107.27,
+        141.43
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            141.43
+          ],
+          "XML_net": "PB3",
+          "expected_XML_net": "PB3",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            141.43
+          ],
+          "XML_net": "unconnected-(J101-Pin_26-Pad26)",
+          "expected_XML_net": "PB3",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 27,
+      "expected_XY_mm": [
+        104.73,
+        143.97
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            143.97
+          ],
+          "XML_net": "PB4",
+          "expected_XML_net": "PB4",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            143.97
+          ],
+          "XML_net": "unconnected-(J101-Pin_27-Pad27)",
+          "expected_XML_net": "PB4",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 28,
+      "expected_XY_mm": [
+        107.27,
+        143.97
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            143.97
+          ],
+          "XML_net": "PB5",
+          "expected_XML_net": "PB5",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            143.97
+          ],
+          "XML_net": "PB5",
+          "expected_XML_net": "PB5",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 29,
+      "expected_XY_mm": [
+        104.73,
+        146.51
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            146.51
+          ],
+          "XML_net": "PB6",
+          "expected_XML_net": "PB6",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            146.51
+          ],
+          "XML_net": "PB6",
+          "expected_XML_net": "PB6",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 30,
+      "expected_XY_mm": [
+        107.27,
+        146.51
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            146.51
+          ],
+          "XML_net": "PB7",
+          "expected_XML_net": "PB7",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            146.51
+          ],
+          "XML_net": "PB7",
+          "expected_XML_net": "PB7",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 31,
+      "expected_XY_mm": [
+        104.73,
+        149.05
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            104.73,
+            149.05
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            104.73,
+            149.05
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J101",
+      "pin": 32,
+      "expected_XY_mm": [
+        107.27,
+        149.05
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            107.27,
+            149.05
+          ],
+          "XML_net": "+3V3_MCU",
+          "expected_XML_net": "+3V3_MCU",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            107.27,
+            149.05
+          ],
+          "XML_net": "+3V3_CORE_REF",
+          "expected_XML_net": "+3V3_CORE_REF",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 1,
+      "expected_XY_mm": [
+        128.73,
+        110.95
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            110.95
+          ],
+          "XML_net": "PB8_BOOT0",
+          "expected_XML_net": "PB8_BOOT0",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            110.95
+          ],
+          "XML_net": "unconnected-(J102-Pin_1-Pad1)",
+          "expected_XML_net": "PB8_BOOT0",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 2,
+      "expected_XY_mm": [
+        131.27,
+        110.95
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            110.95
+          ],
+          "XML_net": "PB9",
+          "expected_XML_net": "PB9",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            110.95
+          ],
+          "XML_net": "unconnected-(J102-Pin_2-Pad2)",
+          "expected_XML_net": "PB9",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 3,
+      "expected_XY_mm": [
+        128.73,
+        113.49000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            113.49
+          ],
+          "XML_net": "PB10",
+          "expected_XML_net": "PB10",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            113.49
+          ],
+          "XML_net": "PB10",
+          "expected_XML_net": "PB10",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 4,
+      "expected_XY_mm": [
+        131.27,
+        113.49000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            113.49
+          ],
+          "XML_net": "PB11",
+          "expected_XML_net": "PB11",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            113.49
+          ],
+          "XML_net": "PB11",
+          "expected_XML_net": "PB11",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 5,
+      "expected_XY_mm": [
+        128.73,
+        116.03
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            116.03
+          ],
+          "XML_net": "PB12",
+          "expected_XML_net": "PB12",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            116.03
+          ],
+          "XML_net": "PB12",
+          "expected_XML_net": "PB12",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 6,
+      "expected_XY_mm": [
+        131.27,
+        116.03
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            116.03
+          ],
+          "XML_net": "PB13",
+          "expected_XML_net": "PB13",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            116.03
+          ],
+          "XML_net": "PB13",
+          "expected_XML_net": "PB13",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 7,
+      "expected_XY_mm": [
+        128.73,
+        118.57000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            118.57
+          ],
+          "XML_net": "PB14",
+          "expected_XML_net": "PB14",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            118.57
+          ],
+          "XML_net": "PB14",
+          "expected_XML_net": "PB14",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 8,
+      "expected_XY_mm": [
+        131.27,
+        118.57000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            118.57
+          ],
+          "XML_net": "PB15",
+          "expected_XML_net": "PB15",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            118.57
+          ],
+          "XML_net": "PB15",
+          "expected_XML_net": "PB15",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 9,
+      "expected_XY_mm": [
+        128.73,
+        121.11
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            121.11
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            121.11
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 10,
+      "expected_XY_mm": [
+        131.27,
+        121.11
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            121.11
+          ],
+          "XML_net": "CTRL_READY",
+          "expected_XML_net": "CTRL_READY",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            121.11
+          ],
+          "XML_net": "CTRL_READY",
+          "expected_XML_net": "CTRL_READY",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 11,
+      "expected_XY_mm": [
+        128.73,
+        123.65
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            123.65
+          ],
+          "XML_net": "PC0",
+          "expected_XML_net": "PC0",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            123.65
+          ],
+          "XML_net": "PC0",
+          "expected_XML_net": "PC0",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 12,
+      "expected_XY_mm": [
+        131.27,
+        123.65
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            123.65
+          ],
+          "XML_net": "PC1",
+          "expected_XML_net": "PC1",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            123.65
+          ],
+          "XML_net": "PC1",
+          "expected_XML_net": "PC1",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 13,
+      "expected_XY_mm": [
+        128.73,
+        126.19
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            126.19
+          ],
+          "XML_net": "PC2",
+          "expected_XML_net": "PC2",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            126.19
+          ],
+          "XML_net": "PC2",
+          "expected_XML_net": "PC2",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 14,
+      "expected_XY_mm": [
+        131.27,
+        126.19
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            126.19
+          ],
+          "XML_net": "PC3",
+          "expected_XML_net": "PC3",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            126.19
+          ],
+          "XML_net": "PC3",
+          "expected_XML_net": "PC3",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 15,
+      "expected_XY_mm": [
+        128.73,
+        128.73000000000002
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            128.73
+          ],
+          "XML_net": "PC4",
+          "expected_XML_net": "PC4",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            128.73
+          ],
+          "XML_net": "PC4",
+          "expected_XML_net": "PC4",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 16,
+      "expected_XY_mm": [
+        131.27,
+        128.73000000000002
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            128.73
+          ],
+          "XML_net": "PC5",
+          "expected_XML_net": "PC5",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            128.73
+          ],
+          "XML_net": "PC5",
+          "expected_XML_net": "PC5",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 17,
+      "expected_XY_mm": [
+        128.73,
+        131.27
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            131.27
+          ],
+          "XML_net": "PC6",
+          "expected_XML_net": "PC6",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            131.27
+          ],
+          "XML_net": "PC6",
+          "expected_XML_net": "PC6",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 18,
+      "expected_XY_mm": [
+        131.27,
+        131.27
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            131.27
+          ],
+          "XML_net": "PC7",
+          "expected_XML_net": "PC7",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            131.27
+          ],
+          "XML_net": "unconnected-(J102-Pin_18-Pad18)",
+          "expected_XML_net": "PC7",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 19,
+      "expected_XY_mm": [
+        128.73,
+        133.81
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            133.81
+          ],
+          "XML_net": "PC8",
+          "expected_XML_net": "PC8",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            133.81
+          ],
+          "XML_net": "PC8",
+          "expected_XML_net": "PC8",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 20,
+      "expected_XY_mm": [
+        131.27,
+        133.81
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            133.81
+          ],
+          "XML_net": "PC9",
+          "expected_XML_net": "PC9",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            133.81
+          ],
+          "XML_net": "PC9",
+          "expected_XML_net": "PC9",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 21,
+      "expected_XY_mm": [
+        128.73,
+        136.35
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            136.35
+          ],
+          "XML_net": "PC10",
+          "expected_XML_net": "PC10",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            136.35
+          ],
+          "XML_net": "PC10",
+          "expected_XML_net": "PC10",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 22,
+      "expected_XY_mm": [
+        131.27,
+        136.35
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            136.35
+          ],
+          "XML_net": "PC11",
+          "expected_XML_net": "PC11",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            136.35
+          ],
+          "XML_net": "PC11",
+          "expected_XML_net": "PC11",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 23,
+      "expected_XY_mm": [
+        128.73,
+        138.89000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            138.89
+          ],
+          "XML_net": "PC12",
+          "expected_XML_net": "PC12",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            138.89
+          ],
+          "XML_net": "PC12",
+          "expected_XML_net": "PC12",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 24,
+      "expected_XY_mm": [
+        131.27,
+        138.89000000000001
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            138.89
+          ],
+          "XML_net": "PC13",
+          "expected_XML_net": "PC13",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            138.89
+          ],
+          "XML_net": "PC13",
+          "expected_XML_net": "PC13",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 25,
+      "expected_XY_mm": [
+        128.73,
+        141.43
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            141.43
+          ],
+          "XML_net": "PC14",
+          "expected_XML_net": "PC14",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            141.43
+          ],
+          "XML_net": "unconnected-(J102-Pin_25-Pad25)",
+          "expected_XML_net": "PC14",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 26,
+      "expected_XY_mm": [
+        131.27,
+        141.43
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            141.43
+          ],
+          "XML_net": "PC15",
+          "expected_XML_net": "PC15",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            141.43
+          ],
+          "XML_net": "unconnected-(J102-Pin_26-Pad26)",
+          "expected_XML_net": "PC15",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 27,
+      "expected_XY_mm": [
+        128.73,
+        143.97
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            143.97
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            143.97
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 28,
+      "expected_XY_mm": [
+        131.27,
+        143.97
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            143.97
+          ],
+          "XML_net": "PD2",
+          "expected_XML_net": "PD2",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            143.97
+          ],
+          "XML_net": "PD2",
+          "expected_XML_net": "PD2",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 29,
+      "expected_XY_mm": [
+        128.73,
+        146.51
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            146.51
+          ],
+          "XML_net": "HSE_IN",
+          "expected_XML_net": "HSE_IN",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            146.51
+          ],
+          "XML_net": "unconnected-(J102-Pin_29-Pad29)",
+          "expected_XML_net": "HSE_IN",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 30,
+      "expected_XY_mm": [
+        131.27,
+        146.51
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            146.51
+          ],
+          "XML_net": "HSE_OUT",
+          "expected_XML_net": "HSE_OUT",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            146.51
+          ],
+          "XML_net": "unconnected-(J102-Pin_30-Pad30)",
+          "expected_XML_net": "HSE_OUT",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 31,
+      "expected_XY_mm": [
+        128.73,
+        149.05
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            128.729999,
+            149.05
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            128.729999,
+            149.05
+          ],
+          "XML_net": "GND",
+          "expected_XML_net": "GND",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    },
+    {
+      "header": "J102",
+      "pin": 32,
+      "expected_XY_mm": [
+        131.27,
+        149.05
+      ],
+      "boards": {
+        "controller": {
+          "position_mm": [
+            131.269999,
+            149.05
+          ],
+          "XML_net": "NRST",
+          "expected_XML_net": "NRST",
+          "contract_pass": true,
+          "geometry_pass": true
+        },
+        "inverter": {
+          "position_mm": [
+            131.269999,
+            149.05
+          ],
+          "XML_net": "NRST",
+          "expected_XML_net": "NRST",
+          "contract_pass": true,
+          "geometry_pass": true
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "pass": true,
+  "support_height": "Not frozen. Nominal plastic heights 2.5 + 8.5 mm are not a verified insertion-depth or standoff specification.",
+  "scope": "Initial saved-board snapshot; ongoing owner edits, not final routing verification.",
+  "input_sha256": {
+    "controller": "75d09e4223104465c0b1769abed20227c0f5c23e10e0fcb54c10bb105806dd6d",
+    "inverter": "2b75b2b6fa9640cea4e5480b811528c278ec783fdf9d2649659bc1e9521435d5"
+  },
+  "input_unchanged": {
+    "controller": true,
+    "inverter": true
+  }
+}

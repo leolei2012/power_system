@@ -1,0 +1,92 @@
+{
+  "controller": {
+    "before_sha256": "73c32fa93b8be3c522c1316792671d268f7ed2ff49ce6d4bcbc81cc8ad145576",
+    "after_sha256": "00ff41b76c650b255ecb764b31ca10304ceb86030d61b25ac067c998bb4bf07c",
+    "board": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_pcb",
+    "BOM_flags_mirrored_from_schematic": [],
+    "datasheet_fields_mirrored": [],
+    "same_net_name_escape_changes": [],
+    "pour_only_margin_added": [
+      "REV E / H1 pour-only 3.0 mm margin",
+      "REV E / H2 pour-only 3.0 mm margin",
+      "REV E / H3 pour-only 3.0 mm margin",
+      "REV E / H4 pour-only 3.0 mm margin"
+    ],
+    "minimum_mounting_copper_radius_mm": 2.8,
+    "pour_margin_radius_mm": 3.0,
+    "pad_net_mapping_after_save_reload": "PASS"
+  },
+  "inverter": {
+    "before_sha256": "18a3849d0e5e4251ea22e69cd252b257e9dd0e33b7e7e97c29597c3b0a03b280",
+    "after_sha256": "b0e498fece7a8d967b4348d4cc51d9d1c3b3335e6e1c7efa71206b2052ef0a0e",
+    "board": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\power\\inverter.kicad_pcb",
+    "BOM_flags_mirrored_from_schematic": [
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9",
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP14",
+      "TP16",
+      "TP17"
+    ],
+    "datasheet_fields_mirrored": [
+      "C19.Datasheet_File",
+      "C20.Datasheet_File",
+      "C21.Datasheet_File",
+      "C22.Datasheet_File",
+      "U29.Datasheet_File"
+    ],
+    "same_net_name_escape_changes": [
+      [
+        "Net-(D208-K1/A2)",
+        "Net-(D208-K1{slash}A2)"
+      ],
+      [
+        "Net-(D207-K1/A2)",
+        "Net-(D207-K1{slash}A2)"
+      ],
+      [
+        "Net-(D204-K1/A2)",
+        "Net-(D204-K1{slash}A2)"
+      ],
+      [
+        "Net-(D206-K1/A2)",
+        "Net-(D206-K1{slash}A2)"
+      ],
+      [
+        "Net-(D202-K1/A2)",
+        "Net-(D202-K1{slash}A2)"
+      ],
+      [
+        "Net-(D205-K1/A2)",
+        "Net-(D205-K1{slash}A2)"
+      ],
+      [
+        "Net-(D201-K1/A2)",
+        "Net-(D201-K1{slash}A2)"
+      ],
+      [
+        "Net-(D203-K1/A2)",
+        "Net-(D203-K1{slash}A2)"
+      ]
+    ],
+    "pour_only_margin_added": [
+      "REV E / H1 pour-only 3.0 mm margin",
+      "REV E / H2 pour-only 3.0 mm margin",
+      "REV E / H3 pour-only 3.0 mm margin",
+      "REV E / H4 pour-only 3.0 mm margin"
+    ],
+    "minimum_mounting_copper_radius_mm": 2.8,
+    "pour_margin_radius_mm": 3.0,
+    "pad_net_mapping_after_save_reload": "PASS"
+  }
+}

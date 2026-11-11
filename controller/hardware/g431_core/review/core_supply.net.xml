@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\workspace\power_system\controller\hardware\g431_core\core_supply.kicad_sch</source>
+    <date>2026-11-06T22:24:52</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Controller core - local power and readiness</title>
+        <company>power_system</company>
+        <rev>D-split-draft</rev>
+        <date>2026-11-06</date>
+        <source>core_supply.kicad_sch</source>
+        <comment number="1" value="HARDWARE REVIEW DRAFT - NOT RELEASED FOR PCB"/>
+        <comment number="2" value="CONTROLLER | local regulated 5 V input | independent 3.3 V | common ground"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C301">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">25V</field>
+        <field name="Design_Note">Effective &gt;=2.2uF at 5.25V; protected 5V input decoupling</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="25V"/>
+      <property name="Design_Note" value="Effective &gt;=2.2uF at 5.25V; protected 5V input decoupling"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c87459b-edcf-5bfe-bd5e-e05476353108</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C302">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">25V</field>
+        <field name="Design_Note">Effective &gt;=2.2uF at 5.25V; directly adjacent U101 IN/GND</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="25V"/>
+      <property name="Design_Note" value="Effective &gt;=2.2uF at 5.25V; directly adjacent U101 IN/GND"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0d96ac1-d44e-59f2-af26-464b2912bcb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C303">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Design_Note">Effective &gt;=2.2uF at 3.3V; U101 OUT capacitor</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Design_Note" value="Effective &gt;=2.2uF at 3.3V; U101 OUT capacitor"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63784f75-a1e9-578d-8794-76c062cf98b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C304">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Design_Note"/>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Design_Note" value=""/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b11446b-5b84-5d87-aed7-770e91f16251</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C305">
+      <value>47u 10% 10V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">CP_*</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">T491B476K010AT</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">10V</field>
+        <field name="Design_Note">Populate. MnO2 tantalum bulk retains capacitance under bias. TL431 stability compensation; not interchangeable with a nominal MLCC without analysis.</field>
+        <field name="Selection_Status">project_draft</field>
+        <field name="Supplier_PN">C116617</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C116617.html</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="T491B476K010AT"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="10V"/>
+      <property name="Design_Note" value="Populate. MnO2 tantalum bulk retains capacitance under bias. TL431 stability compensation; not interchangeable with a nominal MLCC without analysis."/>
+      <property name="Selection_Status" value="project_draft"/>
+      <property name="Supplier_PN" value="C116617"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C116617.html"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f91de92-8c00-556c-ac9e-b8c78d84559b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C306">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Design_Note"/>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Design_Note" value=""/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32348b2d-c933-5f42-9407-4f67cfb16cdb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C307">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">16V</field>
+        <field name="Design_Note"/>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="16V"/>
+      <property name="Design_Note" value=""/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ab6d21-3d25-5ad1-bc62-df03a70b2eb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D101">
+      <value>SMF6.0A-TP</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://datasheet.lcsc.com/datasheet/pdf/3fdd4d54224eceb5fff57c8ce808199a.pdf?productCode=C914434</datasheet>
+      <description>Unidirectional TVS; 6V stand-off; 10.3V max at specified 19.4A 10/1000us; not a DC OVP switch</description>
+      <fields>
+        <field name="ki_keywords">diode</field>
+        <field name="ki_fp_filters">TO-???* *_Diode_* *SingleDiode* D_*</field>
+        <field name="Manufacturer">MCC</field>
+        <field name="MPN">SMF6.0A-TP</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C914434</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C914434.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Device:D_Zener</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/datasheet/pdf/3fdd4d54224eceb5fff57c8ce808199a.pdf?productCode=C914434</field>
+        <field name="Description">Unidirectional TVS; 6V stand-off; 10.3V max at specified 19.4A 10/1000us; not a DC OVP switch</field>
+      </fields>
+      <libsource lib="CoreProtection" part="SMF6_0A_TP" description="Unidirectional TVS; 6V stand-off; 10.3V max at specified 19.4A 10/1000us; not a DC OVP switch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <property name="Manufacturer" value="MCC"/>
+      <property name="MPN" value="SMF6.0A-TP"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C914434"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C914434.html"/>
+      <property name="Selection_Status" value="project_draft; manufacturer pin map checked; no hardware validation"/>
+      <property name="Symbol_Source" value="Device:D_Zener"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7122a42-0f7c-59ed-bc8f-a830b0410eac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D102">
+      <value>S1A-13-F</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/datasheet/download/S1M.pdf</datasheet>
+      <description>50V 1A low-leakage silicon rectifier; pin 1 cathode / stripe, pin 2 anode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="ki_keywords">diode</field>
+        <field name="ki_fp_filters">TO-???* *_Diode_* *SingleDiode* D_*</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">S1A-13-F</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C150735</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C150735.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Device:D</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/S1M.pdf</field>
+        <field name="Description">50V 1A low-leakage silicon rectifier; pin 1 cathode / stripe, pin 2 anode</field>
+      </fields>
+      <libsource lib="CoreProtection" part="S1A_13_F" description="50V 1A low-leakage silicon rectifier; pin 1 cathode / stripe, pin 2 anode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="S1A-13-F"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C150735"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C150735.html"/>
+      <property name="Selection_Status" value="project_draft; manufacturer pin map checked; no hardware validation"/>
+      <property name="Symbol_Source" value="Device:D"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afeb5298-4140-50c1-9337-bc3874ff40cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D103">
+      <value>PMEG2010ER,115</value>
+      <footprint>Diode_SMD:D_SOD-123W</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf</datasheet>
+      <description>20V 1A low-VF reverse-stress bypass; VF max 250mV at 100mA/25C; pin 1 K 2 A</description>
+      <fields>
+        <field name="ki_keywords">diode Schottky</field>
+        <field name="ki_fp_filters">TO-???* *_Diode_* *SingleDiode* D_*</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">PMEG2010ER,115</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C82288</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C82288.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Device:D_Schottky</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123W</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf</field>
+        <field name="Description">20V 1A low-VF reverse-stress bypass; VF max 250mV at 100mA/25C; pin 1 K 2 A</field>
+      </fields>
+      <libsource lib="CoreProtection" part="PMEG2010ER_115" description="20V 1A low-VF reverse-stress bypass; VF max 250mV at 100mA/25C; pin 1 K 2 A"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="PMEG2010ER,115"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C82288"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C82288.html"/>
+      <property name="Selection_Status" value="project_draft; manufacturer pin map checked; no hardware validation"/>
+      <property name="Symbol_Source" value="Device:D_Schottky"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfa37bc4-1a6e-59b6-9ee5-a28bfead5824</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R301">
+      <value>0.47</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="ki_keywords">R res resistor</field>
+        <field name="ki_fp_filters">R_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TBD</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC pending</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note">Damped input filter; not a surge-rated fuse</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC pending"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value="Damped input filter; not a surge-rated fuse"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30b8533f-7221-53e4-a64f-816ba5d1dc7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R302">
+      <value>3.83k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="ki_keywords">R res resistor</field>
+        <field name="ki_fp_filters">R_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">RT0603BRD073K83L</field>
+        <field name="Selection_Status">project_draft</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Design_Note"/>
+        <field name="Supplier_PN">C861384</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C861384.html</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="RT0603BRD073K83L"/>
+      <property name="Selection_Status" value="project_draft"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Design_Note" value=""/>
+      <property name="Supplier_PN" value="C861384"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C861384.html"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4efafe1-73c2-5f33-96d5-05eab144fff8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R303">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="ki_keywords">R res resistor</field>
+        <field name="ki_fp_filters">R_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="Selection_Status">project_draft</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Design_Note"/>
+        <field name="Supplier_PN">C95204</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C95204.html</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="Selection_Status" value="project_draft"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Design_Note" value=""/>
+      <property name="Supplier_PN" value="C95204"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C95204.html"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71f88a0b-8db7-5f0c-b9df-ab987fb5cbcf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R304">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="ki_keywords">R res resistor</field>
+        <field name="ki_fp_filters">R_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TBD</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC pending</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC pending"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c63b41b-f31d-534f-bf1b-8c07f879910d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R305">
+      <value>1.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="ki_keywords">R res resistor</field>
+        <field name="ki_fp_filters">R_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TBD</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC pending</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC pending"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce6e6016-52c4-5f3f-b4a5-b6275d236453</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R306">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="ki_keywords">R res resistor</field>
+        <field name="ki_fp_filters">R_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TBD</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC pending</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC pending"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60878c71-a115-5635-b081-b48b9fe6a1ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U101">
+      <value>TLV76733DRVR</value>
+      <footprint>MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv767.pdf</datasheet>
+      <description>3.3V 1A 16V-input LDO; WSON-6-EP</description>
+      <fields>
+        <field name="Datasheet_Revision">Rev D</field>
+        <field name="Library_Revision">1</field>
+        <field name="Verification">reviewed</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/3046559.html</field>
+        <field name="Supplier_PN">C2848334</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TLV76733DRVR</field>
+        <field name="Manufacturer">TI</field>
+        <field name="ki_keywords">TLV76733DRVR C2848334</field>
+        <field name="ki_fp_filters">WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Selection_Status">project_draft; shared reviewed component reused; application not hardware validated</field>
+        <field name="Footprint">MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv767.pdf</field>
+        <field name="Description">3.3V 1A 16V-input LDO; WSON-6-EP</field>
+      </fields>
+      <libsource lib="MyParts" part="TLV76733DRVR" description="3.3V 1A 16V-input LDO; WSON-6-EP"/>
+      <property name="Datasheet_Revision" value="Rev D"/>
+      <property name="Library_Revision" value="1"/>
+      <property name="Verification" value="reviewed"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/3046559.html"/>
+      <property name="Supplier_PN" value="C2848334"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TLV76733DRVR"/>
+      <property name="Manufacturer" value="TI"/>
+      <property name="ki_keywords" value="TLV76733DRVR C2848334"/>
+      <property name="ki_fp_filters" value="WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"/>
+      <property name="Selection_Status" value="project_draft; shared reviewed component reused; application not hardware validated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="TLV76733DRVR C2848334"/>
+      <property name="ki_fp_filters" value="WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>189832e8-2968-542d-8a9c-9663fdd46311</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U102">
+      <value>TPS3808G33DBVR</value>
+      <footprint>MyFootprints:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3808.pdf</datasheet>
+      <description>3.07V threshold supervisor, open-drain reset; SOT-23-6</description>
+      <fields>
+        <field name="Datasheet_Revision">Rev N</field>
+        <field name="Library_Revision">1</field>
+        <field name="Verification">reviewed</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/44691.html</field>
+        <field name="Supplier_PN">C43698</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TPS3808G33DBVR</field>
+        <field name="Manufacturer">TI</field>
+        <field name="ki_keywords">TPS3808G33DBVR C43698</field>
+        <field name="ki_fp_filters">SOT-23-6</field>
+        <field name="Selection_Status">project_draft; shared reviewed component reused; application not hardware validated</field>
+        <field name="Footprint">MyFootprints:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+        <field name="Description">3.07V threshold supervisor, open-drain reset; SOT-23-6</field>
+      </fields>
+      <libsource lib="MyParts" part="TPS3808G33DBVR" description="3.07V threshold supervisor, open-drain reset; SOT-23-6"/>
+      <property name="Datasheet_Revision" value="Rev N"/>
+      <property name="Library_Revision" value="1"/>
+      <property name="Verification" value="reviewed"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/44691.html"/>
+      <property name="Supplier_PN" value="C43698"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TPS3808G33DBVR"/>
+      <property name="Manufacturer" value="TI"/>
+      <property name="ki_keywords" value="TPS3808G33DBVR C43698"/>
+      <property name="ki_fp_filters" value="SOT-23-6"/>
+      <property name="Selection_Status" value="project_draft; shared reviewed component reused; application not hardware validated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="TPS3808G33DBVR C43698"/>
+      <property name="ki_fp_filters" value="SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82731304-e3a5-5676-bd39-ce5b9f85e627</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U103">
+      <value>SN74LVC1G17DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</datasheet>
+      <description>Schmitt buffer, Ioff partial power down; DBV pins 1 NC 2 A 3 GND 4 Y 5 VCC</description>
+      <fields>
+        <field name="ki_keywords">Single Gate Buff Schmitt LVC CMOS</field>
+        <field name="ki_fp_filters">SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">SN74LVC1G17DBVR</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C7836</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C7836.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">74xGxx:74LVC1G17</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</field>
+        <field name="Description">Schmitt buffer, Ioff partial power down; DBV pins 1 NC 2 A 3 GND 4 Y 5 VCC</field>
+      </fields>
+      <libsource lib="CoreProtection" part="SN74LVC1G17DBVR" description="Schmitt buffer, Ioff partial power down; DBV pins 1 NC 2 A 3 GND 4 Y 5 VCC"/>
+      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
+      <property name="ki_fp_filters" value="SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="SN74LVC1G17DBVR"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C7836"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C7836.html"/>
+      <property name="Selection_Status" value="project_draft; manufacturer pin map checked; no hardware validation"/>
+      <property name="Symbol_Source" value="74xGxx:74LVC1G17"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
+      <property name="ki_fp_filters" value="SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>559850f2-026a-5eb7-acf1-af1698817c9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U104">
+      <value>TL431BIDBZR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <description>0.5% adjustable shunt; DBZ pins 1 K 2 REF 3 A</description>
+      <fields>
+        <field name="ki_keywords">diode device shunt regulator</field>
+        <field name="ki_fp_filters">SOT?23*</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">TL431BIDBZR</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C41283</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C41283.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Reference_Voltage:TL431DBZ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Description">0.5% adjustable shunt; DBZ pins 1 K 2 REF 3 A</field>
+      </fields>
+      <libsource lib="CoreProtection" part="TL431BIDBZR" description="0.5% adjustable shunt; DBZ pins 1 K 2 REF 3 A"/>
+      <property name="ki_keywords" value="diode device shunt regulator"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="TL431BIDBZR"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C41283"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C41283.html"/>
+      <property name="Selection_Status" value="project_draft; manufacturer pin map checked; no hardware validation"/>
+      <property name="Symbol_Source" value="Reference_Voltage:TL431DBZ"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="controller/hardware/g431_core/core_supply.kicad_sch"/>
+      <property name="ki_keywords" value="diode device shunt regulator"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb0d140-27b9-5ce4-b668-3453b78f1f39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CoreProtection" part="PMEG2010ER_115">
+      <description>20V 1A low-VF reverse-stress bypass; VF max 250mV at 100mA/25C; pin 1 K 2 A</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMEG2010ER,115</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123W</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf</field>
+        <field name="Description">20V 1A low-VF reverse-stress bypass; VF max 250mV at 100mA/25C; pin 1 K 2 A</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">PMEG2010ER,115</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C82288</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C82288.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Device:D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="S1A_13_F">
+      <description>50V 1A low-leakage silicon rectifier; pin 1 cathode / stripe, pin 2 anode</description>
+      <docs>https://www.diodes.com/datasheet/download/S1M.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">S1A-13-F</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/S1M.pdf</field>
+        <field name="Description">50V 1A low-leakage silicon rectifier; pin 1 cathode / stripe, pin 2 anode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">S1A-13-F</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C150735</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C150735.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Device:D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="SMF6_0A_TP">
+      <description>Unidirectional TVS; 6V stand-off; 10.3V max at specified 19.4A 10/1000us; not a DC OVP switch</description>
+      <docs>https://datasheet.lcsc.com/datasheet/pdf/3fdd4d54224eceb5fff57c8ce808199a.pdf?productCode=C914434</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMF6.0A-TP</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/datasheet/pdf/3fdd4d54224eceb5fff57c8ce808199a.pdf?productCode=C914434</field>
+        <field name="Description">Unidirectional TVS; 6V stand-off; 10.3V max at specified 19.4A 10/1000us; not a DC OVP switch</field>
+        <field name="Manufacturer">MCC</field>
+        <field name="MPN">SMF6.0A-TP</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C914434</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C914434.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Device:D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="SN74LVC1G17DBVR">
+      <description>Schmitt buffer, Ioff partial power down; DBV pins 1 NC 2 A 3 GND 4 Y 5 VCC</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SOT?553*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</field>
+        <field name="Description">Schmitt buffer, Ioff partial power down; DBV pins 1 NC 2 A 3 GND 4 Y 5 VCC</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">SN74LVC1G17DBVR</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C7836</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C7836.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">74xGxx:74LVC1G17</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="TL431BIDBZR">
+      <description>0.5% adjustable shunt; DBZ pins 1 K 2 REF 3 A</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL431BIDBZR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Description">0.5% adjustable shunt; DBZ pins 1 K 2 REF 3 A</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">TL431BIDBZR</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C41283</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C41283.html</field>
+        <field name="Selection_Status">project_draft; manufacturer pin map checked; no hardware validation</field>
+        <field name="Symbol_Source">Reference_Voltage:TL431DBZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="REF" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyParts" part="TLV76733DRVR">
+      <description>3.3V 1A 16V-input LDO; WSON-6-EP</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv767.pdf</docs>
+      <footprints>
+        <fp>WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV76733DRVR</field>
+        <field name="Footprint">MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv767.pdf</field>
+        <field name="Description">3.3V 1A 16V-input LDO; WSON-6-EP</field>
+        <field name="Datasheet_Revision">Rev D</field>
+        <field name="Library_Revision">1</field>
+        <field name="Verification">reviewed</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/3046559.html</field>
+        <field name="Supplier_PN">C2848334</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TLV76733DRVR</field>
+        <field name="Manufacturer">TI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="SNS" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyParts" part="TPS3808G33DBVR">
+      <description>3.07V threshold supervisor, open-drain reset; SOT-23-6</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps3808.pdf</docs>
+      <footprints>
+        <fp>SOT-23-6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808G33DBVR</field>
+        <field name="Footprint">MyFootprints:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+        <field name="Description">3.07V threshold supervisor, open-drain reset; SOT-23-6</field>
+        <field name="Datasheet_Revision">Rev N</field>
+        <field name="Library_Revision">1</field>
+        <field name="Verification">reviewed</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/44691.html</field>
+        <field name="Supplier_PN">C43698</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TPS3808G33DBVR</field>
+        <field name="Manufacturer">TI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{MR}" type="input"/>
+        <pin num="4" name="CT" type="input"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3_MCU" class="Default">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="C307" pin="1" pintype="passive"/>
+      <node ref="D103" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="OUT_1" pintype="power_out"/>
+      <node ref="U101" pin="2" pinfunction="SNS_2" pintype="input"/>
+      <node ref="U102" pin="5" pinfunction="SENSE_5" pintype="input"/>
+      <node ref="U102" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+      <node ref="U103" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U104" pin="1" pinfunction="K_1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V_CORE_IN" class="Default">
+      <node ref="R301" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/CORE_5V_TVS" class="Default">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D102" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/CORE_LDO_IN" class="Default">
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="D102" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D103" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U101" pin="4" pinfunction="EN_4" pintype="input"/>
+      <node ref="U101" pin="6" pinfunction="IN_6" pintype="power_in"/>
+    </net>
+    <net code="5" name="/CORE_MR_5V_PRESENT" class="Default">
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="~{MR}_3" pintype="input"/>
+    </net>
+    <net code="6" name="/CORE_SHUNT_REF" class="Default">
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+      <node ref="U104" pin="2" pinfunction="REF_2" pintype="passive"/>
+    </net>
+    <net code="7" name="CTRL_READY" class="Default">
+      <node ref="U103" pin="4" pintype="output"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="D101" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U101" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="U101" pin="7" pinfunction="PAD_7" pintype="passive"/>
+      <node ref="U102" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U103" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U104" pin="3" pinfunction="A_3" pintype="passive"/>
+    </net>
+    <net code="9" name="MCU_RESET_N" class="Default">
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="~{RESET}_1" pintype="open_collector"/>
+      <node ref="U103" pin="2" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(U102-CT-Pad4)" class="Default">
+      <node ref="U102" pin="4" pinfunction="CT_4" pintype="input+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U103-NC-Pad1)" class="Default">
+      <node ref="U103" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

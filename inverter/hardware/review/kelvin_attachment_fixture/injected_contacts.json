@@ -1,0 +1,41 @@
+[
+  {
+    "uuid": "14af395b-d290-4aef-be84-57deb3f13373",
+    "purpose": "positive B midpoint tap",
+    "net": "U_SOURCE",
+    "a": [
+      49.8,
+      23.85
+    ],
+    "b": [
+      50.4,
+      23.85
+    ]
+  },
+  {
+    "uuid": "07206790-bd0d-460e-84bf-41e28a5bfb0a",
+    "purpose": "negative via tap",
+    "net": "GND",
+    "a": [
+      49.0,
+      26.2
+    ],
+    "b": [
+      48.4,
+      26.2
+    ]
+  },
+  {
+    "uuid": "0974a5c6-b54a-4d1b-a8f7-e66090c18bf3",
+    "purpose": "INA sense-end tap",
+    "net": "GND",
+    "a": [
+      46.5625,
+      24.975
+    ],
+    "b": [
+      45.9625,
+      24.975
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "tool": "KiCad 10 exported XML netlist + independent Python assertions",
+  "sheets": 9,
+  "components": 196,
+  "dnp_components": 15,
+  "mcu_pins": 100,
+  "adc_channels": 25,
+  "port_signal_routes": 50,
+  "command_default_low": 24,
+  "checks": [
+    "All 100 physical MCU pins match the independent pin-plan CSV (96 connected, 4 NC).",
+    "All 84 GPIO / reserved pad nets remain separate; no accidental ground or rail short.",
+    "LDO IN/EN, OUT/SNS, all GND/EP pins and supervisor/reset wiring match the application circuit.",
+    "50 signal paths across the three 24-pin ports match the pin-plan CSV through individual series resistors; all 25 ADC RC channels checked.",
+    "All 18 port ground contacts are GND; inverter contacts 12/24 stay NC; no power rail enters any 24-pin port.",
+    "24 PWM / ENABLE / PFC PRECHARGE / BRAKE command lines each have a 10k external default-low pull-down; all three FAULT inputs have pull-ups and no delay capacitor.",
+    "Five reserved MCU debug/analog pins connect only to dedicated high-impedance test pads.",
+    "SWD VTREF/IO/CLK/GND/NRST and 3.3 V TTL TX/RX/GND contact order checked.",
+    "Both ABZ and both independent SPI connector paths match the MCU signals; both CS_N pull-ups checked.",
+    "All four sensor power links default DNP; optional CAN transceiver block and its isolation links default DNP; CAN NC pins checked.",
+    "All 196 BOM designators match KiCad components; all ordinary R/C entries specify YAGEO.",
+    "573 additional explicit component pin-net assertions checked against KiCad export."
+  ],
+  "limits": [
+    "Static connectivity only; not an electrical/thermal/timing simulation.",
+    "DNP parts are included in the ERC/netlist; assembly power-link state checked separately.",
+    "Encoder voltage, crystal loading, connectors and external protection remain explicit draft items."
+  ]
+}

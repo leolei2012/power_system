@@ -1,0 +1,193 @@
+{
+  "revision": "E-shared-library-draft",
+  "date": "2026-11-11",
+  "board_role": "Inverter application and power baseboard",
+  "native_project": "inverter.kicad_pro",
+  "native_schematic": "inverter.kicad_sch",
+  "pcb_status": "Rev E PCB 0.1 layout review draft; routing/DRC progress is recorded separately. Not released for manufacture.",
+  "component_count": 317,
+  "DNP_count": 14,
+  "pages": [
+    {
+      "file": "inverter.kicad_sch",
+      "title": "Inverter base with GPIO minimum-system core",
+      "sheet_path": "/",
+      "sha256": "0db30c67b5441b0d07c2a1268779398d794c88211bb3e86370a5e3c42af316d1"
+    },
+    {
+      "file": "aux_input.kicad_sch",
+      "title": "Inverter - 12-24 V auxiliary input protection",
+      "sheet_path": "/Auxiliary input/",
+      "sha256": "7a4d8b2730b804ccdfaef74d88ce8d220c19299174dcbf755fe53f4b2fda3f58"
+    },
+    {
+      "file": "supply_12v.kicad_sch",
+      "title": "Inverter - regulated 12 V driver supply",
+      "sheet_path": "/Driver supply/",
+      "sha256": "1f911417e9c4ae4e8cbb736284cc73f98fb30b4fd46684ff78c9613b5b7371d7"
+    },
+    {
+      "file": "supply_logic.kicad_sch",
+      "title": "Inverter - 5 V, 3.3 V and sensor power",
+      "sheet_path": "/Logic and sensors/",
+      "sha256": "5198cf2dab5007576a3a8553fcd4416dcd9a67a84c7444ccdb866e5c6b55ca48"
+    },
+    {
+      "file": "bus_brake.kicad_sch",
+      "title": "Inverter - DC bus input, bulk capacitors and brake",
+      "sheet_path": "/Bus and brake/",
+      "sha256": "b54c2e270c4ecefd90b28109b360d22a6897a012680476ded821f8cdb80b2217"
+    },
+    {
+      "file": "bridge_u.kicad_sch",
+      "title": "Inverter - U half bridge and low-side shunt",
+      "sheet_path": "/U half bridge/",
+      "sha256": "1a512db111110844a674146c2584e3ff68209fea24efcfbfcd3b8f27713cfde9"
+    },
+    {
+      "file": "bridge_v.kicad_sch",
+      "title": "Inverter - V half bridge and low-side shunt",
+      "sheet_path": "/V half bridge/",
+      "sha256": "7e08786bffd306210045e858a67d494c5719f144bdf8c5d062c9789304e5685e"
+    },
+    {
+      "file": "bridge_w.kicad_sch",
+      "title": "Inverter - W half bridge and low-side shunt",
+      "sheet_path": "/W half bridge/",
+      "sha256": "1609f08e9ef1218ff86f6f80b594a6042db32003ed50e6eca159a82f00bd0f4d"
+    },
+    {
+      "file": "current_sense.kicad_sch",
+      "title": "Inverter - three current channels and references",
+      "sheet_path": "/Current sensing/",
+      "sha256": "00b041f8e1e0a1b56d9b22b7bf0340a30fa340dd666fd3d586dd00733a22f12b"
+    },
+    {
+      "file": "voltage_sense.kicad_sch",
+      "title": "Inverter - voltage and NTC sensing",
+      "sheet_path": "/Voltage and NTC/",
+      "sha256": "791e874815e286441244797dc96813df573916d81082144a1b033faaa6e8fda6"
+    },
+    {
+      "file": "comparators.kicad_sch",
+      "title": "Inverter - current, bus voltage and driver rail comparators",
+      "sheet_path": "/Analog protection/",
+      "sha256": "f0af529ef4b6f1af932c7f9e4809c6711c4974eca08595f871910f754ea8eb3a"
+    },
+    {
+      "file": "fault_logic.kicad_sch",
+      "title": "Inverter - fault aggregation and reset latch",
+      "sheet_path": "/Hardware latch/",
+      "sha256": "a5f3f4fd361b5d7de9e590db88bc3944b6f9f948aaacbf8e5ba313c95c56a0b5"
+    },
+    {
+      "file": "control_interface.kicad_sch",
+      "title": "Inverter - local six PWM hardware gates",
+      "sheet_path": "/Hardware PWM gates/",
+      "sha256": "d92b3a6b9077bb8e929f8c7f1f01552e793f8617961082e3a8a93b661c112f28"
+    },
+    {
+      "file": "base_interlock.kicad_sch",
+      "title": "Power base - controller readiness and local supply interlock",
+      "sheet_path": "/Base interlock/",
+      "sha256": "03452f80055abfaac7b5d7cb68c9033a9fcb1f82d12de35cfef74142cf3ddde1"
+    },
+    {
+      "file": "base_leds.kicad_sch",
+      "title": "Power base - local power indication",
+      "sheet_path": "/Base LEDs/",
+      "sha256": "1c06498bbab86128f331efcc35aaa9ecacae992ea948608d9c69fb235db0b48e"
+    },
+    {
+      "file": "mcu_coupling.kicad_sch",
+      "title": "Baseboard - GPIO command coupling and fault pull-up",
+      "sheet_path": "/GPIO command coupling/",
+      "sha256": "21634598fef4b6225415633b4a40073636138ad5c1be97a0f5ca0bbb97ad0de6"
+    },
+    {
+      "file": "core_signal_protection.kicad_sch",
+      "title": "Baseboard - ADC and status return conditioning",
+      "sheet_path": "/ADC and status returns/",
+      "sha256": "099d8b28860a6041cf15389862d568f1155b68d5108a4b61717b99863ab4be32"
+    },
+    {
+      "file": "sensors.kicad_sch",
+      "title": "Baseboard - encoders and SPI",
+      "sheet_path": "/Encoders and SPI/",
+      "sha256": "240088ffa745d1ac0299ff93e73a8619ce564fbf514bad41624d52b34062a781"
+    },
+    {
+      "file": "debug_comms.kicad_sch",
+      "title": "Baseboard - SWD TTL optional CAN and status LEDs",
+      "sheet_path": "/SWD UART CAN and status/",
+      "sha256": "26db8bb71d94d033cb16c36b9ee85ce97b4728efee7d60d78d0cbf0015c09c84"
+    },
+    {
+      "file": "power_interface.kicad_sch",
+      "title": "Baseboard minimum-core sockets",
+      "sheet_path": "/64-pin core sockets/",
+      "sha256": "b0454cbb07a5d2dd2b3b36c5500742f7dd6ab27afe136c65d43362f9fac8d3ef"
+    }
+  ],
+  "page_count": 20,
+  "erc": {
+    "errors": 0,
+    "warnings": 0,
+    "date": "2026-11-11T00:11:27",
+    "kicad_version": "10.0.7",
+    "ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ]
+  },
+  "netlist": {
+    "file": "review\\inverter.net.xml",
+    "sha256": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b"
+  },
+  "project_sources": {
+    "inverter.kicad_pro": "461773744e9c9cbac2fcaf3ac1bd4ec3ada0f365819c616af03096f2615ce875",
+    "sym-lib-table": "7cb61db2ddd11976433992be75d280705a3a5284c68380173d2a0cb7428a9695",
+    "fp-lib-table": "dc12e7428024abb60f788f8a670da3543f499607f7dad3ddbaf0a4e3c52dad56",
+    "InverterLocal.kicad_sym": "393586424fabe31220fd8d5227280189ce27016c1e27529db7c4588c4f66a7a0",
+    "Inverter_Compact.pretty\\BSC110N15NS5_TDSON8_8PhysicalPins.kicad_mod": "ca8e042f6adb4f6d2bd3f7898f8f1bab5955408dab95411645c3db285ce588cf",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm.kicad_mod": "f8ef0e972d8db2f2c4105e14c4b0088e0c438647329ce7149f1a2391ea5dc18d",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm.kicad_mod": "5a4b7391130114a8dfec96c468f7fc375ade7771a19c5de071021c24b7277f45",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm.kicad_mod": "3f7fea648415960d27b3ed4dcb40425d93ba981c991ced8e1ebfd239cbaf7f8f",
+    "Inverter_Compact.pretty\\PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm.kicad_mod": "b3062ba2a9bc299370ee182197deacbbe3c3e2c3146ef48ef70e4d1ba7eb320c",
+    "Inverter_Compact.pretty\\WireSolder_2P_P6.00mm_D2.00mm.kicad_mod": "71557713328b4d969e423c6e5efb43fe71c00204e7d19d96fd2cd0455592766b",
+    "Inverter_Compact.pretty\\WireSolder_3P_P15.00mm_D2.00mm.kicad_mod": "2763543383bdef890f459aa6946a95643efba5646dc3e851f1ac9ec726485e34"
+  },
+  "shared_library_sha256": {
+    "parts.csv": "24c6a7b585e69986d848ad5ac1df4a2a7e68bb207ae8c494a67b4455a03d0cf4",
+    "symbols/MyParts.kicad_sym": "b1e747b59ebcf4737b3850df58d5f87cc5b9a92d24ebbfaf2ab6c8b3895f7338"
+  },
+  "selection_pending_references": 207,
+  "library_intake_candidate_models": 0,
+  "manufacturing_release": false,
+  "limits": [
+    "Schematic connection checks and PCB layout review are separate; no assembly or prototype qualification.",
+    "Common-ground non-isolated interface; clamps do not guarantee MCU survival after a power-stage failure.",
+    "Exact passive MPNs, mating connector mechanics, transient behavior and thermal performance require completion."
+  ],
+  "pcb": {
+    "file": "inverter.kicad_pcb",
+    "sha256": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792",
+    "stack_contract": "../../docs/pcb_stack_contract_rev_e.json",
+    "review": "../../docs/pcb_review_2026-11-11.md",
+    "manufacturing_release": false
+  }
+}

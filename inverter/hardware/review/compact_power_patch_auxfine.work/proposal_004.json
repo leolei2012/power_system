@@ -1,0 +1,50 @@
+{
+  "net": "/Driver supply/BB_BST1",
+  "paths": [
+    {
+      "net": "/Driver supply/BB_BST1",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          27.0731,
+          45.0175
+        ],
+        [
+          27.15,
+          45.0
+        ],
+        [
+          27.2,
+          45.05
+        ],
+        [
+          27.25,
+          45.05
+        ],
+        [
+          27.3,
+          45.1
+        ],
+        [
+          27.3,
+          45.15
+        ],
+        [
+          27.3389,
+          45.2833
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 68,
+    "seconds": 1.078,
+    "start_candidates": 357,
+    "goal_candidates": 60
+  }
+}

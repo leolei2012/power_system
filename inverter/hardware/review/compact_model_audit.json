@@ -1,0 +1,214 @@
+{
+  "board": "D:\\workspace\\power_system\\inverter\\hardware\\inverter.kicad_pcb",
+  "changed_paths": [
+    {
+      "ref": "U22",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step"
+    },
+    {
+      "ref": "U26",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step"
+    },
+    {
+      "ref": "C22",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_1210_3225Metric.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/C_1210_3225Metric.step"
+    },
+    {
+      "ref": "U25",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step"
+    },
+    {
+      "ref": "U16",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-353_SC-70-5.step"
+    },
+    {
+      "ref": "U27",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step"
+    },
+    {
+      "ref": "U17",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-353_SC-70-5.step"
+    },
+    {
+      "ref": "U13",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-353_SC-70-5.step"
+    },
+    {
+      "ref": "C19",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_Radial_D12.5mm_H25.0mm_P5.00mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/C_Radial_D12.5mm_H25.0mm_P5.00mm.step"
+    },
+    {
+      "ref": "U21",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step"
+    },
+    {
+      "ref": "U23",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step"
+    },
+    {
+      "ref": "U28",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOIC-14_3.9x8.7mm_P1.27mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOIC-14_3.9x8.7mm_P1.27mm.step"
+    },
+    {
+      "ref": "C20",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_Radial_D12.5mm_H25.0mm_P5.00mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/C_Radial_D12.5mm_H25.0mm_P5.00mm.step"
+    },
+    {
+      "ref": "U1",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm.step"
+    },
+    {
+      "ref": "U15",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-353_SC-70-5.step"
+    },
+    {
+      "ref": "U14",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-353_SC-70-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-353_SC-70-5.step"
+    },
+    {
+      "ref": "U24",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSSOP-14_4.4x5mm_P0.65mm.step"
+    },
+    {
+      "ref": "C21",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/C_1210_3225Metric.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/C_1210_3225Metric.step"
+    },
+    {
+      "ref": "U20",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step"
+    },
+    {
+      "ref": "U8",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    },
+    {
+      "ref": "U29",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-5.step"
+    },
+    {
+      "ref": "U5",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-6.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-6.step"
+    },
+    {
+      "ref": "U2",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm.step"
+    },
+    {
+      "ref": "U9",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    },
+    {
+      "ref": "U4",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-5.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-5.step"
+    },
+    {
+      "ref": "U10",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-8.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-8.step"
+    },
+    {
+      "ref": "U18",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step"
+    },
+    {
+      "ref": "U7",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    },
+    {
+      "ref": "U11",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-8.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-8.step"
+    },
+    {
+      "ref": "U19",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/VSSOP-8_3x3mm_P0.65mm.step"
+    },
+    {
+      "ref": "U3",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/TSOT-23-6.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/TSOT-23-6.step"
+    },
+    {
+      "ref": "U6",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-6.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-6.step"
+    },
+    {
+      "ref": "U12",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOT-23-8.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOT-23-8.step"
+    },
+    {
+      "ref": "U31",
+      "before": "${KIPRJMOD}/kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "after": "${KIPRJMOD}/../../../kicad_library/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    }
+  ],
+  "missing_models": [
+    {
+      "ref": "Q2",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    },
+    {
+      "ref": "Q6",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    },
+    {
+      "ref": "F1",
+      "model": "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+    },
+    {
+      "ref": "Q4",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    },
+    {
+      "ref": "Q3",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    },
+    {
+      "ref": "F2",
+      "model": "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+    },
+    {
+      "ref": "Q5",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    },
+    {
+      "ref": "Q7",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    },
+    {
+      "ref": "Q1",
+      "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step"
+    }
+  ],
+  "note": "Missing 3D models do not stand in for footprint or package checks. Native pad/courtyard geometry is the placement contract."
+}

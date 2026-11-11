@@ -1,0 +1,200 @@
+{
+  "archive": "D:\\workspace\\power_system\\inverter\\history\\integrated_60x60_rev_c_before_mcu_split_2026-11-06.zip",
+  "archive_sha256": "d4b9bb6d17aa7f2f51b740622dbaa5cb63a99969d03cefa32909d799f05a6fc7",
+  "new_root": "9dba1312-bd1c-50b2-9df7-fc81461aaf77",
+  "project": "controller",
+  "sheet_ids": {
+    "mcu": "a8d3d726-16b3-59eb-9ef4-520b98f44114",
+    "mcu_analog": "6bb2ee18-fb26-547f-bb73-5b2edf466552",
+    "mcu_control": "ea9e8a54-a05f-579b-8e33-4854d2a8d5a1",
+    "sensors": "01112e27-a371-5482-9500-18ac543e7694",
+    "debug_comms": "0e9e8b01-3a2b-5600-a9d6-9852afb2fb52",
+    "core_supply": "743a2735-b1d2-5b0c-8d64-29042bda2c46",
+    "core_interface": "3014856e-ebdc-51b8-bbfc-2d79015f320d"
+  },
+  "pages": {
+    "mcu": {
+      "physical_count": 7,
+      "refs": [
+        "C63",
+        "C64",
+        "C65",
+        "C66",
+        "C67",
+        "C68",
+        "U30"
+      ],
+      "preserved_wire_count": 74,
+      "source_wire_count": 73,
+      "removed_item_uuids": []
+    },
+    "mcu_analog": {
+      "physical_count": 22,
+      "refs": [
+        "C69",
+        "C70",
+        "C71",
+        "C72",
+        "C73",
+        "C74",
+        "C75",
+        "C76",
+        "C77",
+        "C78",
+        "C79",
+        "C80",
+        "R84",
+        "R85",
+        "R86",
+        "R87",
+        "R88",
+        "R89",
+        "R90",
+        "R91",
+        "R92",
+        "R93"
+      ],
+      "preserved_wire_count": 43,
+      "source_wire_count": 43,
+      "removed_item_uuids": []
+    },
+    "mcu_control": {
+      "physical_count": 12,
+      "refs": [
+        "C83",
+        "C84",
+        "R135",
+        "R136",
+        "R137",
+        "R138",
+        "R139",
+        "R140",
+        "R141",
+        "R142",
+        "R143",
+        "Y1"
+      ],
+      "preserved_wire_count": 26,
+      "source_wire_count": 29,
+      "removed_item_uuids": [
+        "60e718bb-80cd-5d3b-ba5a-2b81338a4824",
+        "60be64ae-ef34-5d86-8cab-67078833c84f",
+        "6272fe30-4e40-5223-9a24-361e7fef5012",
+        "80d881fc-96c0-5652-b750-c29a70824b90",
+        "0d0722f6-a8a5-559c-8193-4de4ce3496c3",
+        "15f1a7e3-c164-574f-8e1a-bd6abab69c48",
+        "04ca9cf9-0ef2-5e7e-a8e2-e6928d27aeb3"
+      ]
+    },
+    "sensors": {
+      "physical_count": 30,
+      "refs": [
+        "J10",
+        "J11",
+        "J12",
+        "J9",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "R94",
+        "R95",
+        "R96",
+        "R97",
+        "R98",
+        "R99"
+      ],
+      "preserved_wire_count": 80,
+      "source_wire_count": 80,
+      "removed_item_uuids": []
+    },
+    "debug_comms": {
+      "physical_count": 26,
+      "refs": [
+        "C81",
+        "C82",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "J13",
+        "J14",
+        "J15",
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R131",
+        "R132",
+        "R133",
+        "R134",
+        "SW2",
+        "TP15",
+        "U31"
+      ],
+      "preserved_wire_count": 76,
+      "source_wire_count": 79,
+      "removed_item_uuids": [
+        "ec995607-1a29-58f1-b87a-7ad64f760c42",
+        "5cfaac8e-8ed6-5cf7-8a37-0e40ab97d197",
+        "bc156da0-e4ea-587f-9851-c21824d1c3d8",
+        "3ee2eb14-aaf1-5d37-9349-4e3f8284fdfe",
+        "5acb6057-1614-5452-baf4-08b76874f72c",
+        "37dc661a-06f7-539e-9627-e6d4d63a3347",
+        "2ff081d9-2900-59cf-9a45-8fed6c15b55d",
+        "91cc2037-1420-5685-bf24-ae12f2991354"
+      ]
+    }
+  },
+  "renamed_nets": {
+    "+3V3_INV": "+3V3_MCU",
+    "LOGIC_POWER_OK": "MCU_RESET_N"
+  },
+  "adc_input_renames": {
+    "I_U_PORT": "I_U_PORT_CLAMPED",
+    "I_V_PORT": "I_V_PORT_CLAMPED",
+    "I_W_PORT": "I_W_PORT_CLAMPED",
+    "V_DC_PORT": "V_DC_PORT_CLAMPED",
+    "V_U_PORT": "V_U_PORT_CLAMPED",
+    "V_V_PORT": "V_V_PORT_CLAMPED",
+    "V_W_PORT": "V_W_PORT_CLAMPED",
+    "TEMP_NTC": "TEMP_NTC_CLAMPED"
+  },
+  "new_mcu_input": {
+    "ref": "U30",
+    "pin": "2",
+    "gpio": "PC13",
+    "net": "BASE_READY"
+  },
+  "remaining_nc": {
+    "3": "PC14",
+    "4": "PC15",
+    "39": "PC7",
+    "56": "PB3",
+    "57": "PB4",
+    "62": "PB9"
+  },
+  "external_page_ownership": "core_supply and core_interface are never overwritten by this script"
+}

@@ -1,0 +1,169 @@
+{
+  "board": "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_private_probe\\inverter.kicad_pcb",
+  "board_sha256": "024ee96094bb89c14608d8265e1019d9fa5266031b26ba0a979d7d6ab72f931e",
+  "dsn": "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_private_probe\\fresh_probe.dsn",
+  "dsn_sha256": "039c8d36c2039f062799ba317ff79297c0027f380edd70be086a59691371fa72",
+  "power_report": "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_private_probe\\power_copper.json",
+  "power_report_sha256": "68a91f0718e93df1e330db85fb9c840845fd7d5986aad0745efda4db9f00c4aa",
+  "report_source_sha256": "94bac718c7d2ed1b77947341d7839bd947b90185a40b281b90e9cd8fc3462634",
+  "report_candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_candidate\\inverter.kicad_pcb",
+  "output": "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_private_probe\\guarded_probe.dsn",
+  "output_sha256": "1676138c2136b5bf3fc3d7ccc858a534cce564dab60ac99d568847a6a1f772bb",
+  "units": "um",
+  "native_match_tolerance_mm": 0.000151,
+  "guard_mm_per_side": 0.15,
+  "selected_native_uuid_count": 26,
+  "selected_native_track_count": 20,
+  "selected_native_via_count": 6,
+  "dsn_wires_removed": 18,
+  "dsn_mixed_wires_rewritten": 0,
+  "dsn_vias_removed": 6,
+  "structure_keepouts_added": 56,
+  "removed_pins": [
+    {
+      "pin": "U10-8",
+      "net": "U_SOURCE"
+    },
+    {
+      "pin": "U10-1",
+      "net": "GND"
+    },
+    {
+      "pin": "U11-8",
+      "net": "V_SOURCE"
+    },
+    {
+      "pin": "U11-1",
+      "net": "GND"
+    },
+    {
+      "pin": "U12-8",
+      "net": "W_SOURCE"
+    },
+    {
+      "pin": "U12-1",
+      "net": "GND"
+    }
+  ],
+  "native_kelvin_uuid_must_survive_SES_import": [
+    "0065f6e8-ea12-4ecc-af11-8b67d109fa80",
+    "0c6697ee-69f5-4ab1-a43a-5f5a287ea7dc",
+    "14382c40-2941-42d5-b087-ef561b2a00e1",
+    "1959791f-49ec-4b74-b842-f58534d796a7",
+    "3fb3be5e-9f70-4404-96f0-1d33fced334b",
+    "41cc3d41-323d-44b7-bc17-6cff075fc98e",
+    "4d2b29a2-0e02-4003-94ce-85d2e96ec9c7",
+    "4ddd0078-fb8b-4d2e-98d4-88a2f588097c",
+    "545ed684-ef1c-4ac6-9845-1e5f164f8e18",
+    "5fbeb7bb-62b7-4bf6-8012-91037bff2667",
+    "6653cf00-641f-4f15-b748-79b4bd46038a",
+    "670361fc-31b6-449f-abc8-f39d0436e49e",
+    "6d4bde8e-5855-4598-b8aa-6ae5b201bc14",
+    "76c16efd-3e00-42b2-b95f-2ff8fdefee53",
+    "803dddc5-fc99-4497-ad3e-f932f49ddf4d",
+    "80e72e53-af02-44a3-b814-62dbff294562",
+    "86473fbf-55ac-4b6b-92bb-5aa1cd9a2f73",
+    "866630b6-356b-43af-b268-e4a5f27631f6",
+    "952d55f2-0bbe-40f4-b258-72596ea36005",
+    "9c2ae70f-6e81-4f50-9a89-480b922e9cbe",
+    "a699c65f-c4fa-4893-98fe-12b0c0523514",
+    "a8f29050-6f59-4683-b707-7c3562717a6c",
+    "bdc50476-a774-4878-b3f1-0b5f2a9f1454",
+    "c4c3bd58-aaff-4825-a4d8-60d11e59e8f1",
+    "d34ae70c-48f3-40be-9fea-07fe4ed4bae3",
+    "ffe186d3-ba32-4358-915a-813ba4519556"
+  ],
+  "branches": [
+    {
+      "phase": "U",
+      "polarity": "positive",
+      "net": "U_SOURCE",
+      "tracks": [
+        "6d4bde8e-5855-4598-b8aa-6ae5b201bc14",
+        "14382c40-2941-42d5-b087-ef561b2a00e1",
+        "545ed684-ef1c-4ac6-9845-1e5f164f8e18",
+        "0c6697ee-69f5-4ab1-a43a-5f5a287ea7dc"
+      ],
+      "via": "9c2ae70f-6e81-4f50-9a89-480b922e9cbe",
+      "INA_pin": "U10-8",
+      "RS_pin": "RS1-1"
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "tracks": [
+        "6653cf00-641f-4f15-b748-79b4bd46038a",
+        "76c16efd-3e00-42b2-b95f-2ff8fdefee53",
+        "41cc3d41-323d-44b7-bc17-6cff075fc98e"
+      ],
+      "via": "a699c65f-c4fa-4893-98fe-12b0c0523514",
+      "INA_pin": "U10-1",
+      "RS_pin": "RS1-2"
+    },
+    {
+      "phase": "V",
+      "polarity": "positive",
+      "net": "V_SOURCE",
+      "tracks": [
+        "952d55f2-0bbe-40f4-b258-72596ea36005",
+        "670361fc-31b6-449f-abc8-f39d0436e49e",
+        "c4c3bd58-aaff-4825-a4d8-60d11e59e8f1",
+        "4ddd0078-fb8b-4d2e-98d4-88a2f588097c"
+      ],
+      "via": "bdc50476-a774-4878-b3f1-0b5f2a9f1454",
+      "INA_pin": "U11-8",
+      "RS_pin": "RS2-1"
+    },
+    {
+      "phase": "V",
+      "polarity": "negative",
+      "net": "GND",
+      "tracks": [
+        "ffe186d3-ba32-4358-915a-813ba4519556",
+        "d34ae70c-48f3-40be-9fea-07fe4ed4bae3",
+        "5fbeb7bb-62b7-4bf6-8012-91037bff2667"
+      ],
+      "via": "866630b6-356b-43af-b268-e4a5f27631f6",
+      "INA_pin": "U11-1",
+      "RS_pin": "RS2-2"
+    },
+    {
+      "phase": "W",
+      "polarity": "positive",
+      "net": "W_SOURCE",
+      "tracks": [
+        "803dddc5-fc99-4497-ad3e-f932f49ddf4d",
+        "80e72e53-af02-44a3-b814-62dbff294562",
+        "1959791f-49ec-4b74-b842-f58534d796a7",
+        "a8f29050-6f59-4683-b707-7c3562717a6c"
+      ],
+      "via": "3fb3be5e-9f70-4404-96f0-1d33fced334b",
+      "INA_pin": "U12-8",
+      "RS_pin": "RS3-1"
+    },
+    {
+      "phase": "W",
+      "polarity": "negative",
+      "net": "GND",
+      "tracks": [
+        "0065f6e8-ea12-4ecc-af11-8b67d109fa80",
+        "4d2b29a2-0e02-4003-94ce-85d2e96ec9c7"
+      ],
+      "via": "86473fbf-55ac-4b6b-92bb-5aa1cd9a2f73",
+      "INA_pin": "U12-1",
+      "RS_pin": "RS3-2"
+    }
+  ],
+  "checks": {
+    "all_native_track_geometry_matches_dsn": true,
+    "all_native_vias_match_dsn": true,
+    "only_six_selected_net_pins_removed": true,
+    "ordinary_GND_and_SOURCE_pins_preserved": true,
+    "non_Kelvin_wires_byte_identical": true,
+    "native_board_unchanged": true,
+    "input_dsn_unchanged": true,
+    "input_report_unchanged": true
+  },
+  "note": "Routing-only transformation. Full native wiring is geometrically matched before editing, so an older DSN is rejected even if six Kelvin UUIDs still exist. Do not delete native locked branches when importing the SES; keep/check their UUID, net and geometry. A plane is never removed by this tool."
+}

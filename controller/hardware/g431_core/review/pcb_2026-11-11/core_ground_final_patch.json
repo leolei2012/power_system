@@ -1,0 +1,328 @@
+{
+  "source_sha": "5abe976f5883cc5d2a604274c1543e41ae77b58c6ed77afcea4536cc5ddc09d1",
+  "candidate": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\ground_alt2\\controller.kicad_pcb",
+  "candidate_sha256": "ac0aedc7b49901a53d83d3e9050537137b8a48834cc3fa9760dd72596ebd3873",
+  "ripup_uuids": [
+    "0babd347-78cb-484e-b9fd-0219635d536d",
+    "173300ad-6ea3-482d-bf74-81d364c126c5",
+    "2019463d-5f4b-4c20-92b8-afaafcb5150f",
+    "5cf153ac-2f7c-4c82-b94d-3436cb396c08",
+    "8b163fb9-962c-48fd-9ab8-ea77af7fbbfa",
+    "9263e902-3197-4d53-b0d6-bf26d6dbc2a3",
+    "aa89a7b6-661c-4a4e-87d1-21ac59dd5f8f",
+    "bf279593-4660-484d-9188-59ef455dbd70",
+    "ce8b38a4-f24e-45e0-a6ae-0566280f7860"
+  ],
+  "paths": [
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          115.25,
+          124.25
+        ],
+        [
+          115.25,
+          123.4
+        ]
+      ],
+      "locked": true
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.0,
+          122.63
+        ],
+        [
+          116.0,
+          122.55
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          117.9,
+          120.05
+        ],
+        [
+          118.2,
+          119.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          118.2,
+          119.75
+        ],
+        [
+          118.2,
+          119.7
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          118.2,
+          119.7
+        ],
+        [
+          118.25,
+          119.65
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          117.9,
+          120.1
+        ],
+        [
+          117.9,
+          120.05
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.0,
+          121.0
+        ],
+        [
+          116.0,
+          121.67
+        ]
+      ],
+      "locked": true
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          114.85,
+          121.0
+        ],
+        [
+          116.0,
+          121.0
+        ]
+      ],
+      "locked": true
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.0,
+          122.55
+        ],
+        [
+          116.55,
+          122.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.55,
+          121.45
+        ],
+        [
+          117.9,
+          120.1
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          118.25,
+          119.55
+        ],
+        [
+          118.3,
+          119.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.55,
+          122.0
+        ],
+        [
+          116.55,
+          121.45
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          118.3,
+          119.5
+        ],
+        [
+          118.275,
+          119.4
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          114.85,
+          123.2
+        ],
+        [
+          114.85,
+          121.0
+        ]
+      ],
+      "locked": true
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          115.25,
+          123.4
+        ],
+        [
+          116.0,
+          122.63
+        ]
+      ],
+      "locked": true
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          116.725,
+          119.4
+        ],
+        [
+          116.0,
+          121.67
+        ]
+      ],
+      "locked": true
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          118.25,
+          119.65
+        ],
+        [
+          118.25,
+          119.55
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "VREF_MCU",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          114.75,
+          124.25
+        ],
+        [
+          114.85,
+          123.2
+        ]
+      ],
+      "locked": true
+    }
+  ],
+  "vias": [],
+  "placements": {
+    "C79": {
+      "x": 116.0,
+      "y": 122.15,
+      "rotation_deg": 270,
+      "side": "F"
+    }
+  },
+  "validation": {
+    "native_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\ground_alt2\\drc_after.json",
+    "remaining_unconnected": 1,
+    "electrical_errors": 0,
+    "same_physical_ref_pin_nets": true,
+    "source_unmodified": true,
+    "remaining_net": "PC13"
+  },
+  "notes": [
+    "C79 is nonpolarized; rotating it preserves all pin numbers/nets while moving its grounded pad to the MCU/VSSA side.",
+    "Replace the local VREF links and C79 ground return only; no ordinary GPIO, header or mounting geometry changes.",
+    "No schematic or common electrical contract change."
+  ]
+}

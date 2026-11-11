@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "source_pcb_sha256": "08d3f9571eb73bf8e4544930046115f0714341367e12dea62201dca9a22d5da2",
+  "purpose": "Local actual-pad refinement before signal routing; no native board edited by this file.",
+  "units": "mm",
+  "placements": {
+    "U10": {
+      "x": 126,
+      "y": 71,
+      "rotation_deg": 90,
+      "group": "kelvin_1"
+    },
+    "U11": {
+      "x": 150,
+      "y": 71,
+      "rotation_deg": 90,
+      "group": "kelvin_2"
+    },
+    "U12": {
+      "x": 174,
+      "y": 71,
+      "rotation_deg": 90,
+      "group": "kelvin_3"
+    },
+    "U18": {
+      "x": 127,
+      "y": 80,
+      "rotation_deg": 0,
+      "group": "local_oc_1"
+    },
+    "U19": {
+      "x": 151,
+      "y": 80,
+      "rotation_deg": 0,
+      "group": "local_oc_2"
+    },
+    "U20": {
+      "x": 171,
+      "y": 80,
+      "rotation_deg": 0,
+      "group": "local_oc_3"
+    },
+    "Y1": {
+      "x": 76,
+      "y": 51.1,
+      "rotation_deg": 0,
+      "group": "mcu_local_clearance"
+    },
+    "C69": {
+      "x": 75,
+      "y": 44.2,
+      "rotation_deg": 90,
+      "group": "adc_at_pin"
+    },
+    "C70": {
+      "x": 77,
+      "y": 44.6,
+      "rotation_deg": 90,
+      "group": "adc_at_pin"
+    },
+    "C71": {
+      "x": 75.25,
+      "y": 47.25,
+      "rotation_deg": 90,
+      "group": "adc_at_pin"
+    },
+    "C72": {
+      "x": 77.25,
+      "y": 47.75,
+      "rotation_deg": 90,
+      "group": "adc_at_pin"
+    },
+    "C74": {
+      "x": 69.5,
+      "y": 38,
+      "rotation_deg": 90,
+      "group": "adc_at_pin"
+    },
+    "C75": {
+      "x": 67,
+      "y": 38,
+      "rotation_deg": 90,
+      "group": "adc_at_pin"
+    },
+    "C76": {
+      "x": 68.25,
+      "y": 40.25,
+      "rotation_deg": 0,
+      "group": "adc_at_pin"
+    },
+    "C37": {
+      "x": 130,
+      "y": 67.5,
+      "rotation_deg": 0,
+      "group": "kelvin_1"
+    },
+    "R37": {
+      "x": 130,
+      "y": 71,
+      "rotation_deg": 0,
+      "group": "kelvin_1"
+    },
+    "TP11": {
+      "x": 133,
+      "y": 75,
+      "rotation_deg": 0,
+      "group": "kelvin_1"
+    },
+    "C38": {
+      "x": 154,
+      "y": 67.5,
+      "rotation_deg": 0,
+      "group": "kelvin_2"
+    },
+    "R38": {
+      "x": 154,
+      "y": 71,
+      "rotation_deg": 0,
+      "group": "kelvin_2"
+    },
+    "TP12": {
+      "x": 157,
+      "y": 75,
+      "rotation_deg": 0,
+      "group": "kelvin_2"
+    },
+    "C39": {
+      "x": 178,
+      "y": 67.5,
+      "rotation_deg": 0,
+      "group": "kelvin_3"
+    },
+    "R39": {
+      "x": 178,
+      "y": 71,
+      "rotation_deg": 0,
+      "group": "kelvin_3"
+    },
+    "TP13": {
+      "x": 181,
+      "y": 75,
+      "rotation_deg": 0,
+      "group": "kelvin_3"
+    },
+    "C51": {
+      "x": 130.75,
+      "y": 77.5,
+      "rotation_deg": 0,
+      "group": "local_oc_1"
+    },
+    "C52": {
+      "x": 154.75,
+      "y": 77.5,
+      "rotation_deg": 0,
+      "group": "local_oc_2"
+    },
+    "C53": {
+      "x": 174.75,
+      "y": 77.5,
+      "rotation_deg": 0,
+      "group": "local_oc_3"
+    },
+    "C83": {
+      "x": 79.4,
+      "y": 50.5,
+      "rotation_deg": 90,
+      "group": "mcu_local_clearance"
+    },
+    "C84": {
+      "x": 79.4,
+      "y": 53.5,
+      "rotation_deg": 90,
+      "group": "mcu_local_clearance"
+    },
+    "C63": {
+      "x": 75.5,
+      "y": 41.5,
+      "rotation_deg": 0,
+      "group": "mcu_local_clearance"
+    },
+    "C67": {
+      "x": 75.5,
+      "y": 54.7,
+      "rotation_deg": 0,
+      "group": "mcu_local_clearance"
+    },
+    "C81": {
+      "x": 79.75,
+      "y": 56.5,
+      "rotation_deg": 90,
+      "group": "mcu_local_clearance"
+    },
+    "R13": {
+      "x": 81.75,
+      "y": 56.75,
+      "rotation_deg": 90,
+      "group": "mcu_local_clearance"
+    },
+    "R84": {
+      "x": 80,
+      "y": 43,
+      "rotation_deg": 180,
+      "group": "adc_rc_fanout"
+    },
+    "R85": {
+      "x": 80,
+      "y": 46,
+      "rotation_deg": 180,
+      "group": "adc_rc_fanout"
+    },
+    "R86": {
+      "x": 80,
+      "y": 48,
+      "rotation_deg": 180,
+      "group": "adc_rc_fanout"
+    },
+    "R87": {
+      "x": 83,
+      "y": 48,
+      "rotation_deg": 180,
+      "group": "adc_rc_fanout"
+    },
+    "R88": {
+      "x": 72,
+      "y": 35.5,
+      "rotation_deg": 270,
+      "group": "adc_rc_fanout"
+    },
+    "R89": {
+      "x": 69,
+      "y": 32,
+      "rotation_deg": 270,
+      "group": "adc_rc_fanout"
+    },
+    "R90": {
+      "x": 65,
+      "y": 32.5,
+      "rotation_deg": 270,
+      "group": "adc_rc_fanout"
+    },
+    "R91": {
+      "x": 73.5,
+      "y": 32.5,
+      "rotation_deg": 270,
+      "group": "adc_rc_fanout"
+    },
+    "R108": {
+      "x": 71.5,
+      "y": 31,
+      "rotation_deg": 90,
+      "group": "adc_rc_fanout"
+    },
+    "R109": {
+      "x": 67,
+      "y": 31,
+      "rotation_deg": 90,
+      "group": "adc_rc_fanout"
+    },
+    "R42": {
+      "x": 143,
+      "y": 86,
+      "rotation_deg": 90,
+      "group": "local_oc_references"
+    },
+    "R43": {
+      "x": 143,
+      "y": 89,
+      "rotation_deg": 90,
+      "group": "local_oc_references"
+    },
+    "R44": {
+      "x": 142.0,
+      "y": 92.5,
+      "rotation_deg": 90,
+      "group": "local_oc_references"
+    },
+    "R45": {
+      "x": 147,
+      "y": 86,
+      "rotation_deg": 90,
+      "group": "local_oc_references"
+    },
+    "R46": {
+      "x": 147,
+      "y": 89,
+      "rotation_deg": 90,
+      "group": "local_oc_references"
+    },
+    "R47": {
+      "x": 147,
+      "y": 92,
+      "rotation_deg": 90,
+      "group": "local_oc_references"
+    }
+  },
+  "measured_improvements": {
+    "C69": {
+      "mcu_pad": 8,
+      "before_cap_to_mcu_mm": 9.788,
+      "after_cap_to_mcu_mm": 4.016
+    },
+    "C70": {
+      "mcu_pad": 9,
+      "before_cap_to_mcu_mm": 9.381,
+      "after_cap_to_mcu_mm": 4.934
+    },
+    "C71": {
+      "mcu_pad": 10,
+      "before_cap_to_mcu_mm": 10.593,
+      "after_cap_to_mcu_mm": 2.689
+    },
+    "C72": {
+      "mcu_pad": 11,
+      "before_cap_to_mcu_mm": 12.977,
+      "after_cap_to_mcu_mm": 4.907
+    },
+    "C74": {
+      "mcu_pad": 24,
+      "before_cap_to_mcu_mm": 6.78,
+      "after_cap_to_mcu_mm": 4.203
+    },
+    "C75": {
+      "mcu_pad": 25,
+      "before_cap_to_mcu_mm": 10.534,
+      "after_cap_to_mcu_mm": 3.559
+    },
+    "C76": {
+      "mcu_pad": 26,
+      "before_cap_to_mcu_mm": 12.139,
+      "after_cap_to_mcu_mm": 2.41
+    },
+    "U10": {
+      "before_plus_mm": 16.519,
+      "after_plus_mm": 5.961,
+      "before_minus_mm": 10.364,
+      "after_minus_mm": 5.961,
+      "after_comp_input_mm": 10.032
+    },
+    "U11": {
+      "before_plus_mm": 17.072,
+      "after_plus_mm": 5.961,
+      "before_minus_mm": 11.02,
+      "after_minus_mm": 5.961,
+      "after_comp_input_mm": 10.032
+    },
+    "U12": {
+      "before_plus_mm": 17.271,
+      "after_plus_mm": 5.961,
+      "before_minus_mm": 11.387,
+      "after_minus_mm": 5.961,
+      "after_comp_input_mm": 11.547
+    }
+  },
+  "validation": {
+    "actual_footprints_checked": 317,
+    "changed_footprints": 48,
+    "courtyard_bbox_overlaps_after_refinement": 0,
+    "reserved_via_centers": [
+      [
+        133.95,
+        71.5
+      ],
+      [
+        139.9,
+        71.5
+      ],
+      [
+        157.95,
+        71.5
+      ],
+      [
+        163.9,
+        71.5
+      ]
+    ],
+    "via_keepout_halfwidth_mm": 0.7
+  },
+  "notes": [
+    "All F.Cu; positions are footprint origins and rotations follow pcbnew SetOrientationDegrees.",
+    "All unchanged actual footprint courtyards are treated as fixed. Changed parts are placed together without courtyard overlap; actual routed copper/thermal paths still require root DRC.",
+    "INA8 and INA1 face the matching shunt HIGH and LOW terminals. Both must still be separately routed Kelvin branches; a generic GND connection is not a Kelvin path.",
+    "U18/U19/U20 follow their INAs. Six OC reference resistors move to the quiet center so their threshold fanout remains near the comparator group.",
+    "Seven moved ADC shunt caps each satisfy actual pad-to-MCU-pad <=5mm; C73 remains at ~3.5mm. Route the post-R capacitor node directly to the corresponding ADC pad.",
+    "Y1 and its DNP capacitors move slightly down to make ADC space; C63/C67/NRST parts and two SPI resistors make local room. DNP, BOM and net assignments are unchanged.",
+    "The requested C21/C22 and VBUS/GND via-array locations are untouched and explicitly reserved.",
+    "W INA moves away from the Q7 BR_SW pad, from y82.5 to the shunt row around y71."
+  ]
+}

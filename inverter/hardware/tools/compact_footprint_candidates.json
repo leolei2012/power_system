@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "status": "Compact revision mechanical contract, project drafts; application qualification pending",
+  "footprint_map": {
+    "J2": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "J3": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+    "J4": "Inverter_Compact:WireSolder_3P_P15.00mm_D2.00mm",
+    "J5": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+    "J7": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+    "J8": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+    "J9": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+    "J10": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+    "J11": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+    "J12": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+    "J13": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+    "J14": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+    "J15": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+    "F1": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "F2": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "L1": "Inductor_SMD:L_Sunlord_MWSA0603S",
+    "L2": "Inductor_SMD:L_Sunlord_MWSA0603S",
+    "SW1": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+    "SW2": "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+  }
+}

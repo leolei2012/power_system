@@ -1,0 +1,2893 @@
+{
+  "field": "ki_fp_filters",
+  "reason": "KiCad 10 reserves ki_fp_filters for library footprint selection. Redundantly copying it to instance user fields causes PCB parity warnings because pcbnew drops the reserved name on PCB load. The embedded library filter is retained unchanged.",
+  "removed_instance_unit_fields": 345,
+  "affected_physical_references": 311,
+  "counts_by_sheet": {
+    "aux_input.kicad_sch": 14,
+    "bridge_u.kicad_sch": 16,
+    "bridge_v.kicad_sch": 16,
+    "bridge_w.kicad_sch": 16,
+    "bus_brake.kicad_sch": 17,
+    "comparators.kicad_sch": 18,
+    "control_interface.kicad_sch": 29,
+    "current_sense.kicad_sch": 26,
+    "debug_comms.kicad_sch": 27,
+    "fault_logic.kicad_sch": 22,
+    "mcu.kicad_sch": 7,
+    "mcu_analog.kicad_sch": 22,
+    "mcu_control.kicad_sch": 14,
+    "sensors.kicad_sch": 30,
+    "supply_12v.kicad_sch": 16,
+    "supply_logic.kicad_sch": 18,
+    "voltage_sense.kicad_sch": 37
+  },
+  "embedded_library_filters_preserved": true,
+  "all_other_native_semantics_preserved": true,
+  "files": [
+    {
+      "path": "aux_input.kicad_sch",
+      "before_sha256": "ecb68821bc0cccca3e5f3104cd6836d388c0d65d9d40f762c8eb62950669f93c",
+      "after_sha256": "f4efbc5a301fb8941326f11396a2c7de74a0e4af5502c2a49ef06322b76fc9af",
+      "embedded_lib_symbols_sha256": "0eae13492f5bc0e8119401edc02d5548dae1f38403af5c1a62cb8109ed1a282e"
+    },
+    {
+      "path": "bridge_u.kicad_sch",
+      "before_sha256": "859b5189f9040c623ef4c3fc6370d51730cfa0d907e5b44a0756d82ef974de67",
+      "after_sha256": "1a788fa89b949ea638d057a249800b16a5896469c3e3865eb3a75497899ccde3",
+      "embedded_lib_symbols_sha256": "5dff137cdbd6f1a0d695bc8d374cfa2444e6c89a2097b598a701312d16f098d1"
+    },
+    {
+      "path": "bridge_v.kicad_sch",
+      "before_sha256": "44b4a3c070cb22dca934783556a046b6e6abaf6567f6367adecf1eedea4774dd",
+      "after_sha256": "67cfa0042323b41db234c00617d8ffc6353cec4e2238a0744a4e8113aae0608b",
+      "embedded_lib_symbols_sha256": "5dff137cdbd6f1a0d695bc8d374cfa2444e6c89a2097b598a701312d16f098d1"
+    },
+    {
+      "path": "bridge_w.kicad_sch",
+      "before_sha256": "693a677c75fc8d2e90b224b2d8aed788537d83d5ff33f8c12b8aa31c6ceb0b03",
+      "after_sha256": "c94a553d9134c19f5592fb3ffb360518651c1da70fa4042421aa03c47915bc38",
+      "embedded_lib_symbols_sha256": "5dff137cdbd6f1a0d695bc8d374cfa2444e6c89a2097b598a701312d16f098d1"
+    },
+    {
+      "path": "bus_brake.kicad_sch",
+      "before_sha256": "0175de7ca56a166da022b55561d38e23e8fda5401cabf4a0cf4854da1bdfdc24",
+      "after_sha256": "7d4117ecd3f88cf283b443456fe06e9c04a00a95866ddd7f18cad42b6a831cdb",
+      "embedded_lib_symbols_sha256": "b8a7c9a05e561fbea73f05598b69a960795710e19df8a3213543fe7cb7ca09a4"
+    },
+    {
+      "path": "comparators.kicad_sch",
+      "before_sha256": "413daaa857006552a9630bdb9369157ee1a71d3021e6535a8a9a71c644e24781",
+      "after_sha256": "b715b684006210792d8675abe893a6a9b68dff222917ab05d2a60526bde1725c",
+      "embedded_lib_symbols_sha256": "071b9848b625a69358875e4cc72ddc0fd41b071a0e32fa9e36463524d2ffc5ac"
+    },
+    {
+      "path": "control_interface.kicad_sch",
+      "before_sha256": "438a83a8468af6ac0c517b18ff696504c7a3764137c9a09dd5dde6df016e72db",
+      "after_sha256": "5a3d678e51f9552110444b128ad44aee1864e85ac72aaa058017c30fce7f1584",
+      "embedded_lib_symbols_sha256": "bec8123d7c789f8bc85f4318fd2e6a33181bdd4ae69094af07957bb2281aa8c3"
+    },
+    {
+      "path": "current_sense.kicad_sch",
+      "before_sha256": "3847bfbf08d641f040bcd1d5c69ae5de62c1f14eb70520f00b814d2cddb9a73f",
+      "after_sha256": "76c1e49d46f14d148a093fbb7af8d3ea3044ca0ef90d2f786badea817522a86f",
+      "embedded_lib_symbols_sha256": "47cbdf6f42e339b418923d864d419549b34188edf1ba0155c34c328c64fc8ec1"
+    },
+    {
+      "path": "debug_comms.kicad_sch",
+      "before_sha256": "ec4f567f80229b08ae87df205958daac65e8a40a8c87a00c0e1e492539a62bff",
+      "after_sha256": "fa9221dc6fda8ba26da2c7a7cf6d7b8b214156e058e52f62051a9b377bc955dd",
+      "embedded_lib_symbols_sha256": "bbe1cc51f4c8cfaf59139ed0e6517c6c1c6f7c0e7b6d3e727d1c44b49cef3004"
+    },
+    {
+      "path": "fault_logic.kicad_sch",
+      "before_sha256": "44e32dde6e91962d0bd90aaf230f8b70c4144979afc1c73b39d28acc09802812",
+      "after_sha256": "3aa51f40d51aa95622dd70d5464731e165a71402d85b43e638996be53a6a8110",
+      "embedded_lib_symbols_sha256": "495d3c8ad719056895c57da104967a93637aa517864a810ecdad479bd6f50a1f"
+    },
+    {
+      "path": "mcu.kicad_sch",
+      "before_sha256": "a3f42ebfbbba991ca510e5775f2ecdb4bb9f3e941da820893ab9537c73309563",
+      "after_sha256": "4a35439fe05cf5a693cb55670d3bd6a2a84fd9e1f7e0a65a7d07c330f760505d",
+      "embedded_lib_symbols_sha256": "00fe6b0d37ea9d5378d86a5ea2a035ad364f8aff8a1f90e9d87affa7ca931bce"
+    },
+    {
+      "path": "mcu_analog.kicad_sch",
+      "before_sha256": "1eb500a995b3fbdb92a5f1edcf7126f63b1ac93061d8e981d2bfdb4f277a8fed",
+      "after_sha256": "2fdefa121da21b62c74d245e42e37f8cacc369755e7c68e298fdb68e9c38da93",
+      "embedded_lib_symbols_sha256": "efe1dc58be44aa0c2b6c2a26228f9801b190bb2f0839ac64446ffe71b8e903e1"
+    },
+    {
+      "path": "mcu_control.kicad_sch",
+      "before_sha256": "767163d94142ab3c0c999ce0dc7f08d9aff7ecbae1f583a4a688ff6eb88377ff",
+      "after_sha256": "00c5da58f744692b8a423d0377a342a3da8f93457f5e9db561561fda72627f20",
+      "embedded_lib_symbols_sha256": "8761e5e297d69bddbfb7f6df086fce619ebd7bbbca911bb070ff23bc68f866ff"
+    },
+    {
+      "path": "sensors.kicad_sch",
+      "before_sha256": "c7e06cb03f7a4d0256512637edaed1c6425fc5dda47499fe17e629af2ee83c15",
+      "after_sha256": "fd6c94a277b1a5f7b7218161b6d8fa203e8dc7c96a3f1d422375b767513bd64f",
+      "embedded_lib_symbols_sha256": "7611c5eac6fca97820f818e288c610c4f44f48d81a8ae5cfaf8f26b964dc4278"
+    },
+    {
+      "path": "supply_12v.kicad_sch",
+      "before_sha256": "f0994c04b73a57a226f992c2815437102a4b7014d50ef1db5a0547665c019aa9",
+      "after_sha256": "7a1edcc55882dd6d33bcfff67044a8143606d56936e6833a9ed6bffeae9d2a4d",
+      "embedded_lib_symbols_sha256": "01d11f1534908fe2dcd6fe86caeb535c58548dda8604113acd2a224568790693"
+    },
+    {
+      "path": "supply_logic.kicad_sch",
+      "before_sha256": "dfdd688924666bf943c84f3d5ea27391e5d456d3b19bb53e2c1830404a5352e4",
+      "after_sha256": "4a21e6b24ac9f2acdb1c8354f4eb57a5680452063809c8f1fe2eb69762d9cc82",
+      "embedded_lib_symbols_sha256": "4c7ddd7db1acd61d168715b98b272c4faf16ffabbc2324b76456cc12a54da4dc"
+    },
+    {
+      "path": "voltage_sense.kicad_sch",
+      "before_sha256": "08e696149dfaccc17fc72dc2c7de93227fe5fc366eff9ac85efeb3bd38234f89",
+      "after_sha256": "8c06138a70f7b3774beb4d1c4c0885e76d6f9de62ceda88e42f0876d8911d0e4",
+      "embedded_lib_symbols_sha256": "7bf3cab8151b82587dc37f5dfe9137eb2b9c5d86e833cbc794635e3399e20f26"
+    }
+  ],
+  "removed_fields": [
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "J2",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "F2",
+      "unit": 1,
+      "lib_id": "Device:Fuse",
+      "removed_instance_value": "*Fuse*",
+      "retained_library_value": "*Fuse*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "U1",
+      "unit": 1,
+      "lib_id": "MyParts:TPS26600PWPR",
+      "removed_instance_value": "HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm",
+      "retained_library_value": "HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "C1",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "C3",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R1",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R2",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R3",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R4",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R5",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R6",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "C2",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R7",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "aux_input.kicad_sch",
+      "reference": "R8",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "Q1",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "Q2",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "U7",
+      "unit": 1,
+      "lib_id": "MyParts:2ED2182S06FXUMA1",
+      "removed_instance_value": "SOIC-8_3.9x4.9mm_P1.27mm",
+      "retained_library_value": "SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "R19",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "R20",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "R21",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "R22",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "R23",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "R24",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "C25",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "C26",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "C27",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "C28",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "RS1",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "TP5",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "bridge_u.kicad_sch",
+      "reference": "TP6",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "Q3",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "Q4",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "U8",
+      "unit": 1,
+      "lib_id": "MyParts:2ED2182S06FXUMA1",
+      "removed_instance_value": "SOIC-8_3.9x4.9mm_P1.27mm",
+      "retained_library_value": "SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "R25",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "R26",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "R27",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "R28",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "R29",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "R30",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "C29",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "C30",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "C31",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "C32",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "RS2",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "TP7",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "bridge_v.kicad_sch",
+      "reference": "TP8",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "Q5",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "Q6",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "U9",
+      "unit": 1,
+      "lib_id": "MyParts:2ED2182S06FXUMA1",
+      "removed_instance_value": "SOIC-8_3.9x4.9mm_P1.27mm",
+      "retained_library_value": "SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "R31",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "R32",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "R33",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "R34",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "R35",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "R36",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "C33",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "C34",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "C35",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "C36",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "RS3",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "TP9",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "bridge_w.kicad_sch",
+      "reference": "TP10",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "J3",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "F1",
+      "unit": 1,
+      "lib_id": "Device:Fuse",
+      "removed_instance_value": "*Fuse*",
+      "retained_library_value": "*Fuse*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "D1",
+      "unit": 1,
+      "lib_id": "InverterLocal:STPS40150CG_TR_CANDIDATE",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "C19",
+      "unit": 1,
+      "lib_id": "MyParts:EKYB101ELL221MK25S",
+      "removed_instance_value": "CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "retained_library_value": "CP_Radial_D12.5mm_H25mm_P5.00mm"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "C20",
+      "unit": 1,
+      "lib_id": "MyParts:EKYB101ELL221MK25S",
+      "removed_instance_value": "CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "retained_library_value": "CP_Radial_D12.5mm_H25mm_P5.00mm"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "C21",
+      "unit": 1,
+      "lib_id": "MyParts:CS1210KKX7R0BB225",
+      "removed_instance_value": "C_1210_3225Metric",
+      "retained_library_value": "C_1210_3225Metric"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "C22",
+      "unit": 1,
+      "lib_id": "MyParts:CS1210KKX7R0BB225",
+      "removed_instance_value": "C_1210_3225Metric",
+      "retained_library_value": "C_1210_3225Metric"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "D2",
+      "unit": 1,
+      "lib_id": "Device:D_TVS",
+      "removed_instance_value": "TO-???* *_Diode_* *SingleDiode* D_*",
+      "retained_library_value": "TO-???* *_Diode_* *SingleDiode* D_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "J4",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x03",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "U29",
+      "unit": 1,
+      "lib_id": "MyParts:UCC27517DBVR",
+      "removed_instance_value": "SOT-23-5",
+      "retained_library_value": "SOT-23-5"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "R16",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "R17",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "R18",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "Q7",
+      "unit": 1,
+      "lib_id": "InverterLocal:IRFS4227TRLPBF",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "C23",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "C24",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "bus_brake.kicad_sch",
+      "reference": "J5",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U18",
+      "unit": 1,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U18",
+      "unit": 2,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U18",
+      "unit": 3,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "C51",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U19",
+      "unit": 1,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U19",
+      "unit": 2,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U19",
+      "unit": 3,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "C52",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U20",
+      "unit": 1,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U20",
+      "unit": 2,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U20",
+      "unit": 3,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "C53",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U21",
+      "unit": 1,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U21",
+      "unit": 2,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "R71",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "R72",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "U21",
+      "unit": 3,
+      "lib_id": "MyParts:TLV3202AIDGK",
+      "removed_instance_value": "VSSOP-8_3x3mm_P0.65mm",
+      "retained_library_value": "VSSOP-8_3x3mm_P0.65mm"
+    },
+    {
+      "sheet_file": "comparators.kicad_sch",
+      "reference": "C54",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U25",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R76",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U25",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R77",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U25",
+      "unit": 4,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R78",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U26",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R79",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U26",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R80",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U26",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R81",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R83",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "R82",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U22",
+      "unit": 5,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "C56",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U23",
+      "unit": 5,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "C57",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U24",
+      "unit": 5,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "C58",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U25",
+      "unit": 5,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "C59",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U26",
+      "unit": 5,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "C60",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U27",
+      "unit": 5,
+      "lib_id": "MyParts:74LVC00APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "C61",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U26",
+      "unit": 4,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U27",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC00APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "control_interface.kicad_sch",
+      "reference": "U27",
+      "unit": 4,
+      "lib_id": "MyParts:74LVC00APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "U10",
+      "unit": 1,
+      "lib_id": "MyParts:INA241A1IDDFR",
+      "removed_instance_value": "SOT-23-8",
+      "retained_library_value": "SOT-23-8"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R37",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "C37",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "TP11",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "U11",
+      "unit": 1,
+      "lib_id": "MyParts:INA241A1IDDFR",
+      "removed_instance_value": "SOT-23-8",
+      "retained_library_value": "SOT-23-8"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R38",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "C38",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "TP12",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "U12",
+      "unit": 1,
+      "lib_id": "MyParts:INA241A1IDDFR",
+      "removed_instance_value": "SOT-23-8",
+      "retained_library_value": "SOT-23-8"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R39",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "C39",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "TP13",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R40",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R41",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "C40",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "U13",
+      "unit": 1,
+      "lib_id": "MyParts:TLV9001IDCKR",
+      "removed_instance_value": "SOT-353_SC-70-5",
+      "retained_library_value": "SOT-353_SC-70-5"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "C41",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R42",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R43",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R44",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R45",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R46",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "R47",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "U28",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC74AD_118",
+      "removed_instance_value": "SOIC-14_3.9x8.7mm_P1.27mm",
+      "retained_library_value": "SOIC-14_3.9x8.7mm_P1.27mm"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "U28",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC74AD_118",
+      "removed_instance_value": "SOIC-14_3.9x8.7mm_P1.27mm",
+      "retained_library_value": "SOIC-14_3.9x8.7mm_P1.27mm"
+    },
+    {
+      "sheet_file": "current_sense.kicad_sch",
+      "reference": "C62",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "J13",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x05",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R120",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R121",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "C81",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R122",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "TP15",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "J14",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x03",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R123",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R124",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R125",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "U31",
+      "unit": 1,
+      "lib_id": "MyParts:SN65HVD232DR",
+      "removed_instance_value": "SOIC-8_3.9x4.9mm_P1.27mm",
+      "retained_library_value": "SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R126",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R127",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R128",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "C82",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "J15",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x03",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R129",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R130",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "D3",
+      "unit": 1,
+      "lib_id": "Device:LED",
+      "removed_instance_value": "LED* LED_SMD:* LED_THT:*",
+      "retained_library_value": "LED* LED_SMD:* LED_THT:*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R131",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "D4",
+      "unit": 1,
+      "lib_id": "Device:LED",
+      "removed_instance_value": "LED* LED_SMD:* LED_THT:*",
+      "retained_library_value": "LED* LED_SMD:* LED_THT:*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R132",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "D5",
+      "unit": 1,
+      "lib_id": "Device:LED",
+      "removed_instance_value": "LED* LED_SMD:* LED_THT:*",
+      "retained_library_value": "LED* LED_SMD:* LED_THT:*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R133",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "D6",
+      "unit": 1,
+      "lib_id": "Device:LED",
+      "removed_instance_value": "LED* LED_SMD:* LED_THT:*",
+      "retained_library_value": "LED* LED_SMD:* LED_THT:*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "R134",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "debug_comms.kicad_sch",
+      "reference": "D7",
+      "unit": 1,
+      "lib_id": "Device:LED",
+      "removed_instance_value": "LED* LED_SMD:* LED_THT:*",
+      "retained_library_value": "LED* LED_SMD:* LED_THT:*"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U22",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U22",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U22",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U22",
+      "unit": 4,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U23",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U23",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U23",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U23",
+      "unit": 4,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U24",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U24",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U27",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC00APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U24",
+      "unit": 3,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "R73",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "C55",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U28",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC74AD_118",
+      "removed_instance_value": "SOIC-14_3.9x8.7mm_P1.27mm",
+      "retained_library_value": "SOIC-14_3.9x8.7mm_P1.27mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "TP14",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U24",
+      "unit": 4,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U25",
+      "unit": 1,
+      "lib_id": "MyParts:74LVC08APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "U27",
+      "unit": 2,
+      "lib_id": "MyParts:74LVC00APW_118",
+      "removed_instance_value": "TSSOP-14_4.4x5mm_P0.65mm",
+      "retained_library_value": "TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "R74",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "Q8",
+      "unit": 1,
+      "lib_id": "InverterLocal:MMBT3904LT1G",
+      "removed_instance_value": "*",
+      "retained_library_value": "*"
+    },
+    {
+      "sheet_file": "fault_logic.kicad_sch",
+      "reference": "R75",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "U30",
+      "unit": 1,
+      "lib_id": "InverterLocal:STM32G431RBT6",
+      "removed_instance_value": "LQFP*10x10mm*P0.5mm*",
+      "retained_library_value": "LQFP*10x10mm*P0.5mm*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "C63",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "C64",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "C65",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "C66",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "C67",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu.kicad_sch",
+      "reference": "C68",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R84",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C69",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R85",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C70",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R86",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C71",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R87",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C72",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R88",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C73",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R89",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C74",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R90",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C75",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R91",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C76",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R92",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "R93",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C77",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C78",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C79",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_analog.kicad_sch",
+      "reference": "C80",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R135",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R136",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R137",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R138",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R139",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R140",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R141",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "TP17",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R142",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "R143",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "TP16",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "Y1",
+      "unit": 1,
+      "lib_id": "Device:Crystal_GND24",
+      "removed_instance_value": "Crystal*",
+      "retained_library_value": "Crystal*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "C83",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "mcu_control.kicad_sch",
+      "reference": "C84",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "J9",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x05",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R94",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R95",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R96",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R97",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R98",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R99",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R100",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "J11",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x06",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R108",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R109",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R110",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R111",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R112",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R113",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "J10",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x05",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R101",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R102",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R103",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R104",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R105",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R106",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R107",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "J12",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x06",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R114",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R115",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R116",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R117",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R118",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "sensors.kicad_sch",
+      "reference": "R119",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "U2",
+      "unit": 1,
+      "lib_id": "MyParts:TPS55165QPWPRQ1",
+      "removed_instance_value": "TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm",
+      "retained_library_value": "TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "L1",
+      "unit": 1,
+      "lib_id": "Device:L",
+      "removed_instance_value": "Choke_* *Coil* Inductor_* L_*",
+      "retained_library_value": "Choke_* *Coil* Inductor_* L_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C4",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C5",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C6",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C7",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C8",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C9",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "C10",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "R9",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "R10",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "R11",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "R12",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "TP1",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "TP2",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "supply_12v.kicad_sch",
+      "reference": "TP3",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "U3",
+      "unit": 1,
+      "lib_id": "MyParts:AP63205WU-7",
+      "removed_instance_value": "TSOT-23-6",
+      "retained_library_value": "TSOT-23-6"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C11",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C12",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "L2",
+      "unit": 1,
+      "lib_id": "Device:L",
+      "removed_instance_value": "Choke_* *Coil* Inductor_* L_*",
+      "retained_library_value": "Choke_* *Coil* Inductor_* L_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C13",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C14",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "U4",
+      "unit": 1,
+      "lib_id": "MyParts:TPS7A2033PDBVR",
+      "removed_instance_value": "SOT-23-5",
+      "retained_library_value": "SOT-23-5"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C15",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C16",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "U6",
+      "unit": 1,
+      "lib_id": "MyParts:TPS3808G33DBVR",
+      "removed_instance_value": "SOT-23-6",
+      "retained_library_value": "SOT-23-6"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C17",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "R13",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "U5",
+      "unit": 1,
+      "lib_id": "MyParts:TPS2553QDBVRQ1",
+      "removed_instance_value": "SOT-23-6",
+      "retained_library_value": "SOT-23-6"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "R14",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "R15",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "C18",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "J7",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    },
+    {
+      "sheet_file": "supply_logic.kicad_sch",
+      "reference": "TP4",
+      "unit": 1,
+      "lib_id": "Connector:TestPoint",
+      "removed_instance_value": "Pin* Test*",
+      "retained_library_value": "Pin* Test*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R48",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R49",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R50",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R51",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C42",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "U14",
+      "unit": 1,
+      "lib_id": "MyParts:TLV9001IDCKR",
+      "removed_instance_value": "SOT-353_SC-70-5",
+      "retained_library_value": "SOT-353_SC-70-5"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R52",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C43",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R53",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R54",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R55",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R56",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C44",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "U15",
+      "unit": 1,
+      "lib_id": "MyParts:TLV9001IDCKR",
+      "removed_instance_value": "SOT-353_SC-70-5",
+      "retained_library_value": "SOT-353_SC-70-5"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R57",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C45",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R58",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R59",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R60",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R61",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C46",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "U16",
+      "unit": 1,
+      "lib_id": "MyParts:TLV9001IDCKR",
+      "removed_instance_value": "SOT-353_SC-70-5",
+      "retained_library_value": "SOT-353_SC-70-5"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R62",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C47",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R63",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R64",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R65",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R66",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C48",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "U17",
+      "unit": 1,
+      "lib_id": "MyParts:TLV9001IDCKR",
+      "removed_instance_value": "SOT-353_SC-70-5",
+      "retained_library_value": "SOT-353_SC-70-5"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R67",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C49",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R68",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R69",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "R70",
+      "unit": 1,
+      "lib_id": "Device:R",
+      "removed_instance_value": "R_*",
+      "retained_library_value": "R_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "C50",
+      "unit": 1,
+      "lib_id": "Device:C",
+      "removed_instance_value": "C_*",
+      "retained_library_value": "C_*"
+    },
+    {
+      "sheet_file": "voltage_sense.kicad_sch",
+      "reference": "J8",
+      "unit": 1,
+      "lib_id": "Connector_Generic:Conn_01x02",
+      "removed_instance_value": "Connector*:*_1x??_*",
+      "retained_library_value": "Connector*:*_1x??_*"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "Planning only; no ERC/DRC, ADC timing or runtime validation claimed.",
+  "signal_pad_pool": 86,
+  "power_pads": 14,
+  "planned": 62,
+  "optional_second_brake_pin_reserves": 1,
+  "allocated_or_reserved": 63,
+  "unallocated": 23,
+  "ADC_independent_connectors_total": 10,
+  "unallocated_ADC_capable_pads_without_terminals": 8,
+  "independent_SPI_buses": 2,
+  "independent_I2C_buses": 2,
+  "ABZ_interfaces": 2,
+  "CAN_interfaces": 1,
+  "TTL_UART_interfaces": 1,
+  "PWM_ports": 2,
+  "contacts_per_PWM_port": 8,
+  "PWM_signals_total": 12,
+  "ground_contacts_total": 4,
+  "full_CSV_matches_JSON": true,
+  "all_100_package_pads_accounted_for": true,
+  "full_100_pin_CSV_matches_independent_pin_pool": true,
+  "duplicate_GPIO_or_pin": false,
+  "native_protected_files_unchanged": true,
+  "native_hashes": {
+    "controller/hardware/g431_core/controller.kicad_sch": "144bfe4602f50e1c35f447b42cec397e454a0063a16bd51e1339b514f81a0fd5",
+    "controller/hardware/g431_core/controller.kicad_pcb": "00ff41b76c650b255ecb764b31ca10304ceb86030d61b25ac067c998bb4bf07c",
+    "controller/hardware/g431_core/STM32G431RBT6_pin_plan.csv": "964f0d8fadee55cea60fae64154bebc7dd9bb3412ffc79325668bcffb75d17dc",
+    "inverter/hardware/inverter.kicad_sch": "0db30c67b5441b0d07c2a1268779398d794c88211bb3e86370a5e3c42af316d1",
+    "inverter/hardware/inverter.kicad_pcb": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792"
+  },
+  "AF_manual_review": "ST DS12589 Table13; added I2C2 PA9/PA8 AF4 independently reviewed.",
+  "analog_budget_review": "Ten total ports reused between alternative applications: standalone Boost 4, standalone Vienna 9; no motor plus PFC simultaneous requirement.",
+  "motor_and_PFC_simultaneous": false,
+  "ADC_mode_example_rows": 10,
+  "ADC_example_used_ports_by_mode": {
+    "single_motor": 8,
+    "dual_motor": 10,
+    "Boost": 4,
+    "Vienna": 9
+  },
+  "ADC_usage_example_CSV_matches_counts": true,
+  "connector_inventory": {
+    "PCB_connector_bodies": 24,
+    "contacts_including_repeated_rails": 91,
+    "brake_signal_in_CTRL_not_double_counted": true,
+    "ADC2P_PWM8P_family_accepted_for_planning": true
+  }
+}

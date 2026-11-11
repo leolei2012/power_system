@@ -1,0 +1,4104 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T09:34:22",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 C81",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 130.75
+                    },
+                    "uuid": "00285712-2c7f-487b-98c5-cb854d8b7179"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 C83",
+                    "pos": {
+                        "x": 124.7,
+                        "y": 128.8
+                    },
+                    "uuid": "1f228b66-2461-4fce-b40d-ac966dd1b853"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 C84",
+                    "pos": {
+                        "x": 125.7,
+                        "y": 135.4
+                    },
+                    "uuid": "3524042c-b653-445d-bf07-08af1be1d7cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R122",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 135.3
+                    },
+                    "uuid": "ab895032-f1a5-417a-bbf3-5a63ad02da77"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R401",
+                    "pos": {
+                        "x": 146.2,
+                        "y": 154.5
+                    },
+                    "uuid": "dffccb87-a2bd-4eb1-ad16-b42d816ad410"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 TP15",
+                    "pos": {
+                        "x": 146.5,
+                        "y": 150.0
+                    },
+                    "uuid": "67d61f12-cbad-4b23-b554-0939a52cdf05"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 Y1",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 132.0
+                    },
+                    "uuid": "aecab51a-6a1a-4962-ade8-27a1c9275220"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 C301",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 111.3
+                    },
+                    "uuid": "2c09f171-a7d6-466d-beda-32733493314e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 C302",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 106.65
+                    },
+                    "uuid": "d440804f-a9b8-43c7-aa7c-a6993c7b7ff0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 C303",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 106.65
+                    },
+                    "uuid": "a9a05e44-0a36-42ca-aa69-8d4547682a65"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R301",
+                    "pos": {
+                        "x": 111.2,
+                        "y": 108.0
+                    },
+                    "uuid": "c61f48ab-d954-489e-8334-8b1cfdbc9bb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R304",
+                    "pos": {
+                        "x": 135.8,
+                        "y": 109.2
+                    },
+                    "uuid": "86e7f3d6-0033-436f-90cb-1f683b4dc55a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R305",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 114.8
+                    },
+                    "uuid": "a72d4446-c9eb-4f15-8362-f37a1893261c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R306",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 117.5
+                    },
+                    "uuid": "51a8365b-b302-420a-8a94-798ccb46b914"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "封装中缺少符号字段 'ki_fp_filters'",
+            "items": [
+                {
+                    "description": "封装 R402",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 129.25
+                    },
+                    "uuid": "47dbf31c-17b3-4f10-baff-e88b3710f7a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "controller.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 32 [+3V3_MCU]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 149.05
+                    },
+                    "uuid": "ce3c2fad-02f1-4c28-8300-37496a947306"
+                },
+                {
+                    "description": "F.Cu 上 R302 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 111.975,
+                        "y": 142.0
+                    },
+                    "uuid": "49929b48-77cd-41ad-860b-d714dbdb09a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 48 [+3V3_MCU]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 133.75
+                    },
+                    "uuid": "1f4426bd-09de-4a62-a2e2-cdd23d6548f6"
+                },
+                {
+                    "description": "B.Cu 上 C65 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 111.02,
+                        "y": 133.75
+                    },
+                    "uuid": "a46581d4-1da6-4b8e-b48a-c744a3844ed2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 48 [+3V3_MCU]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 133.75
+                    },
+                    "uuid": "1f4426bd-09de-4a62-a2e2-cdd23d6548f6"
+                },
+                {
+                    "description": "J101 的PTH 焊盘 22 [+3V3_MCU]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 136.35
+                    },
+                    "uuid": "d0c5c4d1-d938-4c03-a0a7-35bc4bc339d4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C65 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 111.02,
+                        "y": 133.75
+                    },
+                    "uuid": "a46581d4-1da6-4b8e-b48a-c744a3844ed2"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 32 [+3V3_MCU]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 124.25
+                    },
+                    "uuid": "6f28b687-985d-411c-a542-6f9e5ffead1b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R302 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 111.975,
+                        "y": 142.0
+                    },
+                    "uuid": "49929b48-77cd-41ad-860b-d714dbdb09a8"
+                },
+                {
+                    "description": "F.Cu 上 U104 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 115.95,
+                        "y": 142.05
+                    },
+                    "uuid": "64ec471f-1ea8-4420-a284-1665f7f97c4a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 32 [+3V3_MCU]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 124.25
+                    },
+                    "uuid": "6f28b687-985d-411c-a542-6f9e5ffead1b"
+                },
+                {
+                    "description": "F.Cu 上 C64 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 122.63
+                    },
+                    "uuid": "65967857-e7fc-4749-87af-1edc4c215207"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R92 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 112.79,
+                        "y": 116.8
+                    },
+                    "uuid": "aee7d13a-35c3-4316-a113-1c0520476e62"
+                },
+                {
+                    "description": "F.Cu 上 C64 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 122.63
+                    },
+                    "uuid": "65967857-e7fc-4749-87af-1edc4c215207"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C68 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 115.225,
+                        "y": 139.2
+                    },
+                    "uuid": "453c4ef0-08b8-4397-841e-a2e21120937b"
+                },
+                {
+                    "description": "B.Cu 上 C65 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 111.02,
+                        "y": 133.75
+                    },
+                    "uuid": "a46581d4-1da6-4b8e-b48a-c744a3844ed2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U104 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 115.95,
+                        "y": 142.05
+                    },
+                    "uuid": "64ec471f-1ea8-4420-a284-1665f7f97c4a"
+                },
+                {
+                    "description": "F.Cu 上 C68 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 115.225,
+                        "y": 139.2
+                    },
+                    "uuid": "453c4ef0-08b8-4397-841e-a2e21120937b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U104 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 115.95,
+                        "y": 142.05
+                    },
+                    "uuid": "64ec471f-1ea8-4420-a284-1665f7f97c4a"
+                },
+                {
+                    "description": "F.Cu 上 C305 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.94,
+                        "y": 144.5
+                    },
+                    "uuid": "c171d288-378e-4c04-aecf-fe29253c4e2a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 64 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 135.75
+                    },
+                    "uuid": "bd4fac3f-141f-457a-abbd-f8c83da18294"
+                },
+                {
+                    "description": "F.Cu 上 C66 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 137.32
+                    },
+                    "uuid": "335eb190-4edf-459c-951d-835f8e81a2f3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 64 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 135.75
+                    },
+                    "uuid": "bd4fac3f-141f-457a-abbd-f8c83da18294"
+                },
+                {
+                    "description": "B.Cu 上 C67 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.92,
+                        "y": 133.75
+                    },
+                    "uuid": "1cd83495-fac4-43f5-8012-7df1e9677af1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C66 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 137.32
+                    },
+                    "uuid": "335eb190-4edf-459c-951d-835f8e81a2f3"
+                },
+                {
+                    "description": "F.Cu 上 C68 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 115.225,
+                        "y": 139.2
+                    },
+                    "uuid": "453c4ef0-08b8-4397-841e-a2e21120937b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C305 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.94,
+                        "y": 144.5
+                    },
+                    "uuid": "c171d288-378e-4c04-aecf-fe29253c4e2a"
+                },
+                {
+                    "description": "F.Cu 上 SW3 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 136.25,
+                        "y": 156.5
+                    },
+                    "uuid": "43c72396-46dd-4f87-bb2b-c1b377c074ce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 16 [+3V3_MCU]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 126.25
+                    },
+                    "uuid": "cd39975a-6539-433a-85ed-3088a17e4792"
+                },
+                {
+                    "description": "F.Cu 上 C63 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 126.88
+                    },
+                    "uuid": "df082225-c961-44f0-a324-6cd091ebb2d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.75
+                    },
+                    "uuid": "3190f1aa-6e48-40c5-b686-994b1b3285be"
+                },
+                {
+                    "description": "B.Cu 上 C67 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 120.92,
+                        "y": 133.75
+                    },
+                    "uuid": "1cd83495-fac4-43f5-8012-7df1e9677af1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C63 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 126.88
+                    },
+                    "uuid": "df082225-c961-44f0-a324-6cd091ebb2d9"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.75
+                    },
+                    "uuid": "3190f1aa-6e48-40c5-b686-994b1b3285be"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C63 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 126.88
+                    },
+                    "uuid": "df082225-c961-44f0-a324-6cd091ebb2d9"
+                },
+                {
+                    "description": "F.Cu 上 R306 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 118.325
+                    },
+                    "uuid": "ea841977-b5ce-4a1a-9135-466e0026d907"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 2 [+3V3_MCU]",
+                    "pos": {
+                        "x": 133.3875,
+                        "y": 106.0
+                    },
+                    "uuid": "515c36fd-bde3-4c86-8b19-018f5ca07862"
+                },
+                {
+                    "description": "F.Cu 上 U101 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 133.3875,
+                        "y": 106.65
+                    },
+                    "uuid": "8ec84ebe-2346-4efe-9eed-d7b04a74d11c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 133.3875,
+                        "y": 106.65
+                    },
+                    "uuid": "8ec84ebe-2346-4efe-9eed-d7b04a74d11c"
+                },
+                {
+                    "description": "F.Cu 上 C303 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 135.05,
+                        "y": 106.65
+                    },
+                    "uuid": "4777fd28-b145-49ee-8924-9f41690c1c55"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R306 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 118.325
+                    },
+                    "uuid": "ea841977-b5ce-4a1a-9135-466e0026d907"
+                },
+                {
+                    "description": "F.Cu 上 U103 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 139.1,
+                        "y": 118.55
+                    },
+                    "uuid": "f88713d5-a128-4172-90b0-58d8adb50b6b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C304 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 135.725,
+                        "y": 104.0
+                    },
+                    "uuid": "0e07fdd6-3ba3-4e3b-90b7-d3e958231afa"
+                },
+                {
+                    "description": "F.Cu 上 D103 的焊盘 2 [+3V3_MCU]",
+                    "pos": {
+                        "x": 133.9,
+                        "y": 102.7
+                    },
+                    "uuid": "d09c4c6a-2516-4de6-bde1-46aee4036cdc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C304 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 135.725,
+                        "y": 104.0
+                    },
+                    "uuid": "0e07fdd6-3ba3-4e3b-90b7-d3e958231afa"
+                },
+                {
+                    "description": "F.Cu 上 C303 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 135.05,
+                        "y": 106.65
+                    },
+                    "uuid": "4777fd28-b145-49ee-8924-9f41690c1c55"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U102 的焊盘 6 [+3V3_MCU]",
+                    "pos": {
+                        "x": 136.9375,
+                        "y": 111.55
+                    },
+                    "uuid": "df4c66a2-46a5-439c-887a-219edbd98140"
+                },
+                {
+                    "description": "F.Cu 上 U102 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 136.9375,
+                        "y": 112.5
+                    },
+                    "uuid": "9b932926-6f93-420e-a794-1243aeb05567"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U102 的焊盘 6 [+3V3_MCU]",
+                    "pos": {
+                        "x": 136.9375,
+                        "y": 111.55
+                    },
+                    "uuid": "df4c66a2-46a5-439c-887a-219edbd98140"
+                },
+                {
+                    "description": "F.Cu 上 C303 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 135.05,
+                        "y": 106.65
+                    },
+                    "uuid": "4777fd28-b145-49ee-8924-9f41690c1c55"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U103 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 139.1,
+                        "y": 118.55
+                    },
+                    "uuid": "f88713d5-a128-4172-90b0-58d8adb50b6b"
+                },
+                {
+                    "description": "F.Cu 上 U105 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 138.8,
+                        "y": 125.55
+                    },
+                    "uuid": "c91ee572-f86e-4a0f-b66b-158ca3adfaf6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C306 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 139.225,
+                        "y": 112.5
+                    },
+                    "uuid": "5f9b5e3e-6eef-474b-804f-5e8226a85d0d"
+                },
+                {
+                    "description": "F.Cu 上 U102 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 136.9375,
+                        "y": 112.5
+                    },
+                    "uuid": "9b932926-6f93-420e-a794-1243aeb05567"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C307 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 140.225,
+                        "y": 116.5
+                    },
+                    "uuid": "a3b8da0d-54a2-40bc-b3f0-38a3a9ac3fe0"
+                },
+                {
+                    "description": "F.Cu 上 U103 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 139.1,
+                        "y": 118.55
+                    },
+                    "uuid": "f88713d5-a128-4172-90b0-58d8adb50b6b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C307 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 140.225,
+                        "y": 116.5
+                    },
+                    "uuid": "a3b8da0d-54a2-40bc-b3f0-38a3a9ac3fe0"
+                },
+                {
+                    "description": "F.Cu 上 C306 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 139.225,
+                        "y": 112.5
+                    },
+                    "uuid": "5f9b5e3e-6eef-474b-804f-5e8226a85d0d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C308 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 140.925,
+                        "y": 125.7
+                    },
+                    "uuid": "ef58a3b6-4eb5-4aaa-b35e-052612b041de"
+                },
+                {
+                    "description": "F.Cu 上 U105 的焊盘 5 [+3V3_MCU]",
+                    "pos": {
+                        "x": 138.8,
+                        "y": 125.55
+                    },
+                    "uuid": "c91ee572-f86e-4a0f-b66b-158ca3adfaf6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 21 [GND]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 136.35
+                    },
+                    "uuid": "f22ffe0e-55b5-4992-a1d1-aaf7173c4642"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 47 [GND]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 133.25
+                    },
+                    "uuid": "94a6e25f-6427-4494-be86-09f80d37365a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 31 [GND]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 149.05
+                    },
+                    "uuid": "74e6f753-8df2-4274-8e8d-6da4cae30a67"
+                },
+                {
+                    "description": "F.Cu 上 R303 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 111.975,
+                        "y": 145.0
+                    },
+                    "uuid": "f34123ef-7a9f-485b-9cac-a9e5077aee13"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 4 [GND]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 113.49
+                    },
+                    "uuid": "a9fb51c0-1744-4c43-a00c-f5ee2e3b6cb8"
+                },
+                {
+                    "description": "J101 的PTH 焊盘 2 [GND]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 110.95
+                    },
+                    "uuid": "6928d1e5-0748-4de7-85b8-57bf91cf8c7f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 4 [GND]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 113.49
+                    },
+                    "uuid": "a9fb51c0-1744-4c43-a00c-f5ee2e3b6cb8"
+                },
+                {
+                    "description": "F.Cu 上 C78 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 114.575,
+                        "y": 119.4
+                    },
+                    "uuid": "e908f37b-779a-4e22-b205-7a13188861f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 47 [GND]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 133.25
+                    },
+                    "uuid": "94a6e25f-6427-4494-be86-09f80d37365a"
+                },
+                {
+                    "description": "B.Cu 上 C65 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 111.98,
+                        "y": 133.75
+                    },
+                    "uuid": "cadbd7dd-9fb1-49b7-b6bc-002d3d8d2873"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R303 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 111.975,
+                        "y": 145.0
+                    },
+                    "uuid": "f34123ef-7a9f-485b-9cac-a9e5077aee13"
+                },
+                {
+                    "description": "F.Cu 上 U104 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 118.05,
+                        "y": 143.0
+                    },
+                    "uuid": "d0c085d3-9dd9-4685-80db-1482efd02753"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C65 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 111.98,
+                        "y": 133.75
+                    },
+                    "uuid": "cadbd7dd-9fb1-49b7-b6bc-002d3d8d2873"
+                },
+                {
+                    "description": "B.Cu 上 R122 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 134.79
+                    },
+                    "uuid": "8607945c-48c3-43b5-94fc-e94c12a809ce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C64 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 121.67
+                    },
+                    "uuid": "01adbc70-4555-4f02-88e0-e62eca740438"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 31 [GND]",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 124.25
+                    },
+                    "uuid": "15c77b1b-35ae-499e-92e4-93da6cd59b5c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 R402 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 112.825,
+                        "y": 129.25
+                    },
+                    "uuid": "54093680-e330-4159-9d6c-870b45d743ea"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 47 [GND]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 133.25
+                    },
+                    "uuid": "94a6e25f-6427-4494-be86-09f80d37365a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 31 [GND]",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 124.25
+                    },
+                    "uuid": "15c77b1b-35ae-499e-92e4-93da6cd59b5c"
+                },
+                {
+                    "description": "B.Cu 上 R402 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 112.825,
+                        "y": 129.25
+                    },
+                    "uuid": "54093680-e330-4159-9d6c-870b45d743ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C77 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 114.3,
+                        "y": 121.67
+                    },
+                    "uuid": "f1e7b58a-a4f1-403b-8213-b825b93aa59a"
+                },
+                {
+                    "description": "F.Cu 上 C64 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 121.67
+                    },
+                    "uuid": "01adbc70-4555-4f02-88e0-e62eca740438"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C77 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 114.3,
+                        "y": 121.67
+                    },
+                    "uuid": "f1e7b58a-a4f1-403b-8213-b825b93aa59a"
+                },
+                {
+                    "description": "F.Cu 上 C79 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 121.67
+                    },
+                    "uuid": "1ce87b8e-f2c4-4d75-ae70-f96479410da0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C77 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 114.3,
+                        "y": 121.67
+                    },
+                    "uuid": "f1e7b58a-a4f1-403b-8213-b825b93aa59a"
+                },
+                {
+                    "description": "F.Cu 上 C78 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 114.575,
+                        "y": 119.4
+                    },
+                    "uuid": "e908f37b-779a-4e22-b205-7a13188861f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 27 [GND]",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 124.25
+                    },
+                    "uuid": "ef0231e7-fe81-48bf-a9c6-13324fc58c9a"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 31 [GND]",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 124.25
+                    },
+                    "uuid": "15c77b1b-35ae-499e-92e4-93da6cd59b5c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C79 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 121.67
+                    },
+                    "uuid": "1ce87b8e-f2c4-4d75-ae70-f96479410da0"
+                },
+                {
+                    "description": "F.Cu 上 C80 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.275,
+                        "y": 119.4
+                    },
+                    "uuid": "2a499644-e52e-4941-8e10-5ce1ce5cedcf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C68 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.775,
+                        "y": 139.2
+                    },
+                    "uuid": "66dd024e-c861-437f-bc0a-54d4e8826218"
+                },
+                {
+                    "description": "F.Cu 上 C66 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 138.28
+                    },
+                    "uuid": "bddac079-6098-4c73-a8f6-bd53eb645507"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C68 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.775,
+                        "y": 139.2
+                    },
+                    "uuid": "66dd024e-c861-437f-bc0a-54d4e8826218"
+                },
+                {
+                    "description": "F.Cu 上 U104 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 118.05,
+                        "y": 143.0
+                    },
+                    "uuid": "d0c085d3-9dd9-4685-80db-1482efd02753"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C301 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 117.05,
+                        "y": 111.3
+                    },
+                    "uuid": "5ac24a7e-c724-4c71-b83e-85467722a635"
+                },
+                {
+                    "description": "F.Cu 上 D101 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.435,
+                        "y": 106.0
+                    },
+                    "uuid": "b333af7f-97da-4d30-862a-0237de4de611"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C301 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 117.05,
+                        "y": 111.3
+                    },
+                    "uuid": "5ac24a7e-c724-4c71-b83e-85467722a635"
+                },
+                {
+                    "description": "F.Cu 上 C80 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.275,
+                        "y": 119.4
+                    },
+                    "uuid": "2a499644-e52e-4941-8e10-5ce1ce5cedcf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 R122 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 134.79
+                    },
+                    "uuid": "8607945c-48c3-43b5-94fc-e94c12a809ce"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 63 [GND]",
+                    "pos": {
+                        "x": 119.75,
+                        "y": 135.75
+                    },
+                    "uuid": "700506cf-284f-4e12-9d8c-d63157c079d1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 63 [GND]",
+                    "pos": {
+                        "x": 119.75,
+                        "y": 135.75
+                    },
+                    "uuid": "700506cf-284f-4e12-9d8c-d63157c079d1"
+                },
+                {
+                    "description": "F.Cu 上 C66 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 138.28
+                    },
+                    "uuid": "bddac079-6098-4c73-a8f6-bd53eb645507"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 63 [GND]",
+                    "pos": {
+                        "x": 119.75,
+                        "y": 135.75
+                    },
+                    "uuid": "700506cf-284f-4e12-9d8c-d63157c079d1"
+                },
+                {
+                    "description": "B.Cu 上 C67 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 121.88,
+                        "y": 133.75
+                    },
+                    "uuid": "f2bb1516-b5c9-4e9b-819f-13a7086bf0e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C67 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 121.88,
+                        "y": 133.75
+                    },
+                    "uuid": "f2bb1516-b5c9-4e9b-819f-13a7086bf0e9"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 133.1
+                    },
+                    "uuid": "5df01b66-f645-43d3-aaef-50d8dd958663"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C81 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 121.98,
+                        "y": 130.75
+                    },
+                    "uuid": "e047b242-dc0e-4d70-a944-578bf5d9f6cc"
+                },
+                {
+                    "description": "B.Cu 上 C67 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 121.88,
+                        "y": 133.75
+                    },
+                    "uuid": "f2bb1516-b5c9-4e9b-819f-13a7086bf0e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 122.75,
+                        "y": 156.5
+                    },
+                    "uuid": "fe18f130-bbe2-4c36-bf3d-456101acc94d"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 31 [GND]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 149.05
+                    },
+                    "uuid": "20dee76c-0607-4660-9db2-488399b797b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C305 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 123.86,
+                        "y": 144.5
+                    },
+                    "uuid": "0a4fd899-859f-4fa3-aeed-66afd718de83"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 27 [GND]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 143.97
+                    },
+                    "uuid": "6b80ce49-93ec-4a67-8193-e4a1b464ef26"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C305 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 123.86,
+                        "y": 144.5
+                    },
+                    "uuid": "0a4fd899-859f-4fa3-aeed-66afd718de83"
+                },
+                {
+                    "description": "F.Cu 上 U104 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 118.05,
+                        "y": 143.0
+                    },
+                    "uuid": "d0c085d3-9dd9-4685-80db-1482efd02753"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 133.1
+                    },
+                    "uuid": "5df01b66-f645-43d3-aaef-50d8dd958663"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 125.95,
+                        "y": 130.9
+                    },
+                    "uuid": "3126cb9c-fae9-4007-8d47-676ee8c56d89"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C63 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 125.92
+                    },
+                    "uuid": "ea377792-cc3d-4238-b1e5-b058148c42d9"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 15 [GND]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 126.75
+                    },
+                    "uuid": "9cc50bd6-17c0-4fa3-948f-806391cb44f3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C83 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.18,
+                        "y": 128.8
+                    },
+                    "uuid": "72399853-a248-42a6-9d58-a9b72393c8a6"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 125.95,
+                        "y": 130.9
+                    },
+                    "uuid": "3126cb9c-fae9-4007-8d47-676ee8c56d89"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C83 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.18,
+                        "y": 128.8
+                    },
+                    "uuid": "72399853-a248-42a6-9d58-a9b72393c8a6"
+                },
+                {
+                    "description": "F.Cu 上 C63 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 125.92
+                    },
+                    "uuid": "ea377792-cc3d-4238-b1e5-b058148c42d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C84 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 126.18,
+                        "y": 135.4
+                    },
+                    "uuid": "b8994183-8d0e-42a5-ac83-3e34b3a34b2a"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 133.1
+                    },
+                    "uuid": "5df01b66-f645-43d3-aaef-50d8dd958663"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 9 [GND]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 121.11
+                    },
+                    "uuid": "f3c29821-4122-4bb9-98a9-24d0222583ac"
+                },
+                {
+                    "description": "F.Cu 上 C63 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 125.92
+                    },
+                    "uuid": "ea377792-cc3d-4238-b1e5-b058148c42d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 9 [GND]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 121.11
+                    },
+                    "uuid": "f3c29821-4122-4bb9-98a9-24d0222583ac"
+                },
+                {
+                    "description": "F.Cu 上 U103 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 120.45
+                    },
+                    "uuid": "8f9e3f08-c2ea-4480-aa53-dde2f3dd288b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 31 [GND]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 149.05
+                    },
+                    "uuid": "20dee76c-0607-4660-9db2-488399b797b1"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 27 [GND]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 143.97
+                    },
+                    "uuid": "6b80ce49-93ec-4a67-8193-e4a1b464ef26"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 5 [GND]",
+                    "pos": {
+                        "x": 131.6125,
+                        "y": 106.0
+                    },
+                    "uuid": "e24a5e92-522c-44e1-b3c1-b9cd4836c5cf"
+                },
+                {
+                    "description": "F.Cu 上 U101 的焊盘 7 [GND]",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 106.0
+                    },
+                    "uuid": "94d5ccf1-5f77-4649-9a3b-389dc4417835"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 5 [GND]",
+                    "pos": {
+                        "x": 131.6125,
+                        "y": 106.0
+                    },
+                    "uuid": "e24a5e92-522c-44e1-b3c1-b9cd4836c5cf"
+                },
+                {
+                    "description": "F.Cu 上 C302 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 128.05,
+                        "y": 106.65
+                    },
+                    "uuid": "944fe6cd-3867-4906-a20a-a302cf319d1b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 133.3875,
+                        "y": 105.35
+                    },
+                    "uuid": "92e132cd-f962-41e3-a0b7-e98e4e9145ea"
+                },
+                {
+                    "description": "F.Cu 上 U101 的焊盘 7 [GND]",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 106.0
+                    },
+                    "uuid": "94d5ccf1-5f77-4649-9a3b-389dc4417835"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U102 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 134.6625,
+                        "y": 112.5
+                    },
+                    "uuid": "39163ee5-0ae9-436f-b90c-e1660043affd"
+                },
+                {
+                    "description": "F.Cu 上 R305 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 140.325,
+                        "y": 114.8
+                    },
+                    "uuid": "47825368-297a-4b39-b062-89e923d80baa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U103 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 120.45
+                    },
+                    "uuid": "8f9e3f08-c2ea-4480-aa53-dde2f3dd288b"
+                },
+                {
+                    "description": "F.Cu 上 U105 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 136.2,
+                        "y": 127.45
+                    },
+                    "uuid": "195f3cbb-ec12-4990-bd17-5789ff95dbd9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C303 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 136.95,
+                        "y": 106.65
+                    },
+                    "uuid": "6ecd2b69-6069-4fa4-9fc8-5a99b36b0ac7"
+                },
+                {
+                    "description": "F.Cu 上 C304 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 137.275,
+                        "y": 104.0
+                    },
+                    "uuid": "e75e2470-817c-4809-9b2d-e054b1efcad0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C303 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 136.95,
+                        "y": 106.65
+                    },
+                    "uuid": "6ecd2b69-6069-4fa4-9fc8-5a99b36b0ac7"
+                },
+                {
+                    "description": "F.Cu 上 U101 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 133.3875,
+                        "y": 105.35
+                    },
+                    "uuid": "92e132cd-f962-41e3-a0b7-e98e4e9145ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C303 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 136.95,
+                        "y": 106.65
+                    },
+                    "uuid": "6ecd2b69-6069-4fa4-9fc8-5a99b36b0ac7"
+                },
+                {
+                    "description": "F.Cu 上 U102 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 134.6625,
+                        "y": 112.5
+                    },
+                    "uuid": "39163ee5-0ae9-436f-b90c-e1660043affd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R305 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 140.325,
+                        "y": 114.8
+                    },
+                    "uuid": "47825368-297a-4b39-b062-89e923d80baa"
+                },
+                {
+                    "description": "F.Cu 上 C307 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 141.775,
+                        "y": 116.5
+                    },
+                    "uuid": "27ce4958-f92c-45ee-a560-0ff16d3a201c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R305 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 140.325,
+                        "y": 114.8
+                    },
+                    "uuid": "47825368-297a-4b39-b062-89e923d80baa"
+                },
+                {
+                    "description": "F.Cu 上 C306 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 140.775,
+                        "y": 112.5
+                    },
+                    "uuid": "5ab187df-efcd-4abc-ab23-6c6624e0dd9c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C307 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 141.775,
+                        "y": 116.5
+                    },
+                    "uuid": "27ce4958-f92c-45ee-a560-0ff16d3a201c"
+                },
+                {
+                    "description": "F.Cu 上 U103 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 120.45
+                    },
+                    "uuid": "8f9e3f08-c2ea-4480-aa53-dde2f3dd288b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C308 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 142.475,
+                        "y": 125.7
+                    },
+                    "uuid": "07697dbf-7617-45d1-a321-339fb36aa3b2"
+                },
+                {
+                    "description": "F.Cu 上 U105 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 136.2,
+                        "y": 127.45
+                    },
+                    "uuid": "195f3cbb-ec12-4990-bd17-5789ff95dbd9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D102 的焊盘 1 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 124.7,
+                        "y": 106.7
+                    },
+                    "uuid": "41ed1f74-72ca-4be2-b4f2-b70e68a0b649"
+                },
+                {
+                    "description": "F.Cu 上 C302 的焊盘 1 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 129.95,
+                        "y": 106.65
+                    },
+                    "uuid": "f6455efd-40b8-49cb-854e-93a7c582d039"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C302 的焊盘 1 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 129.95,
+                        "y": 106.65
+                    },
+                    "uuid": "f6455efd-40b8-49cb-854e-93a7c582d039"
+                },
+                {
+                    "description": "F.Cu 上 U101 的焊盘 6 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 131.6125,
+                        "y": 106.65
+                    },
+                    "uuid": "69dd9f09-67a5-46f5-b9bf-c4b2e5c5edee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 4 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 131.6125,
+                        "y": 105.35
+                    },
+                    "uuid": "1c251b54-6f46-4263-8eb3-693011a6f9bd"
+                },
+                {
+                    "description": "F.Cu 上 D103 的焊盘 1 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 131.1,
+                        "y": 102.7
+                    },
+                    "uuid": "86095491-0b13-40cc-adbe-19df21b16f26"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U101 的焊盘 6 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 131.6125,
+                        "y": 106.65
+                    },
+                    "uuid": "69dd9f09-67a5-46f5-b9bf-c4b2e5c5edee"
+                },
+                {
+                    "description": "F.Cu 上 U101 的焊盘 4 [/Local power and reset/CORE_LDO_IN]",
+                    "pos": {
+                        "x": 131.6125,
+                        "y": 105.35
+                    },
+                    "uuid": "1c251b54-6f46-4263-8eb3-693011a6f9bd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 5 [HSE_IN]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 131.75
+                    },
+                    "uuid": "597a8f45-1f53-498b-978e-a4c8d459cf32"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 1 [HSE_IN]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 130.9
+                    },
+                    "uuid": "7f690054-0c63-4baf-95a8-2e3e9eeef0cd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 5 [HSE_IN]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 131.75
+                    },
+                    "uuid": "597a8f45-1f53-498b-978e-a4c8d459cf32"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 29 [HSE_IN]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 146.51
+                    },
+                    "uuid": "4c965e83-1eb8-4e0c-ad29-41f108b0b2dd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 1 [HSE_IN]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 130.9
+                    },
+                    "uuid": "7f690054-0c63-4baf-95a8-2e3e9eeef0cd"
+                },
+                {
+                    "description": "F.Cu 上 C83 的焊盘 1 [HSE_IN]",
+                    "pos": {
+                        "x": 124.22,
+                        "y": 128.8
+                    },
+                    "uuid": "ce95546d-6503-44da-bb3b-52cb8c483554"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D101 的焊盘 1 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 113.165,
+                        "y": 106.0
+                    },
+                    "uuid": "47e2ba11-9f95-412d-8ab8-a4384eb5140d"
+                },
+                {
+                    "description": "F.Cu 上 R301 的焊盘 2 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 111.2,
+                        "y": 107.0875
+                    },
+                    "uuid": "1e16ced6-c25c-448f-98ff-50dbd1b653ca"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C301 的焊盘 1 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 118.95,
+                        "y": 111.3
+                    },
+                    "uuid": "e7016e7c-2f9d-4fa6-9e65-f3511b6556b1"
+                },
+                {
+                    "description": "F.Cu 上 D102 的焊盘 2 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 120.7,
+                        "y": 106.7
+                    },
+                    "uuid": "dc13c401-719a-4c91-aaab-5b68b0edda43"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D102 的焊盘 2 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 120.7,
+                        "y": 106.7
+                    },
+                    "uuid": "dc13c401-719a-4c91-aaab-5b68b0edda43"
+                },
+                {
+                    "description": "F.Cu 上 D101 的焊盘 1 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 113.165,
+                        "y": 106.0
+                    },
+                    "uuid": "47e2ba11-9f95-412d-8ab8-a4384eb5140d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R304 的焊盘 1 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 134.975,
+                        "y": 109.2
+                    },
+                    "uuid": "5f7ecbca-a685-4d13-95e2-77e80baa9a17"
+                },
+                {
+                    "description": "F.Cu 上 D102 的焊盘 2 [/Local power and reset/CORE_5V_TVS]",
+                    "pos": {
+                        "x": 120.7,
+                        "y": 106.7
+                    },
+                    "uuid": "dc13c401-719a-4c91-aaab-5b68b0edda43"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 1 [+5V_CORE_IN]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 110.95
+                    },
+                    "uuid": "3a484a39-d37a-4131-8a34-c1fbb74173c6"
+                },
+                {
+                    "description": "J101 的PTH 焊盘 3 [+5V_CORE_IN]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 113.49
+                    },
+                    "uuid": "77ffe6d9-01a1-445b-948b-e6c83564ffc1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R301 的焊盘 1 [+5V_CORE_IN]",
+                    "pos": {
+                        "x": 111.2,
+                        "y": 108.9125
+                    },
+                    "uuid": "d695b380-638d-4608-807c-b055a5847ef9"
+                },
+                {
+                    "description": "J101 的PTH 焊盘 1 [+5V_CORE_IN]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 110.95
+                    },
+                    "uuid": "3a484a39-d37a-4131-8a34-c1fbb74173c6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 5 [PA0]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 116.03
+                    },
+                    "uuid": "fef3c107-7611-4a78-98c5-ed7cc22f5278"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 12 [PA0]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 128.25
+                    },
+                    "uuid": "ac29c411-3b24-4dd4-87ad-9cbae8fd4425"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 6 [PA1]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 116.03
+                    },
+                    "uuid": "86d484fb-cff1-4f87-86a6-516398b508d5"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 13 [PA1]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 127.75
+                    },
+                    "uuid": "b6e292f5-2d28-401e-8dd6-4fdb008b0d3c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 7 [PA2]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 118.57
+                    },
+                    "uuid": "87ea9e5a-00a6-46aa-a267-46e61b2a6f96"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 14 [PA2]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 127.25
+                    },
+                    "uuid": "27bed975-b4d8-49b9-b296-5db66ef73071"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 8 [PA3]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 118.57
+                    },
+                    "uuid": "43fc6b00-341b-4bc4-8b78-78312bfe2181"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 17 [PA3]",
+                    "pos": {
+                        "x": 120.25,
+                        "y": 124.25
+                    },
+                    "uuid": "53f2d0a9-be60-4f65-a547-bc766d9949b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 9 [PA4]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 121.11
+                    },
+                    "uuid": "f9e8e97e-6be5-4223-8c01-9fbb150fc00e"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 18 [PA4]",
+                    "pos": {
+                        "x": 119.75,
+                        "y": 124.25
+                    },
+                    "uuid": "be57ce1f-2328-44ac-943d-89affc00cb9c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 10 [PA5]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 121.11
+                    },
+                    "uuid": "1d9160c2-a811-459b-9067-f5fa5d50937a"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 19 [PA5]",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 124.25
+                    },
+                    "uuid": "d0e04d95-5764-4fdc-b13c-e1941922e931"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 11 [PA6]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 123.65
+                    },
+                    "uuid": "9cc2c155-f2e7-407b-a137-7e6064ada9af"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 20 [PA6]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 124.25
+                    },
+                    "uuid": "e6f4768b-e69a-4301-bc7a-e83a95bf5269"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 12 [PA7]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 123.65
+                    },
+                    "uuid": "9bb2ea4d-feaa-4874-8614-55b73c7785b7"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 21 [PA7]",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 124.25
+                    },
+                    "uuid": "ad07d392-1400-437e-a1b7-d3bc161d2079"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 13 [PA8]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 126.19
+                    },
+                    "uuid": "d930bf94-6727-4981-8aa6-424549174bb4"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 42 [PA8]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 130.75
+                    },
+                    "uuid": "726fb5e9-c8e0-4a4d-a0e6-d9723d982ff9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 14 [PA9]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 126.19
+                    },
+                    "uuid": "fb79980d-6550-410e-8c03-344b8b205a78"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 43 [PA9]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 131.25
+                    },
+                    "uuid": "c37a58ed-24be-4e7f-9ec8-222c73ef55a5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 15 [PA10]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 128.73
+                    },
+                    "uuid": "bb98f619-8324-4f8f-81d5-533c3dc08a8a"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 44 [PA10]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 131.75
+                    },
+                    "uuid": "03097053-3da8-409f-bdfe-63b68b48376a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 16 [PA11]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 128.73
+                    },
+                    "uuid": "6696df8b-8491-467f-887d-b834b6fbe3d5"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 45 [PA11]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 132.25
+                    },
+                    "uuid": "2045a8c5-a6c5-4347-bd35-b2c7b7a1f7b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 17 [PA12]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 131.27
+                    },
+                    "uuid": "dd637b8e-761c-44eb-bdc9-f7bf06d3f567"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 46 [PA12]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 132.75
+                    },
+                    "uuid": "8d14f932-4ae8-4796-a551-36fe49a43132"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 18 [PA13]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 131.27
+                    },
+                    "uuid": "d8b9fa04-1884-4a94-85b5-0f7d0e441cb7"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 49 [PA13]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 135.75
+                    },
+                    "uuid": "57949d3a-5d4e-457c-829a-592f3323c171"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 19 [PA14]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 133.81
+                    },
+                    "uuid": "7f9b87d5-4cc0-4841-a8c5-63ded8fd6aa4"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 50 [PA14]",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 135.75
+                    },
+                    "uuid": "e59d7b83-fb20-4ab1-af7a-4757ef25228e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 20 [PA15]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 133.81
+                    },
+                    "uuid": "b20be5ec-075d-4b01-980f-fa62cfd6de94"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 51 [PA15]",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 135.75
+                    },
+                    "uuid": "def5cac7-9e7a-4c86-9f97-8c018b9b3845"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 23 [PB0]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 138.89
+                    },
+                    "uuid": "a0510e03-3823-47f8-b1e7-9920edfa6a95"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 24 [PB0]",
+                    "pos": {
+                        "x": 116.75,
+                        "y": 124.25
+                    },
+                    "uuid": "9bd1d923-7acf-4e26-a402-b35bb9a65149"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 24 [PB1]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 138.89
+                    },
+                    "uuid": "4a9f664f-be07-4e08-afb0-85f22a4c651e"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 25 [PB1]",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 124.25
+                    },
+                    "uuid": "6de97e44-f56b-446d-9c9c-a4dee1502c50"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 25 [PB2]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 141.43
+                    },
+                    "uuid": "7e44b8f8-876b-4374-8895-8412b25abaac"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 26 [PB2]",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 124.25
+                    },
+                    "uuid": "8365ab7e-2f7e-4389-8244-6377830b61ee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 26 [PB3]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 141.43
+                    },
+                    "uuid": "79f569a7-5ff8-4a9c-a275-9eb8d15f3ecf"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 56 [PB3]",
+                    "pos": {
+                        "x": 116.25,
+                        "y": 135.75
+                    },
+                    "uuid": "0bcc63d9-c708-4ebe-9f47-d0d651d5c425"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 27 [PB4]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 143.97
+                    },
+                    "uuid": "e5cbf16b-317b-473a-a23e-b508f5765772"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 57 [PB4]",
+                    "pos": {
+                        "x": 116.75,
+                        "y": 135.75
+                    },
+                    "uuid": "fae4ccea-5c07-4cef-975a-6289fa04e75c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 28 [PB5]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 143.97
+                    },
+                    "uuid": "5bcd8793-5881-45d2-a604-4f871152aa49"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 58 [PB5]",
+                    "pos": {
+                        "x": 117.25,
+                        "y": 135.75
+                    },
+                    "uuid": "348da542-b79e-4694-9c82-4d089e6a3fa2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 29 [PB6]",
+                    "pos": {
+                        "x": 104.73,
+                        "y": 146.51
+                    },
+                    "uuid": "7427e7f4-c8a2-4116-8401-8f5171bd87b6"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 59 [PB6]",
+                    "pos": {
+                        "x": 117.75,
+                        "y": 135.75
+                    },
+                    "uuid": "e6f7d0ca-5820-46c7-9af3-ae0b8da06cd0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J101 的PTH 焊盘 30 [PB7]",
+                    "pos": {
+                        "x": 107.27,
+                        "y": 146.51
+                    },
+                    "uuid": "f31a35a5-6423-4d41-8871-1312d837c4d3"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 60 [PB7]",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 135.75
+                    },
+                    "uuid": "51d14a4b-2669-4133-b437-d07d14639d77"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C84 的焊盘 1 [HSE_OUT]",
+                    "pos": {
+                        "x": 125.22,
+                        "y": 135.4
+                    },
+                    "uuid": "484f1da3-c7d1-41d3-87cb-eec5ccd0286f"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 3 [HSE_OUT]",
+                    "pos": {
+                        "x": 125.95,
+                        "y": 133.1
+                    },
+                    "uuid": "327758e5-130c-48f7-99da-1171ef095759"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 3 [HSE_OUT]",
+                    "pos": {
+                        "x": 125.95,
+                        "y": 133.1
+                    },
+                    "uuid": "327758e5-130c-48f7-99da-1171ef095759"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 6 [HSE_OUT]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 131.25
+                    },
+                    "uuid": "4a6f66a8-4de1-44e0-ba6a-b380b88cdba9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 30 [HSE_OUT]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 146.51
+                    },
+                    "uuid": "d65f73e2-e0c4-458d-b684-690b7925f9a0"
+                },
+                {
+                    "description": "F.Cu 上 C84 的焊盘 1 [HSE_OUT]",
+                    "pos": {
+                        "x": 125.22,
+                        "y": 135.4
+                    },
+                    "uuid": "484f1da3-c7d1-41d3-87cb-eec5ccd0286f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW2 的焊盘 1 [NRST]",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 156.5
+                    },
+                    "uuid": "b5c04601-5f46-4189-80bd-83b9bd648d65"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 32 [NRST]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 149.05
+                    },
+                    "uuid": "e7d17552-67d5-4902-bb8b-8b1ceaa1d94f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 7 [NRST]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 130.75
+                    },
+                    "uuid": "15e6770c-0756-4ce3-8bbe-14ea30c593f2"
+                },
+                {
+                    "description": "B.Cu 上 C81 的焊盘 1 [NRST]",
+                    "pos": {
+                        "x": 121.02,
+                        "y": 130.75
+                    },
+                    "uuid": "998c902c-add0-41db-b67f-6a81c74936f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 32 [NRST]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 149.05
+                    },
+                    "uuid": "e7d17552-67d5-4902-bb8b-8b1ceaa1d94f"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 7 [NRST]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 130.75
+                    },
+                    "uuid": "15e6770c-0756-4ce3-8bbe-14ea30c593f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R306 的焊盘 2 [NRST]",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 116.675
+                    },
+                    "uuid": "8c0c62fe-a644-4df9-9461-7562aa96abd6"
+                },
+                {
+                    "description": "F.Cu 上 U103 的焊盘 2 [NRST]",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 119.5
+                    },
+                    "uuid": "21271cf0-3cc5-45d0-9a68-f92837458cf9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R306 的焊盘 2 [NRST]",
+                    "pos": {
+                        "x": 134.8,
+                        "y": 116.675
+                    },
+                    "uuid": "8c0c62fe-a644-4df9-9461-7562aa96abd6"
+                },
+                {
+                    "description": "F.Cu 上 U102 的焊盘 1 [NRST]",
+                    "pos": {
+                        "x": 134.6625,
+                        "y": 111.55
+                    },
+                    "uuid": "250221ee-b00f-43e7-a000-78c071a9a229"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U103 的焊盘 2 [NRST]",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 119.5
+                    },
+                    "uuid": "21271cf0-3cc5-45d0-9a68-f92837458cf9"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 7 [NRST]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 130.75
+                    },
+                    "uuid": "15e6770c-0756-4ce3-8bbe-14ea30c593f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 61 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 135.75
+                    },
+                    "uuid": "9a164d78-b0ed-4c77-810e-e04dd62179d9"
+                },
+                {
+                    "description": "B.Cu 上 R122 的焊盘 1 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 135.81
+                    },
+                    "uuid": "d490e4f1-d574-41ff-a484-bc30abbd29c2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 R122 的焊盘 1 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 135.81
+                    },
+                    "uuid": "d490e4f1-d574-41ff-a484-bc30abbd29c2"
+                },
+                {
+                    "description": "F.Cu 上 TP15 的焊盘 1 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 146.5,
+                        "y": 150.0
+                    },
+                    "uuid": "ec90bdcb-fa5c-4a1e-a90f-2a369149b745"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 1 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 110.95
+                    },
+                    "uuid": "46bdafa0-c353-40ea-9d24-d9bf5cd3133d"
+                },
+                {
+                    "description": "F.Cu 上 U30 的焊盘 61 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 135.75
+                    },
+                    "uuid": "9a164d78-b0ed-4c77-810e-e04dd62179d9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R401 的焊盘 2 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 146.2,
+                        "y": 153.675
+                    },
+                    "uuid": "47fb1389-6bd9-4f6d-a689-5cade20f32fd"
+                },
+                {
+                    "description": "F.Cu 上 TP15 的焊盘 1 [PB8_BOOT0]",
+                    "pos": {
+                        "x": 146.5,
+                        "y": 150.0
+                    },
+                    "uuid": "ec90bdcb-fa5c-4a1e-a90f-2a369149b745"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C78 的焊盘 1 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 113.025,
+                        "y": 119.4
+                    },
+                    "uuid": "3fa154b6-b321-4e53-aa46-4e68520170a1"
+                },
+                {
+                    "description": "F.Cu 上 C77 的焊盘 1 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 114.3,
+                        "y": 122.63
+                    },
+                    "uuid": "5bcc5da2-452a-4f0d-93c6-9c8b846bfa60"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R92 的焊盘 2 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 113.81,
+                        "y": 116.8
+                    },
+                    "uuid": "3cae6276-6e66-4068-b542-631048a0b472"
+                },
+                {
+                    "description": "F.Cu 上 C78 的焊盘 1 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 113.025,
+                        "y": 119.4
+                    },
+                    "uuid": "3fa154b6-b321-4e53-aa46-4e68520170a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 29 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 124.25
+                    },
+                    "uuid": "62737f6a-50d5-4867-9a72-1bb445d43d63"
+                },
+                {
+                    "description": "F.Cu 上 C77 的焊盘 1 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 114.3,
+                        "y": 122.63
+                    },
+                    "uuid": "5bcc5da2-452a-4f0d-93c6-9c8b846bfa60"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R93 的焊盘 1 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 116.39,
+                        "y": 116.8
+                    },
+                    "uuid": "3cacde38-b753-472b-98cb-4f2669243742"
+                },
+                {
+                    "description": "F.Cu 上 R92 的焊盘 2 [+3V3_A_MCU]",
+                    "pos": {
+                        "x": 113.81,
+                        "y": 116.8
+                    },
+                    "uuid": "3cae6276-6e66-4068-b542-631048a0b472"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U102 的焊盘 3 [/Local power and reset/CORE_MR_5V_PRESENT]",
+                    "pos": {
+                        "x": 134.6625,
+                        "y": 113.45
+                    },
+                    "uuid": "c9562277-e795-463c-8bb3-36db3830bded"
+                },
+                {
+                    "description": "F.Cu 上 R305 的焊盘 1 [/Local power and reset/CORE_MR_5V_PRESENT]",
+                    "pos": {
+                        "x": 138.675,
+                        "y": 114.8
+                    },
+                    "uuid": "d877d129-d9bb-4b28-8993-d44acbb3bfe9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R304 的焊盘 2 [/Local power and reset/CORE_MR_5V_PRESENT]",
+                    "pos": {
+                        "x": 136.625,
+                        "y": 109.2
+                    },
+                    "uuid": "b0ed55e2-2c7a-49e0-a9f4-194d320cbcc3"
+                },
+                {
+                    "description": "F.Cu 上 U102 的焊盘 3 [/Local power and reset/CORE_MR_5V_PRESENT]",
+                    "pos": {
+                        "x": 134.6625,
+                        "y": 113.45
+                    },
+                    "uuid": "c9562277-e795-463c-8bb3-36db3830bded"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW3 的焊盘 2 [Net-(R401-Pad1)]",
+                    "pos": {
+                        "x": 143.75,
+                        "y": 156.5
+                    },
+                    "uuid": "d28b1b9c-1a9d-4332-8998-b98da084e60d"
+                },
+                {
+                    "description": "F.Cu 上 R401 的焊盘 1 [Net-(R401-Pad1)]",
+                    "pos": {
+                        "x": 146.2,
+                        "y": 155.325
+                    },
+                    "uuid": "c392e5f4-4446-4687-bb23-4c06d4c189cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 28 [VREF_MCU]",
+                    "pos": {
+                        "x": 114.75,
+                        "y": 124.25
+                    },
+                    "uuid": "305ccefb-1d17-4e6d-9a90-1ae65103fafa"
+                },
+                {
+                    "description": "F.Cu 上 C79 的焊盘 1 [VREF_MCU]",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 122.63
+                    },
+                    "uuid": "91c12171-215a-43b4-9fdc-763a93a3637c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C79 的焊盘 1 [VREF_MCU]",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 122.63
+                    },
+                    "uuid": "91c12171-215a-43b4-9fdc-763a93a3637c"
+                },
+                {
+                    "description": "F.Cu 上 C80 的焊盘 1 [VREF_MCU]",
+                    "pos": {
+                        "x": 116.725,
+                        "y": 119.4
+                    },
+                    "uuid": "d8b76121-6d15-47f5-bb04-1f6e3c915a06"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C80 的焊盘 1 [VREF_MCU]",
+                    "pos": {
+                        "x": 116.725,
+                        "y": 119.4
+                    },
+                    "uuid": "d8b76121-6d15-47f5-bb04-1f6e3c915a06"
+                },
+                {
+                    "description": "F.Cu 上 R93 的焊盘 2 [VREF_MCU]",
+                    "pos": {
+                        "x": 117.41,
+                        "y": 116.8
+                    },
+                    "uuid": "3fc018da-1484-4f39-817c-1f2cc3711b60"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R302 的焊盘 2 [/Local power and reset/CORE_SHUNT_REF]",
+                    "pos": {
+                        "x": 113.625,
+                        "y": 142.0
+                    },
+                    "uuid": "6861b684-208f-4157-b4ef-877672809583"
+                },
+                {
+                    "description": "F.Cu 上 R303 的焊盘 1 [/Local power and reset/CORE_SHUNT_REF]",
+                    "pos": {
+                        "x": 113.625,
+                        "y": 145.0
+                    },
+                    "uuid": "bdfee908-d197-4240-8ade-14cda0b2f890"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 R303 的焊盘 1 [/Local power and reset/CORE_SHUNT_REF]",
+                    "pos": {
+                        "x": 113.625,
+                        "y": 145.0
+                    },
+                    "uuid": "bdfee908-d197-4240-8ade-14cda0b2f890"
+                },
+                {
+                    "description": "F.Cu 上 U104 的焊盘 2 [/Local power and reset/CORE_SHUNT_REF]",
+                    "pos": {
+                        "x": 115.95,
+                        "y": 143.95
+                    },
+                    "uuid": "3d484add-6b47-4456-91b1-8bcd7c64fa67"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 2 [PC13]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.25
+                    },
+                    "uuid": "913ae2bc-c434-43ec-a8ed-0ff7381b29fe"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 24 [PC13]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 138.89
+                    },
+                    "uuid": "2d09a715-84ec-4f51-87bf-e72aee6cc8b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 3 [PC14]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 132.75
+                    },
+                    "uuid": "7b955d29-65e6-42b7-873f-5032284a9544"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 25 [PC14]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 141.43
+                    },
+                    "uuid": "7d7d21e6-8ad2-4dea-b9df-2300531deeee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 4 [PC15]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 132.25
+                    },
+                    "uuid": "59e220b6-7a96-4d4f-8a07-ad0947d0461b"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 26 [PC15]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 141.43
+                    },
+                    "uuid": "b5dc258b-48f1-4d89-9aef-e5caed6526c1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 8 [PC0]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 130.25
+                    },
+                    "uuid": "724049b9-6376-40ec-a02f-4c453ad7eb32"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 11 [PC0]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 123.65
+                    },
+                    "uuid": "c2942eb6-91a3-48ba-a7b0-2e0abfee7843"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 9 [PC1]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 129.75
+                    },
+                    "uuid": "11ac2b1e-640c-4ec1-9bc1-b51b1e4a72ae"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 12 [PC1]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 123.65
+                    },
+                    "uuid": "00ac2eb3-c108-4c82-96ba-e382437f28ac"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 10 [PC2]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 129.25
+                    },
+                    "uuid": "ef6687d7-e75f-4089-a5f3-e34847c43f0e"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 13 [PC2]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 126.19
+                    },
+                    "uuid": "b304f0f9-c3f3-4e43-8692-eebad5edcec4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 11 [PC3]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 128.75
+                    },
+                    "uuid": "4ea735f6-5e95-42bd-ac33-12aa9a1020f7"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 14 [PC3]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 126.19
+                    },
+                    "uuid": "4f048f61-acc5-438c-8b78-630b9e8af474"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 22 [PC4]",
+                    "pos": {
+                        "x": 117.75,
+                        "y": 124.25
+                    },
+                    "uuid": "6e34db5f-74c3-41e4-87e0-132f4580442a"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 15 [PC4]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 128.73
+                    },
+                    "uuid": "68b76330-57cc-417a-86f5-35d651e0b44b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 23 [PC5]",
+                    "pos": {
+                        "x": 117.25,
+                        "y": 124.25
+                    },
+                    "uuid": "17ee17b6-c6be-4fde-a02c-fe4501409734"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 16 [PC5]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 128.73
+                    },
+                    "uuid": "6faa96a3-fe44-4c4a-890c-765aa876139f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 30 [PB10]",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 124.25
+                    },
+                    "uuid": "a95eb2e8-b559-43bd-8e8b-90e85d8f6fc0"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 3 [PB10]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 113.49
+                    },
+                    "uuid": "38955886-9929-40be-b74e-cf4a224ddcde"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 33 [PB11]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 126.25
+                    },
+                    "uuid": "23654cb6-436b-49da-b478-bfd1883082d0"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 4 [PB11]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 113.49
+                    },
+                    "uuid": "738baf79-1869-465d-8f4d-0c79b0389e7b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 34 [PB12]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 126.75
+                    },
+                    "uuid": "cadab18d-6435-422c-9fab-4f5232068639"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 5 [PB12]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 116.03
+                    },
+                    "uuid": "0c7cd4ab-f99c-46fd-b278-7d7e9c5a80e5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 35 [PB13]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 127.25
+                    },
+                    "uuid": "851c1ec4-68c9-4e5f-8bc8-fd04330a92e6"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 6 [PB13]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 116.03
+                    },
+                    "uuid": "bc149016-4594-4040-8a39-70755c2ac44e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 36 [PB14]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 127.75
+                    },
+                    "uuid": "7cc6421b-cff1-4c35-89b1-4ff046ddd415"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 7 [PB14]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 118.57
+                    },
+                    "uuid": "b32848bb-1088-4125-942c-f07a48a1c33d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 37 [PB15]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 128.25
+                    },
+                    "uuid": "6944bbd8-7c70-4bde-88fb-9e9f861e4b39"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 8 [PB15]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 118.57
+                    },
+                    "uuid": "477dc0d5-074b-43ef-ac42-044c5d208035"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 38 [PC6]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 128.75
+                    },
+                    "uuid": "04b41604-0b3a-488f-8144-1f3325f00913"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 17 [PC6]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 131.27
+                    },
+                    "uuid": "4b6a3484-af69-4066-b72e-79d4939166a2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 39 [PC7]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 129.25
+                    },
+                    "uuid": "e7ff09cf-0df6-42db-8693-c27a8a9d7384"
+                },
+                {
+                    "description": "B.Cu 上 R402 的焊盘 1 [PC7]",
+                    "pos": {
+                        "x": 111.175,
+                        "y": 129.25
+                    },
+                    "uuid": "4a3a9727-1291-4071-874d-9a422b15d871"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 R402 的焊盘 1 [PC7]",
+                    "pos": {
+                        "x": 111.175,
+                        "y": 129.25
+                    },
+                    "uuid": "4a3a9727-1291-4071-874d-9a422b15d871"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 18 [PC7]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 131.27
+                    },
+                    "uuid": "16af4b26-8dd0-4d58-9833-3038a5091847"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 18 [PC7]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 131.27
+                    },
+                    "uuid": "16af4b26-8dd0-4d58-9833-3038a5091847"
+                },
+                {
+                    "description": "F.Cu 上 U105 的焊盘 2 [PC7]",
+                    "pos": {
+                        "x": 136.2,
+                        "y": 126.5
+                    },
+                    "uuid": "c21a6578-3b21-4d81-b59b-2c92665e0289"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 40 [PC8]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 129.75
+                    },
+                    "uuid": "00fba437-4bc1-4311-aa7b-032b37ab5d1d"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 19 [PC8]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 133.81
+                    },
+                    "uuid": "212043d2-e7d9-4cd0-8c79-c4bcbe9c6bd4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 41 [PC9]",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 130.25
+                    },
+                    "uuid": "a251630f-51c8-4118-93c4-bc58bd402a5c"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 20 [PC9]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 133.81
+                    },
+                    "uuid": "08f1e4e2-e0ea-4fd9-8dee-6e67aeb0bec7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 52 [PC10]",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 135.75
+                    },
+                    "uuid": "4d0c94d6-f319-4f9a-a891-da16333b07d0"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 21 [PC10]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 136.35
+                    },
+                    "uuid": "f43a3a35-f7e0-441d-9c70-84d70c90e67a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 53 [PC11]",
+                    "pos": {
+                        "x": 114.75,
+                        "y": 135.75
+                    },
+                    "uuid": "94d87a10-e19d-4104-b478-77c7f9202f9c"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 22 [PC11]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 136.35
+                    },
+                    "uuid": "e2689231-f5da-4b53-ae49-a7b739b2d62b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 54 [PC12]",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 135.75
+                    },
+                    "uuid": "51186c7c-9ce2-43e6-924e-a709d6f943f9"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 23 [PC12]",
+                    "pos": {
+                        "x": 128.729999,
+                        "y": 138.89
+                    },
+                    "uuid": "42497fe6-72fd-428e-b6b6-cb10fd4a2f11"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 55 [PD2]",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 135.75
+                    },
+                    "uuid": "e8ddee9c-e33f-4dcb-b1af-3619bbc5f5ef"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 28 [PD2]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 143.97
+                    },
+                    "uuid": "72ac411e-58ec-4e80-b9ff-5db7046cd7ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 62 [PB9]",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 135.75
+                    },
+                    "uuid": "aed91dad-c2d2-4f96-9551-d03cdb96b45f"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 2 [PB9]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 110.95
+                    },
+                    "uuid": "ded5ebbb-1dab-4892-a403-98c6de5445a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "J102 的PTH 焊盘 10 [CTRL_READY]",
+                    "pos": {
+                        "x": 131.269999,
+                        "y": 121.11
+                    },
+                    "uuid": "34dbbdc3-4df8-4e2e-918e-a5ed7827a021"
+                },
+                {
+                    "description": "F.Cu 上 U105 的焊盘 4 [CTRL_READY]",
+                    "pos": {
+                        "x": 138.8,
+                        "y": 127.45
+                    },
+                    "uuid": "177acb52-6995-4962-86eb-673ae6bae1af"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U105 的焊盘 1 [CORE_RESET_OK]",
+                    "pos": {
+                        "x": 136.2,
+                        "y": 125.55
+                    },
+                    "uuid": "a47544ea-ece8-4e3f-8a79-f10cf9ae0841"
+                },
+                {
+                    "description": "F.Cu 上 U103 的焊盘 4 [CORE_RESET_OK]",
+                    "pos": {
+                        "x": 139.1,
+                        "y": 120.45
+                    },
+                    "uuid": "8d348e93-9792-415e-8ea8-d90a2c73e2a0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

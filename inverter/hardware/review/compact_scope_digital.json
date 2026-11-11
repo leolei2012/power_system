@@ -1,0 +1,2257 @@
+{
+  "$schema": "https://schemas.kicad.org/drc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-11-06T17:34:35",
+  "ignored_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "included_severities": [
+    "error",
+    "warning"
+  ],
+  "kicad_version": "10.0.7",
+  "schematic_parity": [],
+  "source": "inverter.kicad_pcb",
+  "unconnected_items": [
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 6 [HSE_OUT]",
+          "pos": {
+            "x": 22.175,
+            "y": 22.25
+          },
+          "uuid": "0233387c-d0ca-4578-9981-c8e067cfd9fa"
+        },
+        {
+          "description": "B.Cu 上 Y1 的焊盘 3 [HSE_OUT]",
+          "pos": {
+            "x": 27.2,
+            "y": 18.75
+          },
+          "uuid": "587d9e4d-fead-48bf-8a69-40964e2362ff"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 Y1 的焊盘 3 [HSE_OUT]",
+          "pos": {
+            "x": 27.2,
+            "y": 18.75
+          },
+          "uuid": "587d9e4d-fead-48bf-8a69-40964e2362ff"
+        },
+        {
+          "description": "F.Cu 上 C84 的焊盘 1 [HSE_OUT]",
+          "pos": {
+            "x": 27.25,
+            "y": 17.73
+          },
+          "uuid": "73ae2c3a-db41-44fc-b080-80a0f5fc0674"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R136 的焊盘 2 [PWM_UL_IN]",
+          "pos": {
+            "x": 24.01,
+            "y": 13.5
+          },
+          "uuid": "49cc6794-7e33-4e1e-8542-883cfe3c6edf"
+        },
+        {
+          "description": "走线 [PWM_UL_IN] (F.Cu), 长度: 0.9370 mm",
+          "pos": {
+            "x": 12.3739,
+            "y": 31.9244
+          },
+          "uuid": "3af0d995-6fdd-4f4e-ac4a-61a4f272e9b7"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [HSE_IN] (F.Cu), 长度: 0.8231 mm",
+          "pos": {
+            "x": 25.4628,
+            "y": 17.9428
+          },
+          "uuid": "9ef91c4b-0767-4031-b390-9ba4ca344afd"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 5 [HSE_IN]",
+          "pos": {
+            "x": 22.175,
+            "y": 21.75
+          },
+          "uuid": "034fda24-254c-494a-9c59-bd7635f35408"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J12 的PTH 焊盘 3 [/Encoders and SPI/SPI_B_SCK_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 49.16
+          },
+          "uuid": "307266fb-b0b7-4564-a5b6-e014b2974890"
+        },
+        {
+          "description": "B.Cu 上 R114 的焊盘 2 [/Encoders and SPI/SPI_B_SCK_PORT]",
+          "pos": {
+            "x": 19.01,
+            "y": 16.0
+          },
+          "uuid": "efd8becf-0d32-4ee1-ac4e-22becd0c2c20"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J12 的PTH 焊盘 4 [/Encoders and SPI/SPI_B_MOSI_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 50.43
+          },
+          "uuid": "be34d262-1bf1-4588-9b58-1b8bc34359ad"
+        },
+        {
+          "description": "B.Cu 上 R115 的焊盘 2 [/Encoders and SPI/SPI_B_MOSI_PORT]",
+          "pos": {
+            "x": 16.76,
+            "y": 14.75
+          },
+          "uuid": "eb84517f-25ea-49d6-a442-2e5ae91bafd9"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J12 的PTH 焊盘 5 [/Encoders and SPI/SPI_B_MISO_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 51.7
+          },
+          "uuid": "c8c9f167-97c1-4c96-9711-724e9909c579"
+        },
+        {
+          "description": "B.Cu 上 R116 的焊盘 2 [/Encoders and SPI/SPI_B_MISO_PORT]",
+          "pos": {
+            "x": 13.26,
+            "y": 13.5
+          },
+          "uuid": "27557a43-9b9d-4d37-89b1-63d14a21cd43"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J12 的PTH 焊盘 6 [/Encoders and SPI/SPI_B_CS_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 52.97
+          },
+          "uuid": "385c0d89-d529-42e4-b758-ff2269e36d53"
+        },
+        {
+          "description": "B.Cu 上 R117 的焊盘 2 [/Encoders and SPI/SPI_B_CS_PORT]",
+          "pos": {
+            "x": 19.01,
+            "y": 14.75
+          },
+          "uuid": "426de15c-c96d-459a-93ec-beeb5bffd535"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 1 [OC_U_HIGH_OK]",
+          "pos": {
+            "x": 5.4875,
+            "y": 22.35
+          },
+          "uuid": "1045369c-be4c-4189-b528-6a4cc045a61f"
+        },
+        {
+          "description": "B.Cu 上 U18 的焊盘 1 [OC_U_HIGH_OK]",
+          "pos": {
+            "x": 36.3875,
+            "y": 24.775
+          },
+          "uuid": "77d6375a-c7df-4294-bf61-87db7958438d"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 2 [OC_U_LOW_OK]",
+          "pos": {
+            "x": 5.4875,
+            "y": 23.0
+          },
+          "uuid": "f5f2d92b-8fd3-4ce2-8b77-ae2f66ca622d"
+        },
+        {
+          "description": "B.Cu 上 U18 的焊盘 7 [OC_U_LOW_OK]",
+          "pos": {
+            "x": 40.6125,
+            "y": 24.125
+          },
+          "uuid": "d26bc7e8-1a6b-4ae3-b791-0e026f604d70"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 5 [OC_V_HIGH_OK]",
+          "pos": {
+            "x": 5.4875,
+            "y": 24.95
+          },
+          "uuid": "57db9677-7c89-4806-ab85-825f1157350b"
+        },
+        {
+          "description": "B.Cu 上 U19 的焊盘 1 [OC_V_HIGH_OK]",
+          "pos": {
+            "x": 36.3875,
+            "y": 39.775
+          },
+          "uuid": "82af96d1-a23a-45ae-b477-bd9123cba4de"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 6 [/Hardware latch/HEALTH_CHAIN_2]",
+          "pos": {
+            "x": 5.4875,
+            "y": 25.6
+          },
+          "uuid": "329dea36-cc71-49e8-b626-a63346b19b77"
+        },
+        {
+          "description": "F.Cu 上 U22 的焊盘 9 [/Hardware latch/HEALTH_CHAIN_2]",
+          "pos": {
+            "x": 11.2125,
+            "y": 25.6
+          },
+          "uuid": "5bf1770f-ef48-4bb4-8b61-4ae0ee38a97b"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 12 [/Hardware latch/HEALTH_CHAIN_3]",
+          "pos": {
+            "x": 11.2125,
+            "y": 23.65
+          },
+          "uuid": "7d66efbf-4fd0-4e9a-9eaa-946f9ea36ec3"
+        },
+        {
+          "description": "F.Cu 上 U22 的焊盘 8 [/Hardware latch/HEALTH_CHAIN_3]",
+          "pos": {
+            "x": 11.2125,
+            "y": 26.25
+          },
+          "uuid": "b32795d5-e476-434f-8824-a2fb56a18eb6"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 10 [OC_V_LOW_OK]",
+          "pos": {
+            "x": 11.2125,
+            "y": 24.95
+          },
+          "uuid": "5d2a74e0-fdee-414b-ae00-583eb6f834a3"
+        },
+        {
+          "description": "B.Cu 上 U19 的焊盘 7 [OC_V_LOW_OK]",
+          "pos": {
+            "x": 40.6125,
+            "y": 39.125
+          },
+          "uuid": "4a013859-1e29-442d-bf6c-8cce6242e8ef"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U22 的焊盘 13 [OC_W_HIGH_OK]",
+          "pos": {
+            "x": 11.2125,
+            "y": 23.0
+          },
+          "uuid": "d874c315-5b1c-49e0-abd6-cb40ea25b8e1"
+        },
+        {
+          "description": "B.Cu 上 U20 的焊盘 1 [OC_W_HIGH_OK]",
+          "pos": {
+            "x": 36.3875,
+            "y": 53.175
+          },
+          "uuid": "10b20b8e-322e-465d-97f7-b9bdc10cb3ee"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [PWM_VL_IN] (In3.Cu), 长度: 7.4627 mm",
+          "pos": {
+            "x": 15.6901,
+            "y": 36.6971
+          },
+          "uuid": "a7bf11c5-8ad4-476f-9378-f6e663ccc3d8"
+        },
+        {
+          "description": "B.Cu 上 R138 的焊盘 2 [PWM_VL_IN]",
+          "pos": {
+            "x": 33.01,
+            "y": 14.5
+          },
+          "uuid": "0d6b13ff-3c6c-43d2-b4c6-9c59dd63c50d"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [DRIVE_PERMIT] (F.Cu), 长度: 1.6361 mm",
+          "pos": {
+            "x": 10.2058,
+            "y": 29.0011
+          },
+          "uuid": "a6c9a6f6-2312-4193-a0f5-894e24323e5d"
+        },
+        {
+          "description": "走线 [DRIVE_PERMIT] (F.Cu), 长度: 2.3750 mm",
+          "pos": {
+            "x": 11.2125,
+            "y": 29.1
+          },
+          "uuid": "8922c202-7e75-42dc-9943-abd3de69c879"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 R83 的焊盘 1 [DRIVE_PERMIT]",
+          "pos": {
+            "x": 15.24,
+            "y": 20.75
+          },
+          "uuid": "08be2225-5eda-4e7b-989b-3ed549fe456d"
+        },
+        {
+          "description": "走线 [DRIVE_PERMIT] (F.Cu), 长度: 2.4243 mm",
+          "pos": {
+            "x": 9.5251,
+            "y": 27.9868
+          },
+          "uuid": "843df6e8-5a35-4951-92db-52e4b163fae3"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [PWM_WH_IN] (F.Cu), 长度: 0.0280 mm",
+          "pos": {
+            "x": 15.5776,
+            "y": 30.6524
+          },
+          "uuid": "9486091a-4f09-457e-ad30-8589f320d2a4"
+        },
+        {
+          "description": "B.Cu 上 R139 的焊盘 2 [PWM_WH_IN]",
+          "pos": {
+            "x": 28.0,
+            "y": 12.24
+          },
+          "uuid": "8159e84d-ee89-405f-b8b5-0bc5b8120519"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U26 的焊盘 6 [W_HIN]",
+          "pos": {
+            "x": 13.5875,
+            "y": 31.7
+          },
+          "uuid": "7ed8dd37-0e8c-4f62-a64d-5bcbf75fa394"
+        },
+        {
+          "description": "走线 [W_HIN] (B.Cu), 长度: 2.4950 mm",
+          "pos": {
+            "x": 37.02,
+            "y": 47.9
+          },
+          "uuid": "619af78d-d74c-4c2d-99e6-627007535ac8"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R140 的焊盘 2 [PWM_WL_IN]",
+          "pos": {
+            "x": 24.51,
+            "y": 12.25
+          },
+          "uuid": "db551b88-48b6-41df-b87c-109c8cc9901f"
+        },
+        {
+          "description": "走线 [PWM_WL_IN] (F.Cu), 长度: 0.6360 mm",
+          "pos": {
+            "x": 19.8807,
+            "y": 31.7
+          },
+          "uuid": "026966de-892d-4cde-bbe8-5f7403b11254"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [LOGIC_POWER_OK] (B.Cu), 长度: 0.8531 mm",
+          "pos": {
+            "x": 7.49,
+            "y": 21.5
+          },
+          "uuid": "26364274-d7fa-40a2-8a40-fa9141692aea"
+        },
+        {
+          "description": "F.Cu 上 SW2 的焊盘 1 [LOGIC_POWER_OK]",
+          "pos": {
+            "x": 11.275,
+            "y": 17.0
+          },
+          "uuid": "cd4949e5-16bc-4b3a-9185-53a3fc9c00cc"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 SW2 的焊盘 1 [LOGIC_POWER_OK]",
+          "pos": {
+            "x": 11.275,
+            "y": 17.0
+          },
+          "uuid": "cd4949e5-16bc-4b3a-9185-53a3fc9c00cc"
+        },
+        {
+          "description": "走线 [LOGIC_POWER_OK] (F.Cu), 长度: 0.2871 mm",
+          "pos": {
+            "x": 17.926,
+            "y": 23.2244
+          },
+          "uuid": "d0703f7a-7cc3-469b-a246-c1e190334ed2"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [LOGIC_POWER_OK] (F.Cu), 长度: 0.3173 mm",
+          "pos": {
+            "x": 19.0881,
+            "y": 23.2244
+          },
+          "uuid": "f364f000-2b92-46bd-bfa5-7d6881afbdc6"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 7 [LOGIC_POWER_OK]",
+          "pos": {
+            "x": 22.175,
+            "y": 22.75
+          },
+          "uuid": "5f3aa820-5dca-41fa-bc5c-efa78edc6dd9"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J14 的PTH 焊盘 1 [/Debug and communication/UART_TX_PORT]",
+          "pos": {
+            "x": 15.3,
+            "y": 58.0
+          },
+          "uuid": "10a1da86-5986-4495-93c7-074146bf9d45"
+        },
+        {
+          "description": "F.Cu 上 R123 的焊盘 2 [/Debug and communication/UART_TX_PORT]",
+          "pos": {
+            "x": 25.76,
+            "y": 16.25
+          },
+          "uuid": "7303455b-7721-4b45-9c3a-032ebd3c8273"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J14 的PTH 焊盘 2 [/Debug and communication/UART_RX_PORT]",
+          "pos": {
+            "x": 16.57,
+            "y": 58.0
+          },
+          "uuid": "80b78deb-e986-4416-85be-147351573c0f"
+        },
+        {
+          "description": "B.Cu 上 R124 的焊盘 1 [/Debug and communication/UART_RX_PORT]",
+          "pos": {
+            "x": 21.99,
+            "y": 14.75
+          },
+          "uuid": "1c4d593b-6801-4114-9d0e-6c24e6fa4a12"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 58 [LED_AUX]",
+          "pos": {
+            "x": 17.25,
+            "y": 17.825
+          },
+          "uuid": "af1d008b-f38b-4320-b17f-4029c345441d"
+        },
+        {
+          "description": "F.Cu 上 D7 的焊盘 1 [LED_AUX]",
+          "pos": {
+            "x": 31.5125,
+            "y": 58.1
+          },
+          "uuid": "bb241a85-bcac-4263-bab1-86586870ae8a"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [/Hardware latch/HEALTH_UNLATCHED] (F.Cu), 长度: 6.8155 mm",
+          "pos": {
+            "x": 24.3739,
+            "y": 27.3519
+          },
+          "uuid": "9e953bc1-7d80-4f43-a5fb-00c5fb57fcaf"
+        },
+        {
+          "description": "走线 [/Hardware latch/HEALTH_UNLATCHED] (F.Cu), 长度: 0.8356 mm",
+          "pos": {
+            "x": 24.5239,
+            "y": 26.0663
+          },
+          "uuid": "a760ae6b-5bf5-4f1c-83c6-c049aa1e82c0"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R141 的焊盘 2 [ENABLE_IN]",
+          "pos": {
+            "x": 19.5,
+            "y": 12.49
+          },
+          "uuid": "a0867908-9ecb-4ee4-8564-20b1a7a32add"
+        },
+        {
+          "description": "走线 [ENABLE_IN] (F.Cu), 长度: 1.4549 mm",
+          "pos": {
+            "x": 12.99,
+            "y": 20.75
+          },
+          "uuid": "36546bb7-60c1-4905-a935-3e350917f658"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [ENABLE_IN] (F.Cu), 长度: 0.6500 mm",
+          "pos": {
+            "x": 21.6875,
+            "y": 29.1
+          },
+          "uuid": "a62ee657-0328-4402-851c-018921f90a5a"
+        },
+        {
+          "description": "走线 [ENABLE_IN] (F.Cu), 长度: 1.4549 mm",
+          "pos": {
+            "x": 12.99,
+            "y": 20.75
+          },
+          "uuid": "36546bb7-60c1-4905-a935-3e350917f658"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [U_HIN] (B.Cu), 长度: 2.4950 mm",
+          "pos": {
+            "x": 34.525,
+            "y": 17.9
+          },
+          "uuid": "c08f42e1-7c01-44d5-b3d8-bf6a8b3ec093"
+        },
+        {
+          "description": "F.Cu 上 U25 的焊盘 6 [U_HIN]",
+          "pos": {
+            "x": 5.4875,
+            "y": 31.7
+          },
+          "uuid": "75e4e159-4287-4929-9f7d-57dc70c0977b"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [U_LIN] (B.Cu), 长度: 1.7650 mm",
+          "pos": {
+            "x": 34.525,
+            "y": 15.9
+          },
+          "uuid": "1b35b2f0-8d88-42f6-8e80-fac3bffc2cc4"
+        },
+        {
+          "description": "F.Cu 上 U25 的焊盘 8 [U_LIN]",
+          "pos": {
+            "x": 11.2125,
+            "y": 32.35
+          },
+          "uuid": "04ec2433-90a5-48b2-8780-f95664b3d0b7"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U25 的焊盘 11 [V_HIN]",
+          "pos": {
+            "x": 11.2125,
+            "y": 30.4
+          },
+          "uuid": "2ef8a64d-3b27-4056-a726-3d548a3c38aa"
+        },
+        {
+          "description": "走线 [V_HIN] (B.Cu), 长度: 2.4950 mm",
+          "pos": {
+            "x": 34.525,
+            "y": 32.9
+          },
+          "uuid": "98a3b991-ae77-4c6a-a531-040b8f678920"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U25 的焊盘 12 [PWM_VH_IN]",
+          "pos": {
+            "x": 11.2125,
+            "y": 29.75
+          },
+          "uuid": "b060b8f5-0ed9-45c2-bd17-42306ab5374d"
+        },
+        {
+          "description": "F.Cu 上 R78 的焊盘 1 [PWM_VH_IN]",
+          "pos": {
+            "x": 5.0,
+            "y": 40.26
+          },
+          "uuid": "11458ba7-f337-4b51-927d-41ebb638d8e1"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R137 的焊盘 2 [PWM_VH_IN]",
+          "pos": {
+            "x": 21.76,
+            "y": 13.5
+          },
+          "uuid": "01f69371-2d1e-420e-b08e-7a7b22bbb932"
+        },
+        {
+          "description": "F.Cu 上 U25 的焊盘 12 [PWM_VH_IN]",
+          "pos": {
+            "x": 11.2125,
+            "y": 29.75
+          },
+          "uuid": "b060b8f5-0ed9-45c2-bd17-42306ab5374d"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [/Debug and communication/CAN_L] (In2.Cu), 长度: 0.9652 mm",
+          "pos": {
+            "x": 47.27,
+            "y": 2.0
+          },
+          "uuid": "c7a4d048-2289-4249-85df-029dd899921f"
+        },
+        {
+          "description": "走线 [/Debug and communication/CAN_L] (B.Cu), 长度: 0.4364 mm",
+          "pos": {
+            "x": 16.8583,
+            "y": 3.0836
+          },
+          "uuid": "b7d96f66-7986-4eda-af85-2b156bc95ca5"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 R73 的焊盘 1 [/Hardware latch/RESET_REQUEST]",
+          "pos": {
+            "x": 8.25,
+            "y": 35.26
+          },
+          "uuid": "216dfd28-d934-4fb9-908e-10e9bb5748a1"
+        },
+        {
+          "description": "F.Cu 上 U24 的焊盘 8 [/Hardware latch/RESET_REQUEST]",
+          "pos": {
+            "x": 27.4125,
+            "y": 26.25
+          },
+          "uuid": "f909463f-7096-4d6e-9903-67c85891100c"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [ENC_B_B] (F.Cu), 长度: 0.9006 mm",
+          "pos": {
+            "x": 12.99,
+            "y": 19.5
+          },
+          "uuid": "b797f9aa-15f9-4367-8fa4-45e88a5366e8"
+        },
+        {
+          "description": "B.Cu 上 R103 的焊盘 2 [ENC_B_B]",
+          "pos": {
+            "x": 7.75,
+            "y": 34.49
+          },
+          "uuid": "dee64ec1-99a9-4e45-b5e9-0ebca18ba862"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U24 的焊盘 5 [AUX_FLT_N]",
+          "pos": {
+            "x": 21.6875,
+            "y": 24.95
+          },
+          "uuid": "d0c13646-963b-4bfb-a3bc-9e8ae74a819d"
+        },
+        {
+          "description": "走线 [AUX_FLT_N] (F.Cu), 长度: 0.3173 mm",
+          "pos": {
+            "x": 21.4869,
+            "y": 46.2494
+          },
+          "uuid": "7bb094c4-5c90-493b-a44f-4436769bac58"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U28 的焊盘 4 [/Hardware latch/HEALTH_ALL]",
+          "pos": {
+            "x": 16.5,
+            "y": 39.575
+          },
+          "uuid": "c2c8ad49-285b-470e-8b86-369b76972d98"
+        },
+        {
+          "description": "F.Cu 上 U27 的焊盘 4 [/Hardware latch/HEALTH_ALL]",
+          "pos": {
+            "x": 21.6875,
+            "y": 30.4
+          },
+          "uuid": "0578a384-b8b6-4728-9b69-34c73b53f4ef"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U24 的焊盘 6 [/Hardware latch/HEALTH_ALL]",
+          "pos": {
+            "x": 21.6875,
+            "y": 25.6
+          },
+          "uuid": "4d5dc01c-adc0-4ceb-8d82-1b9661235c85"
+        },
+        {
+          "description": "走线 [/Hardware latch/HEALTH_ALL] (F.Cu), 长度: 0.6065 mm",
+          "pos": {
+            "x": 27.4125,
+            "y": 25.6
+          },
+          "uuid": "1f264802-67c6-4c68-9483-ec70110dc111"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U27 的焊盘 4 [/Hardware latch/HEALTH_ALL]",
+          "pos": {
+            "x": 21.6875,
+            "y": 30.4
+          },
+          "uuid": "0578a384-b8b6-4728-9b69-34c73b53f4ef"
+        },
+        {
+          "description": "F.Cu 上 U24 的焊盘 6 [/Hardware latch/HEALTH_ALL]",
+          "pos": {
+            "x": 21.6875,
+            "y": 25.6
+          },
+          "uuid": "4d5dc01c-adc0-4ceb-8d82-1b9661235c85"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U27 的焊盘 5 [/Hardware latch/NO_LATCH]",
+          "pos": {
+            "x": 21.6875,
+            "y": 31.05
+          },
+          "uuid": "effb3e92-e0f5-4379-b68a-47dc3a36812e"
+        },
+        {
+          "description": "F.Cu 上 U28 的焊盘 6 [/Hardware latch/NO_LATCH]",
+          "pos": {
+            "x": 19.04,
+            "y": 39.575
+          },
+          "uuid": "7fa48781-e8f0-4ce3-ae74-8e76046473f7"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U24 的焊盘 13 [/Hardware latch/NO_LATCH]",
+          "pos": {
+            "x": 27.4125,
+            "y": 23.0
+          },
+          "uuid": "422f2535-93e1-4df3-a06b-3765294af6b0"
+        },
+        {
+          "description": "F.Cu 上 U27 的焊盘 5 [/Hardware latch/NO_LATCH]",
+          "pos": {
+            "x": 21.6875,
+            "y": 31.05
+          },
+          "uuid": "effb3e92-e0f5-4379-b68a-47dc3a36812e"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R124 的焊盘 2 [UART_RX]",
+          "pos": {
+            "x": 23.01,
+            "y": 14.75
+          },
+          "uuid": "e1ab3cd8-a813-4d82-bd8c-cb0593a9a190"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 33 [UART_RX]",
+          "pos": {
+            "x": 10.825,
+            "y": 27.25
+          },
+          "uuid": "a271c629-ff41-4fd5-a373-e7a44111b86c"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 R125 的焊盘 1 [UART_RX]",
+          "pos": {
+            "x": 28.5,
+            "y": 17.76
+          },
+          "uuid": "99c0f53c-b953-4935-b879-4246018f86ba"
+        },
+        {
+          "description": "B.Cu 上 R124 的焊盘 2 [UART_RX]",
+          "pos": {
+            "x": 23.01,
+            "y": 14.75
+          },
+          "uuid": "e1ab3cd8-a813-4d82-bd8c-cb0593a9a190"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [DRV_PG_LOGIC] (F.Cu), 长度: 1.4585 mm",
+          "pos": {
+            "x": 15.5,
+            "y": 51.4
+          },
+          "uuid": "f73ab4a4-812d-4051-a50a-d42f6f2455df"
+        },
+        {
+          "description": "F.Cu 上 U24 的焊盘 2 [DRV_PG_LOGIC]",
+          "pos": {
+            "x": 21.6875,
+            "y": 23.0
+          },
+          "uuid": "f6f0ce28-fa18-445c-a914-b2897a399139"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J10 的PTH 焊盘 5 [/Encoders and SPI/ENC_B_Z_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 35.33
+          },
+          "uuid": "30801aa0-7ae8-4b79-ac4e-7d41628a9b8f"
+        },
+        {
+          "description": "F.Cu 上 R105 的焊盘 1 [/Encoders and SPI/ENC_B_Z_PORT]",
+          "pos": {
+            "x": 15.24,
+            "y": 19.5
+          },
+          "uuid": "5a09df08-a8fc-42ab-9a34-07d7d5240f4d"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [ENC_B_Z] (F.Cu), 长度: 0.8061 mm",
+          "pos": {
+            "x": 16.26,
+            "y": 19.5
+          },
+          "uuid": "577588ca-e064-408a-8ee9-2cdb8cd97c49"
+        },
+        {
+          "description": "B.Cu 上 R106 的焊盘 1 [ENC_B_Z]",
+          "pos": {
+            "x": 11.24,
+            "y": 16.0
+          },
+          "uuid": "2bcdaed1-9126-487d-9caa-3e811a745aa7"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U23 的焊盘 10 [DRV_UV_OK]",
+          "pos": {
+            "x": 19.3125,
+            "y": 24.95
+          },
+          "uuid": "e16ae780-353b-4201-a5bd-3b259418c2ce"
+        },
+        {
+          "description": "F.Cu 上 U21 的焊盘 7 [DRV_UV_OK]",
+          "pos": {
+            "x": 29.775,
+            "y": 35.0875
+          },
+          "uuid": "f921a54e-0613-4715-aeed-7aa9b5c69155"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [ENC_A_Z] (B.Cu), 长度: 0.8727 mm",
+          "pos": {
+            "x": 23.0477,
+            "y": 26.25
+          },
+          "uuid": "7ced88ad-662f-45bf-a083-13ba9c298868"
+        },
+        {
+          "description": "B.Cu 上 R99 的焊盘 1 [ENC_A_Z]",
+          "pos": {
+            "x": 7.99,
+            "y": 29.75
+          },
+          "uuid": "30871c2b-4797-473b-a3f5-63042e3a0fd9"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 40 [LED_FAULT]",
+          "pos": {
+            "x": 10.825,
+            "y": 23.75
+          },
+          "uuid": "f9001121-e5e5-4311-868e-7be7e7e9c00a"
+        },
+        {
+          "description": "F.Cu 上 D5 的焊盘 1 [LED_FAULT]",
+          "pos": {
+            "x": 24.8125,
+            "y": 58.1
+          },
+          "uuid": "494e8b87-e3ce-46e2-84c0-0ad1f8308cde"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U23 的焊盘 2 [OC_W_LOW_OK]",
+          "pos": {
+            "x": 13.5875,
+            "y": 23.0
+          },
+          "uuid": "97e2daf4-dcf9-4ff4-a43d-7a16f4a5319f"
+        },
+        {
+          "description": "B.Cu 上 U20 的焊盘 7 [OC_W_LOW_OK]",
+          "pos": {
+            "x": 40.6125,
+            "y": 52.525
+          },
+          "uuid": "038b7974-2eaa-4d5e-b647-c1bb1516be67"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 U23 的焊盘 12 [/Hardware latch/HEALTH_CHAIN_7]",
+          "pos": {
+            "x": 19.3125,
+            "y": 23.65
+          },
+          "uuid": "7a95a9dd-b2b0-40ae-8191-3acf21f3bf3b"
+        },
+        {
+          "description": "F.Cu 上 U23 的焊盘 8 [/Hardware latch/HEALTH_CHAIN_7]",
+          "pos": {
+            "x": 19.3125,
+            "y": 26.25
+          },
+          "uuid": "13b464b3-e934-494e-b629-a1162991cbb7"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J10 的PTH 焊盘 1 [/Encoders and SPI/ENC_B_VCC]",
+          "pos": {
+            "x": 2.0,
+            "y": 30.25
+          },
+          "uuid": "30325b5a-3b96-4275-afea-a8c801834b12"
+        },
+        {
+          "description": "F.Cu 上 R107 的焊盘 2 [/Encoders and SPI/ENC_B_VCC]",
+          "pos": {
+            "x": 17.5,
+            "y": 19.74
+          },
+          "uuid": "8127a335-4bd2-4f5d-8cf2-30d89457d80c"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 23 [LED_RUN]",
+          "pos": {
+            "x": 17.25,
+            "y": 29.175
+          },
+          "uuid": "caf954b8-665b-4e6c-9f4e-88b522103659"
+        },
+        {
+          "description": "F.Cu 上 D4 的焊盘 1 [LED_RUN]",
+          "pos": {
+            "x": 17.5125,
+            "y": 18.1
+          },
+          "uuid": "95078d06-0bc6-4016-97db-6e4668b2e62e"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "F.Cu 上 D4 的焊盘 2 [/Debug and communication/LED_AN_1]",
+          "pos": {
+            "x": 19.0875,
+            "y": 18.1
+          },
+          "uuid": "dbe1a156-d4ea-4589-8ccb-cd4e4358b546"
+        },
+        {
+          "description": "B.Cu 上 R131 的焊盘 2 [/Debug and communication/LED_AN_1]",
+          "pos": {
+            "x": 19.26,
+            "y": 35.25
+          },
+          "uuid": "48b7e3e3-7c87-483d-95c8-0971a8961674"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 55 [LED_COMM]",
+          "pos": {
+            "x": 15.75,
+            "y": 17.825
+          },
+          "uuid": "b90014b2-6994-4837-8119-a91f6c5542f1"
+        },
+        {
+          "description": "F.Cu 上 D6 的焊盘 1 [LED_COMM]",
+          "pos": {
+            "x": 28.2125,
+            "y": 58.1
+          },
+          "uuid": "8d2d1a01-1108-478b-80ef-5ed623135b28"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R133 的焊盘 2 [/Debug and communication/LED_AN_3]",
+          "pos": {
+            "x": 14.76,
+            "y": 35.25
+          },
+          "uuid": "76a685da-c0e8-4679-a730-a0d07f98d3cf"
+        },
+        {
+          "description": "F.Cu 上 D6 的焊盘 2 [/Debug and communication/LED_AN_3]",
+          "pos": {
+            "x": 29.7875,
+            "y": 58.1
+          },
+          "uuid": "0c8b9bc1-674a-4113-9637-3a4bbcac1303"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J11 的PTH 焊盘 3 [/Encoders and SPI/SPI_A_SCK_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 40.34
+          },
+          "uuid": "2bd31bed-7f3d-4bfb-bf23-2d5dbc6e1482"
+        },
+        {
+          "description": "B.Cu 上 R108 的焊盘 2 [/Encoders and SPI/SPI_A_SCK_PORT]",
+          "pos": {
+            "x": 14.51,
+            "y": 16.0
+          },
+          "uuid": "f5dfefba-6643-40e3-8c9f-2fb51f6a29f6"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J11 的PTH 焊盘 4 [/Encoders and SPI/SPI_A_MOSI_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 41.61
+          },
+          "uuid": "c7b6003b-9e70-41e2-8762-9dce66c0e611"
+        },
+        {
+          "description": "B.Cu 上 R109 的焊盘 2 [/Encoders and SPI/SPI_A_MOSI_PORT]",
+          "pos": {
+            "x": 10.01,
+            "y": 14.75
+          },
+          "uuid": "10d5dc58-234d-46cd-acc2-a0d7f9b227d9"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J11 的PTH 焊盘 5 [/Encoders and SPI/SPI_A_MISO_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 42.88
+          },
+          "uuid": "6711dc37-9f66-4f38-864b-282cfab7f4a3"
+        },
+        {
+          "description": "B.Cu 上 R110 的焊盘 2 [/Encoders and SPI/SPI_A_MISO_PORT]",
+          "pos": {
+            "x": 12.26,
+            "y": 14.75
+          },
+          "uuid": "6571b2cb-c9c2-4881-862a-15a5c6df540c"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "J11 的PTH 焊盘 6 [/Encoders and SPI/SPI_A_CS_PORT]",
+          "pos": {
+            "x": 2.0,
+            "y": 44.15
+          },
+          "uuid": "e7387f21-3d1c-4437-a382-1871ec93cf8d"
+        },
+        {
+          "description": "B.Cu 上 R111 的焊盘 2 [/Encoders and SPI/SPI_A_CS_PORT]",
+          "pos": {
+            "x": 16.76,
+            "y": 16.0
+          },
+          "uuid": "95e03f5c-933f-4aa9-97dc-ae20219f51fe"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R143 的焊盘 1 [FAULT_N]",
+          "pos": {
+            "x": 21.24,
+            "y": 12.25
+          },
+          "uuid": "db1cfe1c-5912-4286-89ea-e8b8ce9e0127"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 34 [FAULT_N]",
+          "pos": {
+            "x": 10.825,
+            "y": 26.75
+          },
+          "uuid": "05d50b46-5438-40ce-b776-b9573ce4ea91"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 45 [CAN_RX]",
+          "pos": {
+            "x": 10.825,
+            "y": 21.25
+          },
+          "uuid": "97880be9-13ae-4fb9-a984-32df3173fbd5"
+        },
+        {
+          "description": "B.Cu 上 R127 的焊盘 2 [CAN_RX]",
+          "pos": {
+            "x": 16.01,
+            "y": 9.0
+          },
+          "uuid": "07924387-ecfa-48f8-aba0-c18c214724e8"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 44 [MCU_PWM_WH]",
+          "pos": {
+            "x": 10.825,
+            "y": 21.75
+          },
+          "uuid": "a57e719c-2d09-4edf-a624-431b495c5fa7"
+        },
+        {
+          "description": "B.Cu 上 R139 的焊盘 1 [MCU_PWM_WH]",
+          "pos": {
+            "x": 28.0,
+            "y": 13.26
+          },
+          "uuid": "6a66c1f0-6972-4af9-b38a-578d8af7ceb1"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R142 的焊盘 2 [BRAKE_IN]",
+          "pos": {
+            "x": 32.51,
+            "y": 13.25
+          },
+          "uuid": "26c19bda-1416-44c3-b3d2-6bc5940b6514"
+        },
+        {
+          "description": "B.Cu 上 U29 的焊盘 3 [BRAKE_IN]",
+          "pos": {
+            "x": 31.8625,
+            "y": 49.55
+          },
+          "uuid": "dff00028-ab5d-49da-8c70-65b52c58ce0f"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R108 的焊盘 1 [SPI_A_SCK]",
+          "pos": {
+            "x": 13.49,
+            "y": 16.0
+          },
+          "uuid": "8a61098e-51ee-4801-ba32-917ef7a32324"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 19 [SPI_A_SCK]",
+          "pos": {
+            "x": 19.25,
+            "y": 29.175
+          },
+          "uuid": "ff99d062-2096-492a-baf4-a99760d5a2e2"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R122 的焊盘 1 [BOOT0]",
+          "pos": {
+            "x": 9.0,
+            "y": 23.51
+          },
+          "uuid": "620245f4-2c44-4604-9ed1-b5775eabad05"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 61 [BOOT0]",
+          "pos": {
+            "x": 18.75,
+            "y": 17.825
+          },
+          "uuid": "73ac77dc-894e-49b4-8ad5-1b8ee0a1a1d2"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R118 的焊盘 1 [SPI_B_CS]",
+          "pos": {
+            "x": 14.49,
+            "y": 13.5
+          },
+          "uuid": "a1dd75ae-fe26-4787-a8b1-1957e42465ac"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 41 [SPI_B_CS]",
+          "pos": {
+            "x": 10.825,
+            "y": 23.25
+          },
+          "uuid": "9a0a10eb-3891-43de-88ca-bf23d3e1c1f7"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R117 的焊盘 1 [SPI_B_CS]",
+          "pos": {
+            "x": 17.99,
+            "y": 14.75
+          },
+          "uuid": "9979ae97-24ff-4563-815a-5be071b63a1e"
+        },
+        {
+          "description": "B.Cu 上 R118 的焊盘 1 [SPI_B_CS]",
+          "pos": {
+            "x": 14.49,
+            "y": 13.5
+          },
+          "uuid": "a1dd75ae-fe26-4787-a8b1-1957e42465ac"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R109 的焊盘 1 [SPI_A_MOSI]",
+          "pos": {
+            "x": 8.99,
+            "y": 14.75
+          },
+          "uuid": "a420ad24-00d3-4f3e-92d2-6d8bcbc476d8"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 21 [SPI_A_MOSI]",
+          "pos": {
+            "x": 18.25,
+            "y": 29.175
+          },
+          "uuid": "76237e1f-0e8d-4348-9e2c-314dbae893c3"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R102 的焊盘 1 [ENC_B_A]",
+          "pos": {
+            "x": 5.49,
+            "y": 34.5
+          },
+          "uuid": "8929d89b-1d94-4c95-b6f4-db10993c3a20"
+        },
+        {
+          "description": "B.Cu 上 R101 的焊盘 2 [ENC_B_A]",
+          "pos": {
+            "x": 9.01,
+            "y": 31.0
+          },
+          "uuid": "fd8fb7a6-0f23-4513-bb37-656e5b0e08bf"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "走线 [ENC_B_A] (B.Cu), 长度: 0.0016 mm",
+          "pos": {
+            "x": 9.815,
+            "y": 30.1966
+          },
+          "uuid": "bf383fc8-dd16-4af2-8756-66100fc0909c"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 59 [ENC_B_A]",
+          "pos": {
+            "x": 17.75,
+            "y": 17.825
+          },
+          "uuid": "59a57d67-5163-49f9-8717-cd80b094fd93"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 43 [MCU_PWM_VH]",
+          "pos": {
+            "x": 10.825,
+            "y": 22.25
+          },
+          "uuid": "3abada99-3328-4241-b3b6-0341dabc0995"
+        },
+        {
+          "description": "B.Cu 上 R137 的焊盘 1 [MCU_PWM_VH]",
+          "pos": {
+            "x": 20.74,
+            "y": 13.5
+          },
+          "uuid": "b539cda9-81a5-4acf-a2c3-e5de7c6657cd"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 37 [MCU_PWM_WL]",
+          "pos": {
+            "x": 10.825,
+            "y": 25.25
+          },
+          "uuid": "80d82f2a-7c7c-43d3-9f25-828cb21335c3"
+        },
+        {
+          "description": "B.Cu 上 R140 的焊盘 1 [MCU_PWM_WL]",
+          "pos": {
+            "x": 23.49,
+            "y": 12.25
+          },
+          "uuid": "f23df42e-1e7d-4ccb-bd52-6fff01463b23"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U31 的焊盘 1 [/Debug and communication/CAN_TX_PHY]",
+          "pos": {
+            "x": 9.625,
+            "y": 5.205
+          },
+          "uuid": "327ae179-9ead-423d-a7af-6e1a1e87dc2b"
+        },
+        {
+          "description": "走线 [/Debug and communication/CAN_TX_PHY] (B.Cu), 长度: 0.3900 mm",
+          "pos": {
+            "x": 12.25,
+            "y": 11.26
+          },
+          "uuid": "917b38ec-ebda-4454-aa67-abb82e4dfe86"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R110 的焊盘 1 [SPI_A_MISO]",
+          "pos": {
+            "x": 11.24,
+            "y": 14.75
+          },
+          "uuid": "b3fe39b1-c512-4a46-8cdb-c84feea33b29"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 20 [SPI_A_MISO]",
+          "pos": {
+            "x": 18.75,
+            "y": 29.175
+          },
+          "uuid": "95a74a01-c704-46a5-b03b-86588a7f9f50"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 50 [SWCLK]",
+          "pos": {
+            "x": 13.25,
+            "y": 17.825
+          },
+          "uuid": "3d7db208-2b00-4569-8868-62992e14026a"
+        },
+        {
+          "description": "B.Cu 上 R121 的焊盘 2 [SWCLK]",
+          "pos": {
+            "x": 23.01,
+            "y": 16.0
+          },
+          "uuid": "3a421897-a217-4e0a-a06c-4470e09cfe30"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 35 [MCU_PWM_UL]",
+          "pos": {
+            "x": 10.825,
+            "y": 26.25
+          },
+          "uuid": "12165023-2fb1-4928-b282-74b041c81850"
+        },
+        {
+          "description": "B.Cu 上 R136 的焊盘 1 [MCU_PWM_UL]",
+          "pos": {
+            "x": 22.99,
+            "y": 13.5
+          },
+          "uuid": "eba3f8e9-5360-452e-8225-785e1b35a770"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 13 [ENC_A_B]",
+          "pos": {
+            "x": 22.175,
+            "y": 25.75
+          },
+          "uuid": "9cdad30c-fcc9-409f-8009-afa587bd323b"
+        },
+        {
+          "description": "走线 [ENC_A_B] (B.Cu), 长度: 1.4425 mm",
+          "pos": {
+            "x": 7.99,
+            "y": 26.02
+          },
+          "uuid": "d915b9ea-524a-48d3-b363-058b1bcf2348"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R111 的焊盘 1 [SPI_A_CS]",
+          "pos": {
+            "x": 15.74,
+            "y": 16.0
+          },
+          "uuid": "c0762ecb-b56b-4676-8c8e-5da2e2e5bc0b"
+        },
+        {
+          "description": "走线 [SPI_A_CS] (B.Cu), 长度: 0.4096 mm",
+          "pos": {
+            "x": 13.4604,
+            "y": 16.7623
+          },
+          "uuid": "3ff35181-8334-4f97-a445-9410a48a68c1"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 46 [CAN_TX]",
+          "pos": {
+            "x": 10.825,
+            "y": 20.75
+          },
+          "uuid": "0da03727-38f8-4232-ab52-b00e815c71a1"
+        },
+        {
+          "description": "B.Cu 上 R126 的焊盘 1 [CAN_TX]",
+          "pos": {
+            "x": 13.49,
+            "y": 11.5
+          },
+          "uuid": "bc256268-28b7-4893-b3b5-d0d363b05915"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 R116 的焊盘 1 [SPI_B_MISO]",
+          "pos": {
+            "x": 12.24,
+            "y": 13.5
+          },
+          "uuid": "a0f7ad19-5916-462c-8356-a6cc403f9243"
+        },
+        {
+          "description": "B.Cu 上 U30 的焊盘 53 [SPI_B_MISO]",
+          "pos": {
+            "x": 14.75,
+            "y": 17.825
+          },
+          "uuid": "87c60822-e11a-4a07-a8fd-bd81e1b62c06"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 22 [MCU_ENABLE]",
+          "pos": {
+            "x": 17.75,
+            "y": 29.175
+          },
+          "uuid": "2cbb33b2-0b64-4a88-a076-a32d2f5a9f4b"
+        },
+        {
+          "description": "B.Cu 上 R141 的焊盘 1 [MCU_ENABLE]",
+          "pos": {
+            "x": 19.5,
+            "y": 13.51
+          },
+          "uuid": "f0add501-1cdf-4800-9b06-53145d971f3b"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 38 [MCU_BRAKE]",
+          "pos": {
+            "x": 10.825,
+            "y": 24.75
+          },
+          "uuid": "014b7588-f209-481e-b43a-ef7c219ab410"
+        },
+        {
+          "description": "B.Cu 上 R142 的焊盘 1 [MCU_BRAKE]",
+          "pos": {
+            "x": 31.49,
+            "y": 13.25
+          },
+          "uuid": "ff930c6e-8890-425a-94df-84a61c3f23db"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 42 [MCU_PWM_UH]",
+          "pos": {
+            "x": 10.825,
+            "y": 22.75
+          },
+          "uuid": "ea16a602-802c-42ce-8738-76c72cf722e3"
+        },
+        {
+          "description": "B.Cu 上 R135 的焊盘 1 [MCU_PWM_UH]",
+          "pos": {
+            "x": 33.25,
+            "y": 20.26
+          },
+          "uuid": "14e55b76-13ca-4672-8ded-998fe580a0c1"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    },
+    {
+      "description": "Missing connection between items",
+      "items": [
+        {
+          "description": "B.Cu 上 U30 的焊盘 52 [SPI_B_SCK]",
+          "pos": {
+            "x": 14.25,
+            "y": 17.825
+          },
+          "uuid": "d46e0de9-d728-49db-9312-0261028d14ad"
+        },
+        {
+          "description": "B.Cu 上 R114 的焊盘 1 [SPI_B_SCK]",
+          "pos": {
+            "x": 17.99,
+            "y": 16.0
+          },
+          "uuid": "1562119d-43cb-4ebe-a14b-1d63a18b45dc"
+        }
+      ],
+      "severity": "error",
+      "type": "unconnected_items"
+    }
+  ],
+  "violations": [
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [+3V3_INV] (F.Cu), 长度: 0.0682 mm",
+          "pos": {
+            "x": 37.1248,
+            "y": 23.311
+          },
+          "uuid": "20996900-0712-4dd3-8ef8-3bfff0f97817"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [+3V3_INV] (F.Cu), 长度: 0.9744 mm",
+          "pos": {
+            "x": 39.249,
+            "y": 24.0
+          },
+          "uuid": "3a3dfd85-1761-4d19-bba0-c79b5c1ca2b1"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [DRIVE_PERMIT] (F.Cu), 长度: 1.6361 mm",
+          "pos": {
+            "x": 10.2058,
+            "y": 29.0011
+          },
+          "uuid": "a6c9a6f6-2312-4193-a0f5-894e24323e5d"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Hardware latch/HEALTH_UNLATCHED] (F.Cu), 长度: 6.8155 mm",
+          "pos": {
+            "x": 24.3739,
+            "y": 27.3519
+          },
+          "uuid": "9e953bc1-7d80-4f43-a5fb-00c5fb57fcaf"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Hardware latch/HEALTH_UNLATCHED] (F.Cu), 长度: 0.8356 mm",
+          "pos": {
+            "x": 24.5239,
+            "y": 26.0663
+          },
+          "uuid": "a760ae6b-5bf5-4f1c-83c6-c049aa1e82c0"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Debug and communication/CAN_L] (In2.Cu), 长度: 0.9652 mm",
+          "pos": {
+            "x": 47.27,
+            "y": 2.0
+          },
+          "uuid": "c7a4d048-2289-4249-85df-029dd899921f"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [ENC_B_A] (B.Cu), 长度: 0.0016 mm",
+          "pos": {
+            "x": 9.815,
+            "y": 30.1966
+          },
+          "uuid": "bf383fc8-dd16-4af2-8756-66100fc0909c"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Driver supply/DRV_PG_NOM] (B.Cu), 长度: 0.0626 mm",
+          "pos": {
+            "x": 16.5237,
+            "y": 51.5004
+          },
+          "uuid": "462c3bc9-c8be-4647-813d-e2ba26606bc1"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Driver supply/DRV_PG_NOM] (B.Cu), 长度: 0.1498 mm",
+          "pos": {
+            "x": 16.7304,
+            "y": 51.7395
+          },
+          "uuid": "7c419ce6-c7c1-45cc-8982-0fb315f62b25"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Driver supply/BB_BST1] (B.Cu), 长度: 1.2713 mm",
+          "pos": {
+            "x": 27.3389,
+            "y": 46.5546
+          },
+          "uuid": "353f28d3-4c81-46b9-9ab5-03984392bcc3"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [/Driver supply/BB_BST1] (B.Cu), 长度: 0.1605 mm",
+          "pos": {
+            "x": 27.0731,
+            "y": 45.0175
+          },
+          "uuid": "ad9584f9-ac07-4658-a933-21143a546ae4"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [VREF_MCU] (B.Cu), 长度: 0.3014 mm",
+          "pos": {
+            "x": 16.5363,
+            "y": 31.4357
+          },
+          "uuid": "9ab48524-d90f-4d65-8d89-0c716e6dd001"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "走线 [VREF_MCU] (B.Cu), 长度: 0.8516 mm",
+          "pos": {
+            "x": 17.7337,
+            "y": 31.302
+          },
+          "uuid": "f6954e8e-58b7-4f20-b80d-420c6a52f1cf"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    }
+  ]
+}

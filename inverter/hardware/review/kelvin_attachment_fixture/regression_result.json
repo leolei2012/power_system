@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "all_fixed_geometry_unchanged": true,
+  "cases": [
+    {
+      "uuid": "14af395b-d290-4aef-be84-57deb3f13373",
+      "case": "positive B midpoint tap",
+      "detected": true
+    },
+    {
+      "uuid": "07206790-bd0d-460e-84bf-41e28a5bfb0a",
+      "case": "negative via tap",
+      "detected": true
+    },
+    {
+      "uuid": "0974a5c6-b54a-4d1b-a8f7-e66090c18bf3",
+      "case": "INA sense-end tap",
+      "detected": true
+    }
+  ],
+  "source_hash_difference_allowed": true,
+  "report": "inverter\\hardware\\review\\kelvin_attachment_fixture\\rejected.json"
+}

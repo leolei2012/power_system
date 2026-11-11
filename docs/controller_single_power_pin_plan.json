@@ -1,0 +1,830 @@
+{
+  "revision": "G-single-power-terminal-planning",
+  "date": "2026-11-11",
+  "status": "Current single-power-port planning proposal; native Rev E schematic/PCB/BOM and shared library unchanged.",
+  "scope": {
+    "explicit_user_change": "Reduce functionality; retain only one power PWM port.",
+    "working_reduction": "PWM, CTRL, SPI, I2C and ABZ each reduced to one. ADC10, CAN1, TTL1, SWD1 and 5V input1 retained.",
+    "ADC_reason": "Single Vienna example already uses9 inputs; ten analog ports are retained rather than halved.",
+    "motor_and_PFC_simultaneous": false,
+    "power_application": "One motor or one Boost/Vienna application, not dual motor."
+  },
+  "recommended_MCU": {
+    "MPN": "STM32G431RBT6",
+    "package": "LQFP64, 10x10mm body",
+    "status": "Recommended for this reduced planning scope; the saved native project already uses RBT6.",
+    "library_present": true,
+    "library_symbol": "MyParts:STM32G431RBT6",
+    "library_footprint": "MyFootprints:ST_LQFP-64_10x10mm_P0.5mm_Pad1.2x0.3mm",
+    "LCSC_code": "C431633",
+    "domestic_URL": "https://item.szlcsc.com/428111.html",
+    "core": "170MHz / 128KB Flash / 32KB SRAM / two ADC instances; no new stock or price verification."
+  },
+  "package_signal_pad_count": 52,
+  "power_pad_count": 12,
+  "planned_signal_pads": 44,
+  "unallocated_signal_pads": [
+    {
+      "gpio": "PC14",
+      "mcu_pin": 3
+    },
+    {
+      "gpio": "PC15",
+      "mcu_pin": 4
+    },
+    {
+      "gpio": "PA2",
+      "mcu_pin": 14
+    },
+    {
+      "gpio": "PC10",
+      "mcu_pin": 52
+    },
+    {
+      "gpio": "PC11",
+      "mcu_pin": 53
+    },
+    {
+      "gpio": "PC12",
+      "mcu_pin": 54
+    },
+    {
+      "gpio": "PB3",
+      "mcu_pin": 56
+    },
+    {
+      "gpio": "PB4",
+      "mcu_pin": 57
+    }
+  ],
+  "power_pads": [
+    {
+      "mcu_pin": 1,
+      "pad": "VBAT",
+      "proposed_rail": "+3V3_MCU"
+    },
+    {
+      "mcu_pin": 15,
+      "pad": "VSS",
+      "proposed_rail": "GND"
+    },
+    {
+      "mcu_pin": 16,
+      "pad": "VDD",
+      "proposed_rail": "+3V3_MCU"
+    },
+    {
+      "mcu_pin": 27,
+      "pad": "VSSA",
+      "proposed_rail": "GND"
+    },
+    {
+      "mcu_pin": 28,
+      "pad": "VREF+",
+      "proposed_rail": "VREF_MCU"
+    },
+    {
+      "mcu_pin": 29,
+      "pad": "VDDA",
+      "proposed_rail": "+3V3_A_MCU"
+    },
+    {
+      "mcu_pin": 31,
+      "pad": "VSS",
+      "proposed_rail": "GND"
+    },
+    {
+      "mcu_pin": 32,
+      "pad": "VDD",
+      "proposed_rail": "+3V3_MCU"
+    },
+    {
+      "mcu_pin": 47,
+      "pad": "VSS",
+      "proposed_rail": "GND"
+    },
+    {
+      "mcu_pin": 48,
+      "pad": "VDD",
+      "proposed_rail": "+3V3_MCU"
+    },
+    {
+      "mcu_pin": 63,
+      "pad": "VSS",
+      "proposed_rail": "GND"
+    },
+    {
+      "mcu_pin": 64,
+      "pad": "VDD",
+      "proposed_rail": "+3V3_MCU"
+    }
+  ],
+  "bindings": [
+    {
+      "group": "PWM",
+      "signal": "PWM_CH1",
+      "gpio": "PA8",
+      "mcu_pin": 42,
+      "function": "TIM1_CH1",
+      "af": 6,
+      "status": "planned",
+      "notes": "3.3V logic to power-board hardware-gated driver inputs."
+    },
+    {
+      "group": "PWM",
+      "signal": "PWM_CH1N",
+      "gpio": "PB13",
+      "mcu_pin": 35,
+      "function": "TIM1_CH1N",
+      "af": 6,
+      "status": "planned",
+      "notes": "3.3V logic to power-board hardware-gated driver inputs."
+    },
+    {
+      "group": "PWM",
+      "signal": "PWM_CH2",
+      "gpio": "PA9",
+      "mcu_pin": 43,
+      "function": "TIM1_CH2",
+      "af": 6,
+      "status": "planned",
+      "notes": "3.3V logic to power-board hardware-gated driver inputs."
+    },
+    {
+      "group": "PWM",
+      "signal": "PWM_CH2N",
+      "gpio": "PB14",
+      "mcu_pin": 36,
+      "function": "TIM1_CH2N",
+      "af": 6,
+      "status": "planned",
+      "notes": "3.3V logic to power-board hardware-gated driver inputs."
+    },
+    {
+      "group": "PWM",
+      "signal": "PWM_CH3",
+      "gpio": "PA10",
+      "mcu_pin": 44,
+      "function": "TIM1_CH3",
+      "af": 6,
+      "status": "planned",
+      "notes": "3.3V logic to power-board hardware-gated driver inputs."
+    },
+    {
+      "group": "PWM",
+      "signal": "PWM_CH3N",
+      "gpio": "PB15",
+      "mcu_pin": 37,
+      "function": "TIM1_CH3N",
+      "af": 4,
+      "status": "planned",
+      "notes": "3.3V logic to power-board hardware-gated driver inputs."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC01",
+      "gpio": "PC0",
+      "mcu_pin": 8,
+      "function": "ADC1_IN6/ADC2_IN6",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=I_U; Boost=I_L; Vienna=I_L1. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC02",
+      "gpio": "PC1",
+      "mcu_pin": 9,
+      "function": "ADC1_IN7/ADC2_IN7",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=I_V; Boost=SPARE; Vienna=I_L2. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC03",
+      "gpio": "PC2",
+      "mcu_pin": 10,
+      "function": "ADC1_IN8/ADC2_IN8",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=I_W; Boost=SPARE; Vienna=I_L3. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC04",
+      "gpio": "PC3",
+      "mcu_pin": 11,
+      "function": "ADC1_IN9/ADC2_IN9",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=V_U_PHASE; Boost=V_RECTIFIED_INPUT; Vienna=V_AC1. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC05",
+      "gpio": "PA0",
+      "mcu_pin": 12,
+      "function": "ADC1_IN1/ADC2_IN1",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=V_V_PHASE; Boost=SPARE; Vienna=V_AC2. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC06",
+      "gpio": "PA1",
+      "mcu_pin": 13,
+      "function": "ADC1_IN2/ADC2_IN2",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=V_W_PHASE; Boost=SPARE; Vienna=V_AC3. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC07",
+      "gpio": "PA4",
+      "mcu_pin": 18,
+      "function": "ADC2_IN17",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=V_DC; Boost=V_OUTPUT; Vienna=V_BUS_UPPER. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC08",
+      "gpio": "PB0",
+      "mcu_pin": 24,
+      "function": "ADC1_IN15",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=SPARE; Boost=SPARE; Vienna=V_BUS_LOWER. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC09",
+      "gpio": "PB1",
+      "mcu_pin": 25,
+      "function": "ADC1_IN12",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=POWER_BOARD_NTC; Boost=POWER_BOARD_NTC; Vienna=NTC. One power application at a time."
+    },
+    {
+      "group": "ADC",
+      "signal": "ADC10",
+      "gpio": "PB2",
+      "mcu_pin": 26,
+      "function": "ADC2_IN12",
+      "af": null,
+      "status": "planned",
+      "notes": "Alternative examples: motor=SPARE; Boost=SPARE; Vienna=SPARE. One power application at a time."
+    },
+    {
+      "group": "ENC",
+      "signal": "ENC_A",
+      "gpio": "PB6",
+      "mcu_pin": 59,
+      "function": "TIM4_CH1",
+      "af": 2,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "ENC",
+      "signal": "ENC_B",
+      "gpio": "PB7",
+      "mcu_pin": 60,
+      "function": "TIM4_CH2",
+      "af": 2,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "ENC",
+      "signal": "ENC_Z",
+      "gpio": "PA3",
+      "mcu_pin": 17,
+      "function": "GPIO_EXTI3",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "SPI",
+      "signal": "SPI_SCK",
+      "gpio": "PA5",
+      "mcu_pin": 19,
+      "function": "SPI1_SCK",
+      "af": 5,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "SPI",
+      "signal": "SPI_MISO",
+      "gpio": "PA6",
+      "mcu_pin": 20,
+      "function": "SPI1_MISO",
+      "af": 5,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "SPI",
+      "signal": "SPI_MOSI",
+      "gpio": "PA7",
+      "mcu_pin": 21,
+      "function": "SPI1_MOSI",
+      "af": 5,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "SPI",
+      "signal": "SPI_CS_N",
+      "gpio": "PC9",
+      "mcu_pin": 41,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "I2C",
+      "signal": "I2C_SCL",
+      "gpio": "PA15",
+      "mcu_pin": 51,
+      "function": "I2C1_SCL",
+      "af": 4,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "I2C",
+      "signal": "I2C_SDA",
+      "gpio": "PB9",
+      "mcu_pin": 62,
+      "function": "I2C1_SDA",
+      "af": 4,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "TTL",
+      "signal": "TTL_TX",
+      "gpio": "PB10",
+      "mcu_pin": 30,
+      "function": "USART3_TX",
+      "af": 7,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "TTL",
+      "signal": "TTL_RX",
+      "gpio": "PB11",
+      "mcu_pin": 33,
+      "function": "USART3_RX",
+      "af": 7,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "CAN",
+      "signal": "CAN_RX",
+      "gpio": "PA11",
+      "mcu_pin": 45,
+      "function": "FDCAN1_RX",
+      "af": 9,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "CAN",
+      "signal": "CAN_TX",
+      "gpio": "PA12",
+      "mcu_pin": 46,
+      "function": "FDCAN1_TX",
+      "af": 9,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "SWD",
+      "signal": "SWD_DIO",
+      "gpio": "PA13",
+      "mcu_pin": 49,
+      "function": "SWDIO",
+      "af": 0,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "SWD",
+      "signal": "SWD_CLK",
+      "gpio": "PA14",
+      "mcu_pin": 50,
+      "function": "SWCLK",
+      "af": 0,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "CORE",
+      "signal": "CORE_HSE_IN",
+      "gpio": "PF0",
+      "mcu_pin": 5,
+      "function": "OSC_IN",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "CORE",
+      "signal": "CORE_HSE_OUT",
+      "gpio": "PF1",
+      "mcu_pin": 6,
+      "function": "OSC_OUT",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "CORE",
+      "signal": "CORE_NRST",
+      "gpio": "PG10",
+      "mcu_pin": 7,
+      "function": "NRST",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "CORE",
+      "signal": "CORE_BOOT0",
+      "gpio": "PB8",
+      "mcu_pin": 61,
+      "function": "BOOT0",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "LED",
+      "signal": "LED_RUN",
+      "gpio": "PC5",
+      "mcu_pin": 23,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "LED",
+      "signal": "LED_FAULT",
+      "gpio": "PC8",
+      "mcu_pin": 40,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "LED",
+      "signal": "LED_COMM",
+      "gpio": "PD2",
+      "mcu_pin": 55,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "LED",
+      "signal": "LED_AUX",
+      "gpio": "PB5",
+      "mcu_pin": 58,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "POWER_CTRL",
+      "signal": "POWER_CTRL_FAULT_N",
+      "gpio": "PB12",
+      "mcu_pin": 34,
+      "function": "TIM1_BKIN",
+      "af": 6,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "POWER_CTRL",
+      "signal": "POWER_CTRL_ENABLE",
+      "gpio": "PC4",
+      "mcu_pin": 22,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "POWER_CTRL",
+      "signal": "POWER_CTRL_BASE_READY",
+      "gpio": "PC13",
+      "mcu_pin": 2,
+      "function": "GPIO_Input",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "POWER_CTRL",
+      "signal": "POWER_CTRL_RUN_ARM",
+      "gpio": "PC7",
+      "mcu_pin": 39,
+      "function": "GPIO_Output",
+      "af": null,
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "group": "POWER_CTRL",
+      "signal": "POWER_CTRL_BRAKE",
+      "gpio": "PC6",
+      "mcu_pin": 38,
+      "function": "TIM8_CH1",
+      "af": 4,
+      "status": "planned",
+      "notes": ""
+    }
+  ],
+  "PWM_port": {
+    "name": "PWM",
+    "timer": "TIM1",
+    "contacts": [
+      {
+        "pin": 1,
+        "signal": "GND",
+        "gpio": null,
+        "mcu_pin": null,
+        "function": "GND",
+        "af": null
+      },
+      {
+        "pin": 2,
+        "signal": "PWM_CH1",
+        "gpio": "PA8",
+        "mcu_pin": 42,
+        "function": "TIM1_CH1",
+        "af": 6
+      },
+      {
+        "pin": 3,
+        "signal": "PWM_CH1N",
+        "gpio": "PB13",
+        "mcu_pin": 35,
+        "function": "TIM1_CH1N",
+        "af": 6
+      },
+      {
+        "pin": 4,
+        "signal": "PWM_CH2",
+        "gpio": "PA9",
+        "mcu_pin": 43,
+        "function": "TIM1_CH2",
+        "af": 6
+      },
+      {
+        "pin": 5,
+        "signal": "PWM_CH2N",
+        "gpio": "PB14",
+        "mcu_pin": 36,
+        "function": "TIM1_CH2N",
+        "af": 6
+      },
+      {
+        "pin": 6,
+        "signal": "PWM_CH3",
+        "gpio": "PA10",
+        "mcu_pin": 44,
+        "function": "TIM1_CH3",
+        "af": 6
+      },
+      {
+        "pin": 7,
+        "signal": "PWM_CH3N",
+        "gpio": "PB15",
+        "mcu_pin": 37,
+        "function": "TIM1_CH3N",
+        "af": 4
+      },
+      {
+        "pin": 8,
+        "signal": "GND",
+        "gpio": null,
+        "mcu_pin": null,
+        "function": "GND",
+        "af": null
+      }
+    ],
+    "contact_order_status": "Suggested logical order, mating-view drawing still pending."
+  },
+  "ADC_inputs": [
+    {
+      "name": "ADC01",
+      "gpio": "PC0",
+      "mcu_pin": 8,
+      "supported_channels": [
+        "ADC1_IN6",
+        "ADC2_IN6"
+      ],
+      "single_motor_example_role": "I_U",
+      "Boost_example_role": "I_L",
+      "Vienna_example_role": "I_L1",
+      "status": "planned"
+    },
+    {
+      "name": "ADC02",
+      "gpio": "PC1",
+      "mcu_pin": 9,
+      "supported_channels": [
+        "ADC1_IN7",
+        "ADC2_IN7"
+      ],
+      "single_motor_example_role": "I_V",
+      "Boost_example_role": "SPARE",
+      "Vienna_example_role": "I_L2",
+      "status": "planned"
+    },
+    {
+      "name": "ADC03",
+      "gpio": "PC2",
+      "mcu_pin": 10,
+      "supported_channels": [
+        "ADC1_IN8",
+        "ADC2_IN8"
+      ],
+      "single_motor_example_role": "I_W",
+      "Boost_example_role": "SPARE",
+      "Vienna_example_role": "I_L3",
+      "status": "planned"
+    },
+    {
+      "name": "ADC04",
+      "gpio": "PC3",
+      "mcu_pin": 11,
+      "supported_channels": [
+        "ADC1_IN9",
+        "ADC2_IN9"
+      ],
+      "single_motor_example_role": "V_U_PHASE",
+      "Boost_example_role": "V_RECTIFIED_INPUT",
+      "Vienna_example_role": "V_AC1",
+      "status": "planned"
+    },
+    {
+      "name": "ADC05",
+      "gpio": "PA0",
+      "mcu_pin": 12,
+      "supported_channels": [
+        "ADC1_IN1",
+        "ADC2_IN1"
+      ],
+      "single_motor_example_role": "V_V_PHASE",
+      "Boost_example_role": "SPARE",
+      "Vienna_example_role": "V_AC2",
+      "status": "planned"
+    },
+    {
+      "name": "ADC06",
+      "gpio": "PA1",
+      "mcu_pin": 13,
+      "supported_channels": [
+        "ADC1_IN2",
+        "ADC2_IN2"
+      ],
+      "single_motor_example_role": "V_W_PHASE",
+      "Boost_example_role": "SPARE",
+      "Vienna_example_role": "V_AC3",
+      "status": "planned"
+    },
+    {
+      "name": "ADC07",
+      "gpio": "PA4",
+      "mcu_pin": 18,
+      "supported_channels": [
+        "ADC2_IN17"
+      ],
+      "single_motor_example_role": "V_DC",
+      "Boost_example_role": "V_OUTPUT",
+      "Vienna_example_role": "V_BUS_UPPER",
+      "status": "planned"
+    },
+    {
+      "name": "ADC08",
+      "gpio": "PB0",
+      "mcu_pin": 24,
+      "supported_channels": [
+        "ADC1_IN15"
+      ],
+      "single_motor_example_role": "SPARE",
+      "Boost_example_role": "SPARE",
+      "Vienna_example_role": "V_BUS_LOWER",
+      "status": "planned"
+    },
+    {
+      "name": "ADC09",
+      "gpio": "PB1",
+      "mcu_pin": 25,
+      "supported_channels": [
+        "ADC1_IN12"
+      ],
+      "single_motor_example_role": "POWER_BOARD_NTC",
+      "Boost_example_role": "POWER_BOARD_NTC",
+      "Vienna_example_role": "NTC",
+      "status": "planned"
+    },
+    {
+      "name": "ADC10",
+      "gpio": "PB2",
+      "mcu_pin": 26,
+      "supported_channels": [
+        "ADC2_IN12"
+      ],
+      "single_motor_example_role": "SPARE",
+      "Boost_example_role": "SPARE",
+      "Vienna_example_role": "SPARE",
+      "status": "planned"
+    }
+  ],
+  "ADC_usage_examples": {
+    "status": "Hypothetical sensor assignments, not frozen power-board circuits or ADC conversion schedules.",
+    "counts": {
+      "single_motor": 8,
+      "single_boost": 4,
+      "single_Vienna": 9
+    },
+    "single_motor_spare_options": {
+      "ADC08": "Possible future DC input current, requiring a new sensing front end.",
+      "ADC10": "Possible future motor NTC, requiring a matching excitation/divider front end."
+    },
+    "measurement_notes": [
+      "Single-motor phase voltages refer to conditioned PWM phase-node measurements as in the saved inverter; no sinusoidal post-filter output is implied.",
+      "Boost input voltage example is rectified input; confirm the actual sensing point when the topology is selected.",
+      "Vienna upper/lower half-bus inputs are conditioned voltage measurements of the two bus-capacitor sections; do not tie the physical bus midpoint to controller GND just to obtain these measurements.",
+      "All ports receive low-voltage, reference-compatible conditioned signals. An NTC role needs a divider/excitation front end; it does not mean wiring a raw NTC directly across a signal/GND ADC port."
+    ]
+  },
+  "analog_input_budget": {
+    "single_motor_full": {
+      "inputs": 8,
+      "description": "Three currents, bus voltage, three phase voltages and one NTC; two ports remain."
+    },
+    "single_boost_PFC": {
+      "inputs": 4,
+      "description": "Inductor current, input voltage, output voltage and NTC; six ports remain."
+    },
+    "single_Vienna_PFC": {
+      "inputs": 9,
+      "description": "Three currents, three input voltages, two half-bus voltages and NTC; one port remains."
+    },
+    "assumptions": "One motor OR one PFC application; one power PWM port. Do not sum motor and PFC channels.",
+    "decision": "Keep ten independent analog connectors; motor8, Boost4, Vienna9. Dual-motor control is no longer the target."
+  },
+  "unallocated_analog_capabilities": [
+    {
+      "gpio": "PA2",
+      "mcu_pin": 14,
+      "channels": [
+        "ADC1_IN3"
+      ]
+    }
+  ],
+  "connector_inventory_record": "controller_connector_inventory.json",
+  "placement_study": "controller_60mm_single_power_fit.json",
+  "control_notes": [
+    "One independent active-low TIM1_BKIN on PB12; local hardware fault cutoff remains on the power board.",
+    "PC7 RUN_ARM plus reset qualification produces CTRL_READY. Default pulldowns keep the bridge disabled through reset/ROM.",
+    "PC6 TIM8_CH1 brake is independent of TIM1 bridge fault/ENABLE; use reset/ARM startup permission without disabling needed post-fault braking.",
+    "SPI CS PC9 defaults high; release PA15 JTDI for I2C while retaining PA13/PA14 SWD.",
+    "Disable unused UCPD dead-battery pulls affecting PA9/PA10 PWM and PB6 encoder input.",
+    "Encoder Z uses PA3 GPIO/EXTI3, not a promised hardware timer index-reset function.",
+    "CANH/L needs the controller-side classic-CAN PHY; keep SPI/ABZ supply PWR unresolved until sensors are selected.",
+    "Ten analog inputs share two ADCs; sample timing, front ends and the selected control loop still require validation."
+  ],
+  "native_migration": {
+    "native_MCU": "STM32G431RBT6",
+    "native_interface": "Rev E headers",
+    "changed": false,
+    "needed": "Migrate to functional terminals, one encoder/SPI/I2C, ten ADC receivers, one CTRL and new layout. Existing Rev E reports do not validate this plan."
+  },
+  "sources": {
+    "datasheet": "https://www.st.com/resource/en/datasheet/stm32g431rb.pdf",
+    "package_pool": "../controller/hardware/g431_core/STM32G431RBT6_pin_plan.csv",
+    "library": "D:/workspace/kicad_library/parts.csv",
+    "history": "history/dual_power_ports_2026-11-11/manifest.json"
+  }
+}

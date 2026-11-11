@@ -1,0 +1,11 @@
+{
+  "fanouts": [
+    {
+      "pin": "26",
+      "net": "PB2",
+      "status": "blocked",
+      "expanded": 1958
+    }
+  ],
+  "native_unconnected": 5
+}

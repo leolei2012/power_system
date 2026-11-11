@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1380" viewBox="0 0 2200 1380">
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<rect width="2200" height="1380" fill="white"/>
+<rect x="430" y="170" width="1170" height="960" rx="16" fill="#F2F6FC" stroke="#C6D4E6" stroke-width="2.5"/>
+<rect x="1660" y="650" width="480" height="480" rx="16" fill="#F0FAF6" stroke="#B9D8D1" stroke-width="2.5"/>
+<text x="50" y="65.0" text-anchor="start" dominant-baseline="central" font-size="46" fill="#172B4D" font-weight="700">Controller / Inverter 电源拓扑</text>
+<text x="50" y="125.0" text-anchor="start" dominant-baseline="central" font-size="28" fill="#64748B">讨论稿 A · 12～24V 辅助输入 · controller 从 inverter 取辅助电</text>
+<text x="460" y="205.5" text-anchor="start" dominant-baseline="central" font-size="30" fill="#172B4D" font-weight="700">INVERTER｜功率板及辅助电源功能</text>
+<text x="1690" y="692.5" text-anchor="start" dominant-baseline="central" font-size="29" fill="#172B4D" font-weight="700">CONTROLLER｜控制板</text>
+<polyline points="370,300 500,300" fill="none" stroke="#D97706" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="500.00,300.00 485.00,293.00 485.00,307.00" fill="#D97706"/>
+<polyline points="800,300 1050,300" fill="none" stroke="#D97706" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1050.00,300.00 1035.00,293.00 1035.00,307.00" fill="#D97706"/>
+<polyline points="1390,300 1740,300" fill="none" stroke="#D97706" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1740.00,300.00 1725.00,293.00 1725.00,307.00" fill="#D97706"/>
+<polyline points="370,715 500,715" fill="none" stroke="#64748B" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="500.00,715.00 485.00,708.00 485.00,722.00" fill="#64748B"/>
+<polyline points="780,715 815,715 815,495 850,495" fill="none" stroke="#2563EB" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="850.00,495.00 835.00,488.00 835.00,502.00" fill="#2563EB"/>
+<polyline points="1150,495 1220,495" fill="none" stroke="#2563EB" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1220.00,495.00 1205.00,488.00 1205.00,502.00" fill="#2563EB"/>
+<polyline points="1370,440 1370,355" fill="none" stroke="#64748B" stroke-width="4" stroke-linejoin="round" stroke-dasharray="11 8"/>
+<polygon points="1370.00,355.00 1363.00,370.00 1377.00,370.00" fill="#64748B"/>
+<polyline points="780,715 815,715 815,845 850,845" fill="none" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="850.00,845.00 835.00,838.00 835.00,852.00" fill="#059669"/>
+<polyline points="1150,845 1220,845" fill="none" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1220.00,845.00 1205.00,838.00 1205.00,852.00" fill="#059669"/>
+<polyline points="1180,845 1180,715 1640,715 1640,775 1720,775" fill="none" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1720.00,775.00 1705.00,768.00 1705.00,782.00" fill="#059669"/>
+<polyline points="1370,900 1370,960" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1370.00,960.00 1377.00,945.00 1363.00,945.00" fill="#7C3AED"/>
+<polyline points="1370,900 1370,930 1000,930 1000,960" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1000.00,960.00 1007.00,945.00 993.00,945.00" fill="#7C3AED"/>
+<polyline points="1150,1005 1220,1005" fill="none" stroke="#7C3AED" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1220.00,1005.00 1205.00,998.00 1205.00,1012.00" fill="#7C3AED"/>
+<polyline points="1800,820 1800,860" fill="none" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1800.00,860.00 1807.00,845.00 1793.00,845.00" fill="#059669"/>
+<polyline points="1880,910 1930,910" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1930.00,910.00 1915.00,903.00 1915.00,917.00" fill="#7C3AED"/>
+<rect x="50" y="240" width="320" height="120" rx="16" fill="#FFFFFF" stroke="#D97706" stroke-width="2.5"/>
+<text x="210.0" y="262.2" text-anchor="middle" dominant-baseline="central" font-size="27" fill="#172B4D">实验直流电源</text>
+<text x="210.0" y="300.0" text-anchor="middle" dominant-baseline="central" font-size="27" fill="#172B4D">或自研直流模块</text>
+<text x="210.0" y="337.79999999999995" text-anchor="middle" dominant-baseline="central" font-size="27" fill="#172B4D">（运行时择一）</text>
+<rect x="500" y="245" width="300" height="110" rx="16" fill="#FFFFFF" stroke="#D97706" stroke-width="2.5"/>
+<text x="650.0" y="279.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">DC 输入保护</text>
+<text x="650.0" y="320.29999999999995" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">预充／母线电容</text>
+<rect x="1050" y="245" width="340" height="110" rx="16" fill="#FFFFFF" stroke="#D97706" stroke-width="2.5"/>
+<text x="1220.0" y="279.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">三相逆变桥</text>
+<text x="1220.0" y="320.29999999999995" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">六只主功率 MOSFET</text>
+<rect x="1740" y="245" width="340" height="110" rx="16" fill="#FFFFFF" stroke="#D97706" stroke-width="2.5"/>
+<text x="1910.0" y="300.0" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">电机／交流负载</text>
+<text x="925.0" y="266.0" text-anchor="middle" dominant-baseline="central" font-size="21" fill="#D97706">功率母线 DC+/DC−</text>
+<rect x="50" y="655" width="320" height="120" rx="16" fill="#FFFFFF" stroke="#64748B" stroke-width="2.5"/>
+<text x="210.0" y="694.0" text-anchor="middle" dominant-baseline="central" font-size="30" fill="#172B4D">低压适配器</text>
+<text x="210.0" y="736.0" text-anchor="middle" dominant-baseline="central" font-size="30" fill="#172B4D">12～24V DC</text>
+<rect x="500" y="660" width="280" height="110" rx="16" fill="#FFFFFF" stroke="#64748B" stroke-width="2.5"/>
+<text x="640.0" y="694.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">辅助输入保护</text>
+<text x="640.0" y="735.3000000000001" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">滤波／分路</text>
+<rect x="850" y="440" width="300" height="110" rx="16" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<text x="1000.0" y="474.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">升降压稳压</text>
+<text x="1000.0" y="515.3" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">12V（候选）</text>
+<rect x="1220" y="440" width="300" height="110" rx="16" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.5"/>
+<text x="1370.0" y="474.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">栅极驱动器</text>
+<text x="1370.0" y="515.3" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">高边自举另设计</text>
+<text x="1390" y="387.0" text-anchor="start" dominant-baseline="central" font-size="22" fill="#64748B">门极驱动信号</text>
+<rect x="850" y="790" width="300" height="110" rx="16" fill="#FFFFFF" stroke="#059669" stroke-width="2.5"/>
+<text x="1000.0" y="824.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">Buck 降压</text>
+<text x="1000.0" y="865.3000000000001" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">5V（候选）</text>
+<rect x="1220" y="790" width="300" height="110" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5"/>
+<text x="1370.0" y="824.7" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">LDO</text>
+<text x="1370.0" y="865.3000000000001" text-anchor="middle" dominant-baseline="central" font-size="29" fill="#172B4D">3.3V_INV</text>
+<rect x="1220" y="960" width="300" height="90" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5"/>
+<text x="1370.0" y="1005.0" text-anchor="middle" dominant-baseline="central" font-size="26" fill="#172B4D">电流采样／保护逻辑</text>
+<rect x="850" y="960" width="300" height="90" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5"/>
+<text x="1000.0" y="986.1" text-anchor="middle" dominant-baseline="central" font-size="27" fill="#172B4D">分压＋缓冲</text>
+<text x="1000.0" y="1023.9" text-anchor="middle" dominant-baseline="central" font-size="27" fill="#172B4D">1.65V_REF</text>
+<text x="845" y="1079.0" text-anchor="start" dominant-baseline="central" font-size="24" fill="#64748B">1.65V 为采样偏置参考，不是独立供电轨</text>
+<rect x="1720" y="730" width="360" height="90" rx="16" fill="#FFFFFF" stroke="#059669" stroke-width="2.5"/>
+<text x="1900.0" y="756.8" text-anchor="middle" dominant-baseline="central" font-size="26" fill="#172B4D">独立电源线／接口</text>
+<text x="1900.0" y="793.1999999999999" text-anchor="middle" dominant-baseline="central" font-size="26" fill="#172B4D">5V ＋ GND（候选）</text>
+<rect x="1720" y="860" width="160" height="100" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5"/>
+<text x="1800.0" y="893.2" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#172B4D">LDO</text>
+<text x="1800.0" y="926.8000000000001" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#172B4D">3.3V_CTRL</text>
+<rect x="1930" y="860" width="170" height="100" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5"/>
+<text x="2015.0" y="893.2" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#172B4D">MCU</text>
+<text x="2015.0" y="926.8000000000001" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#172B4D">通信／逻辑</text>
+<text x="1900.0" y="1027.5" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#64748B">3.3V 在 controller 本地生成</text>
+<text x="50" y="1201.0" text-anchor="start" dominant-baseline="central" font-size="28" fill="#172B4D" font-weight="700">功率母线与辅助电源分开；controller 供电不受电机 ENABLE 控制。</text>
+<text x="50" y="1254.0" text-anchor="start" dominant-baseline="central" font-size="25" fill="#64748B">仅示单块 inverter 的功能分配；共地连接点、板间隔离、负载容量及稳压器型号尚待确定。</text>
+<text x="50" y="1299.0" text-anchor="start" dominant-baseline="central" font-size="25" fill="#64748B">两路 inverter 同时连接时，先指定一路给 controller 供电；24 脚信号接口另行连接。</text>
+</svg>

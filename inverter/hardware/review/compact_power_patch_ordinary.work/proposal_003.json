@@ -1,0 +1,58 @@
+{
+  "net": "/Auxiliary input/EFUSE_RTN",
+  "paths": [
+    {
+      "net": "/Auxiliary input/EFUSE_RTN",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          15.5375,
+          49.275
+        ],
+        [
+          15.3,
+          49.3
+        ],
+        [
+          15.2,
+          49.3
+        ],
+        [
+          14.8,
+          49.7
+        ],
+        [
+          14.2,
+          49.7
+        ],
+        [
+          14.1,
+          49.8
+        ],
+        [
+          13.8,
+          49.8
+        ],
+        [
+          11.6,
+          52.0
+        ],
+        [
+          11.4,
+          52.0
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 704,
+    "seconds": 10.047,
+    "start_candidates": 360,
+    "goal_candidates": 280
+  }
+}

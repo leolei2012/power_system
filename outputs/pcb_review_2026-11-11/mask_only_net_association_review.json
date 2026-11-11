@@ -1,0 +1,592 @@
+{
+  "result": "PASS",
+  "scope": "Independent metadata-only loaded snapshot review; no PCB/shared library saved.",
+  "source": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\full_route\\inverter.kicad_pcb",
+  "source_sha256_before": "91b5e35402699f73413452d4a63ff839f2f2ce67af26fc1191466aed7af4d143",
+  "source_sha256_after": "91b5e35402699f73413452d4a63ff839f2f2ce67af26fc1191466aed7af4d143",
+  "source_unchanged_during_review": true,
+  "canonical": "D:\\workspace\\power_system\\inverter\\hardware\\inverter.kicad_pcb",
+  "canonical_sha256": "b0e498fece7a8d967b4348d4cc51d9d1c3b3335e6e1c7efa71206b2052ef0a0e",
+  "XML_sha256": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b",
+  "accepted_assigned_mask_apertures": [
+    {
+      "reference": "U1",
+      "position_mm": [
+        118.4,
+        147.0
+      ],
+      "net": "/Auxiliary input/EFUSE_RTN",
+      "net_code": 5,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "17",
+      "XML_net": "/Auxiliary input/EFUSE_RTN"
+    },
+    {
+      "reference": "U2",
+      "position_mm": [
+        122.5,
+        143.5
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "21",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D201",
+      "position_mm": [
+        117.5,
+        121.95
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D201",
+      "position_mm": [
+        117.5,
+        120.05
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D201",
+      "position_mm": [
+        115.5,
+        121.0
+      ],
+      "net": "Net-(D201-K1{slash}A2)",
+      "net_code": 176,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D201-K1/A2)"
+    },
+    {
+      "reference": "D202",
+      "position_mm": [
+        117.35,
+        118.5
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D202",
+      "position_mm": [
+        119.25,
+        118.5
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D202",
+      "position_mm": [
+        118.3,
+        116.5
+      ],
+      "net": "Net-(D202-K1{slash}A2)",
+      "net_code": 159,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D202-K1/A2)"
+    },
+    {
+      "reference": "D203",
+      "position_mm": [
+        121.05,
+        117.0
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D203",
+      "position_mm": [
+        122.95,
+        117.0
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D203",
+      "position_mm": [
+        122.0,
+        115.0
+      ],
+      "net": "Net-(D203-K1{slash}A2)",
+      "net_code": 231,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D203-K1/A2)"
+    },
+    {
+      "reference": "D204",
+      "position_mm": [
+        134.628,
+        108.923
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D204",
+      "position_mm": [
+        136.528,
+        108.923
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D204",
+      "position_mm": [
+        135.578,
+        106.923
+      ],
+      "net": "Net-(D204-K1{slash}A2)",
+      "net_code": 150,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D204-K1/A2)"
+    },
+    {
+      "reference": "D205",
+      "position_mm": [
+        117.5,
+        126.95
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D205",
+      "position_mm": [
+        117.5,
+        125.05
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D205",
+      "position_mm": [
+        115.5,
+        126.0
+      ],
+      "net": "Net-(D205-K1{slash}A2)",
+      "net_code": 161,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D205-K1/A2)"
+    },
+    {
+      "reference": "D206",
+      "position_mm": [
+        111.15,
+        129.7
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D206",
+      "position_mm": [
+        113.05,
+        129.7
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D206",
+      "position_mm": [
+        112.1,
+        127.7
+      ],
+      "net": "Net-(D206-K1{slash}A2)",
+      "net_code": 155,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D206-K1/A2)"
+    },
+    {
+      "reference": "D207",
+      "position_mm": [
+        115.711,
+        118.533
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D207",
+      "position_mm": [
+        115.711,
+        120.433
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D207",
+      "position_mm": [
+        117.711,
+        119.483
+      ],
+      "net": "Net-(D207-K1{slash}A2)",
+      "net_code": 51,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D207-K1/A2)"
+    },
+    {
+      "reference": "D208",
+      "position_mm": [
+        126.3,
+        129.45
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D208",
+      "position_mm": [
+        126.3,
+        127.55
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D208",
+      "position_mm": [
+        124.3,
+        128.5
+      ],
+      "net": "Net-(D208-K1{slash}A2)",
+      "net_code": 14,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "Net-(D208-K1/A2)"
+    },
+    {
+      "reference": "D209",
+      "position_mm": [
+        121.933,
+        120.487
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D209",
+      "position_mm": [
+        121.933,
+        118.587
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D209",
+      "position_mm": [
+        119.933,
+        119.537
+      ],
+      "net": "PC13",
+      "net_code": 29,
+      "layers": [
+        "F.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "PC13"
+    },
+    {
+      "reference": "D210",
+      "position_mm": [
+        134.869,
+        114.209
+      ],
+      "net": "+3V3_CORE_REF",
+      "net_code": 28,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "2",
+      "XML_net": "+3V3_CORE_REF"
+    },
+    {
+      "reference": "D210",
+      "position_mm": [
+        134.869,
+        116.109
+      ],
+      "net": "GND",
+      "net_code": 2,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "1",
+      "XML_net": "GND"
+    },
+    {
+      "reference": "D210",
+      "position_mm": [
+        136.869,
+        115.159
+      ],
+      "net": "PB12",
+      "net_code": 163,
+      "layers": [
+        "B.Mask"
+      ],
+      "mode": "mask-only metadata association",
+      "associated_numbered_copper_pad": "3",
+      "XML_net": "PB12"
+    }
+  ],
+  "association_count": 32,
+  "canonical_assigned_anonymous_count": 0,
+  "canonical_mask_only_aperture_count": 32,
+  "geometry_fields_checked": [
+    "position",
+    "size",
+    "orientation",
+    "layer set",
+    "shape",
+    "drill",
+    "attribute"
+  ],
+  "raw_unconnected_with_metadata": 368,
+  "raw_unconnected_after_clearing_only_mask_metadata_in_memory": 368,
+  "negative_tests": [
+    {
+      "case": "anonymous copper added",
+      "rejected": true,
+      "reason": "assigned unnumbered pad is not exclusively solder mask"
+    },
+    {
+      "case": "mask plus paste with assigned net",
+      "rejected": true,
+      "reason": "assigned unnumbered pad is not exclusively solder mask"
+    },
+    {
+      "case": "wrong nonzero net",
+      "rejected": true,
+      "reason": "expected exactly one co-centered same-net numbered copper pad on the matching face"
+    },
+    {
+      "case": "1 IU off center",
+      "rejected": true,
+      "reason": "expected exactly one co-centered same-net numbered copper pad on the matching face"
+    },
+    {
+      "case": "drilled mask aperture",
+      "rejected": true,
+      "reason": "mask association cannot have a drilled hole"
+    }
+  ],
+  "reasoning": "Accepted objects have no copper and no hole. The net is only an exact co-centered, matching-face association to one numbered copper pad whose net matches XML. Clearing this metadata changes neither conductive geometry nor raw connectivity. Native solder-mask/copper DRC remains mandatory and no finding is suppressed.",
+  "policy": "Anonymous net-bearing copper, paste, mixed layers, off-center apertures, wrong nets, drilled shapes or ambiguous/missing copper peers are rejected. Canonical no-net mask/paste/NPTH shapes remain accepted.",
+  "geometry_difference_refs": [
+    "D206"
+  ],
+  "relative_mask_geometry_matches_canonical": true,
+  "absolute_mask_geometry_matches_canonical": false,
+  "footprint_origin_delta_IU": {
+    "R43": [
+      0,
+      1
+    ],
+    "R67": [
+      1,
+      0
+    ],
+    "R42": [
+      0,
+      1
+    ],
+    "U24": [
+      0,
+      1
+    ],
+    "C23": [
+      1,
+      0
+    ],
+    "J102": [
+      1,
+      0
+    ],
+    "C54": [
+      1,
+      0
+    ],
+    "R70": [
+      1,
+      0
+    ],
+    "R205": [
+      0,
+      1
+    ],
+    "R14": [
+      0,
+      1
+    ],
+    "D206": [
+      0,
+      1
+    ]
+  },
+  "geometry_note": "All aperture shape/size/layers/drill and footprint-relative coordinates match canonical exactly. D206 whole footprint origin differs by one internal unit (1 nm), with aperture and copper remaining co-centered; this is serialization rounding, not an aperture edit.",
+  "full_route_physical_mapping_pass": true,
+  "full_route_mapping_errors": [],
+  "validated_associations_in_physical_check": 32,
+  "last_readback_source_sha256": "91b5e35402699f73413452d4a63ff839f2f2ce67af26fc1191466aed7af4d143"
+}

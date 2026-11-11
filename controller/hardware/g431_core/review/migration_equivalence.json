@@ -1,0 +1,79 @@
+{
+  "pass": true,
+  "scope": "Only five migrated pages; supply/interface excluded intentionally; not final full-project ERC.",
+  "physical_references": 97,
+  "physical_pin_nodes": 282,
+  "migrated_page_checks": {
+    "mcu": {
+      "physical_references": 7,
+      "removed_refs": [],
+      "wire_count": 74,
+      "source_wire_count": 73,
+      "position_value_footprint_DNP_MPN_preserved": true
+    },
+    "mcu_analog": {
+      "physical_references": 22,
+      "removed_refs": [],
+      "wire_count": 43,
+      "source_wire_count": 43,
+      "position_value_footprint_DNP_MPN_preserved": true
+    },
+    "mcu_control": {
+      "physical_references": 12,
+      "removed_refs": [
+        "TP16",
+        "TP17"
+      ],
+      "wire_count": 26,
+      "source_wire_count": 29,
+      "position_value_footprint_DNP_MPN_preserved": true
+    },
+    "sensors": {
+      "physical_references": 30,
+      "removed_refs": [],
+      "wire_count": 80,
+      "source_wire_count": 80,
+      "position_value_footprint_DNP_MPN_preserved": true
+    },
+    "debug_comms": {
+      "physical_references": 26,
+      "removed_refs": [
+        "D3",
+        "R130"
+      ],
+      "wire_count": 76,
+      "source_wire_count": 79,
+      "position_value_footprint_DNP_MPN_preserved": true
+    }
+  },
+  "all_expected_pins_preserved": true,
+  "missing_pins": [],
+  "extra_pins": [],
+  "pin_net_mismatches": [],
+  "allowed_electrical_changes": [
+    "+3V3_INV -> +3V3_MCU",
+    "LOGIC_POWER_OK -> MCU_RESET_N",
+    "8 ADC input ports -> *_CLAMPED at R84..R91.1 only",
+    "U30 PC13/p2 NC -> BASE_READY"
+  ],
+  "remaining_U30_NC_pins": [
+    "3",
+    "4",
+    "39",
+    "56",
+    "57",
+    "62"
+  ],
+  "GPIO_LED_refs_retained": [
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "R131",
+    "R132",
+    "R133",
+    "R134"
+  ],
+  "archive_sha256": "d4b9bb6d17aa7f2f51b740622dbaa5cb63a99969d03cefa32909d799f05a6fc7",
+  "partial_xml": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\migration_only\\controller.net.xml"
+}

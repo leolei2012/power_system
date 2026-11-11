@@ -1,0 +1,654 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-11-06T02:59:50.917119+00:00",
+  "checker": "independent pcbnew readback against actual KiCad XML; no builder imported",
+  "pcbnew_version": "10.0.7",
+  "board": "inverter\\hardware\\review\\inverter_power_candidate.kicad_pcb",
+  "netlist": "D:\\workspace\\power_system\\inverter\\hardware\\review\\inverter.net.xml",
+  "verification_completed": true,
+  "physical_mapping_pass": true,
+  "errors": [],
+  "warnings": [
+    {
+      "check": "routing_incomplete",
+      "unconnected": 23,
+      "note": "A placement review is not a routed or fabrication-ready PCB."
+    }
+  ],
+  "counts": {
+    "expected_physical_references": 313,
+    "expected_symbol_pins": 919,
+    "all_board_footprints": 317,
+    "XML_physical_references_present": 313,
+    "board_mechanical_only_footprints": 4,
+    "physical_numbered_pads_checked": 933,
+    "XML_DNP_components": 16,
+    "PCB_DNP_components": 16,
+    "copper_layers": 4,
+    "mounting_hole_footprints": 4,
+    "mounting_hole_npth_pads": 4,
+    "all_npth_pads": 4,
+    "tracks_and_arcs": 2927,
+    "vias": 374,
+    "zones": 8,
+    "copper_zones": 8,
+    "rule_areas": 0
+  },
+  "input_sha256": {
+    "board": "e4f31123cdba191118a508af379d657e0ddcbd5a722122dbfd1bdae7bdea65cd",
+    "netlist": "bce946b56a764827574b14885d96c20f603b10a518d67fe3fb18f3821e694f63",
+    "candidates": "10f7b78170415341072278dad92c7c73500f9169d863f40228ca691d92dbfc71"
+  },
+  "expected_references": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "F1",
+    "F2",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J7",
+    "J8",
+    "J9",
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J14",
+    "J15",
+    "L1",
+    "L2",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "RS1",
+    "RS2",
+    "RS3",
+    "SW1",
+    "SW2",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP13",
+    "TP14",
+    "TP15",
+    "TP16",
+    "TP17",
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U30",
+    "U31",
+    "Y1"
+  ],
+  "reference_check": {
+    "missing": [],
+    "unexpected_non_mechanical": [],
+    "duplicates": {}
+  },
+  "pin_mapping": {
+    "pad_net_mismatches": [],
+    "missing_physical_pads": [],
+    "extra_numbered_pads": [],
+    "duplicate_pad_numbers_checked_individually": [
+      {
+        "reference": "D1",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "F1",
+        "pad": "1",
+        "physical_count": 2
+      },
+      {
+        "reference": "F1",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q1",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q2",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q3",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q4",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q5",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q6",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q7",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "SW1",
+        "pad": "1",
+        "physical_count": 2
+      },
+      {
+        "reference": "SW1",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "SW2",
+        "pad": "1",
+        "physical_count": 2
+      },
+      {
+        "reference": "SW2",
+        "pad": "2",
+        "physical_count": 2
+      }
+    ],
+    "named_netcode_cross_groups": [],
+    "expected_non_NC_netgroups": 209,
+    "actual_non_NC_netgroups": 209,
+    "non_NC_netgroup_membership_equal": true,
+    "NC_policy": "Every NC symbol pin must have a pad. XML singleton unconnected-* may be unnamed on PCB; no functional net may be unnamed.",
+    "NC_physical_pads_with_empty_PCB_net": 0
+  },
+  "footprint_mapping": {
+    "mismatches": [],
+    "candidate_map_count": 19,
+    "candidate_19_match": true
+  },
+  "DNP_mismatches": [],
+  "value_mismatches": [],
+  "copper_stack": [
+    {
+      "id": 0,
+      "name": "F.Cu"
+    },
+    {
+      "id": 4,
+      "name": "In1.Cu"
+    },
+    {
+      "id": 6,
+      "name": "In2.Cu"
+    },
+    {
+      "id": 2,
+      "name": "B.Cu"
+    }
+  ],
+  "outline": {
+    "closed_valid_outline": true,
+    "outer_contour_count": 1,
+    "expected_outer_contour_count": 1,
+    "edge_cuts_drawing_count": 4,
+    "edge_cuts_item_types": {
+      "PCB_SHAPE": 4
+    },
+    "area_mm2": 28000.0,
+    "bbox_mm": {
+      "x": -0.025,
+      "y": -0.025,
+      "width": 200.05,
+      "height": 140.05,
+      "right": 200.025,
+      "bottom": 140.025
+    },
+    "npth_included_as_board_cutouts": false
+  },
+  "mounting_holes": [
+    {
+      "reference": "H3",
+      "footprint": "MountingHole_3.2mm_M3",
+      "position_mm": [
+        195.0,
+        135.0
+      ],
+      "npth_drills_mm": [
+        [
+          3.2,
+          3.2
+        ]
+      ]
+    },
+    {
+      "reference": "H1",
+      "footprint": "MountingHole_3.2mm_M3",
+      "position_mm": [
+        5.0,
+        5.0
+      ],
+      "npth_drills_mm": [
+        [
+          3.2,
+          3.2
+        ]
+      ]
+    },
+    {
+      "reference": "H2",
+      "footprint": "MountingHole_3.2mm_M3",
+      "position_mm": [
+        195.0,
+        5.0
+      ],
+      "npth_drills_mm": [
+        [
+          3.2,
+          3.2
+        ]
+      ]
+    },
+    {
+      "reference": "H4",
+      "footprint": "MountingHole_3.2mm_M3",
+      "position_mm": [
+        5.0,
+        135.0
+      ],
+      "npth_drills_mm": [
+        [
+          3.2,
+          3.2
+        ]
+      ]
+    }
+  ],
+  "footprint_bounds": {
+    "method": "pcbnew footprint bbox excluding text, compared with Edge.Cuts bbox and 8 outline sample points",
+    "tolerance_mm": 0.05,
+    "out_of_bounds": []
+  },
+  "courtyard": {
+    "method": "pcbnew cached native same-side courtyard polygon Boolean intersections",
+    "severe_threshold_area_mm2": 0.25,
+    "severe_threshold_fraction_of_smaller": 0.05,
+    "missing": [],
+    "malformed": [],
+    "overlap_count": 0,
+    "severe_overlap_count": 0,
+    "overlaps": []
+  },
+  "layout_geometry_pass": true,
+  "track_classes": {
+    "PCB_TRACK": 2927,
+    "PCB_VIA": 374
+  },
+  "zones": [
+    {
+      "net": "VBUS",
+      "net_code": 4,
+      "layer": "F.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "+3V3_INV",
+      "net_code": 15,
+      "layer": "B.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "U_PHASE",
+      "net_code": 141,
+      "layer": "B.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "W_PHASE",
+      "net_code": 71,
+      "layer": "B.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "V_PHASE",
+      "net_code": 5,
+      "layer": "B.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "GND",
+      "net_code": 17,
+      "layer": "B.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "GND",
+      "net_code": 17,
+      "layer": "In1.Cu",
+      "rule_area": false,
+      "filled": true
+    },
+    {
+      "net": "VBUS",
+      "net_code": 4,
+      "layer": "In2.Cu",
+      "rule_area": false,
+      "filled": true
+    }
+  ],
+  "connectivity": {
+    "available": true,
+    "unconnected_count": 23,
+    "cross_net_contacts": [],
+    "physical_contact_check_available": true,
+    "count_source": "Raw pcbnew GetUnconnectedCount(False); reported independently from CLI DRC unconnected_items."
+  },
+  "routing_complete": false,
+  "external_DRC": {
+    "available": true,
+    "path": "inverter\\hardware\\review\\inverter_power_candidate_drc.json",
+    "sha256": "ff6e23fababd5e6a26c8131b1167da709b7ae356c2ad82479c7b4e5b790e6e5b",
+    "violations_count": 53,
+    "violations_types": {
+      "track_dangling": 12,
+      "via_dangling": 7,
+      "lib_footprint_issues": 34
+    },
+    "unconnected_items_count": 23,
+    "unconnected_items_types": {
+      "unconnected_items": 23
+    },
+    "schematic_parity_count": 0,
+    "schematic_parity_types": {},
+    "note": "External DRC result; freshness must be checked against this board revision."
+  },
+  "status": "PASS_MAPPING",
+  "fabrication_ready": false,
+  "scope_limit": "Readback validates physical assignment and records layout/routing findings; electrical ratings, thermal design and manufacturability are not approved."
+}

@@ -1,0 +1,2827 @@
+{
+  "status": "PLACED REVIEW DRAFT",
+  "components": 313,
+  "mounting_holes": 4,
+  "size_mm": [
+    200,
+    140
+  ],
+  "copper_layers": 4,
+  "candidate_footprints": 19,
+  "unassigned_placements": [],
+  "collision_nudges": [
+    {
+      "ref": "U12",
+      "from": [
+        177.0,
+        83.0
+      ],
+      "to": [
+        177.0,
+        82.5
+      ]
+    },
+    {
+      "ref": "R63",
+      "from": [
+        118.0,
+        74.0
+      ],
+      "to": [
+        118.0,
+        76.0
+      ]
+    },
+    {
+      "ref": "R58",
+      "from": [
+        118.0,
+        54.0
+      ],
+      "to": [
+        114.75,
+        55.25
+      ]
+    },
+    {
+      "ref": "R59",
+      "from": [
+        114.0,
+        54.0
+      ],
+      "to": [
+        111.25,
+        55.25
+      ]
+    },
+    {
+      "ref": "TP16",
+      "from": [
+        63.0,
+        67.0
+      ],
+      "to": [
+        63.5,
+        67.0
+      ]
+    },
+    {
+      "ref": "TP12",
+      "from": [
+        160.0,
+        86.0
+      ],
+      "to": [
+        160.0,
+        84.0
+      ]
+    },
+    {
+      "ref": "TP13",
+      "from": [
+        185.0,
+        86.0
+      ],
+      "to": [
+        184.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "C12",
+      "from": [
+        82.0,
+        111.0
+      ],
+      "to": [
+        82.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "C24",
+      "from": [
+        159.5,
+        82.5
+      ],
+      "to": [
+        159.5,
+        81.0
+      ]
+    },
+    {
+      "ref": "C38",
+      "from": [
+        156.0,
+        83.0
+      ],
+      "to": [
+        156.0,
+        80.0
+      ]
+    },
+    {
+      "ref": "R38",
+      "from": [
+        156.0,
+        86.0
+      ],
+      "to": [
+        155.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "R39",
+      "from": [
+        181.0,
+        86.0
+      ],
+      "to": [
+        184.25,
+        82.75
+      ]
+    },
+    {
+      "ref": "R41",
+      "from": [
+        143.5,
+        95.0
+      ],
+      "to": [
+        143.5,
+        95.5
+      ]
+    },
+    {
+      "ref": "R67",
+      "from": [
+        104.0,
+        81.5
+      ],
+      "to": [
+        103.75,
+        82.0
+      ]
+    },
+    {
+      "ref": "R69",
+      "from": [
+        94.0,
+        98.5
+      ],
+      "to": [
+        94.0,
+        99.0
+      ]
+    },
+    {
+      "ref": "C53",
+      "from": [
+        103.5,
+        78.5
+      ],
+      "to": [
+        103.5,
+        78.0
+      ]
+    },
+    {
+      "ref": "C54",
+      "from": [
+        103.5,
+        94.5
+      ],
+      "to": [
+        104.0,
+        94.5
+      ]
+    },
+    {
+      "ref": "R72",
+      "from": [
+        89.0,
+        99.0
+      ],
+      "to": [
+        89.0,
+        99.5
+      ]
+    },
+    {
+      "ref": "R76",
+      "from": [
+        82.5,
+        86.0
+      ],
+      "to": [
+        83.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "R82",
+      "from": [
+        82.5,
+        92.0
+      ],
+      "to": [
+        83.0,
+        92.0
+      ]
+    },
+    {
+      "ref": "R43",
+      "from": [
+        91.0,
+        33.0
+      ],
+      "to": [
+        91.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "R44",
+      "from": [
+        91.0,
+        36.0
+      ],
+      "to": [
+        91.0,
+        37.0
+      ]
+    },
+    {
+      "ref": "C46",
+      "from": [
+        110.0,
+        57.0
+      ],
+      "to": [
+        108.5,
+        57.0
+      ]
+    },
+    {
+      "ref": "C70",
+      "from": [
+        82.0,
+        47.5
+      ],
+      "to": [
+        82.0,
+        48.0
+      ]
+    },
+    {
+      "ref": "C71",
+      "from": [
+        82.0,
+        50.5
+      ],
+      "to": [
+        82.0,
+        51.5
+      ]
+    },
+    {
+      "ref": "C72",
+      "from": [
+        82.0,
+        53.5
+      ],
+      "to": [
+        82.0,
+        55.0
+      ]
+    },
+    {
+      "ref": "R88",
+      "from": [
+        72.0,
+        35.5
+      ],
+      "to": [
+        72.0,
+        35.0
+      ]
+    },
+    {
+      "ref": "R89",
+      "from": [
+        69.0,
+        32.0
+      ],
+      "to": [
+        69.0,
+        31.5
+      ]
+    },
+    {
+      "ref": "R90",
+      "from": [
+        75.0,
+        32.0
+      ],
+      "to": [
+        75.0,
+        31.5
+      ]
+    },
+    {
+      "ref": "R91",
+      "from": [
+        78.0,
+        35.5
+      ],
+      "to": [
+        78.0,
+        35.0
+      ]
+    },
+    {
+      "ref": "R122",
+      "from": [
+        68.0,
+        57.5
+      ],
+      "to": [
+        68.0,
+        57.0
+      ]
+    },
+    {
+      "ref": "C17",
+      "from": [
+        87.0,
+        57.5
+      ],
+      "to": [
+        87.0,
+        57.0
+      ]
+    },
+    {
+      "ref": "C28",
+      "from": [
+        121.8,
+        53.55
+      ],
+      "to": [
+        122.25,
+        53.5
+      ]
+    },
+    {
+      "ref": "R46",
+      "from": [
+        91.0,
+        39.0
+      ],
+      "to": [
+        91.0,
+        39.5
+      ]
+    },
+    {
+      "ref": "C47",
+      "from": [
+        111.0,
+        61.0
+      ],
+      "to": [
+        111.0,
+        61.5
+      ]
+    },
+    {
+      "ref": "R60",
+      "from": [
+        110.0,
+        54.0
+      ],
+      "to": [
+        109.25,
+        53.25
+      ]
+    },
+    {
+      "ref": "C51",
+      "from": [
+        103.5,
+        28.5
+      ],
+      "to": [
+        104.0,
+        28.5
+      ]
+    },
+    {
+      "ref": "C52",
+      "from": [
+        103.5,
+        53.5
+      ],
+      "to": [
+        104.0,
+        53.5
+      ]
+    },
+    {
+      "ref": "R124",
+      "from": [
+        17.0,
+        50.0
+      ],
+      "to": [
+        16.5,
+        50.0
+      ]
+    },
+    {
+      "ref": "C9",
+      "from": [
+        61.0,
+        118.1
+      ],
+      "to": [
+        63.5,
+        115.75
+      ]
+    },
+    {
+      "ref": "R15",
+      "from": [
+        84.8,
+        126.65
+      ],
+      "to": [
+        85.25,
+        126.75
+      ]
+    },
+    {
+      "ref": "C32",
+      "from": [
+        145.8,
+        53.55
+      ],
+      "to": [
+        146.25,
+        53.5
+      ]
+    },
+    {
+      "ref": "C36",
+      "from": [
+        169.8,
+        53.55
+      ],
+      "to": [
+        170.25,
+        53.5
+      ]
+    },
+    {
+      "ref": "R95",
+      "from": [
+        24.0,
+        19.0
+      ],
+      "to": [
+        24.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "R97",
+      "from": [
+        28.0,
+        19.0
+      ],
+      "to": [
+        28.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "R99",
+      "from": [
+        32.0,
+        19.0
+      ],
+      "to": [
+        32.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "R102",
+      "from": [
+        44.0,
+        19.0
+      ],
+      "to": [
+        44.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "R104",
+      "from": [
+        48.0,
+        19.0
+      ],
+      "to": [
+        48.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "R106",
+      "from": [
+        52.0,
+        19.0
+      ],
+      "to": [
+        52.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "R121",
+      "from": [
+        60.5,
+        60.5
+      ],
+      "to": [
+        60.25,
+        61.0
+      ]
+    },
+    {
+      "ref": "R138",
+      "from": [
+        53.0,
+        45.5
+      ],
+      "to": [
+        52.5,
+        45.5
+      ]
+    },
+    {
+      "ref": "R140",
+      "from": [
+        53.0,
+        48.0
+      ],
+      "to": [
+        52.5,
+        48.0
+      ]
+    },
+    {
+      "ref": "R141",
+      "from": [
+        56.0,
+        37.5
+      ],
+      "to": [
+        56.0,
+        37.0
+      ]
+    }
+  ],
+  "assembly_layer_references": [
+    "C7",
+    "R108",
+    "R109",
+    "R120",
+    "R143",
+    "R60",
+    "Y1"
+  ],
+  "placements": {
+    "C1": {
+      "x": 22.8,
+      "y": 113.4,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "aux_input"
+    },
+    "C2": {
+      "x": 34.6,
+      "y": 119.2,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "C3": {
+      "x": 35.5,
+      "y": 116.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "aux_input"
+    },
+    "F2": {
+      "x": 22.0,
+      "y": 105.0,
+      "rotation_deg": 0.0,
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "group": "aux_input"
+    },
+    "J2": {
+      "x": 15.0,
+      "y": 105.0,
+      "rotation_deg": 180.0,
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "group": "aux_input"
+    },
+    "R1": {
+      "x": 23.0,
+      "y": 119.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R2": {
+      "x": 23.0,
+      "y": 121.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R3": {
+      "x": 23.0,
+      "y": 123.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R4": {
+      "x": 23.0,
+      "y": 125.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R5": {
+      "x": 26.5,
+      "y": 125.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R6": {
+      "x": 34.1,
+      "y": 122.4,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R7": {
+      "x": 37.0,
+      "y": 124.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "R8": {
+      "x": 26.8,
+      "y": 113.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "aux_input"
+    },
+    "SW1": {
+      "x": 11.0,
+      "y": 123.5,
+      "rotation_deg": 0.0,
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "group": "aux_input"
+    },
+    "U1": {
+      "x": 29.0,
+      "y": 118.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm",
+      "group": "aux_input"
+    },
+    "C4": {
+      "x": 50.0,
+      "y": 116.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "C5": {
+      "x": 61.0,
+      "y": 115.6,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "C6": {
+      "x": 46.6,
+      "y": 118.6,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "supply_12v"
+    },
+    "C7": {
+      "x": 50.0,
+      "y": 119.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "supply_12v"
+    },
+    "C8": {
+      "x": 65.0,
+      "y": 118.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "group": "supply_12v"
+    },
+    "C9": {
+      "x": 63.5,
+      "y": 115.75,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "C10": {
+      "x": 61.5,
+      "y": 123.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "supply_12v"
+    },
+    "L1": {
+      "x": 55.5,
+      "y": 107.5,
+      "rotation_deg": 0.0,
+      "footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+      "group": "supply_12v"
+    },
+    "R9": {
+      "x": 50.0,
+      "y": 124.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "R10": {
+      "x": 68.5,
+      "y": 126.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "R11": {
+      "x": 72.0,
+      "y": 126.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "R12": {
+      "x": 75.5,
+      "y": 126.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "supply_12v"
+    },
+    "TP1": {
+      "x": 69.0,
+      "y": 118.5,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "supply_12v"
+    },
+    "TP2": {
+      "x": 65.5,
+      "y": 122.8,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "supply_12v"
+    },
+    "TP3": {
+      "x": 72.0,
+      "y": 130.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "supply_12v"
+    },
+    "U2": {
+      "x": 55.5,
+      "y": 119.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm",
+      "group": "supply_12v"
+    },
+    "C11": {
+      "x": 74.5,
+      "y": 111.5,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "supply_5v"
+    },
+    "C12": {
+      "x": 82.0,
+      "y": 115.0,
+      "rotation_deg": -90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "supply_5v"
+    },
+    "C13": {
+      "x": 90.0,
+      "y": 116.2,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "supply_5v"
+    },
+    "C14": {
+      "x": 90.0,
+      "y": 119.0,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "supply_5v"
+    },
+    "C15": {
+      "x": 76.8,
+      "y": 122.55,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "supply_3v3"
+    },
+    "C16": {
+      "x": 84.2,
+      "y": 122.55,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "supply_3v3"
+    },
+    "C17": {
+      "x": 87.0,
+      "y": 57.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "reset_boot"
+    },
+    "C18": {
+      "x": 93.3,
+      "y": 124.75,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "sensor_power"
+    },
+    "J7": {
+      "x": 78.0,
+      "y": 130.0,
+      "rotation_deg": 0.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "group": "sensor_power"
+    },
+    "L2": {
+      "x": 88.5,
+      "y": 107.5,
+      "rotation_deg": 0.0,
+      "footprint": "Inductor_SMD:L_10.4x10.4_H4.8",
+      "group": "supply_5v"
+    },
+    "R13": {
+      "x": 80.0,
+      "y": 57.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "reset_boot"
+    },
+    "R14": {
+      "x": 92.8,
+      "y": 128.3,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "sensor_power"
+    },
+    "R15": {
+      "x": 85.25,
+      "y": 126.75,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "sensor_power"
+    },
+    "TP4": {
+      "x": 82.0,
+      "y": 128.5,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "sensor_power"
+    },
+    "U3": {
+      "x": 79.0,
+      "y": 111.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSOT-23-6",
+      "group": "supply_5v"
+    },
+    "U4": {
+      "x": 80.5,
+      "y": 123.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-5",
+      "group": "supply_3v3"
+    },
+    "U5": {
+      "x": 89.0,
+      "y": 125.7,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-6",
+      "group": "sensor_power"
+    },
+    "U6": {
+      "x": 84.0,
+      "y": 60.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-6",
+      "group": "reset_boot"
+    },
+    "C19": {
+      "x": 128.0,
+      "y": 29.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "group": "main_bus_bulk"
+    },
+    "C20": {
+      "x": 157.0,
+      "y": 29.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "group": "main_bus_bulk"
+    },
+    "C21": {
+      "x": 135.5,
+      "y": 67.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "group": "main_bus_bypass"
+    },
+    "C22": {
+      "x": 159.5,
+      "y": 67.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "group": "main_bus_bypass"
+    },
+    "C23": {
+      "x": 156.5,
+      "y": 82.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "brake"
+    },
+    "C24": {
+      "x": 159.5,
+      "y": 81.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "brake"
+    },
+    "D1": {
+      "x": 179.0,
+      "y": 29.0,
+      "rotation_deg": 180.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "main_bus_input"
+    },
+    "D2": {
+      "x": 184.0,
+      "y": 74.0,
+      "rotation_deg": 90.0,
+      "footprint": "Diode_SMD:D_SMC",
+      "group": "main_bus_input"
+    },
+    "F1": {
+      "x": 135.0,
+      "y": 12.5,
+      "rotation_deg": 0.0,
+      "footprint": "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal",
+      "group": "main_bus_input"
+    },
+    "J3": {
+      "x": 124.0,
+      "y": 14.0,
+      "rotation_deg": 180.0,
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+      "group": "main_bus_input"
+    },
+    "J4": {
+      "x": 194.0,
+      "y": 44.0,
+      "rotation_deg": -90.0,
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal",
+      "group": "phase_output"
+    },
+    "J5": {
+      "x": 194.0,
+      "y": 90.0,
+      "rotation_deg": -90.0,
+      "footprint": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+      "group": "brake"
+    },
+    "Q7": {
+      "x": 176.0,
+      "y": 90.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "brake"
+    },
+    "R16": {
+      "x": 156.0,
+      "y": 90.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "brake"
+    },
+    "R17": {
+      "x": 163.8,
+      "y": 87.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "brake"
+    },
+    "R18": {
+      "x": 163.8,
+      "y": 91.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "brake"
+    },
+    "U29": {
+      "x": 159.5,
+      "y": 87.46,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-5",
+      "group": "brake"
+    },
+    "C25": {
+      "x": 121.8,
+      "y": 49.9,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "bridge_u"
+    },
+    "C26": {
+      "x": 121.8,
+      "y": 51.95,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bridge_u"
+    },
+    "C27": {
+      "x": 112.0,
+      "y": 59.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "bridge_u"
+    },
+    "C28": {
+      "x": 122.25,
+      "y": 53.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bridge_u"
+    },
+    "Q1": {
+      "x": 127.0,
+      "y": 43.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "bridge_u"
+    },
+    "Q2": {
+      "x": 127.0,
+      "y": 60.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "bridge_u"
+    },
+    "R19": {
+      "x": 114.8,
+      "y": 40.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "bridge_u"
+    },
+    "R20": {
+      "x": 114.8,
+      "y": 57.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "bridge_u"
+    },
+    "R21": {
+      "x": 114.8,
+      "y": 44.4,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_u"
+    },
+    "R22": {
+      "x": 114.8,
+      "y": 63.8,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_u"
+    },
+    "R23": {
+      "x": 110.0,
+      "y": 49.6,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_u"
+    },
+    "R24": {
+      "x": 110.0,
+      "y": 51.6,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_u"
+    },
+    "RS1": {
+      "x": 119.35,
+      "y": 71.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "group": "bridge_u"
+    },
+    "TP5": {
+      "x": 130.5,
+      "y": 51.5,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "bridge_u"
+    },
+    "TP6": {
+      "x": 123.5,
+      "y": 67.8,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "bridge_u"
+    },
+    "U7": {
+      "x": 115.4,
+      "y": 51.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "group": "bridge_u"
+    },
+    "C29": {
+      "x": 145.8,
+      "y": 49.9,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "bridge_v"
+    },
+    "C30": {
+      "x": 145.8,
+      "y": 51.95,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bridge_v"
+    },
+    "C31": {
+      "x": 136.0,
+      "y": 59.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "bridge_v"
+    },
+    "C32": {
+      "x": 146.25,
+      "y": 53.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bridge_v"
+    },
+    "Q3": {
+      "x": 151.0,
+      "y": 43.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "bridge_v"
+    },
+    "Q4": {
+      "x": 151.0,
+      "y": 60.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "bridge_v"
+    },
+    "R25": {
+      "x": 138.8,
+      "y": 40.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "bridge_v"
+    },
+    "R26": {
+      "x": 138.8,
+      "y": 57.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "bridge_v"
+    },
+    "R27": {
+      "x": 138.8,
+      "y": 44.4,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_v"
+    },
+    "R28": {
+      "x": 138.8,
+      "y": 63.8,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_v"
+    },
+    "R29": {
+      "x": 134.0,
+      "y": 49.6,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_v"
+    },
+    "R30": {
+      "x": 134.0,
+      "y": 51.6,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_v"
+    },
+    "RS2": {
+      "x": 143.35,
+      "y": 71.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "group": "bridge_v"
+    },
+    "TP7": {
+      "x": 154.5,
+      "y": 51.5,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "bridge_v"
+    },
+    "TP8": {
+      "x": 147.5,
+      "y": 67.8,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "bridge_v"
+    },
+    "U8": {
+      "x": 139.4,
+      "y": 51.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "group": "bridge_v"
+    },
+    "C33": {
+      "x": 169.8,
+      "y": 49.9,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "group": "bridge_w"
+    },
+    "C34": {
+      "x": 169.8,
+      "y": 51.95,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bridge_w"
+    },
+    "C35": {
+      "x": 160.0,
+      "y": 59.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "bridge_w"
+    },
+    "C36": {
+      "x": 170.25,
+      "y": 53.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bridge_w"
+    },
+    "Q5": {
+      "x": 175.0,
+      "y": 43.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "bridge_w"
+    },
+    "Q6": {
+      "x": 175.0,
+      "y": 60.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:TO-263-3_TabPin2",
+      "group": "bridge_w"
+    },
+    "R31": {
+      "x": 162.8,
+      "y": 40.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "bridge_w"
+    },
+    "R32": {
+      "x": 162.8,
+      "y": 57.46,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "bridge_w"
+    },
+    "R33": {
+      "x": 162.8,
+      "y": 44.4,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_w"
+    },
+    "R34": {
+      "x": 162.8,
+      "y": 63.8,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_w"
+    },
+    "R35": {
+      "x": 158.0,
+      "y": 49.6,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_w"
+    },
+    "R36": {
+      "x": 158.0,
+      "y": 51.6,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bridge_w"
+    },
+    "RS3": {
+      "x": 167.35,
+      "y": 71.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "group": "bridge_w"
+    },
+    "TP9": {
+      "x": 178.5,
+      "y": 51.5,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "bridge_w"
+    },
+    "TP10": {
+      "x": 171.5,
+      "y": 67.8,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "bridge_w"
+    },
+    "U9": {
+      "x": 163.4,
+      "y": 51.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "group": "bridge_w"
+    },
+    "C37": {
+      "x": 131.0,
+      "y": 83.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_U"
+    },
+    "C38": {
+      "x": 156.0,
+      "y": 80.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_V"
+    },
+    "C39": {
+      "x": 181.0,
+      "y": 83.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_W"
+    },
+    "C40": {
+      "x": 146.5,
+      "y": 95.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_bias"
+    },
+    "C41": {
+      "x": 152.0,
+      "y": 93.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_bias"
+    },
+    "C62": {
+      "x": 55.0,
+      "y": 75.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R37": {
+      "x": 131.0,
+      "y": 86.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_U"
+    },
+    "R38": {
+      "x": 155.5,
+      "y": 86.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_V"
+    },
+    "R39": {
+      "x": 184.25,
+      "y": 82.75,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_W"
+    },
+    "R40": {
+      "x": 143.5,
+      "y": 92.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_bias"
+    },
+    "R41": {
+      "x": 143.5,
+      "y": 95.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_bias"
+    },
+    "R42": {
+      "x": 91.0,
+      "y": 30.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_thresholds"
+    },
+    "R43": {
+      "x": 91.0,
+      "y": 33.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_thresholds"
+    },
+    "R44": {
+      "x": 91.0,
+      "y": 37.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_thresholds"
+    },
+    "R45": {
+      "x": 95.0,
+      "y": 39.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_thresholds"
+    },
+    "R46": {
+      "x": 91.0,
+      "y": 39.5,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_thresholds"
+    },
+    "R47": {
+      "x": 87.0,
+      "y": 39.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "current_thresholds"
+    },
+    "TP11": {
+      "x": 135.0,
+      "y": 86.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "current_U"
+    },
+    "TP12": {
+      "x": 160.0,
+      "y": 84.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "current_V"
+    },
+    "TP13": {
+      "x": 184.0,
+      "y": 86.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "current_W"
+    },
+    "U10": {
+      "x": 127.0,
+      "y": 83.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-8",
+      "group": "current_U"
+    },
+    "U11": {
+      "x": 152.0,
+      "y": 83.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-8",
+      "group": "current_V"
+    },
+    "U12": {
+      "x": 177.0,
+      "y": 82.5,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-23-8",
+      "group": "current_W"
+    },
+    "U13": {
+      "x": 149.0,
+      "y": 96.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "group": "current_bias"
+    },
+    "U28": {
+      "x": 50.0,
+      "y": 80.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOIC-14_3.9x8.7mm_P1.27mm",
+      "group": "hardware_fault_logic"
+    },
+    "C42": {
+      "x": 110.0,
+      "y": 97.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_DC"
+    },
+    "C43": {
+      "x": 111.0,
+      "y": 101.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_DC"
+    },
+    "C44": {
+      "x": 110.0,
+      "y": 37.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_U"
+    },
+    "C45": {
+      "x": 111.0,
+      "y": 41.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_U"
+    },
+    "C46": {
+      "x": 108.5,
+      "y": 57.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_V"
+    },
+    "C47": {
+      "x": 111.0,
+      "y": 61.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_V"
+    },
+    "C48": {
+      "x": 110.0,
+      "y": 77.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_W"
+    },
+    "C49": {
+      "x": 111.0,
+      "y": 81.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "voltage_W"
+    },
+    "C50": {
+      "x": 22.0,
+      "y": 84.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "ntc_connector"
+    },
+    "J8": {
+      "x": 10.0,
+      "y": 84.0,
+      "rotation_deg": 0.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "group": "ntc_connector"
+    },
+    "R48": {
+      "x": 118.0,
+      "y": 94.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_DC"
+    },
+    "R49": {
+      "x": 114.0,
+      "y": 94.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_DC"
+    },
+    "R50": {
+      "x": 110.0,
+      "y": 94.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_DC"
+    },
+    "R51": {
+      "x": 106.0,
+      "y": 97.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_DC"
+    },
+    "R52": {
+      "x": 103.5,
+      "y": 101.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_DC"
+    },
+    "R53": {
+      "x": 118.0,
+      "y": 34.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_U"
+    },
+    "R54": {
+      "x": 114.0,
+      "y": 34.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_U"
+    },
+    "R55": {
+      "x": 110.0,
+      "y": 34.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_U"
+    },
+    "R56": {
+      "x": 106.0,
+      "y": 37.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_U"
+    },
+    "R57": {
+      "x": 103.5,
+      "y": 41.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_U"
+    },
+    "R58": {
+      "x": 114.75,
+      "y": 55.25,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_V"
+    },
+    "R59": {
+      "x": 111.25,
+      "y": 55.25,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_V"
+    },
+    "R60": {
+      "x": 109.25,
+      "y": 53.25,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_V"
+    },
+    "R61": {
+      "x": 106.0,
+      "y": 57.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_V"
+    },
+    "R62": {
+      "x": 103.5,
+      "y": 61.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_V"
+    },
+    "R63": {
+      "x": 118.0,
+      "y": 76.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_W"
+    },
+    "R64": {
+      "x": 114.0,
+      "y": 74.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "voltage_W"
+    },
+    "R65": {
+      "x": 110.0,
+      "y": 74.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_W"
+    },
+    "R66": {
+      "x": 106.0,
+      "y": 77.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_W"
+    },
+    "R67": {
+      "x": 103.75,
+      "y": 82.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "voltage_W"
+    },
+    "R68": {
+      "x": 94.0,
+      "y": 95.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bus_ov_driver_uv"
+    },
+    "R69": {
+      "x": 94.0,
+      "y": 99.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bus_ov_driver_uv"
+    },
+    "R70": {
+      "x": 18.0,
+      "y": 84.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "ntc_connector"
+    },
+    "U14": {
+      "x": 107.0,
+      "y": 101.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "group": "voltage_DC"
+    },
+    "U15": {
+      "x": 107.0,
+      "y": 41.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "group": "voltage_U"
+    },
+    "U16": {
+      "x": 107.0,
+      "y": 61.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "group": "voltage_V"
+    },
+    "U17": {
+      "x": 107.0,
+      "y": 81.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "group": "voltage_W"
+    },
+    "C51": {
+      "x": 104.0,
+      "y": 28.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_window_U"
+    },
+    "C52": {
+      "x": 104.0,
+      "y": 53.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_window_V"
+    },
+    "C53": {
+      "x": 103.5,
+      "y": 78.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "current_window_W"
+    },
+    "C54": {
+      "x": 104.0,
+      "y": 94.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "bus_ov_driver_uv"
+    },
+    "R71": {
+      "x": 89.0,
+      "y": 96.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bus_ov_driver_uv"
+    },
+    "R72": {
+      "x": 89.0,
+      "y": 99.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "bus_ov_driver_uv"
+    },
+    "U18": {
+      "x": 99.0,
+      "y": 31.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "group": "current_window_U"
+    },
+    "U19": {
+      "x": 99.0,
+      "y": 56.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "group": "current_window_V"
+    },
+    "U20": {
+      "x": 99.0,
+      "y": 81.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "group": "current_window_W"
+    },
+    "U21": {
+      "x": 99.0,
+      "y": 97.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "group": "bus_ov_driver_uv"
+    },
+    "C55": {
+      "x": 57.0,
+      "y": 83.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "Q8": {
+      "x": 60.0,
+      "y": 67.0,
+      "rotation_deg": 0.0,
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "group": "hardware_fault_logic"
+    },
+    "R73": {
+      "x": 56.0,
+      "y": 79.5,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R74": {
+      "x": 55.5,
+      "y": 67.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R75": {
+      "x": 60.0,
+      "y": 71.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "TP14": {
+      "x": 47.0,
+      "y": 87.5,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "hardware_fault_logic"
+    },
+    "U22": {
+      "x": 88.0,
+      "y": 67.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "hardware_fault_logic"
+    },
+    "U23": {
+      "x": 88.0,
+      "y": 77.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "hardware_fault_logic"
+    },
+    "U24": {
+      "x": 76.0,
+      "y": 77.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "hardware_fault_logic"
+    },
+    "U25": {
+      "x": 88.0,
+      "y": 89.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "hardware_fault_logic"
+    },
+    "U27": {
+      "x": 64.0,
+      "y": 77.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "hardware_fault_logic"
+    },
+    "C56": {
+      "x": 93.0,
+      "y": 63.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "C57": {
+      "x": 93.0,
+      "y": 73.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "C58": {
+      "x": 81.0,
+      "y": 73.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "C59": {
+      "x": 93.0,
+      "y": 85.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "C60": {
+      "x": 81.0,
+      "y": 85.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "C61": {
+      "x": 69.0,
+      "y": 73.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R76": {
+      "x": 83.0,
+      "y": 86.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R77": {
+      "x": 93.0,
+      "y": 92.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R78": {
+      "x": 93.0,
+      "y": 88.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R79": {
+      "x": 70.5,
+      "y": 86.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R80": {
+      "x": 70.5,
+      "y": 91.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R81": {
+      "x": 81.0,
+      "y": 92.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R82": {
+      "x": 83.0,
+      "y": 92.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "R83": {
+      "x": 94.0,
+      "y": 80.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "hardware_fault_logic"
+    },
+    "U26": {
+      "x": 76.0,
+      "y": 89.0,
+      "rotation_deg": 0.0,
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "hardware_fault_logic"
+    },
+    "C63": {
+      "x": 75.5,
+      "y": 44.3,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_core"
+    },
+    "C64": {
+      "x": 60.0,
+      "y": 39.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_core"
+    },
+    "C65": {
+      "x": 58.5,
+      "y": 51.5,
+      "rotation_deg": 180.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_core"
+    },
+    "C66": {
+      "x": 71.5,
+      "y": 57.0,
+      "rotation_deg": -90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_core"
+    },
+    "C67": {
+      "x": 75.5,
+      "y": 52.0,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_core"
+    },
+    "C68": {
+      "x": 77.5,
+      "y": 58.5,
+      "rotation_deg": 0.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_core"
+    },
+    "U30": {
+      "x": 67.0,
+      "y": 48.0,
+      "rotation_deg": 180.0,
+      "footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "group": "mcu_core"
+    },
+    "C69": {
+      "x": 82.0,
+      "y": 44.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "C70": {
+      "x": 82.0,
+      "y": 48.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "C71": {
+      "x": 82.0,
+      "y": 51.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "C72": {
+      "x": 82.0,
+      "y": 55.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "C73": {
+      "x": 72.0,
+      "y": 38.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "C74": {
+      "x": 69.0,
+      "y": 35.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "C75": {
+      "x": 75.0,
+      "y": 35.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "C76": {
+      "x": 78.0,
+      "y": 38.5,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "C77": {
+      "x": 63.0,
+      "y": 39.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_analog_reference"
+    },
+    "C78": {
+      "x": 60.5,
+      "y": 36.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_analog_reference"
+    },
+    "C79": {
+      "x": 65.5,
+      "y": 39.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_analog_reference"
+    },
+    "C80": {
+      "x": 65.5,
+      "y": 35.8,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "mcu_analog_reference"
+    },
+    "R84": {
+      "x": 85.5,
+      "y": 44.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "R85": {
+      "x": 85.5,
+      "y": 47.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "R86": {
+      "x": 85.5,
+      "y": 50.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "R87": {
+      "x": 85.5,
+      "y": 53.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_current_bus_rc"
+    },
+    "R88": {
+      "x": 72.0,
+      "y": 35.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "R89": {
+      "x": 69.0,
+      "y": 31.5,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "R90": {
+      "x": 75.0,
+      "y": 31.5,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "R91": {
+      "x": 78.0,
+      "y": 35.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "adc_voltage_ntc_rc"
+    },
+    "R92": {
+      "x": 60.5,
+      "y": 32.799999,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_analog_reference"
+    },
+    "R93": {
+      "x": 63.0,
+      "y": 35.8,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_analog_reference"
+    },
+    "J9": {
+      "x": 22.0,
+      "y": 10.0,
+      "rotation_deg": 90.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "group": "encoder_a"
+    },
+    "J10": {
+      "x": 40.0,
+      "y": 10.0,
+      "rotation_deg": 90.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "group": "encoder_b"
+    },
+    "J11": {
+      "x": 58.0,
+      "y": 10.0,
+      "rotation_deg": 90.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "group": "spi_a"
+    },
+    "J12": {
+      "x": 80.0,
+      "y": 10.0,
+      "rotation_deg": 90.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "group": "spi_b"
+    },
+    "R94": {
+      "x": 24.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R95": {
+      "x": 24.0,
+      "y": 19.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R96": {
+      "x": 28.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R97": {
+      "x": 28.0,
+      "y": 19.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R98": {
+      "x": 32.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R99": {
+      "x": 32.0,
+      "y": 19.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R100": {
+      "x": 20.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_a"
+    },
+    "R101": {
+      "x": 44.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R102": {
+      "x": 44.0,
+      "y": 19.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R103": {
+      "x": 48.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R104": {
+      "x": 48.0,
+      "y": 19.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R105": {
+      "x": 52.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R106": {
+      "x": 52.0,
+      "y": 19.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R107": {
+      "x": 40.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "encoder_b"
+    },
+    "R108": {
+      "x": 69.75,
+      "y": 39.3,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_a"
+    },
+    "R109": {
+      "x": 67.8,
+      "y": 39.3,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_a"
+    },
+    "R110": {
+      "x": 68.5,
+      "y": 15.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_a"
+    },
+    "R111": {
+      "x": 64.0,
+      "y": 57.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_a"
+    },
+    "R112": {
+      "x": 62.0,
+      "y": 63.5,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_a"
+    },
+    "R113": {
+      "x": 60.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_a"
+    },
+    "R114": {
+      "x": 64.5,
+      "y": 61.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_b"
+    },
+    "R115": {
+      "x": 68.0,
+      "y": 60.5,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_b"
+    },
+    "R116": {
+      "x": 90.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_b"
+    },
+    "R117": {
+      "x": 54.0,
+      "y": 57.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_b"
+    },
+    "R118": {
+      "x": 54.0,
+      "y": 60.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_b"
+    },
+    "R119": {
+      "x": 82.0,
+      "y": 16.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "spi_b"
+    },
+    "C81": {
+      "x": 76.5,
+      "y": 55.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "reset_boot"
+    },
+    "C82": {
+      "x": 27.0,
+      "y": 61.0,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "can_dnp"
+    },
+    "D3": {
+      "x": 22.0,
+      "y": 25.0,
+      "rotation_deg": 0.0,
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "D4": {
+      "x": 28.0,
+      "y": 25.0,
+      "rotation_deg": 0.0,
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "D5": {
+      "x": 34.0,
+      "y": 25.0,
+      "rotation_deg": 0.0,
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "D6": {
+      "x": 40.0,
+      "y": 25.0,
+      "rotation_deg": 0.0,
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "D7": {
+      "x": 46.0,
+      "y": 25.0,
+      "rotation_deg": 0.0,
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "J13": {
+      "x": 10.0,
+      "y": 30.0,
+      "rotation_deg": 0.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "group": "swd"
+    },
+    "J14": {
+      "x": 10.0,
+      "y": 48.0,
+      "rotation_deg": 0.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "group": "ttl_uart"
+    },
+    "J15": {
+      "x": 10.0,
+      "y": 65.0,
+      "rotation_deg": 0.0,
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "group": "can_dnp"
+    },
+    "R120": {
+      "x": 60.5,
+      "y": 57.5,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "swd"
+    },
+    "R121": {
+      "x": 60.25,
+      "y": 61.0,
+      "rotation_deg": -90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "swd"
+    },
+    "R122": {
+      "x": 68.0,
+      "y": 57.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "reset_boot"
+    },
+    "R123": {
+      "x": 57.0,
+      "y": 35.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "ttl_uart"
+    },
+    "R124": {
+      "x": 16.5,
+      "y": 50.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "ttl_uart"
+    },
+    "R125": {
+      "x": 56.0,
+      "y": 39.7,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "ttl_uart"
+    },
+    "R126": {
+      "x": 29.0,
+      "y": 66.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "can_dnp"
+    },
+    "R127": {
+      "x": 29.0,
+      "y": 69.5,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "can_dnp"
+    },
+    "R128": {
+      "x": 32.0,
+      "y": 63.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "can_dnp"
+    },
+    "R129": {
+      "x": 15.0,
+      "y": 66.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "can_dnp"
+    },
+    "R130": {
+      "x": 22.0,
+      "y": 28.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "R131": {
+      "x": 28.0,
+      "y": 28.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "R132": {
+      "x": 34.0,
+      "y": 28.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "R133": {
+      "x": 40.0,
+      "y": 28.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "R134": {
+      "x": 46.0,
+      "y": 28.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "status_leds"
+    },
+    "SW2": {
+      "x": 20.0,
+      "y": 44.0,
+      "rotation_deg": 0.0,
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "group": "reset_boot"
+    },
+    "TP15": {
+      "x": 65.0,
+      "y": 64.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "reset_boot"
+    },
+    "U31": {
+      "x": 22.0,
+      "y": 65.0,
+      "rotation_deg": 180.0,
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "group": "can_dnp"
+    },
+    "C83": {
+      "x": 79.5,
+      "y": 46.4,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hse_dnp_reserve"
+    },
+    "C84": {
+      "x": 79.5,
+      "y": 50.8,
+      "rotation_deg": 90.0,
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "group": "hse_dnp_reserve"
+    },
+    "R135": {
+      "x": 56.0,
+      "y": 46.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R136": {
+      "x": 53.0,
+      "y": 43.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R137": {
+      "x": 56.0,
+      "y": 48.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R138": {
+      "x": 52.5,
+      "y": 45.5,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R139": {
+      "x": 56.0,
+      "y": 54.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R140": {
+      "x": 52.5,
+      "y": 48.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R141": {
+      "x": 56.0,
+      "y": 37.0,
+      "rotation_deg": 0.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R142": {
+      "x": 53.0,
+      "y": 51.0,
+      "rotation_deg": 180.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "R143": {
+      "x": 57.5,
+      "y": 43.0,
+      "rotation_deg": 90.0,
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "group": "mcu_pwm_fault"
+    },
+    "TP16": {
+      "x": 63.5,
+      "y": 67.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "mcu_pwm_fault"
+    },
+    "TP17": {
+      "x": 68.0,
+      "y": 66.0,
+      "rotation_deg": 0.0,
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "mcu_pwm_fault"
+    },
+    "Y1": {
+      "x": 76.2,
+      "y": 48.8,
+      "rotation_deg": 0.0,
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "group": "hse_dnp_reserve"
+    },
+    "H1": {
+      "x": 5.0,
+      "y": 5.0,
+      "rotation_deg": 0.0,
+      "footprint": "MountingHole_3.2mm_M3",
+      "group": "mechanical"
+    },
+    "H2": {
+      "x": 195.0,
+      "y": 5.0,
+      "rotation_deg": 0.0,
+      "footprint": "MountingHole_3.2mm_M3",
+      "group": "mechanical"
+    },
+    "H3": {
+      "x": 195.0,
+      "y": 135.0,
+      "rotation_deg": 0.0,
+      "footprint": "MountingHole_3.2mm_M3",
+      "group": "mechanical"
+    },
+    "H4": {
+      "x": 5.0,
+      "y": 135.0,
+      "rotation_deg": 0.0,
+      "footprint": "MountingHole_3.2mm_M3",
+      "group": "mechanical"
+    }
+  }
+}

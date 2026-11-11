@@ -1,0 +1,3124 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-11-06T08:56:57.106733+00:00",
+  "checker": "independent pcbnew readback against actual KiCad XML; no builder imported",
+  "pcbnew_version": "10.0.7",
+  "board": "inverter\\hardware\\review\\compact_work\\inverter.kicad_pcb",
+  "netlist": "D:\\workspace\\power_system\\inverter\\hardware\\review\\inverter.net.xml",
+  "verification_completed": true,
+  "physical_mapping_pass": true,
+  "errors": [],
+  "warnings": [
+    {
+      "check": "routing_incomplete",
+      "unconnected": 706,
+      "note": "A placement review is not a routed or fabrication-ready PCB."
+    }
+  ],
+  "counts": {
+    "expected_physical_references": 313,
+    "expected_symbol_pins": 954,
+    "all_board_footprints": 317,
+    "XML_physical_references_present": 313,
+    "board_mechanical_only_footprints": 4,
+    "physical_numbered_pads_checked": 962,
+    "XML_DNP_components": 17,
+    "PCB_DNP_components": 17,
+    "copper_layers": 6,
+    "mounting_hole_footprints": 4,
+    "mounting_hole_npth_pads": 4,
+    "all_npth_pads": 4,
+    "tracks_and_arcs": 0,
+    "vias": 0,
+    "zones": 0,
+    "copper_zones": 0,
+    "rule_areas": 0
+  },
+  "input_sha256": {
+    "board": "8f5158adc7629ce9caae9ca5b75e9db5be4e5f659f3350d3e2c002707b3a4326",
+    "netlist": "5273363493f790e335478f4f60c0c1912a0d9156fb82fa2429fb42db97652327",
+    "candidates": "99e0ec488ca132d74a39992afb717778066c936743a95e3e17cc6941e2d656a2"
+  },
+  "expected_references": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "F1",
+    "F2",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J7",
+    "J8",
+    "J9",
+    "J10",
+    "J11",
+    "J12",
+    "J13",
+    "J14",
+    "J15",
+    "L1",
+    "L2",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "RS1",
+    "RS2",
+    "RS3",
+    "SW1",
+    "SW2",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP13",
+    "TP14",
+    "TP15",
+    "TP16",
+    "TP17",
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U30",
+    "U31",
+    "Y1"
+  ],
+  "footprint_placements": {
+    "C1": {
+      "x_mm": 13.3,
+      "y_mm": 44.9,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C2": {
+      "x_mm": 24.7,
+      "y_mm": 47.4,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C3": {
+      "x_mm": 26.5,
+      "y_mm": 44.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C4": {
+      "x_mm": 29.5,
+      "y_mm": 45.95,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C5": {
+      "x_mm": 18.35,
+      "y_mm": 44.25,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C6": {
+      "x_mm": 20.0,
+      "y_mm": 51.25,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C7": {
+      "x_mm": 28.4,
+      "y_mm": 47.4,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C8": {
+      "x_mm": 24.8,
+      "y_mm": 50.65,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "DNP": false
+    },
+    "C9": {
+      "x_mm": 18.35,
+      "y_mm": 47.55,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C10": {
+      "x_mm": 18.25,
+      "y_mm": 52.2,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C11": {
+      "x_mm": 6.5,
+      "y_mm": 49.35,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C12": {
+      "x_mm": 6.75,
+      "y_mm": 42.2,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C13": {
+      "x_mm": 15.5,
+      "y_mm": 50.65,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C14": {
+      "x_mm": 11.3,
+      "y_mm": 50.25,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C15": {
+      "x_mm": 4.4,
+      "y_mm": 42.2,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C16": {
+      "x_mm": 8.95,
+      "y_mm": 39.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C17": {
+      "x_mm": 8.9,
+      "y_mm": 13.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C18": {
+      "x_mm": 15.7,
+      "y_mm": 38.9,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C19": {
+      "x_mm": 13.0,
+      "y_mm": 8.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "DNP": false
+    },
+    "C20": {
+      "x_mm": 28.0,
+      "y_mm": 8.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:CP_Radial_D12.5mm_H25mm_P5.00mm",
+      "DNP": false
+    },
+    "C21": {
+      "x_mm": 40.5,
+      "y_mm": 21.3,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "DNP": false
+    },
+    "C22": {
+      "x_mm": 40.5,
+      "y_mm": 36.3,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:C_1210_3225Metric",
+      "DNP": false
+    },
+    "C23": {
+      "x_mm": 29.2,
+      "y_mm": 52.0,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C24": {
+      "x_mm": 29.2,
+      "y_mm": 49.5,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C25": {
+      "x_mm": 43.2,
+      "y_mm": 23.2,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C26": {
+      "x_mm": 44.1,
+      "y_mm": 19.2,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C27": {
+      "x_mm": 35.7,
+      "y_mm": 12.0,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C28": {
+      "x_mm": 39.5,
+      "y_mm": 12.25,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C29": {
+      "x_mm": 43.2,
+      "y_mm": 38.2,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C30": {
+      "x_mm": 44.1,
+      "y_mm": 34.2,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C31": {
+      "x_mm": 35.7,
+      "y_mm": 27.0,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C32": {
+      "x_mm": 39.5,
+      "y_mm": 27.25,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C33": {
+      "x_mm": 43.2,
+      "y_mm": 51.7,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "DNP": false
+    },
+    "C34": {
+      "x_mm": 46.1,
+      "y_mm": 49.8,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C35": {
+      "x_mm": 35.7,
+      "y_mm": 42.0,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "DNP": false
+    },
+    "C36": {
+      "x_mm": 39.5,
+      "y_mm": 42.25,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C37": {
+      "x_mm": 51.5,
+      "y_mm": 24.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C38": {
+      "x_mm": 51.5,
+      "y_mm": 39.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C39": {
+      "x_mm": 53.0,
+      "y_mm": 54.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C40": {
+      "x_mm": 23.0,
+      "y_mm": 19.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C41": {
+      "x_mm": 23.0,
+      "y_mm": 20.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C42": {
+      "x_mm": 30.0,
+      "y_mm": 18.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C43": {
+      "x_mm": 30.0,
+      "y_mm": 19.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C44": {
+      "x_mm": 32.0,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C45": {
+      "x_mm": 32.0,
+      "y_mm": 23.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C46": {
+      "x_mm": 32.0,
+      "y_mm": 27.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C47": {
+      "x_mm": 32.0,
+      "y_mm": 25.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C48": {
+      "x_mm": 24.0,
+      "y_mm": 34.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C49": {
+      "x_mm": 24.0,
+      "y_mm": 33.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C50": {
+      "x_mm": 12.25,
+      "y_mm": 35.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C51": {
+      "x_mm": 38.5,
+      "y_mm": 24.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C52": {
+      "x_mm": 38.5,
+      "y_mm": 39.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C53": {
+      "x_mm": 38.5,
+      "y_mm": 52.5,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C54": {
+      "x_mm": 31.25,
+      "y_mm": 35.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C55": {
+      "x_mm": 9.5,
+      "y_mm": 36.3,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C56": {
+      "x_mm": 11.5,
+      "y_mm": 20.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C57": {
+      "x_mm": 19.6,
+      "y_mm": 20.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C58": {
+      "x_mm": 27.7,
+      "y_mm": 18.8,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C59": {
+      "x_mm": 8.5,
+      "y_mm": 28.5,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C60": {
+      "x_mm": 21.5,
+      "y_mm": 31.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C61": {
+      "x_mm": 29.5,
+      "y_mm": 24.9,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C62": {
+      "x_mm": 10.5,
+      "y_mm": 34.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C63": {
+      "x_mm": 24.5,
+      "y_mm": 28.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C64": {
+      "x_mm": 11.3,
+      "y_mm": 30.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C65": {
+      "x_mm": 8.9,
+      "y_mm": 19.8,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C66": {
+      "x_mm": 20.5,
+      "y_mm": 15.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C67": {
+      "x_mm": 24.5,
+      "y_mm": 20.3,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C68": {
+      "x_mm": 27.5,
+      "y_mm": 29.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C69": {
+      "x_mm": 25.5,
+      "y_mm": 22.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C70": {
+      "x_mm": 25.5,
+      "y_mm": 23.4,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C71": {
+      "x_mm": 25.5,
+      "y_mm": 24.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C72": {
+      "x_mm": 25.5,
+      "y_mm": 26.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C73": {
+      "x_mm": 19.5,
+      "y_mm": 32.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C74": {
+      "x_mm": 17.1,
+      "y_mm": 32.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C75": {
+      "x_mm": 14.7,
+      "y_mm": 32.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C76": {
+      "x_mm": 12.3,
+      "y_mm": 32.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C77": {
+      "x_mm": 13.4,
+      "y_mm": 30.9,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C78": {
+      "x_mm": 10.4,
+      "y_mm": 34.4,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C79": {
+      "x_mm": 15.8,
+      "y_mm": 30.9,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C80": {
+      "x_mm": 21.4,
+      "y_mm": 33.4,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "DNP": false
+    },
+    "C81": {
+      "x_mm": 6.0,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": false
+    },
+    "C82": {
+      "x_mm": 14.0,
+      "y_mm": 10.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": true
+    },
+    "C83": {
+      "x_mm": 26.0,
+      "y_mm": 18.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": true
+    },
+    "C84": {
+      "x_mm": 27.25,
+      "y_mm": 17.25,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "DNP": true
+    },
+    "D1": {
+      "x_mm": 51.5,
+      "y_mm": 9.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Package_TO_SOT_SMD:TO-252-3_TabPin2",
+      "DNP": false
+    },
+    "D2": {
+      "x_mm": 39.5,
+      "y_mm": 5.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Diode_SMD:D_SMC",
+      "DNP": true
+    },
+    "D3": {
+      "x_mm": 18.3,
+      "y_mm": 16.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "D4": {
+      "x_mm": 18.3,
+      "y_mm": 18.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "D5": {
+      "x_mm": 25.6,
+      "y_mm": 58.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "D6": {
+      "x_mm": 29.0,
+      "y_mm": 58.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "D7": {
+      "x_mm": 32.299999,
+      "y_mm": 58.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "DNP": false
+    },
+    "F1": {
+      "x_mm": 6.5,
+      "y_mm": 19.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "DNP": false
+    },
+    "F2": {
+      "x_mm": 8.5,
+      "y_mm": 46.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "DNP": false
+    },
+    "H1": {
+      "x_mm": 3.0,
+      "y_mm": 3.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "H2": {
+      "x_mm": 57.0,
+      "y_mm": 3.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "H3": {
+      "x_mm": 57.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "H4": {
+      "x_mm": 3.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "DNP": false
+    },
+    "J2": {
+      "x_mm": 8.5,
+      "y_mm": 52.7,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "DNP": false
+    },
+    "J3": {
+      "x_mm": 5.5,
+      "y_mm": 8.5,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "DNP": false
+    },
+    "J4": {
+      "x_mm": 57.0,
+      "y_mm": 16.0,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:WireSolder_3P_P15.00mm_D2.00mm",
+      "DNP": false
+    },
+    "J5": {
+      "x_mm": 38.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm",
+      "DNP": false
+    },
+    "J7": {
+      "x_mm": 25.0,
+      "y_mm": 53.9,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "DNP": true
+    },
+    "J8": {
+      "x_mm": 21.0,
+      "y_mm": 58.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x02_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J9": {
+      "x_mm": 2.0,
+      "y_mm": 22.7,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J10": {
+      "x_mm": 2.0,
+      "y_mm": 30.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J11": {
+      "x_mm": 2.0,
+      "y_mm": 37.8,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J12": {
+      "x_mm": 2.0,
+      "y_mm": 46.62,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x06_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J13": {
+      "x_mm": 7.0,
+      "y_mm": 58.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x05_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J14": {
+      "x_mm": 15.3,
+      "y_mm": 58.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "DNP": false
+    },
+    "J15": {
+      "x_mm": 46.0,
+      "y_mm": 2.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:PinHeader_HCTL_PZ127_1x03_P1.27mm_D0.70mm",
+      "DNP": true
+    },
+    "L1": {
+      "x_mm": 24.5,
+      "y_mm": 40.8,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "DNP": false
+    },
+    "L2": {
+      "x_mm": 12.85,
+      "y_mm": 44.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "DNP": false
+    },
+    "Q1": {
+      "x_mm": 41.1,
+      "y_mm": 16.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q2": {
+      "x_mm": 50.3,
+      "y_mm": 16.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q3": {
+      "x_mm": 41.1,
+      "y_mm": 31.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q4": {
+      "x_mm": 50.3,
+      "y_mm": 31.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q5": {
+      "x_mm": 41.1,
+      "y_mm": 46.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q6": {
+      "x_mm": 50.3,
+      "y_mm": 46.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q7": {
+      "x_mm": 31.0,
+      "y_mm": 54.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Inverter_Compact:BSC110N15NS5_TDSON8_8PhysicalPins",
+      "DNP": false
+    },
+    "Q8": {
+      "x_mm": 9.8,
+      "y_mm": 38.7,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "DNP": false
+    },
+    "R1": {
+      "x_mm": 13.5,
+      "y_mm": 48.25,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R2": {
+      "x_mm": 11.0,
+      "y_mm": 49.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R3": {
+      "x_mm": 13.5,
+      "y_mm": 53.0,
+      "rotation_deg": -90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R4": {
+      "x_mm": 7.75,
+      "y_mm": 49.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R5": {
+      "x_mm": 11.0,
+      "y_mm": 54.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R6": {
+      "x_mm": 26.5,
+      "y_mm": 47.25,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R7": {
+      "x_mm": 28.75,
+      "y_mm": 50.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R8": {
+      "x_mm": 6.75,
+      "y_mm": 52.25,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": true
+    },
+    "R9": {
+      "x_mm": 27.75,
+      "y_mm": 53.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R10": {
+      "x_mm": 21.25,
+      "y_mm": 53.0,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R11": {
+      "x_mm": 19.75,
+      "y_mm": 54.75,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R12": {
+      "x_mm": 16.5,
+      "y_mm": 54.75,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R13": {
+      "x_mm": 8.0,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R14": {
+      "x_mm": 18.0,
+      "y_mm": 38.9,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R15": {
+      "x_mm": 5.0,
+      "y_mm": 50.0,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R16": {
+      "x_mm": 33.0,
+      "y_mm": 54.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R17": {
+      "x_mm": 35.8,
+      "y_mm": 50.5,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R18": {
+      "x_mm": 32.799999,
+      "y_mm": 57.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R19": {
+      "x_mm": 43.925,
+      "y_mm": 11.2,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R20": {
+      "x_mm": 55.9,
+      "y_mm": 12.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R21": {
+      "x_mm": 45.7,
+      "y_mm": 15.3,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R22": {
+      "x_mm": 55.8,
+      "y_mm": 10.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R23": {
+      "x_mm": 33.7,
+      "y_mm": 17.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R24": {
+      "x_mm": 33.7,
+      "y_mm": 15.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R25": {
+      "x_mm": 43.925,
+      "y_mm": 26.2,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R26": {
+      "x_mm": 55.9,
+      "y_mm": 27.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R27": {
+      "x_mm": 45.7,
+      "y_mm": 30.3,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R28": {
+      "x_mm": 55.8,
+      "y_mm": 25.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R29": {
+      "x_mm": 33.7,
+      "y_mm": 32.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R30": {
+      "x_mm": 33.7,
+      "y_mm": 30.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R31": {
+      "x_mm": 43.925,
+      "y_mm": 41.2,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R32": {
+      "x_mm": 55.9,
+      "y_mm": 42.0,
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R33": {
+      "x_mm": 45.7,
+      "y_mm": 45.3,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R34": {
+      "x_mm": 55.8,
+      "y_mm": 40.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R35": {
+      "x_mm": 33.7,
+      "y_mm": 47.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R36": {
+      "x_mm": 33.7,
+      "y_mm": 45.9,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R37": {
+      "x_mm": 46.9,
+      "y_mm": 27.1,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R38": {
+      "x_mm": 46.9,
+      "y_mm": 42.1,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R39": {
+      "x_mm": 49.5,
+      "y_mm": 57.1,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R40": {
+      "x_mm": 24.75,
+      "y_mm": 18.25,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R41": {
+      "x_mm": 21.25,
+      "y_mm": 19.75,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R42": {
+      "x_mm": 30.0,
+      "y_mm": 30.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R43": {
+      "x_mm": 30.0,
+      "y_mm": 31.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R44": {
+      "x_mm": 32.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R45": {
+      "x_mm": 30.0,
+      "y_mm": 32.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R46": {
+      "x_mm": 28.0,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R47": {
+      "x_mm": 33.25,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R48": {
+      "x_mm": 29.8,
+      "y_mm": 11.8,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R49": {
+      "x_mm": 26.2,
+      "y_mm": 11.8,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R50": {
+      "x_mm": 29.8,
+      "y_mm": 14.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R51": {
+      "x_mm": 26.2,
+      "y_mm": 14.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R52": {
+      "x_mm": 30.0,
+      "y_mm": 16.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R53": {
+      "x_mm": 30.2,
+      "y_mm": 20.8,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R54": {
+      "x_mm": 26.6,
+      "y_mm": 20.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R55": {
+      "x_mm": 30.2,
+      "y_mm": 24.2,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R56": {
+      "x_mm": 27.2,
+      "y_mm": 20.6,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R57": {
+      "x_mm": 32.0,
+      "y_mm": 20.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R58": {
+      "x_mm": 30.2,
+      "y_mm": 28.4,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R59": {
+      "x_mm": 26.6,
+      "y_mm": 31.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R60": {
+      "x_mm": 30.2,
+      "y_mm": 31.4,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R61": {
+      "x_mm": 26.6,
+      "y_mm": 33.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R62": {
+      "x_mm": 24.75,
+      "y_mm": 29.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R63": {
+      "x_mm": 30.0,
+      "y_mm": 33.4,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R64": {
+      "x_mm": 26.0,
+      "y_mm": 34.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "DNP": false
+    },
+    "R65": {
+      "x_mm": 27.4,
+      "y_mm": 37.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R66": {
+      "x_mm": 23.4,
+      "y_mm": 36.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "DNP": false
+    },
+    "R67": {
+      "x_mm": 23.0,
+      "y_mm": 38.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R68": {
+      "x_mm": 27.25,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R69": {
+      "x_mm": 33.0,
+      "y_mm": 35.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R70": {
+      "x_mm": 17.75,
+      "y_mm": 12.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R71": {
+      "x_mm": 25.5,
+      "y_mm": 39.75,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R72": {
+      "x_mm": 24.25,
+      "y_mm": 40.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R73": {
+      "x_mm": 8.25,
+      "y_mm": 34.75,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R74": {
+      "x_mm": 6.75,
+      "y_mm": 37.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R75": {
+      "x_mm": 6.75,
+      "y_mm": 38.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R76": {
+      "x_mm": 5.0,
+      "y_mm": 37.5,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R77": {
+      "x_mm": 6.75,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R78": {
+      "x_mm": 5.0,
+      "y_mm": 39.75,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R79": {
+      "x_mm": 21.75,
+      "y_mm": 36.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R80": {
+      "x_mm": 21.75,
+      "y_mm": 40.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R81": {
+      "x_mm": 23.0,
+      "y_mm": 40.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R82": {
+      "x_mm": 13.5,
+      "y_mm": 20.75,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R83": {
+      "x_mm": 15.75,
+      "y_mm": 20.75,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R84": {
+      "x_mm": 28.0,
+      "y_mm": 22.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R85": {
+      "x_mm": 28.0,
+      "y_mm": 23.4,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R86": {
+      "x_mm": 28.0,
+      "y_mm": 24.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R87": {
+      "x_mm": 28.0,
+      "y_mm": 26.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R88": {
+      "x_mm": 19.5,
+      "y_mm": 34.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R89": {
+      "x_mm": 17.1,
+      "y_mm": 34.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R90": {
+      "x_mm": 14.7,
+      "y_mm": 34.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R91": {
+      "x_mm": 12.3,
+      "y_mm": 34.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R92": {
+      "x_mm": 10.25,
+      "y_mm": 32.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R93": {
+      "x_mm": 9.0,
+      "y_mm": 34.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R94": {
+      "x_mm": 6.0,
+      "y_mm": 23.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R95": {
+      "x_mm": 8.0,
+      "y_mm": 23.25,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R96": {
+      "x_mm": 8.5,
+      "y_mm": 25.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R97": {
+      "x_mm": 8.5,
+      "y_mm": 26.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R98": {
+      "x_mm": 9.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R99": {
+      "x_mm": 8.5,
+      "y_mm": 29.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R100": {
+      "x_mm": 9.5,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R101": {
+      "x_mm": 8.5,
+      "y_mm": 31.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R102": {
+      "x_mm": 6.0,
+      "y_mm": 34.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R103": {
+      "x_mm": 7.75,
+      "y_mm": 35.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R104": {
+      "x_mm": 13.5,
+      "y_mm": 19.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R105": {
+      "x_mm": 15.75,
+      "y_mm": 19.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R106": {
+      "x_mm": 11.75,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R107": {
+      "x_mm": 17.5,
+      "y_mm": 20.25,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R108": {
+      "x_mm": 14.0,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R109": {
+      "x_mm": 9.5,
+      "y_mm": 14.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R110": {
+      "x_mm": 11.75,
+      "y_mm": 14.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R111": {
+      "x_mm": 16.25,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R112": {
+      "x_mm": 14.0,
+      "y_mm": 14.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R113": {
+      "x_mm": 10.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R114": {
+      "x_mm": 18.5,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R115": {
+      "x_mm": 16.25,
+      "y_mm": 14.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R116": {
+      "x_mm": 12.75,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R117": {
+      "x_mm": 18.5,
+      "y_mm": 14.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R118": {
+      "x_mm": 15.0,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R119": {
+      "x_mm": 17.25,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R120": {
+      "x_mm": 10.5,
+      "y_mm": 12.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R121": {
+      "x_mm": 22.5,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R122": {
+      "x_mm": 9.0,
+      "y_mm": 17.75,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R123": {
+      "x_mm": 25.25,
+      "y_mm": 16.25,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R124": {
+      "x_mm": 22.5,
+      "y_mm": 14.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R125": {
+      "x_mm": 28.5,
+      "y_mm": 17.25,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R126": {
+      "x_mm": 14.0,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R127": {
+      "x_mm": 15.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R128": {
+      "x_mm": 12.25,
+      "y_mm": 10.75,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R129": {
+      "x_mm": 15.75,
+      "y_mm": 10.75,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": true
+    },
+    "R130": {
+      "x_mm": 23.75,
+      "y_mm": 31.75,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R131": {
+      "x_mm": 18.75,
+      "y_mm": 35.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R132": {
+      "x_mm": 16.5,
+      "y_mm": 35.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R133": {
+      "x_mm": 14.25,
+      "y_mm": 35.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R134": {
+      "x_mm": 33.25,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R135": {
+      "x_mm": 33.25,
+      "y_mm": 19.75,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R136": {
+      "x_mm": 23.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R137": {
+      "x_mm": 21.25,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R138": {
+      "x_mm": 32.5,
+      "y_mm": 14.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R139": {
+      "x_mm": 28.0,
+      "y_mm": 12.75,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R140": {
+      "x_mm": 24.0,
+      "y_mm": 12.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R141": {
+      "x_mm": 19.5,
+      "y_mm": 13.0,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R142": {
+      "x_mm": 32.0,
+      "y_mm": 13.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "R143": {
+      "x_mm": 21.75,
+      "y_mm": 12.25,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "DNP": false
+    },
+    "RS1": {
+      "x_mm": 51.5,
+      "y_mm": 23.5,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "DNP": false
+    },
+    "RS2": {
+      "x_mm": 51.5,
+      "y_mm": 38.5,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "DNP": false
+    },
+    "RS3": {
+      "x_mm": 51.5,
+      "y_mm": 53.5,
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "DNP": false
+    },
+    "SW1": {
+      "x_mm": 20.0,
+      "y_mm": 54.55,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "DNP": false
+    },
+    "SW2": {
+      "x_mm": 13.5,
+      "y_mm": 17.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "DNP": false
+    },
+    "TP1": {
+      "x_mm": 30.5,
+      "y_mm": 43.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP2": {
+      "x_mm": 15.5,
+      "y_mm": 54.5,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP3": {
+      "x_mm": 15.5,
+      "y_mm": 51.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP4": {
+      "x_mm": 30.5,
+      "y_mm": 38.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP5": {
+      "x_mm": 56.5,
+      "y_mm": 20.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP6": {
+      "x_mm": 56.5,
+      "y_mm": 22.9,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP7": {
+      "x_mm": 56.5,
+      "y_mm": 35.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP8": {
+      "x_mm": 56.5,
+      "y_mm": 37.9,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP9": {
+      "x_mm": 56.5,
+      "y_mm": 50.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP10": {
+      "x_mm": 56.5,
+      "y_mm": 52.9,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP11": {
+      "x_mm": 51.5,
+      "y_mm": 27.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP12": {
+      "x_mm": 51.5,
+      "y_mm": 42.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP13": {
+      "x_mm": 56.5,
+      "y_mm": 51.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP14": {
+      "x_mm": 6.3,
+      "y_mm": 35.1,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP15": {
+      "x_mm": 6.0,
+      "y_mm": 25.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP16": {
+      "x_mm": 6.0,
+      "y_mm": 29.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "TP17": {
+      "x_mm": 6.0,
+      "y_mm": 32.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "DNP": false
+    },
+    "U1": {
+      "x_mm": 18.4,
+      "y_mm": 47.0,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm",
+      "DNP": false
+    },
+    "U2": {
+      "x_mm": 23.4,
+      "y_mm": 48.5,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:TI_PWP0020W_HTSSOP-20_4.4x6.5mm_P0.65mm_EP2.79x3.64mm",
+      "DNP": false
+    },
+    "U3": {
+      "x_mm": 6.4,
+      "y_mm": 45.9,
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:TSOT-23-6",
+      "DNP": false
+    },
+    "U4": {
+      "x_mm": 6.0,
+      "y_mm": 38.9,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-5",
+      "DNP": false
+    },
+    "U5": {
+      "x_mm": 12.0,
+      "y_mm": 38.9,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-6",
+      "DNP": false
+    },
+    "U6": {
+      "x_mm": 6.2,
+      "y_mm": 19.1,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-6",
+      "DNP": false
+    },
+    "U7": {
+      "x_mm": 39.5,
+      "y_mm": 16.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": false
+    },
+    "U8": {
+      "x_mm": 39.5,
+      "y_mm": 31.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": false
+    },
+    "U9": {
+      "x_mm": 39.5,
+      "y_mm": 46.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": false
+    },
+    "U10": {
+      "x_mm": 47.7,
+      "y_mm": 24.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-8",
+      "DNP": false
+    },
+    "U11": {
+      "x_mm": 47.7,
+      "y_mm": 39.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-8",
+      "DNP": false
+    },
+    "U12": {
+      "x_mm": 49.0,
+      "y_mm": 54.0,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-8",
+      "DNP": false
+    },
+    "U13": {
+      "x_mm": 22.5,
+      "y_mm": 17.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "U14": {
+      "x_mm": 30.4,
+      "y_mm": 17.1,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "U15": {
+      "x_mm": 30.4,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "U16": {
+      "x_mm": 30.4,
+      "y_mm": 27.0,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "U17": {
+      "x_mm": 25.4,
+      "y_mm": 37.2,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOT-353_SC-70-5",
+      "DNP": false
+    },
+    "U18": {
+      "x_mm": 38.5,
+      "y_mm": 23.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "U19": {
+      "x_mm": 38.5,
+      "y_mm": 38.8,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "U20": {
+      "x_mm": 38.5,
+      "y_mm": 52.2,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "U21": {
+      "x_mm": 30.1,
+      "y_mm": 37.2,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:VSSOP-8_3x3mm_P0.65mm",
+      "DNP": false
+    },
+    "U22": {
+      "x_mm": 8.35,
+      "y_mm": 24.3,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U23": {
+      "x_mm": 16.45,
+      "y_mm": 24.3,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U24": {
+      "x_mm": 24.55,
+      "y_mm": 24.3,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U25": {
+      "x_mm": 8.35,
+      "y_mm": 30.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U26": {
+      "x_mm": 16.45,
+      "y_mm": 30.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U27": {
+      "x_mm": 24.55,
+      "y_mm": 30.4,
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:TSSOP-14_4.4x5mm_P0.65mm",
+      "DNP": false
+    },
+    "U28": {
+      "x_mm": 16.5,
+      "y_mm": 37.1,
+      "rotation_deg": 90.0,
+      "layer": "F.Cu",
+      "footprint": "MyFootprints:SOIC-14_3.9x8.7mm_P1.27mm",
+      "DNP": false
+    },
+    "U29": {
+      "x_mm": 33.0,
+      "y_mm": 50.5,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOT-23-5",
+      "DNP": false
+    },
+    "U30": {
+      "x_mm": 16.5,
+      "y_mm": 23.5,
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "DNP": false
+    },
+    "U31": {
+      "x_mm": 12.1,
+      "y_mm": 3.3,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "MyFootprints:SOIC-8_3.9x4.9mm_P1.27mm",
+      "DNP": true
+    },
+    "Y1": {
+      "x_mm": 26.1,
+      "y_mm": 17.9,
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "DNP": true
+    }
+  },
+  "reference_check": {
+    "missing": [],
+    "unexpected_non_mechanical": [],
+    "duplicates": {}
+  },
+  "pin_mapping": {
+    "pad_net_mismatches": [],
+    "missing_physical_pads": [],
+    "extra_numbered_pads": [],
+    "duplicate_pad_numbers_checked_individually": [
+      {
+        "reference": "D1",
+        "pad": "2",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q1",
+        "pad": "5",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q2",
+        "pad": "5",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q3",
+        "pad": "5",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q4",
+        "pad": "5",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q5",
+        "pad": "5",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q6",
+        "pad": "5",
+        "physical_count": 2
+      },
+      {
+        "reference": "Q7",
+        "pad": "5",
+        "physical_count": 2
+      }
+    ],
+    "named_netcode_cross_groups": [],
+    "expected_non_NC_netgroups": 209,
+    "actual_non_NC_netgroups": 209,
+    "non_NC_netgroup_membership_equal": true,
+    "NC_policy": "Every NC symbol pin must have a pad. XML singleton unconnected-* may be unnamed on PCB; no functional net may be unnamed.",
+    "NC_physical_pads_with_empty_PCB_net": 0
+  },
+  "footprint_mapping": {
+    "mismatches": [],
+    "candidate_map_count": 19,
+    "candidate_19_match": true
+  },
+  "DNP_mismatches": [],
+  "value_mismatches": [],
+  "external_DRC": {
+    "available": true,
+    "path": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_drc.json",
+    "sha256": "e8ceb1db8a8bf945a21445911634a77d01c6971f176d4c923248439910aedc46",
+    "date": "2026-11-06T11:42:26",
+    "violations_count": 0,
+    "violations_types": {},
+    "violations_severities": {},
+    "unconnected_items_count": 0,
+    "unconnected_items_types": {},
+    "unconnected_items_severities": {},
+    "schematic_parity_count": 0,
+    "schematic_parity_types": {},
+    "schematic_parity_severities": {},
+    "note": "External DRC result; freshness must be checked against this board revision."
+  },
+  "copper_stack": [
+    {
+      "id": 0,
+      "name": "F.Cu"
+    },
+    {
+      "id": 4,
+      "name": "In1.Cu"
+    },
+    {
+      "id": 6,
+      "name": "In2.Cu"
+    },
+    {
+      "id": 8,
+      "name": "In3.Cu"
+    },
+    {
+      "id": 10,
+      "name": "In4.Cu"
+    },
+    {
+      "id": 2,
+      "name": "B.Cu"
+    }
+  ],
+  "outline": {
+    "closed_valid_outline": true,
+    "outer_contour_count": 1,
+    "expected_outer_contour_count": 1,
+    "edge_cuts_drawing_count": 4,
+    "edge_cuts_item_types": {
+      "PCB_SHAPE": 4
+    },
+    "area_mm2": 3600.0,
+    "bbox_mm": {
+      "x": -0.025,
+      "y": -0.025,
+      "width": 60.05,
+      "height": 60.05,
+      "right": 60.025,
+      "bottom": 60.025
+    },
+    "npth_included_as_board_cutouts": false,
+    "centerline_dimensions_mm": [
+      60.0,
+      60.0
+    ]
+  },
+  "mounting_holes": [
+    {
+      "reference": "H2",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "position_mm": [
+        57.0,
+        3.0
+      ],
+      "npth_drills_mm": [
+        [
+          2.2,
+          2.2
+        ]
+      ]
+    },
+    {
+      "reference": "H3",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "position_mm": [
+        57.0,
+        57.0
+      ],
+      "npth_drills_mm": [
+        [
+          2.2,
+          2.2
+        ]
+      ]
+    },
+    {
+      "reference": "H4",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "position_mm": [
+        3.0,
+        57.0
+      ],
+      "npth_drills_mm": [
+        [
+          2.2,
+          2.2
+        ]
+      ]
+    },
+    {
+      "reference": "H1",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "position_mm": [
+        3.0,
+        3.0
+      ],
+      "npth_drills_mm": [
+        [
+          2.2,
+          2.2
+        ]
+      ]
+    }
+  ],
+  "footprint_bounds": {
+    "method": "pcbnew footprint bbox excluding text, compared with Edge.Cuts bbox and 8 outline sample points",
+    "tolerance_mm": 0.05,
+    "out_of_bounds": []
+  },
+  "courtyard": {
+    "method": "pcbnew cached native same-side courtyard polygon Boolean intersections",
+    "severe_threshold_area_mm2": 0.25,
+    "severe_threshold_fraction_of_smaller": 0.05,
+    "missing": [],
+    "malformed": [],
+    "overlap_count": 0,
+    "severe_overlap_count": 0,
+    "overlaps": []
+  },
+  "layout_geometry_pass": true,
+  "track_classes": {},
+  "reference_plane": {
+    "layer": "In1.Cu",
+    "required_net": "GND",
+    "non_ground_tracks": []
+  },
+  "additional_reference_planes": [
+    {
+      "layer": "In4.Cu",
+      "non_ground_tracks": []
+    }
+  ],
+  "track_widths_mm": {},
+  "zones": [],
+  "connectivity": {
+    "available": true,
+    "unconnected_count": 706,
+    "cross_net_contacts": [],
+    "physical_contact_check_available": true,
+    "count_source": "Raw pcbnew GetUnconnectedCount(False); reported independently from CLI DRC unconnected_items."
+  },
+  "routing_complete": false,
+  "status": "PASS_MAPPING",
+  "fabrication_ready": false,
+  "scope_limit": "Readback validates physical assignment and records layout/routing findings; electrical ratings, thermal design and manufacturability are not approved."
+}

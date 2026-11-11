@@ -1,0 +1,319 @@
+{
+  "revision": "F-dual-power-PWM-LQFP100-planning",
+  "date": "2026-11-11",
+  "status": "Two PWM power-control ports requested; LQFP100 allocation proposed with existing interfaces/LEDs retained. Native schematic and PCB remain Rev E RBT6 header versions.",
+  "dual_PWM_allocation": {
+    "user_requested_ports": 2,
+    "user_preference": "Retain all existing interfaces and indicators; evaluate a larger pin-count package.",
+    "recommended_planning_MCU": "STM32G431VBT6, LQFP100",
+    "native_MCU": "STM32G431RBT6, LQFP64",
+    "selection_status": "VBT6 is the recommended planning candidate, not an implemented component change.",
+    "plan_JSON": "controller_dual_pwm_pin_plan.json",
+    "full_pin_CSV": "controller_dual_pwm_pin_plan.csv",
+    "port_contact_CSV": "controller_dual_pwm_ports.csv",
+    "retained": "Two ABZ, two independent SPI, two independent I2C, one TTL UART, one CAN, SWD, HSE/BOOT/RESET and four GPIO LEDs plus power LED.",
+    "additional_reservations": "Exactly ten analog connectors total. Only the second TIM15 brake channel remains an optional pin reserve. Eight other ADC-capable pads are unallocated and have no terminals.",
+    "signal_pad_budget": "62 planned plus 1 optional brake reserve = 63 of 86 signal/special pads; 23 remain unallocated. Fourteen other package pads are power/reference/ground."
+  },
+  "FOC_capacity_note": {
+    "current_design_motor_count": 1,
+    "second_motor_status": "Two PWM ports are retained. Motor and PFC applications are alternatives on the same controller; PFC operation does not include motor control. Basic dual-motor capability remains a separately validated motor-mode option; saved inverter is still single-motor.",
+    "MCU": "Proposed STM32G431VBT6 LQFP100; native remains STM32G431RBT6 LQFP64.",
+    "hardware_basis": "TIM1 and TIM8 expose two sets of three complementary PWM pairs; ADC1/ADC2 would be shared by both control loops.",
+    "second_TIM8_PWM_GPIOs": [
+      "PC6",
+      "PC7",
+      "PC8",
+      "PC10",
+      "PC11",
+      "PC12"
+    ],
+    "current_conflicts": [
+      "PC6 brake PWM",
+      "PC7 RUN_ARM",
+      "PC8 FAULT LED",
+      "PC10/PC11/PC12 SPI3"
+    ],
+    "conflict_scope": "The list describes saved Rev E RBT6. The linked LQFP100 proposal relocates SPI3, brake, ARM and LEDs and provides independent A/B controls.",
+    "qualification": "Two simultaneous 20kHz FOC loops plus ThreadX have not been profiled or validated in this project. A second motor needs another power stage and independent sensing/protection, GPIO replanning and shared-ADC timing design.",
+    "manufacturer_reference": "https://www.st.com/en/evaluation-tools/evspin32g4-dual.html — ST reference uses one STM32G431 embedded in STSPIN32G4 for two motors, with single-shunt sensing; it does not validate this project's three-shunt topology.",
+    "evidence_index": "../reference/ST_G431_dual_motor/sources.json",
+    "manufacturer_benchmark": {
+      "reported_dual_FOC_frequency_hz": 16000,
+      "reported_CPU_load_percent": 23,
+      "source": "ST Multiaxis servo drives, page7",
+      "not_this_project_measurement": true
+    }
+  },
+  "confirmed": {
+    "board_connection": "Wire-to-board terminals and cable harnesses replace direct male/female headers.",
+    "mechanical_support": "Copper standoffs provide mechanical support between controller and inverter.",
+    "controller_interfaces": "Controller exposes interfaces grouped by function, including ADC, I2C and SPI.",
+    "PWM": {
+      "connector_count": 2,
+      "connector_pins": 8,
+      "connector_pins_scope": "Each of the two PWM power-control ports.",
+      "signal_count": 6,
+      "GND_pins": 2,
+      "signals": [
+        "CH1",
+        "CH1N",
+        "CH2",
+        "CH2N",
+        "CH3",
+        "CH3N"
+      ],
+      "port_A": "TIM1: PE9/PE8, PE11/PE10, PE13/PE12, all AF2 in the LQFP100 proposal.",
+      "port_B": "TIM8: PC6/PC10, PC7/PC11, PC8/PC12, all AF4 in the LQFP100 proposal.",
+      "physical_pin_order": "Proposed logical order: GND, CH1, CH1N, CH2, CH2N, CH3, CH3N, GND. Connector model/mating-view drawing pending; see controller_dual_pwm_ports.csv."
+    },
+    "ADC": {
+      "channels": 10,
+      "independent_connector_per_channel": true,
+      "connector_pin_count_confirmed": true,
+      "quantity_scope": "Exactly ten independent analog connectors total, clarified by user; not eight plus ten.",
+      "pins_each": 2
+    },
+    "interface_counts": {
+      "SPI": 2,
+      "I2C": 2,
+      "ABZ": 2,
+      "CAN": 1,
+      "TTL_UART": 1
+    },
+    "operating_modes": {
+      "motor_and_PFC_simultaneous": false,
+      "motor_mode": "One motor or the separately evaluated basic dual-motor option; no PFC loop on the same MCU.",
+      "PFC_mode": "One Boost or Vienna power-board application; no motor control on this MCU. No dual-PFC or LLC operating target is implied.",
+      "PWM_usage": "Keep both physical PWM ports. Configure only the selected application's required outputs; unused outputs remain disabled.",
+      "ADC_usage": "Reuse the same ten generic analog connectors between alternative applications; do not add motor and PFC sensing counts together."
+    },
+    "signal_connector_family": "XUNPU GH1.25 side-entry SMT; ADC2P/PWM8P recommendations accepted for planning."
+  },
+  "proposed_ADC_connectors": {
+    "status": "Two-contact ADC structure accepted; physical pin order and native footprint migration pending.",
+    "pins_each": 2,
+    "contacts": [
+      "SIGNAL",
+      "GND"
+    ],
+    "channels": [
+      {
+        "name": "ADC_01",
+        "planned_GPIO": "PC0",
+        "single_motor_usage_example": "I_U",
+        "dual_motor_usage_example": "I_A_U",
+        "Boost_usage_example": "I_L",
+        "Vienna_usage_example": "I_L1"
+      },
+      {
+        "name": "ADC_02",
+        "planned_GPIO": "PC1",
+        "single_motor_usage_example": "I_V",
+        "dual_motor_usage_example": "I_A_V",
+        "Boost_usage_example": "SPARE",
+        "Vienna_usage_example": "I_L2"
+      },
+      {
+        "name": "ADC_03",
+        "planned_GPIO": "PC2",
+        "single_motor_usage_example": "I_W",
+        "dual_motor_usage_example": "I_A_W",
+        "Boost_usage_example": "SPARE",
+        "Vienna_usage_example": "I_L3"
+      },
+      {
+        "name": "ADC_04",
+        "planned_GPIO": "PC3",
+        "single_motor_usage_example": "V_U_PHASE",
+        "dual_motor_usage_example": "I_B_U",
+        "Boost_usage_example": "V_RECTIFIED_INPUT",
+        "Vienna_usage_example": "V_AC1"
+      },
+      {
+        "name": "ADC_05",
+        "planned_GPIO": "PA0",
+        "single_motor_usage_example": "V_V_PHASE",
+        "dual_motor_usage_example": "I_B_V",
+        "Boost_usage_example": "SPARE",
+        "Vienna_usage_example": "V_AC2"
+      },
+      {
+        "name": "ADC_06",
+        "planned_GPIO": "PA1",
+        "single_motor_usage_example": "V_W_PHASE",
+        "dual_motor_usage_example": "I_B_W",
+        "Boost_usage_example": "SPARE",
+        "Vienna_usage_example": "V_AC3"
+      },
+      {
+        "name": "ADC_07",
+        "planned_GPIO": "PA4",
+        "single_motor_usage_example": "V_DC",
+        "dual_motor_usage_example": "V_DC_A",
+        "Boost_usage_example": "V_OUTPUT",
+        "Vienna_usage_example": "V_BUS_UPPER"
+      },
+      {
+        "name": "ADC_08",
+        "planned_GPIO": "PB0",
+        "single_motor_usage_example": "SPARE",
+        "dual_motor_usage_example": "V_DC_B",
+        "Boost_usage_example": "SPARE",
+        "Vienna_usage_example": "V_BUS_LOWER"
+      },
+      {
+        "name": "ADC_09",
+        "planned_GPIO": "PB1",
+        "single_motor_usage_example": "POWER_BOARD_NTC",
+        "dual_motor_usage_example": "NTC_A",
+        "Boost_usage_example": "POWER_BOARD_NTC",
+        "Vienna_usage_example": "NTC"
+      },
+      {
+        "name": "ADC_10",
+        "planned_GPIO": "PB2",
+        "single_motor_usage_example": "SPARE",
+        "dual_motor_usage_example": "NTC_B",
+        "Boost_usage_example": "SPARE",
+        "Vienna_usage_example": "SPARE"
+      }
+    ],
+    "signal_definition": "Conditioned low-voltage sampling outputs, not raw bus/phase voltages or raw shunt terminals. Existing NTC channel is a conditioned voltage from the inverter front end.",
+    "ADC_group_rules": {
+      "regular_or_injected": "Conversion group is software-configurable on the ADC's supported input channels; connectors are not physically regular-only or injected-only.",
+      "pad_to_ADC_channel": "Fixed by STM32G431 internal connections; GPIO/ADC instance/channel cannot be assigned arbitrarily.",
+      "injected_sequence_max_ranks_per_ADC": 4,
+      "ADC_instances": 2,
+      "three_phase_current_simultaneity": "Two ADCs cannot sample three independent currents at one identical instant. Injected sequence ranks remain sequential within each ADC; detailed trigger/window strategy is not frozen.",
+      "supported_inputs": {
+        "PC0": [
+          "ADC1_IN6",
+          "ADC2_IN6"
+        ],
+        "PC1": [
+          "ADC1_IN7",
+          "ADC2_IN7"
+        ],
+        "PC2": [
+          "ADC1_IN8",
+          "ADC2_IN8"
+        ],
+        "PC3": [
+          "ADC1_IN9",
+          "ADC2_IN9"
+        ],
+        "PA0": [
+          "ADC1_IN1",
+          "ADC2_IN1"
+        ],
+        "PA1": [
+          "ADC1_IN2",
+          "ADC2_IN2"
+        ],
+        "PA4": [
+          "ADC2_IN17"
+        ],
+        "PB0": [
+          "ADC1_IN15"
+        ],
+        "PB1": [
+          "ADC1_IN12"
+        ],
+        "PB2": [
+          "ADC2_IN12"
+        ]
+      },
+      "sources": [
+        "https://www.st.com/resource/en/datasheet/stm32g431rb.pdf — DS12589 Rev6 Table12",
+        "https://www.st.com/resource/en/reference_manual/rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf — RM0440 Rev9 section21.4.11 / ADC_JSQR"
+      ]
+    },
+    "receiver_protection": "Propose placing final ADC RC, clamps and digital input pullups/protection on controller; not implemented.",
+    "wire_count_example": {
+      "scope": "Historical 8-ADC single-inverter harness example only, not the new ten-port controller wire count.",
+      "assumptions": "ADC2P per channel, prior proposed CTRL6P and 5V supply2P, receiver protection moved to controller so no cross-board 3V3_CORE_REF wire.",
+      "PWM": 8,
+      "ADC": 16,
+      "CTRL": 6,
+      "power": 2,
+      "total": 32,
+      "functional_signals": 19,
+      "supply_wires": 1,
+      "GND_wires": 12
+    }
+  },
+  "connector_family_candidate": {
+    "selected": true,
+    "description": "XUNPU GH1.25 horizontal SMT locking-housing family recommended; ADC2P and PWM8P candidates with domestic mating-set records.",
+    "candidate_record": "controller_signal_connector_candidates.json",
+    "board_headers": [
+      "WAFER-GH1.25-2PWB / C3029377",
+      "WAFER-GH1.25-8PWB / C3029383"
+    ],
+    "note": "ADC2P and PWM8P model recommendations accepted by user; do not imply other pin-count procurement models or physical pin order are finalized.",
+    "selection_scope": "Accepted for planning; exact ADC2P and PWM8P board-header recommendations accepted. Other pin-count models, mating drawings and BOM migration remain pending."
+  },
+  "implementation": {
+    "schematic_migrated": false,
+    "PCB_migrated": false,
+    "legacy_electrical_contract": "daughterboard_pin_contract.json",
+    "legacy_mechanical_contract": "pcb_stack_contract_rev_e.json",
+    "legacy_contracts_unchanged": true
+  },
+  "analog_budget_note": {
+    "assumptions": "Motor and PFC are alternative applications on this controller. Each mode uses the same ten ports. Counts are project interface budgets, not claimed manufacturer mandatory channel counts.",
+    "single_motor_full": {
+      "inputs": 8,
+      "description": "Three currents, bus voltage, three phase voltages and one NTC; two ports remain."
+    },
+    "dual_motor_basic": {
+      "inputs": 10,
+      "description": "Each motor: 3 phase currents, 1 bus voltage, 1 NTC; no phase-voltage measurements."
+    },
+    "dual_motor_with_phase_voltages": {
+      "inputs": 16,
+      "description": "Basic dual-motor set plus three phase voltages per motor."
+    },
+    "single_boost_PFC": {
+      "inputs": 4,
+      "description": "Inductor current, input voltage, output voltage and NTC; six ports remain."
+    },
+    "single_Vienna_PFC": {
+      "inputs": 9,
+      "description": "Three currents, three input voltages, two half-bus voltages and NTC; one port remains."
+    },
+    "excluded_from_target": "Motor plus PFC simultaneously on this MCU; previous 14/17-input combined examples are not requirements.",
+    "decision": "Keep exactly ten analog connectors. They cover the defined standalone Boost/Vienna and basic motor-mode examples; no expansion is required for the PFC alternative. Dual-motor phase-voltage sensing remains outside this ten-port example."
+  },
+  "ADC_usage_examples": {
+    "status": "Hypothetical sensor assignments, not frozen power-board circuits or ADC conversion schedules.",
+    "counts": {
+      "single_motor": 8,
+      "dual_motor_basic": 10,
+      "single_boost": 4,
+      "single_Vienna": 9
+    },
+    "single_motor_spare_options": {
+      "ADC_08": "Possible future DC input current, requiring a new sensing front end.",
+      "ADC_10": "Possible future motor NTC, requiring a matching excitation/divider front end."
+    },
+    "measurement_notes": [
+      "Single-motor phase voltages refer to conditioned PWM phase-node measurements as in the saved inverter; no sinusoidal post-filter output is implied.",
+      "Boost input voltage example is rectified input; confirm the actual sensing point when the topology is selected.",
+      "Vienna upper/lower half-bus inputs are conditioned voltage measurements of the two bus-capacitor sections; do not tie the physical bus midpoint to controller GND just to obtain these measurements.",
+      "All ports receive low-voltage, reference-compatible conditioned signals. An NTC role needs a divider/excitation front end; it does not mean wiring a raw NTC directly across a signal/GND ADC port."
+    ],
+    "CSV": "controller_ADC_mode_examples.csv"
+  },
+  "connector_inventory": "controller_connector_inventory.json",
+  "mechanical_fit_study": {
+    "record": "controller_60mm_fit_study.json",
+    "status": "Nominal-body two-face alternative only; not a selected placement or routing/DRC result.",
+    "top_connector_count": 18,
+    "bottom_connector_count": 6,
+    "MCU_and_RESET_BOOT": "Remain on the top face.",
+    "image": "../outputs/controller_60mm_fit_study_2026-11-11/controller_60mm_two_face_body_study.png",
+    "needs_review": "Exact footprints, mating housings, latch access, bottom clearance and full assembly/routing."
+  }
+}

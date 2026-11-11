@@ -1,0 +1,6 @@
+{
+  "removed_unlocked_routes": [],
+  "reference_layer": "In1.Cu power / GND",
+  "routing_only_deferred_back_ground_areas": 1,
+  "note": "Actual PCB B.Cu GND zone was not removed. Refill it after session import."
+}

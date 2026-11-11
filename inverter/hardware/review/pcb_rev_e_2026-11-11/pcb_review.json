@@ -1,0 +1,169 @@
+{
+  "status": "Rev E PCB0.1 review; ordinary, driver and auxiliary routing still incomplete",
+  "source_XML_sha256": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b",
+  "schematic_components": 317,
+  "DNP": 14,
+  "mechanical_holes": 4,
+  "physical_pin_keys": 969,
+  "named_copper_pads_including_repeated_tab": 976,
+  "pad_net_FP_value_DNP_parity": "PASS",
+  "size_mm": [
+    60,
+    60
+  ],
+  "layers": 6,
+  "thickness_candidate_mm": 1.6,
+  "tracks": 1852,
+  "vias": 295,
+  "zones": 12,
+  "actual_DRC_electrical_geometry_errors": 0,
+  "actual_DRC_warning_types": {
+    "via_dangling": 8,
+    "track_dangling": 2
+  },
+  "actual_DRC_unconnected_items_reported": 236,
+  "raw_connectivity_unconnected_count": 236,
+  "critical_power_geometry": {
+    "method": "Actual saved tracks/pads/vias and per-layer filled-zone islands; same-layer shape intersections plus plated through-layer links.",
+    "critical_paths": {
+      "DC_INPUT": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      },
+      "DC_FUSED": {
+        "pass": true,
+        "physical_pad_count": 3,
+        "components": 1
+      },
+      "VBUS": {
+        "pass": true,
+        "physical_pad_count": 21,
+        "components": 1
+      },
+      "GND_MAIN": {
+        "pass": true,
+        "physical_pad_count": 11,
+        "components": 1
+      },
+      "BRAKE_SW": {
+        "pass": true,
+        "physical_pad_count": 6,
+        "components": 1
+      },
+      "U_PHASE": {
+        "pass": true,
+        "physical_pad_count": 9,
+        "components": 1
+      },
+      "U_SOURCE": {
+        "pass": true,
+        "physical_pad_count": 5,
+        "components": 1
+      },
+      "U_NEGATIVE_KELVIN": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      },
+      "V_PHASE": {
+        "pass": true,
+        "physical_pad_count": 9,
+        "components": 1
+      },
+      "V_SOURCE": {
+        "pass": true,
+        "physical_pad_count": 5,
+        "components": 1
+      },
+      "V_NEGATIVE_KELVIN": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      },
+      "W_PHASE": {
+        "pass": true,
+        "physical_pad_count": 9,
+        "components": 1
+      },
+      "W_SOURCE": {
+        "pass": true,
+        "physical_pad_count": 5,
+        "components": 1
+      },
+      "W_NEGATIVE_KELVIN": {
+        "pass": true,
+        "physical_pad_count": 2,
+        "components": 1
+      }
+    },
+    "negative_kelvin_plane_isolation": [
+      {
+        "phase": "U",
+        "layer": "In1.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "U",
+        "layer": "In4.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "V",
+        "layer": "In1.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "V",
+        "layer": "In4.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "W",
+        "layer": "In1.Cu",
+        "isolated": true
+      },
+      {
+        "phase": "W",
+        "layer": "In4.Cu",
+        "isolated": true
+      }
+    ],
+    "pass": true
+  },
+  "actual_four_via_bank_counts": {
+    "U source transfer four-via bank": 2,
+    "U drain transfer four-via bank": 4,
+    "U shunt GND four-via bank": 4,
+    "U VBUS four-via bank": 3,
+    "V source transfer four-via bank": 4,
+    "V drain transfer four-via bank": 4,
+    "V shunt GND four-via bank": 4,
+    "V VBUS four-via bank": 2,
+    "W source transfer four-via bank": 4,
+    "W drain transfer four-via bank": 4,
+    "W shunt GND four-via bank": 4,
+    "W VBUS four-via bank": 4,
+    "rectifier VBUS four-via bank": 4,
+    "F1 fused four-via bank": 4,
+    "brake drain four-via bank": 4,
+    "brake source four-via bank": 4
+  },
+  "assembly_limits": [
+    "Shunt ground return uses four0.8/0.4mm vias in each ground-side pad; fill/cap or solder-wicking review required before fabrication.",
+    "Gate and auxiliary bootstrap layer changes may use vias near or on SMD pads; assembly remains unqualified.",
+    "MOS Q1-Q7 shared footprints intentionally have no3D model; rendered exposed pads are not missing-path failures.",
+    "Copper thickness, thermal/current rating, switching overshoot, insertion height and button access require subsequent validation."
+  ],
+  "published_board": "D:\\workspace\\power_system\\inverter\\hardware\\inverter.kicad_pcb",
+  "board_sha256": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792",
+  "final_cross_board_report": "outputs/pcb_review_2026-11-11/system_check.json",
+  "routing_candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\power_plane_restored\\inverter.kicad_pcb",
+  "routing_candidate_sha256": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792",
+  "native_DRC": "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\final_candidate_drc.json",
+  "native_DRC_sha256": "966d1ac11281b1421bc28f1ba6147d717e235ca315540b0c1d1d4441422a6c2e",
+  "physical_review": "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\final_candidate\\system_check.json",
+  "kelvin_review": "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\final_kelvin_review.json",
+  "manufacturing_release": false,
+  "routing_note": "Locked critical 277 tracks/98 vias preserved. Added ordinary routes, separate GND stitches, and quiet In3 3V3_INV pour limited to x<=142.5 mm. VBUS sheet priority2 takes precedence over logic priority1; 19 ordinary In3 tracks withdrawn to preserve all14 physical power groups. Full routing/functional loops remain unfinished."
+}

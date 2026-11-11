@@ -1,0 +1,255 @@
+{
+  "source_sha": "45d5c66666b7397f44b1c1176747f9f5c7a8f07bd17fdb28be8b034b0a7e5554",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          116.55,
+          148.2
+        ],
+        [
+          116.4,
+          148.1
+        ],
+        [
+          116.1,
+          148.1
+        ],
+        [
+          115.8,
+          147.8
+        ],
+        [
+          115.1,
+          147.8
+        ],
+        [
+          114.7,
+          147.4
+        ],
+        [
+          114.6,
+          147.4
+        ],
+        [
+          114.5,
+          147.3
+        ],
+        [
+          114.1,
+          147.3
+        ],
+        [
+          113.5,
+          146.7
+        ],
+        [
+          113.5,
+          145.9
+        ],
+        [
+          113.1,
+          145.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          113.1,
+          145.5
+        ],
+        [
+          113.1,
+          146.3
+        ],
+        [
+          117.0,
+          150.2
+        ],
+        [
+          117.0,
+          151.1
+        ],
+        [
+          116.9,
+          151.2
+        ],
+        [
+          116.9,
+          151.3
+        ],
+        [
+          116.8,
+          151.4
+        ],
+        [
+          116.8,
+          151.5
+        ],
+        [
+          116.7,
+          151.6
+        ],
+        [
+          116.7,
+          151.7
+        ],
+        [
+          116.6,
+          151.8
+        ],
+        [
+          116.6,
+          151.9
+        ],
+        [
+          116.5,
+          152.0
+        ],
+        [
+          116.5,
+          152.2
+        ],
+        [
+          114.7,
+          154.0
+        ],
+        [
+          114.1,
+          154.0
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          114.1,
+          154.0
+        ],
+        [
+          114.3,
+          154.0
+        ],
+        [
+          114.4,
+          154.1
+        ],
+        [
+          114.5,
+          154.1
+        ],
+        [
+          114.6,
+          154.2
+        ],
+        [
+          114.7,
+          154.2
+        ],
+        [
+          114.8,
+          154.3
+        ],
+        [
+          114.9,
+          154.3
+        ],
+        [
+          115.0,
+          154.4
+        ],
+        [
+          115.2,
+          154.4
+        ],
+        [
+          115.3,
+          154.5
+        ],
+        [
+          115.5,
+          154.5
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "x": 113.1,
+      "y": 145.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "x": 114.1,
+      "y": 154.0,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\vreg_tp_finish.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.1,
+        "expanded": 14379,
+        "seconds": 0.281,
+        "start_candidates": 158,
+        "goal_candidates": 12
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\vreg_tp_finish.work\\drc_001.json"
+    }
+  ],
+  "unresolved": [],
+  "validation": {
+    "source_drc_endpoint_uuids": 419,
+    "resolved_source_drc_endpoint_uuids": 419,
+    "source_drc_sha": "42c585dae123825d2226c9c585ca5f292efff9caaf2b4a3bca2a73edbc45ca12",
+    "source_project_sha": "461773744e9c9cbac2fcaf3ac1bd4ec3ada0f365819c616af03096f2615ce875",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\local_drc.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\vreg_tp_finish.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": null,
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 234,
+    "after_unconnected": 233,
+    "before_drc_listed_unconnected": 234,
+    "after_drc_listed_unconnected": 233,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\aux_bb_final\\vreg_tp_finish.work\\drc_001.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

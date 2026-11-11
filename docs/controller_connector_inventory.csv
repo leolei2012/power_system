@@ -1,0 +1,11 @@
+﻿Interface,Quantity,Pins_each,Contact_roles,Status
+PWM,1,8,CH1 / CH1N / CH2 / CH2N / CH3 / CH3N / GND / GND,Single8P power PWM port requested; suggested physical order in controller_power_port.csv.
+ADC,10,2,Conditioned analog signal / GND,"Confirmed quantity; 2P recommendation accepted, physical pin order pending."
+SPI,1,6,SCK / MOSI / MISO / CS_N / PWR / GND,Single SPI bus in the reduced plan; retain6P contact roles. Supply voltage/load/protection pending sensor selection.
+I2C,1,4,SCL / SDA / 3V3 / GND,Single independent I2C bus in the reduced plan;4P contact structure proposed.
+ABZ,1,5,A / B / Z / PWR / GND,Single ABZ encoder port in the reduced plan; retain5P contact roles. Supply pending encoder selection.
+CAN,1,3,CANH / CANL / GND,One port confirmed; retain saved 3P roles. Requires transceiver on controller; existing PHY is classic CAN.
+TTL_UART,1,3,TX / RX / GND,"One port confirmed; retain saved 3P form, 3.3V logic, no added supply pin."
+SWD,1,5,VTREF_3V3 / SWDIO / SWCLK / GND / NRST,"Retain one debug interface and saved 5P roles; VTREF is reference detection, not a supply inlet."
+CTRL,1,6,ENABLE / FAULT_N / BASE_READY / CTRL_READY / BRAKE / GND,Proposed single6P CTRL; includes the only brake command. No second brake reservation.
+5V_IN,1,2,5V_IN / GND,"Proposed regulated-5V inlet; exact connector TBD, preferably a visibly different mating geometry from ADC2P. Not a raw 12-24V input."

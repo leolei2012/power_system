@@ -1,0 +1,10 @@
+{
+  "import_ok": true,
+  "all_original_locked_before": 207,
+  "all_original_locked_after": 207,
+  "all_original_locked_exact_geometry_preserved": true,
+  "Kelvin_UUIDs_expected": 26,
+  "Kelvin_UUIDs_exact_geometry_preserved": true,
+  "private_source_file_unchanged": true,
+  "note": "In-memory private board import only; no PCB was saved. SES from3sec parser/routing probe is not an approved routing result."
+}

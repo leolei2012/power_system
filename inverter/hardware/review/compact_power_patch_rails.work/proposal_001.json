@@ -1,0 +1,59 @@
+{
+  "net": "AUX_PROTECTED",
+  "paths": [
+    {
+      "net": "AUX_PROTECTED",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          25.962266666666668,
+          43.46273333333333
+        ],
+        [
+          26.0,
+          43.6
+        ],
+        [
+          26.3,
+          43.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "AUX_PROTECTED",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          26.3,
+          43.9
+        ],
+        [
+          26.416016666666664,
+          44.0249
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "AUX_PROTECTED",
+      "x": 26.3,
+      "y": 43.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 1872,
+    "seconds": 11.359,
+    "start_candidates": 197,
+    "goal_candidates": 361
+  }
+}

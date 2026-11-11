@@ -1,0 +1,89 @@
+{
+  "result": "PASS",
+  "routing_status": "CONNECTED REVIEW",
+  "source_pcb": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_pcb",
+  "source_sha256": "00ff41b76c650b255ecb764b31ca10304ceb86030d61b25ac067c998bb4bf07c",
+  "xml_sha256": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1",
+  "contract_sha256": "99968e8d0c57a1ebc1e7044d8d8a78a942657538b9e23cd12c6e99be6d74e885",
+  "physical_schematic_refs": 47,
+  "footprints_with_holes": 51,
+  "symbol_physical_pin_nodes": 233,
+  "numbered_pad_occurrences": 233,
+  "duplicate_numbered_pads": {},
+  "DNP_refs": [
+    "C83",
+    "C84",
+    "Y1"
+  ],
+  "mounting_holes": [
+    {
+      "ref": "H1",
+      "xy": [
+        104.0,
+        104.0
+      ],
+      "drill": 2.2
+    },
+    {
+      "ref": "H2",
+      "xy": [
+        156.0,
+        104.0
+      ],
+      "drill": 2.2
+    },
+    {
+      "ref": "H3",
+      "xy": [
+        104.0,
+        156.0
+      ],
+      "drill": 2.2
+    },
+    {
+      "ref": "H4",
+      "xy": [
+        156.0,
+        156.0
+      ],
+      "drill": 2.2
+    }
+  ],
+  "copper_layers": 4,
+  "size_mm": [
+    60,
+    60
+  ],
+  "board_thickness_mm": 1.6,
+  "courtyard_collisions": [],
+  "outside": [],
+  "tracks": 1041,
+  "vias": 95,
+  "native_unconnected": 0,
+  "layer_length_mm": {
+    "F.Cu": 686.2927386383083,
+    "B.Cu": 256.95557506801913,
+    "In2.Cu": 454.52728284357005
+  },
+  "no_3d_model_refs": [
+    "SW2",
+    "SW3",
+    "TP15"
+  ],
+  "native_drc": {
+    "path": "outputs\\pcb_review_2026-11-11\\controller_drc.json",
+    "violations": 9,
+    "electrical_geometry_errors": [],
+    "unconnected_items": 0,
+    "schematic_parity": 15,
+    "categories": {
+      "silk_overlap": 4,
+      "silk_over_copper": 5
+    }
+  },
+  "errors": [],
+  "limits": [
+    "Review PCB only; no fabrication/assembly release.",
+    "Library/pad mapping, mechanical coordinate checks and native DRC do not establish thermal or prototype validation."
+  ]
+}

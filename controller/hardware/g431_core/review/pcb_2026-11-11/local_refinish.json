@@ -1,0 +1,716 @@
+{
+  "source_sha": "9116d0e0be0ed59ca5e4e0b39a343a0c55a9631b1e8d9354f02ba67c869660ed",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "PC13",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          121.2,
+          132.0
+        ],
+        [
+          121.2,
+          131.9
+        ],
+        [
+          120.85,
+          131.55
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "PC13",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          120.85,
+          131.55
+        ],
+        [
+          121.0,
+          131.55
+        ],
+        [
+          123.05,
+          133.6
+        ],
+        [
+          123.7,
+          133.6
+        ],
+        [
+          123.75,
+          133.65
+        ],
+        [
+          125.1,
+          133.65
+        ],
+        [
+          125.15,
+          133.7
+        ],
+        [
+          125.2,
+          133.7
+        ],
+        [
+          126.35,
+          134.85
+        ],
+        [
+          127.2,
+          134.85
+        ],
+        [
+          127.25,
+          134.9
+        ],
+        [
+          127.35,
+          134.9
+        ],
+        [
+          127.7,
+          135.25
+        ],
+        [
+          129.0,
+          135.25
+        ],
+        [
+          129.05,
+          135.3
+        ],
+        [
+          129.15,
+          135.3
+        ],
+        [
+          129.2,
+          135.35
+        ],
+        [
+          129.25,
+          135.35
+        ],
+        [
+          129.3,
+          135.4
+        ],
+        [
+          129.35,
+          135.4
+        ],
+        [
+          129.45,
+          135.5
+        ],
+        [
+          129.5,
+          135.5
+        ],
+        [
+          130.0,
+          136.0
+        ],
+        [
+          130.0,
+          136.1
+        ],
+        [
+          130.05,
+          136.15
+        ],
+        [
+          130.05,
+          136.2
+        ],
+        [
+          130.1,
+          136.25
+        ],
+        [
+          130.1,
+          136.3
+        ],
+        [
+          130.15,
+          136.35
+        ],
+        [
+          130.15,
+          136.5
+        ],
+        [
+          130.2,
+          136.55
+        ],
+        [
+          130.2,
+          136.7
+        ],
+        [
+          130.25,
+          136.75
+        ],
+        [
+          130.25,
+          136.85
+        ],
+        [
+          130.3,
+          136.9
+        ],
+        [
+          130.3,
+          136.95
+        ],
+        [
+          130.45,
+          137.1
+        ],
+        [
+          130.45,
+          137.15
+        ],
+        [
+          130.55,
+          137.25
+        ],
+        [
+          130.55,
+          137.3
+        ],
+        [
+          130.6,
+          137.35
+        ],
+        [
+          130.6,
+          137.4
+        ],
+        [
+          130.65,
+          137.45
+        ],
+        [
+          130.65,
+          137.5
+        ],
+        [
+          130.7,
+          137.55
+        ],
+        [
+          130.7,
+          137.6
+        ],
+        [
+          130.75,
+          137.65
+        ],
+        [
+          130.75,
+          137.75
+        ],
+        [
+          130.8,
+          137.8
+        ],
+        [
+          130.8,
+          137.85
+        ],
+        [
+          130.85,
+          137.9
+        ],
+        [
+          130.85,
+          137.95
+        ],
+        [
+          130.9,
+          138.0
+        ],
+        [
+          130.9,
+          138.05
+        ],
+        [
+          130.95,
+          138.1
+        ],
+        [
+          130.95,
+          138.15
+        ],
+        [
+          131.0,
+          138.2
+        ],
+        [
+          131.0,
+          138.3
+        ],
+        [
+          131.05,
+          138.35
+        ],
+        [
+          131.05,
+          138.4
+        ],
+        [
+          131.1,
+          138.45
+        ],
+        [
+          131.1,
+          138.5
+        ],
+        [
+          131.15,
+          138.55
+        ],
+        [
+          131.15,
+          138.6
+        ],
+        [
+          131.2,
+          138.65
+        ],
+        [
+          131.2,
+          138.75
+        ],
+        [
+          131.25,
+          138.8
+        ],
+        [
+          131.27,
+          138.89
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "PC9",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          110.75,
+          130.25
+        ],
+        [
+          113.25,
+          130.25
+        ],
+        [
+          113.5,
+          130.5
+        ],
+        [
+          113.55,
+          130.5
+        ],
+        [
+          113.6,
+          130.55
+        ],
+        [
+          113.65,
+          130.55
+        ],
+        [
+          113.7,
+          130.6
+        ],
+        [
+          116.15,
+          130.6
+        ],
+        [
+          116.75,
+          131.2
+        ],
+        [
+          119.35,
+          131.2
+        ],
+        [
+          119.45,
+          131.3
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "PC9",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          119.45,
+          131.3
+        ],
+        [
+          120.3,
+          131.3
+        ],
+        [
+          120.55,
+          131.05
+        ],
+        [
+          120.6,
+          131.05
+        ],
+        [
+          120.65,
+          131.0
+        ],
+        [
+          124.3,
+          131.0
+        ],
+        [
+          127.95,
+          134.65
+        ],
+        [
+          128.0,
+          134.65
+        ],
+        [
+          128.1,
+          134.75
+        ],
+        [
+          128.15,
+          134.75
+        ],
+        [
+          128.2,
+          134.8
+        ],
+        [
+          128.25,
+          134.8
+        ],
+        [
+          128.3,
+          134.85
+        ],
+        [
+          128.4,
+          134.85
+        ],
+        [
+          128.45,
+          134.9
+        ],
+        [
+          129.05,
+          134.9
+        ],
+        [
+          129.1,
+          134.85
+        ],
+        [
+          129.2,
+          134.85
+        ],
+        [
+          129.25,
+          134.8
+        ],
+        [
+          129.3,
+          134.8
+        ],
+        [
+          129.4,
+          134.7
+        ],
+        [
+          129.45,
+          134.7
+        ],
+        [
+          129.7,
+          134.45
+        ],
+        [
+          129.75,
+          134.45
+        ],
+        [
+          129.8,
+          134.4
+        ],
+        [
+          129.85,
+          134.4
+        ],
+        [
+          129.9,
+          134.35
+        ],
+        [
+          129.95,
+          134.35
+        ],
+        [
+          130.0,
+          134.3
+        ],
+        [
+          130.1,
+          134.3
+        ],
+        [
+          130.15,
+          134.25
+        ],
+        [
+          130.2,
+          134.25
+        ],
+        [
+          130.25,
+          134.2
+        ],
+        [
+          130.3,
+          134.2
+        ],
+        [
+          130.35,
+          134.15
+        ],
+        [
+          130.4,
+          134.15
+        ],
+        [
+          130.45,
+          134.1
+        ],
+        [
+          130.5,
+          134.1
+        ],
+        [
+          130.55,
+          134.05
+        ],
+        [
+          130.65,
+          134.05
+        ],
+        [
+          130.7,
+          134.0
+        ],
+        [
+          130.75,
+          134.0
+        ],
+        [
+          130.8,
+          133.95
+        ],
+        [
+          130.85,
+          133.95
+        ],
+        [
+          130.9,
+          133.9
+        ],
+        [
+          130.95,
+          133.9
+        ],
+        [
+          131.0,
+          133.85
+        ],
+        [
+          131.1,
+          133.85
+        ],
+        [
+          131.15,
+          133.8
+        ],
+        [
+          131.27,
+          133.81
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "PC13",
+      "x": 120.85,
+      "y": 131.55,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "PC9",
+      "x": 119.45,
+      "y": 131.3,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\local_refinish.work\\controller.kicad_pcb",
+  "accepted": [
+    {
+      "net": "PC13",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 18136,
+        "seconds": 0.469,
+        "start_candidates": 72,
+        "goal_candidates": 36
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\local_refinish.work\\drc_003.json"
+    },
+    {
+      "net": "PC9",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 48822,
+        "seconds": 0.688,
+        "start_candidates": 12,
+        "goal_candidates": 36
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\local_refinish.work\\drc_008.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "items": [
+        "4a9f664f-be07-4e08-afb0-85f22a4c651e",
+        "6de97e44-f56b-446d-9c9c-a4dee1502c50"
+      ],
+      "reason": "No path within conservative grid/node/time budget (200000 nodes)"
+    },
+    {
+      "items": [
+        "7e44b8f8-876b-4374-8895-8412b25abaac",
+        "8365ab7e-2f7e-4389-8244-6377830b61ee"
+      ],
+      "reason": "No path within conservative grid/node/time budget (200000 nodes)"
+    },
+    {
+      "items": [
+        "4a9f664f-be07-4e08-afb0-85f22a4c651e",
+        "6de97e44-f56b-446d-9c9c-a4dee1502c50"
+      ],
+      "reason": "No path within conservative grid/node/time budget (200000 nodes)"
+    },
+    {
+      "items": [
+        "7e44b8f8-876b-4374-8895-8412b25abaac",
+        "8365ab7e-2f7e-4389-8244-6377830b61ee"
+      ],
+      "reason": "No path within conservative grid/node/time budget (200000 nodes)"
+    },
+    {
+      "items": [
+        "7b955d29-65e6-42b7-873f-5032284a9544",
+        "7d7d21e6-8ad2-4dea-b9df-2300531deeee"
+      ],
+      "reason": "No path within conservative grid/node/time budget (383 nodes)"
+    },
+    {
+      "items": [
+        "59e220b6-7a96-4d4f-8a07-ad0947d0461b",
+        "b5dc258b-48f1-4d89-9aef-e5caed6526c1"
+      ],
+      "reason": "No path within conservative grid/node/time budget (382 nodes)"
+    },
+    {
+      "items": [
+        "4a9f664f-be07-4e08-afb0-85f22a4c651e",
+        "6de97e44-f56b-446d-9c9c-a4dee1502c50"
+      ],
+      "reason": "No path within conservative grid/node/time budget (200000 nodes)"
+    },
+    {
+      "items": [
+        "7e44b8f8-876b-4374-8895-8412b25abaac",
+        "8365ab7e-2f7e-4389-8244-6377830b61ee"
+      ],
+      "reason": "No path within conservative grid/node/time budget (200000 nodes)"
+    },
+    {
+      "items": [
+        "7b955d29-65e6-42b7-873f-5032284a9544",
+        "7d7d21e6-8ad2-4dea-b9df-2300531deeee"
+      ],
+      "reason": "No path within conservative grid/node/time budget (383 nodes)"
+    },
+    {
+      "items": [
+        "59e220b6-7a96-4d4f-8a07-ad0947d0461b",
+        "b5dc258b-48f1-4d89-9aef-e5caed6526c1"
+      ],
+      "reason": "No path within conservative grid/node/time budget (382 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 12,
+    "resolved_source_drc_endpoint_uuids": 12,
+    "source_drc_sha": "940f0a168df47e0486cde390d68acab1b9c664db486fb66935f909a70fec4c75",
+    "source_project_sha": "5f653764eb2ea2d55485ef104f84923874a141b08881f9b6215fd276809db525",
+    "source_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\local_work\\drc.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\local_refinish.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": null,
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 6,
+    "after_unconnected": 4,
+    "before_drc_listed_unconnected": 6,
+    "after_drc_listed_unconnected": 4,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\local_refinish.work\\drc_008.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

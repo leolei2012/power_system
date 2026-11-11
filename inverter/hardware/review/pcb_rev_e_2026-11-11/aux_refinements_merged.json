@@ -1,0 +1,173 @@
+{
+  "proposal": "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\aux_placement_proposal.json",
+  "placements": {
+    "C4": {
+      "x": 127.0,
+      "y": 142.1,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          134.0,
+          139.9
+        ],
+        "rotation_deg": 90.0,
+        "side": "B"
+      }
+    },
+    "C5": {
+      "x": 121.6,
+      "y": 139.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          115.7,
+          130.4
+        ],
+        "rotation_deg": 180.0,
+        "side": "B"
+      }
+    },
+    "C12": {
+      "x": 113.5,
+      "y": 148.9,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          115.8,
+          157.0
+        ],
+        "rotation_deg": 180.0,
+        "side": "B"
+      }
+    },
+    "C3": {
+      "x": 123.8,
+      "y": 142.3,
+      "rotation_deg": 180,
+      "side": "F",
+      "before": {
+        "xy": [
+          124.8,
+          141.9
+        ],
+        "rotation_deg": 0.0,
+        "side": "F"
+      }
+    },
+    "C8": {
+      "x": 124.4,
+      "y": 145.9,
+      "rotation_deg": -90,
+      "side": "F",
+      "before": {
+        "xy": [
+          124.4,
+          145.6
+        ],
+        "rotation_deg": -90.0,
+        "side": "F"
+      }
+    },
+    "C2": {
+      "x": 124.4,
+      "y": 149.1,
+      "rotation_deg": 180,
+      "side": "F",
+      "before": {
+        "xy": [
+          124.4,
+          148.9
+        ],
+        "rotation_deg": 180.0,
+        "side": "F"
+      }
+    },
+    "C7": {
+      "x": 125.8,
+      "y": 139.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "before": {
+        "xy": [
+          125.6,
+          139.5
+        ],
+        "rotation_deg": 180.0,
+        "side": "F"
+      }
+    },
+    "R65": {
+      "x": 123.2,
+      "y": 137.9,
+      "rotation_deg": 90,
+      "side": "F",
+      "before": {
+        "xy": [
+          123.0,
+          137.9
+        ],
+        "rotation_deg": 90.0,
+        "side": "F"
+      }
+    },
+    "R71": {
+      "x": 134.0,
+      "y": 139.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          121.8,
+          141.3
+        ],
+        "rotation_deg": 90.0,
+        "side": "F"
+      }
+    },
+    "R72": {
+      "x": 134.0,
+      "y": 140.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          121.5,
+          138.9
+        ],
+        "rotation_deg": 90.0,
+        "side": "F"
+      }
+    },
+    "R1": {
+      "x": 113.9,
+      "y": 156.4,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          113.5,
+          148.25
+        ],
+        "rotation_deg": -90.0,
+        "side": "F"
+      }
+    },
+    "R3": {
+      "x": 113.9,
+      "y": 154.8,
+      "rotation_deg": 0,
+      "side": "B",
+      "before": {
+        "xy": [
+          113.9,
+          155.0
+        ],
+        "rotation_deg": 0.0,
+        "side": "B"
+      }
+    }
+  }
+}

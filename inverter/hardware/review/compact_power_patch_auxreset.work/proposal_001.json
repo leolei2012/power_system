@@ -1,0 +1,107 @@
+{
+  "net": "/Auxiliary input/AUX_OV_DIV",
+  "paths": [
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          6.925,
+          49.25
+        ],
+        [
+          6.95,
+          49.3
+        ],
+        [
+          8.8,
+          51.15
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          8.8,
+          51.15
+        ],
+        [
+          9.6,
+          51.95
+        ],
+        [
+          9.6,
+          53.15
+        ],
+        [
+          9.65,
+          53.2
+        ],
+        [
+          9.65,
+          53.35
+        ],
+        [
+          9.7,
+          53.4
+        ],
+        [
+          9.7,
+          53.45
+        ],
+        [
+          10.0,
+          53.75
+        ],
+        [
+          10.05,
+          53.75
+        ],
+        [
+          10.1,
+          53.8
+        ],
+        [
+          10.15,
+          53.8
+        ],
+        [
+          10.2,
+          53.85
+        ],
+        [
+          13.4,
+          53.85
+        ],
+        [
+          13.5,
+          53.825
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "x": 8.8,
+      "y": 51.15,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 16848,
+    "seconds": 0.5,
+    "start_candidates": 12,
+    "goal_candidates": 12
+  }
+}

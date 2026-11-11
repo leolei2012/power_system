@@ -1,0 +1,40 @@
+{
+  "removed": {
+    "55170a75-29bb-4308-ac9c-30fe7946ab62": {
+      "net": "VREF_MCU",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "d1ab3c7d-be87-4106-a8ba-868fb968dabd": {
+      "net": "VREF_MCU",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "d61d6fbc-d6c7-46ad-ad4f-61b9adbb81cc": {
+      "net": "/Driver supply/DRV_PG_NOM",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "8b63d6e7-a428-40a0-bacc-376ed73690f7": {
+      "net": "/Driver supply/BB_BST1",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "f068865a-6d3e-48ec-a66a-5a2b406786f3": {
+      "net": "/Driver supply/DRV_PG_NOM",
+      "layer": "B.Cu",
+      "because": "clearance"
+    },
+    "7e012faa-1e6d-40a2-8f9a-f00c4782cde5": {
+      "net": "/Hardware latch/HEALTH_UNLATCHED",
+      "layer": "F.Cu",
+      "because": "clearance"
+    },
+    "fd16412e-c9dc-4b2d-820e-d2b539a665be": {
+      "net": "/Hardware latch/HEALTH_UNLATCHED",
+      "layer": "F.Cu",
+      "because": "clearance"
+    }
+  },
+  "fixed_geometry_unchanged": true
+}

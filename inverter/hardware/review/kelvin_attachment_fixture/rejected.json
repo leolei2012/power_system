@@ -1,0 +1,6045 @@
+{
+  "pass": false,
+  "board": "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_attachment_fixture\\inverter.kicad_pcb",
+  "board_sha256": "7d9845bc7b561001178639be45fc84ad72d0f3bedc93d3dd99ee4b299ca71c8f",
+  "power_report": "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_attachment_fixture\\power_copper.json",
+  "power_report_sha256": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+  "reference_candidate_sha256": "78a5fa7fefea4ec892774e0eae54befc0dc3d6054962de5ad1f9bede5736d105",
+  "candidate_hash_match_required": false,
+  "reference_candidate_hash_matches": false,
+  "read_only_source_hashes_unchanged": {
+    "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_attachment_fixture\\inverter.kicad_pcb": true,
+    "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_attachment_fixture\\power_copper.json": true,
+    "D:\\workspace\\power_system\\inverter\\hardware\\review\\kelvin_attachment_fixture\\inverter.kicad_pro": true
+  },
+  "refilled_only_in_memory": true,
+  "geometry_tolerance_mm": 2e-06,
+  "contact_polygon_max_error_mm": 1e-05,
+  "fixed_geometry_counts": {
+    "tracks": 131,
+    "vias": 84,
+    "zones": 21
+  },
+  "fixed_geometry_checks": [
+    {
+      "kind": "tracks",
+      "uuid": "0376bf8a-772e-4fa4-a400-0052cda3407d",
+      "pass": true,
+      "actual": {
+        "uuid": "0376bf8a-772e-4fa4-a400-0052cda3407d",
+        "class": "PCB_TRACK",
+        "net": "U_PHASE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.625,
+          16.0
+        ],
+        "b": [
+          57.0,
+          16.0
+        ],
+        "width_mm": 4.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "b1cf9061-2893-4ed0-ad97-3c86766282d7",
+      "pass": true,
+      "actual": {
+        "uuid": "b1cf9061-2893-4ed0-ad97-3c86766282d7",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          17.905
+        ],
+        "b": [
+          53.3,
+          17.905
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "5d081b25-6caf-49b8-b0a8-32a41a96ceb1",
+      "pass": true,
+      "actual": {
+        "uuid": "5d081b25-6caf-49b8-b0a8-32a41a96ceb1",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          17.905
+        ],
+        "b": [
+          53.3,
+          16.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "4f251e21-0ae5-4801-8a95-c87189214c9f",
+      "pass": true,
+      "actual": {
+        "uuid": "4f251e21-0ae5-4801-8a95-c87189214c9f",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          16.635
+        ],
+        "b": [
+          53.3,
+          16.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1c08adeb-e559-4f5e-b887-78911a6f4cce",
+      "pass": true,
+      "actual": {
+        "uuid": "1c08adeb-e559-4f5e-b887-78911a6f4cce",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          15.365
+        ],
+        "b": [
+          53.3,
+          15.365
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "74ee0145-cc72-400d-9964-dfeb0df8fd7a",
+      "pass": true,
+      "actual": {
+        "uuid": "74ee0145-cc72-400d-9964-dfeb0df8fd7a",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          15.365
+        ],
+        "b": [
+          53.3,
+          16.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "d4562221-c933-41f0-8836-6fddf74f89f1",
+      "pass": true,
+      "actual": {
+        "uuid": "d4562221-c933-41f0-8836-6fddf74f89f1",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          16.635
+        ],
+        "b": [
+          53.3,
+          20.5375
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "af91edf0-3577-4d0d-8d7f-0656c92b751b",
+      "pass": true,
+      "actual": {
+        "uuid": "af91edf0-3577-4d0d-8d7f-0656c92b751b",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          20.5375
+        ],
+        "b": [
+          51.5,
+          20.5375
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "d9b78ee6-1e55-4f0f-ab3b-4249a79b7d9e",
+      "pass": true,
+      "actual": {
+        "uuid": "d9b78ee6-1e55-4f0f-ab3b-4249a79b7d9e",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          51.5,
+          26.4625
+        ],
+        "b": [
+          52.0,
+          26.4625
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "4f1a9544-2084-4178-831c-491676e2e1c8",
+      "pass": true,
+      "actual": {
+        "uuid": "4f1a9544-2084-4178-831c-491676e2e1c8",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          26.4625
+        ],
+        "b": [
+          52.0,
+          25.0
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "58dc0b12-af2b-413a-b35f-0c8f9ae7d535",
+      "pass": true,
+      "actual": {
+        "uuid": "58dc0b12-af2b-413a-b35f-0c8f9ae7d535",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          25.0
+        ],
+        "b": [
+          53.4,
+          22.2
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "4e8784cb-a608-46e8-9eb8-708f1ac95ccb",
+      "pass": true,
+      "actual": {
+        "uuid": "4e8784cb-a608-46e8-9eb8-708f1ac95ccb",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          25.0
+        ],
+        "b": [
+          53.4,
+          23.6
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "cdc4c45f-26ed-42a5-bb6b-df9f65f12d77",
+      "pass": true,
+      "actual": {
+        "uuid": "cdc4c45f-26ed-42a5-bb6b-df9f65f12d77",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          25.0
+        ],
+        "b": [
+          53.4,
+          25.0
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "5759aa88-e60a-4715-8849-25fd07a524f4",
+      "pass": true,
+      "actual": {
+        "uuid": "5759aa88-e60a-4715-8849-25fd07a524f4",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          25.0
+        ],
+        "b": [
+          53.4,
+          26.4
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "8ca68612-a02e-4b26-be08-583d928812cd",
+      "pass": true,
+      "actual": {
+        "uuid": "8ca68612-a02e-4b26-be08-583d928812cd",
+        "class": "PCB_TRACK",
+        "net": "/U half bridge/U_GATE_H",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          43.925,
+          12.1125
+        ],
+        "b": [
+          43.925,
+          14.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "0527efff-6d7c-43e4-98fe-90c1a5fdad41",
+      "pass": true,
+      "actual": {
+        "uuid": "0527efff-6d7c-43e4-98fe-90c1a5fdad41",
+        "class": "PCB_TRACK",
+        "net": "/U half bridge/U_GATE_L",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          54.9875,
+          12.0
+        ],
+        "b": [
+          53.125,
+          14.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9b232f21-f9ae-4950-bb53-3d64d1c06536",
+      "pass": true,
+      "actual": {
+        "uuid": "9b232f21-f9ae-4950-bb53-3d64d1c06536",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          50.15,
+          20.9875
+        ],
+        "b": [
+          49.2,
+          22.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "6ce0287d-4868-45a6-a264-b9ec11e3e9a0",
+      "pass": true,
+      "actual": {
+        "uuid": "6ce0287d-4868-45a6-a264-b9ec11e3e9a0",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          50.15,
+          26.0125
+        ],
+        "b": [
+          49.0,
+          26.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "73f9154a-b98a-4dae-b3a0-d9a6ec01a514",
+      "pass": true,
+      "actual": {
+        "uuid": "73f9154a-b98a-4dae-b3a0-d9a6ec01a514",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.2,
+          22.2
+        ],
+        "b": [
+          49.8,
+          22.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "4671c2c3-7465-4ed8-8f39-b969d4e4d0ca",
+      "pass": true,
+      "actual": {
+        "uuid": "4671c2c3-7465-4ed8-8f39-b969d4e4d0ca",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.8,
+          22.2
+        ],
+        "b": [
+          49.8,
+          25.5
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "3d4dac87-b095-493d-ac3c-c8618536d55e",
+      "pass": true,
+      "actual": {
+        "uuid": "3d4dac87-b095-493d-ac3c-c8618536d55e",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.8,
+          25.5
+        ],
+        "b": [
+          48.8375,
+          24.975
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a5c5fcb1-25bb-4491-a558-c926065ba95b",
+      "pass": true,
+      "actual": {
+        "uuid": "a5c5fcb1-25bb-4491-a558-c926065ba95b",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.0,
+          26.2
+        ],
+        "b": [
+          47.7,
+          26.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c3751213-11ee-4d30-ab66-ddf8872cecce",
+      "pass": true,
+      "actual": {
+        "uuid": "c3751213-11ee-4d30-ab66-ddf8872cecce",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          47.7,
+          26.2
+        ],
+        "b": [
+          46.5625,
+          24.975
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "67eacebc-d637-497c-95dd-c466f94734d0",
+      "pass": true,
+      "actual": {
+        "uuid": "67eacebc-d637-497c-95dd-c466f94734d0",
+        "class": "PCB_TRACK",
+        "net": "V_PHASE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.625,
+          31.0
+        ],
+        "b": [
+          57.0,
+          31.0
+        ],
+        "width_mm": 4.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "87e3d163-4e37-4263-b467-286794d85f7a",
+      "pass": true,
+      "actual": {
+        "uuid": "87e3d163-4e37-4263-b467-286794d85f7a",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          32.905
+        ],
+        "b": [
+          53.3,
+          32.905
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "01f2a874-5862-4def-8608-37b498755845",
+      "pass": true,
+      "actual": {
+        "uuid": "01f2a874-5862-4def-8608-37b498755845",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          32.905
+        ],
+        "b": [
+          53.3,
+          31.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9a9ab30d-7101-48be-8dc8-ed48f82e0228",
+      "pass": true,
+      "actual": {
+        "uuid": "9a9ab30d-7101-48be-8dc8-ed48f82e0228",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          31.635
+        ],
+        "b": [
+          53.3,
+          31.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c111644d-51b9-4ad5-b8b7-ca8d51a49feb",
+      "pass": true,
+      "actual": {
+        "uuid": "c111644d-51b9-4ad5-b8b7-ca8d51a49feb",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          30.365
+        ],
+        "b": [
+          53.3,
+          30.365
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "0feb0ad3-8730-4731-bdbd-ec0afbf26c48",
+      "pass": true,
+      "actual": {
+        "uuid": "0feb0ad3-8730-4731-bdbd-ec0afbf26c48",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          30.365
+        ],
+        "b": [
+          53.3,
+          31.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1ce2752f-0e5e-49d8-a69c-7dee48df4e5c",
+      "pass": true,
+      "actual": {
+        "uuid": "1ce2752f-0e5e-49d8-a69c-7dee48df4e5c",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          31.635
+        ],
+        "b": [
+          53.3,
+          35.5375
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "3a8bd9f4-a157-4d66-882d-49851336386e",
+      "pass": true,
+      "actual": {
+        "uuid": "3a8bd9f4-a157-4d66-882d-49851336386e",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          35.5375
+        ],
+        "b": [
+          51.5,
+          35.5375
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "4476c63c-df0e-4316-9ee0-ba0a2f97f468",
+      "pass": true,
+      "actual": {
+        "uuid": "4476c63c-df0e-4316-9ee0-ba0a2f97f468",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          51.5,
+          41.4625
+        ],
+        "b": [
+          52.0,
+          41.4625
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "8c236661-51d9-46e7-a305-c2f210ea4d58",
+      "pass": true,
+      "actual": {
+        "uuid": "8c236661-51d9-46e7-a305-c2f210ea4d58",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          41.4625
+        ],
+        "b": [
+          52.0,
+          40.0
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "aba7cc18-4190-4ba0-8c7e-fe199018b588",
+      "pass": true,
+      "actual": {
+        "uuid": "aba7cc18-4190-4ba0-8c7e-fe199018b588",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          40.0
+        ],
+        "b": [
+          53.4,
+          37.2
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "d40604b3-8da4-456e-b04a-f0c85f03206e",
+      "pass": true,
+      "actual": {
+        "uuid": "d40604b3-8da4-456e-b04a-f0c85f03206e",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          40.0
+        ],
+        "b": [
+          53.4,
+          38.6
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "cf048d2f-515a-4248-a5f0-d891752b027e",
+      "pass": true,
+      "actual": {
+        "uuid": "cf048d2f-515a-4248-a5f0-d891752b027e",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          40.0
+        ],
+        "b": [
+          53.4,
+          40.0
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "67daae21-5b0c-452e-bd7c-44b70f789c65",
+      "pass": true,
+      "actual": {
+        "uuid": "67daae21-5b0c-452e-bd7c-44b70f789c65",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          40.0
+        ],
+        "b": [
+          53.4,
+          41.4
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "83fff284-ec1e-4a64-adaa-cad226402862",
+      "pass": true,
+      "actual": {
+        "uuid": "83fff284-ec1e-4a64-adaa-cad226402862",
+        "class": "PCB_TRACK",
+        "net": "/V half bridge/V_GATE_H",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          43.925,
+          27.1125
+        ],
+        "b": [
+          43.925,
+          29.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "f344e1dd-5bae-46ad-bcc6-8badb3f075a7",
+      "pass": true,
+      "actual": {
+        "uuid": "f344e1dd-5bae-46ad-bcc6-8badb3f075a7",
+        "class": "PCB_TRACK",
+        "net": "/V half bridge/V_GATE_L",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          54.9875,
+          27.0
+        ],
+        "b": [
+          53.125,
+          29.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+      "pass": true,
+      "actual": {
+        "uuid": "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          50.15,
+          35.9875
+        ],
+        "b": [
+          49.2,
+          37.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1f9c5c03-163b-4bd8-9507-78f416c74508",
+      "pass": true,
+      "actual": {
+        "uuid": "1f9c5c03-163b-4bd8-9507-78f416c74508",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          50.15,
+          41.012499
+        ],
+        "b": [
+          49.0,
+          41.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "ea2faa6c-7a69-4f36-8554-df3bf7597ece",
+      "pass": true,
+      "actual": {
+        "uuid": "ea2faa6c-7a69-4f36-8554-df3bf7597ece",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.2,
+          37.2
+        ],
+        "b": [
+          49.8,
+          37.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "190e7bd6-beed-4e7c-b09b-b4c6f7f1fb2f",
+      "pass": true,
+      "actual": {
+        "uuid": "190e7bd6-beed-4e7c-b09b-b4c6f7f1fb2f",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.8,
+          37.2
+        ],
+        "b": [
+          49.8,
+          40.5
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c10ff38f-3280-414b-9fc7-8c24fd0ec6f3",
+      "pass": true,
+      "actual": {
+        "uuid": "c10ff38f-3280-414b-9fc7-8c24fd0ec6f3",
+        "class": "PCB_TRACK",
+        "net": "V_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.8,
+          40.5
+        ],
+        "b": [
+          48.8375,
+          39.975
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c6953fbe-e6e8-42c2-b9ab-22fb8e13c330",
+      "pass": true,
+      "actual": {
+        "uuid": "c6953fbe-e6e8-42c2-b9ab-22fb8e13c330",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.0,
+          41.2
+        ],
+        "b": [
+          47.7,
+          41.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "ded0fb26-abb2-464b-9f1b-30256478cadc",
+      "pass": true,
+      "actual": {
+        "uuid": "ded0fb26-abb2-464b-9f1b-30256478cadc",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          47.7,
+          41.2
+        ],
+        "b": [
+          46.5625,
+          39.975
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "14f37fc5-a1f1-46f6-bc55-74946cf86ce2",
+      "pass": true,
+      "actual": {
+        "uuid": "14f37fc5-a1f1-46f6-bc55-74946cf86ce2",
+        "class": "PCB_TRACK",
+        "net": "W_PHASE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.625,
+          46.0
+        ],
+        "b": [
+          57.0,
+          46.0
+        ],
+        "width_mm": 4.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "d5925eab-f818-4296-ad70-4b8a2e796258",
+      "pass": true,
+      "actual": {
+        "uuid": "d5925eab-f818-4296-ad70-4b8a2e796258",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          47.905
+        ],
+        "b": [
+          53.3,
+          47.905
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "81938f95-5ae7-47d3-83f2-acfe3619ac5f",
+      "pass": true,
+      "actual": {
+        "uuid": "81938f95-5ae7-47d3-83f2-acfe3619ac5f",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          47.905
+        ],
+        "b": [
+          53.3,
+          46.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "13752872-e15f-4c41-a588-e1c7ceacdd3e",
+      "pass": true,
+      "actual": {
+        "uuid": "13752872-e15f-4c41-a588-e1c7ceacdd3e",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          46.635
+        ],
+        "b": [
+          53.3,
+          46.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "bcc8bf8e-3652-4915-a1d0-3610fa3dcaa3",
+      "pass": true,
+      "actual": {
+        "uuid": "bcc8bf8e-3652-4915-a1d0-3610fa3dcaa3",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.125,
+          45.365
+        ],
+        "b": [
+          53.3,
+          45.365
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "5681a676-c151-4dfb-b54a-30c4848900c9",
+      "pass": true,
+      "actual": {
+        "uuid": "5681a676-c151-4dfb-b54a-30c4848900c9",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          45.365
+        ],
+        "b": [
+          53.3,
+          46.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1b8784ec-1914-4f6e-a710-f9b42a39d943",
+      "pass": true,
+      "actual": {
+        "uuid": "1b8784ec-1914-4f6e-a710-f9b42a39d943",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          46.635
+        ],
+        "b": [
+          53.3,
+          50.5375
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "bc07979c-c75e-4725-becd-5e70363ed254",
+      "pass": true,
+      "actual": {
+        "uuid": "bc07979c-c75e-4725-becd-5e70363ed254",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          53.3,
+          50.5375
+        ],
+        "b": [
+          51.5,
+          50.5375
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "0a276f89-5a77-4816-b7cf-2251169cc4a9",
+      "pass": true,
+      "actual": {
+        "uuid": "0a276f89-5a77-4816-b7cf-2251169cc4a9",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          51.5,
+          56.4625
+        ],
+        "b": [
+          52.0,
+          56.4625
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c5975107-277f-446f-9383-eb78d1519d5f",
+      "pass": true,
+      "actual": {
+        "uuid": "c5975107-277f-446f-9383-eb78d1519d5f",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          56.4625
+        ],
+        "b": [
+          52.0,
+          55.0
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "24a02574-71ab-40aa-a4e5-c9bb248cebe6",
+      "pass": true,
+      "actual": {
+        "uuid": "24a02574-71ab-40aa-a4e5-c9bb248cebe6",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          55.0
+        ],
+        "b": [
+          53.4,
+          52.2
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a793d8a3-3ccb-4cc4-b50e-dec4fec90f03",
+      "pass": true,
+      "actual": {
+        "uuid": "a793d8a3-3ccb-4cc4-b50e-dec4fec90f03",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          55.0
+        ],
+        "b": [
+          53.4,
+          53.6
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "83147991-3778-42c6-8437-2b6712160f25",
+      "pass": true,
+      "actual": {
+        "uuid": "83147991-3778-42c6-8437-2b6712160f25",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          55.0
+        ],
+        "b": [
+          53.4,
+          55.0
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a9697756-4848-4b26-ac18-ba916041c07b",
+      "pass": true,
+      "actual": {
+        "uuid": "a9697756-4848-4b26-ac18-ba916041c07b",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          52.0,
+          55.0
+        ],
+        "b": [
+          53.4,
+          56.4
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c98a97f7-3cb0-4134-adf2-abe7a5028c89",
+      "pass": true,
+      "actual": {
+        "uuid": "c98a97f7-3cb0-4134-adf2-abe7a5028c89",
+        "class": "PCB_TRACK",
+        "net": "/W half bridge/W_GATE_H",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          43.925,
+          42.1125
+        ],
+        "b": [
+          43.925,
+          44.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "84103bce-fcdb-46b4-a839-0076cbb70401",
+      "pass": true,
+      "actual": {
+        "uuid": "84103bce-fcdb-46b4-a839-0076cbb70401",
+        "class": "PCB_TRACK",
+        "net": "/W half bridge/W_GATE_L",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          54.9875,
+          42.0
+        ],
+        "b": [
+          53.125,
+          44.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "2a1d0999-3634-4de9-b13e-c3464a719d75",
+      "pass": true,
+      "actual": {
+        "uuid": "2a1d0999-3634-4de9-b13e-c3464a719d75",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          50.15,
+          50.9875
+        ],
+        "b": [
+          50.3,
+          52.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "beccb488-5550-46bd-8997-bbb0a5facb9b",
+      "pass": true,
+      "actual": {
+        "uuid": "beccb488-5550-46bd-8997-bbb0a5facb9b",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          50.15,
+          56.012499
+        ],
+        "b": [
+          49.0,
+          56.1
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c44c9f9b-6315-4ebe-a0a6-609ec63fd884",
+      "pass": true,
+      "actual": {
+        "uuid": "c44c9f9b-6315-4ebe-a0a6-609ec63fd884",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          50.3,
+          52.2
+        ],
+        "b": [
+          51.1,
+          52.2
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "e81b9c9d-5281-4864-b93d-00eb1e08125b",
+      "pass": true,
+      "actual": {
+        "uuid": "e81b9c9d-5281-4864-b93d-00eb1e08125b",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          51.1,
+          52.2
+        ],
+        "b": [
+          51.1,
+          55.5
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a3f8e2a9-b242-444e-ad4c-a13d2fe9429d",
+      "pass": true,
+      "actual": {
+        "uuid": "a3f8e2a9-b242-444e-ad4c-a13d2fe9429d",
+        "class": "PCB_TRACK",
+        "net": "W_SOURCE",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          51.1,
+          55.5
+        ],
+        "b": [
+          50.1375,
+          54.975
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a8374a9e-fa98-4735-8783-031be04136f9",
+      "pass": true,
+      "actual": {
+        "uuid": "a8374a9e-fa98-4735-8783-031be04136f9",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          49.0,
+          56.1
+        ],
+        "b": [
+          47.8625,
+          54.975
+        ],
+        "width_mm": 0.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c1d4f481-0cc7-45a8-b2c6-44f022b12856",
+      "pass": true,
+      "actual": {
+        "uuid": "c1d4f481-0cc7-45a8-b2c6-44f022b12856",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          39.025,
+          21.3
+        ],
+        "b": [
+          37.0,
+          21.1
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "afe8c485-1f43-4cf8-8939-a0a6697935ec",
+      "pass": true,
+      "actual": {
+        "uuid": "afe8c485-1f43-4cf8-8939-a0a6697935ec",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          41.975,
+          19.4
+        ],
+        "b": [
+          40.5,
+          19.4
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1c3040f1-04ef-43aa-94c9-b81f0ade41dc",
+      "pass": true,
+      "actual": {
+        "uuid": "1c3040f1-04ef-43aa-94c9-b81f0ade41dc",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          41.975,
+          21.3
+        ],
+        "b": [
+          41.975,
+          19.4
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "25dfe900-1ae4-4792-afdc-14d287037f3e",
+      "pass": true,
+      "actual": {
+        "uuid": "25dfe900-1ae4-4792-afdc-14d287037f3e",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          41.975,
+          19.4
+        ],
+        "b": [
+          41.9,
+          19.4
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "10bdcbb1-92eb-4e25-9055-1d55d83f8c28",
+      "pass": true,
+      "actual": {
+        "uuid": "10bdcbb1-92eb-4e25-9055-1d55d83f8c28",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          39.025,
+          36.3
+        ],
+        "b": [
+          37.0,
+          36.099999
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "cafcbf0e-9f9d-4395-b013-a00462368808",
+      "pass": true,
+      "actual": {
+        "uuid": "cafcbf0e-9f9d-4395-b013-a00462368808",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          41.975,
+          34.4
+        ],
+        "b": [
+          40.5,
+          34.4
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "ff0a8240-6580-4791-b73c-28c750751db8",
+      "pass": true,
+      "actual": {
+        "uuid": "ff0a8240-6580-4791-b73c-28c750751db8",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          41.975,
+          36.3
+        ],
+        "b": [
+          41.975,
+          34.4
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "d1551141-5e3b-4b09-8c65-7a3b86284840",
+      "pass": true,
+      "actual": {
+        "uuid": "d1551141-5e3b-4b09-8c65-7a3b86284840",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          41.975,
+          34.4
+        ],
+        "b": [
+          41.9,
+          34.4
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "5e4c5486-8038-48c7-9ea6-5150bc1aa65f",
+      "pass": true,
+      "actual": {
+        "uuid": "5e4c5486-8038-48c7-9ea6-5150bc1aa65f",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          5.5,
+          8.5
+        ],
+        "b": [
+          1.5,
+          8.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "91747c98-62d4-4de2-b448-36a6533aa392",
+      "pass": true,
+      "actual": {
+        "uuid": "91747c98-62d4-4de2-b448-36a6533aa392",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          1.5,
+          8.5
+        ],
+        "b": [
+          1.5,
+          19.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a7969d66-9ccb-4b48-ba20-c70deb2a35c7",
+      "pass": true,
+      "actual": {
+        "uuid": "a7969d66-9ccb-4b48-ba20-c70deb2a35c7",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          1.5,
+          19.5
+        ],
+        "b": [
+          4.045,
+          19.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "83b4a7d9-2ced-40e0-9f8b-0403d86557f3",
+      "pass": true,
+      "actual": {
+        "uuid": "83b4a7d9-2ced-40e0-9f8b-0403d86557f3",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          5.5,
+          8.5
+        ],
+        "b": [
+          1.5,
+          8.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "46f2d78e-0e2d-4b8f-a74a-f593a55fe5a8",
+      "pass": true,
+      "actual": {
+        "uuid": "46f2d78e-0e2d-4b8f-a74a-f593a55fe5a8",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          1.5,
+          8.5
+        ],
+        "b": [
+          1.5,
+          19.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "47a4bb20-d4dd-480d-8b67-9dee01dae3e1",
+      "pass": true,
+      "actual": {
+        "uuid": "47a4bb20-d4dd-480d-8b67-9dee01dae3e1",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          1.5,
+          19.5
+        ],
+        "b": [
+          2.5,
+          19.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "18505a61-3050-4ce4-ba01-d480b61fde34",
+      "pass": true,
+      "actual": {
+        "uuid": "18505a61-3050-4ce4-ba01-d480b61fde34",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          4.045,
+          19.5
+        ],
+        "b": [
+          1.1,
+          18.1
+        ],
+        "width_mm": 1.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "410078ac-5ba8-46c7-97e6-6cf7585ce94f",
+      "pass": true,
+      "actual": {
+        "uuid": "410078ac-5ba8-46c7-97e6-6cf7585ce94f",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          4.045,
+          19.5
+        ],
+        "b": [
+          2.5,
+          18.1
+        ],
+        "width_mm": 1.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "c6695989-2910-49b3-858b-4e18d6fb7fdd",
+      "pass": true,
+      "actual": {
+        "uuid": "c6695989-2910-49b3-858b-4e18d6fb7fdd",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          4.045,
+          19.5
+        ],
+        "b": [
+          1.1,
+          19.5
+        ],
+        "width_mm": 1.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "19e612d1-f257-4ad8-bae1-ee213c264ace",
+      "pass": true,
+      "actual": {
+        "uuid": "19e612d1-f257-4ad8-bae1-ee213c264ace",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          4.045,
+          19.5
+        ],
+        "b": [
+          2.5,
+          19.5
+        ],
+        "width_mm": 1.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "ab7b6927-d415-4baf-b57e-6203dd3ddfc9",
+      "pass": true,
+      "actual": {
+        "uuid": "ab7b6927-d415-4baf-b57e-6203dd3ddfc9",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          8.955,
+          19.5
+        ],
+        "b": [
+          8.955,
+          17.4
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9fb77dda-0c3b-4873-9179-7526951eba95",
+      "pass": true,
+      "actual": {
+        "uuid": "9fb77dda-0c3b-4873-9179-7526951eba95",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          8.955,
+          17.4
+        ],
+        "b": [
+          8.7,
+          16.0
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "0beae05b-205e-48ad-9cec-5f6a554a9c94",
+      "pass": true,
+      "actual": {
+        "uuid": "0beae05b-205e-48ad-9cec-5f6a554a9c94",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          8.955,
+          17.4
+        ],
+        "b": [
+          9.9,
+          16.0
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "7631e90c-8c39-43bd-a7ae-f7d4bcfbd50d",
+      "pass": true,
+      "actual": {
+        "uuid": "7631e90c-8c39-43bd-a7ae-f7d4bcfbd50d",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          8.955,
+          17.4
+        ],
+        "b": [
+          8.7,
+          17.4
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9324a214-2610-42b9-8800-fed5214468c0",
+      "pass": true,
+      "actual": {
+        "uuid": "9324a214-2610-42b9-8800-fed5214468c0",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          8.955,
+          17.4
+        ],
+        "b": [
+          9.9,
+          17.4
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "3f2141d5-9f0b-4bda-ab22-9ef0fa9a4f93",
+      "pass": true,
+      "actual": {
+        "uuid": "3f2141d5-9f0b-4bda-ab22-9ef0fa9a4f93",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          9.9,
+          17.4
+        ],
+        "b": [
+          9.9,
+          15.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "3a0fd2a3-0a91-4309-8ad0-1f77076fa64a",
+      "pass": true,
+      "actual": {
+        "uuid": "3a0fd2a3-0a91-4309-8ad0-1f77076fa64a",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          9.9,
+          15.0
+        ],
+        "b": [
+          9.9,
+          5.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "885a8712-c292-430d-a73a-0dd2daefee51",
+      "pass": true,
+      "actual": {
+        "uuid": "885a8712-c292-430d-a73a-0dd2daefee51",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          9.9,
+          5.0
+        ],
+        "b": [
+          46.8,
+          5.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "3847db05-d05e-4894-8076-d95d6e65efed",
+      "pass": true,
+      "actual": {
+        "uuid": "3847db05-d05e-4894-8076-d95d6e65efed",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          9.9,
+          17.4
+        ],
+        "b": [
+          9.9,
+          15.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "738b5ffe-fabf-4d33-ab33-4e75b741cf9c",
+      "pass": true,
+      "actual": {
+        "uuid": "738b5ffe-fabf-4d33-ab33-4e75b741cf9c",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          9.9,
+          15.0
+        ],
+        "b": [
+          9.9,
+          5.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a878ed0d-0d73-4dab-bd00-7a836ff3630a",
+      "pass": true,
+      "actual": {
+        "uuid": "a878ed0d-0d73-4dab-bd00-7a836ff3630a",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          9.9,
+          5.0
+        ],
+        "b": [
+          46.8,
+          5.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "d6f1cf3b-1357-4c11-88bd-bd047e2d9957",
+      "pass": true,
+      "actual": {
+        "uuid": "d6f1cf3b-1357-4c11-88bd-bd047e2d9957",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          46.8,
+          5.0
+        ],
+        "b": [
+          46.8,
+          5.2
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9069b513-5fd2-4782-aac4-0cb6aea9f9e0",
+      "pass": true,
+      "actual": {
+        "uuid": "9069b513-5fd2-4782-aac4-0cb6aea9f9e0",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          46.8,
+          5.0
+        ],
+        "b": [
+          48.2,
+          5.0
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "b255845f-2ab6-4bbe-a224-4c48308f75e5",
+      "pass": true,
+      "actual": {
+        "uuid": "b255845f-2ab6-4bbe-a224-4c48308f75e5",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          48.2,
+          5.0
+        ],
+        "b": [
+          48.2,
+          12.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "0a581b3e-40d3-49ff-ad7f-d7da48ff6b3a",
+      "pass": true,
+      "actual": {
+        "uuid": "0a581b3e-40d3-49ff-ad7f-d7da48ff6b3a",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          48.2,
+          12.5
+        ],
+        "b": [
+          46.8,
+          12.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "3b85ab35-93fa-4d49-84fb-36cb960afc9c",
+      "pass": true,
+      "actual": {
+        "uuid": "3b85ab35-93fa-4d49-84fb-36cb960afc9c",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          46.8,
+          5.0
+        ],
+        "b": [
+          46.8,
+          5.2
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "42e3b786-6f99-461f-a076-6848cfa9049f",
+      "pass": true,
+      "actual": {
+        "uuid": "42e3b786-6f99-461f-a076-6848cfa9049f",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          46.8,
+          5.0
+        ],
+        "b": [
+          48.2,
+          5.0
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1c32d9a1-f492-43cc-abf2-0522f09cbb4e",
+      "pass": true,
+      "actual": {
+        "uuid": "1c32d9a1-f492-43cc-abf2-0522f09cbb4e",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          48.2,
+          5.0
+        ],
+        "b": [
+          48.2,
+          12.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "22b4fbe3-b041-4112-9e58-c47e5c754239",
+      "pass": true,
+      "actual": {
+        "uuid": "22b4fbe3-b041-4112-9e58-c47e5c754239",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "In3.Cu",
+        "a": [
+          48.2,
+          12.5
+        ],
+        "b": [
+          46.8,
+          12.5
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "78f7bf72-9113-4691-906d-af880626d1c8",
+      "pass": true,
+      "actual": {
+        "uuid": "78f7bf72-9113-4691-906d-af880626d1c8",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          46.8,
+          5.2
+        ],
+        "b": [
+          46.46,
+          6.92
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "87910848-b0c6-4eaf-aa93-9461a8ca7502",
+      "pass": true,
+      "actual": {
+        "uuid": "87910848-b0c6-4eaf-aa93-9461a8ca7502",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          46.8,
+          12.5
+        ],
+        "b": [
+          46.46,
+          11.48
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "bd71fc94-c012-4997-867a-ccc4d121cf3f",
+      "pass": true,
+      "actual": {
+        "uuid": "bd71fc94-c012-4997-867a-ccc4d121cf3f",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          46.46,
+          11.48
+        ],
+        "b": [
+          48.2,
+          12.5
+        ],
+        "width_mm": 1.3
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "02ec337f-b5f5-4bc4-920e-6c8c63bf97fc",
+      "pass": true,
+      "actual": {
+        "uuid": "02ec337f-b5f5-4bc4-920e-6c8c63bf97fc",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          46.46,
+          9.2
+        ],
+        "b": [
+          52.76,
+          9.2
+        ],
+        "width_mm": 1.2
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "7291a175-876c-4cfe-90c1-9cdfd30ebf04",
+      "pass": true,
+      "actual": {
+        "uuid": "7291a175-876c-4cfe-90c1-9cdfd30ebf04",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          52.76,
+          3.8
+        ],
+        "b": [
+          51.5,
+          3.8
+        ],
+        "width_mm": 3.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "ae84a2eb-837a-4b9a-83aa-f3f9e05b88a2",
+      "pass": true,
+      "actual": {
+        "uuid": "ae84a2eb-837a-4b9a-83aa-f3f9e05b88a2",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          52.76,
+          9.2
+        ],
+        "b": [
+          52.76,
+          3.8
+        ],
+        "width_mm": 3.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "9a2ccb86-b2b3-48b9-bb5d-f99baa9669c1",
+      "pass": true,
+      "actual": {
+        "uuid": "9a2ccb86-b2b3-48b9-bb5d-f99baa9669c1",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          52.76,
+          3.8
+        ],
+        "b": [
+          52.9,
+          3.8
+        ],
+        "width_mm": 3.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "43fa1bfc-d131-4e46-9f6a-d68faf3e16c7",
+      "pass": true,
+      "actual": {
+        "uuid": "43fa1bfc-d131-4e46-9f6a-d68faf3e16c7",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          52.76,
+          5.2
+        ],
+        "b": [
+          51.5,
+          5.2
+        ],
+        "width_mm": 3.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "18b94961-c4bc-4692-8874-15bfd9d0ce08",
+      "pass": true,
+      "actual": {
+        "uuid": "18b94961-c4bc-4692-8874-15bfd9d0ce08",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          52.76,
+          9.2
+        ],
+        "b": [
+          52.76,
+          5.2
+        ],
+        "width_mm": 3.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "81c0aadf-39d5-426f-8a8c-c19ffb2a677b",
+      "pass": true,
+      "actual": {
+        "uuid": "81c0aadf-39d5-426f-8a8c-c19ffb2a677b",
+        "class": "PCB_TRACK",
+        "net": "VBUS",
+        "locked": true,
+        "layer": "B.Cu",
+        "a": [
+          52.76,
+          5.2
+        ],
+        "b": [
+          52.9,
+          5.2
+        ],
+        "width_mm": 3.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "e60d47ca-7108-4ee0-a718-d77eddb3c2b0",
+      "pass": true,
+      "actual": {
+        "uuid": "e60d47ca-7108-4ee0-a718-d77eddb3c2b0",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          30.6,
+          56.9
+        ],
+        "b": [
+          30.6,
+          52.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "5bff616e-e5ac-4b1c-b435-be3aff508350",
+      "pass": true,
+      "actual": {
+        "uuid": "5bff616e-e5ac-4b1c-b435-be3aff508350",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          30.6,
+          52.0
+        ],
+        "b": [
+          35.8,
+          52.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "6e8fd844-503f-4c82-b871-dbecc551098f",
+      "pass": true,
+      "actual": {
+        "uuid": "6e8fd844-503f-4c82-b871-dbecc551098f",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          35.8,
+          52.0
+        ],
+        "b": [
+          37.2,
+          53.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "7e2b51d8-bff3-4a99-b9fc-ebadb4aa0ec1",
+      "pass": true,
+      "actual": {
+        "uuid": "7e2b51d8-bff3-4a99-b9fc-ebadb4aa0ec1",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          37.2,
+          53.0
+        ],
+        "b": [
+          44.0,
+          53.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "782cd873-d0bd-4131-802a-99d0c347804d",
+      "pass": true,
+      "actual": {
+        "uuid": "782cd873-d0bd-4131-802a-99d0c347804d",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "layer": "In2.Cu",
+        "a": [
+          44.0,
+          53.0
+        ],
+        "b": [
+          44.0,
+          57.0
+        ],
+        "width_mm": 2.4
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "65e68bd5-3afb-45e8-a03a-0ca00b878705",
+      "pass": true,
+      "actual": {
+        "uuid": "65e68bd5-3afb-45e8-a03a-0ca00b878705",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          33.825,
+          55.905
+        ],
+        "b": [
+          34.3,
+          55.905
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "eaefeebe-2b66-45c0-9423-14402d972e44",
+      "pass": true,
+      "actual": {
+        "uuid": "eaefeebe-2b66-45c0-9423-14402d972e44",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          33.825,
+          54.635
+        ],
+        "b": [
+          34.3,
+          54.635
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1107ee2d-57e3-45d1-9815-d8b0f18a9db9",
+      "pass": true,
+      "actual": {
+        "uuid": "1107ee2d-57e3-45d1-9815-d8b0f18a9db9",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.3,
+          54.635
+        ],
+        "b": [
+          34.3,
+          55.905
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "1bc5ba38-66e0-4354-aa4c-779e9f981d11",
+      "pass": true,
+      "actual": {
+        "uuid": "1bc5ba38-66e0-4354-aa4c-779e9f981d11",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          33.825,
+          53.365
+        ],
+        "b": [
+          34.3,
+          53.365
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "f643bc16-8b18-42a1-9dcc-6a626352e18e",
+      "pass": true,
+      "actual": {
+        "uuid": "f643bc16-8b18-42a1-9dcc-6a626352e18e",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.3,
+          53.365
+        ],
+        "b": [
+          34.3,
+          55.905
+        ],
+        "width_mm": 0.65
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "8ad7d33e-1c38-41ea-a021-327d59402082",
+      "pass": true,
+      "actual": {
+        "uuid": "8ad7d33e-1c38-41ea-a021-327d59402082",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.05,
+          55.905
+        ],
+        "b": [
+          34.3,
+          55.905
+        ],
+        "width_mm": 2.0
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "a8a98841-0479-45dc-a5c4-387563182fd6",
+      "pass": true,
+      "actual": {
+        "uuid": "a8a98841-0479-45dc-a5c4-387563182fd6",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.3,
+          55.905
+        ],
+        "b": [
+          34.9,
+          54.2
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "22d413ea-6137-42b5-ab05-9db6329763ad",
+      "pass": true,
+      "actual": {
+        "uuid": "22d413ea-6137-42b5-ab05-9db6329763ad",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.3,
+          55.905
+        ],
+        "b": [
+          34.9,
+          55.6
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "f505a463-3e36-4598-a8ff-b1c88e117dd5",
+      "pass": true,
+      "actual": {
+        "uuid": "f505a463-3e36-4598-a8ff-b1c88e117dd5",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.3,
+          55.905
+        ],
+        "b": [
+          34.9,
+          57.0
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "6e9cc381-4450-4b61-b0fa-0ea65f429239",
+      "pass": true,
+      "actual": {
+        "uuid": "6e9cc381-4450-4b61-b0fa-0ea65f429239",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          34.3,
+          55.905
+        ],
+        "b": [
+          34.9,
+          58.4
+        ],
+        "width_mm": 0.8
+      }
+    },
+    {
+      "kind": "tracks",
+      "uuid": "8523dbee-1a2a-431a-bfc2-7cf79cfea82b",
+      "pass": true,
+      "actual": {
+        "uuid": "8523dbee-1a2a-431a-bfc2-7cf79cfea82b",
+        "class": "PCB_TRACK",
+        "net": "/Bus and brake/BR_GATE",
+        "locked": true,
+        "layer": "F.Cu",
+        "a": [
+          35.8,
+          51.4125
+        ],
+        "b": [
+          33.825,
+          52.095
+        ],
+        "width_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "36a84754-dfb6-46b2-889e-fdd6f09101e2",
+      "pass": true,
+      "actual": {
+        "uuid": "36a84754-dfb6-46b2-889e-fdd6f09101e2",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          45.1,
+          17.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "9b13db5d-9462-4052-a361-97410421ceb7",
+      "pass": true,
+      "actual": {
+        "uuid": "9b13db5d-9462-4052-a361-97410421ceb7",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          45.1,
+          18.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "d64a5b16-c7fe-4fe0-a9ef-b448790f816d",
+      "pass": true,
+      "actual": {
+        "uuid": "d64a5b16-c7fe-4fe0-a9ef-b448790f816d",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          46.5,
+          17.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "6a194245-70d9-4445-afd9-6506be44ecae",
+      "pass": true,
+      "actual": {
+        "uuid": "6a194245-70d9-4445-afd9-6506be44ecae",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          46.5,
+          18.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "d744db79-c974-43b1-81e2-244a61b1e0b8",
+      "pass": true,
+      "actual": {
+        "uuid": "d744db79-c974-43b1-81e2-244a61b1e0b8",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          47.5,
+          19.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "9670dfdc-b8ab-4f61-ba41-cd2f80bc06be",
+      "pass": true,
+      "actual": {
+        "uuid": "9670dfdc-b8ab-4f61-ba41-cd2f80bc06be",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          47.5,
+          20.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "4a84ee93-a4d9-4e43-9d07-273641cd4dbe",
+      "pass": true,
+      "actual": {
+        "uuid": "4a84ee93-a4d9-4e43-9d07-273641cd4dbe",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          48.9,
+          19.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "c4f19719-9d52-4121-90f8-1ccf3f07ab65",
+      "pass": true,
+      "actual": {
+        "uuid": "c4f19719-9d52-4121-90f8-1ccf3f07ab65",
+        "class": "PCB_VIA",
+        "net": "U_PHASE",
+        "locked": true,
+        "at": [
+          48.9,
+          20.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "923de78c-ccd5-4f87-9497-db8bf3f2b338",
+      "pass": true,
+      "actual": {
+        "uuid": "923de78c-ccd5-4f87-9497-db8bf3f2b338",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          22.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "00e2da59-1726-4cfb-8f62-c06295616514",
+      "pass": true,
+      "actual": {
+        "uuid": "00e2da59-1726-4cfb-8f62-c06295616514",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          23.6
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "35a5258c-399e-4f0f-b08f-e04a409026da",
+      "pass": true,
+      "actual": {
+        "uuid": "35a5258c-399e-4f0f-b08f-e04a409026da",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          25.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "79be600d-98f0-4635-a88d-ebb7971b83e0",
+      "pass": true,
+      "actual": {
+        "uuid": "79be600d-98f0-4635-a88d-ebb7971b83e0",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          26.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8bc4dc2c-f439-4afe-aa34-5941c9300d37",
+      "pass": true,
+      "actual": {
+        "uuid": "8bc4dc2c-f439-4afe-aa34-5941c9300d37",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          35.6,
+          19.7
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "1ee7a6f9-fd7b-4d50-8718-2878ec3c1200",
+      "pass": true,
+      "actual": {
+        "uuid": "1ee7a6f9-fd7b-4d50-8718-2878ec3c1200",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          35.6,
+          21.1
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "23c802ff-358a-46e2-92e9-e82cb03b6893",
+      "pass": true,
+      "actual": {
+        "uuid": "23c802ff-358a-46e2-92e9-e82cb03b6893",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          37.0,
+          19.7
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "3cd465a5-91a6-4e42-a55c-e0c55c5af63b",
+      "pass": true,
+      "actual": {
+        "uuid": "3cd465a5-91a6-4e42-a55c-e0c55c5af63b",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          37.0,
+          21.1
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "9199b7b3-5c4a-4199-b5e7-c4f7817c593c",
+      "pass": true,
+      "actual": {
+        "uuid": "9199b7b3-5c4a-4199-b5e7-c4f7817c593c",
+        "class": "PCB_VIA",
+        "net": "U_SOURCE",
+        "locked": true,
+        "at": [
+          49.2,
+          22.2
+        ],
+        "diameter_mm": 0.6,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "45474bc6-ccc5-47b1-8602-4af710917b56",
+      "pass": true,
+      "actual": {
+        "uuid": "45474bc6-ccc5-47b1-8602-4af710917b56",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          49.0,
+          26.2
+        ],
+        "diameter_mm": 0.6,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "f1bdf918-6105-4b14-9011-e57c790481e3",
+      "pass": true,
+      "actual": {
+        "uuid": "f1bdf918-6105-4b14-9011-e57c790481e3",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          45.1,
+          32.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "22533792-ae01-4d25-948b-92ab4bafd549",
+      "pass": true,
+      "actual": {
+        "uuid": "22533792-ae01-4d25-948b-92ab4bafd549",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          45.1,
+          33.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "98cee354-c662-4aaa-8d4f-8343b83c6505",
+      "pass": true,
+      "actual": {
+        "uuid": "98cee354-c662-4aaa-8d4f-8343b83c6505",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          46.5,
+          32.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "411db297-042e-49bf-8781-33f2e8f85282",
+      "pass": true,
+      "actual": {
+        "uuid": "411db297-042e-49bf-8781-33f2e8f85282",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          46.5,
+          33.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "74a79382-58f8-4a4d-9554-47dda871e6a8",
+      "pass": true,
+      "actual": {
+        "uuid": "74a79382-58f8-4a4d-9554-47dda871e6a8",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          47.5,
+          34.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "6cde7159-13bb-42ae-815f-2a9c4857dd34",
+      "pass": true,
+      "actual": {
+        "uuid": "6cde7159-13bb-42ae-815f-2a9c4857dd34",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          47.5,
+          35.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "6b79fca2-7d5f-4183-a688-866ff689724d",
+      "pass": true,
+      "actual": {
+        "uuid": "6b79fca2-7d5f-4183-a688-866ff689724d",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          48.9,
+          34.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "6baae93d-a020-4367-8d8a-ac2f96dbd2bb",
+      "pass": true,
+      "actual": {
+        "uuid": "6baae93d-a020-4367-8d8a-ac2f96dbd2bb",
+        "class": "PCB_VIA",
+        "net": "V_PHASE",
+        "locked": true,
+        "at": [
+          48.9,
+          35.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "4cbaa495-e72c-4e31-af0e-a2e7b6b1d986",
+      "pass": true,
+      "actual": {
+        "uuid": "4cbaa495-e72c-4e31-af0e-a2e7b6b1d986",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          37.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "4b6057be-a4f0-40fe-ad0c-2c6c3bdd4422",
+      "pass": true,
+      "actual": {
+        "uuid": "4b6057be-a4f0-40fe-ad0c-2c6c3bdd4422",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          38.6
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "bd1ce353-c1cd-4aa1-ae71-bff3b9aa4db5",
+      "pass": true,
+      "actual": {
+        "uuid": "bd1ce353-c1cd-4aa1-ae71-bff3b9aa4db5",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          40.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "a9954ea6-8e4e-479d-b3d2-1cb75d28594c",
+      "pass": true,
+      "actual": {
+        "uuid": "a9954ea6-8e4e-479d-b3d2-1cb75d28594c",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          41.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "c1d89c4d-28ee-49ac-a8e4-b58ea289daae",
+      "pass": true,
+      "actual": {
+        "uuid": "c1d89c4d-28ee-49ac-a8e4-b58ea289daae",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          35.6,
+          34.7
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "2f70d559-b3f9-48da-8b70-eb2c02eb219b",
+      "pass": true,
+      "actual": {
+        "uuid": "2f70d559-b3f9-48da-8b70-eb2c02eb219b",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          35.6,
+          36.1
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "7ae68448-94e8-465f-95ce-486762418fe7",
+      "pass": true,
+      "actual": {
+        "uuid": "7ae68448-94e8-465f-95ce-486762418fe7",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          37.0,
+          34.7
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "27e7ead9-f9a4-459f-9026-ba03196f4a8f",
+      "pass": true,
+      "actual": {
+        "uuid": "27e7ead9-f9a4-459f-9026-ba03196f4a8f",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          37.0,
+          36.1
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+      "pass": true,
+      "actual": {
+        "uuid": "bbed0289-e030-4e82-830b-f7cffb00db66",
+        "class": "PCB_VIA",
+        "net": "V_SOURCE",
+        "locked": true,
+        "at": [
+          49.2,
+          37.2
+        ],
+        "diameter_mm": 0.6,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "b81c3b9b-0d16-4070-9860-aac1375b8d92",
+      "pass": true,
+      "actual": {
+        "uuid": "b81c3b9b-0d16-4070-9860-aac1375b8d92",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          49.0,
+          41.2
+        ],
+        "diameter_mm": 0.6,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "b2482bf1-5058-4a77-96a2-5cf5e6e4b251",
+      "pass": true,
+      "actual": {
+        "uuid": "b2482bf1-5058-4a77-96a2-5cf5e6e4b251",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          45.1,
+          47.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "564633fc-c98b-48bd-a502-5ef1e04f3f25",
+      "pass": true,
+      "actual": {
+        "uuid": "564633fc-c98b-48bd-a502-5ef1e04f3f25",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          45.1,
+          48.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "39db9f40-6bf5-4e10-9708-950f3c7c6243",
+      "pass": true,
+      "actual": {
+        "uuid": "39db9f40-6bf5-4e10-9708-950f3c7c6243",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          46.5,
+          47.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "38ccc60c-39da-4237-9e6d-555cbce2e68e",
+      "pass": true,
+      "actual": {
+        "uuid": "38ccc60c-39da-4237-9e6d-555cbce2e68e",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          46.5,
+          48.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "db93ea99-92ee-4c95-9ee3-618e335f6df3",
+      "pass": true,
+      "actual": {
+        "uuid": "db93ea99-92ee-4c95-9ee3-618e335f6df3",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          47.9,
+          50.8
+        ],
+        "diameter_mm": 0.7,
+        "drill_mm": 0.35
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "5f5c886f-ba66-455e-8661-1a53beba6c0d",
+      "pass": true,
+      "actual": {
+        "uuid": "5f5c886f-ba66-455e-8661-1a53beba6c0d",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          49.0,
+          50.8
+        ],
+        "diameter_mm": 0.7,
+        "drill_mm": 0.35
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8f6b673a-3c25-41ca-bf93-f2cf65fd85d5",
+      "pass": true,
+      "actual": {
+        "uuid": "8f6b673a-3c25-41ca-bf93-f2cf65fd85d5",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          47.9,
+          51.9
+        ],
+        "diameter_mm": 0.7,
+        "drill_mm": 0.35
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "4793055a-9b0e-4478-a1d9-76e1be3068ef",
+      "pass": true,
+      "actual": {
+        "uuid": "4793055a-9b0e-4478-a1d9-76e1be3068ef",
+        "class": "PCB_VIA",
+        "net": "W_PHASE",
+        "locked": true,
+        "at": [
+          49.0,
+          51.9
+        ],
+        "diameter_mm": 0.7,
+        "drill_mm": 0.35
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "fcf80e51-8e8f-455d-8209-35626c635363",
+      "pass": true,
+      "actual": {
+        "uuid": "fcf80e51-8e8f-455d-8209-35626c635363",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          52.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "a7a5f5ea-4522-42d7-ac1c-05a7e5297b73",
+      "pass": true,
+      "actual": {
+        "uuid": "a7a5f5ea-4522-42d7-ac1c-05a7e5297b73",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          53.6
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "1d19962e-1f68-492a-b327-6338ccdc2b47",
+      "pass": true,
+      "actual": {
+        "uuid": "1d19962e-1f68-492a-b327-6338ccdc2b47",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          55.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "9c4b39f9-93a8-40fa-aabe-b64bac029b83",
+      "pass": true,
+      "actual": {
+        "uuid": "9c4b39f9-93a8-40fa-aabe-b64bac029b83",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          53.4,
+          56.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "71bc24ea-1c86-4077-aaac-4d74f0ecffb8",
+      "pass": true,
+      "actual": {
+        "uuid": "71bc24ea-1c86-4077-aaac-4d74f0ecffb8",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          37.6,
+          49.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "e6e740ce-83bb-4f81-9785-bd26bd8761d1",
+      "pass": true,
+      "actual": {
+        "uuid": "e6e740ce-83bb-4f81-9785-bd26bd8761d1",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          39.0,
+          49.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "18c7e097-fd99-421d-b2a5-3f4a02d54003",
+      "pass": true,
+      "actual": {
+        "uuid": "18c7e097-fd99-421d-b2a5-3f4a02d54003",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          40.4,
+          49.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "4cc183c3-b8e9-4d1c-9b74-1aeb05ce1702",
+      "pass": true,
+      "actual": {
+        "uuid": "4cc183c3-b8e9-4d1c-9b74-1aeb05ce1702",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          38.5,
+          50.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "7b951941-f5ea-4a35-902a-252a70580579",
+      "pass": true,
+      "actual": {
+        "uuid": "7b951941-f5ea-4a35-902a-252a70580579",
+        "class": "PCB_VIA",
+        "net": "W_SOURCE",
+        "locked": true,
+        "at": [
+          50.3,
+          52.2
+        ],
+        "diameter_mm": 0.6,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "c3ef2dd2-474d-466d-bac3-8ff0c0f74b73",
+      "pass": true,
+      "actual": {
+        "uuid": "c3ef2dd2-474d-466d-bac3-8ff0c0f74b73",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          49.0,
+          56.1
+        ],
+        "diameter_mm": 0.6,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "76fd0738-50ae-4e23-8a57-c603ecfbd49f",
+      "pass": true,
+      "actual": {
+        "uuid": "76fd0738-50ae-4e23-8a57-c603ecfbd49f",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          40.5,
+          19.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "3ed0e0ac-59f3-4648-b6f8-ad539be09349",
+      "pass": true,
+      "actual": {
+        "uuid": "3ed0e0ac-59f3-4648-b6f8-ad539be09349",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          41.9,
+          19.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8ea70f9e-f7bd-442d-89bb-7a3b318e8509",
+      "pass": true,
+      "actual": {
+        "uuid": "8ea70f9e-f7bd-442d-89bb-7a3b318e8509",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          40.5,
+          34.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "c56d8be4-34a8-4a5e-8134-5780ceffdf38",
+      "pass": true,
+      "actual": {
+        "uuid": "c56d8be4-34a8-4a5e-8134-5780ceffdf38",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          41.9,
+          34.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8e0b5663-90df-4f1d-bdc1-6692a2c66c8a",
+      "pass": true,
+      "actual": {
+        "uuid": "8e0b5663-90df-4f1d-bdc1-6692a2c66c8a",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "at": [
+          1.1,
+          18.1
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8dcdf5bf-2ccc-4913-82bf-92c01dbaa4d8",
+      "pass": true,
+      "actual": {
+        "uuid": "8dcdf5bf-2ccc-4913-82bf-92c01dbaa4d8",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "at": [
+          2.5,
+          18.1
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "952e6257-d97f-4288-b911-291585b6e823",
+      "pass": true,
+      "actual": {
+        "uuid": "952e6257-d97f-4288-b911-291585b6e823",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "at": [
+          1.1,
+          19.5
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "eae57a0d-c900-44d2-9f54-0c6437dff72b",
+      "pass": true,
+      "actual": {
+        "uuid": "eae57a0d-c900-44d2-9f54-0c6437dff72b",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_INPUT_POS",
+        "locked": true,
+        "at": [
+          2.5,
+          19.5
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "d9bafd21-7416-48ef-92bc-93befb6ff665",
+      "pass": true,
+      "actual": {
+        "uuid": "d9bafd21-7416-48ef-92bc-93befb6ff665",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          8.7,
+          16.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "5cbe00aa-b98e-4c19-ba3b-7f58b2b59f4a",
+      "pass": true,
+      "actual": {
+        "uuid": "5cbe00aa-b98e-4c19-ba3b-7f58b2b59f4a",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          9.9,
+          16.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "a84ab382-2c03-4f68-958b-26cab12c9e54",
+      "pass": true,
+      "actual": {
+        "uuid": "a84ab382-2c03-4f68-958b-26cab12c9e54",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          8.7,
+          17.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "28507f69-b4a6-49d5-b0ee-4911e4bdee33",
+      "pass": true,
+      "actual": {
+        "uuid": "28507f69-b4a6-49d5-b0ee-4911e4bdee33",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          9.9,
+          17.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "3b78839d-c784-4dfa-8bed-fd53df1fb481",
+      "pass": true,
+      "actual": {
+        "uuid": "3b78839d-c784-4dfa-8bed-fd53df1fb481",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          45.4,
+          3.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "fca7868d-8b7f-48fc-85a3-84bbce56d740",
+      "pass": true,
+      "actual": {
+        "uuid": "fca7868d-8b7f-48fc-85a3-84bbce56d740",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          46.8,
+          3.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "d1f9c9fd-5689-4841-85f0-513f5af226cb",
+      "pass": true,
+      "actual": {
+        "uuid": "d1f9c9fd-5689-4841-85f0-513f5af226cb",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          45.4,
+          5.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "14eee7d9-8bcb-492d-b979-a049e040dbed",
+      "pass": true,
+      "actual": {
+        "uuid": "14eee7d9-8bcb-492d-b979-a049e040dbed",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          46.8,
+          5.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "fec47102-7967-4619-bdf8-7b32d6244a57",
+      "pass": true,
+      "actual": {
+        "uuid": "fec47102-7967-4619-bdf8-7b32d6244a57",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          46.8,
+          12.5
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "de42a68d-31ee-453d-bdc3-98538d842d43",
+      "pass": true,
+      "actual": {
+        "uuid": "de42a68d-31ee-453d-bdc3-98538d842d43",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": true,
+        "at": [
+          48.2,
+          12.5
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "1332e02c-0493-4646-88a8-300ea5972061",
+      "pass": true,
+      "actual": {
+        "uuid": "1332e02c-0493-4646-88a8-300ea5972061",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          51.5,
+          3.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "47528525-e0ee-410b-be3e-a93c4b61720f",
+      "pass": true,
+      "actual": {
+        "uuid": "47528525-e0ee-410b-be3e-a93c4b61720f",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          52.9,
+          3.8
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "85d5a9ad-6235-4ab5-b06a-5a233f42e621",
+      "pass": true,
+      "actual": {
+        "uuid": "85d5a9ad-6235-4ab5-b06a-5a233f42e621",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          51.5,
+          5.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "ffe5dd27-3ead-4ce9-875b-6bffe897fab5",
+      "pass": true,
+      "actual": {
+        "uuid": "ffe5dd27-3ead-4ce9-875b-6bffe897fab5",
+        "class": "PCB_VIA",
+        "net": "VBUS",
+        "locked": true,
+        "at": [
+          52.9,
+          5.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "cd98abc4-4a58-4619-b336-2c5f542568a5",
+      "pass": true,
+      "actual": {
+        "uuid": "cd98abc4-4a58-4619-b336-2c5f542568a5",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "at": [
+          30.6,
+          56.9
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8fd1d9f4-a6c4-4a1a-b6d8-a1ff20ff5418",
+      "pass": true,
+      "actual": {
+        "uuid": "8fd1d9f4-a6c4-4a1a-b6d8-a1ff20ff5418",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "at": [
+          29.0,
+          56.9
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "3fb38113-63d8-4d64-89cb-f48be2f07bdf",
+      "pass": true,
+      "actual": {
+        "uuid": "3fb38113-63d8-4d64-89cb-f48be2f07bdf",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "at": [
+          27.2,
+          55.3
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "564f91d0-ead6-478f-8251-b4fd4cd5f157",
+      "pass": true,
+      "actual": {
+        "uuid": "564f91d0-ead6-478f-8251-b4fd4cd5f157",
+        "class": "PCB_VIA",
+        "net": "/Bus and brake/BR_SW",
+        "locked": true,
+        "at": [
+          26.8,
+          56.7
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "db2c7429-3f4e-49c9-a8e9-34a537381969",
+      "pass": true,
+      "actual": {
+        "uuid": "db2c7429-3f4e-49c9-a8e9-34a537381969",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          34.9,
+          54.2
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "8179ddf2-d89b-4533-b7d9-3fb1d15668c1",
+      "pass": true,
+      "actual": {
+        "uuid": "8179ddf2-d89b-4533-b7d9-3fb1d15668c1",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          34.9,
+          55.6
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "c45f1d78-18fc-4aac-b636-448bb246d715",
+      "pass": true,
+      "actual": {
+        "uuid": "c45f1d78-18fc-4aac-b636-448bb246d715",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          34.9,
+          57.0
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "vias",
+      "uuid": "5b2fb18f-e7ea-4c90-b76c-d0defa9c4811",
+      "pass": true,
+      "actual": {
+        "uuid": "5b2fb18f-e7ea-4c90-b76c-d0defa9c4811",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "locked": true,
+        "at": [
+          34.9,
+          58.4
+        ],
+        "diameter_mm": 0.8,
+        "drill_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "5769c9e0-6787-4913-86f5-7ac72d758a66",
+      "pass": true,
+      "actual": {
+        "uuid": "5769c9e0-6787-4913-86f5-7ac72d758a66",
+        "class": "ZONE",
+        "net": "GND",
+        "locked": false,
+        "name": "COMPACT_POWER / GND reference In1",
+        "layers": [
+          "In1.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                0.5,
+                0.5
+              ],
+              [
+                59.5,
+                0.5
+              ],
+              [
+                59.5,
+                59.5
+              ],
+              [
+                0.5,
+                59.5
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 0,
+        "clearance_mm": 0.2
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "dd7b4995-be47-4ff6-98bb-ffa77a901644",
+      "pass": true,
+      "actual": {
+        "uuid": "dd7b4995-be47-4ff6-98bb-ffa77a901644",
+        "class": "ZONE",
+        "net": "GND",
+        "locked": false,
+        "name": "COMPACT_POWER / GND reference In4",
+        "layers": [
+          "In4.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                0.5,
+                0.5
+              ],
+              [
+                59.5,
+                0.5
+              ],
+              [
+                59.5,
+                59.5
+              ],
+              [
+                0.5,
+                59.5
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 0,
+        "clearance_mm": 0.2
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "debdfac2-4cfa-4ec2-a365-c5c715b7a98f",
+      "pass": true,
+      "actual": {
+        "uuid": "debdfac2-4cfa-4ec2-a365-c5c715b7a98f",
+        "class": "ZONE",
+        "net": "VBUS",
+        "locked": false,
+        "name": "COMPACT_POWER / VBUS inner distribution",
+        "layers": [
+          "In3.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                11.0,
+                6.0
+              ],
+              [
+                50.5,
+                6.0
+              ],
+              [
+                50.5,
+                3.0
+              ],
+              [
+                53.8,
+                3.0
+              ],
+              [
+                53.8,
+                6.0
+              ],
+              [
+                55.8,
+                6.0
+              ],
+              [
+                55.8,
+                58.8
+              ],
+              [
+                34.8,
+                58.8
+              ],
+              [
+                34.8,
+                12.0
+              ],
+              [
+                11.0,
+                12.0
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 5,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "829e5ad6-5d2c-4949-91f9-071875abde24",
+      "pass": true,
+      "actual": {
+        "uuid": "829e5ad6-5d2c-4949-91f9-071875abde24",
+        "class": "ZONE",
+        "net": "VBUS",
+        "locked": false,
+        "name": "COMPACT_POWER / VBUS parallel front spine",
+        "layers": [
+          "F.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                11.0,
+                6.0
+              ],
+              [
+                42.8,
+                6.0
+              ],
+              [
+                42.8,
+                51.4
+              ],
+              [
+                34.8,
+                51.4
+              ],
+              [
+                34.8,
+                12.0
+              ],
+              [
+                11.0,
+                12.0
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 5,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "4da381d0-2100-4396-b5ab-27a530eb8e52",
+      "pass": true,
+      "actual": {
+        "uuid": "4da381d0-2100-4396-b5ab-27a530eb8e52",
+        "class": "ZONE",
+        "net": "U_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / U PHASE back power",
+        "layers": [
+          "B.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                44.0,
+                14.0
+              ],
+              [
+                59.0,
+                14.0
+              ],
+              [
+                59.0,
+                21.0
+              ],
+              [
+                44.0,
+                21.0
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 10,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "ce9e7178-a7fa-459e-8475-c53e7e074021",
+      "pass": true,
+      "actual": {
+        "uuid": "ce9e7178-a7fa-459e-8475-c53e7e074021",
+        "class": "ZONE",
+        "net": "U_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / U PHASE front commutation",
+        "layers": [
+          "F.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                43.1,
+                15.0
+              ],
+              [
+                52.0,
+                15.0
+              ],
+              [
+                52.0,
+                20.9
+              ],
+              [
+                43.1,
+                20.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 10,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "147fc0b3-6112-4344-82ab-b68f60d4f2a0",
+      "pass": true,
+      "actual": {
+        "uuid": "147fc0b3-6112-4344-82ab-b68f60d4f2a0",
+        "class": "ZONE",
+        "net": "",
+        "locked": false,
+        "name": "COMPACT_POWER / U negative Kelvin plane isolation",
+        "layers": [
+          "In1.Cu"
+        ],
+        "keepout": true,
+        "outline": {
+          "outlines": [
+            [
+              [
+                48.3,
+                25.5
+              ],
+              [
+                49.7,
+                25.5
+              ],
+              [
+                49.7,
+                26.9
+              ],
+              [
+                48.3,
+                26.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 20,
+        "clearance_mm": 0.0
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "afa40e25-d5fd-43a0-8c8c-6c07166e3d84",
+      "pass": true,
+      "actual": {
+        "uuid": "afa40e25-d5fd-43a0-8c8c-6c07166e3d84",
+        "class": "ZONE",
+        "net": "",
+        "locked": false,
+        "name": "COMPACT_POWER / U negative Kelvin plane isolation",
+        "layers": [
+          "In4.Cu"
+        ],
+        "keepout": true,
+        "outline": {
+          "outlines": [
+            [
+              [
+                48.3,
+                25.5
+              ],
+              [
+                49.7,
+                25.5
+              ],
+              [
+                49.7,
+                26.9
+              ],
+              [
+                48.3,
+                26.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 20,
+        "clearance_mm": 0.0
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "8f60b539-3876-4777-9845-939e02952db8",
+      "pass": true,
+      "actual": {
+        "uuid": "8f60b539-3876-4777-9845-939e02952db8",
+        "class": "ZONE",
+        "net": "V_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / V PHASE back power",
+        "layers": [
+          "B.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                44.0,
+                29.0
+              ],
+              [
+                59.0,
+                29.0
+              ],
+              [
+                59.0,
+                36.0
+              ],
+              [
+                44.0,
+                36.0
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 10,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "430e2b73-e045-42ad-8232-d1dca492c02e",
+      "pass": true,
+      "actual": {
+        "uuid": "430e2b73-e045-42ad-8232-d1dca492c02e",
+        "class": "ZONE",
+        "net": "V_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / V PHASE front commutation",
+        "layers": [
+          "F.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                43.1,
+                30.0
+              ],
+              [
+                52.0,
+                30.0
+              ],
+              [
+                52.0,
+                35.9
+              ],
+              [
+                43.1,
+                35.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 10,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "c1691d91-4169-48f4-a367-ec24440591cd",
+      "pass": true,
+      "actual": {
+        "uuid": "c1691d91-4169-48f4-a367-ec24440591cd",
+        "class": "ZONE",
+        "net": "",
+        "locked": false,
+        "name": "COMPACT_POWER / V negative Kelvin plane isolation",
+        "layers": [
+          "In1.Cu"
+        ],
+        "keepout": true,
+        "outline": {
+          "outlines": [
+            [
+              [
+                48.3,
+                40.5
+              ],
+              [
+                49.7,
+                40.5
+              ],
+              [
+                49.7,
+                41.9
+              ],
+              [
+                48.3,
+                41.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 20,
+        "clearance_mm": 0.0
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "9101fb6d-20e5-4e2e-9f00-6ad19a802cc3",
+      "pass": true,
+      "actual": {
+        "uuid": "9101fb6d-20e5-4e2e-9f00-6ad19a802cc3",
+        "class": "ZONE",
+        "net": "",
+        "locked": false,
+        "name": "COMPACT_POWER / V negative Kelvin plane isolation",
+        "layers": [
+          "In4.Cu"
+        ],
+        "keepout": true,
+        "outline": {
+          "outlines": [
+            [
+              [
+                48.3,
+                40.5
+              ],
+              [
+                49.7,
+                40.5
+              ],
+              [
+                49.7,
+                41.9
+              ],
+              [
+                48.3,
+                41.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 20,
+        "clearance_mm": 0.0
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "45922089-4c62-44b3-a42a-a157327d9c92",
+      "pass": true,
+      "actual": {
+        "uuid": "45922089-4c62-44b3-a42a-a157327d9c92",
+        "class": "ZONE",
+        "net": "W_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / W PHASE back power",
+        "layers": [
+          "B.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                44.0,
+                44.0
+              ],
+              [
+                59.0,
+                44.0
+              ],
+              [
+                59.0,
+                51.0
+              ],
+              [
+                44.0,
+                51.0
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 10,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "59e3526f-2dac-4b5d-b4a2-4464b4efa143",
+      "pass": true,
+      "actual": {
+        "uuid": "59e3526f-2dac-4b5d-b4a2-4464b4efa143",
+        "class": "ZONE",
+        "net": "W_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / W PHASE front commutation",
+        "layers": [
+          "F.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                43.1,
+                45.0
+              ],
+              [
+                52.0,
+                45.0
+              ],
+              [
+                52.0,
+                50.9
+              ],
+              [
+                43.1,
+                50.9
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 10,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "d22e08f8-d4f0-4e4a-bf2d-9e47555637e6",
+      "pass": true,
+      "actual": {
+        "uuid": "d22e08f8-d4f0-4e4a-bf2d-9e47555637e6",
+        "class": "ZONE",
+        "net": "W_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / W drain-bank local extension",
+        "layers": [
+          "F.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                47.4,
+                50.4
+              ],
+              [
+                49.5,
+                50.4
+              ],
+              [
+                49.5,
+                52.3
+              ],
+              [
+                47.4,
+                52.3
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 11,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "bf67915c-3543-4e92-bb99-cfb09de82bea",
+      "pass": true,
+      "actual": {
+        "uuid": "bf67915c-3543-4e92-bb99-cfb09de82bea",
+        "class": "ZONE",
+        "net": "W_PHASE",
+        "locked": false,
+        "name": "COMPACT_POWER / W drain-bank local extension",
+        "layers": [
+          "B.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                47.4,
+                50.4
+              ],
+              [
+                49.5,
+                50.4
+              ],
+              [
+                49.5,
+                52.3
+              ],
+              [
+                47.4,
+                52.3
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 11,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "12c68423-c7ff-4f57-949d-f6e39e0de1c6",
+      "pass": true,
+      "actual": {
+        "uuid": "12c68423-c7ff-4f57-949d-f6e39e0de1c6",
+        "class": "ZONE",
+        "net": "",
+        "locked": false,
+        "name": "COMPACT_POWER / W negative Kelvin plane isolation",
+        "layers": [
+          "In1.Cu"
+        ],
+        "keepout": true,
+        "outline": {
+          "outlines": [
+            [
+              [
+                48.3,
+                55.4
+              ],
+              [
+                49.7,
+                55.4
+              ],
+              [
+                49.7,
+                56.8
+              ],
+              [
+                48.3,
+                56.8
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 20,
+        "clearance_mm": 0.0
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "ac2172a0-74a5-4b24-803d-7d575adccb3c",
+      "pass": true,
+      "actual": {
+        "uuid": "ac2172a0-74a5-4b24-803d-7d575adccb3c",
+        "class": "ZONE",
+        "net": "",
+        "locked": false,
+        "name": "COMPACT_POWER / W negative Kelvin plane isolation",
+        "layers": [
+          "In4.Cu"
+        ],
+        "keepout": true,
+        "outline": {
+          "outlines": [
+            [
+              [
+                48.3,
+                55.4
+              ],
+              [
+                49.7,
+                55.4
+              ],
+              [
+                49.7,
+                56.8
+              ],
+              [
+                48.3,
+                56.8
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 20,
+        "clearance_mm": 0.0
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "5232db7e-5932-4841-aa7a-be6926fb7c0d",
+      "pass": true,
+      "actual": {
+        "uuid": "5232db7e-5932-4841-aa7a-be6926fb7c0d",
+        "class": "ZONE",
+        "net": "/Bus and brake/DC_FUSED",
+        "locked": false,
+        "name": "COMPACT_POWER / upper rectifier anode via fanout",
+        "layers": [
+          "B.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                45.0,
+                3.4
+              ],
+              [
+                47.3,
+                3.4
+              ],
+              [
+                47.3,
+                7.5
+              ],
+              [
+                45.0,
+                7.5
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 5,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "9d3de7a0-a39f-4b75-8382-d9b0f4129287",
+      "pass": true,
+      "actual": {
+        "uuid": "9d3de7a0-a39f-4b75-8382-d9b0f4129287",
+        "class": "ZONE",
+        "net": "/Bus and brake/BR_SW",
+        "locked": false,
+        "name": "COMPACT_POWER / brake drain front island",
+        "layers": [
+          "F.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                26.3,
+                51.4
+              ],
+              [
+                32.924999,
+                51.4
+              ],
+              [
+                32.924999,
+                57.4
+              ],
+              [
+                26.3,
+                57.4
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 5,
+        "clearance_mm": 0.4
+      }
+    },
+    {
+      "kind": "zones",
+      "uuid": "6a8f59a7-ed38-4677-bec2-459973eaaa48",
+      "pass": true,
+      "actual": {
+        "uuid": "6a8f59a7-ed38-4677-bec2-459973eaaa48",
+        "class": "ZONE",
+        "net": "/Bus and brake/BR_SW",
+        "locked": false,
+        "name": "COMPACT_POWER / brake drain inner access",
+        "layers": [
+          "In2.Cu"
+        ],
+        "keepout": false,
+        "outline": {
+          "outlines": [
+            [
+              [
+                26.3,
+                52.0
+              ],
+              [
+                31.5,
+                52.0
+              ],
+              [
+                31.5,
+                57.4
+              ],
+              [
+                26.3,
+                57.4
+              ]
+            ]
+          ],
+          "holes": [
+            []
+          ]
+        },
+        "priority": 5,
+        "clearance_mm": 0.4
+      }
+    }
+  ],
+  "Kelvin_branches": [
+    {
+      "phase": "U",
+      "polarity": "positive",
+      "net": "U_SOURCE",
+      "members": [
+        "9b232f21-f9ae-4950-bb53-3d64d1c06536",
+        "73f9154a-b98a-4dae-b3a0-d9a6ec01a514",
+        "4671c2c3-7465-4ed8-8f39-b969d4e4d0ca",
+        "3d4dac87-b095-493d-ac3c-c8618536d55e",
+        "9199b7b3-5c4a-4199-b5e7-c4f7817c593c"
+      ],
+      "RS_pad": "RS1-1",
+      "INA_pad": "U10-8",
+      "continuous_to_actual_pads": true
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "members": [
+        "6ce0287d-4868-45a6-a264-b9ec11e3e9a0",
+        "a5c5fcb1-25bb-4491-a558-c926065ba95b",
+        "c3751213-11ee-4d30-ab66-ddf8872cecce",
+        "45474bc6-ccc5-47b1-8602-4af710917b56"
+      ],
+      "RS_pad": "RS1-2",
+      "INA_pad": "U10-1",
+      "continuous_to_actual_pads": true
+    },
+    {
+      "phase": "V",
+      "polarity": "positive",
+      "net": "V_SOURCE",
+      "members": [
+        "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+        "ea2faa6c-7a69-4f36-8554-df3bf7597ece",
+        "190e7bd6-beed-4e7c-b09b-b4c6f7f1fb2f",
+        "c10ff38f-3280-414b-9fc7-8c24fd0ec6f3",
+        "bbed0289-e030-4e82-830b-f7cffb00db66"
+      ],
+      "RS_pad": "RS2-1",
+      "INA_pad": "U11-8",
+      "continuous_to_actual_pads": true
+    },
+    {
+      "phase": "V",
+      "polarity": "negative",
+      "net": "GND",
+      "members": [
+        "1f9c5c03-163b-4bd8-9507-78f416c74508",
+        "c6953fbe-e6e8-42c2-b9ab-22fb8e13c330",
+        "ded0fb26-abb2-464b-9f1b-30256478cadc",
+        "b81c3b9b-0d16-4070-9860-aac1375b8d92"
+      ],
+      "RS_pad": "RS2-2",
+      "INA_pad": "U11-1",
+      "continuous_to_actual_pads": true
+    },
+    {
+      "phase": "W",
+      "polarity": "positive",
+      "net": "W_SOURCE",
+      "members": [
+        "2a1d0999-3634-4de9-b13e-c3464a719d75",
+        "c44c9f9b-6315-4ebe-a0a6-609ec63fd884",
+        "e81b9c9d-5281-4864-b93d-00eb1e08125b",
+        "a3f8e2a9-b242-444e-ad4c-a13d2fe9429d",
+        "7b951941-f5ea-4a35-902a-252a70580579"
+      ],
+      "RS_pad": "RS3-1",
+      "INA_pad": "U12-8",
+      "continuous_to_actual_pads": true
+    },
+    {
+      "phase": "W",
+      "polarity": "negative",
+      "net": "GND",
+      "members": [
+        "beccb488-5550-46bd-8997-bbb0a5facb9b",
+        "a8374a9e-fa98-4735-8783-031be04136f9",
+        "c3ef2dd2-474d-466d-bac3-8ff0c0f74b73"
+      ],
+      "RS_pad": "RS3-2",
+      "INA_pad": "U12-1",
+      "continuous_to_actual_pads": true
+    }
+  ],
+  "same_net_contacts": [
+    {
+      "phase": "U",
+      "polarity": "positive",
+      "net": "U_SOURCE",
+      "layer": "F.Cu",
+      "subject_uuid": "9b232f21-f9ae-4950-bb53-3d64d1c06536",
+      "other": {
+        "uuid": "fa4fa415-d2bb-44b6-b77b-b8214c5c2a02",
+        "class": "PAD",
+        "net": "U_SOURCE",
+        "locked": false,
+        "ref": "RS1",
+        "pin": "1",
+        "at": [
+          51.5,
+          20.5375
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual RS pickup pad",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0540955713485,
+        "bbox_mm": [
+          49.931256,
+          20.887492,
+          50.250008,
+          21.15
+        ],
+        "sample_mm": [
+          50.153348,
+          20.887546
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "positive",
+      "net": "U_SOURCE",
+      "layer": "B.Cu",
+      "subject_uuid": "4671c2c3-7465-4ed8-8f39-b969d4e4d0ca",
+      "other": {
+        "uuid": "14af395b-d290-4aef-be84-57deb3f13373",
+        "class": "PCB_TRACK",
+        "net": "U_SOURCE",
+        "locked": false,
+        "layer": "B.Cu",
+        "a": [
+          49.8,
+          23.85
+        ],
+        "b": [
+          50.4,
+          23.85
+        ],
+        "width_mm": 0.2
+      },
+      "allowed": false,
+      "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.03570904036,
+        "bbox_mm": [
+          49.7,
+          23.75,
+          49.9,
+          23.95
+        ],
+        "sample_mm": [
+          49.9,
+          23.95
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "positive",
+      "net": "U_SOURCE",
+      "layer": "B.Cu",
+      "subject_uuid": "3d4dac87-b095-493d-ac3c-c8618536d55e",
+      "other": {
+        "uuid": "71c25a99-1dcf-4bdd-83e5-2a4123aa55e0",
+        "class": "PAD",
+        "net": "U_SOURCE",
+        "locked": false,
+        "ref": "U10",
+        "pin": "8",
+        "at": [
+          48.8375,
+          24.975
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual INA sense input pad only",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.118722034847,
+        "bbox_mm": [
+          48.737494,
+          24.874994,
+          49.453642,
+          25.225
+        ],
+        "sample_mm": [
+          48.841152,
+          24.875057
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "F.Cu",
+      "subject_uuid": "6ce0287d-4868-45a6-a264-b9ec11e3e9a0",
+      "other": {
+        "uuid": "0114ff0a-bb35-48d9-af57-73fcaebd259b",
+        "class": "PAD",
+        "net": "GND",
+        "locked": false,
+        "ref": "RS1",
+        "pin": "2",
+        "at": [
+          51.5,
+          26.4625
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual RS pickup pad",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0796668812795,
+        "bbox_mm": [
+          49.825,
+          25.912493,
+          50.250007,
+          26.166809
+        ],
+        "sample_mm": [
+          50.15207,
+          25.912512
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "B.Cu",
+      "subject_uuid": "a5c5fcb1-25bb-4491-a558-c926065ba95b",
+      "other": {
+        "uuid": "07206790-bd0d-460e-84bf-41e28a5bfb0a",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": false,
+        "layer": "B.Cu",
+        "a": [
+          49.0,
+          26.2
+        ],
+        "b": [
+          48.4,
+          26.2
+        ],
+        "width_mm": 0.2
+      },
+      "allowed": false,
+      "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.15141808072,
+        "bbox_mm": [
+          48.3,
+          26.1,
+          49.1,
+          26.3
+        ],
+        "sample_mm": [
+          49.004207,
+          26.100079
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "B.Cu",
+      "subject_uuid": "c3751213-11ee-4d30-ab66-ddf8872cecce",
+      "other": {
+        "uuid": "0974a5c6-b54a-4d1b-a8f7-e66090c18bf3",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": false,
+        "layer": "B.Cu",
+        "a": [
+          46.5625,
+          24.975
+        ],
+        "b": [
+          45.9625,
+          24.975
+        ],
+        "width_mm": 0.2
+      },
+      "allowed": false,
+      "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0316662271225,
+        "bbox_mm": [
+          46.462491,
+          24.875,
+          46.6625,
+          25.075
+        ],
+        "sample_mm": [
+          46.564319,
+          24.875011
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "B.Cu",
+      "subject_uuid": "c3751213-11ee-4d30-ab66-ddf8872cecce",
+      "other": {
+        "uuid": "054564e3-c823-4a3d-b526-235395fbbd18",
+        "class": "PAD",
+        "net": "GND",
+        "locked": false,
+        "ref": "U10",
+        "pin": "1",
+        "at": [
+          46.5625,
+          24.975
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual INA sense input pad only",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0839410762625,
+        "bbox_mm": [
+          46.462491,
+          24.874991,
+          46.931107,
+          25.225
+        ],
+        "sample_mm": [
+          46.564799,
+          24.875016
+        ]
+      }
+    },
+    {
+      "phase": "U",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "B.Cu",
+      "subject_uuid": "45474bc6-ccc5-47b1-8602-4af710917b56",
+      "other": {
+        "uuid": "07206790-bd0d-460e-84bf-41e28a5bfb0a",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "locked": false,
+        "layer": "B.Cu",
+        "a": [
+          49.0,
+          26.2
+        ],
+        "b": [
+          48.4,
+          26.2
+        ],
+        "width_mm": 0.2
+      },
+      "allowed": false,
+      "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.074579361068,
+        "bbox_mm": [
+          48.7,
+          26.1,
+          49.1,
+          26.3
+        ],
+        "sample_mm": [
+          49.004207,
+          26.100079
+        ]
+      }
+    },
+    {
+      "phase": "V",
+      "polarity": "positive",
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "subject_uuid": "9fcb71bd-8cb8-4785-bc9c-1af51132f8f2",
+      "other": {
+        "uuid": "884dfbd6-60a4-4ac5-8d3e-d073ad400690",
+        "class": "PAD",
+        "net": "V_SOURCE",
+        "locked": false,
+        "ref": "RS2",
+        "pin": "1",
+        "at": [
+          51.5,
+          35.5375
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual RS pickup pad",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0540955713485,
+        "bbox_mm": [
+          49.931256,
+          35.887492,
+          50.250008,
+          36.15
+        ],
+        "sample_mm": [
+          50.153348,
+          35.887546
+        ]
+      }
+    },
+    {
+      "phase": "V",
+      "polarity": "positive",
+      "net": "V_SOURCE",
+      "layer": "B.Cu",
+      "subject_uuid": "c10ff38f-3280-414b-9fc7-8c24fd0ec6f3",
+      "other": {
+        "uuid": "85ec96c8-9010-498c-9f1d-1c3e5c6036d0",
+        "class": "PAD",
+        "net": "V_SOURCE",
+        "locked": false,
+        "ref": "U11",
+        "pin": "8",
+        "at": [
+          48.8375,
+          39.975
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual INA sense input pad only",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.118722034847,
+        "bbox_mm": [
+          48.737494,
+          39.874994,
+          49.453642,
+          40.225
+        ],
+        "sample_mm": [
+          48.841152,
+          39.875057
+        ]
+      }
+    },
+    {
+      "phase": "V",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "F.Cu",
+      "subject_uuid": "1f9c5c03-163b-4bd8-9507-78f416c74508",
+      "other": {
+        "uuid": "954692c5-6d1c-4c04-a81f-879cc2788b02",
+        "class": "PAD",
+        "net": "GND",
+        "locked": false,
+        "ref": "RS2",
+        "pin": "2",
+        "at": [
+          51.5,
+          41.4625
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual RS pickup pad",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.079666493393,
+        "bbox_mm": [
+          49.825,
+          40.912492,
+          50.250007,
+          41.166808
+        ],
+        "sample_mm": [
+          50.15207,
+          40.912511
+        ]
+      }
+    },
+    {
+      "phase": "V",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "B.Cu",
+      "subject_uuid": "ded0fb26-abb2-464b-9f1b-30256478cadc",
+      "other": {
+        "uuid": "55bc2009-711c-4923-98c5-b84577bd6078",
+        "class": "PAD",
+        "net": "GND",
+        "locked": false,
+        "ref": "U11",
+        "pin": "1",
+        "at": [
+          46.5625,
+          39.975
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual INA sense input pad only",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0839410762625,
+        "bbox_mm": [
+          46.462491,
+          39.874991,
+          46.931107,
+          40.225
+        ],
+        "sample_mm": [
+          46.564799,
+          39.875016
+        ]
+      }
+    },
+    {
+      "phase": "W",
+      "polarity": "positive",
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "subject_uuid": "2a1d0999-3634-4de9-b13e-c3464a719d75",
+      "other": {
+        "uuid": "f584544f-daa9-4e2b-940b-ba603c2d72ad",
+        "class": "PAD",
+        "net": "W_SOURCE",
+        "locked": false,
+        "ref": "RS3",
+        "pin": "1",
+        "at": [
+          51.5,
+          50.5375
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual RS pickup pad",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.048456654527,
+        "bbox_mm": [
+          50.049991,
+          50.887491,
+          50.270865,
+          51.15
+        ],
+        "sample_mm": [
+          50.153119,
+          50.887539
+        ]
+      }
+    },
+    {
+      "phase": "W",
+      "polarity": "positive",
+      "net": "W_SOURCE",
+      "layer": "B.Cu",
+      "subject_uuid": "a3f8e2a9-b242-444e-ad4c-a13d2fe9429d",
+      "other": {
+        "uuid": "a356050f-7676-416a-b97b-f2c77834cdac",
+        "class": "PAD",
+        "net": "W_SOURCE",
+        "locked": false,
+        "ref": "U12",
+        "pin": "8",
+        "at": [
+          50.1375,
+          54.975
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual INA sense input pad only",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.118722034847,
+        "bbox_mm": [
+          50.037494,
+          54.874994,
+          50.753642,
+          55.225
+        ],
+        "sample_mm": [
+          50.141152,
+          54.875057
+        ]
+      }
+    },
+    {
+      "phase": "W",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "F.Cu",
+      "subject_uuid": "beccb488-5550-46bd-8997-bbb0a5facb9b",
+      "other": {
+        "uuid": "da788f75-4808-4257-bef6-2c76608f9038",
+        "class": "PAD",
+        "net": "GND",
+        "locked": false,
+        "ref": "RS3",
+        "pin": "2",
+        "at": [
+          51.5,
+          56.4625
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual RS pickup pad",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0776376094705,
+        "bbox_mm": [
+          49.825,
+          55.912491,
+          50.250008,
+          56.137516
+        ],
+        "sample_mm": [
+          50.152224,
+          55.912514
+        ]
+      }
+    },
+    {
+      "phase": "W",
+      "polarity": "negative",
+      "net": "GND",
+      "layer": "B.Cu",
+      "subject_uuid": "a8374a9e-fa98-4735-8783-031be04136f9",
+      "other": {
+        "uuid": "ae9468c7-f9d4-4bb7-b0bf-73bc2f536fca",
+        "class": "PAD",
+        "net": "GND",
+        "locked": false,
+        "ref": "U12",
+        "pin": "1",
+        "at": [
+          47.8625,
+          54.975
+        ]
+      },
+      "allowed": true,
+      "reason": "Actual INA sense input pad only",
+      "contact": {
+        "empty": false,
+        "area_mm2": 0.0868135617865,
+        "bbox_mm": [
+          47.762493,
+          54.874993,
+          48.257487,
+          55.225
+        ],
+        "sample_mm": [
+          47.866154,
+          54.875056
+        ]
+      }
+    }
+  ],
+  "negative_Kelvin_ground_plane_checks": [
+    {
+      "phase": "U",
+      "negative_via_uuid": "45474bc6-ccc5-47b1-8602-4af710917b56",
+      "layer": "In1.Cu",
+      "filled_GND_zone_uuids": [
+        "5769c9e0-6787-4913-86f5-7ac72d758a66"
+      ],
+      "actual_filled_shape_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "negative_via_uuid": "45474bc6-ccc5-47b1-8602-4af710917b56",
+      "layer": "In4.Cu",
+      "filled_GND_zone_uuids": [
+        "dd7b4995-be47-4ff6-98bb-ffa77a901644"
+      ],
+      "actual_filled_shape_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "negative_via_uuid": "b81c3b9b-0d16-4070-9860-aac1375b8d92",
+      "layer": "In1.Cu",
+      "filled_GND_zone_uuids": [
+        "5769c9e0-6787-4913-86f5-7ac72d758a66"
+      ],
+      "actual_filled_shape_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "negative_via_uuid": "b81c3b9b-0d16-4070-9860-aac1375b8d92",
+      "layer": "In4.Cu",
+      "filled_GND_zone_uuids": [
+        "dd7b4995-be47-4ff6-98bb-ffa77a901644"
+      ],
+      "actual_filled_shape_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "negative_via_uuid": "c3ef2dd2-474d-466d-bac3-8ff0c0f74b73",
+      "layer": "In1.Cu",
+      "filled_GND_zone_uuids": [
+        "5769c9e0-6787-4913-86f5-7ac72d758a66"
+      ],
+      "actual_filled_shape_contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "negative_via_uuid": "c3ef2dd2-474d-466d-bac3-8ff0c0f74b73",
+      "layer": "In4.Cu",
+      "filled_GND_zone_uuids": [
+        "dd7b4995-be47-4ff6-98bb-ffa77a901644"
+      ],
+      "actual_filled_shape_contacts": [],
+      "isolated": true
+    }
+  ],
+  "issues": [
+    {
+      "kind": "Kelvin_same_net_attachment",
+      "contact": {
+        "phase": "U",
+        "polarity": "positive",
+        "net": "U_SOURCE",
+        "layer": "B.Cu",
+        "subject_uuid": "4671c2c3-7465-4ed8-8f39-b969d4e4d0ca",
+        "other": {
+          "uuid": "14af395b-d290-4aef-be84-57deb3f13373",
+          "class": "PCB_TRACK",
+          "net": "U_SOURCE",
+          "locked": false,
+          "layer": "B.Cu",
+          "a": [
+            49.8,
+            23.85
+          ],
+          "b": [
+            50.4,
+            23.85
+          ],
+          "width_mm": 0.2
+        },
+        "allowed": false,
+        "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+        "contact": {
+          "empty": false,
+          "area_mm2": 0.03570904036,
+          "bbox_mm": [
+            49.7,
+            23.75,
+            49.9,
+            23.95
+          ],
+          "sample_mm": [
+            49.9,
+            23.95
+          ]
+        }
+      }
+    },
+    {
+      "kind": "Kelvin_same_net_attachment",
+      "contact": {
+        "phase": "U",
+        "polarity": "negative",
+        "net": "GND",
+        "layer": "B.Cu",
+        "subject_uuid": "a5c5fcb1-25bb-4491-a558-c926065ba95b",
+        "other": {
+          "uuid": "07206790-bd0d-460e-84bf-41e28a5bfb0a",
+          "class": "PCB_TRACK",
+          "net": "GND",
+          "locked": false,
+          "layer": "B.Cu",
+          "a": [
+            49.0,
+            26.2
+          ],
+          "b": [
+            48.4,
+            26.2
+          ],
+          "width_mm": 0.2
+        },
+        "allowed": false,
+        "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+        "contact": {
+          "empty": false,
+          "area_mm2": 0.15141808072,
+          "bbox_mm": [
+            48.3,
+            26.1,
+            49.1,
+            26.3
+          ],
+          "sample_mm": [
+            49.004207,
+            26.100079
+          ]
+        }
+      }
+    },
+    {
+      "kind": "Kelvin_same_net_attachment",
+      "contact": {
+        "phase": "U",
+        "polarity": "negative",
+        "net": "GND",
+        "layer": "B.Cu",
+        "subject_uuid": "c3751213-11ee-4d30-ab66-ddf8872cecce",
+        "other": {
+          "uuid": "0974a5c6-b54a-4d1b-a8f7-e66090c18bf3",
+          "class": "PCB_TRACK",
+          "net": "GND",
+          "locked": false,
+          "layer": "B.Cu",
+          "a": [
+            46.5625,
+            24.975
+          ],
+          "b": [
+            45.9625,
+            24.975
+          ],
+          "width_mm": 0.2
+        },
+        "allowed": false,
+        "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+        "contact": {
+          "empty": false,
+          "area_mm2": 0.0316662271225,
+          "bbox_mm": [
+            46.462491,
+            24.875,
+            46.6625,
+            25.075
+          ],
+          "sample_mm": [
+            46.564319,
+            24.875011
+          ]
+        }
+      }
+    },
+    {
+      "kind": "Kelvin_same_net_attachment",
+      "contact": {
+        "phase": "U",
+        "polarity": "negative",
+        "net": "GND",
+        "layer": "B.Cu",
+        "subject_uuid": "45474bc6-ccc5-47b1-8602-4af710917b56",
+        "other": {
+          "uuid": "07206790-bd0d-460e-84bf-41e28a5bfb0a",
+          "class": "PCB_TRACK",
+          "net": "GND",
+          "locked": false,
+          "layer": "B.Cu",
+          "a": [
+            49.0,
+            26.2
+          ],
+          "b": [
+            48.4,
+            26.2
+          ],
+          "width_mm": 0.2
+        },
+        "allowed": false,
+        "reason": "Unexpected same-net copper attachment to fixed Kelvin branch",
+        "contact": {
+          "empty": false,
+          "area_mm2": 0.074579361068,
+          "bbox_mm": [
+            48.7,
+            26.1,
+            49.1,
+            26.3
+          ],
+          "sample_mm": [
+            49.004207,
+            26.100079
+          ]
+        }
+      }
+    }
+  ],
+  "summary": {
+    "fixed_geometry_issue_count": 0,
+    "allowed_contacts": 12,
+    "suspicious_contacts": 4,
+    "negative_via_plane_checks": 6,
+    "negative_via_plane_contacts": 0
+  },
+  "scope": "UUID/net/geometric dimensions encoded by the power report; no dependence on file/model/metadata hash. Actual saved track/via topology plus fresh in-memory filled-zone copper determines external same-net Kelvin attachments. Native DRC and thermal/switching validation remain separate."
+}

@@ -1,0 +1,15 @@
+{
+  "net": "HSE_OUT",
+  "paths": [],
+  "vias": [
+    {
+      "net": "HSE_OUT",
+      "x": 26.6,
+      "y": 15.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "exact_same_xy_via"
+}

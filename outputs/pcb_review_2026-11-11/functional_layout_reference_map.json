@@ -1,0 +1,846 @@
+{
+  "links": [
+    {
+      "group": "U_bridge",
+      "purpose": "HO to high-side gate resistor input",
+      "from": "U7.7",
+      "to": "R19.1",
+      "XML_net": "/U half bridge/U_HO"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side resistor output to MOS gate",
+      "from": "R19.2",
+      "to": "Q1.4",
+      "XML_net": "/U half bridge/U_GATE_H"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "LO to low-side gate resistor input",
+      "from": "U7.4",
+      "to": "R20.1",
+      "XML_net": "/U half bridge/U_LO"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side resistor output to MOS gate",
+      "from": "R20.2",
+      "to": "Q2.4",
+      "XML_net": "/U half bridge/U_GATE_L"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U7.6",
+      "to": "Q1.1",
+      "XML_net": "U_PHASE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U7.3",
+      "to": "Q2.1",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q2.1",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U7.6",
+      "to": "Q1.2",
+      "XML_net": "U_PHASE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U7.3",
+      "to": "Q2.2",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q2.2",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U7.6",
+      "to": "Q1.3",
+      "XML_net": "U_PHASE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U7.3",
+      "to": "Q2.3",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q2.3",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "COM return to shunt hot terminal",
+      "from": "U7.3",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C25.1",
+      "to": "U7.8",
+      "XML_net": "/U half bridge/U_BOOT"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C25.2",
+      "to": "U7.6",
+      "XML_net": "U_PHASE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C26.1",
+      "to": "U7.8",
+      "XML_net": "/U half bridge/U_BOOT"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C26.2",
+      "to": "U7.6",
+      "XML_net": "U_PHASE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C27.1",
+      "to": "U7.5",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C27.2",
+      "to": "U7.3",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C28.1",
+      "to": "U7.5",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C28.2",
+      "to": "U7.3",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA positive Kelvin takeoff",
+      "from": "U10.8",
+      "to": "RS1.1",
+      "XML_net": "U_SOURCE"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA negative Kelvin takeoff",
+      "from": "U10.1",
+      "to": "RS1.2",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA local decoupling positive",
+      "from": "C37.1",
+      "to": "U10.6",
+      "XML_net": "+3V3_INV"
+    },
+    {
+      "group": "U_bridge",
+      "purpose": "INA local decoupling return",
+      "from": "C37.2",
+      "to": "U10.2",
+      "XML_net": "GND"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "HO to high-side gate resistor input",
+      "from": "U8.7",
+      "to": "R25.1",
+      "XML_net": "/V half bridge/V_HO"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side resistor output to MOS gate",
+      "from": "R25.2",
+      "to": "Q3.4",
+      "XML_net": "/V half bridge/V_GATE_H"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "LO to low-side gate resistor input",
+      "from": "U8.4",
+      "to": "R26.1",
+      "XML_net": "/V half bridge/V_LO"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side resistor output to MOS gate",
+      "from": "R26.2",
+      "to": "Q4.4",
+      "XML_net": "/V half bridge/V_GATE_L"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U8.6",
+      "to": "Q3.1",
+      "XML_net": "V_PHASE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U8.3",
+      "to": "Q4.1",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q4.1",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U8.6",
+      "to": "Q3.2",
+      "XML_net": "V_PHASE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U8.3",
+      "to": "Q4.2",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q4.2",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U8.6",
+      "to": "Q3.3",
+      "XML_net": "V_PHASE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U8.3",
+      "to": "Q4.3",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q4.3",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "COM return to shunt hot terminal",
+      "from": "U8.3",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C29.1",
+      "to": "U8.8",
+      "XML_net": "/V half bridge/V_BOOT"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C29.2",
+      "to": "U8.6",
+      "XML_net": "V_PHASE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C30.1",
+      "to": "U8.8",
+      "XML_net": "/V half bridge/V_BOOT"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C30.2",
+      "to": "U8.6",
+      "XML_net": "V_PHASE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C31.1",
+      "to": "U8.5",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C31.2",
+      "to": "U8.3",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C32.1",
+      "to": "U8.5",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C32.2",
+      "to": "U8.3",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA positive Kelvin takeoff",
+      "from": "U11.8",
+      "to": "RS2.1",
+      "XML_net": "V_SOURCE"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA negative Kelvin takeoff",
+      "from": "U11.1",
+      "to": "RS2.2",
+      "XML_net": "GND"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA local decoupling positive",
+      "from": "C38.1",
+      "to": "U11.6",
+      "XML_net": "+3V3_INV"
+    },
+    {
+      "group": "V_bridge",
+      "purpose": "INA local decoupling return",
+      "from": "C38.2",
+      "to": "U11.2",
+      "XML_net": "GND"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "HO to high-side gate resistor input",
+      "from": "U9.7",
+      "to": "R31.1",
+      "XML_net": "/W half bridge/W_HO"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side resistor output to MOS gate",
+      "from": "R31.2",
+      "to": "Q5.4",
+      "XML_net": "/W half bridge/W_GATE_H"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "LO to low-side gate resistor input",
+      "from": "U9.4",
+      "to": "R32.1",
+      "XML_net": "/W half bridge/W_LO"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side resistor output to MOS gate",
+      "from": "R32.2",
+      "to": "Q6.4",
+      "XML_net": "/W half bridge/W_GATE_L"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U9.6",
+      "to": "Q5.1",
+      "XML_net": "W_PHASE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U9.3",
+      "to": "Q6.1",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q6.1",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U9.6",
+      "to": "Q5.2",
+      "XML_net": "W_PHASE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U9.3",
+      "to": "Q6.2",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q6.2",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "high-side VS return to source toe",
+      "from": "U9.6",
+      "to": "Q5.3",
+      "XML_net": "W_PHASE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side COM return to source toe",
+      "from": "U9.3",
+      "to": "Q6.3",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "low-side power source to shunt hot terminal",
+      "from": "Q6.3",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "COM return to shunt hot terminal",
+      "from": "U9.3",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C33.1",
+      "to": "U9.8",
+      "XML_net": "/W half bridge/W_BOOT"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C33.2",
+      "to": "U9.6",
+      "XML_net": "W_PHASE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap positive to VB",
+      "from": "C34.1",
+      "to": "U9.8",
+      "XML_net": "/W half bridge/W_BOOT"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "bootstrap cap return to VS",
+      "from": "C34.2",
+      "to": "U9.6",
+      "XML_net": "W_PHASE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C35.1",
+      "to": "U9.5",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C35.2",
+      "to": "U9.3",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass positive",
+      "from": "C36.1",
+      "to": "U9.5",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "VCC bypass return to local COM",
+      "from": "C36.2",
+      "to": "U9.3",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA positive Kelvin takeoff",
+      "from": "U12.8",
+      "to": "RS3.1",
+      "XML_net": "W_SOURCE"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA negative Kelvin takeoff",
+      "from": "U12.1",
+      "to": "RS3.2",
+      "XML_net": "GND"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA local decoupling positive",
+      "from": "C39.1",
+      "to": "U12.6",
+      "XML_net": "+3V3_INV"
+    },
+    {
+      "group": "W_bridge",
+      "purpose": "INA local decoupling return",
+      "from": "C39.2",
+      "to": "U12.2",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor to VINP",
+      "from": "C3.1",
+      "to": "U2.4",
+      "XML_net": "AUX_PROTECTED"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor power return",
+      "from": "C3.2",
+      "to": "U2.1",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor to VINP",
+      "from": "C6.1",
+      "to": "U2.4",
+      "XML_net": "AUX_PROTECTED"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor power return",
+      "from": "C6.2",
+      "to": "U2.1",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor to VINP",
+      "from": "C7.1",
+      "to": "U2.4",
+      "XML_net": "AUX_PROTECTED"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "input capacitor power return",
+      "from": "C7.2",
+      "to": "U2.1",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "switch node L1 to inductor end",
+      "from": "U2.2",
+      "to": "L1.1",
+      "XML_net": "/Driver supply/BB_L1"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "switch node L2 to inductor end",
+      "from": "U2.20",
+      "to": "L1.2",
+      "XML_net": "/Driver supply/BB_L2"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor positive",
+      "from": "C4.1",
+      "to": "U2.3",
+      "XML_net": "/Driver supply/BB_BST1"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor switch return",
+      "from": "C4.2",
+      "to": "U2.2",
+      "XML_net": "/Driver supply/BB_L1"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor positive",
+      "from": "C5.1",
+      "to": "U2.19",
+      "XML_net": "/Driver supply/BB_BST2"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "bootstrap capacitor switch return",
+      "from": "C5.2",
+      "to": "U2.20",
+      "XML_net": "/Driver supply/BB_L2"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor positive to VOUT",
+      "from": "C8.1",
+      "to": "U2.17",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor power return",
+      "from": "C8.2",
+      "to": "U2.21",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "quiet output sense to output capacitor",
+      "from": "U2.16",
+      "to": "C8.1",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor positive to VOUT",
+      "from": "C9.1",
+      "to": "U2.17",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "output capacitor power return",
+      "from": "C9.2",
+      "to": "U2.21",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "quiet output sense to output capacitor",
+      "from": "U2.16",
+      "to": "C9.1",
+      "XML_net": "+12V_DRV"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "internal VREG local bypass",
+      "from": "C10.1",
+      "to": "U2.12",
+      "XML_net": "/Driver supply/BB_VREG"
+    },
+    {
+      "group": "U2_L1_12V",
+      "purpose": "internal VREG bypass ground",
+      "from": "C10.2",
+      "to": "U2.13",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "input capacitor to VIN",
+      "from": "C11.1",
+      "to": "U3.3",
+      "XML_net": "AUX_PROTECTED"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "input capacitor to local GND",
+      "from": "C11.2",
+      "to": "U3.4",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "switch node to inductor input",
+      "from": "U3.5",
+      "to": "L2.1",
+      "XML_net": "/Logic and sensors/BUCK_SW"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "bootstrap positive to BST",
+      "from": "C12.1",
+      "to": "U3.6",
+      "XML_net": "/Logic and sensors/BUCK_BST"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "bootstrap return to SW",
+      "from": "C12.2",
+      "to": "U3.5",
+      "XML_net": "/Logic and sensors/BUCK_SW"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "inductor output to output capacitor",
+      "from": "L2.2",
+      "to": "C13.1",
+      "XML_net": "+5V_INV"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "output capacitor return to local GND",
+      "from": "C13.2",
+      "to": "U3.4",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "quiet FB sense to output capacitor",
+      "from": "U3.1",
+      "to": "C13.1",
+      "XML_net": "+5V_INV"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "inductor output to output capacitor",
+      "from": "L2.2",
+      "to": "C14.1",
+      "XML_net": "+5V_INV"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "output capacitor return to local GND",
+      "from": "C14.2",
+      "to": "U3.4",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "quiet FB sense to output capacitor",
+      "from": "U3.1",
+      "to": "C14.1",
+      "XML_net": "+5V_INV"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "inductor output to output capacitor",
+      "from": "L2.2",
+      "to": "C15.1",
+      "XML_net": "+5V_INV"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "output capacitor return to local GND",
+      "from": "C15.2",
+      "to": "U3.4",
+      "XML_net": "GND"
+    },
+    {
+      "group": "U3_L2_5V",
+      "purpose": "quiet FB sense to output capacitor",
+      "from": "U3.1",
+      "to": "C15.1",
+      "XML_net": "+5V_INV"
+    }
+  ],
+  "component_values": {
+    "C3": "10u",
+    "C4": "100n",
+    "C5": "100n",
+    "C6": "10u",
+    "C7": "470n",
+    "C8": "22u",
+    "C9": "100n",
+    "C10": "4.7u",
+    "L1": "4.7uH",
+    "U2": "TPS55165QPWPRQ1",
+    "C11": "10u",
+    "C12": "100n",
+    "C13": "22u",
+    "C14": "22u",
+    "C15": "1u",
+    "L2": "4.7uH",
+    "U3": "AP63205WU-7",
+    "C25": "2.2u",
+    "C26": "100n",
+    "C27": "4.7u",
+    "C28": "100n",
+    "Q1": "BSC110N15NS5",
+    "Q2": "BSC110N15NS5",
+    "R19": "15",
+    "R20": "15",
+    "RS1": "5m / 3W / 1%",
+    "U7": "2ED2182S06FXUMA1",
+    "C29": "2.2u",
+    "C30": "100n",
+    "C31": "4.7u",
+    "C32": "100n",
+    "Q3": "BSC110N15NS5",
+    "Q4": "BSC110N15NS5",
+    "R25": "15",
+    "R26": "15",
+    "RS2": "5m / 3W / 1%",
+    "U8": "2ED2182S06FXUMA1",
+    "C33": "2.2u",
+    "C34": "100n",
+    "C35": "4.7u",
+    "C36": "100n",
+    "Q5": "BSC110N15NS5",
+    "Q6": "BSC110N15NS5",
+    "R31": "15",
+    "R32": "15",
+    "RS3": "5m / 3W / 1%",
+    "U9": "2ED2182S06FXUMA1",
+    "C37": "100n",
+    "C38": "100n",
+    "C39": "100n",
+    "U10": "INA241A1IDDFR",
+    "U11": "INA241A1IDDFR",
+    "U12": "INA241A1IDDFR"
+  },
+  "scope": "Net-verified circuit relationships only; no common distance pass/fail threshold.",
+  "source_XML_sha256": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b",
+  "stage": "Reference mapping prepared; saved-board pad measurements await stable owner handoff."
+}

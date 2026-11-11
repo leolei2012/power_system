@@ -1,0 +1,276 @@
+{
+  "source_sha": "c2cbb25a94baa2cfbd80300596389d268d348dbab4714e49f0497f220d698f2b",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "AUX_PROTECTED",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          25.962266666666668,
+          43.46273333333333
+        ],
+        [
+          26.0,
+          43.6
+        ],
+        [
+          26.3,
+          43.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "AUX_PROTECTED",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          26.3,
+          43.9
+        ],
+        [
+          26.416016666666664,
+          44.0249
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+5V_INV",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          22.075,
+          53.0
+        ],
+        [
+          22.0,
+          53.1
+        ],
+        [
+          21.5,
+          53.6
+        ],
+        [
+          21.5,
+          55.3
+        ],
+        [
+          21.4,
+          55.4
+        ],
+        [
+          21.4,
+          55.5
+        ],
+        [
+          21.2,
+          55.7
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+5V_INV",
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          21.2,
+          55.7
+        ],
+        [
+          17.9,
+          52.4
+        ],
+        [
+          17.9,
+          51.0
+        ],
+        [
+          17.8,
+          50.9
+        ],
+        [
+          17.8,
+          50.8
+        ],
+        [
+          17.4,
+          50.4
+        ],
+        [
+          14.6,
+          50.4
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+5V_INV",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          14.6,
+          50.4
+        ],
+        [
+          14.6,
+          49.8
+        ],
+        [
+          14.5,
+          49.7
+        ],
+        [
+          14.5,
+          49.5
+        ],
+        [
+          14.4,
+          49.4
+        ],
+        [
+          14.4,
+          49.175
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "AUX_PROTECTED",
+      "x": 26.3,
+      "y": 43.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "+5V_INV",
+      "x": 21.2,
+      "y": 55.7,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "+5V_INV",
+      "x": 14.6,
+      "y": 50.4,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_rails.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "AUX_PROTECTED",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.1,
+        "expanded": 1872,
+        "seconds": 11.359,
+        "start_candidates": 197,
+        "goal_candidates": 361
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_rails.work\\drc_001.json"
+    },
+    {
+      "net": "+5V_INV",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.1,
+        "expanded": 13483,
+        "seconds": 10.734,
+        "start_candidates": 12,
+        "goal_candidates": 376
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_rails.work\\drc_005.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "items": [
+        "84da49e5-be2c-4f75-a301-91d41fee5d38",
+        "9cd1b99d-2dfd-46a2-aabe-b1869539c3bf"
+      ],
+      "reason": "No path within conservative grid/node/time budget (35 nodes)"
+    },
+    {
+      "items": [
+        "84da49e5-be2c-4f75-a301-91d41fee5d38",
+        "8aee7978-0e5f-4459-b52d-cdd18884e944"
+      ],
+      "reason": "No path within conservative grid/node/time budget (33 nodes)"
+    },
+    {
+      "items": [
+        "517c72b6-c693-44b0-b70d-44a23590c403",
+        "cd8305f5-1771-49b7-b668-94d1417a136a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (620 nodes)"
+    },
+    {
+      "items": [
+        "84da49e5-be2c-4f75-a301-91d41fee5d38",
+        "9cd1b99d-2dfd-46a2-aabe-b1869539c3bf"
+      ],
+      "reason": "No path within conservative grid/node/time budget (35 nodes)"
+    },
+    {
+      "items": [
+        "84da49e5-be2c-4f75-a301-91d41fee5d38",
+        "8aee7978-0e5f-4459-b52d-cdd18884e944"
+      ],
+      "reason": "No path within conservative grid/node/time budget (33 nodes)"
+    },
+    {
+      "items": [
+        "0199cdec-4560-49b5-93b2-5ee74b8c8e60",
+        "741b2ef9-0821-41f9-aff0-a2d848fbd2ac"
+      ],
+      "reason": "No path within conservative grid/node/time budget (620 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 49,
+    "resolved_source_drc_endpoint_uuids": 49,
+    "source_drc_sha": "2cefffeae9d463df72756a6ce310283f6c69a96f9fd9b191af97ec529fb690af",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_power.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_rails.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 209,
+    "after_unconnected": 207,
+    "before_drc_listed_unconnected": 209,
+    "after_drc_listed_unconnected": 207,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_rails.work\\drc_005.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

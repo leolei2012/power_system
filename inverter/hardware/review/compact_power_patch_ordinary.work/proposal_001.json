@@ -1,0 +1,70 @@
+{
+  "net": "/Auxiliary input/AUX_UV_DIV",
+  "paths": [
+    {
+      "net": "/Auxiliary input/AUX_UV_DIV",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          13.5,
+          49.075
+        ],
+        [
+          13.5,
+          49.0
+        ],
+        [
+          14.3,
+          48.2
+        ],
+        [
+          14.3,
+          47.9
+        ],
+        [
+          14.4,
+          47.8
+        ],
+        [
+          14.4,
+          46.3
+        ],
+        [
+          14.5,
+          46.2
+        ],
+        [
+          14.6,
+          46.2
+        ],
+        [
+          14.7,
+          46.1
+        ],
+        [
+          15.1,
+          46.1
+        ],
+        [
+          15.2,
+          46.0
+        ],
+        [
+          15.5375,
+          46.025
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 215,
+    "seconds": 2.141,
+    "start_candidates": 96,
+    "goal_candidates": 12
+  }
+}

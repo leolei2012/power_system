@@ -1,0 +1,1215 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-06T11:20:21",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "inverter_wide_feed_proof.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [+3V3_INV] (F.Cu), 长度: 0.4790 mm",
+                    "pos": {
+                        "x": 167.146,
+                        "y": 76.0627
+                    },
+                    "uuid": "01a14c63-fff7-4353-894b-e080dd55d604"
+                },
+                {
+                    "description": "走线 [+3V3_INV] (In2.Cu), 长度: 1.9136 mm",
+                    "pos": {
+                        "x": 168.3103,
+                        "y": 76.1269
+                    },
+                    "uuid": "55be6b72-7e17-48ab-9976-5c0569cdc243"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [V_HIN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 130.5487,
+                        "y": 49.9351
+                    },
+                    "uuid": "3caa4de0-8633-4ca2-abed-ab352a6faa6d"
+                },
+                {
+                    "description": "F.Cu 上 U25 的焊盘 11 [V_HIN]",
+                    "pos": {
+                        "x": 90.8625,
+                        "y": 89.0
+                    },
+                    "uuid": "2f6cfa09-765c-4527-ba10-e7020567ea9b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 61 [BOOT0]",
+                    "pos": {
+                        "x": 69.25,
+                        "y": 53.675
+                    },
+                    "uuid": "2f49b3b8-d27c-4d41-81f5-bfac2108c5aa"
+                },
+                {
+                    "description": "走线 [BOOT0] (F.Cu), 长度: 1.5027 mm",
+                    "pos": {
+                        "x": 68.0,
+                        "y": 57.825
+                    },
+                    "uuid": "cf42f5e5-731c-4dc6-a5d4-69bff602e338"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [+5V_INV] (F.Cu), 长度: 4.3912 mm",
+                    "pos": {
+                        "x": 84.7574,
+                        "y": 129.755
+                    },
+                    "uuid": "ab4869eb-5b22-4600-994c-36d8b9a96b3a"
+                },
+                {
+                    "description": "走线 [+5V_INV] (F.Cu), 长度: 2.1380 mm",
+                    "pos": {
+                        "x": 87.8625,
+                        "y": 124.75
+                    },
+                    "uuid": "9587c97b-6cbe-404f-af74-9f3f888b4c47"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [PWM_VH_IN] (F.Cu), 长度: 1.0636 mm",
+                    "pos": {
+                        "x": 55.175,
+                        "y": 48.5
+                    },
+                    "uuid": "35bde7ba-5677-4d40-acc9-eb7393442b6c"
+                },
+                {
+                    "description": "走线 [PWM_VH_IN] (F.Cu), 长度: 0.6359 mm",
+                    "pos": {
+                        "x": 91.4984,
+                        "y": 88.35
+                    },
+                    "uuid": "a9977ae9-d310-4b7a-8e23-9145f24345cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U24 的焊盘 5 [AUX_FLT_N]",
+                    "pos": {
+                        "x": 73.1375,
+                        "y": 77.65
+                    },
+                    "uuid": "64b12359-7283-44c8-8501-d1949693a2c7"
+                },
+                {
+                    "description": "走线 [AUX_FLT_N] (In2.Cu), 长度: 2.8284 mm",
+                    "pos": {
+                        "x": 33.0,
+                        "y": 117.525
+                    },
+                    "uuid": "e81b0bf1-656b-4233-a986-d98fe5dc1ae3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 156.117,
+                        "y": 50.9682
+                    },
+                    "uuid": "4d5e0433-8108-45c6-995d-d475c39e7cc4"
+                },
+                {
+                    "description": "走线 [W_HIN] (In2.Cu), 长度: 21.4870 mm",
+                    "pos": {
+                        "x": 124.026,
+                        "y": 81.3195
+                    },
+                    "uuid": "8443238f-7de3-4f16-a873-1ebda6740564"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U9 的焊盘 1 [W_HIN]",
+                    "pos": {
+                        "x": 160.925,
+                        "y": 49.595
+                    },
+                    "uuid": "d95388cc-36ac-4d80-bc1a-33cd0ec73012"
+                },
+                {
+                    "description": "走线 [W_HIN] (F.Cu), 长度: 1.4962 mm",
+                    "pos": {
+                        "x": 157.175,
+                        "y": 49.6
+                    },
+                    "uuid": "84ffeaaf-a678-474b-938b-0752122dd8e4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [OC_U_HIGH_OK] (In2.Cu), 长度: 14.7191 mm",
+                    "pos": {
+                        "x": 92.3842,
+                        "y": 66.6748
+                    },
+                    "uuid": "5c7e98fb-4354-4f95-93b5-a7931231304c"
+                },
+                {
+                    "description": "过孔 [OC_U_HIGH_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 117.1288,
+                        "y": 73.4639
+                    },
+                    "uuid": "7478ddb3-afa3-4ab5-8aa3-ff6ef0f74b14"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [OC_U_HIGH_OK] (F.Cu), 长度: 1.5045 mm",
+                    "pos": {
+                        "x": 124.45,
+                        "y": 78.5875
+                    },
+                    "uuid": "ed01e91b-2cf8-4df5-9922-afd10a143c6b"
+                },
+                {
+                    "description": "过孔 [OC_U_HIGH_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 117.1288,
+                        "y": 73.4639
+                    },
+                    "uuid": "7478ddb3-afa3-4ab5-8aa3-ff6ef0f74b14"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [OC_U_LOW_OK] (In2.Cu), 长度: 0.3543 mm",
+                    "pos": {
+                        "x": 125.677,
+                        "y": 77.4347
+                    },
+                    "uuid": "f1e7c72c-7ec8-4d5a-9338-edf7ceffc7ea"
+                },
+                {
+                    "description": "走线 [OC_U_LOW_OK] (In2.Cu), 长度: 1.2936 mm",
+                    "pos": {
+                        "x": 119.4348,
+                        "y": 76.633
+                    },
+                    "uuid": "7aaef716-52e2-4d22-9b71-eef2eee0f997"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [OC_V_HIGH_OK] (In2.Cu), 长度: 14.9690 mm",
+                    "pos": {
+                        "x": 97.3921,
+                        "y": 78.0365
+                    },
+                    "uuid": "d04dca71-38b1-49ec-93e0-8d243b776cf9"
+                },
+                {
+                    "description": "走线 [OC_V_HIGH_OK] (In2.Cu), 长度: 18.1428 mm",
+                    "pos": {
+                        "x": 97.3092,
+                        "y": 69.8492
+                    },
+                    "uuid": "b397f682-967e-49e4-979a-bfb8ccd67b60"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 0.5576 mm",
+                    "pos": {
+                        "x": 125.232,
+                        "y": 76.833
+                    },
+                    "uuid": "5b5fc713-6756-4076-a1c2-bc473f1e6199"
+                },
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 8.0014 mm",
+                    "pos": {
+                        "x": 121.546,
+                        "y": 76.4385
+                    },
+                    "uuid": "bbd260fb-afed-4040-8849-75dfa1ce8c00"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 0.5576 mm",
+                    "pos": {
+                        "x": 125.232,
+                        "y": 76.833
+                    },
+                    "uuid": "5b5fc713-6756-4076-a1c2-bc473f1e6199"
+                },
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 1.4916 mm",
+                    "pos": {
+                        "x": 168.888,
+                        "y": 77.8875
+                    },
+                    "uuid": "45d3fc33-270e-48b5-8e5c-b0cd380cce3e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [+3V3_INV] (F.Cu), 长度: 0.4790 mm",
+                    "pos": {
+                        "x": 167.146,
+                        "y": 76.0627
+                    },
+                    "uuid": "01a14c63-fff7-4353-894b-e080dd55d604"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [+3V3_INV] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 168.3103,
+                        "y": 76.1269
+                    },
+                    "uuid": "86651c93-8fb8-42ac-aaa1-45839a59f929"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [V_HIN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 130.5487,
+                        "y": 49.9351
+                    },
+                    "uuid": "3caa4de0-8633-4ca2-abed-ab352a6faa6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/W half bridge/W_HO] (F.Cu), 长度: 0.2135 mm",
+                    "pos": {
+                        "x": 164.575,
+                        "y": 48.6765
+                    },
+                    "uuid": "158d4764-11f5-470b-8398-a08500389467"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/W half bridge/W_HO] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 164.526,
+                        "y": 41.8316
+                    },
+                    "uuid": "4a6f2332-9c3b-4ab8-a2b0-95ca66d203da"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [+5V_INV] (F.Cu), 长度: 1.5391 mm",
+                    "pos": {
+                        "x": 87.8625,
+                        "y": 122.612
+                    },
+                    "uuid": "0a72b7fe-8a2a-4bf7-be8f-f27e59ea1717"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [+5V_INV] (F.Cu), 长度: 1.1727 mm",
+                    "pos": {
+                        "x": 81.0416,
+                        "y": 121.524
+                    },
+                    "uuid": "a9185f03-f5f6-417e-9b43-f5151a74b05b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/Auxiliary input/EFUSE_RTN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 32.2327,
+                        "y": 121.575
+                    },
+                    "uuid": "2e0c3c23-ea33-4c5d-a196-9fd140de1def"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [PWM_VH_IN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 55.9271,
+                        "y": 49.2521
+                    },
+                    "uuid": "f2e4cf55-3db2-406a-9091-9f3ad376a740"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 156.117,
+                        "y": 50.9682
+                    },
+                    "uuid": "4d5e0433-8108-45c6-995d-d475c39e7cc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [W_HIN] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 145.513,
+                        "y": 81.3195
+                    },
+                    "uuid": "dadd5a2c-5dd9-475d-b567-bb0186a61c43"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [OC_U_HIGH_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 124.45,
+                        "y": 77.083
+                    },
+                    "uuid": "5a817230-9442-49c8-8c27-ef7e9bdb5c7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [OC_U_HIGH_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 117.1288,
+                        "y": 73.4639
+                    },
+                    "uuid": "7478ddb3-afa3-4ab5-8aa3-ff6ef0f74b14"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_U_HIGH_OK] (In2.Cu), 长度: 14.7191 mm",
+                    "pos": {
+                        "x": 92.3842,
+                        "y": 66.6748
+                    },
+                    "uuid": "5c7e98fb-4354-4f95-93b5-a7931231304c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [OC_U_LOW_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 120.3495,
+                        "y": 77.5477
+                    },
+                    "uuid": "d21fc6ef-d964-45d2-969c-b7d8b34c2adc"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [OC_V_HIGH_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 97.282,
+                        "y": 69.822
+                    },
+                    "uuid": "69d20612-0fe5-4fd0-ad6b-d6b5f35873a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [OC_V_HIGH_OK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 150.039,
+                        "y": 77.8735
+                    },
+                    "uuid": "6be6ba92-4200-440d-b6dd-4ba46457e9c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_V_HIGH_OK] (In2.Cu), 长度: 14.9690 mm",
+                    "pos": {
+                        "x": 97.3921,
+                        "y": 78.0365
+                    },
+                    "uuid": "d04dca71-38b1-49ec-93e0-8d243b776cf9"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [I_V] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 151.496,
+                        "y": 71.0302
+                    },
+                    "uuid": "13c25847-18ea-4bf2-9f30-aef8947277f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [ADC_TEMP_NTC] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 72.5101,
+                        "y": 33.6142
+                    },
+                    "uuid": "cd35b6bf-13a5-4876-a0b6-c39931207b3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 1.4916 mm",
+                    "pos": {
+                        "x": 168.888,
+                        "y": 77.8875
+                    },
+                    "uuid": "45d3fc33-270e-48b5-8e5c-b0cd380cce3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 0.5576 mm",
+                    "pos": {
+                        "x": 125.232,
+                        "y": 76.833
+                    },
+                    "uuid": "5b5fc713-6756-4076-a1c2-bc473f1e6199"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [OC_W_HIGH_OK] (In2.Cu), 长度: 8.0014 mm",
+                    "pos": {
+                        "x": 121.546,
+                        "y": 76.4385
+                    },
+                    "uuid": "bbd260fb-afed-4040-8849-75dfa1ce8c00"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U17",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 81.0
+                    },
+                    "uuid": "203f5e45-86d5-42e6-8e06-6bae7d497964"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U13",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 96.0
+                    },
+                    "uuid": "2138a60f-71ab-4416-9510-a640c2757db2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U14",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 101.0
+                    },
+                    "uuid": "34cc6304-c304-4f38-ba23-1e0de8947b98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U26",
+                    "pos": {
+                        "x": 76.0,
+                        "y": 89.0
+                    },
+                    "uuid": "432eab53-97f0-4793-92fb-cf0b53399a8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U18",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 80.0
+                    },
+                    "uuid": "441aa19d-a8a5-4504-a122-0506328dd2b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U29",
+                    "pos": {
+                        "x": 159.5,
+                        "y": 87.46
+                    },
+                    "uuid": "458c5e39-0c5d-4089-a5fc-b4ea497f3dff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U19",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 80.0
+                    },
+                    "uuid": "47fd2b78-3198-4eda-85bb-7654c6c8fff6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U10",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 71.0
+                    },
+                    "uuid": "4b7ddf02-f14a-4b9c-b514-950fa64d02f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U16",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 61.0
+                    },
+                    "uuid": "519ce754-a851-4ecf-bf92-ecc06aa6d6aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 C22",
+                    "pos": {
+                        "x": 159.5,
+                        "y": 67.5
+                    },
+                    "uuid": "59ce0ad7-39e6-4c06-bd4a-b2865e0512dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 C19",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 29.0
+                    },
+                    "uuid": "5fd1f4f7-dd97-468b-a98e-284fcb18e57d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U2",
+                    "pos": {
+                        "x": 55.5,
+                        "y": 119.0
+                    },
+                    "uuid": "649993b7-7724-4aa0-9705-cbbd8e986158"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 111.0
+                    },
+                    "uuid": "667f70e1-6c34-4801-90a2-2f95c1c3eed2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U11",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 71.0
+                    },
+                    "uuid": "7083ff17-df47-4558-b98d-9ac36c7a6989"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U15",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 41.0
+                    },
+                    "uuid": "794c20c5-b43d-455f-8118-56900e7cddbf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U1",
+                    "pos": {
+                        "x": 29.0,
+                        "y": 118.5
+                    },
+                    "uuid": "79ad28a5-567f-47b4-a7a9-14e3246b7dc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U24",
+                    "pos": {
+                        "x": 76.0,
+                        "y": 77.0
+                    },
+                    "uuid": "7b8f1491-edab-4d0b-80ba-d46bdd048064"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U4",
+                    "pos": {
+                        "x": 80.5,
+                        "y": 123.5
+                    },
+                    "uuid": "7ee4855c-553a-4dc7-b8f7-d79cddc37497"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U21",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 97.0
+                    },
+                    "uuid": "81b0a4b8-b15a-4797-8162-67b2ea2ad200"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 C21",
+                    "pos": {
+                        "x": 135.5,
+                        "y": 67.5
+                    },
+                    "uuid": "8a05cc6f-1267-4b61-8e98-ed92d172237f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U20",
+                    "pos": {
+                        "x": 171.0,
+                        "y": 80.0
+                    },
+                    "uuid": "8bf618e2-314d-41aa-ac50-872934e76ef8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 C20",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 29.0
+                    },
+                    "uuid": "92183955-0a56-4357-b1da-3347ccfb25c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U5",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 125.7
+                    },
+                    "uuid": "a1a904c1-9dce-4920-911d-33d03df7d19c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U27",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 77.0
+                    },
+                    "uuid": "a4a362ae-a079-4018-8b33-3d5e57eaad07"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U12",
+                    "pos": {
+                        "x": 174.0,
+                        "y": 71.0
+                    },
+                    "uuid": "a80a8c73-1770-417f-ad55-e866ef4a735d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U28",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 80.0
+                    },
+                    "uuid": "b02f4629-6173-478b-a8ff-5b736ef40675"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U6",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 60.0
+                    },
+                    "uuid": "b635b041-262c-4fd1-a191-734a03b72b8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U23",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 77.0
+                    },
+                    "uuid": "b8d9595b-471f-4eb7-b66f-ebf3059eb38a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U22",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 67.0
+                    },
+                    "uuid": "cfca1942-a850-4de9-8ca8-307461c76973"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U8",
+                    "pos": {
+                        "x": 139.4,
+                        "y": 51.5
+                    },
+                    "uuid": "d4e6a107-a65e-4eb1-8548-6f2fc855556f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U25",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 89.0
+                    },
+                    "uuid": "e23b60cf-aadf-4bc9-8a51-6d7a3d9bb897"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U9",
+                    "pos": {
+                        "x": 163.4,
+                        "y": 51.5
+                    },
+                    "uuid": "e545c20b-e832-477a-bcb4-fa2b385ccecd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U31",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 65.0
+                    },
+                    "uuid": "e8602fdb-7285-46d8-8c02-06b9ac45f47f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'MyFootprints'",
+            "items": [
+                {
+                    "description": "封装 U7",
+                    "pos": {
+                        "x": 115.4,
+                        "y": 51.5
+                    },
+                    "uuid": "fca3ab56-9cbb-45a6-9f2a-5bf68cb71beb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

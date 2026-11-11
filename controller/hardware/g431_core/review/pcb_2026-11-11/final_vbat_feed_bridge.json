@@ -1,0 +1,16 @@
+{
+  "net": "+3V3_MCU",
+  "layer": "B.Cu",
+  "width": 0.3,
+  "points": [
+    [
+      120.92,
+      133.75
+    ],
+    [
+      120.07,
+      133.75
+    ]
+  ],
+  "reason": "Actual C67 B-pad1 to existing through-via; F feed alone cannot connect opposite-side SMD pad."
+}

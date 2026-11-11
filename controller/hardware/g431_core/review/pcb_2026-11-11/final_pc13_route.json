@@ -1,0 +1,371 @@
+{
+  "source_sha": "dd42574fba09e59b2c69839956fe38c2f4d15c4807e61a3d0ca450fd06ad1c2b",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "PC13",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          131.27,
+          138.89
+        ],
+        [
+          131.25,
+          139.0
+        ],
+        [
+          130.8,
+          139.45
+        ],
+        [
+          130.8,
+          140.25
+        ],
+        [
+          129.85,
+          141.2
+        ],
+        [
+          129.85,
+          141.6
+        ],
+        [
+          129.8,
+          141.65
+        ],
+        [
+          129.8,
+          141.8
+        ],
+        [
+          129.75,
+          141.85
+        ],
+        [
+          129.75,
+          141.9
+        ],
+        [
+          129.7,
+          141.95
+        ],
+        [
+          129.7,
+          142.0
+        ],
+        [
+          129.65,
+          142.05
+        ],
+        [
+          129.65,
+          142.1
+        ],
+        [
+          129.4,
+          142.35
+        ],
+        [
+          129.35,
+          142.35
+        ],
+        [
+          129.3,
+          142.4
+        ],
+        [
+          129.25,
+          142.4
+        ],
+        [
+          129.2,
+          142.45
+        ],
+        [
+          129.15,
+          142.45
+        ],
+        [
+          129.1,
+          142.5
+        ],
+        [
+          128.95,
+          142.5
+        ],
+        [
+          128.9,
+          142.55
+        ],
+        [
+          128.6,
+          142.55
+        ],
+        [
+          128.55,
+          142.5
+        ],
+        [
+          128.35,
+          142.5
+        ],
+        [
+          128.3,
+          142.45
+        ],
+        [
+          128.25,
+          142.45
+        ],
+        [
+          128.2,
+          142.4
+        ],
+        [
+          128.15,
+          142.4
+        ],
+        [
+          128.1,
+          142.35
+        ],
+        [
+          128.05,
+          142.35
+        ],
+        [
+          127.5,
+          141.8
+        ],
+        [
+          121.25,
+          141.8
+        ],
+        [
+          121.2,
+          141.75
+        ],
+        [
+          120.55,
+          141.75
+        ],
+        [
+          118.55,
+          139.75
+        ],
+        [
+          117.45,
+          139.75
+        ],
+        [
+          117.4,
+          139.7
+        ],
+        [
+          117.35,
+          139.7
+        ],
+        [
+          117.3,
+          139.65
+        ],
+        [
+          117.25,
+          139.65
+        ],
+        [
+          115.05,
+          137.45
+        ],
+        [
+          113.25,
+          137.45
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "PC13",
+      "layer": "In2.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          113.25,
+          137.45
+        ],
+        [
+          115.3,
+          135.4
+        ],
+        [
+          115.3,
+          133.5
+        ],
+        [
+          115.35,
+          133.45
+        ],
+        [
+          115.35,
+          133.4
+        ],
+        [
+          115.55,
+          133.2
+        ],
+        [
+          115.65,
+          133.2
+        ],
+        [
+          115.7,
+          133.15
+        ],
+        [
+          115.9,
+          133.15
+        ],
+        [
+          117.5,
+          131.55
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "PC13",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          117.5,
+          131.55
+        ],
+        [
+          117.65,
+          131.7
+        ],
+        [
+          117.65,
+          133.05
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "PC13",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          117.65,
+          133.05
+        ],
+        [
+          118.6,
+          133.05
+        ],
+        [
+          118.65,
+          133.1
+        ],
+        [
+          118.7,
+          133.1
+        ],
+        [
+          118.75,
+          133.15
+        ],
+        [
+          118.85,
+          133.15
+        ],
+        [
+          118.9,
+          133.2
+        ],
+        [
+          119.0,
+          133.199999
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "PC13",
+      "x": 113.25,
+      "y": 137.45,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "PC13",
+      "x": 117.5,
+      "y": 131.55,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "PC13",
+      "x": 117.65,
+      "y": 133.05,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\final_pc13_route.work\\controller.kicad_pcb",
+  "accepted": [
+    {
+      "net": "PC13",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 464776,
+        "seconds": 4.359,
+        "start_candidates": 36,
+        "goal_candidates": 72
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\final_pc13_route.work\\drc_001.json"
+    }
+  ],
+  "unresolved": [],
+  "validation": {
+    "source_drc_endpoint_uuids": 4,
+    "resolved_source_drc_endpoint_uuids": 4,
+    "source_drc_sha": "e6cc322f16491949681f657fe3ffd4648d05d84d475ba6b370732b1b42fbfcbb",
+    "source_project_sha": "5f653764eb2ea2d55485ef104f84923874a141b08881f9b6215fd276809db525",
+    "source_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\final_work\\drc.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\final_pc13_route.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": null,
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 2,
+    "after_unconnected": 1,
+    "before_drc_listed_unconnected": 2,
+    "after_drc_listed_unconnected": 1,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\final_pc13_route.work\\drc_001.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

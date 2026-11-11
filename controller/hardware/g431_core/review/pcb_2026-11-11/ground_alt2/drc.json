@@ -1,0 +1,336 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T10:13:34",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "controller.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 1.0749 mm",
+                    "pos": {
+                        "x": 115.25,
+                        "y": 123.4
+                    },
+                    "uuid": "d28d30d7-ef8e-492a-8708-f039ef5b5cc6"
+                },
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 114.3,
+                        "y": 121.67
+                    },
+                    "uuid": "d433cd1b-890c-46c9-a92f-3adde5425563"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U30 的焊盘 2 [PC13]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 133.25
+                    },
+                    "uuid": "913ae2bc-c434-43ec-a8ed-0ff7381b29fe"
+                },
+                {
+                    "description": "J102 的PTH 焊盘 24 [PC13]",
+                    "pos": {
+                        "x": 131.27,
+                        "y": 138.89
+                    },
+                    "uuid": "2d09a715-84ec-4f51-87bf-e72aee6cc8b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 118.75,
+                        "y": 134.79
+                    },
+                    "uuid": "632e7e4d-ce8a-418f-a861-7379e1598661"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 112.825,
+                        "y": 129.25
+                    },
+                    "uuid": "66f5489e-7e1d-477e-9cfd-6f893aa04319"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.8500 mm",
+                    "pos": {
+                        "x": 111.98,
+                        "y": 133.75
+                    },
+                    "uuid": "e4b25f5a-58a2-4c12-945e-5035f439eea6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Y1 的参考字段",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 126.055
+                    },
+                    "uuid": "2a43b39b-bb46-4cae-a093-2eb46cdc1fd1"
+                },
+                {
+                    "description": "C63 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 125.36,
+                        "y": 126.507836
+                    },
+                    "uuid": "c1842179-f813-4067-b7da-2d0e162b5e81"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Y1 的参考字段",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 126.055
+                    },
+                    "uuid": "2a43b39b-bb46-4cae-a093-2eb46cdc1fd1"
+                },
+                {
+                    "description": "C63 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 124.64,
+                        "y": 126.507836
+                    },
+                    "uuid": "84c77bd4-5aeb-4c06-a501-8e91584af5f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "C64 的参考字段",
+                    "pos": {
+                        "x": 110.831,
+                        "y": 122.15
+                    },
+                    "uuid": "837467af-2bd5-4eec-ac9e-a35a2926418b"
+                },
+                {
+                    "description": "C79 的参考字段",
+                    "pos": {
+                        "x": 111.631,
+                        "y": 122.15
+                    },
+                    "uuid": "e5cc41c0-3069-4b68-ac5c-f8aa86473735"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "C64 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 112.39,
+                        "y": 122.257836
+                    },
+                    "uuid": "0d037e2a-0720-4487-b517-cb3454448362"
+                },
+                {
+                    "description": "C79 的参考字段",
+                    "pos": {
+                        "x": 111.631,
+                        "y": 122.15
+                    },
+                    "uuid": "e5cc41c0-3069-4b68-ac5c-f8aa86473735"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Y1 的参考字段",
+                    "pos": {
+                        "x": 125.1,
+                        "y": 126.055
+                    },
+                    "uuid": "2a43b39b-bb46-4cae-a093-2eb46cdc1fd1"
+                },
+                {
+                    "description": "F.Cu 上 C63 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 125.92
+                    },
+                    "uuid": "ea377792-cc3d-4238-b1e5-b058148c42d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C84 的参考字段",
+                    "pos": {
+                        "x": 124.7,
+                        "y": 129.855
+                    },
+                    "uuid": "e9378025-2fe7-459a-80b1-253391f2e16f"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 3 [HSE_OUT]",
+                    "pos": {
+                        "x": 124.25,
+                        "y": 130.9
+                    },
+                    "uuid": "327758e5-130c-48f7-99da-1171ef095759"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C84 的参考字段",
+                    "pos": {
+                        "x": 124.7,
+                        "y": 129.855
+                    },
+                    "uuid": "e9378025-2fe7-459a-80b1-253391f2e16f"
+                },
+                {
+                    "description": "F.Cu 上 Y1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.95,
+                        "y": 130.9
+                    },
+                    "uuid": "5df01b66-f645-43d3-aaef-50d8dd958663"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C79 的参考字段",
+                    "pos": {
+                        "x": 111.631,
+                        "y": 122.15
+                    },
+                    "uuid": "e5cc41c0-3069-4b68-ac5c-f8aa86473735"
+                },
+                {
+                    "description": "F.Cu 上 C64 的焊盘 1 [+3V3_MCU]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 122.63
+                    },
+                    "uuid": "65967857-e7fc-4749-87af-1edc4c215207"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C79 的参考字段",
+                    "pos": {
+                        "x": 111.631,
+                        "y": 122.15
+                    },
+                    "uuid": "e5cc41c0-3069-4b68-ac5c-f8aa86473735"
+                },
+                {
+                    "description": "F.Cu 上 C64 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 121.67
+                    },
+                    "uuid": "01adbc70-4555-4f02-88e0-e62eca740438"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

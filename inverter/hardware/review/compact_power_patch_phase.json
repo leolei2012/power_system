@@ -1,0 +1,74 @@
+{
+  "source_sha": "0e090cbbae7fbe9e3cc6e7416a947322ac891e366e33bd1cbae0088a36f39caf",
+  "ripup_uuids": [],
+  "paths": [],
+  "vias": [],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phase.work\\inverter.kicad_pcb",
+  "accepted": [],
+  "unresolved": [
+    {
+      "items": [
+        "3e87b2fa-a768-4488-a460-249cfb6a345e",
+        "f11f88ae-f239-4666-931c-e8407fa14ca0"
+      ],
+      "reason": "No path within conservative grid/node/time budget (168 nodes)"
+    },
+    {
+      "items": [
+        "4da381d0-2100-4396-b5ab-27a530eb8e52",
+        "c437ede6-9134-4d15-a76d-929c9db7544c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (404 nodes)"
+    },
+    {
+      "items": [
+        "3af96214-a46e-4e7b-8601-afd172930f86",
+        "54a648fd-4860-4a08-b4e9-c44227314d65"
+      ],
+      "reason": "No path within conservative grid/node/time budget (254 nodes)"
+    },
+    {
+      "items": [
+        "54a648fd-4860-4a08-b4e9-c44227314d65",
+        "de9234e3-79ac-40d1-930c-25d814120bdc"
+      ],
+      "reason": "No path within conservative grid/node/time budget (69429 nodes)"
+    },
+    {
+      "items": [
+        "2692f7ad-b268-41c2-869d-a49147641072",
+        "f735474f-cbcc-4f8c-84c7-29092df7acc9"
+      ],
+      "reason": "No path within conservative grid/node/time budget (115615 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 49,
+    "resolved_source_drc_endpoint_uuids": 49,
+    "source_drc_sha": "2cefffeae9d463df72756a6ce310283f6c69a96f9fd9b191af97ec529fb690af",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_power.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phase.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 206,
+    "after_unconnected": 206,
+    "before_drc_listed_unconnected": 206,
+    "after_drc_listed_unconnected": 206,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_phase.work\\drc_000.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

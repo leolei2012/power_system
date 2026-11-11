@@ -1,0 +1,521 @@
+{
+  "source_sha": "f1627bc1b85f7921374db39692911c24047e0be198c19c1ca20dbad6302702d9",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "+3V3_MCU",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          112.75,
+          122.63
+        ],
+        [
+          112.7,
+          122.6
+        ],
+        [
+          112.4,
+          122.3
+        ],
+        [
+          112.35,
+          122.3
+        ],
+        [
+          112.3,
+          122.25
+        ],
+        [
+          112.25,
+          122.25
+        ],
+        [
+          112.15,
+          122.15
+        ],
+        [
+          112.15,
+          122.1
+        ],
+        [
+          112.1,
+          122.05
+        ],
+        [
+          112.1,
+          122.0
+        ],
+        [
+          112.05,
+          121.95
+        ],
+        [
+          112.05,
+          117.1
+        ],
+        [
+          112.0,
+          117.05
+        ],
+        [
+          112.0,
+          116.95
+        ],
+        [
+          111.95,
+          116.9
+        ],
+        [
+          111.94,
+          116.8
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_MCU",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          120.94,
+          144.5
+        ],
+        [
+          120.95,
+          144.4
+        ],
+        [
+          120.95,
+          142.9
+        ],
+        [
+          122.05,
+          141.8
+        ],
+        [
+          122.05,
+          141.75
+        ],
+        [
+          124.3,
+          139.5
+        ],
+        [
+          124.3,
+          137.1
+        ],
+        [
+          124.35,
+          137.05
+        ],
+        [
+          124.35,
+          137.0
+        ],
+        [
+          124.4,
+          136.95
+        ],
+        [
+          124.4,
+          136.9
+        ],
+        [
+          124.45,
+          136.85
+        ],
+        [
+          124.45,
+          136.35
+        ],
+        [
+          124.4,
+          136.3
+        ],
+        [
+          124.4,
+          136.25
+        ],
+        [
+          124.3,
+          136.15
+        ],
+        [
+          124.3,
+          136.1
+        ],
+        [
+          124.25,
+          136.05
+        ],
+        [
+          124.2,
+          136.05
+        ],
+        [
+          124.15,
+          136.0
+        ],
+        [
+          124.1,
+          136.0
+        ],
+        [
+          124.05,
+          135.95
+        ],
+        [
+          122.4,
+          135.95
+        ],
+        [
+          122.35,
+          136.0
+        ],
+        [
+          122.3,
+          136.0
+        ],
+        [
+          122.25,
+          136.05
+        ],
+        [
+          122.2,
+          136.05
+        ],
+        [
+          122.15,
+          136.1
+        ],
+        [
+          122.1,
+          136.1
+        ],
+        [
+          122.05,
+          136.15
+        ],
+        [
+          121.95,
+          136.15
+        ],
+        [
+          121.9,
+          136.2
+        ],
+        [
+          121.85,
+          136.2
+        ],
+        [
+          121.8,
+          136.25
+        ],
+        [
+          121.75,
+          136.25
+        ],
+        [
+          121.7,
+          136.3
+        ],
+        [
+          121.65,
+          136.3
+        ],
+        [
+          121.6,
+          136.35
+        ],
+        [
+          121.55,
+          136.35
+        ],
+        [
+          121.5,
+          136.4
+        ],
+        [
+          121.4,
+          136.4
+        ],
+        [
+          121.35,
+          136.45
+        ],
+        [
+          121.3,
+          136.45
+        ],
+        [
+          121.25,
+          136.5
+        ],
+        [
+          121.2,
+          136.5
+        ],
+        [
+          121.15,
+          136.55
+        ],
+        [
+          121.1,
+          136.55
+        ],
+        [
+          121.05,
+          136.6
+        ],
+        [
+          120.95,
+          136.6
+        ],
+        [
+          120.9,
+          136.65
+        ],
+        [
+          120.851,
+          136.719
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_MCU",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          120.25,
+          133.75
+        ],
+        [
+          120.25,
+          134.5
+        ],
+        [
+          120.3,
+          134.55
+        ],
+        [
+          120.3,
+          135.6
+        ],
+        [
+          120.25,
+          135.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_MCU",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          124.05,
+          135.95
+        ],
+        [
+          124.05,
+          135.65
+        ],
+        [
+          124.15,
+          135.55
+        ],
+        [
+          124.15,
+          135.2
+        ],
+        [
+          124.2,
+          135.15
+        ],
+        [
+          124.2,
+          134.9
+        ],
+        [
+          124.9,
+          134.2
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_MCU",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          124.9,
+          134.2
+        ],
+        [
+          124.9,
+          133.0
+        ],
+        [
+          125.3,
+          132.6
+        ],
+        [
+          125.3,
+          127.15
+        ],
+        [
+          125.7,
+          126.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "+3V3_MCU",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          125.7,
+          126.75
+        ],
+        [
+          125.25,
+          126.75
+        ],
+        [
+          125.2,
+          126.8
+        ],
+        [
+          125.1,
+          126.8
+        ],
+        [
+          125.05,
+          126.85
+        ],
+        [
+          125.0,
+          126.88
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "+3V3_MCU",
+      "x": 124.9,
+      "y": 134.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "+3V3_MCU",
+      "x": 125.7,
+      "y": 126.75,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\controller.kicad_pcb",
+  "accepted": [
+    {
+      "net": "+3V3_MCU",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 604,
+        "seconds": 5.047,
+        "start_candidates": 72,
+        "goal_candidates": 376
+      },
+      "before_net_components": 5,
+      "after_net_components": 4,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\drc_001.json"
+    },
+    {
+      "net": "+3V3_MCU",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 143245,
+        "seconds": 2.859,
+        "start_candidates": 360,
+        "goal_candidates": 60
+      },
+      "before_net_components": 4,
+      "after_net_components": 3,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\drc_002.json"
+    },
+    {
+      "net": "+3V3_MCU",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 89,
+        "seconds": 2.922,
+        "start_candidates": 176,
+        "goal_candidates": 197
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\drc_003.json"
+    },
+    {
+      "net": "+3V3_MCU",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 51157,
+        "seconds": 2.218,
+        "start_candidates": 314,
+        "goal_candidates": 96
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\drc_004.json"
+    }
+  ],
+  "unresolved": [],
+  "validation": {
+    "source_drc_endpoint_uuids": 15,
+    "resolved_source_drc_endpoint_uuids": 15,
+    "source_drc_sha": "06ebe8da2394e752f56bc855b89a93966daa3329c0e3a95abbbd592dc4fd6c36",
+    "source_project_sha": "5f653764eb2ea2d55485ef104f84923874a141b08881f9b6215fd276809db525",
+    "source_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\clearance_fixed_drc.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": null,
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 8,
+    "after_unconnected": 4,
+    "before_drc_listed_unconnected": 8,
+    "after_drc_listed_unconnected": 4,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\pcb_2026-11-11\\power_finish.work\\drc_004.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

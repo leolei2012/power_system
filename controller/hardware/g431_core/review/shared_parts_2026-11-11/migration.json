@@ -1,0 +1,3426 @@
+{
+  "revision": "E-minimum-core-draft",
+  "date": "2026-11-11",
+  "archive": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\history\\rev_e_before_shared_parts_2026-11-11.zip",
+  "archive_sha256": "3bcaa59a63170c7f69efc55cb7900fa4725f1eb384208a221d6446136aa57f61",
+  "shared_catalogue_sha256": "24c6a7b585e69986d848ad5ac1df4a2a7e68bb207ae8c494a67b4455a03d0cf4",
+  "shared_symbols_sha256": "b1e747b59ebcf4737b3850df58d5f87cc5b9a92d24ebbfaf2ab6c8b3895f7338",
+  "baseline_xml": "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\review\\shared_parts_2026-11-11\\before.net.xml",
+  "baseline_xml_sha256": "c8a3f1cba2e67d1a8c2d0f69897fb5c9fd58976317d925f045471adce140ba6d",
+  "before_instances": {
+    "U30": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "InverterLocal:STM32G431RBT6",
+      "properties": {
+        "Reference": "U30",
+        "Value": "STM32G431RBT6",
+        "Footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/stm32g431rb.pdf",
+        "Description": "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64",
+        "ki_keywords": "Arm Cortex-M4 STM32G4 STM32G4x1",
+        "Manufacturer": "STMicroelectronics",
+        "MPN": "STM32G431RBT6",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C431633",
+        "Purchase_URL": "https://item.szlcsc.com/428111.html",
+        "Verification": "project_draft",
+        "Selection_Status": "Rev B drawing candidate; shared library intake not performed",
+        "Design_Note": "LQFP64; physical pins per DS12589 Rev6 Fig10/Table12; no external VCAP pin"
+      },
+      "dnp": "no",
+      "at": [
+        142.24,
+        144.78,
+        0
+      ],
+      "unit": 1,
+      "uuid": "0c2ec377-6787-5ab2-b869-80f067ce278e"
+    },
+    "C63": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C63",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 16; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        238.76,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c5436cda-eba2-5cff-a8c0-25b87e443366"
+    },
+    "C64": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C64",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 32; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        264.16,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7226d0e5-b1cb-5f45-aaee-e064670c19fa"
+    },
+    "C65": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C65",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 48; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        289.56,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "399330aa-5b70-5180-97c8-4c3a2a44eb7f"
+    },
+    "C66": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C66",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 64; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        314.96,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "5d788c4b-8178-5169-a35d-88dc33900fdb"
+    },
+    "C67": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C67",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 1; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        340.36,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7eb4d7af-bbff-5637-a614-72d4009f6a06"
+    },
+    "C68": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C68",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        365.76,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "02ecdf17-96f9-5c56-802f-08b04a6b6d9a"
+    },
+    "R92": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R92",
+        "Value": "0",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending",
+        "Design_Note": "Default 0R; no unvalidated ferrite LC inserted",
+        "Tolerance": "1%"
+      },
+      "dnp": "no",
+      "at": [
+        71.12,
+        50.8,
+        90
+      ],
+      "unit": 1,
+      "uuid": "48fc309c-a8c6-5115-9831-bd96e0bf29d2"
+    },
+    "R93": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R93",
+        "Value": "0",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending",
+        "Design_Note": "External VREF supply; VREFBUF disabled",
+        "Tolerance": "1%"
+      },
+      "dnp": "no",
+      "at": [
+        228.6,
+        50.8,
+        90
+      ],
+      "unit": 1,
+      "uuid": "77ec352e-d6c6-52ea-a56b-0cf79891268d"
+    },
+    "C77": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C77",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        109.22,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "a18316f1-316f-56a7-9514-ceb618ad67d7"
+    },
+    "C78": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C78",
+        "Value": "1u",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        177.8,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c1439d37-a7f8-5149-9360-f5a0ebbb17c9"
+    },
+    "C79": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C79",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        274.32,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "60862639-0b97-51b5-b1be-8c6abd6994d8"
+    },
+    "C80": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C80",
+        "Value": "1u",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        337.82,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "f59e956c-e7f2-5908-a8c3-a77b1220a41d"
+    },
+    "SW2": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Switch:SW_Push",
+      "properties": {
+        "Reference": "SW2",
+        "Value": "MCU_RESET",
+        "Footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+        "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+        "Description": "Push button switch, generic, two pins",
+        "ki_keywords": "switch normally-open pushbutton push-button",
+        "MPN": "TS-1088-AR02016",
+        "Manufacturer": "XUNPU",
+        "Supplier_PN": "C720477",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/tactile%20switches_xunpu_ts-1088-ar02016_C720477.html",
+        "Selection_Status": "Exact small SMD normally-open momentary 2-terminal switch; standard local footprint matches current manufacturer drawing. SW1 bias condition below remains an electrical-review hold point."
+      },
+      "dnp": "no",
+      "at": [
+        66.04,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "18792426-a490-5fd9-bf60-7bcfa1121dbd"
+    },
+    "C81": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C81",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "NRST; TPS3808 and reset button/SWD share open-drain reset domain",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        121.92,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "ff721156-a010-59ab-a1b5-9176123fd3a4"
+    },
+    "SW3": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Switch:SW_Push",
+      "properties": {
+        "Reference": "SW3",
+        "Value": "BOOT",
+        "Footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+        "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0475ac02febf455ca9ddcfb380b0df0d.pdf?productCode=C720477",
+        "Description": "Push button switch, generic, two pins",
+        "ki_keywords": "switch normally-open pushbutton push-button",
+        "MPN": "TS-1088-AR02016",
+        "Manufacturer": "XUNPU",
+        "Supplier_PN": "C720477",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/tactile%20switches_xunpu_ts-1088-ar02016_C720477.html",
+        "Selection_Status": "Exact small SMD normally-open momentary 2-terminal switch; standard local footprint matches current manufacturer drawing. SW1 bias condition below remains an electrical-review hold point."
+      },
+      "dnp": "no",
+      "at": [
+        254,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "8a6d3798-bae9-553f-83cc-4b471a601c72"
+    },
+    "R401": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R401",
+        "Value": "1k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Tolerance": "1%",
+        "Selection_Status": "exact YAGEO MPN pending",
+        "Design_Note": "BOOT button limiting; PB8 remains an exposed GPIO-capable pad."
+      },
+      "dnp": "no",
+      "at": [
+        294.64,
+        55.88,
+        90
+      ],
+      "unit": 1,
+      "uuid": "a934365b-b9ba-5288-8826-51ade849ad2c"
+    },
+    "R122": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R122",
+        "Value": "10k",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending",
+        "Design_Note": "",
+        "Tolerance": "1%"
+      },
+      "dnp": "no",
+      "at": [
+        335.28,
+        68.58,
+        0
+      ],
+      "unit": 1,
+      "uuid": "e5cd7cb8-5313-5e5e-a8ec-115564a89bf2"
+    },
+    "TP15": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Connector:TestPoint",
+      "properties": {
+        "Reference": "TP15",
+        "Value": "BOOT0",
+        "Footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+        "Datasheet": "",
+        "Description": "test point",
+        "ki_keywords": "test point tp",
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "dnp": "no",
+      "at": [
+        368.3,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "ff4ba677-d44f-5c6c-8986-2465028f6ca6"
+    },
+    "Y1": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:Crystal_GND24",
+      "properties": {
+        "Reference": "Y1",
+        "Value": "8MHz / CL TBD / DNP",
+        "Footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+        "Datasheet": "",
+        "Description": "Four pin crystal, GND on pins 2 and 4",
+        "private": "KLC_S4.1",
+        "ki_keywords": "quartz ceramic resonator oscillator",
+        "ki_fp_filters": "Crystal*",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "HSE candidate only; exact crystal CL/ESR/drive and startup gain not selected"
+      },
+      "dnp": "yes",
+      "at": [
+        147.32,
+        185.42,
+        0
+      ],
+      "unit": 1,
+      "uuid": "9b2a2112-df97-5e98-9742-e72ba788c770"
+    },
+    "C83": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C83",
+        "Value": "18p / provisional",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "DNP; select from actual crystal CL and PCB stray capacitance",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "yes",
+      "at": [
+        83.82,
+        205.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "96e3a2f5-5ca2-53c9-a4f8-b6ca7352df75"
+    },
+    "C84": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C84",
+        "Value": "18p / provisional",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "DNP; select from actual crystal CL and PCB stray capacitance",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "yes",
+      "at": [
+        213.36,
+        205.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7f9d03a1-e245-5612-8f35-7318489ae3f3"
+    },
+    "R301": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R301",
+        "Value": "0.47",
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": "Damped input filter; not a surge-rated fuse"
+      },
+      "dnp": "no",
+      "at": [
+        45.72,
+        63.5,
+        90
+      ],
+      "unit": 1,
+      "uuid": "30b8533f-7221-53e4-a64f-816ba5d1dc7d"
+    },
+    "D101": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "CoreProtection:SMF6_0A_TP",
+      "properties": {
+        "Reference": "D101",
+        "Value": "SMF6.0A-TP",
+        "Footprint": "Diode_SMD:D_SOD-123F",
+        "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/3fdd4d54224eceb5fff57c8ce808199a.pdf?productCode=C914434",
+        "Description": "Unidirectional TVS; 6V stand-off; 10.3V max at specified 19.4A 10/1000us; not a DC OVP switch",
+        "ki_keywords": "diode",
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*",
+        "Manufacturer": "MCC",
+        "MPN": "SMF6.0A-TP",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C914434",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C914434.html",
+        "Selection_Status": "project_draft; manufacturer pin map checked; no hardware validation",
+        "Symbol_Source": "Device:D_Zener"
+      },
+      "dnp": "no",
+      "at": [
+        71.12,
+        78.74,
+        270
+      ],
+      "unit": 1,
+      "uuid": "a7122a42-0f7c-59ed-bc8f-a830b0410eac"
+    },
+    "C301": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C301",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "25V",
+        "Design_Note": "Effective >=2.2uF at 5.25V; protected 5V input decoupling",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        96.52,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "2c87459b-edcf-5bfe-bd5e-e05476353108"
+    },
+    "D102": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "CoreProtection:S1A_13_F",
+      "properties": {
+        "Reference": "D102",
+        "Value": "S1A-13-F",
+        "Footprint": "Diode_SMD:D_SMA",
+        "Datasheet": "https://www.diodes.com/datasheet/download/S1M.pdf",
+        "Description": "50V 1A low-leakage silicon rectifier; pin 1 cathode / stripe, pin 2 anode",
+        "Sim.Device": "D",
+        "Sim.Pins": "1=K 2=A",
+        "ki_keywords": "diode",
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*",
+        "Manufacturer": "Diodes Incorporated",
+        "MPN": "S1A-13-F",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C150735",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C150735.html",
+        "Selection_Status": "project_draft; manufacturer pin map checked; no hardware validation",
+        "Symbol_Source": "Device:D"
+      },
+      "dnp": "no",
+      "at": [
+        124.46,
+        63.5,
+        180
+      ],
+      "unit": 1,
+      "uuid": "afeb5298-4140-50c1-9337-bc3874ff40cb"
+    },
+    "C302": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C302",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "25V",
+        "Design_Note": "Effective >=2.2uF at 5.25V; directly adjacent U101 IN/GND",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        149.86,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "b0d96ac1-d44e-59f2-af26-464b2912bcb3"
+    },
+    "U101": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:TLV76733DRVR",
+      "properties": {
+        "Reference": "U101",
+        "Value": "TLV76733DRVR",
+        "Footprint": "MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tlv767.pdf",
+        "Description": "3.3V 1A 16V-input LDO; WSON-6-EP",
+        "Datasheet_Revision": "Rev D",
+        "Library_Revision": "1",
+        "Verification": "reviewed",
+        "Purchase_URL": "https://item.szlcsc.com/3046559.html",
+        "Supplier_PN": "C2848334",
+        "Supplier": "LCSC",
+        "MPN": "TLV76733DRVR",
+        "Manufacturer": "TI",
+        "ki_keywords": "TLV76733DRVR C2848334",
+        "ki_fp_filters": "WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+        "Selection_Status": "project_draft; shared reviewed component reused; application not hardware validated"
+      },
+      "dnp": "no",
+      "at": [
+        218.44,
+        66.04,
+        0
+      ],
+      "unit": 1,
+      "uuid": "189832e8-2968-542d-8a9c-9663fdd46311"
+    },
+    "D103": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "CoreProtection:PMEG2010ER_115",
+      "properties": {
+        "Reference": "D103",
+        "Value": "PMEG2010ER,115",
+        "Footprint": "Diode_SMD:Nexperia_CFP3_SOD-123W",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+        "Description": "20V 1A low-VF reverse-stress bypass; VF max 250mV at 100mA/25C; pin 1 K 2 A",
+        "ki_keywords": "diode Schottky",
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*",
+        "Manufacturer": "Nexperia",
+        "MPN": "PMEG2010ER,115",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C82288",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C82288.html",
+        "Selection_Status": "project_draft; manufacturer pin map checked; no hardware validation",
+        "Symbol_Source": "Device:D_Schottky"
+      },
+      "dnp": "no",
+      "at": [
+        213.36,
+        50.8,
+        0
+      ],
+      "unit": 1,
+      "uuid": "dfa37bc4-1a6e-59b6-9ee5-a28bfead5824"
+    },
+    "C303": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C303",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "16V",
+        "Design_Note": "Effective >=2.2uF at 3.3V; U101 OUT capacitor",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        269.24,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "63784f75-a1e9-578d-8794-76c062cf98b8"
+    },
+    "C304": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C304",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "16V",
+        "Design_Note": "",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        297.18,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7b11446b-5b84-5d87-aed7-770e91f16251"
+    },
+    "R302": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R302",
+        "Value": "3.83k 0.1%",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "RT0603BRD073K83L",
+        "Selection_Status": "project_draft",
+        "Tolerance": "0.1%",
+        "Design_Note": "",
+        "Supplier_PN": "C861384",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C861384.html"
+      },
+      "dnp": "no",
+      "at": [
+        55.88,
+        165.1,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c4efafe1-73c2-5f33-96d5-05eab144fff8"
+    },
+    "R303": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R303",
+        "Value": "10k 0.1%",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "RT0603BRD0710KL",
+        "Selection_Status": "project_draft",
+        "Tolerance": "0.1%",
+        "Design_Note": "",
+        "Supplier_PN": "C95204",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C95204.html"
+      },
+      "dnp": "no",
+      "at": [
+        55.88,
+        187.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "71f88a0b-8db7-5f0c-b9df-ab987fb5cbcf"
+    },
+    "U104": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "CoreProtection:TL431BIDBZR",
+      "properties": {
+        "Reference": "U104",
+        "Value": "TL431BIDBZR",
+        "Footprint": "Package_TO_SOT_SMD:SOT-23",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tl431.pdf",
+        "Description": "0.5% adjustable shunt; DBZ pins 1 K 2 REF 3 A",
+        "ki_keywords": "diode device shunt regulator",
+        "ki_fp_filters": "SOT?23*",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TL431BIDBZR",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C41283",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C41283.html",
+        "Selection_Status": "project_draft; manufacturer pin map checked; no hardware validation",
+        "Symbol_Source": "Reference_Voltage:TL431DBZ"
+      },
+      "dnp": "no",
+      "at": [
+        106.68,
+        177.8,
+        90
+      ],
+      "unit": 1,
+      "uuid": "1bb0d140-27b9-5ce4-b668-3453b78f1f39"
+    },
+    "C305": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C_Polarized",
+      "properties": {
+        "Reference": "C305",
+        "Value": "47u 10% 10V",
+        "Footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+        "Datasheet": "",
+        "Description": "Polarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "CP_*",
+        "Manufacturer": "KEMET",
+        "MPN": "T491B476K010AT",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "10V",
+        "Design_Note": "Populate. MnO2 tantalum bulk retains capacitance under bias. TL431 stability compensation; not interchangeable with a nominal MLCC without analysis.",
+        "Selection_Status": "project_draft",
+        "Supplier_PN": "C116617",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C116617.html"
+      },
+      "dnp": "no",
+      "at": [
+        160.02,
+        177.8,
+        0
+      ],
+      "unit": 1,
+      "uuid": "0f91de92-8c00-556c-ac9e-b8c78d84559b"
+    },
+    "U102": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:TPS3808G33DBVR",
+      "properties": {
+        "Reference": "U102",
+        "Value": "TPS3808G33DBVR",
+        "Footprint": "MyFootprints:SOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+        "Description": "3.07V threshold supervisor, open-drain reset; SOT-23-6",
+        "Datasheet_Revision": "Rev N",
+        "Library_Revision": "1",
+        "Verification": "reviewed",
+        "Purchase_URL": "https://item.szlcsc.com/44691.html",
+        "Supplier_PN": "C43698",
+        "Supplier": "LCSC",
+        "MPN": "TPS3808G33DBVR",
+        "Manufacturer": "TI",
+        "ki_keywords": "TPS3808G33DBVR C43698",
+        "ki_fp_filters": "SOT-23-6",
+        "Selection_Status": "project_draft; shared reviewed component reused; application not hardware validated"
+      },
+      "dnp": "no",
+      "at": [
+        279.4,
+        182.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "82731304-e3a5-5676-bd39-ce5b9f85e627"
+    },
+    "R304": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R304",
+        "Value": "1k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": ""
+      },
+      "dnp": "no",
+      "at": [
+        233.68,
+        172.72,
+        0
+      ],
+      "unit": 1,
+      "uuid": "8c63b41b-f31d-534f-bf1b-8c07f879910d"
+    },
+    "R305": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R305",
+        "Value": "1.1k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": ""
+      },
+      "dnp": "no",
+      "at": [
+        233.68,
+        195.58,
+        0
+      ],
+      "unit": 1,
+      "uuid": "ce6e6016-52c4-5f3f-b4a5-b6275d236453"
+    },
+    "C306": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C306",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "16V",
+        "Design_Note": "",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        314.96,
+        167.64,
+        0
+      ],
+      "unit": 1,
+      "uuid": "32348b2d-c933-5f42-9407-4f67cfb16cdb"
+    },
+    "R306": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R306",
+        "Value": "10k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": ""
+      },
+      "dnp": "no",
+      "at": [
+        327.66,
+        167.64,
+        0
+      ],
+      "unit": 1,
+      "uuid": "60878c71-a115-5635-b081-b48b9fe6a1ba"
+    },
+    "U103": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "CoreProtection:SN74LVC1G17DBVR",
+      "properties": {
+        "Reference": "U103",
+        "Value": "SN74LVC1G17DBVR",
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+        "Description": "Schmitt buffer, Ioff partial power down; DBV pins 1 NC 2 A 3 GND 4 Y 5 VCC",
+        "ki_keywords": "Single Gate Buff Schmitt LVC CMOS",
+        "ki_fp_filters": "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "SN74LVC1G17DBVR",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C7836",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C7836.html",
+        "Selection_Status": "project_draft; manufacturer pin map checked; no hardware validation",
+        "Symbol_Source": "74xGxx:74LVC1G17"
+      },
+      "dnp": "no",
+      "at": [
+        360.68,
+        182.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "559850f2-026a-5eb7-acf1-af1698817c9b"
+    },
+    "C307": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C307",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "16V",
+        "Design_Note": "",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        383.54,
+        167.64,
+        0
+      ],
+      "unit": 1,
+      "uuid": "85ab6d21-3d25-5ad1-bc62-df03a70b2eb3"
+    },
+    "U105": {
+      "page": "core_arm.kicad_sch",
+      "lib_id": "74xGxx:74LVC1G08",
+      "properties": {
+        "Reference": "U105",
+        "Value": "SN74LVC1G08DBVR",
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+        "Description": "Single AND Gate, Low-Voltage CMOS",
+        "ki_keywords": "Single Gate AND LVC CMOS",
+        "ki_fp_filters": "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*",
+        "Manufacturer": "TI",
+        "MPN": "SN74LVC1G08DBVR",
+        "Supplier_PN": "C7666",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C7666.html",
+        "Verification": "project_draft",
+        "Design_Note": "Ioff AND after U103 Schmitt reset buffer; PC7 held LOW unless application explicitly arms."
+      },
+      "dnp": "no",
+      "at": [
+        172.72,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "4a9f85a0-0242-54a8-ba80-94b713a6161b"
+    },
+    "R402": {
+      "page": "core_arm.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R402",
+        "Value": "10k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Tolerance": "1%",
+        "Selection_Status": "exact YAGEO MPN pending",
+        "Design_Note": "Local RUN_ARM pull-down. Inverter application reserves PC7; ROM bootloader leaves it undriven."
+      },
+      "dnp": "no",
+      "at": [
+        121.92,
+        104.14,
+        0
+      ],
+      "unit": 1,
+      "uuid": "1c6b0c8d-f6d5-5b38-a2e2-0074b9af4ebe"
+    },
+    "C308": {
+      "page": "core_arm.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C308",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16V",
+        "Selection_Status": "exact YAGEO MPN pending"
+      },
+      "dnp": "no",
+      "at": [
+        238.76,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "b446063a-6cd6-5ef7-b691-cd84aaf4a40e"
+    },
+    "J101": {
+      "page": "core_interface.kicad_sch",
+      "lib_id": "Connector_Generic:Conn_02x16_Odd_Even",
+      "properties": {
+        "Reference": "J101",
+        "Value": "PZ254V-12-32P",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical",
+        "Datasheet": "",
+        "Description": "Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",
+        "ki_keywords": "connector",
+        "ki_fp_filters": "Connector*:*_2x??_*",
+        "Manufacturer": "XFCN",
+        "MPN": "PZ254V-12-32P",
+        "Supplier_PN": "C22465940",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C22465940.html",
+        "Verification": "project_draft",
+        "Selection_Status": "P2.54 2x16 candidate; actual mating height, pin1 and land pattern pending",
+        "Design_Note": "Core TOP male faces UP into power board BOTTOM socket facing DOWN. Both boards 60x60mm; power above core. Recheck physical pin1/rotation; not Rev D 40-pin compatible."
+      },
+      "dnp": "no",
+      "at": [
+        91.44,
+        66.04,
+        0
+      ],
+      "unit": 1,
+      "uuid": "1b4e7c6f-4eff-5bd8-b946-506593c0aad1"
+    },
+    "J102": {
+      "page": "core_interface.kicad_sch",
+      "lib_id": "Connector_Generic:Conn_02x16_Odd_Even",
+      "properties": {
+        "Reference": "J102",
+        "Value": "PZ254V-12-32P",
+        "Footprint": "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical",
+        "Datasheet": "",
+        "Description": "Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",
+        "ki_keywords": "connector",
+        "ki_fp_filters": "Connector*:*_2x??_*",
+        "Manufacturer": "XFCN",
+        "MPN": "PZ254V-12-32P",
+        "Supplier_PN": "C22465940",
+        "Purchase_URL": "https://www.lcsc.com/product-detail/C22465940.html",
+        "Verification": "project_draft",
+        "Selection_Status": "P2.54 2x16 candidate; actual mating height, pin1 and land pattern pending",
+        "Design_Note": "Core TOP male faces UP into power board BOTTOM socket facing DOWN. Both boards 60x60mm; power above core. Recheck physical pin1/rotation; not Rev D 40-pin compatible."
+      },
+      "dnp": "no",
+      "at": [
+        292.1,
+        66.04,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c89993a9-2399-5c19-8b6d-5618940036e1"
+    }
+  },
+  "after_instances": {
+    "U30": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "MyParts:STM32G431RBT6",
+      "properties": {
+        "Reference": "U30",
+        "Value": "STM32G431RBT6",
+        "Footprint": "MyFootprints:ST_LQFP-64_10x10mm_P0.5mm_Pad1.2x0.3mm",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/stm32g431rb.pdf",
+        "Description": "Arm Cortex-M4F MCU; 170MHz; 128KB Flash; 32KB SRAM; 1.71-3.6V; LQFP-64; -40 to 85C",
+        "ki_keywords": "STM32G431RBT6 C431633",
+        "Manufacturer": "STMicroelectronics",
+        "MPN": "STM32G431RBT6",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C431633",
+        "Purchase_URL": "https://item.szlcsc.com/428111.html",
+        "Verification": "reviewed",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Design_Note": "LQFP64; physical pins per DS12589 Rev6 Fig10/Table12; no external VCAP pin",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "DS12589 Rev 6 (2021-10), online; offline Rev 1 (2019-05)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/ST_STM32G431xB_DS12589_Rev1_lcsc.pdf"
+      },
+      "dnp": "no",
+      "at": [
+        142.24,
+        144.78,
+        0
+      ],
+      "unit": 1,
+      "uuid": "0c2ec377-6787-5ab2-b869-80f067ce278e"
+    },
+    "C63": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C63",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 16; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        238.76,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c5436cda-eba2-5cff-a8c0-25b87e443366"
+    },
+    "C64": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C64",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 32; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        264.16,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7226d0e5-b1cb-5f45-aaee-e064670c19fa"
+    },
+    "C65": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C65",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 48; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        289.56,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "399330aa-5b70-5180-97c8-4c3a2a44eb7f"
+    },
+    "C66": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C66",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 64; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        314.96,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "5d788c4b-8178-5169-a35d-88dc33900fdb"
+    },
+    "C67": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C67",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "Place at U30 pin 1; return locally to VSS",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        340.36,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7eb4d7af-bbff-5637-a614-72d4009f6a06"
+    },
+    "C68": {
+      "page": "mcu.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C68",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        365.76,
+        60.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "02ecdf17-96f9-5c56-802f-08b04a6b6d9a"
+    },
+    "R92": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R92",
+        "Value": "0",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending",
+        "Design_Note": "Default 0R; no unvalidated ferrite LC inserted",
+        "Tolerance": "1%"
+      },
+      "dnp": "no",
+      "at": [
+        71.12,
+        50.8,
+        90
+      ],
+      "unit": 1,
+      "uuid": "48fc309c-a8c6-5115-9831-bd96e0bf29d2"
+    },
+    "R93": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R93",
+        "Value": "0",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending",
+        "Design_Note": "External VREF supply; VREFBUF disabled",
+        "Tolerance": "1%"
+      },
+      "dnp": "no",
+      "at": [
+        228.6,
+        50.8,
+        90
+      ],
+      "unit": 1,
+      "uuid": "77ec352e-d6c6-52ea-a56b-0cf79891268d"
+    },
+    "C77": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C77",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        109.22,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "a18316f1-316f-56a7-9514-ceb618ad67d7"
+    },
+    "C78": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C78",
+        "Value": "1u",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        177.8,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c1439d37-a7f8-5149-9360-f5a0ebbb17c9"
+    },
+    "C79": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C79",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        274.32,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "60862639-0b97-51b5-b1be-8c6abd6994d8"
+    },
+    "C80": {
+      "page": "mcu_analog.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C80",
+        "Value": "1u",
+        "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        337.82,
+        71.12,
+        0
+      ],
+      "unit": 1,
+      "uuid": "f59e956c-e7f2-5908-a8c3-a77b1220a41d"
+    },
+    "SW2": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "MyParts:TS-1101-C-W",
+      "properties": {
+        "Reference": "SW2",
+        "Value": "MCU_RESET",
+        "Footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20260728/EE7FF642A5A39E3ECAA07C4F400BEF5E.pdf",
+        "Description": "Momentary normally-open SPST tactile switch; 2 pins; 50mA at 12VDC; 260gf; white actuator; height2.50+/-0.10mm; A2 body6.05x3.70mm",
+        "ki_keywords": "TS-1101-C-W C318938 tactile momentary normally open",
+        "MPN": "TS-1101-C-W",
+        "Manufacturer": "XKB Connection",
+        "Supplier_PN": "C318938",
+        "Purchase_URL": "https://item.szlcsc.com/300030.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier": "LCSC",
+        "Verification": "reviewed",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "A2; ECN-P-2025121501; 2025-12-15 (A1 2025-06-03)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/XKB_TS-1101-C-W_A2_2025-12-15.pdf",
+        "Contact_Rating": "50mA at 12VDC",
+        "Operating_Force": "260gf (C code; supplier 2.6N nominal)",
+        "Actuator_Color": "White (W code)",
+        "Height": "2.50+/-0.10mm",
+        "Body_Size": "6.05x3.70mm (A2)",
+        "Travel": "0.25mm",
+        "Operating_Temperature": "-30 to +85C",
+        "Assembly_Side": "Top",
+        "Design_Note": "RESET/BOOT: controller TOP, same face as MCU, actuator faces UP. Near board edge; reach from stack side and press DOWN. Allow holding BOOT while operating RESET; clearance needs PCB/structure review."
+      },
+      "dnp": "no",
+      "at": [
+        66.04,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "18792426-a490-5fd9-bf60-7bcfa1121dbd"
+    },
+    "C81": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C81",
+        "Value": "100n",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "NRST; TPS3808 and reset button/SWD share open-drain reset domain",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "no",
+      "at": [
+        121.92,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "ff721156-a010-59ab-a1b5-9176123fd3a4"
+    },
+    "SW3": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "MyParts:TS-1101-C-W",
+      "properties": {
+        "Reference": "SW3",
+        "Value": "BOOT",
+        "Footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20260728/EE7FF642A5A39E3ECAA07C4F400BEF5E.pdf",
+        "Description": "Momentary normally-open SPST tactile switch; 2 pins; 50mA at 12VDC; 260gf; white actuator; height2.50+/-0.10mm; A2 body6.05x3.70mm",
+        "ki_keywords": "TS-1101-C-W C318938 tactile momentary normally open",
+        "MPN": "TS-1101-C-W",
+        "Manufacturer": "XKB Connection",
+        "Supplier_PN": "C318938",
+        "Purchase_URL": "https://item.szlcsc.com/300030.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier": "LCSC",
+        "Verification": "reviewed",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "A2; ECN-P-2025121501; 2025-12-15 (A1 2025-06-03)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/XKB_TS-1101-C-W_A2_2025-12-15.pdf",
+        "Contact_Rating": "50mA at 12VDC",
+        "Operating_Force": "260gf (C code; supplier 2.6N nominal)",
+        "Actuator_Color": "White (W code)",
+        "Height": "2.50+/-0.10mm",
+        "Body_Size": "6.05x3.70mm (A2)",
+        "Travel": "0.25mm",
+        "Operating_Temperature": "-30 to +85C",
+        "Assembly_Side": "Top",
+        "Design_Note": "RESET/BOOT: controller TOP, same face as MCU, actuator faces UP. Near board edge; reach from stack side and press DOWN. Allow holding BOOT while operating RESET; clearance needs PCB/structure review."
+      },
+      "dnp": "no",
+      "at": [
+        254,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "8a6d3798-bae9-553f-83cc-4b471a601c72"
+    },
+    "R401": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R401",
+        "Value": "1k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Tolerance": "1%",
+        "Selection_Status": "exact YAGEO MPN pending",
+        "Design_Note": "BOOT button limiting; PB8 remains an exposed GPIO-capable pad."
+      },
+      "dnp": "no",
+      "at": [
+        294.64,
+        55.88,
+        90
+      ],
+      "unit": 1,
+      "uuid": "a934365b-b9ba-5288-8826-51ade849ad2c"
+    },
+    "R122": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R122",
+        "Value": "10k",
+        "Footprint": "Resistor_SMD:R_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; exact MPN/LCSC pending",
+        "Design_Note": "",
+        "Tolerance": "1%"
+      },
+      "dnp": "no",
+      "at": [
+        335.28,
+        68.58,
+        0
+      ],
+      "unit": 1,
+      "uuid": "e5cd7cb8-5313-5e5e-a8ec-115564a89bf2"
+    },
+    "TP15": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Connector:TestPoint",
+      "properties": {
+        "Reference": "TP15",
+        "Value": "BOOT0",
+        "Footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+        "Datasheet": "",
+        "Description": "test point",
+        "ki_keywords": "test point tp",
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "dnp": "no",
+      "at": [
+        368.3,
+        55.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "ff4ba677-d44f-5c6c-8986-2465028f6ca6"
+    },
+    "Y1": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:Crystal_GND24",
+      "properties": {
+        "Reference": "Y1",
+        "Value": "8MHz / CL TBD / DNP",
+        "Footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+        "Datasheet": "",
+        "Description": "Four pin crystal, GND on pins 2 and 4",
+        "private": "KLC_S4.1",
+        "ki_keywords": "quartz ceramic resonator oscillator",
+        "ki_fp_filters": "Crystal*",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Selection_Status": "HSE candidate only; exact crystal CL/ESR/drive and startup gain not selected"
+      },
+      "dnp": "yes",
+      "at": [
+        147.32,
+        185.42,
+        0
+      ],
+      "unit": 1,
+      "uuid": "9b2a2112-df97-5e98-9742-e72ba788c770"
+    },
+    "C83": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C83",
+        "Value": "18p / provisional",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "DNP; select from actual crystal CL and PCB stray capacitance",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "yes",
+      "at": [
+        83.82,
+        205.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "96e3a2f5-5ca2-53c9-a4f8-b6ca7352df75"
+    },
+    "C84": {
+      "page": "mcu_control.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C84",
+        "Value": "18p / provisional",
+        "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Voltage_Rating": "16 V minimum",
+        "Design_Note": "DNP; select from actual crystal CL and PCB stray capacitance",
+        "Supplier": "LCSC",
+        "Selection_Status": "value assigned; DC bias/MPN/LCSC pending"
+      },
+      "dnp": "yes",
+      "at": [
+        213.36,
+        205.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7f9d03a1-e245-5612-8f35-7318489ae3f3"
+    },
+    "R301": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R301",
+        "Value": "0.47",
+        "Footprint": "Resistor_SMD:R_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": "Damped input filter; not a surge-rated fuse"
+      },
+      "dnp": "no",
+      "at": [
+        45.72,
+        63.5,
+        90
+      ],
+      "unit": 1,
+      "uuid": "30b8533f-7221-53e4-a64f-816ba5d1dc7d"
+    },
+    "D101": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:SMF6.0A-TP",
+      "properties": {
+        "Reference": "D101",
+        "Value": "SMF6.0A-TP",
+        "Footprint": "MyFootprints:MCC_SOD-123FL_Pad0.91x1.22mm_Gap2.36mm",
+        "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/3fdd4d54224eceb5fff57c8ce808199a.pdf?productCode=C914434",
+        "Description": "Unidirectional TVS; VRWM6V; VBR6.67-7.37V; VC10.3V at19.4A; 200W10/1000us",
+        "ki_keywords": "SMF6.0A-TP C914434",
+        "Manufacturer": "MCC",
+        "MPN": "SMF6.0A-TP",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C914434",
+        "Purchase_URL": "https://item.szlcsc.com/985114.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Symbol_Source": "Device:D_Zener",
+        "Datasheet_Revision": "Rev.3-6-06072021",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        71.12,
+        78.74,
+        270
+      ],
+      "unit": 1,
+      "uuid": "a7122a42-0f7c-59ed-bc8f-a830b0410eac"
+    },
+    "C301": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C301",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "25V",
+        "Design_Note": "Effective >=2.2uF at 5.25V; protected 5V input decoupling",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        96.52,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "2c87459b-edcf-5bfe-bd5e-e05476353108"
+    },
+    "D102": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:S1A-13-F",
+      "properties": {
+        "Reference": "D102",
+        "Value": "S1A-13-F",
+        "Footprint": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm",
+        "Datasheet": "https://www.diodes.com/datasheet/download/S1M.pdf",
+        "Description": "Rectifier; 50V; 1A; SMA; 1=K 2=A",
+        "Sim.Device": "D",
+        "Sim.Pins": "1=K 2=A",
+        "ki_keywords": "S1A-13-F C150735",
+        "Manufacturer": "Diodes Incorporated",
+        "MPN": "S1A-13-F",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C150735",
+        "Purchase_URL": "https://item.szlcsc.com/162075.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Symbol_Source": "Device:D",
+        "Datasheet_Revision": "DS16003 Rev24-2 December2014",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        124.46,
+        63.5,
+        180
+      ],
+      "unit": 1,
+      "uuid": "afeb5298-4140-50c1-9337-bc3874ff40cb"
+    },
+    "C302": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C302",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "25V",
+        "Design_Note": "Effective >=2.2uF at 5.25V; directly adjacent U101 IN/GND",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        149.86,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "b0d96ac1-d44e-59f2-af26-464b2912bcb3"
+    },
+    "U101": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:TLV76733DRVR",
+      "properties": {
+        "Reference": "U101",
+        "Value": "TLV76733DRVR",
+        "Footprint": "MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tlv767.pdf",
+        "Description": "3.3V 1A 16V-input LDO; WSON-6-EP",
+        "Datasheet_Revision": "Rev D",
+        "Library_Revision": "1",
+        "Verification": "reviewed",
+        "Purchase_URL": "https://item.szlcsc.com/3046559.html",
+        "Supplier_PN": "C2848334",
+        "Supplier": "LCSC",
+        "MPN": "TLV76733DRVR",
+        "Manufacturer": "TI",
+        "ki_keywords": "TLV76733DRVR C2848334",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending."
+      },
+      "dnp": "no",
+      "at": [
+        218.44,
+        66.04,
+        0
+      ],
+      "unit": 1,
+      "uuid": "189832e8-2968-542d-8a9c-9663fdd46311"
+    },
+    "D103": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:PMEG2010ER_115",
+      "properties": {
+        "Reference": "D103",
+        "Value": "PMEG2010ER,115",
+        "Footprint": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+        "Description": "Schottky rectifier; 20V; 1A; CFP3/SOD123W",
+        "ki_keywords": "PMEG2010ER,115 C82288",
+        "Manufacturer": "Nexperia",
+        "MPN": "PMEG2010ER,115",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C82288",
+        "Purchase_URL": "https://item.szlcsc.com/83445.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Symbol_Source": "Device:D_Schottky",
+        "Datasheet_Revision": "v3; 2023-07-01",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        213.36,
+        50.8,
+        0
+      ],
+      "unit": 1,
+      "uuid": "dfa37bc4-1a6e-59b6-9ee5-a28bfead5824"
+    },
+    "C303": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:C",
+      "properties": {
+        "Reference": "C303",
+        "Value": "4.7u",
+        "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "16V",
+        "Design_Note": "Effective >=2.2uF at 3.3V; U101 OUT capacitor",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"
+      },
+      "dnp": "no",
+      "at": [
+        269.24,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "63784f75-a1e9-578d-8794-76c062cf98b8"
+    },
+    "C304": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:CC0603KRX7R9BB104",
+      "properties": {
+        "Reference": "C304",
+        "Value": "100n",
+        "Footprint": "MyFootprints:C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+        "Description": "MLCC; 100nF; 50VDC; +/-10%; X7R; 0603/1608; body1.6x0.8mm; height max0.9mm",
+        "ki_keywords": "CC0603KRX7R9BB104 C14663 capacitor 100nF",
+        "Manufacturer": "YAGEO",
+        "MPN": "CC0603KRX7R9BB104",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "50V",
+        "Design_Note": "",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier_PN": "C14663",
+        "Purchase_URL": "https://item.szlcsc.com/15331.html",
+        "Verification": "reviewed",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "YAGEO part-specific specsheet; Generated 11/10/2026 (MM/DD/YYYY)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/YAGEO_CC0603KRX7R9BB104_2026-11-10.pdf",
+        "Capacitance": "100nF",
+        "Voltage": "50VDC",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Height_Max": "0.9mm"
+      },
+      "dnp": "no",
+      "at": [
+        297.18,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "7b11446b-5b84-5d87-aed7-770e91f16251"
+    },
+    "R302": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:RT0603BRD073K83L",
+      "properties": {
+        "Reference": "R302",
+        "Value": "3.83k 0.1%",
+        "Footprint": "MyFootprints:R_0603_1608Metric",
+        "Datasheet": "https://yageogroup.com/download/specsheet/RT0603BRD073K83L",
+        "Description": "3.83kOhm +/-0.1%; 0.1W at70C; +/-25ppm/K; 0603; 75V max",
+        "ki_keywords": "RT0603BRD073K83L C861384",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "RT0603BRD073K83L",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Tolerance": "0.1%",
+        "Design_Note": "",
+        "Supplier_PN": "C861384",
+        "Purchase_URL": "https://item.szlcsc.com/921722.html",
+        "Datasheet_Revision": "Generated 11/10/2026",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        55.88,
+        165.1,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c4efafe1-73c2-5f33-96d5-05eab144fff8"
+    },
+    "R303": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:RT0603BRD0710KL",
+      "properties": {
+        "Reference": "R303",
+        "Value": "10k 0.1%",
+        "Footprint": "MyFootprints:R_0603_1608Metric",
+        "Datasheet": "https://yageogroup.com/download/specsheet/RT0603BRD0710KL",
+        "Description": "10kOhm +/-0.1%; 0.1W at70C; +/-25ppm/K; 0603; 75V max",
+        "ki_keywords": "RT0603BRD0710KL C95204",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "RT0603BRD0710KL",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Tolerance": "0.1%",
+        "Design_Note": "",
+        "Supplier_PN": "C95204",
+        "Purchase_URL": "https://item.szlcsc.com/96405.html",
+        "Datasheet_Revision": "Generated 11/10/2026",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        55.88,
+        187.96,
+        0
+      ],
+      "unit": 1,
+      "uuid": "71f88a0b-8db7-5f0c-b9df-ab987fb5cbcf"
+    },
+    "U104": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:TL431BIDBZR",
+      "properties": {
+        "Reference": "U104",
+        "Value": "TL431BIDBZR",
+        "Footprint": "MyFootprints:TI_DBZ0003A_Pad1.30x0.60mm_P2.10mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tl431.pdf",
+        "Description": "Adjustable precision shunt reference; B grade0.5%; industrial -40..85C; DBZ SOT23-3",
+        "ki_keywords": "TL431BIDBZR C41283",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TL431BIDBZR",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C41283",
+        "Purchase_URL": "https://item.szlcsc.com/42267.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Symbol_Source": "Reference_Voltage:TL431DBZ",
+        "Datasheet_Revision": "SLVS543S May2024",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        106.68,
+        177.8,
+        90
+      ],
+      "unit": 1,
+      "uuid": "1bb0d140-27b9-5ce4-b668-3453b78f1f39"
+    },
+    "C305": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:T491B476K010AT",
+      "properties": {
+        "Reference": "C305",
+        "Value": "47u 10% 10V",
+        "Footprint": "MyFootprints:KEMET_T491_B_3528_Pad1.80x2.23mm_Gap1.12mm",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/T491B476K010AT",
+        "Description": "47uF +/-10%; 10V at85C; MnO2 tantalum; ESR1Ohm; B3528 Hmax2.1mm",
+        "ki_keywords": "T491B476K010AT C116617",
+        "Manufacturer": "KEMET",
+        "MPN": "T491B476K010AT",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "10V",
+        "Design_Note": "Populate. MnO2 tantalum bulk retains capacitance under bias. TL431 stability compensation; not interchangeable with a nominal MLCC without analysis.",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier_PN": "C116617",
+        "Purchase_URL": "https://item.szlcsc.com/117871.html",
+        "Datasheet_Revision": "Generated 11/10/2026; land T2005_T491 2026-07-08 p15",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        160.02,
+        177.8,
+        0
+      ],
+      "unit": 1,
+      "uuid": "0f91de92-8c00-556c-ac9e-b8c78d84559b"
+    },
+    "U102": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:TPS3808G33DBVR",
+      "properties": {
+        "Reference": "U102",
+        "Value": "TPS3808G33DBVR",
+        "Footprint": "MyFootprints:SOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+        "Description": "3.07V threshold supervisor, open-drain reset; SOT-23-6",
+        "Datasheet_Revision": "Rev N",
+        "Library_Revision": "1",
+        "Verification": "reviewed",
+        "Purchase_URL": "https://item.szlcsc.com/44691.html",
+        "Supplier_PN": "C43698",
+        "Supplier": "LCSC",
+        "MPN": "TPS3808G33DBVR",
+        "Manufacturer": "TI",
+        "ki_keywords": "TPS3808G33DBVR C43698",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending."
+      },
+      "dnp": "no",
+      "at": [
+        279.4,
+        182.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "82731304-e3a5-5676-bd39-ce5b9f85e627"
+    },
+    "R304": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R304",
+        "Value": "1k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": ""
+      },
+      "dnp": "no",
+      "at": [
+        233.68,
+        172.72,
+        0
+      ],
+      "unit": 1,
+      "uuid": "8c63b41b-f31d-534f-bf1b-8c07f879910d"
+    },
+    "R305": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R305",
+        "Value": "1.1k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": ""
+      },
+      "dnp": "no",
+      "at": [
+        233.68,
+        195.58,
+        0
+      ],
+      "unit": 1,
+      "uuid": "ce6e6016-52c4-5f3f-b4a5-b6275d236453"
+    },
+    "C306": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:CC0603KRX7R9BB104",
+      "properties": {
+        "Reference": "C306",
+        "Value": "100n",
+        "Footprint": "MyFootprints:C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+        "Description": "MLCC; 100nF; 50VDC; +/-10%; X7R; 0603/1608; body1.6x0.8mm; height max0.9mm",
+        "ki_keywords": "CC0603KRX7R9BB104 C14663 capacitor 100nF",
+        "Manufacturer": "YAGEO",
+        "MPN": "CC0603KRX7R9BB104",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "50V",
+        "Design_Note": "",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier_PN": "C14663",
+        "Purchase_URL": "https://item.szlcsc.com/15331.html",
+        "Verification": "reviewed",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "YAGEO part-specific specsheet; Generated 11/10/2026 (MM/DD/YYYY)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/YAGEO_CC0603KRX7R9BB104_2026-11-10.pdf",
+        "Capacitance": "100nF",
+        "Voltage": "50VDC",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Height_Max": "0.9mm"
+      },
+      "dnp": "no",
+      "at": [
+        314.96,
+        167.64,
+        0
+      ],
+      "unit": 1,
+      "uuid": "32348b2d-c933-5f42-9407-4f67cfb16cdb"
+    },
+    "R306": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R306",
+        "Value": "10k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "Supplier": "LCSC",
+        "MPN": "TBD",
+        "Selection_Status": "value assigned; exact YAGEO MPN/LCSC pending",
+        "Tolerance": "1%",
+        "Design_Note": ""
+      },
+      "dnp": "no",
+      "at": [
+        327.66,
+        167.64,
+        0
+      ],
+      "unit": 1,
+      "uuid": "60878c71-a115-5635-b081-b48b9fe6a1ba"
+    },
+    "U103": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:SN74LVC1G17DBVR",
+      "properties": {
+        "Reference": "U103",
+        "Value": "SN74LVC1G17DBVR",
+        "Footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+        "Description": "Single noninverting Schmitt buffer; 1.65-5.5V; Ioff; SOT23-5 DBV",
+        "ki_keywords": "SN74LVC1G17DBVR C7836",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "SN74LVC1G17DBVR",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C7836",
+        "Purchase_URL": "https://item.szlcsc.com/8313.html",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Symbol_Source": "74xGxx:74LVC1G17",
+        "Datasheet_Revision": "SCES351Y October2025",
+        "Library_Revision": "1",
+        "Verification": "reviewed"
+      },
+      "dnp": "no",
+      "at": [
+        360.68,
+        182.88,
+        0
+      ],
+      "unit": 1,
+      "uuid": "559850f2-026a-5eb7-acf1-af1698817c9b"
+    },
+    "C307": {
+      "page": "core_supply.kicad_sch",
+      "lib_id": "MyParts:CC0603KRX7R9BB104",
+      "properties": {
+        "Reference": "C307",
+        "Value": "100n",
+        "Footprint": "MyFootprints:C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+        "Description": "MLCC; 100nF; 50VDC; +/-10%; X7R; 0603/1608; body1.6x0.8mm; height max0.9mm",
+        "ki_keywords": "CC0603KRX7R9BB104 C14663 capacitor 100nF",
+        "Manufacturer": "YAGEO",
+        "MPN": "CC0603KRX7R9BB104",
+        "Supplier": "LCSC",
+        "Voltage_Rating": "50V",
+        "Design_Note": "",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier_PN": "C14663",
+        "Purchase_URL": "https://item.szlcsc.com/15331.html",
+        "Verification": "reviewed",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "YAGEO part-specific specsheet; Generated 11/10/2026 (MM/DD/YYYY)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/YAGEO_CC0603KRX7R9BB104_2026-11-10.pdf",
+        "Capacitance": "100nF",
+        "Voltage": "50VDC",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Height_Max": "0.9mm"
+      },
+      "dnp": "no",
+      "at": [
+        383.54,
+        167.64,
+        0
+      ],
+      "unit": 1,
+      "uuid": "85ab6d21-3d25-5ad1-bc62-df03a70b2eb3"
+    },
+    "U105": {
+      "page": "core_arm.kicad_sch",
+      "lib_id": "MyParts:SN74LVC1G08DBVR",
+      "properties": {
+        "Reference": "U105",
+        "Value": "SN74LVC1G08DBVR",
+        "Footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+        "Description": "Single 2-input AND; 1.65-5.5V; Ioff; SOT23-5 DBV",
+        "ki_keywords": "SN74LVC1G08DBVR C7666",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "SN74LVC1G08DBVR",
+        "Supplier_PN": "C7666",
+        "Purchase_URL": "https://item.szlcsc.com/8143.html",
+        "Verification": "reviewed",
+        "Design_Note": "Ioff AND after U103 Schmitt reset buffer; PC7 held LOW unless application explicitly arms.",
+        "Datasheet_Revision": "SCES217AA August2026",
+        "Library_Revision": "1",
+        "Supplier": "LCSC",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending."
+      },
+      "dnp": "no",
+      "at": [
+        172.72,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "4a9f85a0-0242-54a8-ba80-94b713a6161b"
+    },
+    "R402": {
+      "page": "core_arm.kicad_sch",
+      "lib_id": "Device:R",
+      "properties": {
+        "Reference": "R402",
+        "Value": "10k",
+        "Footprint": "Resistor_SMD:R_0603_1608Metric",
+        "Datasheet": "",
+        "Description": "Resistor",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*",
+        "Manufacturer": "YAGEO",
+        "MPN": "TBD",
+        "Tolerance": "1%",
+        "Selection_Status": "exact YAGEO MPN pending",
+        "Design_Note": "Local RUN_ARM pull-down. Inverter application reserves PC7; ROM bootloader leaves it undriven."
+      },
+      "dnp": "no",
+      "at": [
+        121.92,
+        104.14,
+        0
+      ],
+      "unit": 1,
+      "uuid": "1c6b0c8d-f6d5-5b38-a2e2-0074b9af4ebe"
+    },
+    "C308": {
+      "page": "core_arm.kicad_sch",
+      "lib_id": "MyParts:CC0603KRX7R9BB104",
+      "properties": {
+        "Reference": "C308",
+        "Value": "100n",
+        "Footprint": "MyFootprints:C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+        "Description": "MLCC; 100nF; 50VDC; +/-10%; X7R; 0603/1608; body1.6x0.8mm; height max0.9mm",
+        "ki_keywords": "CC0603KRX7R9BB104 C14663 capacitor 100nF",
+        "Manufacturer": "YAGEO",
+        "MPN": "CC0603KRX7R9BB104",
+        "Voltage_Rating": "50V",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Supplier": "LCSC",
+        "Supplier_PN": "C14663",
+        "Purchase_URL": "https://item.szlcsc.com/15331.html",
+        "Verification": "reviewed",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "YAGEO part-specific specsheet; Generated 11/10/2026 (MM/DD/YYYY)",
+        "Datasheet_File": "${KIPRJMOD}/../../../../kicad_library/datasheets/YAGEO_CC0603KRX7R9BB104_2026-11-10.pdf",
+        "Capacitance": "100nF",
+        "Voltage": "50VDC",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Height_Max": "0.9mm"
+      },
+      "dnp": "no",
+      "at": [
+        238.76,
+        78.74,
+        0
+      ],
+      "unit": 1,
+      "uuid": "b446063a-6cd6-5ef7-b691-cd84aaf4a40e"
+    },
+    "J101": {
+      "page": "core_interface.kicad_sch",
+      "lib_id": "MyParts:PZ254V-12-32P",
+      "properties": {
+        "Reference": "J101",
+        "Value": "PZ254V-12-32P",
+        "Footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240617/7BDC3EEBCF4C501A0924363F71CB3FB4.pdf",
+        "Description": "XFCN male pin header; body height2.50mm; mating pin6.1mm; 2x16; pitch/row spacing2.54mm; THT; 3A contact rating; -40 to 105C",
+        "ki_keywords": "PZ254V-12-32P C22465940",
+        "Manufacturer": "XFCN",
+        "MPN": "PZ254V-12-32P",
+        "Supplier_PN": "C22465940",
+        "Purchase_URL": "https://item.szlcsc.com/24163082.html",
+        "Verification": "reviewed",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Design_Note": "Core TOP male faces UP into power board BOTTOM socket facing DOWN. Both boards 60x60mm; power above core. Recheck physical pin1/rotation; not Rev D 40-pin compatible.",
+        "Supplier": "LCSC",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "A1; drawing 2024-06-04; change table 2024-05-24",
+        "Datasheet_File": "",
+        "Pitch": "2.54mm",
+        "Rows": "2",
+        "Positions_Per_Row": "16",
+        "Body_Length": "40.64mm",
+        "Body_Width": "5.0mm",
+        "Body_Height": "2.50mm body; 6.1+/-0.20mm mating pin",
+        "Tail_Length": "3.0+/-0.20mm",
+        "Current_Rating": "3A (drawing rating)",
+        "Withstanding_Voltage": "600VAC / 1min (test)",
+        "Numbering_Convention": "Manufacturer mating/top view rotated 90deg clockwise; odd-left/even-right"
+      },
+      "dnp": "no",
+      "at": [
+        91.44,
+        66.04,
+        0
+      ],
+      "unit": 1,
+      "uuid": "1b4e7c6f-4eff-5bd8-b946-506593c0aad1"
+    },
+    "J102": {
+      "page": "core_interface.kicad_sch",
+      "lib_id": "MyParts:PZ254V-12-32P",
+      "properties": {
+        "Reference": "J102",
+        "Value": "PZ254V-12-32P",
+        "Footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240617/7BDC3EEBCF4C501A0924363F71CB3FB4.pdf",
+        "Description": "XFCN male pin header; body height2.50mm; mating pin6.1mm; 2x16; pitch/row spacing2.54mm; THT; 3A contact rating; -40 to 105C",
+        "ki_keywords": "PZ254V-12-32P C22465940",
+        "Manufacturer": "XFCN",
+        "MPN": "PZ254V-12-32P",
+        "Supplier_PN": "C22465940",
+        "Purchase_URL": "https://item.szlcsc.com/24163082.html",
+        "Verification": "reviewed",
+        "Selection_Status": "Shared reviewed component reused; application and assembly validation remain pending.",
+        "Design_Note": "Core TOP male faces UP into power board BOTTOM socket facing DOWN. Both boards 60x60mm; power above core. Recheck physical pin1/rotation; not Rev D 40-pin compatible.",
+        "Supplier": "LCSC",
+        "Library_Revision": "1",
+        "Datasheet_Revision": "A1; drawing 2024-06-04; change table 2024-05-24",
+        "Datasheet_File": "",
+        "Pitch": "2.54mm",
+        "Rows": "2",
+        "Positions_Per_Row": "16",
+        "Body_Length": "40.64mm",
+        "Body_Width": "5.0mm",
+        "Body_Height": "2.50mm body; 6.1+/-0.20mm mating pin",
+        "Tail_Length": "3.0+/-0.20mm",
+        "Current_Rating": "3A (drawing rating)",
+        "Withstanding_Voltage": "600VAC / 1min (test)",
+        "Numbering_Convention": "Manufacturer mating/top view rotated 90deg clockwise; odd-left/even-right"
+      },
+      "dnp": "no",
+      "at": [
+        292.1,
+        66.04,
+        0
+      ],
+      "unit": 1,
+      "uuid": "c89993a9-2399-5c19-8b6d-5618940036e1"
+    }
+  },
+  "adopted_references": [
+    {
+      "ref": "U30",
+      "page": "mcu.kicad_sch",
+      "supplier_pn": "C431633",
+      "before_symbol": "InverterLocal:STM32G431RBT6",
+      "after_symbol": "MyParts:STM32G431RBT6",
+      "before_footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "after_footprint": "MyFootprints:ST_LQFP-64_10x10mm_P0.5mm_Pad1.2x0.3mm",
+      "before_mpn": "STM32G431RBT6",
+      "after_mpn": "STM32G431RBT6",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "SW2",
+      "page": "mcu_control.kicad_sch",
+      "supplier_pn": "C318938",
+      "before_symbol": "Switch:SW_Push",
+      "after_symbol": "MyParts:TS-1101-C-W",
+      "before_footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "after_footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+      "before_mpn": "TS-1088-AR02016",
+      "after_mpn": "TS-1101-C-W",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "SW3",
+      "page": "mcu_control.kicad_sch",
+      "supplier_pn": "C318938",
+      "before_symbol": "Switch:SW_Push",
+      "after_symbol": "MyParts:TS-1101-C-W",
+      "before_footprint": "Button_Switch_SMD:SW_SPST_TS-1088-xR020",
+      "after_footprint": "MyFootprints:XKB_TS-1101-C-W_6.05x3.70mm_Pad1.10x1.00mm",
+      "before_mpn": "TS-1088-AR02016",
+      "after_mpn": "TS-1101-C-W",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "D101",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C914434",
+      "before_symbol": "CoreProtection:SMF6_0A_TP",
+      "after_symbol": "MyParts:SMF6.0A-TP",
+      "before_footprint": "Diode_SMD:D_SOD-123F",
+      "after_footprint": "MyFootprints:MCC_SOD-123FL_Pad0.91x1.22mm_Gap2.36mm",
+      "before_mpn": "SMF6.0A-TP",
+      "after_mpn": "SMF6.0A-TP",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "D102",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C150735",
+      "before_symbol": "CoreProtection:S1A_13_F",
+      "after_symbol": "MyParts:S1A-13-F",
+      "before_footprint": "Diode_SMD:D_SMA",
+      "after_footprint": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm",
+      "before_mpn": "S1A-13-F",
+      "after_mpn": "S1A-13-F",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "U101",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C2848334",
+      "before_symbol": "MyParts:TLV76733DRVR",
+      "after_symbol": "MyParts:TLV76733DRVR",
+      "before_footprint": "MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "after_footprint": "MyFootprints:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "before_mpn": "TLV76733DRVR",
+      "after_mpn": "TLV76733DRVR",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "D103",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C82288",
+      "before_symbol": "CoreProtection:PMEG2010ER_115",
+      "after_symbol": "MyParts:PMEG2010ER_115",
+      "before_footprint": "Diode_SMD:Nexperia_CFP3_SOD-123W",
+      "after_footprint": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+      "before_mpn": "PMEG2010ER,115",
+      "after_mpn": "PMEG2010ER,115",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "C304",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C14663",
+      "before_symbol": "Device:C",
+      "after_symbol": "MyParts:CC0603KRX7R9BB104",
+      "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "after_footprint": "MyFootprints:C_0603_1608Metric",
+      "before_mpn": "TBD",
+      "after_mpn": "CC0603KRX7R9BB104",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "R302",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C861384",
+      "before_symbol": "Device:R",
+      "after_symbol": "MyParts:RT0603BRD073K83L",
+      "before_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "after_footprint": "MyFootprints:R_0603_1608Metric",
+      "before_mpn": "RT0603BRD073K83L",
+      "after_mpn": "RT0603BRD073K83L",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {
+        "1": [
+          {
+            "at": [
+              0,
+              3.81,
+              270
+            ],
+            "type": "passive",
+            "name": ""
+          },
+          {
+            "at": [
+              0,
+              3.81,
+              270
+            ],
+            "type": "passive",
+            "name": "1"
+          }
+        ],
+        "2": [
+          {
+            "at": [
+              0,
+              -3.81,
+              90
+            ],
+            "type": "passive",
+            "name": ""
+          },
+          {
+            "at": [
+              0,
+              -3.81,
+              90
+            ],
+            "type": "passive",
+            "name": "2"
+          }
+        ]
+      }
+    },
+    {
+      "ref": "R303",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C95204",
+      "before_symbol": "Device:R",
+      "after_symbol": "MyParts:RT0603BRD0710KL",
+      "before_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "after_footprint": "MyFootprints:R_0603_1608Metric",
+      "before_mpn": "RT0603BRD0710KL",
+      "after_mpn": "RT0603BRD0710KL",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {
+        "1": [
+          {
+            "at": [
+              0,
+              3.81,
+              270
+            ],
+            "type": "passive",
+            "name": ""
+          },
+          {
+            "at": [
+              0,
+              3.81,
+              270
+            ],
+            "type": "passive",
+            "name": "1"
+          }
+        ],
+        "2": [
+          {
+            "at": [
+              0,
+              -3.81,
+              90
+            ],
+            "type": "passive",
+            "name": ""
+          },
+          {
+            "at": [
+              0,
+              -3.81,
+              90
+            ],
+            "type": "passive",
+            "name": "2"
+          }
+        ]
+      }
+    },
+    {
+      "ref": "U104",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C41283",
+      "before_symbol": "CoreProtection:TL431BIDBZR",
+      "after_symbol": "MyParts:TL431BIDBZR",
+      "before_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "after_footprint": "MyFootprints:TI_DBZ0003A_Pad1.30x0.60mm_P2.10mm",
+      "before_mpn": "TL431BIDBZR",
+      "after_mpn": "TL431BIDBZR",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {
+        "2": [
+          {
+            "at": [
+              0,
+              2.54,
+              270
+            ],
+            "type": "passive",
+            "name": "REF"
+          },
+          {
+            "at": [
+              0,
+              2.54,
+              270
+            ],
+            "type": "input",
+            "name": "REF"
+          }
+        ]
+      }
+    },
+    {
+      "ref": "C305",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C116617",
+      "before_symbol": "Device:C_Polarized",
+      "after_symbol": "MyParts:T491B476K010AT",
+      "before_footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+      "after_footprint": "MyFootprints:KEMET_T491_B_3528_Pad1.80x2.23mm_Gap1.12mm",
+      "before_mpn": "T491B476K010AT",
+      "after_mpn": "T491B476K010AT",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {
+        "1": [
+          {
+            "at": [
+              0,
+              3.81,
+              270
+            ],
+            "type": "passive",
+            "name": ""
+          },
+          {
+            "at": [
+              0,
+              3.81,
+              270
+            ],
+            "type": "passive",
+            "name": "+"
+          }
+        ],
+        "2": [
+          {
+            "at": [
+              0,
+              -3.81,
+              90
+            ],
+            "type": "passive",
+            "name": ""
+          },
+          {
+            "at": [
+              0,
+              -3.81,
+              90
+            ],
+            "type": "passive",
+            "name": "-"
+          }
+        ]
+      }
+    },
+    {
+      "ref": "U102",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C43698",
+      "before_symbol": "MyParts:TPS3808G33DBVR",
+      "after_symbol": "MyParts:TPS3808G33DBVR",
+      "before_footprint": "MyFootprints:SOT-23-6",
+      "after_footprint": "MyFootprints:SOT-23-6",
+      "before_mpn": "TPS3808G33DBVR",
+      "after_mpn": "TPS3808G33DBVR",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "C306",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C14663",
+      "before_symbol": "Device:C",
+      "after_symbol": "MyParts:CC0603KRX7R9BB104",
+      "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "after_footprint": "MyFootprints:C_0603_1608Metric",
+      "before_mpn": "TBD",
+      "after_mpn": "CC0603KRX7R9BB104",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "U103",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C7836",
+      "before_symbol": "CoreProtection:SN74LVC1G17DBVR",
+      "after_symbol": "MyParts:SN74LVC1G17DBVR",
+      "before_footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "after_footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+      "before_mpn": "SN74LVC1G17DBVR",
+      "after_mpn": "SN74LVC1G17DBVR",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {
+        "2": [
+          {
+            "at": [
+              -12.7,
+              0,
+              0
+            ],
+            "type": "input",
+            "name": ""
+          },
+          {
+            "at": [
+              -12.7,
+              0,
+              0
+            ],
+            "type": "input",
+            "name": "A"
+          }
+        ],
+        "4": [
+          {
+            "at": [
+              10.16,
+              0,
+              180
+            ],
+            "type": "output",
+            "name": ""
+          },
+          {
+            "at": [
+              10.16,
+              0,
+              180
+            ],
+            "type": "output",
+            "name": "Y"
+          }
+        ]
+      }
+    },
+    {
+      "ref": "C307",
+      "page": "core_supply.kicad_sch",
+      "supplier_pn": "C14663",
+      "before_symbol": "Device:C",
+      "after_symbol": "MyParts:CC0603KRX7R9BB104",
+      "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "after_footprint": "MyFootprints:C_0603_1608Metric",
+      "before_mpn": "TBD",
+      "after_mpn": "CC0603KRX7R9BB104",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "U105",
+      "page": "core_arm.kicad_sch",
+      "supplier_pn": "C7666",
+      "before_symbol": "74xGxx:74LVC1G08",
+      "after_symbol": "MyParts:SN74LVC1G08DBVR",
+      "before_footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "after_footprint": "MyFootprints:TI_DBV0005A_Pad1.10x0.60mm_P2.60mm",
+      "before_mpn": "SN74LVC1G08DBVR",
+      "after_mpn": "SN74LVC1G08DBVR",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {
+        "1": [
+          {
+            "at": [
+              -15.24,
+              2.54,
+              0
+            ],
+            "type": "input",
+            "name": ""
+          },
+          {
+            "at": [
+              -15.24,
+              2.54,
+              0
+            ],
+            "type": "input",
+            "name": "A"
+          }
+        ],
+        "2": [
+          {
+            "at": [
+              -15.24,
+              -2.54,
+              0
+            ],
+            "type": "input",
+            "name": ""
+          },
+          {
+            "at": [
+              -15.24,
+              -2.54,
+              0
+            ],
+            "type": "input",
+            "name": "B"
+          }
+        ],
+        "4": [
+          {
+            "at": [
+              12.7,
+              0,
+              180
+            ],
+            "type": "output",
+            "name": ""
+          },
+          {
+            "at": [
+              12.7,
+              0,
+              180
+            ],
+            "type": "output",
+            "name": "Y"
+          }
+        ]
+      }
+    },
+    {
+      "ref": "C308",
+      "page": "core_arm.kicad_sch",
+      "supplier_pn": "C14663",
+      "before_symbol": "Device:C",
+      "after_symbol": "MyParts:CC0603KRX7R9BB104",
+      "before_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "after_footprint": "MyFootprints:C_0603_1608Metric",
+      "before_mpn": "TBD",
+      "after_mpn": "CC0603KRX7R9BB104",
+      "physical_pin_numbers": [
+        "1",
+        "2"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "J101",
+      "page": "core_interface.kicad_sch",
+      "supplier_pn": "C22465940",
+      "before_symbol": "Connector_Generic:Conn_02x16_Odd_Even",
+      "after_symbol": "MyParts:PZ254V-12-32P",
+      "before_footprint": "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical",
+      "after_footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+      "before_mpn": "PZ254V-12-32P",
+      "after_mpn": "PZ254V-12-32P",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    },
+    {
+      "ref": "J102",
+      "page": "core_interface.kicad_sch",
+      "supplier_pn": "C22465940",
+      "before_symbol": "Connector_Generic:Conn_02x16_Odd_Even",
+      "after_symbol": "MyParts:PZ254V-12-32P",
+      "before_footprint": "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical",
+      "after_footprint": "MyFootprints:XFCN_PZ254V-12-32P_2x16_P2.54mm_Vertical_Drill1.02mm",
+      "before_mpn": "PZ254V-12-32P",
+      "after_mpn": "PZ254V-12-32P",
+      "physical_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "pin_coordinates_identical": true,
+      "pin_semantic_changes": {}
+    }
+  ],
+  "unchanged_graphics": "All wires, labels, junctions and NC markers retained exactly. Shared pin coordinate equality checked first.",
+  "old_script_compatibility": {
+    "tools/migrate_core.py": "Historical Rev C to Rev D authoring snapshot; not executed.",
+    "tools/verify_migrated_core.py": "Hardcodes 97 refs, old five-page subset, old NC/LED/ADC assumptions; not current Rev E.",
+    "tools/build_core_supply.py": "Historical power-page authoring snapshot; not executed.",
+    "inverter/hardware/tools/verify_minimum_core.py": "Current architecture checks useful, but compares old Value/Footprint exactly and writes CSV; root will adapt system verifier. Not executed by this migration."
+  },
+  "allowed_procurement_changes": [
+    "SW2/SW3 use TS-1101-C-W/C318938",
+    "C304/C306/C307/C308 use 100nF 50V X7R 0603 C14663",
+    "All existing exact C-number parts use reviewed shared symbols and dedicated footprints"
+  ],
+  "remaining_TBD_references": [
+    "C301",
+    "C302",
+    "C303",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C83",
+    "C84",
+    "R122",
+    "R301",
+    "R304",
+    "R305",
+    "R306",
+    "R401",
+    "R402",
+    "R92",
+    "R93",
+    "Y1"
+  ],
+  "limits": [
+    "No PCB placement or mechanical mating validation.",
+    "No dynamic/thermal/prototype validation.",
+    "Baseline circuit Values, physical pins and DNP are unchanged."
+  ]
+}

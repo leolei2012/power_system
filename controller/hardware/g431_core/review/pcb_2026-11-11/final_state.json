@@ -1,0 +1,72 @@
+{
+  "stage": "Rev E connected PCB review, not production release",
+  "saved_at": "2026-11-11T10:24:27+08:00",
+  "source_pcb": "controller.kicad_pcb",
+  "source_sha256": "73c32fa93b8be3c522c1316792671d268f7ed2ff49ce6d4bcbc81cc8ad145576",
+  "project_sha256": "5f653764eb2ea2d55485ef104f84923874a141b08881f9b6215fd276809db525",
+  "xml_sha256": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1",
+  "mechanical_contract_sha256": "99968e8d0c57a1ebc1e7044d8d8a78a942657538b9e23cd12c6e99be6d74e885",
+  "physical_refs": 47,
+  "board_only_holes": 4,
+  "numbered_pad_nodes": 233,
+  "DNP": [
+    "C83",
+    "C84",
+    "Y1"
+  ],
+  "tracks": 1041,
+  "vias": 95,
+  "native_unconnected": 0,
+  "cli_unconnected": 0,
+  "electrical_geometry_errors": 0,
+  "courtyard_collisions": [],
+  "outside": [],
+  "warning_categories": {
+    "silk_overlap": 4,
+    "silk_over_copper": 5
+  },
+  "parity_warnings": 15,
+  "parity_reason": "All 15 are reserved ki_fp_filters field warnings; physical footprint/value/DNP/pad-net mapping strictly checked.",
+  "persisted_relative_model_paths": 18,
+  "final_changes": [
+    {
+      "record": "core_ground_final_patch.json",
+      "scope": "local VREF/GND route and nonpolar C79 rotation at unchanged centre"
+    },
+    {
+      "scope": "VBAT simplification",
+      "removed_uuids": [
+        "7f71c247-c567-424d-88f6-54a5b7c6b387",
+        "aaf951fe-7edb-4d5a-994a-47822d9bc196",
+        "4a5cd78f-b64f-4239-9674-0da9dfccc07a",
+        "9be9a4f6-a09e-46da-9193-a17399fbbd6a"
+      ],
+      "added": "F .30 U30.1 (122.25,133.75) to existing +3V3 via (120.07,133.75)"
+    },
+    {
+      "record": "final_pc13_route.json",
+      "scope": "PC13 F escape and ordinary multilayer path to J102.24"
+    },
+    {
+      "record": "final_vbat_feed_bridge.json",
+      "scope": "actual C67 B pad1 to existing supply via"
+    },
+    {
+      "record": "final_cleanup.json",
+      "scope": "remove orphan F stubs at B SMD pad XY and unused PC13 via"
+    }
+  ],
+  "filled_zones_saved": true,
+  "schematics_and_shared_library_unchanged": true,
+  "minimum_rules_mm": {
+    "trace": 0.15,
+    "clearance": 0.15,
+    "via_diameter": 0.6,
+    "via_drill": 0.3
+  },
+  "limits": [
+    "9 silkscreen warnings require cleanup before production release.",
+    "HSE startup/load, regulator/monitor dynamics, actual stacking/button access and prototype behaviour remain unverified.",
+    "No production Gerber/drill/assembly package generated."
+  ]
+}

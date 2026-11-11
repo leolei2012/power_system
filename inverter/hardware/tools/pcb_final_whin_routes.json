@@ -1,0 +1,150 @@
+{
+  "source_sha": "205b05ed84c46be5816c5103284097eb2c653a7406a0484beabc30718c7c20f1",
+  "ripup_uuids": [
+    "bc8a773f-0a51-4a6d-9f90-f95211199bfa",
+    "52a79afc-9078-4f6f-9173-9b22d104ceae",
+    "be91ee5a-6d88-484c-b73e-63187eae5bed",
+    "5d84fb0a-e2a7-4f59-970e-cd8c073fad07",
+    "0e8b9c00-ce51-4621-a8d0-c1b007ce731e",
+    "04cc6d5b-a069-4837-bc7b-0295f28b2f70"
+  ],
+  "paths": [
+    {
+      "net": "W_HIN",
+      "layer": "In2.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          156.117,
+          50.9682
+        ],
+        [
+          156.117,
+          48.5
+        ],
+        [
+          158.9,
+          48.5
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_HIN",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          158.9,
+          48.5
+        ],
+        [
+          159.7,
+          48.5
+        ],
+        [
+          159.7,
+          49.595
+        ],
+        [
+          160.925,
+          49.595
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          158.825,
+          49.6
+        ],
+        [
+          158.2,
+          49.6
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_SOURCE",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          158.2,
+          49.6
+        ],
+        [
+          158.825,
+          52.135
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          158.825,
+          52.135
+        ],
+        [
+          159.694,
+          52.135
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "W_SOURCE",
+      "x": 158.2,
+      "y": 49.6,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "W_SOURCE",
+      "x": 158.825,
+      "y": 52.135,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "W_HIN",
+      "x": 158.9,
+      "y": 48.5,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\inverter_whin_candidate.kicad_pcb",
+  "validation": {
+    "electrical_errors": 0,
+    "unconnected_before": 17,
+    "unconnected_after": 16,
+    "drc_report": "review/pcb_whin_candidate_drc.json",
+    "warnings": {
+      "track_dangling": 10,
+      "via_dangling": 11,
+      "lib_footprint_issues": 34
+    }
+  },
+  "notes": [
+    "Keep existingW_HIN entry via156.117,50.9682 and itsF branch toR35.1 unchanged; compatible with power agent moving the longW_HIN section.",
+    "Removes six unlocked ordinaryW_SOURCE tracks forming a fence aroundU9.1, and reconnectsR35.2 to same-phase SOURCE/COM via a shortB return. Never joinsGND.",
+    "No HO/LO, main power, fixed Kelvin or footprint placement touched. NewW_HIN local bridge onIn2 thenF.",
+    "Two SOURCE vias and one W_HIN via are0.6/0.3mm through/tented. Root must rerun merged DRC because power agent also changes nearby power/HO routing."
+  ]
+}

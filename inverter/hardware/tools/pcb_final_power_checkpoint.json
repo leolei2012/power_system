@@ -1,0 +1,130 @@
+{
+  "source_sha": "205b05ed84c46be5816c5103284097eb2c653a7406a0484beabc30718c7c20f1",
+  "ripup_uuids": [
+    "4b036bc2-f710-4168-9435-e414bbcbca66",
+    "5020d792-3b1c-4a5d-ab85-5b4facd01b5b",
+    "56a467ac-b7e9-4969-aa02-592c98f2acf4",
+    "599545d4-8926-4a76-9e7b-56931694464d",
+    "7c94574f-80fa-4a4d-947c-e48ce71c0b3e",
+    "7cebcea9-b3b6-47e7-9905-40d0ff23f763",
+    "8a62cc0e-fc85-4b0b-b484-8c8ec441dd44",
+    "bdacd0d5-de66-4fb1-bd85-95e1c2540b5f",
+    "c795838b-16e9-492d-91c2-1b6b34552ac2",
+    "eafcb47f-8ebb-4081-af18-8e9cbca7897d",
+    "f70c165f-49ca-481d-b48e-f5a83e49c501",
+    "511428d0-8ade-49d0-9701-42118336ddaf",
+    "579afbe0-2714-4535-b31a-ab139cb3119a",
+    "623e3beb-ec45-49b0-a6ee-d848057ec8ae",
+    "684420a4-bf6e-40e8-b73c-15bed188cb19",
+    "9f388b41-0374-4747-af70-b7e410bc1154",
+    "bc361437-9165-4612-8de5-6ad9a3f52ef1",
+    "bce4cd6f-f622-4ab0-8a18-f5c157a505b5",
+    "c5fb302a-9342-4180-81e7-cb841813c3c5",
+    "dcef9836-6619-4970-9f3e-b0f555c5e149",
+    "ee4da9f1-0b2b-45a9-a7b7-4163de19cad5",
+    "fe64e6d9-b942-45fd-9cbc-fb40e0d621a8"
+  ],
+  "paths": [
+    {
+      "net": "/V half bridge/V_HO",
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          140.749,
+          48.6603
+        ],
+        [
+          139.8,
+          48.6603
+        ],
+        [
+          139.8,
+          41.8316
+        ],
+        [
+          140.526,
+          41.8316
+        ]
+      ],
+      "locked": false,
+      "reason": "Short HO reroute between existing vias; release B phase-current region without modifying current-carrying copper."
+    },
+    {
+      "net": "VBUS",
+      "layer": "B.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          118.498,
+          77.4946
+        ],
+        [
+          122.375,
+          86.875
+        ],
+        [
+          122.75,
+          87.25
+        ],
+        [
+          123.375,
+          87.375
+        ],
+        [
+          124.125,
+          86.875
+        ],
+        [
+          125.25,
+          80.125
+        ],
+        [
+          126.125,
+          79.125
+        ],
+        [
+          130.375,
+          76.625
+        ],
+        [
+          131.875,
+          74.875
+        ],
+        [
+          132.25,
+          72.5
+        ],
+        [
+          133.425,
+          71.5
+        ]
+      ],
+      "locked": false,
+      "reason": "Only the R48 240k bus-voltage sensing branch; capacitor feed handled separately.",
+      "search": {
+        "visited": 16570,
+        "elapsed": 0.3279999999795109,
+        "fixed_other_net_objects": 618,
+        "minimum_clearance": 0.4,
+        "step": 0.125
+      }
+    }
+  ],
+  "vias": [],
+  "placements": {},
+  "status": "PASS_ELECTRICAL_DRC_CHECKPOINT",
+  "validation": {
+    "source_unconnected": 17,
+    "candidate_unconnected": 15,
+    "electrical_DRC_errors": 0,
+    "candidate_sha256": "c91dae0f61f674113313539242c570ca5817a0c8a0d1c511ee6de154030abeb6",
+    "DRC_report": "review/inverter_final_power_candidate_drc.json"
+  },
+  "rationale": [
+    "W_HO complete original F path retained; duplicate B loop removed. W_PHASE bootstrap island now joins main current polygon.",
+    "V_HO former B loop replaced with 0.4mm local In2 route, no ordinary In1 routing.",
+    "V_PHASE main copper still divided by W_HIN B long segment; main copper widths untouched."
+  ],
+  "next_dependency": "C21/C22 2mm feed awaits removal/rerouting of W_HIN B chain by aux agent; pending geometry is not applied."
+}

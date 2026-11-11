@@ -1,0 +1,202 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-06T22:20:00",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/807f7785-23e5-53c6-a409-e4c5cf5723c2",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 '+5V_CORE_IN'",
+                            "pos": {
+                                "x": 25.4,
+                                "y": 63.5
+                            },
+                            "uuid": "f0453517-2dd9-5690-9621-926d367923da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "当前配置不包含符号库 'CoreProtection'",
+                    "items": [
+                        {
+                            "description": "符号 D101 [SMF6_0A_TP]",
+                            "pos": {
+                                "x": 71.12,
+                                "y": 78.74
+                            },
+                            "uuid": "a7122a42-0f7c-59ed-bc8f-a830b0410eac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'CoreProtection'",
+                    "items": [
+                        {
+                            "description": "符号 U104 [TL431BIDBZR]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 177.8
+                            },
+                            "uuid": "1bb0d140-27b9-5ce4-b668-3453b78f1f39"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'CoreProtection'",
+                    "items": [
+                        {
+                            "description": "符号 D102 [SS14_MDD]",
+                            "pos": {
+                                "x": 124.46,
+                                "y": 63.5
+                            },
+                            "uuid": "afeb5298-4140-50c1-9337-bc3874ff40cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'CoreProtection'",
+                    "items": [
+                        {
+                            "description": "符号 D103 [SS14_MDD]",
+                            "pos": {
+                                "x": 213.36,
+                                "y": 50.8
+                            },
+                            "uuid": "dfa37bc4-1a6e-59b6-9ee5-a28bfead5824"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'MyFootprints'",
+                    "items": [
+                        {
+                            "description": "符号 U101 [TLV76733DRVR]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 66.04
+                            },
+                            "uuid": "189832e8-2968-542d-8a9c-9663fdd46311"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'MyParts'",
+                    "items": [
+                        {
+                            "description": "符号 U101 [TLV76733DRVR]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 66.04
+                            },
+                            "uuid": "189832e8-2968-542d-8a9c-9663fdd46311"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置中不包含封装库 'MyFootprints'",
+                    "items": [
+                        {
+                            "description": "符号 U102 [TPS3808G33DBVR]",
+                            "pos": {
+                                "x": 279.4,
+                                "y": 182.88
+                            },
+                            "uuid": "82731304-e3a5-5676-bd39-ce5b9f85e627"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'MyParts'",
+                    "items": [
+                        {
+                            "description": "符号 U102 [TPS3808G33DBVR]",
+                            "pos": {
+                                "x": 279.4,
+                                "y": 182.88
+                            },
+                            "uuid": "82731304-e3a5-5676-bd39-ce5b9f85e627"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'CoreProtection'",
+                    "items": [
+                        {
+                            "description": "符号 U103 [SN74LVC1G17DBVR]",
+                            "pos": {
+                                "x": 360.68,
+                                "y": 182.88
+                            },
+                            "uuid": "559850f2-026a-5eb7-acf1-af1698817c9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'CTRL_READY'",
+                            "pos": {
+                                "x": 388.62,
+                                "y": 182.88
+                            },
+                            "uuid": "dcdde511-3f84-56bc-b09f-ea97b95a8adb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "core_supply.kicad_sch"
+}

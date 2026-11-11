@@ -1,0 +1,41 @@
+{
+  "source_pcb_sha256": {
+    "controller": "00ff41b76c650b255ecb764b31ca10304ceb86030d61b25ac067c998bb4bf07c",
+    "inverter": "c1a607b581a23a40bc0b8214063e52fd0bddc3d504321f757ebfc21af5e61792"
+  },
+  "native_CAD_command_for_equal_core_zoom": [
+    "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+    "pcb",
+    "render",
+    "--width",
+    "1400",
+    "--height",
+    "1050",
+    "--side",
+    "top",
+    "--quality",
+    "basic",
+    "--background",
+    "opaque",
+    "--rotate",
+    "330,0,20",
+    "--zoom",
+    "0.65",
+    "--output",
+    "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\previews\\controller_pair_3d.png",
+    "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_pcb"
+  ],
+  "camera_rotation_degrees": [
+    330,
+    0,
+    20
+  ],
+  "zoom_both": 0.65,
+  "image_sha256": {
+    "controller_pair_3d.png": "0301ccb1faebb5c90a550325184b4e59d4cc0c6388e324e07eea157c0c11c591",
+    "inverter_3d.png": "6b44f6b261e1f4758d0a79ecbafc61018c97407ed00c95a650c7d385d4d26deb",
+    "pcb_pair_3d.png": "6868410cf2c264c74e03e07a1a09127c96041b89dba22bbe9e1f9ddd932e645c"
+  },
+  "inverter_raw_unconnected": 236,
+  "note": "Native KiCad renders resized side by side; no component geometry invented."
+}

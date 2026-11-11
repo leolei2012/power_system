@@ -1,0 +1,76 @@
+{
+  "result": "PASS",
+  "scope": "Every physical pin connectivity, value and DNP unchanged; only recorded empty-to-candidate footprints and exact redundant instance-filter cleanup are allowed.",
+  "physical_components": 313,
+  "physical_pins": 919,
+  "net_groups": 228,
+  "sheets": 18,
+  "before": {
+    "wire": 907,
+    "global_label": 889,
+    "label": 0
+  },
+  "after": {
+    "wire": 1074,
+    "global_label": 203,
+    "label": 116
+  },
+  "footprint_candidates_assigned": {
+    "F2": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "J2": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "SW1": "Button_Switch_THT:SW_PUSH_6mm",
+    "L1": "Inductor_SMD:L_10.4x10.4_H4.8",
+    "J7": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "L2": "Inductor_SMD:L_10.4x10.4_H4.8",
+    "F1": "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal",
+    "J3": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+    "J4": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal",
+    "J5": "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal",
+    "J8": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "J9": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "J10": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "J11": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "J12": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "J13": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+    "J14": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "J15": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "SW2": "Button_Switch_THT:SW_PUSH_6mm"
+  },
+  "redundant_instance_metadata_cleanup": {
+    "field": "ki_fp_filters",
+    "removed_symbol_unit_fields": 345,
+    "affected_physical_references": 311,
+    "counts_by_sheet": {
+      "aux_input.kicad_sch": 14,
+      "bridge_u.kicad_sch": 16,
+      "bridge_v.kicad_sch": 16,
+      "bridge_w.kicad_sch": 16,
+      "bus_brake.kicad_sch": 17,
+      "comparators.kicad_sch": 18,
+      "control_interface.kicad_sch": 29,
+      "current_sense.kicad_sch": 26,
+      "debug_comms.kicad_sch": 27,
+      "fault_logic.kicad_sch": 22,
+      "mcu.kicad_sch": 7,
+      "mcu_analog.kicad_sch": 22,
+      "mcu_control.kicad_sch": 14,
+      "sensors.kicad_sch": 30,
+      "supply_12v.kicad_sch": 16,
+      "supply_logic.kicad_sch": 18,
+      "voltage_sense.kicad_sch": 37
+    },
+    "reason": "KiCad 10 drops reserved ki_fp_filters user fields when loading PCB footprints; redundant copies cause schematic/PCB parity warnings.",
+    "comparison_rule": "Only an instance value exactly matching its embedded-library default is omitted; overrides and all other metadata remain strict.",
+    "embedded_library_filters_unchanged": true,
+    "cleanup_script": "tools/cleanup_instance_fp_filters.py",
+    "cleanup_report": "review/symbol_filter_cleanup.json"
+  },
+  "snapshot": "history\\rev_b_before_readability_2026-11-06.zip",
+  "snapshot_sha256": "4707965c1ec31571342266a5411a525cbb4ade161b6f2436d08c4f4103130e0e",
+  "notes": [
+    "KiCad-scoped local names normalized only for name comparison; complete physical node group sets are also compared exactly.",
+    "Standard power/ground symbols and one VBUS ERC power flag are graphical/electrical declarations, not BOM additions.",
+    "No component values, DNP choices or electrical design changed; any footprint assignments are listed explicitly above.",
+    "Redundant instance ki_fp_filters cleanup is counted separately; embedded library filters remain unchanged."
+  ]
+}

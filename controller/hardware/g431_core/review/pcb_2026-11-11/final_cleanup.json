@@ -1,0 +1,29 @@
+{
+  "removed": [
+    {
+      "uuid": "632e7e4d-ce8a-418f-a861-7379e1598661",
+      "net": "GND",
+      "kind": "track",
+      "reason": "orphan F stub at B-side SMD pad; actual B connectivity retained"
+    },
+    {
+      "uuid": "66f5489e-7e1d-477e-9cfd-6f893aa04319",
+      "net": "GND",
+      "kind": "track",
+      "reason": "orphan F stub at B-side SMD pad; actual B connectivity retained"
+    },
+    {
+      "uuid": "e4b25f5a-58a2-4c12-945e-5035f439eea6",
+      "net": "GND",
+      "kind": "track",
+      "reason": "orphan F stub at B-side SMD pad; actual B connectivity retained"
+    },
+    {
+      "uuid": "11ca43e0-a36e-417c-824c-cc85a9535aa6",
+      "net": "PC13",
+      "kind": "via",
+      "reason": "unnecessary single-layer PC13 via"
+    }
+  ],
+  "result_sha256": "73c32fa93b8be3c522c1316792671d268f7ed2ff49ce6d4bcbc81cc8ad145576"
+}

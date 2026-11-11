@@ -1,0 +1,38 @@
+Designator,Qty,Value,Candidate,Function,Fit,Status,Library_Status,Manufacturer,LCSC_ID,Product_URL,Package,Supply_Range,Planned_Rail,Datasheet_URL
+F1,1,15 A,15 A 熔断器,DC+ 保护,贴,候选，未冻结,本项目未完成建库,,,,,,,
+C1,2,220 uF 100 V ±20%,EKYB101ELL221MK25S,母线储能,贴,2026-11-01用户确定2x220uF首版暂用；并联共440uF；参考ATK；纹波/温升/全工况待验证,待建库（新增母线电解）,NCC / Nippon Chemi-Con,C1585673,https://item.szlcsc.com/1676488.html,Radial D12.5xL25mm P5mm,100V额定；-40~105C；±20%,DC+ / DC-；正常12~60V,https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/KYBLL-e.PDF
+C2,2,2.2 uF 100 V ±10% X7R,CS1210KKX7R0BB225,母线高频旁路,贴,2026-11-01用户确认两只及统一国巨；偏压/纹波/布局待验证；替代旧三只250V薄膜及村田候选,待建库（新增国巨旁路MLCC）,YAGEO,C5578983,https://item.szlcsc.com/6497372.html,1210 / 3225；软端头,100VDC额定；有效容量/交流应力待核,DC+ / DC-；靠近功率桥,https://www.yageogroup.com/download/specsheet/CS1210KKX7R0BB225
+D1,1,钳位/吸收参数待设计,待重新选型（旧5.0SMDJ150A不作为已定方案）,母线尖峰抑制，需与200V MOSFET裕量校核,待选,旧候选撤回，需重选,本项目未完成建库,,,,,,,
+Q1,6,200 V MOSFET,IRFS4227TRLPBF,三相桥,贴,用户确认改贴片；26mΩ@10V；热设计及整板验证待完成；C编号国内对应待核,待建库（新增贴片型号）,Infineon,C146578,,TO-263 / D2PAK,VDS 200V；VGS=10V时给出RDS(on),门极标称12V候选；漏极功率母线,https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf
+R2,6,15 ohm,栅极电阻,开关速度,贴,候选，未冻结；通用贴片品牌统一国巨；完整型号待计算选型,本项目未完成建库,YAGEO,,,,,,
+R3,6,10 kohm,栅源下拉,关断保持,贴,候选，未冻结；通用贴片品牌统一国巨；完整型号待计算选型,本项目未完成建库,YAGEO,,,,,,
+D2,3,600 V 超快,ES1J,自举二极管,待定,驱动集成自举二极管，外置件待复核，不默认贴装,本项目未完成建库,,,,,,,
+C3,3,10 uF 25 V,陶瓷,自举电容,贴,候选，未冻结；通用贴片品牌统一国巨；完整型号待计算选型,本项目未完成建库,YAGEO,,,,,,
+U1,3,半桥驱动,2ED2182S06FXUMA1,栅极驱动,贴在inverter同一PCB,候选已建库；国内商品已核对；高边自举/保护及整板验证待完成,reviewed（库定义核对；无实物验证）,Infineon,C1850289,https://item.szlcsc.com/1941102.html,PG-DSO-8,VCC 10~20V,12V候选；高边自举与UVLO待验证,https://www.infineon.com/assets/row/public/documents/24/49/infineon-2ed2182-4-s06f-j-datasheet-en.pdf
+R4,3,5 mohm 3 W,开尔文分流,低端电流,贴,候选，未冻结,本项目未完成建库,,,,,,,
+U2,3,增益 10 电流放大器,INA241A1IDDFR,电流采样,贴,首轮优先候选，供电兼容核对；未定型,reviewed（库定义核对；无实物验证）,TI,C19712054,https://item.szlcsc.com/21022225.html,SOT-23-8,2.7~20V,3.3V,https://www.ti.com/lit/ds/symlink/ina241a.pdf
+L1,3,470 uH 15 A,功率电感,输出滤波,贴,候选，未冻结,本项目未完成建库,,,,,,,
+C4,3,10 uF 100 V,薄膜,输出滤波,贴,候选，未冻结,本项目未完成建库,,,,,,,
+JP1,3,2.54 mm 跳线,模式选择,电感旁路和电容断开,贴,候选，未冻结,本项目未完成建库,,,,,,,
+Q8,1,200 V MOSFET,IRFS4227TRLPBF,制动斩波,板内集成；装配按最终设计,2026-11-01确认每块inverter一路制动；不再默认不贴；MOS候选；驱动及热/电气额定待验证；国内商品对应待核,待建库（新增贴片型号）,Infineon,C146578,,TO-263 / D2PAK,VDS 200V；VGS=10V时给出RDS(on),栅极标称12V；驱动UCC27517DBVR,https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs4227-datasheet-en.pdf
+R5,1,5.6ohm/±5%/1kW等级参考；最终额定待核,板外制动电阻待选,外接制动耗能,板外可选；不用时端子开路,2026-11-01用户接受参考目标；详细选型后续；型号/散热/制动能量待核；板外可选且端子不可短接,本项目未完成建库,,,,,,,
+U3,1,采样及保护3.3V LDO,TPS7A2033PDBVR,采样及保护3.3V LDO,候选；随原理图确定,本轮优先候选；未完成整板验证；额定300mA；初始负载预算30mA；不接12~24V,reviewed（库定义核对；无实物验证）,TI,C2862740,https://item.szlcsc.com/3067417.html,SOT-23-5,1.6~6V,5V转3.3V,https://www.ti.com/lit/ds/symlink/tps7a20.pdf
+U4,1,运放,TLV9001IDCKR,1.65 V 缓冲,贴,首轮优先候选，供电兼容核对；未定型,reviewed（库定义核对；无实物验证）,TI,C398362,https://item.szlcsc.com/380592.html,SC-70-5,1.8~5.5V,3.3V；缓冲1.65V偏置,https://www.ti.com/lit/ds/symlink/tlv9001.pdf
+U5,4,双路轨到轨输入高速比较器，推挽输出,TLV3202AIDGK,三相窗口及母线过压，需另设故障汇总逻辑,贴,首轮优先候选，供电兼容核对；未定型,reviewed（库定义核对；无实物验证）,TI,C182416,https://item.szlcsc.com/193816.html,VSSOP-8,2.7~5.5V,3.3V,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+U6,2,四与门,"74LVC08APW,118",六路PWM硬件封锁；故障汇总额外逻辑未计入,贴,首轮优先候选，供电兼容核对；未定型,reviewed（库定义核对；无实物验证）,Nexperia,C6053,https://item.szlcsc.com/6519.html,TSSOP-14,1.2~3.6V,3.3V,https://assets.nexperia.com/documents/data-sheet/74LVC08A.pdf
+U7,1,D 触发器,"74LVC74AD,118",故障锁存,贴,首轮优先候选，供电兼容核对；未定型,reviewed（库定义核对；无实物验证）,Nexperia,C6099,https://item.szlcsc.com/6565.html,SOIC-14,1.2~3.6V,3.3V,https://assets.nexperia.com/documents/data-sheet/74LVC74A.pdf
+RT1,1,10 kohm NTC,散热器,温度,贴,候选，未冻结,本项目未完成建库,,,,,,,
+J1,1,24脚信号接口,待选完整型号与封装,每块inverter一路控制接口,待选,接口功能已规划，连接器未选,本项目未完成建库,,,,,,,
+J2,1,辅助电源输入，接插件待选,螺丝端子,12~24V目标辅助输入,贴,范围为目标，额定/防护/封装待定,本项目未完成建库,,,,,,,
+J3,1,2 pin,螺丝端子,直流母线,贴,候选，未冻结,本项目未完成建库,,,,,,,
+J4,1,3 pin,螺丝端子,U V W,贴,候选，未冻结,本项目未完成建库,,,,,,,
+U_FAULT_COMB,待逻辑设计,故障汇总/输出转换/必要反相逻辑,待完整保护逻辑后选型,组合推挽比较器输出并形成故障优先封锁及开漏FAULT_N,待定,新需求，不能沿用LM393开漏线与,本项目未完成建库,,,,,,3.3V,
+U_AUX_PROTECT,1,输入防反接、限流、过欠压切断,TPS26600PWPR,输入防反接、限流、过欠压切断,候选；随原理图确定,本轮优先候选；未完成整板验证；限流及过压门限待设计；仅辅助入口,reviewed（库定义核对；无实物验证）,TI,C544399,https://item.szlcsc.com/565050.html,HTSSOP-16-EP,4.2~60V,12~24V辅助输入,https://www.ti.com/lit/gpn/TPS2660
+U_DRV_REG,1,辅助输入升降压至12V,TPS55165QPWPRQ1,辅助输入升降压至12V,候选；随原理图确定,本轮优先候选；未完成整板验证；12V模式低输入端600mA；电感DCR需≤40mΩ；初始负载预算0.25A,reviewed（库定义核对；无实物验证）,TI,C2071629,https://item.szlcsc.com/2163212.html,HTSSOP-20-EP,启动及持续工作范围按手册；本项目12~24V,12V驱动,https://www.ti.com/lit/ds/symlink/tps55165-q1.pdf
+U_5V_REG,1,辅助输入同步降压至5V,AP63205WU-7,辅助输入同步降压至5V,候选；随原理图确定,本轮优先候选；未完成整板验证；芯片额定2A；本轮5V总负载预算1A；需输入过压协调,reviewed（库定义核对；无实物验证）,Diodes,C2071056,https://item.szlcsc.com/2162639.html,TSOT-23-6,3.8~32V,5V,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+U_CTRL_PWR,1,至controller的5V分支限流保护,TPS2553QDBVRQ1,至controller的5V分支限流保护,候选；随原理图确定,本轮优先候选；未完成整板验证；分支预算0.5A；不是双路电源选择器；供电不依赖电机ENABLE,reviewed（库定义核对；无实物验证）,TI,C130055,https://item.szlcsc.com/141342.html,SOT-23-6,2.5~6.5V,5V_CTRL,https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf
+U_3V3_MON,1,3.3V电源监控与复位或供电许可,TPS3808G33DBVR,3.3V电源监控与复位或供电许可,候选；随原理图确定,本轮优先候选；未完成整板验证；G33阈值约3.07V；开漏；inverter不新增RESET_N接口,reviewed（库定义核对；无实物验证）,TI,C43698,https://item.szlcsc.com/44691.html,SOT-23-6,1.7~6.5V,3.3V,https://www.ti.com/lit/ds/symlink/tps3808.pdf
+U_FAULT_NAND,1,故障逻辑与非及反相候选,"74LVC00APW,118",故障逻辑与非及反相候选,候选；随原理图确定,本轮优先候选；未完成整板验证；完整故障优先锁存、开漏输出级及失电默认态仍待设计,reviewed（库定义核对；无实物验证）,Nexperia,C6045,https://item.szlcsc.com/6511.html,TSSOP-14,1.2~3.6V,3.3V,https://assets.nexperia.com/documents/data-sheet/74LVC00A.pdf
+U_BRAKE_DRV,1,单通道低侧栅极驱动器,UCC27517DBVR,驱动板内一路制动MOS,板内集成；每块1颗,2026-11-01用户确认型号及同相驱动；BRAKE高有效默认下拉；外围及应用验证待完成,待建库（新增制动驱动）,TI,C99395,https://item.szlcsc.com/100609.html,SOT-23-5,VDD 4.5~18V；输入兼容3.3V,稳压12V；不接原始12~24V输入,https://www.ti.com/lit/ds/symlink/ucc27517.pdf
+J_BRK_POWER,1,2P BR+ / BR_SW,制动电阻功率端子待选,外接制动电阻,板上设置,2026-11-01确认；不用时开路；禁止短接；额定/间距/封装待选,本项目未完成建库,,,,,,,
+J_BRK_CTRL,1,制动控制信号及GND；最终脚数待定,独立低压控制接插件待选,输入BRAKE_1或BRAKE_2,板上设置,功能占位；独立于24脚及制动功率端子；3.3V高有效默认下拉已定；接插件/封装待选,本项目未完成建库,,,,,,,

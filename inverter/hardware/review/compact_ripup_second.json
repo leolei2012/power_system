@@ -1,0 +1,10 @@
+{
+  "removed": {
+    "d35ef380-f596-4253-b03d-cc1e6a967c84": {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "because": "clearance"
+    }
+  },
+  "fixed_geometry_unchanged": true
+}

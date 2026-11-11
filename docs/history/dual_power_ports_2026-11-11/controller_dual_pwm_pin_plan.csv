@@ -1,0 +1,64 @@
+﻿group,signal,gpio,mcu_pin,function,af,status,notes
+PWM_A,PWM_A_CH1,PE9,40,TIM1_CH1,2,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_A,PWM_A_CH1N,PE8,39,TIM1_CH1N,2,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_A,PWM_A_CH2,PE11,42,TIM1_CH2,2,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_A,PWM_A_CH2N,PE10,41,TIM1_CH2N,2,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_A,PWM_A_CH3,PE13,44,TIM1_CH3,2,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_A,PWM_A_CH3N,PE12,43,TIM1_CH3N,2,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_B,PWM_B_CH1,PC6,65,TIM8_CH1,4,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_B,PWM_B_CH1N,PC10,79,TIM8_CH1N,4,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_B,PWM_B_CH2,PC7,66,TIM8_CH2,4,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_B,PWM_B_CH2N,PC11,80,TIM8_CH2N,4,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_B,PWM_B_CH3,PC8,67,TIM8_CH3,4,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+PWM_B,PWM_B_CH3N,PC12,81,TIM8_CH3N,4,planned,3.3V logic; external hardware permission gate required; not a MOSFET gate connection.
+ADC,ADC_01,PC0,15,ADC1_IN6/ADC2_IN6,,planned,"Generic ADC port. Single motor: I_U; dual motor: I_A_U; Boost: I_L; Vienna: I_L1. Alternative applications, usage examples only."
+ADC,ADC_02,PC1,16,ADC1_IN7/ADC2_IN7,,planned,"Generic ADC port. Single motor: I_V; dual motor: I_A_V; Boost: SPARE; Vienna: I_L2. Alternative applications, usage examples only."
+ADC,ADC_03,PC2,17,ADC1_IN8/ADC2_IN8,,planned,"Generic ADC port. Single motor: I_W; dual motor: I_A_W; Boost: SPARE; Vienna: I_L3. Alternative applications, usage examples only."
+ADC,ADC_04,PC3,18,ADC1_IN9/ADC2_IN9,,planned,"Generic ADC port. Single motor: V_U_PHASE; dual motor: I_B_U; Boost: V_RECTIFIED_INPUT; Vienna: V_AC1. Alternative applications, usage examples only."
+ADC,ADC_05,PA0,20,ADC1_IN1/ADC2_IN1,,planned,"Generic ADC port. Single motor: V_V_PHASE; dual motor: I_B_V; Boost: SPARE; Vienna: V_AC2. Alternative applications, usage examples only."
+ADC,ADC_06,PA1,21,ADC1_IN2/ADC2_IN2,,planned,"Generic ADC port. Single motor: V_W_PHASE; dual motor: I_B_W; Boost: SPARE; Vienna: V_AC3. Alternative applications, usage examples only."
+ADC,ADC_07,PA4,26,ADC2_IN17,,planned,"Generic ADC port. Single motor: V_DC; dual motor: V_DC_A; Boost: V_OUTPUT; Vienna: V_BUS_UPPER. Alternative applications, usage examples only."
+ADC,ADC_08,PB0,32,ADC1_IN15,,planned,"Generic ADC port. Single motor: SPARE; dual motor: V_DC_B; Boost: SPARE; Vienna: V_BUS_LOWER. Alternative applications, usage examples only."
+ADC,ADC_09,PB1,33,ADC1_IN12,,planned,"Generic ADC port. Single motor: POWER_BOARD_NTC; dual motor: NTC_A; Boost: POWER_BOARD_NTC; Vienna: NTC. Alternative applications, usage examples only."
+ADC,ADC_10,PB2,34,ADC2_IN12,,planned,"Generic ADC port. Single motor: SPARE; dual motor: NTC_B; Boost: SPARE; Vienna: SPARE. Alternative applications, usage examples only."
+ENC_A,ENC_A_A,PD3,85,TIM2_CH1,2,planned,
+ENC_A,ENC_A_B,PD4,86,TIM2_CH2,2,planned,
+ENC_A,ENC_A_Z,PD5,87,GPIO_EXTI5,,planned,
+ENC_B,ENC_B_A,PB6,93,TIM4_CH1,2,planned,
+ENC_B,ENC_B_B,PB7,94,TIM4_CH2,2,planned,
+ENC_B,ENC_B_Z,PD6,88,GPIO_EXTI6,,planned,
+SPI_A,SPI_A_SCK,PA5,27,SPI1_SCK,5,planned,
+SPI_A,SPI_A_MISO,PA6,28,SPI1_MISO,5,planned,
+SPI_A,SPI_A_MOSI,PA7,29,SPI1_MOSI,5,planned,
+SPI_A,SPI_A_CS_N,PE0,97,GPIO_Output,,planned,
+SPI_B,SPI_B_SCK,PB3,90,SPI3_SCK,6,planned,
+SPI_B,SPI_B_MISO,PB4,91,SPI3_MISO,6,planned,
+SPI_B,SPI_B_MOSI,PB5,92,SPI3_MOSI,6,planned,
+SPI_B,SPI_B_CS_N,PE1,98,GPIO_Output,,planned,
+I2C_A,I2C_A_SCL,PA15,78,I2C1_SCL,4,planned,
+I2C_A,I2C_A_SDA,PB9,96,I2C1_SDA,4,planned,
+I2C_B,I2C_B_SCL,PA9,70,I2C2_SCL,4,planned,
+I2C_B,I2C_B_SDA,PA8,69,I2C2_SDA,4,planned,
+TTL,TTL_TX,PD8,55,USART3_TX,7,planned,
+TTL,TTL_RX,PD9,56,USART3_RX,7,planned,
+CAN,CAN_RX,PA11,72,FDCAN1_RX,9,planned,Current optional CAN transceiver supports classic CAN; no CAN-FD PHY claim.
+CAN,CAN_TX,PA12,73,FDCAN1_TX,9,planned,Current optional CAN transceiver supports classic CAN; no CAN-FD PHY claim.
+SWD,SWD_DIO,PA13,76,SWDIO,0,planned,
+SWD,SWD_CLK,PA14,77,SWCLK,0,planned,
+CORE,CORE_HSE_IN,PF0,12,OSC_IN,,planned,
+CORE,CORE_HSE_OUT,PF1,13,OSC_OUT,,planned,
+CORE,CORE_NRST,PG10,14,NRST,,planned,
+CORE,CORE_BOOT0,PB8,95,BOOT0,,planned,
+LED,LED_RUN,PE2,1,GPIO_Output,,planned,
+LED,LED_FAULT,PE3,2,GPIO_Output,,planned,
+LED,LED_COMM,PE4,3,GPIO_Output,,planned,
+LED,LED_AUX,PE5,4,GPIO_Output,,planned,
+POWER_CTRL,FAULT_A_N,PE15,46,TIM1_BKIN,2,planned,Independent active-low break; also locally gates the power board; no automatic restart.
+POWER_CTRL,FAULT_B_N,PD2,84,TIM8_BKIN,4,planned,"Uses primary BKIN, independent from port A."
+POWER_CTRL,ENABLE_A,PD10,57,GPIO_Output,,planned,"External pulldown, default disabled."
+POWER_CTRL,ENABLE_B,PD11,58,GPIO_Output,,planned,"External pulldown, default disabled."
+POWER_CTRL,BASE_READY_A,PC13,7,GPIO_Input,,planned,PC13 input only; receiver protection and reference must be designed.
+POWER_CTRL,BASE_READY_B,PC14,8,GPIO_Input,,planned,PC14 input only; LSE cannot be used on this pad concurrently.
+POWER_CTRL,RUN_ARM,PE7,38,GPIO_Output,,planned,Local pulldown; AND with reset supervisor to produce CTRL_READY; ARM is not a ROM UART pad.
+POWER_CTRL,BRAKE_A,PF9,10,TIM15_CH1,3,planned,Independent from bridge FAULT/ENABLE; reset/ARM startup gate required.
+POWER_CTRL,BRAKE_B,PF10,11,TIM15_CH2,3,pin_reserve_only,"Optional second brake; same TIM15 frequency/counter as BRAKE_A, independent duty; no second power circuit implied."

@@ -1,0 +1,140 @@
+{
+  "ADC": {
+    "C69": {
+      "net": "ADC_I_U",
+      "MCU_pin": "8",
+      "distance_mm": 3.107
+    },
+    "C70": {
+      "net": "ADC_I_V",
+      "MCU_pin": "9",
+      "distance_mm": 2.866
+    },
+    "C71": {
+      "net": "ADC_I_W",
+      "MCU_pin": "10",
+      "distance_mm": 2.898
+    },
+    "C72": {
+      "net": "ADC_V_DC",
+      "MCU_pin": "11",
+      "distance_mm": 3.193
+    },
+    "C73": {
+      "net": "ADC_V_U",
+      "MCU_pin": "18",
+      "distance_mm": 2.918
+    },
+    "C74": {
+      "net": "ADC_V_V",
+      "MCU_pin": "24",
+      "distance_mm": 2.828
+    },
+    "C75": {
+      "net": "ADC_V_W",
+      "MCU_pin": "25",
+      "distance_mm": 3.479
+    },
+    "C76": {
+      "net": "ADC_TEMP_NTC",
+      "MCU_pin": "26",
+      "distance_mm": 4.84
+    }
+  },
+  "decoupling": {
+    "C63": {
+      "device": "U30",
+      "net": "+3V3_INV",
+      "pin": "16",
+      "distance_mm": 1.992
+    },
+    "C64": {
+      "device": "U30",
+      "net": "+3V3_INV",
+      "pin": "32",
+      "distance_mm": 1.979
+    },
+    "C65": {
+      "device": "U30",
+      "net": "+3V3_INV",
+      "pin": "48",
+      "distance_mm": 1.997
+    },
+    "C66": {
+      "device": "U30",
+      "net": "+3V3_INV",
+      "pin": "64",
+      "distance_mm": 2.834
+    },
+    "C67": {
+      "device": "U30",
+      "net": "+3V3_INV",
+      "pin": "1",
+      "distance_mm": 1.925
+    },
+    "C77": {
+      "device": "U30",
+      "net": "+3V3_A_MCU",
+      "pin": "29",
+      "distance_mm": 2.178
+    },
+    "C79": {
+      "device": "U30",
+      "net": "VREF_MCU",
+      "pin": "28",
+      "distance_mm": 1.817
+    },
+    "C56": {
+      "device": "U22",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 2.258
+    },
+    "C57": {
+      "device": "U23",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 2.258
+    },
+    "C58": {
+      "device": "U24",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 3.555
+    },
+    "C59": {
+      "device": "U25",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 2.233
+    },
+    "C60": {
+      "device": "U26",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 3.069
+    },
+    "C61": {
+      "device": "U27",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 3.897
+    },
+    "C62": {
+      "device": "U28",
+      "net": "+3V3_INV",
+      "pin": "14",
+      "distance_mm": 2.673
+    }
+  },
+  "same_side_courtyard_overlap": [],
+  "coverage": {
+    "owned_count": 184,
+    "placed_count": 184,
+    "missing": [],
+    "extra": []
+  },
+  "note": "Pad distances are actual selected same-net pad centres after the exact Flip-then-rotate import convention. Geometric placement result only; no traces, signal integrity, thermal, DRC or manufacture approval is implied.",
+  "source_work_board_sha256": "95cd8a9dc3d22d321a76ff74b8867fa2aac26cf016b614624c209a6a67e3eaac",
+  "power_placement_sha256": "f89af317bb4549931956476759097c1cdd7f737c5fd94990ee25abbd3a22ac52"
+}

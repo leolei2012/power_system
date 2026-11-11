@@ -1,0 +1,2192 @@
+{
+  "source": "inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\fourth_supply\\inverter.kicad_pcb",
+  "source_sha256": "d9cce9e82227400e717819f1ae939c0abb6a7bc00014e0edfa805896fd059ab9",
+  "added": [
+    {
+      "net": "/Driver supply/BB_VREG",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          119.6,
+          145.775
+        ],
+        [
+          118.80000000000001,
+          145.70000000000002
+        ],
+        [
+          118.5,
+          145.4
+        ],
+        [
+          118.60000000000001,
+          144.70000000000002
+        ],
+        [
+          118.80000000000001,
+          144.6
+        ],
+        [
+          119.6,
+          144.475
+        ]
+      ],
+      "tracks": [
+        "f70c705e-6862-49c4-a5d2-3ff74e1e27a2",
+        "9024789f-efd0-4be6-b07d-70c24443ed1b",
+        "fcbd201f-d32a-4a70-98d9-e187f306d05b",
+        "7e60408c-1ced-40e3-bc8a-19420f2d6b73",
+        "2579c7f0-2e7c-46a4-bf71-8242e4bf7a1e"
+      ],
+      "endpoints": [
+        "c873ae69-5be7-4ffa-8736-5cc7db144e62",
+        "2a4d7786-5880-4d62-9df1-8d670e499f38"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          134.55,
+          121.1625
+        ],
+        [
+          134.55,
+          122.8375
+        ]
+      ],
+      "tracks": [
+        "12fb38ae-bb7b-4d83-ac72-281d3d82dfea"
+      ],
+      "endpoints": [
+        "0a6ec5b3-40b7-470b-9889-5c439c57d9bc",
+        "a4a3f049-ad50-40cc-bedd-3a083db60622"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_7",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          121.8625,
+          123.65
+        ],
+        [
+          122.7,
+          123.9
+        ],
+        [
+          122.9,
+          124.2
+        ],
+        [
+          122.9,
+          125.80000000000001
+        ],
+        [
+          122.60000000000001,
+          126.10000000000001
+        ],
+        [
+          121.8625,
+          126.25
+        ]
+      ],
+      "tracks": [
+        "5e1c6694-41a8-4119-ba25-4df016753c0e",
+        "a8e98010-79d5-47b7-a392-35c8f37736fd",
+        "216c2081-c241-4b7a-bb82-126288790f92",
+        "57d705e8-cfe2-4e30-95b2-7ec80030fd2a",
+        "52ffe77d-663b-41a7-84a7-242831ad78cc"
+      ],
+      "endpoints": [
+        "11971b6f-9ec8-4d13-beaf-019e8bf0818f",
+        "a446f5fa-8cd2-4b5e-aaa9-ae4c2adb79b6"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/CAN_L",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          121.575,
+          102.665
+        ],
+        [
+          120.5,
+          103.5
+        ],
+        [
+          120.30000000000001,
+          103.7
+        ],
+        [
+          120.30000000000001,
+          105.4
+        ],
+        [
+          120.5,
+          105.7
+        ],
+        [
+          121.2,
+          105.80000000000001
+        ],
+        [
+          125.30000000000001,
+          105.60000000000001
+        ],
+        [
+          125.5,
+          105.30000000000001
+        ],
+        [
+          125.5,
+          104.9
+        ],
+        [
+          124.9,
+          104.09
+        ]
+      ],
+      "tracks": [
+        "681d9c0b-91b9-45f4-b16b-040d0fe54385",
+        "f7fc8569-b0a8-458e-9fe1-20740bd915d1",
+        "dc4de722-5aae-414a-8cfb-9fea0e5d38c1",
+        "128e031a-0231-4a11-a5c5-59d25b0f691e",
+        "49e4662a-49f2-4724-9455-2a9f07ea33da",
+        "cb7f33bb-8b83-48f6-bc1d-a18847324c34",
+        "dd9b1a3c-4df5-4d5e-b8a3-73ab1a1c51f3",
+        "7f88e904-62fe-4088-abec-4552a20a0e96",
+        "70fb04b2-4333-436b-a172-6e3b36f44467"
+      ],
+      "endpoints": [
+        "b85171cf-eda5-490d-8abf-ef8cfc032564",
+        "dd966172-729a-4385-b397-32d584bd0fe7"
+      ]
+    },
+    {
+      "net": "Net-(D201-K1{slash}A2)",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          115.6,
+          116.575
+        ],
+        [
+          114.9,
+          117.9
+        ],
+        [
+          114.9,
+          119.7
+        ],
+        [
+          115.5,
+          121.0
+        ]
+      ],
+      "tracks": [
+        "968d06c5-8d11-4ab3-afcd-3285afdf13dc",
+        "abeb0518-0f5e-4491-93b2-89046f4a5452",
+        "6345410f-d967-49f4-b571-f6da5552c23d"
+      ],
+      "endpoints": [
+        "30b6b382-1e02-4032-9825-9b5ced6369cd",
+        "7f752734-641c-45f5-9b6f-0c9c8180a5f8"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_W_DIV2",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          123.2,
+          138.725
+        ],
+        [
+          122.5,
+          137.4
+        ],
+        [
+          122.5,
+          135.9
+        ],
+        [
+          122.80000000000001,
+          134.9
+        ],
+        [
+          123.0,
+          134.70000000000002
+        ],
+        [
+          124.7,
+          133.9
+        ],
+        [
+          125.5,
+          134.0
+        ],
+        [
+          126.8125,
+          134.9
+        ]
+      ],
+      "tracks": [
+        "b555e8cb-f613-41a1-bf6c-45cedd14d21a",
+        "a90d6de5-bc7f-40d9-af96-325978382aae",
+        "423fe161-e0c6-4242-a2ff-c6288079c549",
+        "beaa65de-b48f-4e78-a494-28ab7cf2a891",
+        "0117849e-c215-4215-8084-e947e2ab7881",
+        "e40a9c61-b6de-47d3-8f08-985c094a37c5",
+        "41a7f076-b204-490a-ac82-581c04843b1c"
+      ],
+      "endpoints": [
+        "11c7a580-d3c9-407d-a5fd-d66a05399837",
+        "8e1fc737-24b7-41b0-9d29-fb21423d0d62"
+      ]
+    },
+    {
+      "net": "Net-(D204-K1{slash}A2)",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          120.351,
+          123.577
+        ],
+        [
+          119.60000000000001,
+          125.0
+        ],
+        [
+          120.0,
+          129.20000000000002
+        ],
+        [
+          120.09,
+          129.3
+        ]
+      ],
+      "tracks": [
+        "02bed92d-7540-4246-9f38-bae38f029123",
+        "de8c8440-10e1-48ec-95c8-da34bde199b2",
+        "f80fc0c5-d35f-46df-b80b-ffb1a8925889"
+      ],
+      "endpoints": [
+        "d0d2eeb6-9946-4d3d-b8fe-39e956618923",
+        "9ebaaaa6-175f-48c4-82cb-dc7155d37f8d"
+      ]
+    },
+    {
+      "net": "/Auxiliary input/EFUSE_RTN",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          102.8,
+          149.375
+        ],
+        [
+          104.10000000000001,
+          148.1
+        ],
+        [
+          104.80000000000001,
+          147.9
+        ],
+        [
+          108.9,
+          147.70000000000002
+        ],
+        [
+          112.2,
+          147.70000000000002
+        ],
+        [
+          112.4,
+          147.9
+        ],
+        [
+          112.4,
+          150.0
+        ],
+        [
+          111.30000000000001,
+          151.1
+        ],
+        [
+          110.378,
+          151.495
+        ]
+      ],
+      "tracks": [
+        "d21a6bc4-1d74-44fe-89c4-f63014d4cca0",
+        "63221d9c-e7ca-4e1f-a94f-e9612d5709cf",
+        "19a13f42-8c69-4776-8f8c-aa6116654f96",
+        "e9559890-b1c4-44ce-bc84-4d6da72b3ab8",
+        "431ffd92-84b1-49b1-b1c6-dd82af574751",
+        "c035c852-83e3-404d-9ecd-4d1c002f4ce5",
+        "faaa5672-0656-49b7-bf42-8e150cd8808e",
+        "4adb2f07-49f0-4bde-8304-00bdaf4d1624"
+      ],
+      "endpoints": [
+        "a72f65b6-daf9-452b-b5a0-a8676fb1af35",
+        "0e7e7052-b1d0-44f4-abb4-11bb98a50731"
+      ]
+    },
+    {
+      "net": "+3V3_CORE_REF",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          119.0,
+          123.45
+        ],
+        [
+          120.0,
+          122.9
+        ],
+        [
+          120.80000000000001,
+          122.9
+        ],
+        [
+          121.30000000000001,
+          123.5
+        ],
+        [
+          121.60000000000001,
+          125.7
+        ],
+        [
+          122.0,
+          126.7
+        ],
+        [
+          122.0,
+          128.0
+        ],
+        [
+          121.5,
+          128.4
+        ],
+        [
+          120.60000000000001,
+          128.9
+        ],
+        [
+          120.60000000000001,
+          129.70000000000002
+        ],
+        [
+          122.5,
+          131.0
+        ],
+        [
+          123.10000000000001,
+          130.9
+        ],
+        [
+          125.0,
+          129.6
+        ],
+        [
+          126.3,
+          129.45
+        ]
+      ],
+      "tracks": [
+        "8a830c34-1b37-4e5a-a7ec-3139004f103e",
+        "10af4b22-aca6-47ef-a2f0-266079295c4e",
+        "e6fbdee1-1516-441b-aa5f-ab04c6928963",
+        "77e843d4-0bb1-484e-8388-67bfb03134b6",
+        "827ff842-826d-4ee8-8ef3-44e797b297c3",
+        "d000ca07-f6c6-470a-8d87-63727aed591e",
+        "83b63d31-b828-46d7-a552-f0abe2cb7635",
+        "c2549be7-0fa8-4e05-8fe5-d826156444f2",
+        "b68a9991-f611-47ff-aec7-d73824f6fc12",
+        "39d4a3a0-75b4-4392-8de6-fe518d1cc0a4",
+        "d265498b-6ce4-4ee2-ab30-6afa93c2cc9b",
+        "941d4051-9f68-445c-8b24-107742c5f4e0",
+        "69a93ca2-d423-43c5-a3df-2e14bd24d418"
+      ],
+      "endpoints": [
+        "68829f34-5ee7-429c-b7b9-41f35e652d50",
+        "8a6e4d96-b7c1-4114-ad7a-410c6f97dd84"
+      ]
+    },
+    {
+      "net": "W_LIN",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          143.202,
+          145.808
+        ],
+        [
+          147.0,
+          147.6
+        ],
+        [
+          147.4,
+          148.1
+        ],
+        [
+          147.5,
+          148.5
+        ],
+        [
+          148.0,
+          148.9
+        ],
+        [
+          150.475,
+          149.865
+        ]
+      ],
+      "tracks": [
+        "23e4124d-e45f-42d1-b60c-7b0633688a23",
+        "2ebacc25-8270-430f-9dcd-3260ab27c29d",
+        "8e0686b9-93f3-48b5-ad16-c782303cdfb7",
+        "df7bbe28-1a82-4c03-b11a-aa9089eb2f15",
+        "4d97aa1b-06a7-47b2-9fee-efe9fcaf954a"
+      ],
+      "endpoints": [
+        "fefe6a29-ad94-46da-a95a-9bf458de286b",
+        "4d9bc3b8-55be-437a-a7b0-841f0548a0c1"
+      ]
+    },
+    {
+      "net": "AUX_FLT_N",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          121.2625,
+          146.025
+        ],
+        [
+          127.30000000000001,
+          146.0
+        ],
+        [
+          127.5,
+          146.1
+        ],
+        [
+          127.60000000000001,
+          146.4
+        ],
+        [
+          127.60000000000001,
+          149.4
+        ],
+        [
+          128.275,
+          150.9
+        ]
+      ],
+      "tracks": [
+        "440ce547-f33d-4dea-8b97-4b8674e2f3c1",
+        "5144226e-c9f2-4849-81f0-2cc7b5a70631",
+        "8ff1c33a-8f76-47da-bd20-2f708f4b1ece",
+        "68037194-e743-4765-bbea-43444af7dbb7",
+        "c046c29a-bcb1-45df-9e89-68ac6b45c2c7"
+      ],
+      "endpoints": [
+        "2b87359a-d665-481e-8415-6644f0a15092",
+        "ef636882-b886-4669-b119-a1205de0af8e"
+      ]
+    },
+    {
+      "net": "/Hardware latch/FAULT_LATCH",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          109.8,
+          135.1
+        ],
+        [
+          116.5,
+          138.1
+        ],
+        [
+          117.37,
+          139.275
+        ]
+      ],
+      "tracks": [
+        "ed5d49a8-1ab4-4b50-9702-b20345d285e4",
+        "d583cd01-20ea-456d-b6b5-28e6d0870de9"
+      ],
+      "endpoints": [
+        "97821bb2-fa50-476e-86b7-1e844f1c4e44",
+        "8c876787-ee12-4afe-b0d8-af35743149fe"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "width": 0.15,
+      "layer": "F.Cu",
+      "points": [
+        [
+          116.1,
+          139.275
+        ],
+        [
+          117.0,
+          140.5
+        ],
+        [
+          117.7,
+          140.5
+        ],
+        [
+          117.9,
+          140.3
+        ],
+        [
+          118.10000000000001,
+          138.3
+        ],
+        [
+          118.30000000000001,
+          138.0
+        ],
+        [
+          119.2,
+          135.1
+        ],
+        [
+          119.5,
+          132.0
+        ],
+        [
+          119.7,
+          131.70000000000002
+        ],
+        [
+          120.5375,
+          131.5
+        ]
+      ],
+      "tracks": [
+        "ad734ddc-647e-417f-8a9c-0db00d577dc2",
+        "96c5b0ba-de89-4ec9-9a7b-92a5af4af32a",
+        "382c9cef-0803-4b5e-a9f3-f74f5f676ff6",
+        "cbe28850-f818-416a-a033-548cc9a9e462",
+        "ca3fac41-091b-47b3-a714-1d95ccbe5ef1",
+        "4bf6c4cb-6302-4f40-aac3-6ffa73723509",
+        "2c7b9dfc-fa4e-4fe2-b7ed-52cee20b8742",
+        "077a0c15-7932-4661-bcb0-3ee544231c93",
+        "f94ee8b8-39ce-4f44-82aa-8bb45198c61c"
+      ],
+      "endpoints": [
+        "37173817-cf06-4e0c-be56-e506495b4df7",
+        "1bcc5459-ba44-4d88-b047-addfb6140e81"
+      ]
+    },
+    {
+      "net": "PA1",
+      "width": 0.15,
+      "layer": "B.Cu",
+      "points": [
+        [
+          102.99,
+          130.0
+        ],
+        [
+          103.10000000000001,
+          135.70000000000002
+        ],
+        [
+          103.0,
+          141.4
+        ],
+        [
+          102.0,
+          142.4
+        ],
+        [
+          101.4,
+          142.4
+        ],
+        [
+          101.10000000000001,
+          142.8
+        ],
+        [
+          101.2,
+          145.6
+        ],
+        [
+          101.60000000000001,
+          146.1
+        ],
+        [
+          101.60000000000001,
+          146.8
+        ],
+        [
+          102.0,
+          147.0
+        ],
+        [
+          102.4,
+          147.0
+        ],
+        [
+          102.60000000000001,
+          147.1
+        ],
+        [
+          102.7,
+          147.4
+        ],
+        [
+          103.0,
+          150.5
+        ],
+        [
+          103.0,
+          151.70000000000002
+        ],
+        [
+          102.89,
+          151.8
+        ]
+      ],
+      "tracks": [
+        "fe874764-9468-4d5f-8ef2-3979b7624f85",
+        "1396ba54-5012-4db8-98c9-e69285211a8d",
+        "3bee1b1a-294e-422c-aa5e-e2f5d3cb8e6a",
+        "82a475f2-ac2a-48ee-a773-a08243262999",
+        "bcb872b7-9e86-4995-a679-28acce0e1a52",
+        "157f7183-1c48-4739-b96a-9f36fa048c6e",
+        "efdc298b-cddd-449f-a636-fe6eb5ce9044",
+        "194dd467-4fc2-4ccc-87d7-2dd3844ba561",
+        "25bee0de-9ac8-42f1-b163-b586cbda2ba1",
+        "c1a60899-8933-4e5e-861f-84f305c2ca2b",
+        "76ec1178-a1ea-4836-af31-475c213e800d",
+        "1e0ddb98-215a-42cd-9ff9-c073091de574",
+        "8d71750c-ea8b-47c6-9bbc-bdae473c667f",
+        "87cab6fc-9107-4aca-95f9-42ec978ac9a6",
+        "ceb8967e-3a77-476b-9998-126cab6d85bc"
+      ],
+      "endpoints": [
+        "9d2bcc8d-e0f8-4e10-9e9e-206792e735bc",
+        "638ba2db-c74b-4d28-96c7-41d3a3bf3bed"
+      ]
+    },
+    {
+      "net": "NRST",
+      "width": 0.15,
+      "layer": "In3.Cu",
+      "points": [
+        [
+          113.08,
+          158.0
+        ],
+        [
+          117.7,
+          158.3
+        ],
+        [
+          118.0,
+          158.10000000000002
+        ],
+        [
+          119.30000000000001,
+          156.20000000000002
+        ],
+        [
+          119.30000000000001,
+          155.8
+        ],
+        [
+          121.0,
+          153.5
+        ],
+        [
+          123.0,
+          153.3
+        ],
+        [
+          126.2,
+          153.3
+        ],
+        [
+          132.0,
+          151.4
+        ],
+        [
+          132.3,
+          151.1
+        ],
+        [
+          132.3,
+          150.70000000000002
+        ],
+        [
+          131.27,
+          149.05
+        ]
+      ],
+      "tracks": [
+        "11169075-213c-4bb6-b057-5421c89a6c96",
+        "6be2d2d1-3675-4500-a0b1-2754a5a29aa0",
+        "55e78c31-3708-4d8f-bd1a-c85814c67d3a",
+        "ca598926-dc6d-4e51-9306-4c5f54a3114f",
+        "345a142c-16ed-4b69-9050-1f201482e0d0",
+        "4926ad3a-3a4a-4832-b26f-bc508a2554cf",
+        "1f3145a8-008b-475f-b553-fb3257c5116c",
+        "32d7f1da-3e61-48b6-85e0-3b6012b121ef",
+        "e312422f-322a-461c-b2ea-ac37486485bf",
+        "3a9597b5-4139-43aa-a319-75c5e6744a06",
+        "63cbe4a8-7aee-4fa1-a1f3-f07a8fdcf87e"
+      ],
+      "endpoints": [
+        "e364c917-4b27-44ce-a4b4-b43b6b74d2e1",
+        "7cf8ed23-f2a3-4232-bfcf-18d8b555212c"
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "net": "AUX_PROTECTED",
+      "distance": 0.6499999999999773,
+      "endpoints": [
+        "bb89aa22-f1b7-48b2-9dbc-14b3d7fd1f55",
+        "f7d03a89-08aa-43d3-abf8-d1724029c595"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 0.6500000000000057,
+      "endpoints": [
+        "b25578e6-e9f7-4aec-add2-8f5d1182401d",
+        "ec15142d-f38f-4a0f-9a3d-fa2431606d27"
+      ]
+    },
+    {
+      "net": "/Auxiliary input/AUX_FUSED",
+      "distance": 0.6500000000000057,
+      "endpoints": [
+        "cfd3b25b-0cfd-462b-be33-faf8aeccd0dd",
+        "db6402f4-9ab5-46e6-822f-6878f0cdaa1d"
+      ]
+    },
+    {
+      "net": "AUX_PROTECTED",
+      "distance": 0.6500000000000057,
+      "endpoints": [
+        "414ac765-812f-4100-9df5-5b2efaaee856",
+        "37c23d1f-49e8-4cf3-a756-7e7f7fd47698"
+      ]
+    },
+    {
+      "net": "/Driver supply/BB_BST1",
+      "distance": 1.280624847486568,
+      "endpoints": [
+        "33f9d37c-cee4-4c92-91f0-3125a33414d5",
+        "a8f29f8f-3ede-406f-9b40-5a1b06050cb7"
+      ]
+    },
+    {
+      "net": "/V half bridge/V_GATE_H",
+      "distance": 1.626729848499752,
+      "endpoints": [
+        "3f40902c-ab38-4745-94c1-449886379bb7",
+        "5ed9c8b9-39af-4dda-b8a5-128c80e920aa"
+      ]
+    },
+    {
+      "net": "+5V_INV",
+      "distance": 1.6505675539037992,
+      "endpoints": [
+        "3cdff14e-6680-4560-8c15-b69ba00c21a9",
+        "68c76524-92cf-4161-8b9b-f60076e1d932"
+      ]
+    },
+    {
+      "net": "+3V3_CORE_REF",
+      "distance": 1.7465537495307817,
+      "endpoints": [
+        "68991a83-05eb-4e2f-a392-5fa6f2829a3c",
+        "55f006f2-2c63-40b0-8d45-efd36dfa213c"
+      ]
+    },
+    {
+      "net": "+5V_SENSOR",
+      "distance": 1.7591782172366723,
+      "endpoints": [
+        "c5759622-2609-4a60-9aea-4c19d97e69db",
+        "fa3f7330-623e-409a-b067-9c9de726b8c5"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_DIV",
+      "distance": 2.1425452153921887,
+      "endpoints": [
+        "f27435b7-7927-43b8-ab05-321d84f502df",
+        "beb2b21a-bf07-492c-8203-e1c5645342b8"
+      ]
+    },
+    {
+      "net": "/Driver supply/DRV_PG_NOM",
+      "distance": 2.170829334609235,
+      "endpoints": [
+        "4e98c563-fd20-4102-be2a-0884195d3081",
+        "abe8024e-8a32-4591-9b2f-628a03203a00"
+      ]
+    },
+    {
+      "net": "/Driver supply/BB_BST2",
+      "distance": 2.214158982548448,
+      "endpoints": [
+        "6ede40ed-1112-40c4-84f6-fd2b0db00b6d",
+        "39768e89-3b68-419d-97ed-07c464dca760"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_DIV",
+      "distance": 2.2875765014530094,
+      "endpoints": [
+        "fb53f653-919b-4b3c-8c14-053a390484e5",
+        "beb2b21a-bf07-492c-8203-e1c5645342b8"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "distance": 2.366035714016148,
+      "endpoints": [
+        "b6a85c0f-fd25-42df-8c07-e3f00a2b6289",
+        "28c977d5-1c6d-4fb9-8555-447b545ae936"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "distance": 2.3660357140161716,
+      "endpoints": [
+        "e3f91eae-3d39-4a7f-8cac-a4d26d8338f7",
+        "869c6e61-f961-4cf5-bb4a-f427fe3a5f55"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "distance": 2.3660357140161756,
+      "endpoints": [
+        "e07dce58-e0e5-4211-a606-43188bcb9702",
+        "d092923d-11ca-4e3d-aa28-764026da09f1"
+      ]
+    },
+    {
+      "net": "/V half bridge/V_BOOT",
+      "distance": 2.8861739379323774,
+      "endpoints": [
+        "acd589f6-d41d-4db7-96b9-439214f1950b",
+        "95d9a0eb-53c2-46b6-a040-6919bec01f0b"
+      ]
+    },
+    {
+      "net": "/W half bridge/W_BOOT",
+      "distance": 2.8861739379323774,
+      "endpoints": [
+        "8da38fdd-6cd0-44f8-bae3-d8b46f4c70f6",
+        "1522e613-c876-4ffd-a1e1-c75b95a081ae"
+      ]
+    },
+    {
+      "net": "+5V_SENSOR",
+      "distance": 3.0232432915661964,
+      "endpoints": [
+        "1a15f862-c482-4168-aad0-1306c69b9519",
+        "1f8700a6-ad21-4efc-9247-45a158d8a70e"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/UART_RX_PORT",
+      "distance": 3.6992042387518853,
+      "endpoints": [
+        "8768f9e0-b855-4122-8990-19aa9fd1f653",
+        "6b58b728-3f95-464a-9a0e-e6928ea40f0e"
+      ]
+    },
+    {
+      "net": "AUX_PROTECTED",
+      "distance": 3.8173641429656695,
+      "endpoints": [
+        "aba316f5-e088-48c6-a676-77feebe2b307",
+        "68c9937e-1aaf-4530-ab93-3e1ef696fc68"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 3.8626415831655847,
+      "endpoints": [
+        "36cf52c7-cd2d-4a7c-9d62-a53791eb76a0",
+        "f530aa7f-e520-4034-a156-0c1b81b368a7"
+      ]
+    },
+    {
+      "net": "W_SOURCE",
+      "distance": 4.015890748015942,
+      "endpoints": [
+        "00ee8d05-d419-4300-9142-42b41f5483bb",
+        "685885d2-1d51-42cd-b28a-086e4e58e1e1"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/LED_AN_2",
+      "distance": 4.094020792570533,
+      "endpoints": [
+        "1e4ecc43-2d8c-4ab6-a4ed-0fdb191d8918",
+        "86238ff7-a958-4caa-a824-6538d96246ef"
+      ]
+    },
+    {
+      "net": "AUX_PROTECTED",
+      "distance": 4.153349551867749,
+      "endpoints": [
+        "f64773e5-8de2-4fff-b5b6-7aac9bb8dbce",
+        "f7d03a89-08aa-43d3-abf8-d1724029c595"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_8",
+      "distance": 4.166308317923678,
+      "endpoints": [
+        "f3e45b7f-d8c8-40b1-9bb6-0aa9597ba544",
+        "5fb51211-777e-49f8-a459-127ce8af6263"
+      ]
+    },
+    {
+      "net": "+5V_INV",
+      "distance": 4.177682042712183,
+      "endpoints": [
+        "0c24a4ec-bd8a-4384-a383-2ec0dc95a300",
+        "01153ab9-4db4-4927-b379-4556e753c085"
+      ]
+    },
+    {
+      "net": "PA15",
+      "distance": 4.24562009605192,
+      "endpoints": [
+        "22a1fcb4-6937-41db-8365-0cbfb701bef0",
+        "01127eb6-f836-48ed-9cb9-73a8dc05bb1e"
+      ]
+    },
+    {
+      "net": "/Driver supply/DRV_PG_NOM",
+      "distance": 4.2873360026944605,
+      "endpoints": [
+        "abe8024e-8a32-4591-9b2f-628a03203a00",
+        "6737583d-d2f0-431e-b8aa-87f6937f30cd"
+      ]
+    },
+    {
+      "net": "I_W",
+      "distance": 4.420000028280544,
+      "endpoints": [
+        "0e09c355-5398-4fa1-92c7-4e9da70ba1d0",
+        "e7077cc1-aef4-42ab-9b14-a93af5d6beff"
+      ]
+    },
+    {
+      "net": "PA4",
+      "distance": 4.423855784267825,
+      "endpoints": [
+        "99376535-c420-4bee-9982-d0c18d016baa",
+        "a6848ca4-25dc-46d7-99a2-b61f9581e72e"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_DIV",
+      "distance": 4.541387453190934,
+      "endpoints": [
+        "beb2b21a-bf07-492c-8203-e1c5645342b8",
+        "c4367e57-821f-47d2-ab08-f7fdfae8100d"
+      ]
+    },
+    {
+      "net": "/Hardware latch/RESET_CLK",
+      "distance": 4.615463140357656,
+      "endpoints": [
+        "1a4c3eb7-bbb4-4fa2-a181-f9e1a1a7c214",
+        "da27a8af-3580-430f-a975-fd00c093c909"
+      ]
+    },
+    {
+      "net": "/Auxiliary input/EFUSE_RTN",
+      "distance": 4.6818799642878535,
+      "endpoints": [
+        "6f64d67f-b868-4d54-a536-59e96eea8f76",
+        "81606279-123c-4b8b-a331-fd149c527021"
+      ]
+    },
+    {
+      "net": "I_W",
+      "distance": 4.8016030843875335,
+      "endpoints": [
+        "79d0fbf3-2d0f-413d-a2b5-c2ae8a3ce2a7",
+        "0e09c355-5398-4fa1-92c7-4e9da70ba1d0"
+      ]
+    },
+    {
+      "net": "+5V_INV",
+      "distance": 4.8083261120685155,
+      "endpoints": [
+        "ab9e12aa-f38b-4321-83d3-d51c32efff8b",
+        "44cc669d-6f7c-4682-83fb-11fbe7ffe96d"
+      ]
+    },
+    {
+      "net": "/Hardware latch/RESET_CLK",
+      "distance": 4.953072278899228,
+      "endpoints": [
+        "da27a8af-3580-430f-a975-fd00c093c909",
+        "d4b81517-370a-409b-b4db-f666e9b6b52f"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 4.960090724976722,
+      "endpoints": [
+        "ec15142d-f38f-4a0f-9a3d-fa2431606d27",
+        "f530aa7f-e520-4034-a156-0c1b81b368a7"
+      ]
+    },
+    {
+      "net": "DRIVE_PERMIT",
+      "distance": 5.161899674538445,
+      "endpoints": [
+        "0273780c-137b-438b-8e79-ff6269491113",
+        "9ea1e90c-f2c0-4b94-86a8-4816088ce107"
+      ]
+    },
+    {
+      "net": "I_V",
+      "distance": 5.218371992297969,
+      "endpoints": [
+        "0a9532d5-1e50-4299-a53d-e29ba3ad7516",
+        "4d6ea249-7dc9-4602-ac26-5506539613a3"
+      ]
+    },
+    {
+      "net": "/Bus and brake/BR_GATE",
+      "distance": 5.243445646709779,
+      "endpoints": [
+        "78236df5-f847-4294-87df-ffed632da141",
+        "f133271e-9272-4bb2-879e-57ee006a9805"
+      ]
+    },
+    {
+      "net": "PWM_WL_IN",
+      "distance": 5.299080698574051,
+      "endpoints": [
+        "bd958ad5-f152-4f95-baa6-13689d06e521",
+        "0ecc7852-2fad-4905-92fc-d22e2d32f235"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_V_DIV1",
+      "distance": 5.404886724067396,
+      "endpoints": [
+        "cb01095f-1f31-4551-bc2a-b5915a93df25",
+        "ce03d7e2-83b7-4dd4-afdf-38da43ab38c8"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_6",
+      "distance": 5.724999999999994,
+      "endpoints": [
+        "c976131d-e3df-48a3-9c0a-73ba6f3942fe",
+        "0d226383-84fa-4ede-a7d0-6a44b95fce51"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "distance": 5.7250000000000085,
+      "endpoints": [
+        "1bcc5459-ba44-4d88-b047-addfb6140e81",
+        "2a112d29-c0a9-435c-a354-70e3050418f0"
+      ]
+    },
+    {
+      "net": "/U half bridge/U_GATE_H",
+      "distance": 5.755703692859804,
+      "endpoints": [
+        "263459fc-35be-4c7c-947d-9a2c6ec7df95",
+        "fcce7b3f-e072-4607-880c-4c710c3f9bd2"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 5.76465523687236,
+      "endpoints": [
+        "641711b1-49a7-432f-8e92-2ba17519556b",
+        "36cf52c7-cd2d-4a7c-9d62-a53791eb76a0"
+      ]
+    },
+    {
+      "net": "/Driver supply/BB_L1",
+      "distance": 5.98926122322276,
+      "endpoints": [
+        "c137f52e-be84-46c2-8b84-9ee5416495d4",
+        "91a0f738-e5b5-4d7f-bb96-d6b91b9284ec"
+      ]
+    },
+    {
+      "net": "/Driver supply/BB_VREG",
+      "distance": 6.3869006568131415,
+      "endpoints": [
+        "c873ae69-5be7-4ffa-8736-5cc7db144e62",
+        "e8e352e1-f741-47ba-80c7-04c128871d4e"
+      ]
+    },
+    {
+      "net": "Net-(D207-K1{slash}A2)",
+      "distance": 6.4136249500574944,
+      "endpoints": [
+        "685e404c-c6db-40cf-980c-b27b560ff496",
+        "e77dabba-59a5-48ea-9a90-6ff4a0306ae4"
+      ]
+    },
+    {
+      "net": "TEMP_NTC",
+      "distance": 6.604058222032865,
+      "endpoints": [
+        "3e96ae6c-6283-4c5d-9884-e625c529959a",
+        "8295297a-c08b-4603-a631-8c19579d3897"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_DC_DIV1",
+      "distance": 6.648675431993966,
+      "endpoints": [
+        "c7ec03af-9af9-4ce4-84cf-68af93cb789f",
+        "a1d9fa83-9eb5-48d0-90cd-f3d57f7f903e"
+      ]
+    },
+    {
+      "net": "/Auxiliary input/AUX_FUSED",
+      "distance": 6.688202449089017,
+      "endpoints": [
+        "1494055d-1a2a-4b81-9de5-781edb1a67f4",
+        "d6e8983e-2000-4f42-9b44-8cef2d4140ce"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 6.75208301193047,
+      "endpoints": [
+        "37467b96-2a9d-456c-8203-ac94bad067a7",
+        "641711b1-49a7-432f-8e92-2ba17519556b"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 6.804466327347069,
+      "endpoints": [
+        "4348e8bd-7af5-487b-9aac-98d05a0ad513",
+        "37467b96-2a9d-456c-8203-ac94bad067a7"
+      ]
+    },
+    {
+      "net": "/Bus and brake/BR_GATE",
+      "distance": 6.991210356583466,
+      "endpoints": [
+        "f133271e-9272-4bb2-879e-57ee006a9805",
+        "d288236a-d144-43a9-b71e-9cfdacc02b2d"
+      ]
+    },
+    {
+      "net": "OC_HIGH_REF",
+      "distance": 7.115443019236408,
+      "endpoints": [
+        "501dff97-1e7c-4bcf-9c43-8c316cf1ba7a",
+        "eb8389e8-bedf-4dc4-81d9-1b07f8e48a1f"
+      ]
+    },
+    {
+      "net": "I_U",
+      "distance": 7.126234647413716,
+      "endpoints": [
+        "1942f764-4c1f-4e04-85f2-289ffe095f8c",
+        "4769c2f1-b377-4b0a-8c14-3c0252aa8965"
+      ]
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "distance": 7.519027945818551,
+      "endpoints": [
+        "a4cf017e-0c56-45bc-a82a-b622793d1baf",
+        "b225e113-695a-4749-ba86-1394d1638b19"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_DC_DIV",
+      "distance": 7.762854114306173,
+      "endpoints": [
+        "ff7cd058-74aa-4188-bfe5-26fec6591f19",
+        "2a9b81da-a920-4d8c-8b04-b0efa66f5468"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_CHAIN_4",
+      "distance": 7.824201237187091,
+      "endpoints": [
+        "8e19d873-4051-43d6-ac06-cb3972a90721",
+        "2f5f18b9-ef3b-4ebf-9c22-de13a62e04a9"
+      ]
+    },
+    {
+      "net": "ENABLE_IN",
+      "distance": 7.875040079263098,
+      "endpoints": [
+        "9ea37399-bd89-46a0-a9b1-2a37421847ce",
+        "2daf2118-2d1c-420d-86d8-84010158b925"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_W_DIV1",
+      "distance": 7.98229822795416,
+      "endpoints": [
+        "0ab02e18-a466-4540-a42a-09b4d0ef61ed",
+        "a8afa9b7-4139-458f-871e-da752f3c8b42"
+      ]
+    },
+    {
+      "net": "U_SOURCE",
+      "distance": 8.224956717211343,
+      "endpoints": [
+        "585db82c-7e96-4729-adaf-5dd9a92f3989",
+        "37de01cb-2485-4aa3-8b9d-a0483bfe3543"
+      ]
+    },
+    {
+      "net": "PB11",
+      "distance": 8.244578339733335,
+      "endpoints": [
+        "ef9b6e60-34bb-4743-9b3c-90e0bc40231f",
+        "aab44601-b2a2-459b-ad0b-49071bde30e9"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/UART_TX_PORT",
+      "distance": 8.490942232756034,
+      "endpoints": [
+        "51ddd59a-1e30-4bb8-9ef2-c740aedeab6f",
+        "5686abc3-f7e3-456b-a5a9-958b83ebd68d"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_U_DIV",
+      "distance": 8.542394277952763,
+      "endpoints": [
+        "6bd0c11a-eae2-4784-8788-0ed18613504a",
+        "d5472f1d-071d-40bd-a7ce-179687226d4a"
+      ]
+    },
+    {
+      "net": "OV_REF_1V30",
+      "distance": 8.582184919937335,
+      "endpoints": [
+        "0410f340-1706-454d-ac16-a1ea58cd65ef",
+        "c18a4e96-37ff-4372-bb01-6a51567220ad"
+      ]
+    },
+    {
+      "net": "/Auxiliary input/AUX_SHDN_N",
+      "distance": 8.615003264654062,
+      "endpoints": [
+        "66bc3182-1424-4854-9cd7-8f3f68502757",
+        "a3d145c1-f993-45e3-bb3d-ec04e5ec7876"
+      ]
+    },
+    {
+      "net": "V_SOURCE",
+      "distance": 8.616263691415213,
+      "endpoints": [
+        "dab0ed74-11ef-45ed-83cb-9c457b9381d2",
+        "1b74580b-c3ff-4aaf-a453-90ee2ad5f9ed"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/CAN_TX_PHY",
+      "distance": 8.863388178343532,
+      "endpoints": [
+        "6365bea6-b0b8-4a87-91f5-b06ed7899b9e",
+        "bc222287-dbb9-44c2-8739-1015d135c0bf"
+      ]
+    },
+    {
+      "net": "+5V_INV",
+      "distance": 9.061868295224771,
+      "endpoints": [
+        "b8c4b7f1-2c6a-4f91-a6fe-01bfe6601a1b",
+        "55f6dcf7-4565-44d4-9ff7-44b4452d0bd4"
+      ]
+    },
+    {
+      "net": "OC_LOW_REF",
+      "distance": 9.259071889233821,
+      "endpoints": [
+        "28aacdf0-7518-4a9a-a950-d3e879c36beb",
+        "85dea029-c103-4230-a8e7-4143b412fbe7"
+      ]
+    },
+    {
+      "net": "OC_HIGH_REF",
+      "distance": 9.542029619006653,
+      "endpoints": [
+        "90c6f60f-91a5-4c31-9fe4-7ed55838b1e4",
+        "501dff97-1e7c-4bcf-9c43-8c316cf1ba7a"
+      ]
+    },
+    {
+      "net": "PA3",
+      "distance": 9.562133653113198,
+      "endpoints": [
+        "90649448-61c5-4241-94dc-d0790af9db6a",
+        "2bbd21a3-f0e6-406e-971f-d685c741d5ac"
+      ]
+    },
+    {
+      "net": "W_SOURCE",
+      "distance": 10.901642536792332,
+      "endpoints": [
+        "41bc8b1d-1e34-4eeb-a9b4-cd2f288075f1",
+        "6af1de48-b033-40d8-9cdc-770b062e514c"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_U_DIV",
+      "distance": 10.917367184903151,
+      "endpoints": [
+        "d5472f1d-071d-40bd-a7ce-179687226d4a",
+        "0a1571dc-3161-40ed-b018-7c40bed6d116"
+      ]
+    },
+    {
+      "net": "/V half bridge/V_GATE_L",
+      "distance": 11.122904836417499,
+      "endpoints": [
+        "13b2ef6b-0599-4668-ad0d-0bbb56f0b368",
+        "d61a3a94-e0f1-4247-9b8b-34ab4b70ab68"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/LED_AN_3",
+      "distance": 11.566957519157747,
+      "endpoints": [
+        "55c9d8d1-0f0b-4c77-9db9-d5147af86dae",
+        "64f950df-1d16-4bb2-a9c7-e5d51d22b866"
+      ]
+    },
+    {
+      "net": "+12V_DRV",
+      "distance": 11.765468541456388,
+      "endpoints": [
+        "4c48846f-5fcb-42a7-9e81-e476a723ac46",
+        "b25578e6-e9f7-4aec-add2-8f5d1182401d"
+      ]
+    },
+    {
+      "net": "PC2",
+      "distance": 11.83446238745131,
+      "endpoints": [
+        "5102ef87-302b-47ba-8e45-9972e3ddf5fc",
+        "e6e1aa1a-6e7a-4ff9-9f4c-50e512021801"
+      ]
+    },
+    {
+      "net": "Net-(D201-K1{slash}A2)",
+      "distance": 11.848548434301984,
+      "endpoints": [
+        "7f752734-641c-45f5-9b6f-0c9c8180a5f8",
+        "82f99457-a962-4da0-894e-5901226f3966"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_U_DIV1",
+      "distance": 12.127585353234993,
+      "endpoints": [
+        "0322a968-5f94-4004-820d-7decdf622b36",
+        "afa425b3-2a59-43ad-b61d-f09a90b3c91b"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_V_DIV2",
+      "distance": 12.357375135925905,
+      "endpoints": [
+        "7b0c89ef-58db-4906-ab4b-1a3201a7e857",
+        "bd6a9c2b-4ec7-4214-974b-be62bcfdd94c"
+      ]
+    },
+    {
+      "net": "U_HIN",
+      "distance": 12.564738606513078,
+      "endpoints": [
+        "37592a78-31e5-4d00-b8c3-b581641632a9",
+        "ec83931b-54b3-4d09-9c0a-9ab0e6e2fcd3"
+      ]
+    },
+    {
+      "net": "V_SOURCE",
+      "distance": 12.588331779866618,
+      "endpoints": [
+        "445ce9b2-137d-4a68-8afa-24a6b32825b8",
+        "7596e441-b4c2-483c-9a0c-af1257d65c3c"
+      ]
+    },
+    {
+      "net": "BASE_LOGIC_OK",
+      "distance": 12.740192306240907,
+      "endpoints": [
+        "762a71cd-0a25-488d-8ce8-cc4e7e13f24f",
+        "714fd72a-a901-437e-9ddb-0a16ff92ea9b"
+      ]
+    },
+    {
+      "net": "/Hardware latch/NO_LATCH",
+      "distance": 12.87412642667455,
+      "endpoints": [
+        "17c737de-6c62-4158-ae00-9a4ca6918ecf",
+        "0c3bcd0a-d034-4423-9c74-2f6a50ecface"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_U",
+      "distance": 13.244532655024095,
+      "endpoints": [
+        "a4a3f049-ad50-40cc-bedd-3a083db60622",
+        "308290b3-6f22-4fec-97c5-2a2f399cbf55"
+      ]
+    },
+    {
+      "net": "U_LIN",
+      "distance": 13.251253714271725,
+      "endpoints": [
+        "fedf39ff-413c-47ab-b37d-888033296476",
+        "bbb6e168-698d-4a80-9494-34288b1031f0"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_DC_DIV2",
+      "distance": 13.330670135068239,
+      "endpoints": [
+        "9514e223-f185-43c4-b1f9-632c5db2ea6c",
+        "e45400b5-dcb9-4e03-bf3d-8cfa1c939dc3"
+      ]
+    },
+    {
+      "net": "+5V_SENSOR",
+      "distance": 13.46291201783626,
+      "endpoints": [
+        "7a898c75-2e12-4dda-8860-a08ae05bbc3d",
+        "1a15f862-c482-4168-aad0-1306c69b9519"
+      ]
+    },
+    {
+      "net": "PC3",
+      "distance": 13.738740844779034,
+      "endpoints": [
+        "0f1ee950-7d3f-4bbf-b8ab-e2c1215e1dca",
+        "0fedfb79-4cf8-479f-a3c6-e873579f48ae"
+      ]
+    },
+    {
+      "net": "BASE_LOGIC_OK",
+      "distance": 13.925498420164352,
+      "endpoints": [
+        "d9c4a52a-5870-4ef1-b0c4-bcee7d3922c4",
+        "44209259-a216-40f2-a246-0d7dbfba4772"
+      ]
+    },
+    {
+      "net": "PC13",
+      "distance": 14.13472083205042,
+      "endpoints": [
+        "a66b5725-1318-449c-9099-a1bf5ae99154",
+        "f2bfc54a-72fe-4a67-8fab-7794c2401d0f"
+      ]
+    },
+    {
+      "net": "PB12",
+      "distance": 14.29062804778011,
+      "endpoints": [
+        "8350522b-fcf3-476b-a343-b393253d5eea",
+        "b009be2b-988d-44f5-a9f9-a94a86889f24"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "distance": 14.38308468305738,
+      "endpoints": [
+        "b6a85c0f-fd25-42df-8c07-e3f00a2b6289",
+        "d092923d-11ca-4e3d-aa28-764026da09f1"
+      ]
+    },
+    {
+      "net": "PC9",
+      "distance": 14.50119115797044,
+      "endpoints": [
+        "bf217a5a-95a9-471c-a033-fbc69d541c48",
+        "bcf3bc38-f72f-4dd2-ac88-0723d0edf9a9"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "distance": 14.529216255531468,
+      "endpoints": [
+        "e3f91eae-3d39-4a7f-8cac-a4d26d8338f7",
+        "e07dce58-e0e5-4211-a606-43188bcb9702"
+      ]
+    },
+    {
+      "net": "AUX_FLT_N",
+      "distance": 15.192308909444948,
+      "endpoints": [
+        "b645d308-52bd-4f74-86a9-c8f520defaf3",
+        "2b87359a-d665-481e-8415-6644f0a15092"
+      ]
+    },
+    {
+      "net": "PB1",
+      "distance": 15.29016023460841,
+      "endpoints": [
+        "e4de3c43-1883-40bc-ae00-d063ca14db52",
+        "66a9c036-3c53-47b8-b6b0-2d1e3a9b608c"
+      ]
+    },
+    {
+      "net": "DRV_UV_OK",
+      "distance": 15.64214059839638,
+      "endpoints": [
+        "76bab29e-c78a-46d9-a653-e25e993e4fd7",
+        "bc5d5a27-28c8-4fa4-9e83-11cac6612dec"
+      ]
+    },
+    {
+      "net": "ENABLE_QUALIFIED",
+      "distance": 15.862499999999997,
+      "endpoints": [
+        "a03c7d81-e8a9-49ef-911a-7f02cb2292c6",
+        "368b2db3-60a5-48a2-9519-e1d6752a387a"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_V",
+      "distance": 15.957506266644549,
+      "endpoints": [
+        "0a2539e7-259b-43e6-932e-c5414d761e7b",
+        "eb1d9723-38d9-48e6-b9e4-bf4f5bbd6e98"
+      ]
+    },
+    {
+      "net": "/Hardware latch/RESET_REQUEST",
+      "distance": 16.63743538680166,
+      "endpoints": [
+        "3b9bd751-b6b7-42f1-b710-b8367ac971b1",
+        "6372519c-9c25-4c5a-bda7-f669b3417400"
+      ]
+    },
+    {
+      "net": "/Voltage and NTC/V_V_DIV",
+      "distance": 16.643843283628943,
+      "endpoints": [
+        "c9061909-ec39-47b9-955e-bfeeeaff54de",
+        "d68cc949-091f-4b78-9e52-14566114bfd2"
+      ]
+    },
+    {
+      "net": "V_HIN",
+      "distance": 16.768287218735253,
+      "endpoints": [
+        "84693163-0976-401a-a96e-a9c58f13dcab",
+        "c6ea4877-759c-41fc-a789-237c70c99d27"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_B_VCC",
+      "distance": 16.85271788169492,
+      "endpoints": [
+        "677416cd-14b4-4214-bbc3-b82b2591b93c",
+        "8ffc2e4a-463c-4b25-8927-703d98f4b78f"
+      ]
+    },
+    {
+      "net": "FAULT_N",
+      "distance": 16.85958555243871,
+      "endpoints": [
+        "cb949fdd-9c76-41b6-9883-84a148b880b8",
+        "08d4cd92-2e45-4fde-8195-eb2d4941c554"
+      ]
+    },
+    {
+      "net": "/Logic and sensors/SENSOR_PWR_FLT_N",
+      "distance": 17.51909189998159,
+      "endpoints": [
+        "0d17ca81-ef80-4acd-a7e4-5fc36faadf95",
+        "32f81fb9-4880-4c6d-9fc4-1811e7bcebbc"
+      ]
+    },
+    {
+      "net": "PB2",
+      "distance": 17.65555153485724,
+      "endpoints": [
+        "529f8c82-33fe-4b49-91ad-83222d10cb2f",
+        "d7b62d9e-2215-4233-be89-73ba0f8bf00e"
+      ]
+    },
+    {
+      "net": "PC9",
+      "distance": 17.746367093013717,
+      "endpoints": [
+        "b81f7a46-7556-4981-873a-63a1222da274",
+        "bf217a5a-95a9-471c-a033-fbc69d541c48"
+      ]
+    },
+    {
+      "net": "PB1",
+      "distance": 17.784737838944956,
+      "endpoints": [
+        "74320f67-dae0-4751-807f-f6671a46af0f",
+        "e4de3c43-1883-40bc-ae00-d063ca14db52"
+      ]
+    },
+    {
+      "net": "Net-(D202-K1{slash}A2)",
+      "distance": 17.922910617419248,
+      "endpoints": [
+        "9409f209-bfe0-453e-b822-c4ee5cb911f2",
+        "8047dd50-9428-4df2-b84d-219cc91a90ad"
+      ]
+    },
+    {
+      "net": "PC1",
+      "distance": 18.10724233559599,
+      "endpoints": [
+        "2cb72f5f-edb9-4a73-95cb-6037c73612d9",
+        "1345a4fd-5455-49e2-b5c5-baa011ef093f"
+      ]
+    },
+    {
+      "net": "Net-(D203-K1{slash}A2)",
+      "distance": 18.21571025241673,
+      "endpoints": [
+        "8f8ad4bb-29e6-4615-b079-ebf50bc08415",
+        "57d15acf-90f8-4b9a-86e1-b1e543958fa6"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_B_MISO_PORT",
+      "distance": 18.65312038239179,
+      "endpoints": [
+        "4b9ea31a-0448-469a-be1c-337395a20dc9",
+        "d93c3256-e8e1-4e8e-a206-a12c36d4844a"
+      ]
+    },
+    {
+      "net": "FAULT_N",
+      "distance": 19.839748612318633,
+      "endpoints": [
+        "08d4cd92-2e45-4fde-8195-eb2d4941c554",
+        "0a122d06-303b-49f4-b429-12bb4a5b946f"
+      ]
+    },
+    {
+      "net": "+5V_SENSOR",
+      "distance": 20.274526042549052,
+      "endpoints": [
+        "d0ea5d96-d31b-4a97-ad6f-776c6a9ba050",
+        "6ca53153-932c-4558-b670-f80b8c83c907"
+      ]
+    },
+    {
+      "net": "/Hardware latch/FAULT_BASE",
+      "distance": 20.429557543911717,
+      "endpoints": [
+        "31f9ba8e-7d90-4571-926c-363338bbd245",
+        "8510b577-c9ad-45ed-950f-d8319ee6f848"
+      ]
+    },
+    {
+      "net": "V_DC",
+      "distance": 20.88269023377974,
+      "endpoints": [
+        "e58a580a-b43e-4641-a3e3-9d46407173fa",
+        "ca91b2ab-231a-4474-9eea-53e83a3d65a3"
+      ]
+    },
+    {
+      "net": "ENABLE_IN",
+      "distance": 20.900892325448694,
+      "endpoints": [
+        "6094751b-e599-435f-8b3f-0e23e1fa47c1",
+        "3124b139-f1a6-4cd3-89af-8c6994b6e285"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/ENC_B_VCC",
+      "distance": 20.925106929236936,
+      "endpoints": [
+        "e2fab28e-0e52-4a07-9c4e-4e80add79b90",
+        "40fe7d2f-ee8c-4177-b485-b3493c04612e"
+      ]
+    },
+    {
+      "net": "PWM_UH_IN",
+      "distance": 20.996499857119034,
+      "endpoints": [
+        "cabe2538-5e3f-42c6-9588-e5a3b0a5346f",
+        "6c27b1dd-15d1-43d4-aca9-449562c3ccbe"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_B_MOSI_PORT",
+      "distance": 21.14881084127427,
+      "endpoints": [
+        "890d984a-c9b3-41b5-bf7a-eae277ef4cb9",
+        "2a8cf4f1-a95e-48c0-8192-97610fa861d5"
+      ]
+    },
+    {
+      "net": "DRV_PG_LOGIC",
+      "distance": 21.310007185592394,
+      "endpoints": [
+        "981abf7c-0b2c-4e00-971d-bc60536d6dc6",
+        "8b6c42fb-f1b1-4f4b-9dd0-1449dba0e59c"
+      ]
+    },
+    {
+      "net": "PB6",
+      "distance": 21.63358962354605,
+      "endpoints": [
+        "7a7f8e94-b2a0-4f08-bf7f-e7e1d3b98153",
+        "9766687a-9205-432c-97aa-3be40995eb68"
+      ]
+    },
+    {
+      "net": "ENABLE_IN",
+      "distance": 22.165536453016415,
+      "endpoints": [
+        "2daf2118-2d1c-420d-86d8-84010158b925",
+        "6094751b-e599-435f-8b3f-0e23e1fa47c1"
+      ]
+    },
+    {
+      "net": "BUS_OV_OK",
+      "distance": 22.245371709638835,
+      "endpoints": [
+        "5f4b19bc-de1b-40d9-ab33-62780b1a3e99",
+        "357feca4-3d45-4696-a45c-0463a994bedd"
+      ]
+    },
+    {
+      "net": "TEMP_NTC",
+      "distance": 22.510573559996192,
+      "endpoints": [
+        "8295297a-c08b-4603-a631-8c19579d3897",
+        "a1d82d74-9571-4482-bcb3-3c533b26e8d4"
+      ]
+    },
+    {
+      "net": "Net-(D204-K1{slash}A2)",
+      "distance": 22.565842439403852,
+      "endpoints": [
+        "3a2c3881-b8e1-445f-a249-cafc680e5b80",
+        "d0d2eeb6-9946-4d3d-b8fe-39e956618923"
+      ]
+    },
+    {
+      "net": "Net-(D208-K1{slash}A2)",
+      "distance": 23.370877647191605,
+      "endpoints": [
+        "e51c1277-aa65-498c-9454-a5df3884c220",
+        "2f3f667a-bdd9-4a4c-82cc-db6601cf39eb"
+      ]
+    },
+    {
+      "net": "PWM_WH_IN",
+      "distance": 23.386834036483,
+      "endpoints": [
+        "06ccbec8-51f1-4457-9c96-0023caf2121e",
+        "a1b35e2e-20ef-485d-8a47-a1e3b3271e7c"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_B_SCK_PORT",
+      "distance": 23.49152808993063,
+      "endpoints": [
+        "4da0dbfd-02f0-4811-a9e1-d737d7bea952",
+        "595121f3-10fc-4b9f-aa4f-8b50aad154e4"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_B_CS_PORT",
+      "distance": 23.68938675863096,
+      "endpoints": [
+        "61460100-9138-43eb-8416-812c187e4f67",
+        "a1f94891-17fd-44a6-ba89-7d78363a8454"
+      ]
+    },
+    {
+      "net": "PA13",
+      "distance": 24.08035091106441,
+      "endpoints": [
+        "b35bd0ba-71ad-4479-992b-16b066ac538b",
+        "b8bd5293-84a2-449e-aef4-3113b0d2f152"
+      ]
+    },
+    {
+      "net": "PA15",
+      "distance": 24.417901834514776,
+      "endpoints": [
+        "3d805148-f560-4a25-a784-e7ea5134c48c",
+        "22a1fcb4-6937-41db-8365-0cbfb701bef0"
+      ]
+    },
+    {
+      "net": "V_DC_PORT",
+      "distance": 24.454926088622734,
+      "endpoints": [
+        "83fbb49d-c80a-48a6-9981-1caeef86934a",
+        "7a822121-6ca2-4a27-a98e-046dc05c9ccc"
+      ]
+    },
+    {
+      "net": "/Current sensing/VBIAS_1V65",
+      "distance": 24.761487233201482,
+      "endpoints": [
+        "2e46aa20-8552-48c1-89a1-98143da59540",
+        "869c6e61-f961-4cf5-bb4a-f427fe3a5f55"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_A_MISO_PORT",
+      "distance": 25.37759838913053,
+      "endpoints": [
+        "2cd78bb3-d054-4b94-8b3d-e076948d13ef",
+        "ccf313c7-9012-4536-9a2d-5a8aa9796803"
+      ]
+    },
+    {
+      "net": "PWM_WL_IN",
+      "distance": 25.57187432023706,
+      "endpoints": [
+        "0ecc7852-2fad-4905-92fc-d22e2d32f235",
+        "ad476420-30a8-477f-a2f6-761a661f392f"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_A_MOSI_PORT",
+      "distance": 25.728000310945262,
+      "endpoints": [
+        "49dd60f0-ca44-4cfe-b37b-8a4109e6ce87",
+        "c31b40eb-a41c-46cd-a44c-c31c73dc1505"
+      ]
+    },
+    {
+      "net": "V_U_PORT",
+      "distance": 25.88228678073094,
+      "endpoints": [
+        "8f0ee0d9-6d69-4a1e-9c03-b84153efadff",
+        "acc3d434-3596-474a-98ca-09a4ff523c22"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_A_CS_PORT",
+      "distance": 25.921331948802322,
+      "endpoints": [
+        "cad58436-04a6-4d97-a750-59718b5c2182",
+        "a2327016-0f79-4374-9a7a-4dffae932d6d"
+      ]
+    },
+    {
+      "net": "Net-(D205-K1{slash}A2)",
+      "distance": 25.94856982571487,
+      "endpoints": [
+        "fed904a2-3aea-422e-9f37-7aa6ec552a3b",
+        "a2338a2c-2e66-4150-b179-4fa6701efc45"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/ENC_A_A_PORT",
+      "distance": 26.24533672864572,
+      "endpoints": [
+        "d866d6a1-80b1-4d9a-a96c-ae80279240d4",
+        "3f8e3821-2b3b-44c6-90ca-87758e715d5e"
+      ]
+    },
+    {
+      "net": "PWM_UL_IN",
+      "distance": 26.301049104550945,
+      "endpoints": [
+        "3e01eb5d-c6f6-4649-99ef-827c91330ca0",
+        "b06399ee-4214-46cd-b20f-97ed376a75d1"
+      ]
+    },
+    {
+      "net": "PWM_UH_IN",
+      "distance": 26.35018512743317,
+      "endpoints": [
+        "6c27b1dd-15d1-43d4-aca9-449562c3ccbe",
+        "b7924345-fa81-49e4-95e3-13429ede9e21"
+      ]
+    },
+    {
+      "net": "PC0",
+      "distance": 26.814000074587906,
+      "endpoints": [
+        "e1b073d6-f444-44ab-b4a7-3157ce83ca79",
+        "e241d073-66b8-4f8a-93b5-08c51f194e84"
+      ]
+    },
+    {
+      "net": "DRV_PG_LOGIC",
+      "distance": 26.892343241153238,
+      "endpoints": [
+        "8b6c42fb-f1b1-4f4b-9dd0-1449dba0e59c",
+        "b4bb81cc-91f3-428e-985e-e33ae12d247c"
+      ]
+    },
+    {
+      "net": "PC4",
+      "distance": 26.957620443948674,
+      "endpoints": [
+        "6162290a-94b2-4b77-adf7-d595dd3bd37d",
+        "e9acf180-5dbc-427c-8e76-68ab93e6b4bc"
+      ]
+    },
+    {
+      "net": "PB12",
+      "distance": 27.146956090876934,
+      "endpoints": [
+        "b009be2b-988d-44f5-a9f9-a94a86889f24",
+        "f246ddf7-5b30-4766-b6a0-f8634f2b8012"
+      ]
+    },
+    {
+      "net": "/Current sensing/OC_HI_MID",
+      "distance": 27.332822174082214,
+      "endpoints": [
+        "bf89c607-644f-4bc8-bf0a-9882aa3086e6",
+        "5fcab514-449d-4aea-84b9-6463c9aca38c"
+      ]
+    },
+    {
+      "net": "OC_V_LOW_OK",
+      "distance": 27.356043664974667,
+      "endpoints": [
+        "20ca3fc3-9bf5-4089-ae42-235f7b1ff121",
+        "3854dcaf-e126-4792-8657-4265c92ca1d3"
+      ]
+    },
+    {
+      "net": "Net-(D206-K1{slash}A2)",
+      "distance": 27.843708445535768,
+      "endpoints": [
+        "9ee15c5d-99fa-4b3b-82fa-e167b909f76f",
+        "45fee98e-7067-442d-a52d-e568ec9bda25"
+      ]
+    },
+    {
+      "net": "PA2",
+      "distance": 28.067035824967352,
+      "endpoints": [
+        "53093f2b-e4b4-49fe-92a0-23640588e484",
+        "0dcc8b8b-9b68-4c0d-9ff3-0e11db608c8f"
+      ]
+    },
+    {
+      "net": "Net-(D208-K1{slash}A2)",
+      "distance": 28.20978730866294,
+      "endpoints": [
+        "9cd37f6a-c935-458c-8a0d-665050eb50b3",
+        "e51c1277-aa65-498c-9454-a5df3884c220"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_A_SCK_PORT",
+      "distance": 28.210616795809344,
+      "endpoints": [
+        "2a69e173-fb82-4437-911a-d13406caf1a5",
+        "99bfcea6-1f43-423c-a65e-ef92afd07506"
+      ]
+    },
+    {
+      "net": "PC10",
+      "distance": 28.22751090691489,
+      "endpoints": [
+        "b41959b8-d06b-4ecd-b124-14ec59b1c3e3",
+        "cdd35f77-ce4d-4eb5-a28d-1da6e635616c"
+      ]
+    },
+    {
+      "net": "BASE_READY",
+      "distance": 28.337069912925013,
+      "endpoints": [
+        "93c5daab-1ff3-45c7-86ae-3548c7ebce27",
+        "96c7f23d-238c-40db-9b4f-9571994e229b"
+      ]
+    },
+    {
+      "net": "OC_V_HIGH_OK",
+      "distance": 28.98936227308216,
+      "endpoints": [
+        "48998747-478c-4bfa-ad58-ac65eb4f8924",
+        "99f38595-54e0-492c-81cb-af44343b2615"
+      ]
+    },
+    {
+      "net": "/Base LEDs/LED_PWR_AN",
+      "distance": 29.11508210962147,
+      "endpoints": [
+        "ade8c9cd-6bc6-4a4d-890a-7dbebb95f3a3",
+        "fee6a85f-95d8-4f25-b1d3-4bfade97c846"
+      ]
+    },
+    {
+      "net": "PB2",
+      "distance": 29.394377642671742,
+      "endpoints": [
+        "d7b62d9e-2215-4233-be89-73ba0f8bf00e",
+        "b6878b4b-3055-4377-ab76-f0fde92b0116"
+      ]
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "distance": 30.555032318752335,
+      "endpoints": [
+        "3fc3216d-5fb7-462a-9e76-1aafcaea8dbc",
+        "1bcc5459-ba44-4d88-b047-addfb6140e81"
+      ]
+    },
+    {
+      "net": "PB5",
+      "distance": 30.68893458968557,
+      "endpoints": [
+        "5e06c30f-70b9-4b3e-a528-3f32cbff1cb6",
+        "01c5f42a-3ccc-4ef6-a3ba-dfc2f2c9e625"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/CAN_H",
+      "distance": 30.875785010263293,
+      "endpoints": [
+        "156b2eda-c292-42a1-be50-4dbb0ba89fea",
+        "4ce7b74b-8b97-494c-8ea3-7d88f4344764"
+      ]
+    },
+    {
+      "net": "/Encoders and SPI/SPI_A_VCC",
+      "distance": 30.950833591359046,
+      "endpoints": [
+        "ebd88318-f8e6-44e5-b540-fdcaa722699e",
+        "e58761d2-03f2-429f-98c7-93bb747a5cf6"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/LED_AN_4",
+      "distance": 31.156183274753015,
+      "endpoints": [
+        "123e9ba2-757b-4c35-a44f-b0a8479fb49b",
+        "e03ce120-ab40-4a5a-9e24-c99bbe580685"
+      ]
+    },
+    {
+      "net": "Net-(D207-K1{slash}A2)",
+      "distance": 31.444144923975916,
+      "endpoints": [
+        "08e1e83d-7876-4c52-a8d9-053dc09d298a",
+        "685e404c-c6db-40cf-980c-b27b560ff496"
+      ]
+    },
+    {
+      "net": "OC_U_LOW_OK",
+      "distance": 31.4460053106909,
+      "endpoints": [
+        "ca968585-f288-4f98-bd0b-02075c65ce33",
+        "2fbcd5c1-e8e9-4b47-b075-c739694b5fd3"
+      ]
+    },
+    {
+      "net": "/Hardware latch/NO_LATCH",
+      "distance": 31.59110832180474,
+      "endpoints": [
+        "0c3bcd0a-d034-4423-9c74-2f6a50ecface",
+        "3c8fb1db-4471-4df1-a7c0-60d405350dc0"
+      ]
+    },
+    {
+      "net": "PWM_VH_IN",
+      "distance": 31.845347619393333,
+      "endpoints": [
+        "4d4d4f9e-50d2-4d2c-867f-2155552206a0",
+        "a8155853-ee76-4d7e-a106-cccac9d3e074"
+      ]
+    },
+    {
+      "net": "V_W_PORT",
+      "distance": 32.01443775861136,
+      "endpoints": [
+        "c313867d-7e3c-4afa-81bc-c84304ad56d2",
+        "f6c78c3d-138a-449e-aa66-1d6254db0538"
+      ]
+    },
+    {
+      "net": "V_LIN",
+      "distance": 32.02460107870198,
+      "endpoints": [
+        "15fd49d6-e822-44ce-8d13-451cf149ed3c",
+        "af5dc4e9-704c-4f9f-8e1c-8076d2831df9"
+      ]
+    },
+    {
+      "net": "/SWD UART CAN and status/CAN_L",
+      "distance": 32.2592157375222,
+      "endpoints": [
+        "dd966172-729a-4385-b397-32d584bd0fe7",
+        "6ff4cd9c-6f63-4b98-929e-4e7fe54b8905"
+      ]
+    },
+    {
+      "net": "I_U_PORT",
+      "distance": 34.218452624278626,
+      "endpoints": [
+        "567e4296-24c7-4057-806e-fe8d3ce860a5",
+        "2f585049-fcaf-4ba4-9fb6-e691df278fb9"
+      ]
+    },
+    {
+      "net": "OC_W_HIGH_OK",
+      "distance": 34.54826786540823,
+      "endpoints": [
+        "1ed2ee4a-c09e-43b5-88d1-0cdb51213adb",
+        "291b934b-9249-4dd1-9c5b-fe6db21e5be9"
+      ]
+    },
+    {
+      "net": "OC_W_LOW_OK",
+      "distance": 34.79325096193225,
+      "endpoints": [
+        "7bc5814d-fc46-4b41-8f75-b4b1f978717b",
+        "660f70cc-f539-4422-a521-0d6efedfe363"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source_sha": "ad8f26911e94d155b6a1d089ae41c8ac9b5ebb3df0191390a60637154cc26036",
+  "candidate_board": "review\\inverter_power_candidate.kicad_pcb",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "V_SOURCE",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          138.8,
+          64.625
+        ],
+        [
+          143.35,
+          64.625
+        ]
+      ],
+      "locked": false,
+      "reason": "R28 10k pulldown and local driver source return to source side of RS2; no source-to-GND bypass."
+    },
+    {
+      "net": "W_SOURCE",
+      "layer": "F.Cu",
+      "width": 0.4,
+      "points": [
+        [
+          162.8,
+          64.625
+        ],
+        [
+          167.35,
+          64.625
+        ]
+      ],
+      "locked": false,
+      "reason": "R34 10k pulldown and local driver source return to source side of RS3; no source-to-GND bypass."
+    }
+  ],
+  "vias": [],
+  "placements": {},
+  "status": "PASS_NO_NEW_ELECTRICAL_DRC_ERRORS",
+  "validation": {
+    "source_unconnected": 25,
+    "candidate_unconnected": 23,
+    "electrical_DRC_errors": 0,
+    "DRC_report": "review\\inverter_power_candidate_drc.json",
+    "candidate_sha256": "e4f31123cdba191118a508af379d657e0ddcbd5a722122dbfd1bdae7bdea65cd"
+  },
+  "unresolved_notes": [
+    "VBUS In2 has isolated filled polygon bounding boxes x115.01..119.62/y77.13..77.89 and x119.25..138.57/y65.41..72.52. x182/183.4 y70 feed points touch the already-fed main polygon and do not fix those islands; trial feeds discarded.",
+    "V_PHASE main phase-capacity topology still needs review; no thin sole-current-path bridge was added."
+  ],
+  "integrity": "No original track/via/pad/footprint/zone settings removed or changed; only listed unlocked tracks and regenerated zone fill in private board."
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-11",
+  "revision": "E-shared-library-draft",
+  "scope": "Remaining exact procurement model selection; no new model selected.",
+  "boards": {
+    "controller": {
+      "groups": 13,
+      "references": 26,
+      "fitted": 23,
+      "DNP": 3
+    },
+    "inverter": {
+      "groups": 52,
+      "references": 207,
+      "fitted": 197,
+      "DNP": 10
+    }
+  },
+  "total": {
+    "groups": 65,
+    "references": 233,
+    "fitted": 220,
+    "DNP": 13
+  },
+  "categories": {
+    "晶振": 1,
+    "电容": 24,
+    "电阻": 35,
+    "LED": 5
+  },
+  "removed_reviewed_groups": [
+    {
+      "original_group": "S04",
+      "board": "controller",
+      "references": [
+        "C304",
+        "C306",
+        "C307",
+        "C308"
+      ],
+      "MPN": "CC0603KRX7R9BB104",
+      "Supplier_PN": "C14663"
+    },
+    {
+      "original_group": "S26",
+      "board": "inverter",
+      "references": [
+        "C4",
+        "C5",
+        "C9",
+        "C12",
+        "C24",
+        "C26",
+        "C28",
+        "C30",
+        "C32",
+        "C34",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "C51",
+        "C52",
+        "C53"
+      ],
+      "MPN": "CC0603KRX7R9BB104",
+      "Supplier_PN": "C14663"
+    }
+  ],
+  "requirements_preserved": "All surviving worksheet rows and columns are unchanged.",
+  "source_sha256": {
+    "docs/parts_to_complete_2026-11-10/selection_pending.csv": "9a31dccbbb92ebcc25ea9fde85465cfa8cc144b121c9331dc5296bedd8d97d98",
+    "controller/hardware/g431_core/bom/bom.csv": "98e3ca0b066389d76d10db673e7bc99c033b402975733f32fc3cf404d15e9676",
+    "controller/hardware/g431_core/bom/selection_pending.csv": "d2e6d5b7fa6ac61e7185bcb34df4b3e40008440e2d062fd97b0a2031a63c1560",
+    "controller/hardware/g431_core/review/controller.net.xml": "e4314ffec74403f495ed324ff40fac3c7fe3280e7d90419d9b9f38002b6f23b1",
+    "inverter/hardware/bom/bom.csv": "df3e834ee4a88dbf8ce99fbe173992c101ab5e0bb96942c6dac45212ffcd7523",
+    "inverter/hardware/bom/selection_pending.csv": "20e3013b0a13c39b256411d5527aed2c87167fd704b9a4276ca95f40011c5470",
+    "inverter/hardware/review/inverter.net.xml": "19a4a2c20326f7981858b23dafef3cf42a673c77ace893c3ace8ce07c4fbf51b"
+  }
+}

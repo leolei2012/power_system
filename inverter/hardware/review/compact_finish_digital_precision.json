@@ -1,0 +1,1285 @@
+{
+  "source_sha": "01389c4bfe59bf1dfa8b574f9114b36729e2d4d64822db7b6f481b752a1c13e1",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "ENABLE_IN",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          21.6875,
+          29.1
+        ],
+        [
+          21.75,
+          29.05
+        ],
+        [
+          21.8,
+          29.0
+        ],
+        [
+          23.15,
+          29.0
+        ],
+        [
+          23.3,
+          29.15
+        ],
+        [
+          23.3,
+          29.2
+        ],
+        [
+          23.4,
+          29.3
+        ],
+        [
+          23.4,
+          29.4
+        ],
+        [
+          23.45,
+          29.45
+        ],
+        [
+          23.45,
+          29.7
+        ],
+        [
+          23.65,
+          29.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "ENABLE_IN",
+      "layer": "In3.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          23.65,
+          29.9
+        ],
+        [
+          23.45,
+          29.7
+        ],
+        [
+          23.45,
+          29.45
+        ],
+        [
+          23.4,
+          29.4
+        ],
+        [
+          23.4,
+          29.3
+        ],
+        [
+          23.3,
+          29.2
+        ],
+        [
+          23.3,
+          29.15
+        ],
+        [
+          21.05,
+          26.9
+        ],
+        [
+          21.05,
+          21.65
+        ],
+        [
+          21.0,
+          21.6
+        ],
+        [
+          21.0,
+          21.1
+        ],
+        [
+          20.95,
+          21.05
+        ],
+        [
+          20.95,
+          21.0
+        ],
+        [
+          20.9,
+          20.95
+        ],
+        [
+          20.9,
+          20.9
+        ],
+        [
+          20.85,
+          20.85
+        ],
+        [
+          20.8,
+          20.85
+        ],
+        [
+          20.75,
+          20.8
+        ],
+        [
+          20.7,
+          20.8
+        ],
+        [
+          20.65,
+          20.75
+        ],
+        [
+          20.0,
+          20.75
+        ],
+        [
+          19.1,
+          19.85
+        ],
+        [
+          17.85,
+          19.85
+        ],
+        [
+          15.35,
+          22.35
+        ],
+        [
+          15.35,
+          26.6
+        ],
+        [
+          15.1,
+          26.85
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "ENABLE_IN",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          15.1,
+          26.85
+        ],
+        [
+          15.1,
+          25.2
+        ],
+        [
+          15.3,
+          25.0
+        ],
+        [
+          15.3,
+          24.9
+        ],
+        [
+          15.35,
+          24.85
+        ],
+        [
+          15.35,
+          23.7
+        ],
+        [
+          15.3,
+          23.65
+        ],
+        [
+          15.3,
+          23.55
+        ],
+        [
+          15.25,
+          23.5
+        ],
+        [
+          15.25,
+          23.45
+        ],
+        [
+          12.75,
+          20.95
+        ],
+        [
+          12.6,
+          20.95
+        ],
+        [
+          12.55,
+          20.9
+        ],
+        [
+          12.3,
+          20.9
+        ],
+        [
+          12.25,
+          20.85
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "ENABLE_IN",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          12.25,
+          20.85
+        ],
+        [
+          12.262550000000001,
+          20.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          16.5,
+          39.575
+        ],
+        [
+          16.5,
+          40.8
+        ],
+        [
+          16.45,
+          40.85
+        ],
+        [
+          16.45,
+          41.0
+        ],
+        [
+          16.4,
+          41.05
+        ],
+        [
+          16.4,
+          41.25
+        ],
+        [
+          16.45,
+          41.3
+        ],
+        [
+          16.45,
+          41.45
+        ],
+        [
+          16.55,
+          41.55
+        ],
+        [
+          16.55,
+          41.6
+        ],
+        [
+          16.65,
+          41.7
+        ],
+        [
+          16.7,
+          41.7
+        ],
+        [
+          16.75,
+          41.75
+        ],
+        [
+          16.8,
+          41.75
+        ],
+        [
+          16.85,
+          41.8
+        ],
+        [
+          17.25,
+          41.8
+        ],
+        [
+          17.3,
+          41.75
+        ],
+        [
+          18.05,
+          41.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "layer": "In3.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          18.05,
+          41.75
+        ],
+        [
+          18.4,
+          41.4
+        ],
+        [
+          19.9,
+          41.4
+        ],
+        [
+          19.95,
+          41.35
+        ],
+        [
+          20.05,
+          41.35
+        ],
+        [
+          20.2,
+          41.2
+        ],
+        [
+          20.2,
+          41.15
+        ],
+        [
+          20.25,
+          41.1
+        ],
+        [
+          20.25,
+          41.05
+        ],
+        [
+          20.3,
+          41.0
+        ],
+        [
+          20.3,
+          37.25
+        ],
+        [
+          20.6,
+          36.95
+        ],
+        [
+          20.6,
+          36.9
+        ],
+        [
+          20.65,
+          36.85
+        ],
+        [
+          20.65,
+          36.35
+        ],
+        [
+          22.2,
+          34.8
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          22.2,
+          34.8
+        ],
+        [
+          22.2,
+          34.5
+        ],
+        [
+          21.45,
+          33.75
+        ],
+        [
+          21.45,
+          33.7
+        ],
+        [
+          21.35,
+          33.6
+        ],
+        [
+          21.35,
+          33.3
+        ],
+        [
+          20.75,
+          32.7
+        ],
+        [
+          20.75,
+          32.65
+        ],
+        [
+          20.7,
+          32.6
+        ],
+        [
+          20.7,
+          30.8
+        ],
+        [
+          20.75,
+          30.75
+        ],
+        [
+          20.75,
+          30.7
+        ],
+        [
+          20.8,
+          30.65
+        ],
+        [
+          20.85,
+          30.65
+        ],
+        [
+          20.9,
+          30.6
+        ],
+        [
+          21.2,
+          30.6
+        ],
+        [
+          21.25,
+          30.55
+        ],
+        [
+          21.3,
+          30.55
+        ],
+        [
+          21.35,
+          30.5
+        ],
+        [
+          21.4,
+          30.5
+        ],
+        [
+          21.45,
+          30.45
+        ],
+        [
+          21.55,
+          30.45
+        ],
+        [
+          21.6,
+          30.4
+        ],
+        [
+          21.6875,
+          30.4
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "SPI_B_MISO",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          12.24,
+          13.5
+        ],
+        [
+          12.3,
+          13.55
+        ],
+        [
+          12.85,
+          14.1
+        ],
+        [
+          13.6,
+          14.1
+        ],
+        [
+          13.7,
+          14.2
+        ],
+        [
+          13.85,
+          14.2
+        ],
+        [
+          13.95,
+          14.3
+        ],
+        [
+          13.95,
+          14.35
+        ],
+        [
+          14.0,
+          14.4
+        ],
+        [
+          14.0,
+          16.35
+        ],
+        [
+          14.05,
+          16.4
+        ],
+        [
+          14.05,
+          16.45
+        ],
+        [
+          14.4,
+          16.8
+        ],
+        [
+          14.45,
+          16.8
+        ],
+        [
+          14.5,
+          16.85
+        ],
+        [
+          14.55,
+          16.85
+        ],
+        [
+          14.6,
+          16.9
+        ],
+        [
+          14.6,
+          16.95
+        ],
+        [
+          14.65,
+          17.0
+        ],
+        [
+          14.65,
+          17.5
+        ],
+        [
+          14.7,
+          17.55
+        ],
+        [
+          14.7,
+          17.65
+        ],
+        [
+          14.75,
+          17.7
+        ],
+        [
+          14.75,
+          17.825
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "ENABLE_IN",
+      "x": 23.65,
+      "y": 29.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "ENABLE_IN",
+      "x": 15.1,
+      "y": 26.85,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "ENABLE_IN",
+      "x": 12.25,
+      "y": 20.85,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "x": 18.05,
+      "y": 41.75,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "x": 22.2,
+      "y": 34.8,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_digital_precision.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "ENABLE_IN",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 157734,
+        "seconds": 4.781,
+        "start_candidates": 24,
+        "goal_candidates": 383
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_digital_precision.work\\drc_018.json"
+    },
+    {
+      "net": "/Hardware latch/HEALTH_ALL",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 82939,
+        "seconds": 2.141,
+        "start_candidates": 12,
+        "goal_candidates": 12
+      },
+      "before_net_components": 4,
+      "after_net_components": 3,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_digital_precision.work\\drc_028.json"
+    },
+    {
+      "net": "SPI_B_MISO",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 928,
+        "seconds": 1.235,
+        "start_candidates": 12,
+        "goal_candidates": 12
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_digital_precision.work\\drc_073.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "items": [
+        "3107612e-bbba-4d90-b237-ebbf064e59a3",
+        "73ae2c3a-db41-44fc-b080-80a0f5fc0674"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "49cc6794-7e33-4e1e-8542-883cfe3c6edf",
+        "a894841a-0fd6-4066-bdfc-130688846ffe"
+      ],
+      "reason": "No path within conservative grid/node/time budget (172923 nodes)"
+    },
+    {
+      "items": [
+        "307266fb-b0b7-4564-a5b6-e014b2974890",
+        "efd8becf-0d32-4ee1-ac4e-22becd0c2c20"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "be34d262-1bf1-4588-9b58-1b8bc34359ad",
+        "eb84517f-25ea-49d6-a442-2e5ae91bafd9"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "27557a43-9b9d-4d37-89b1-63d14a21cd43",
+        "c8c9f167-97c1-4c96-9711-724e9909c579"
+      ],
+      "reason": "No path within conservative grid/node/time budget (169470 nodes)"
+    },
+    {
+      "items": [
+        "385c0d89-d529-42e4-b758-ff2269e36d53",
+        "426de15c-c96d-459a-93ec-beeb5bffd535"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "d26bc7e8-1a6b-4ae3-b791-0e026f604d70",
+        "f5f2d92b-8fd3-4ce2-8b77-ae2f66ca622d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (67709 nodes)"
+    },
+    {
+      "items": [
+        "57db9677-7c89-4806-ab85-825f1157350b",
+        "82af96d1-a23a-45ae-b477-bd9123cba4de"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "7d66efbf-4fd0-4e9a-9eaa-946f9ea36ec3",
+        "b32795d5-e476-434f-8824-a2fb56a18eb6"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2434 nodes)"
+    },
+    {
+      "items": [
+        "4a013859-1e29-442d-bf6c-8cce6242e8ef",
+        "5d2a74e0-fdee-414b-ae00-583eb6f834a3"
+      ],
+      "reason": "No path within conservative grid/node/time budget (5246 nodes)"
+    },
+    {
+      "items": [
+        "10b20b8e-322e-465d-97f7-b9bdc10cb3ee",
+        "d874c315-5b1c-49e0-abd6-cb40ea25b8e1"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2613 nodes)"
+    },
+    {
+      "items": [
+        "619af78d-d74c-4c2d-99e6-627007535ac8",
+        "7ed8dd37-0e8c-4f62-a64d-5bcbf75fa394"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2445 nodes)"
+    },
+    {
+      "items": [
+        "026966de-892d-4cde-bbe8-5f7403b11254",
+        "db551b88-48b6-41df-b87c-109c8cc9901f"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "10a1da86-5986-4495-93c7-074146bf9d45",
+        "7303455b-7721-4b45-9c3a-032ebd3c8273"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "1c4d593b-6801-4114-9d0e-6c24e6fa4a12",
+        "80b78deb-e986-4416-85be-147351573c0f"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "af1d008b-f38b-4320-b17f-4029c345441d",
+        "bb241a85-bcac-4263-bab1-86586870ae8a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (8018 nodes)"
+    },
+    {
+      "items": [
+        "36546bb7-60c1-4905-a935-3e350917f658",
+        "a0867908-9ecb-4ee4-8564-20b1a7a32add"
+      ],
+      "reason": "No path within conservative grid/node/time budget (124570 nodes)"
+    },
+    {
+      "items": [
+        "73ae2c3a-db41-44fc-b080-80a0f5fc0674",
+        "cee707aa-c979-4c3d-8330-40eae2876a65"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "1deb3297-8239-46df-89e5-abe0aa323784",
+        "a0867908-9ecb-4ee4-8564-20b1a7a32add"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "75e4e159-4287-4929-9f7d-57dc70c0977b",
+        "c08f42e1-7c01-44d5-b3d8-bf6a8b3ec093"
+      ],
+      "reason": "No path within conservative grid/node/time budget (15550 nodes)"
+    },
+    {
+      "items": [
+        "04ec2433-90a5-48b2-8780-f95664b3d0b7",
+        "1b35b2f0-8d88-42f6-8e80-fac3bffc2cc4"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "2ef8a64d-3b27-4056-a726-3d548a3c38aa",
+        "98a3b991-ae77-4c6a-a531-040b8f678920"
+      ],
+      "reason": "No path within conservative grid/node/time budget (643 nodes)"
+    },
+    {
+      "items": [
+        "11458ba7-f337-4b51-927d-41ebb638d8e1",
+        "b060b8f5-0ed9-45c2-bd17-42306ab5374d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (590 nodes)"
+    },
+    {
+      "items": [
+        "01f69371-2d1e-420e-b08e-7a7b22bbb932",
+        "b060b8f5-0ed9-45c2-bd17-42306ab5374d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "216dfd28-d934-4fb9-908e-10e9bb5748a1",
+        "f909463f-7096-4d6e-9903-67c85891100c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (431 nodes)"
+    },
+    {
+      "items": [
+        "b797f9aa-15f9-4367-8fa4-45e88a5366e8",
+        "dee64ec1-99a9-4e45-b5e9-0ebca18ba862"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "505b3a95-ddf9-477c-a3a4-756704fd7c9e",
+        "7ed8dd37-0e8c-4f62-a64d-5bcbf75fa394"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2445 nodes)"
+    },
+    {
+      "items": [
+        "730c207b-22b9-4f94-a5bf-179048c92915",
+        "75e4e159-4287-4929-9f7d-57dc70c0977b"
+      ],
+      "reason": "No path within conservative grid/node/time budget (15550 nodes)"
+    },
+    {
+      "items": [
+        "04ec2433-90a5-48b2-8780-f95664b3d0b7",
+        "0fb14589-0f64-436e-b984-f10957754aa4"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "2ef8a64d-3b27-4056-a726-3d548a3c38aa",
+        "d23e8e60-ddaa-4303-9717-4f7795c8095a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (643 nodes)"
+    },
+    {
+      "items": [
+        "0578a384-b8b6-4728-9b69-34c73b53f4ef",
+        "4d5dc01c-adc0-4ceb-8d82-1b9661235c85"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1690 nodes)"
+    },
+    {
+      "items": [
+        "4d5dc01c-adc0-4ceb-8d82-1b9661235c85",
+        "71ff4757-e3cf-4d26-aa8f-148ecc956c6a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (48862 nodes)"
+    },
+    {
+      "items": [
+        "7fa48781-e8f0-4ce3-ae74-8e76046473f7",
+        "effb3e92-e0f5-4379-b68a-47dc3a36812e"
+      ],
+      "reason": "No path within conservative grid/node/time budget (72994 nodes)"
+    },
+    {
+      "items": [
+        "422f2535-93e1-4df3-a06b-3765294af6b0",
+        "effb3e92-e0f5-4379-b68a-47dc3a36812e"
+      ],
+      "reason": "No path within conservative grid/node/time budget (5515 nodes)"
+    },
+    {
+      "items": [
+        "a271c629-ff41-4fd5-a373-e7a44111b86c",
+        "e1ab3cd8-a813-4d82-bd8c-cb0593a9a190"
+      ],
+      "reason": "No path within conservative grid/node/time budget (151271 nodes)"
+    },
+    {
+      "items": [
+        "99c0f53c-b953-4935-b879-4246018f86ba",
+        "e1ab3cd8-a813-4d82-bd8c-cb0593a9a190"
+      ],
+      "reason": "No path within conservative grid/node/time budget (4066 nodes)"
+    },
+    {
+      "items": [
+        "f6f0ce28-fa18-445c-a914-b2897a399139",
+        "f73ab4a4-812d-4051-a50a-d42f6f2455df"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "30801aa0-7ae8-4b79-ac4e-7d41628a9b8f",
+        "5a09df08-a8fc-42ab-9a34-07d7d5240f4d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "2bcdaed1-9126-487d-9caa-3e811a745aa7",
+        "577588ca-e064-408a-8ee9-2cdb8cd97c49"
+      ],
+      "reason": "No path within conservative grid/node/time budget (150664 nodes)"
+    },
+    {
+      "items": [
+        "e16ae780-353b-4201-a5bd-3b259418c2ce",
+        "f921a54e-0613-4715-aeed-7aa9b5c69155"
+      ],
+      "reason": "No path within conservative grid/node/time budget (4761 nodes)"
+    },
+    {
+      "items": [
+        "30871c2b-4797-473b-a3f5-63042e3a0fd9",
+        "4e60fbb9-825e-43f9-8a50-83e8b6ca5baa"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "494e8b87-e3ce-46e2-84c0-0ad1f8308cde",
+        "f9001121-e5e5-4311-868e-7be7e7e9c00a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (4897 nodes)"
+    },
+    {
+      "items": [
+        "038b7974-2eaa-4d5e-b647-c1bb1516be67",
+        "97e2daf4-dcf9-4ff4-a43d-7a16f4a5319f"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3671 nodes)"
+    },
+    {
+      "items": [
+        "13b464b3-e934-494e-b629-a1162991cbb7",
+        "7a95a9dd-b2b0-40ae-8191-3acf21f3bf3b"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3517 nodes)"
+    },
+    {
+      "items": [
+        "30325b5a-3b96-4275-afea-a8c801834b12",
+        "8127a335-4bd2-4f5d-8cf2-30d89457d80c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "95078d06-0bc6-4016-97db-6e4668b2e62e",
+        "caf954b8-665b-4e6c-9f4e-88b522103659"
+      ],
+      "reason": "No path within conservative grid/node/time budget (170 nodes)"
+    },
+    {
+      "items": [
+        "48b7e3e3-7c87-483d-95c8-0971a8961674",
+        "dbe1a156-d4ea-4589-8ccb-cd4e4358b546"
+      ],
+      "reason": "No path within conservative grid/node/time budget (81319 nodes)"
+    },
+    {
+      "items": [
+        "8d2d1a01-1108-478b-80ef-5ed623135b28",
+        "b90014b2-6994-4837-8119-a91f6c5542f1"
+      ],
+      "reason": "No path within conservative grid/node/time budget (8103 nodes)"
+    },
+    {
+      "items": [
+        "0c8b9bc1-674a-4113-9637-3a4bbcac1303",
+        "76a685da-c0e8-4679-a730-a0d07f98d3cf"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "2bd31bed-7f3d-4bfb-bf23-2d5dbc6e1482",
+        "f5dfefba-6643-40e3-8c9f-2fb51f6a29f6"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "10d5dc58-234d-46cd-acc2-a0d7f9b227d9",
+        "c7b6003b-9e70-41e2-8762-9dce66c0e611"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "6571b2cb-c9c2-4881-862a-15a5c6df540c",
+        "6711dc37-9f66-4f38-864b-282cfab7f4a3"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "95e03f5c-933f-4aa9-97dc-ae20219f51fe",
+        "e7387f21-3d1c-4437-a382-1871ec93cf8d"
+      ],
+      "reason": "No path within conservative grid/node/time budget (166717 nodes)"
+    },
+    {
+      "items": [
+        "05d50b46-5438-40ce-b776-b9573ce4ea91",
+        "db1cfe1c-5912-4286-89ea-e8b8ce9e0127"
+      ],
+      "reason": "No path within conservative grid/node/time budget (142994 nodes)"
+    },
+    {
+      "items": [
+        "07924387-ecfa-48f8-aba0-c18c214724e8",
+        "97880be9-13ae-4fb9-a984-32df3173fbd5"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3307 nodes)"
+    },
+    {
+      "items": [
+        "6a66c1f0-6972-4af9-b38a-578d8af7ceb1",
+        "a57e719c-2d09-4edf-a624-431b495c5fa7"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3443 nodes)"
+    },
+    {
+      "items": [
+        "8a61098e-51ee-4801-ba32-917ef7a32324",
+        "ff99d062-2096-492a-baf4-a99760d5a2e2"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1297 nodes)"
+    },
+    {
+      "items": [
+        "620245f4-2c44-4604-9ed1-b5775eabad05",
+        "73ac77dc-894e-49b4-8ad5-1b8ee0a1a1d2"
+      ],
+      "reason": "No path within conservative grid/node/time budget (150613 nodes)"
+    },
+    {
+      "items": [
+        "9a0a10eb-3891-43de-88ca-bf23d3e1c1f7",
+        "a1dd75ae-fe26-4787-a8b1-1957e42465ac"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1355 nodes)"
+    },
+    {
+      "items": [
+        "9979ae97-24ff-4563-815a-5be071b63a1e",
+        "a1dd75ae-fe26-4787-a8b1-1957e42465ac"
+      ],
+      "reason": "No path within conservative grid/node/time budget (2059 nodes)"
+    },
+    {
+      "items": [
+        "59a57d67-5163-49f9-8717-cd80b094fd93",
+        "bf383fc8-dd16-4af2-8756-66100fc0909c"
+      ],
+      "reason": "No path within conservative grid/node/time budget (178437 nodes)"
+    },
+    {
+      "items": [
+        "3abada99-3328-4241-b3b6-0341dabc0995",
+        "b539cda9-81a5-4acf-a2c3-e5de7c6657cd"
+      ],
+      "reason": "No path within conservative grid/node/time budget (4890 nodes)"
+    },
+    {
+      "items": [
+        "80d82f2a-7c7c-43d3-9f25-828cb21335c3",
+        "f23df42e-1e7d-4ccb-bd52-6fff01463b23"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3881 nodes)"
+    },
+    {
+      "items": [
+        "327ae179-9ead-423d-a7af-6e1a1e87dc2b",
+        "f1ff5605-bb67-48e5-9c4c-983fa776e688"
+      ],
+      "reason": "No path within conservative grid/node/time budget (8797 nodes)"
+    },
+    {
+      "items": [
+        "95a74a01-c704-46a5-b03b-86588a7f9f50",
+        "b3fe39b1-c512-4a46-8cdb-c84feea33b29"
+      ],
+      "reason": "No path within conservative grid/node/time budget (581 nodes)"
+    },
+    {
+      "items": [
+        "3a421897-a217-4e0a-a06c-4470e09cfe30",
+        "3d7db208-2b00-4569-8868-62992e14026a"
+      ],
+      "reason": "No path within conservative grid/node/time budget (6700 nodes)"
+    },
+    {
+      "items": [
+        "12165023-2fb1-4928-b282-74b041c81850",
+        "eba3f8e9-5360-452e-8225-785e1b35a770"
+      ],
+      "reason": "No path within conservative grid/node/time budget (25212 nodes)"
+    },
+    {
+      "items": [
+        "9cdad30c-fcc9-409f-8009-afa587bd323b",
+        "d915b9ea-524a-48d3-b363-058b1bcf2348"
+      ],
+      "reason": "No path within conservative grid/node/time budget (8256 nodes)"
+    },
+    {
+      "items": [
+        "65150b18-98da-4a73-bae1-0e18f958e6ab",
+        "c0762ecb-b56b-4676-8c8e-5da2e2e5bc0b"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1935 nodes)"
+    },
+    {
+      "items": [
+        "0da03727-38f8-4232-ab52-b00e815c71a1",
+        "bc256268-28b7-4893-b3b5-d0d363b05915"
+      ],
+      "reason": "No path within conservative grid/node/time budget (1576 nodes)"
+    },
+    {
+      "items": [
+        "a0867908-9ecb-4ee4-8564-20b1a7a32add",
+        "d499302f-b77a-4b66-8916-c12cfb8ec7fe"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "1f264802-67c6-4c68-9483-ec70110dc111",
+        "4d5dc01c-adc0-4ceb-8d82-1b9661235c85"
+      ],
+      "reason": "No path within conservative grid/node/time budget (48862 nodes)"
+    },
+    {
+      "items": [
+        "30871c2b-4797-473b-a3f5-63042e3a0fd9",
+        "7ced88ad-662f-45bf-a083-13ba9c298868"
+      ],
+      "reason": "No path within conservative grid/node/time budget (180000 nodes)"
+    },
+    {
+      "items": [
+        "db1cfe1c-5912-4286-89ea-e8b8ce9e0127",
+        "e1e2b042-10cc-4a2b-ba05-7c1154d8dc01"
+      ],
+      "reason": "No path within conservative grid/node/time budget (142994 nodes)"
+    },
+    {
+      "items": [
+        "73ac77dc-894e-49b4-8ad5-1b8ee0a1a1d2",
+        "b2fdb2ef-9145-474e-89a7-a3cfa216a494"
+      ],
+      "reason": "No path within conservative grid/node/time budget (150613 nodes)"
+    },
+    {
+      "items": [
+        "2cbb33b2-0b64-4a88-a076-a32d2f5a9f4b",
+        "f0add501-1cdf-4800-9b06-53145d971f3b"
+      ],
+      "reason": "No path within conservative grid/node/time budget (916 nodes)"
+    },
+    {
+      "items": [
+        "014b7588-f209-481e-b43a-ef7c219ab410",
+        "ff930c6e-8890-425a-94df-84a61c3f23db"
+      ],
+      "reason": "No path within conservative grid/node/time budget (3880 nodes)"
+    },
+    {
+      "items": [
+        "14e55b76-13ca-4672-8ded-998fe580a0c1",
+        "ea16a602-802c-42ce-8738-76c72cf722e3"
+      ],
+      "reason": "No path within conservative grid/node/time budget (4937 nodes)"
+    },
+    {
+      "items": [
+        "1562119d-43cb-4ebe-a14b-1d63a18b45dc",
+        "d46e0de9-d728-49db-9312-0261028d14ad"
+      ],
+      "reason": "No path within conservative grid/node/time budget (6612 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 135,
+    "resolved_source_drc_endpoint_uuids": 135,
+    "source_drc_sha": "bb57d6ff6e97a316c0f70ad427591fce96885373045e8ca3b8738a21a2ea4494",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_digital_seed2\\precision_scope.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_digital_precision.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 198,
+    "after_unconnected": 195,
+    "before_drc_listed_unconnected": 198,
+    "after_drc_listed_unconnected": 195,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_finish_digital_precision.work\\drc_073.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "source_sha": "94bac718c7d2ed1b77947341d7839bd947b90185a40b281b90e9cd8fc3462634",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "HSE_OUT",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          22.175,
+          22.25
+        ],
+        [
+          23.2,
+          22.2
+        ],
+        [
+          24.3,
+          21.1
+        ],
+        [
+          25.0,
+          21.1
+        ],
+        [
+          25.1,
+          21.0
+        ],
+        [
+          25.3,
+          21.0
+        ],
+        [
+          25.4,
+          20.9
+        ],
+        [
+          25.5,
+          20.9
+        ],
+        [
+          25.6,
+          20.8
+        ],
+        [
+          25.6,
+          20.1
+        ],
+        [
+          25.7,
+          20.0
+        ],
+        [
+          25.7,
+          19.9
+        ],
+        [
+          26.8,
+          18.8
+        ],
+        [
+          26.9,
+          18.8
+        ],
+        [
+          27.0,
+          18.7
+        ],
+        [
+          27.2,
+          18.75
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "HSE_OUT",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          27.25,
+          17.73
+        ],
+        [
+          27.1,
+          17.7
+        ],
+        [
+          26.7,
+          17.3
+        ],
+        [
+          26.7,
+          17.2
+        ],
+        [
+          26.6,
+          17.2
+        ],
+        [
+          26.6,
+          15.9
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "HSE_OUT",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          26.6,
+          15.9
+        ],
+        [
+          26.2,
+          16.3
+        ],
+        [
+          26.2,
+          16.5
+        ],
+        [
+          26.1,
+          16.6
+        ],
+        [
+          26.1,
+          17.5
+        ],
+        [
+          26.2,
+          17.6
+        ],
+        [
+          26.2,
+          17.8
+        ],
+        [
+          26.7,
+          18.3
+        ],
+        [
+          26.7,
+          18.5
+        ],
+        [
+          26.8,
+          18.6
+        ],
+        [
+          26.8,
+          18.8
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "HSE_OUT",
+      "x": 26.6,
+      "y": 15.9,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_multilayer_example.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "HSE_OUT",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.1,
+        "expanded": 315,
+        "seconds": 0.875,
+        "start_candidates": 12,
+        "goal_candidates": 12
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_multilayer_example.work\\drc_001.json"
+    },
+    {
+      "net": "HSE_OUT",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.1,
+        "expanded": 1933,
+        "seconds": 1.5,
+        "start_candidates": 12,
+        "goal_candidates": 133
+      },
+      "before_net_components": 2,
+      "after_net_components": 1,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_multilayer_example.work\\drc_002.json"
+    }
+  ],
+  "unresolved": [],
+  "validation": {
+    "source_drc_endpoint_uuids": 598,
+    "resolved_source_drc_endpoint_uuids": 598,
+    "source_drc_sha": "62a94d43f4f725e08cc48f9ca3f46ef7918c2151a38e9a816df113693fe234b8",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_fixture\\scope_drc.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_multilayer_example.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "protected_zone_policy": "Whole original PHASE/BR_SW/VBUS/power zone outlines, on every copper layer; no passage or unfilled-island shortcut. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "before_unconnected": 706,
+    "after_unconnected": 704,
+    "before_drc_listed_unconnected": 499,
+    "after_drc_listed_unconnected": 499,
+    "drc_airwire_list_may_be_truncated": true,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_stitch_multilayer_example.work\\drc_002.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

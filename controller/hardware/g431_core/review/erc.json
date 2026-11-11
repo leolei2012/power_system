@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T00:11:27",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77",
+            "violations": []
+        },
+        {
+            "path": "/MCU and decoupling/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77/9840b326-9d1c-52e7-ae73-3f03936694d9",
+            "violations": []
+        },
+        {
+            "path": "/Local VDDA and VREF/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77/fdd3d197-fe8c-55a3-a40e-f5c3664e07ef",
+            "violations": []
+        },
+        {
+            "path": "/RESET BOOT and optional HSE/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77/a5133031-511b-55f4-be84-47a93d53c4d3",
+            "violations": []
+        },
+        {
+            "path": "/Local power and reset/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77/8a9fdf50-c6cf-5b36-a0ce-a6134eabb0f9",
+            "violations": []
+        },
+        {
+            "path": "/Application run permission/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77/19df75ab-f648-5c17-a893-b21f019ada88",
+            "violations": []
+        },
+        {
+            "path": "/64-pin GPIO headers/",
+            "uuid_path": "/9dba1312-bd1c-50b2-9df7-fc81461aaf77/d0e10a61-ecab-55c5-9562-7d153f70f077",
+            "violations": []
+        }
+    ],
+    "source": "controller.kicad_sch"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-11",
+  "status": "Accepted XUNPU GH1.25 ADC2P and single PWM8P planning selection. Native/BOM/library migration pending.",
+  "recommended_family": "XUNPU GH1.25 side-entry SMT wire-to-board series",
+  "brand_note": "XUNPU domestic-brand GH-type parts; not represented as original JST parts or guaranteed cross-brand interchangeable parts.",
+  "domestic_stock_verified": false,
+  "ADC_recommendation": {
+    "connector_count": 10,
+    "contacts_each": 2,
+    "signals": [
+      "Conditioned analog signal",
+      "GND"
+    ],
+    "contact_count_and_order_status": "2P signal-plus-GND recommendation accepted by user; physical pin order and mating-view drawing pending.",
+    "board_header": "WAFER-GH1.25-2PWB",
+    "wire_housing": "WAFER-GH1.25-2PJK",
+    "crimp_contact": "WAFER-GH1.25-DZ",
+    "header_body_mm": {
+      "width": 5.75,
+      "depth": 5.0,
+      "height": 4.35
+    },
+    "locking_evidence": "Domestic product listing for the matching 2PJK housing explicitly specifies a locking feature; the 2PWB listing identifies the same housing and DZ contact as its mating set.",
+    "wire": "Suggested AWG28 signal/GND pair; DZ product data specifies AWG28 through AWG32. Prefer correctly crimped/preassembled matching harnesses.",
+    "layout": "Two groups of five ADC connectors along two board edges, side-entry wiring. Check mated housing, latch access, cable bend space and standoffs in the new 60x60mm PCB layout.",
+    "signal_notes": "Keep signal and its GND together; twisted pairs are a proposed harness option. NTC and voltage/current sensing remain conditioned low-voltage outputs from the power board."
+  },
+  "PWM_recommendation": {
+    "connector_count": 1,
+    "contacts_each": 8,
+    "board_header": "WAFER-GH1.25-8PWB",
+    "LCSC_code": "C3029383",
+    "domestic_URL": "https://item.szlcsc.com/3561395.html",
+    "header_body_mm": {
+      "width": 13.25,
+      "depth": 5.0,
+      "height": 4.35
+    },
+    "mating_housing_model": "WAFER-GH1.25-8PJK",
+    "mating_contact_model": "WAFER-GH1.25-DZ",
+    "mating_housing_procurement_status": "Model identified in domestic header listing; exact housing procurement entry still to be recorded before BOM selection."
+  },
+  "domestic_parts": [
+    {
+      "role": "ADC PCB header",
+      "MPN": "WAFER-GH1.25-2PWB",
+      "LCSC_code": "C3029377",
+      "URL": "https://item.szlcsc.com/3561389.html"
+    },
+    {
+      "role": "ADC cable housing",
+      "MPN": "WAFER-GH1.25-2PJK",
+      "LCSC_code": "C5360417",
+      "URL": "https://item.szlcsc.com/6178093.html"
+    },
+    {
+      "role": "Crimp contact",
+      "MPN": "WAFER-GH1.25-DZ",
+      "LCSC_code": "C5360426",
+      "URL": "https://item.szlcsc.com/6178102.html"
+    },
+    {
+      "role": "PWM PCB header",
+      "MPN": "WAFER-GH1.25-8PWB",
+      "LCSC_code": "C3029383",
+      "URL": "https://item.szlcsc.com/3561395.html"
+    }
+  ],
+  "source_notes": "Domestic LCSC indexed/detail content checked for model, part code, dimensions and mating set. Some repeat direct requests return anti-bot challenges; no live stock or price claim. Manufacturer series page: https://www.xunpu.com.cn/product/440.html .",
+  "library_status": "Exact listed board-header models are not yet in the shared library; intake/review is required before native schematic/PCB migration. Cable housings/contacts require harness procurement records.",
+  "alternative": {
+    "brand": "HCTL",
+    "MPN": "HC-GH-2PWT",
+    "LCSC_code": "C2845397",
+    "domestic_URL": "https://item.szlcsc.com/3039078.html",
+    "status": "Alternative only; main recommendation uses the more completely verified XUNPU mating set."
+  },
+  "selected_for_planning": true
+}

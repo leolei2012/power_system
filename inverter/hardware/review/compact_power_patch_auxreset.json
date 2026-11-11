@@ -1,0 +1,176 @@
+{
+  "source_sha": "37e8d905b704da64d7305cdec00b280fdeae1feb28f4373b90b0e7f0b2899be8",
+  "ripup_uuids": [],
+  "paths": [
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          6.925,
+          49.25
+        ],
+        [
+          6.95,
+          49.3
+        ],
+        [
+          8.8,
+          51.15
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "layer": "B.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          8.8,
+          51.15
+        ],
+        [
+          9.6,
+          51.95
+        ],
+        [
+          9.6,
+          53.15
+        ],
+        [
+          9.65,
+          53.2
+        ],
+        [
+          9.65,
+          53.35
+        ],
+        [
+          9.7,
+          53.4
+        ],
+        [
+          9.7,
+          53.45
+        ],
+        [
+          10.0,
+          53.75
+        ],
+        [
+          10.05,
+          53.75
+        ],
+        [
+          10.1,
+          53.8
+        ],
+        [
+          10.15,
+          53.8
+        ],
+        [
+          10.2,
+          53.85
+        ],
+        [
+          13.4,
+          53.85
+        ],
+        [
+          13.5,
+          53.825
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "x": 8.8,
+      "y": 51.15,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "placements": {},
+  "candidate": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxreset.work\\inverter.kicad_pcb",
+  "accepted": [
+    {
+      "net": "/Auxiliary input/AUX_OV_DIV",
+      "method": "multisource_multilayer_astar",
+      "search": {
+        "grid_mm": 0.05,
+        "expanded": 16848,
+        "seconds": 0.5,
+        "start_candidates": 12,
+        "goal_candidates": 12
+      },
+      "before_net_components": 3,
+      "after_net_components": 2,
+      "drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxreset.work\\drc_001.json"
+    }
+  ],
+  "unresolved": [
+    {
+      "items": [
+        "440e43d5-e3d5-4961-8cd0-62b8d0953c33",
+        "6ec6e9d5-83b7-4326-a516-8c2763fd6638"
+      ],
+      "reason": "No path within conservative grid/node/time budget (287336 nodes)"
+    },
+    {
+      "items": [
+        "30351f14-db16-48c5-a99f-4ffdfbd701cd",
+        "5147a29c-7d51-47fa-92f4-0813fd52d411"
+      ],
+      "reason": "No path within conservative grid/node/time budget (215173 nodes)"
+    },
+    {
+      "items": [
+        "4c65f2a0-833b-4b38-8f82-02dbdcd1a6b2",
+        "8c7fe385-1b22-4bc6-b334-c2c3f7411d82"
+      ],
+      "reason": "No path within conservative grid/node/time budget (400 nodes)"
+    },
+    {
+      "items": [
+        "8c7fe385-1b22-4bc6-b334-c2c3f7411d82",
+        "9c9162c3-c451-4eb3-ae37-81a4e0c73442"
+      ],
+      "reason": "No path within conservative grid/node/time budget (123199 nodes)"
+    }
+  ],
+  "validation": {
+    "source_drc_endpoint_uuids": 49,
+    "resolved_source_drc_endpoint_uuids": 47,
+    "source_drc_sha": "2cefffeae9d463df72756a6ce310283f6c69a96f9fd9b191af97ec529fb690af",
+    "source_project_sha": "6deb935ec5d0c9eb3f1ff1d00b76b9d00cdf18db3bc1566d2adb7fbcafd7554b",
+    "source_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_scope_power.json",
+    "before_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxreset.work\\drc_000.json",
+    "allowed_signal_layers": [
+      "F.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "B.Cu"
+    ],
+    "fixed_power_report_sha": "11c19533f4f744c81553114361a2961b96640fad6ce142099c52e8352e50ad7c",
+    "protected_zone_policy": "Traces block full PHASE/BR_SW/VBUS outline only on the zone actual copper layer(s); an In3 outline is not projected onto B/In2. Through-vias check full outlines across ALL copper layers. In1/In4 never receive signal tracks. Locked original items are never changed.",
+    "invariants": "No ripup, no net changes, no placement changes, no rule changes. Native pad/track shapes, all-layer via copper, hole spacing, mask/via-in-pad guard; actual zone fill + no new KiCad errors + strict target-net native component/global-unconnected improvement and no other-net native component regression required. DRC airwire lists can be capped; native counts govern connectivity.",
+    "original_geometry_changes": [],
+    "before_unconnected": 208,
+    "after_unconnected": 207,
+    "before_drc_listed_unconnected": 208,
+    "after_drc_listed_unconnected": 207,
+    "drc_airwire_list_may_be_truncated": false,
+    "after_actual_drc": "D:\\workspace\\power_system\\inverter\\hardware\\review\\compact_power_patch_auxreset.work\\drc_001.json",
+    "new_error_count": 0,
+    "actual_remaining_error_count": 0,
+    "source_unchanged": true,
+    "source_project_unchanged": true
+  }
+}

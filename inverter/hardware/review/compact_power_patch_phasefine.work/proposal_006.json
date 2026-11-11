@@ -1,0 +1,71 @@
+{
+  "net": "W_PHASE",
+  "paths": [
+    {
+      "net": "W_PHASE",
+      "layer": "B.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          43.2,
+          53.175
+        ],
+        [
+          43.25,
+          53.15
+        ],
+        [
+          44.9,
+          53.15
+        ],
+        [
+          45.8,
+          52.25
+        ]
+      ],
+      "locked": false
+    },
+    {
+      "net": "W_PHASE",
+      "layer": "F.Cu",
+      "width": 0.2,
+      "points": [
+        [
+          45.8,
+          52.25
+        ],
+        [
+          46.2,
+          52.25
+        ],
+        [
+          46.55,
+          51.9
+        ],
+        [
+          47.9,
+          51.9
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [
+    {
+      "net": "W_PHASE",
+      "x": 45.8,
+      "y": 52.25,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "tented": true
+    }
+  ],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.05,
+    "expanded": 7858,
+    "seconds": 3.64,
+    "start_candidates": 12,
+    "goal_candidates": 276
+  }
+}

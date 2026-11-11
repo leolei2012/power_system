@@ -1,0 +1,81 @@
+{
+  "revision": "E-PCB-0.1-review",
+  "source_pcb_sha256": {
+    "controller": "73c32fa93b8be3c522c1316792671d268f7ed2ff49ce6d4bcbc81cc8ad145576"
+  },
+  "scope": "Native KiCad layout and 3D review images; not fabrication outputs.",
+  "PNG_palette_note": "Pale native silkscreen ink is darkened on the white-paper 2D PNG; geometry is unchanged. Native SVG is preserved.",
+  "exports": [
+    {
+      "name": "controller_top",
+      "command": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--fit-page-to-board",
+        "--exclude-drawing-sheet",
+        "--layers",
+        "F.Cu,F.SilkS,F.Fab,Edge.Cuts",
+        "--output",
+        "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\previews\\controller_top.svg",
+        "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_pcb"
+      ],
+      "stdout": "已绘制到 'D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\previews\\controller_top.svg'。\n完成。",
+      "stderr": ""
+    },
+    {
+      "name": "controller_bottom",
+      "command": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--fit-page-to-board",
+        "--exclude-drawing-sheet",
+        "--layers",
+        "B.Cu,B.SilkS,B.Fab,Edge.Cuts",
+        "--output",
+        "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\previews\\controller_bottom.svg",
+        "--mirror",
+        "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_pcb"
+      ],
+      "stdout": "已绘制到 'D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\previews\\controller_bottom.svg'。\n完成。",
+      "stderr": ""
+    },
+    {
+      "name": "controller_3d",
+      "command": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "render",
+        "--width",
+        "1400",
+        "--height",
+        "1050",
+        "--side",
+        "top",
+        "--quality",
+        "basic",
+        "--background",
+        "opaque",
+        "--rotate",
+        "330,0,20",
+        "--zoom",
+        "0.9",
+        "--output",
+        "D:\\workspace\\power_system\\outputs\\pcb_review_2026-11-11\\previews\\controller_3d.png",
+        "D:\\workspace\\power_system\\controller\\hardware\\g431_core\\controller.kicad_pcb"
+      ],
+      "stdout": "加载中...\n构建电路板外框\n\n创建板层\n生成走线和过孔\n创建填充区\n构造工艺层\n构造工艺层 11\n构造工艺层 9\n构造工艺层 15\n构造工艺层 13\n构造工艺层 7\n构造工艺层 5\n构造工艺层 3\n构造工艺层 1\n构造工艺层 17\n构造工艺层 19\n构造工艺层 21\n构造工艺层 23\n构造工艺层 39\n构造工艺层 41\n构造工艺层 43\n构造工艺层 45\n构造工艺层 47\n构造工艺层 49\n构造工艺层 51\n构造工艺层 53\n构造工艺层 55\n构造工艺层 57\n构造工艺层 59\n构造工艺层 61\n构造工艺层 63\n构造工艺层 65\n构造工艺层 67\n构造工艺层 69\n构造工艺层 71\n构造工艺层 73\n构造工艺层 75\n构造工艺层 77\n构造工艺层 79\n构造工艺层 81\n构造工艺层 83\n构造工艺层 85\n构造工艺层 87\n构造工艺层 89\n构造工艺层 91\n构造工艺层 93\n构造工艺层 95\n构造工艺层 97\n构造工艺层 99\n构造工艺层 101\n构造工艺层 103\n构造工艺层 105\n构造工艺层 107\n构造工艺层 109\n构造工艺层 111\n构造工艺层 113\n构造工艺层 115\n构造工艺层 117\n构造工艺层 119\n构造工艺层 121\n构造工艺层 123\n构造工艺层 125\n构造工艺层 127\n简化铜层上的多边形\n计算镀铜\n简化通孔轮廓\n为通孔和过孔构造 BVH (盲埋孔)\n加载光线追踪: 电路板\n加载光线追踪: 层\n正在加载 3D 模型...\n重新加载时间 0.183 s\n渲染: 100 \n渲染时间 0.206 s\n成功创建 3D 渲染图像",
+      "stderr": ""
+    }
+  ],
+  "image_sha256": {
+    "controller_top.png": "2f30b1839dc8beb403eeddab5910f897c538f4558af331fdb6b621889f523f67",
+    "controller_bottom.png": "965348daeb239f1325414ccfeb6dab0f91996f602ee5f71619b3f40d6f370cdf",
+    "controller_3d.png": "6a88d85a904f04fc50e51316b45b098281499bb7e0eb533d2b0b4e43717af99e"
+  }
+}

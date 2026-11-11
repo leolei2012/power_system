@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-06",
+  "scope": "Compact power-part candidates for the authorized 60 x 60 mm inverter redesign. This file changes no schematic, PCB or public library.",
+  "status": "engineering_draft_not_prototype_verified",
+  "preserved_requirements": {
+    "mcu": "single STM32G431",
+    "power_stage": "one three-phase bridge and one brake switch",
+    "dc_input_V": [12, 60],
+    "dc_input_max_A": 10,
+    "phase_current_target_Arms": 10,
+    "aux_input_V": [12, 24],
+    "topology": "Existing protection, series input diode and gate-driver topology retained. No additional function introduced."
+  },
+  "mosfet": {
+    "refs": ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7"],
+    "quantity": 7,
+    "replaces": "IRFS4227 family TO-263 MOSFETs; not pin compatible",
+    "manufacturer": "Infineon Technologies",
+    "mpn": "BSC110N15NS5",
+    "manufacturer_order_code": "BSC110N15NS5ATMA1",
+    "lcsc_code": "C412739",
+    "lcsc_domestic_url": "https://item.szlcsc.com/404529.html",
+    "manufacturer_product_url": "https://www.infineon.com/part/BSC110N15NS5",
+    "official_datasheet_url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsc110n15ns5-datasheet-en.pdf",
+    "datasheet_revision": "2.6, 2022-11-07; 10 pages",
+    "verification": {
+      "lcsc_model_and_code": "verified on domestic product page",
+      "ratings": "verified against manufacturer datasheet pp. 1, 3-4",
+      "physical_pin_map": "verified against manufacturer top view p. 1",
+      "package_dimensions": "verified against manufacturer PG-TDSON-8-U08 outline p. 9",
+      "land_pattern": "project-adapted KiCad library geometry; not a manufacturer-certified exact recommended land pattern",
+      "thermal_validation": "not performed",
+      "assembled_sample_validation": "not performed"
+    },
+    "electrical": {
+      "Vds_max_V": 150,
+      "Vgs_absolute_max_V": 20,
+      "Rds_on_max_mOhm": 11,
+      "Rds_on_condition": "VGS = 10 V, ID = 38 A, TJ = 25 C",
+      "Rds_on_max_at_8V_mOhm": 12.7,
+      "Rds_on_at_8V_condition": "VGS = 8 V, ID = 19 A, TJ = 25 C",
+      "Qg_typ_nC": 28,
+      "Qg_max_nC": 35,
+      "Qg_condition": "VDS = 75 V, ID = 38 A, VGS = 0 to 10 V",
+      "Qgd_typ_nC": 5.8,
+      "Qgd_max_nC": 9,
+      "Qrr_typ_nC": 46,
+      "Qrr_max_nC": 92,
+      "Qrr_condition": "VR = 75 V, IF = 38 A, di/dt = 100 A/us",
+      "case_temperature_current_rating_A": {"TC_25C": 76, "TC_100C": 48},
+      "current_rating_limitation": "These are case-temperature ratings, not a permissible PCB current on the 60 x 60 mm board.",
+      "Rth_JC_max_K_per_W": 1,
+      "Rth_JA_K_per_W": 50,
+      "Rth_JA_test_fixture": "Manufacturer p. 3: 6 cm2 drain copper, 70 um copper on a 40 x 40 x 1.5 mm FR4 PCB, vertical in still air. This fixture cannot be assumed for seven MOSFETs on the compact board.",
+      "Tj_max_C": 150
+    },
+    "physical_pin_map": {
+      "1": "S",
+      "2": "S",
+      "3": "S",
+      "4": "G",
+      "5": "D",
+      "6": "D",
+      "7": "D",
+      "8": "D",
+      "exposed_pad": "D; use repeated pad number 5, not a fictitious pin 9"
+    },
+    "manufacturer_top_view": "Datasheet p. 1: lower edge left-to-right 1,2,3,4; upper edge left-to-right 8,7,6,5. With the KiCad source/gate row at the left (1,2,3,4 top-to-bottom), the drain row at the right is 5,6,7,8 bottom-to-top.",
+    "old_to_new_net_mapping": {
+      "old_G_pin_1": ["4"],
+      "old_D_pin_2": ["5", "6", "7", "8", "exposed_D_pad_number_5"],
+      "old_S_pin_3": ["1", "2", "3"]
+    },
+    "package": {
+      "name": "PG-TDSON-8-U08 / SuperSO8",
+      "nominal_body_class_mm": [6, 5],
+      "outline_D_min_max_mm": [5.7, 6.1],
+      "outline_E_min_max_mm": [4.8, 5.35],
+      "exposed_D1_min_max_mm": [3.9, 4.4],
+      "exposed_E1_min_max_mm": [4.05, 4.25],
+      "lead_pitch_mm": 1.27
+    },
+    "footprint_plan": {
+      "official_kicad_geometry_source": "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm",
+      "project_library_destination": "CompactFootprints.pretty; root agent owns the actual new footprint and symbol",
+      "upstream_geometry_courtyard_bbox_mm": [7.45, 5.73],
+      "upstream_geometry_courtyard_area_mm2": 41.3805,
+      "left_lead_pad_centers_mm": [[-2.825, -1.905], [-2.825, -0.635], [-2.825, 0.635], [-2.825, 1.905]],
+      "left_lead_pad_size_mm": [1.2, 0.65],
+      "drain_pad_center_mm": [0.675, 0],
+      "drain_pad_size_mm": [4.5, 4.7],
+      "right_toe_pad_size_mm": [1, 0.7],
+      "required_right_toe_centers_mm": [[2.925, 1.905], [2.925, 0.635], [2.925, -0.635], [2.925, -1.905]],
+      "required_right_toe_numbers_in_list_order": ["5", "6", "7", "8"],
+      "required_changes": [
+        "Copy official library geometry into a project-specific footprint.",
+        "Keep the large drain pad numbered 5 and keep the segmented paste windows.",
+        "Rename the four right toes from repeated 5 to 5,6,7,8, bottom-to-top.",
+        "Change right toe y positions from upstream +/-1.995 and +/-0.665 to +/-1.905 and +/-0.635, matching the manufacturer's 1.27 mm lead pitch.",
+        "Use a new eight-pin project symbol exposing source 1/2/3, gate 4, drain 5/6/7/8; do not hide the physical pins behind an aggregate five-pin symbol.",
+        "Check mask/paste, actual mechanical alignment and assembly process against a sample before treating this footprint as validated. The datasheet provides an outline, not a complete recommended PCB land pattern."
+      ],
+      "three_d": {
+        "upstream_model_reference": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.step",
+        "upstream_model_installed_locally": false,
+        "nominal_visualization_fallback_local_step": "C:/Program Files/KiCad/10.0/share/kicad/3dmodels/Package_TO_SOT_SMD.3dshapes/TDSON-8-1.step",
+        "fallback_installed_locally": true,
+        "fallback_status": "Nominal visualization only; confirm orientation, pin 1, origin and exact body envelope against the project footprint. Not manufacturer-specific validated 3D."
+      }
+    },
+    "application_notes": [
+      "Retain high-side SOURCE-to-PHASE, low-side SOURCE-to-shunt SOURCE, and brake SOURCE-to-GND net identities during the pin migration.",
+      "Retain independent Kelvin gate-return and current-sense paths. Do not create a copper bypass across the current shunts.",
+      "The existing 12 V driver rail is in the useful gate-drive range, but actual gate overshoot, bootstrap supply, gate resistors and deadtime must be checked for this different MOSFET.",
+      "11 mOhm is a 25 C maximum, not hot RDS(on). A device carrying 10 Arms continuously would dissipate 1.1 W at that cold resistance before switching losses; bridge device RMS currents depend on modulation and waveform.",
+      "Seven small packages save placement area but do not remove conduction, switching or brake-pulse heat. Thermal spreading, vias, copper and any heatsink must be designed for the compact assembly."
+    ]
+  },
+  "input_diode": {
+    "ref": "D1",
+    "quantity": 1,
+    "replaces": "STPS40150C family common-cathode TO-263 rectifier",
+    "manufacturer": "Diodes Incorporated",
+    "mpn": "MBRD20150CT-13",
+    "lcsc_code": "C151357",
+    "lcsc_domestic_url": "https://item.szlcsc.com/162697.html",
+    "manufacturer_product_url": "https://www.diodes.com/part/view/MBRD20150CT",
+    "official_datasheet_url": "https://www.diodes.com/datasheet/download/MBRD20150CT.pdf",
+    "datasheet_revision": "DS37086 Rev. 4-2, September 2026; 7 pages",
+    "distributor_older_datasheet_url": "https://atta.szlcsc.com/upload/public/pdf/source/20171221/C151357_15138312768141195538.pdf",
+    "verification": {
+      "lcsc_model_and_code": "verified on domestic product page",
+      "common_cathode_configuration": "verified against manufacturer datasheet p. 1",
+      "ratings": "verified against manufacturer datasheet pp. 1-2",
+      "numeric_pin_map": "verified visually by root against manufacturer Rev. 4-2 p. 1: 1=A1, 2=common K, 3=A2, tab=2/common K",
+      "pin_verified": true,
+      "pin_verification_evidence": {"local_official_pdf": "inverter/reference/datasheets/Diodes_MBRD20150CT.pdf", "rendered_pinout_image": "inverter/hardware/review/compact_d1_pinout.png", "page_1_based": 1, "verified_by": "root; actual rendered official diagram"},
+      "mechanical": "standard DPAK dimensions and KiCad footprint checked; exact procured package variant remains to be confirmed",
+      "land_pattern": "candidate official KiCad footprint, not yet checked against every manufacturer variant's suggested pad layout",
+      "thermal_validation": "not performed",
+      "assembled_sample_validation": "not performed"
+    },
+    "electrical": {
+      "VRRM_V": 150,
+      "IO_per_leg_A": 10,
+      "IO_total_A": 20,
+      "IO_rating_condition": "Manufacturer half-wave resistive/inductive-load rating; capacitive loads derate current by 20%.",
+      "IFSM_A": 170,
+      "IFSM_condition": "8.3 ms single half sine wave",
+      "VF_max_V_at_10A_25C": 0.9,
+      "VF_max_V_at_10A_125C": 0.75,
+      "IR_max_mA_at_150V_25C": 0.05,
+      "IR_max_mA_at_150V_125C": 10,
+      "Rth_JC_typ_C_per_W_per_leg": 6,
+      "Rth_JA_typ_C_per_W_per_leg": 22,
+      "thermal_test_fixture": "Manufacturer p. 2 note 5: tested with 2-inch aluminium board. Do not transplant this thermal resistance to the compact FR4 PCB.",
+      "Tj_max_C": 175,
+      "reduced_rating_from_existing_part": "Two 10 A legs replace a part in the two 20 A class. This is not equal device current capability; suitability for a 10 A DC input depends on real sharing, surge and cooling."
+    },
+    "topology_to_preserve_after_numeric_pin_verification": {
+      "DC_FUSED": ["anode_1", "anode_2"],
+      "VBUS": ["common_cathode", "tab"]
+    },
+    "package": {
+      "name": "TO252 / DPAK",
+      "standard_variant_body_D_min_max_mm": [6, 6.2],
+      "standard_variant_body_E_min_max_mm": [6.45, 6.7],
+      "standard_variant_overall_H_min_max_mm": [9.4, 10.41],
+      "standard_variant_A_min_max_mm": [2.19, 2.39],
+      "lead_pitch_mm": 2.286,
+      "procurement_caveat": "The same manufacturer order code is listed for TO252 (DPAK), Type TH, Type BR and Type WX in the current datasheet. Confirm the actual supplied outline and its pad recommendation before freezing the footprint."
+    },
+    "footprint_candidate": {
+      "library_id": "Package_TO_SOT_SMD:TO-252-3_TabPin2",
+      "courtyard_bbox_mm": [11.19, 7.09],
+      "courtyard_area_mm2": 77.5191,
+      "pad_1_center_mm": [-5.04, -2.28],
+      "pad_2_lead_center_mm": [-5.04, 0],
+      "pad_3_center_mm": [-5.04, 2.28],
+      "lead_pad_size_mm": [2.2, 1.2],
+      "pad_2_tab_center_mm": [1.26, 0],
+      "tab_pad_size_mm": [6.4, 5.8],
+      "three_d_reference": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-3_TabPin2.step",
+      "three_d_installed_locally": true,
+      "three_d_local_path": "C:/Program Files/KiCad/10.0/share/kicad/3dmodels/Package_TO_SOT_SMD.3dshapes/TO-252-3_TabPin2.step"
+    },
+    "application_notes": [
+      "Retain both anodes in parallel and the common cathode feeding VBUS; this is a smaller implementation of the existing topology.",
+      "Equal current sharing cannot be assumed without checking routing symmetry and device behaviour.",
+      "The series rectifier remains a significant several-watt heat source at a 10 A input. A conservative 0.9 V x 10 A = 9 W planning value shows the scale, not a measured dissipation or a guaranteed VF at half current.",
+      "The numeric pin diagram is verified; confirm the actual supplied package variant and its land pattern before treating the assembled CAD substitution as fully verified."
+    ]
+  },
+  "area_comparison": {
+    "basis": "Measured KiCad courtyard polygon areas; geometric placement comparison only, excluding thermal copper, routing, spacing and assembly access.",
+    "existing_seven_TO263_MOS_mm2": 1315.0592,
+    "candidate_seven_SuperSO8_MOS_mm2": 289.6635,
+    "existing_D1_TO263_mm2": 187.8656,
+    "candidate_D1_DPAK_mm2": 77.5191,
+    "combined_geometric_area_saved_mm2": 1135.7422,
+    "limitation": "This is not proof that the full protected inverter can operate at rated load within 60 x 60 mm or without extra cooling."
+  }
+}

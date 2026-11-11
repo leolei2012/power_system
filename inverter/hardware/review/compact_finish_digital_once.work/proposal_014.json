@@ -1,0 +1,30 @@
+{
+  "net": "DRIVE_PERMIT",
+  "paths": [
+    {
+      "net": "DRIVE_PERMIT",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          10.2058,
+          29.1
+        ],
+        [
+          11.2125,
+          29.1
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 6,
+    "seconds": 11.781,
+    "start_candidates": 78,
+    "goal_candidates": 305
+  }
+}

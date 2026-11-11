@@ -1,0 +1,38 @@
+{
+  "net": "/Hardware latch/HEALTH_UNLATCHED",
+  "paths": [
+    {
+      "net": "/Hardware latch/HEALTH_UNLATCHED",
+      "layer": "F.Cu",
+      "width": 0.15,
+      "points": [
+        [
+          24.3739,
+          27.3519
+        ],
+        [
+          24.4,
+          27.3
+        ],
+        [
+          24.5,
+          27.2
+        ],
+        [
+          24.5239,
+          26.9019
+        ]
+      ],
+      "locked": false
+    }
+  ],
+  "vias": [],
+  "method": "multisource_multilayer_astar",
+  "search": {
+    "grid_mm": 0.1,
+    "expanded": 2,
+    "seconds": 11.578,
+    "start_candidates": 382,
+    "goal_candidates": 106
+  }
+}

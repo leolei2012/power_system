@@ -1,0 +1,46 @@
+ERC report (2026-11-06T16:30:02, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+
+***** Sheet /Auxiliary input/
+
+***** Sheet /Driver supply/
+
+***** Sheet /Logic and sensors/
+
+***** Sheet /Bus and brake/
+
+***** Sheet /U half bridge/
+
+***** Sheet /V half bridge/
+
+***** Sheet /W half bridge/
+
+***** Sheet /Current sensing/
+
+***** Sheet /Voltage and NTC/
+
+***** Sheet /Analog protection/
+
+***** Sheet /Hardware latch/
+
+***** Sheet /Hardware PWM gates/
+
+***** Sheet /Local STM32G431/
+
+***** Sheet /MCU analog inputs/
+
+***** Sheet /Encoders and SPI/
+
+***** Sheet /Debug and communication/
+
+***** Sheet /Local command coupling/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -1,0 +1,14 @@
+{
+  "reason": "Keep local INA bypass and outputs clear of the widened low-side drain via fanout and brake VBUS trunk.",
+  "placements": {
+    "C37": {"x":129,"y":71.5,"rotation_deg":270,"group":"current_U_bypass"},
+    "R37": {"x":131.5,"y":74,"rotation_deg":0,"group":"current_U_output"},
+    "TP11": {"x":136,"y":75,"rotation_deg":0,"group":"current_U_output"},
+    "C38": {"x":153,"y":71.5,"rotation_deg":270,"group":"current_V_bypass"},
+    "R38": {"x":155.5,"y":74,"rotation_deg":0,"group":"current_V_output"},
+    "TP12": {"x":160,"y":75,"rotation_deg":0,"group":"current_V_output"},
+    "C39": {"x":177,"y":71.5,"rotation_deg":270,"group":"current_W_bypass"},
+    "R39": {"x":179.5,"y":74,"rotation_deg":0,"group":"current_W_output"},
+    "TP13": {"x":181.5,"y":77,"rotation_deg":0,"group":"current_W_output"}
+  }
+}

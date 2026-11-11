@@ -1,0 +1,102 @@
+{
+  "source": "D:\\workspace\\power_system\\inverter\\hardware\\review\\pcb_rev_e_2026-11-11\\kelvin_repaired\\inverter.kicad_pcb",
+  "source_sha256_before": "9a4132b597a20abd0542e51ddf6a2e1eb9da818ce68024fe9336d6b5fb7cce1d",
+  "source_sha256_after": "9a4132b597a20abd0542e51ddf6a2e1eb9da818ce68024fe9336d6b5fb7cce1d",
+  "source_unchanged": true,
+  "new_noncanonical_items_checked": 1514,
+  "all_new_same_net_contacts_outside_RS_star": [],
+  "contacts_confined_to_actual_RS_copper_pad": [],
+  "INA_same_net_separation_below_0_15mm": [],
+  "INA_same_net_separation_0_15_to_0_25mm": [],
+  "canonical_locked_tracks": 277,
+  "canonical_locked_vias": 98,
+  "canonical_locked_changed": [],
+  "negative_via_inner_plane_isolation": [
+    {
+      "phase": "U",
+      "layer": "In1.Cu",
+      "filled_GND_zone_count": 1,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "layer": "In2.Cu",
+      "filled_GND_zone_count": 0,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "layer": "In3.Cu",
+      "filled_GND_zone_count": 0,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "U",
+      "layer": "In4.Cu",
+      "filled_GND_zone_count": 1,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "layer": "In1.Cu",
+      "filled_GND_zone_count": 1,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "layer": "In2.Cu",
+      "filled_GND_zone_count": 0,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "layer": "In3.Cu",
+      "filled_GND_zone_count": 0,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "V",
+      "layer": "In4.Cu",
+      "filled_GND_zone_count": 1,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "layer": "In1.Cu",
+      "filled_GND_zone_count": 1,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "layer": "In2.Cu",
+      "filled_GND_zone_count": 0,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "layer": "In3.Cu",
+      "filled_GND_zone_count": 0,
+      "contacts": [],
+      "isolated": true
+    },
+    {
+      "phase": "W",
+      "layer": "In4.Cu",
+      "filled_GND_zone_count": 1,
+      "contacts": [],
+      "isolated": true
+    }
+  ],
+  "method": "All new noncanonical tracks/vias vs 30 protected Kelvin objects and 6 INA1/8 pads. Native same-layer shapes; exact-contact region must lie entirely within the actual same-layer RS1/2 pad for a star exception. Via outer circle conservatively used on every spanned layer.",
+  "result": "PASS"
+}
