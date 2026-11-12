@@ -1,0 +1,4 @@
+[submodule "lib/kicad_library"]
+	path = lib/kicad_library
+	url = https://github.com/leolei2012/kicad_library.git
+	branch = main
