@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/workspace/work/power_system/controller/hardware/g431_core/controller.kicad_sch</source>
-    <date>2026-11-12T03:40:03</date>
+    <date>2026-11-11T19:27:11</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -150,7 +150,7 @@
     </sheet>
     <sheet number="9" name="/ABZ与SPI1编码器/" tstamps="/a335db09-7999-5531-b151-f1b1cf8b316f/">
       <title_block>
-        <title>ABZ / SPI1 编码器与可选供电</title>
+        <title>ABZ / SPI 编码器：仅3.3V供电</title>
         <company>power_system</company>
         <rev>E-1 Issue2</rev>
         <date>2026-11-12</date>
@@ -1565,21 +1565,30 @@
       </units>
     </comp>
     <comp ref="SW2">
-      <value>侧按开关 待#5</value>
-      <datasheet>待#5</datasheet>
-      <description>Push button switch, generic, two pins</description>
+      <value>SKRTLAE010</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010</footprint>
+      <datasheet>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_skrt_en_01ec237785.pdf</datasheet>
+      <description>侧按RESET；实物1与3内部短接，对应官方封装两只pad1；实物2=pad2；MP外部不连接</description>
       <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Design_Note">RESET板边侧按；与NRST监控开漏域并接</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">Push button switch, generic, two pins</field>
+        <field name="MPN">SKRTLAE010</field>
+        <field name="LCSC">C110293</field>
+        <field name="Design_Note">原厂SKRTLAE010.pdf p2–3；pad1的两焊盘接NRST，pad2接GND，MP留空NC；临时本地符号，待料号入 kicad_library</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">ALPS ALPINE</field>
+        <field name="Supplier_PN">C110293</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/111515.html</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_skrt_en_01ec237785.pdf</field>
+        <field name="Description">侧按RESET；实物1与3内部短接，对应官方封装两只pad1；实物2=pad2；MP外部不连接</field>
       </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Design_Note" value="RESET板边侧按；与NRST监控开漏域并接"/>
+      <libsource lib="CoreProtection" part="SKRTLAE010" description="侧按RESET；实物1与3内部短接，对应官方封装两只pad1；实物2=pad2；MP外部不连接；临时本地符号，待料号入 kicad_library"/>
+      <property name="MPN" value="SKRTLAE010"/>
+      <property name="LCSC" value="C110293"/>
+      <property name="Design_Note" value="原厂SKRTLAE010.pdf p2–3；pad1的两焊盘接NRST，pad2接GND，MP留空NC；临时本地符号，待料号入 kicad_library"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Manufacturer" value="ALPS ALPINE"/>
+      <property name="Supplier_PN" value="C110293"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/111515.html"/>
       <property name="Sheetname" value="RESET BOOT0与可选HSE"/>
       <property name="Sheetfile" value="mcu_control.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
@@ -1589,6 +1598,7 @@
         <unit name="A">
           <pins>
             <pin num="1"/>
+            <pin num="MP"/>
             <pin num="2"/>
           </pins>
         </unit>
@@ -3138,9 +3148,105 @@
         </unit>
       </units>
     </comp>
+    <comp ref="C211">
+      <value>100n</value>
+      <footprint>MyFootprints:C_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C14663.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Voltage_Rating">50V</field>
+        <field name="Design_Note">TPS2553 IN近端去耦；SLVSBD0B p16 §9.1.3：IN–GND ≥0.1uF；布局#4紧贴U203</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
+        <field name="LCSC">C14663</field>
+        <field name="Supplier_PN">C14663</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/15331.html</field>
+        <field name="Tolerance">10%</field>
+        <field name="Footprint">MyFootprints:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C14663.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Voltage_Rating" value="50V"/>
+      <property name="Design_Note" value="TPS2553 IN近端去耦；SLVSBD0B p16 §9.1.3：IN–GND ≥0.1uF；布局#4紧贴U203"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Supplier_PN" value="C14663"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/15331.html"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
+      <property name="Sheetfile" value="comms.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/CAN RS-485与5V防倒灌/" tstamps="/86c07490-7309-57fe-8c90-0078d8d30696/"/>
+      <tstamps>9534e778-8090-5fb8-8605-795cbc6c2ea7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C212">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>TBD（同C301待#5原厂PDF）</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="ki_keywords">cap capacitor</field>
+        <field name="ki_fp_filters">C_*</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">TBD（同C301待#5）</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Voltage_Rating">25V</field>
+        <field name="Design_Note">TPS2553 OUT去耦4.7uF/0805；与C301同规格25V；料号/DC-bias待#5；大瞬态负载另核对bulk电容，非USB端口</field>
+        <field name="Selection_Status">value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending</field>
+        <field name="LCSC">TBD（同C301待#5）</field>
+        <field name="Supplier_PN">TBD（同C301待#5）</field>
+        <field name="Purchase_URL">TBD（同C301待#5）</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">TBD（同C301待#5原厂PDF）</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="TBD（同C301待#5）"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Voltage_Rating" value="25V"/>
+      <property name="Design_Note" value="TPS2553 OUT去耦4.7uF/0805；与C301同规格25V；料号/DC-bias待#5；大瞬态负载另核对bulk电容，非USB端口"/>
+      <property name="Selection_Status" value="value assigned; exact YAGEO MPN/LCSC/DC-bias verification pending"/>
+      <property name="LCSC" value="TBD（同C301待#5）"/>
+      <property name="Supplier_PN" value="TBD（同C301待#5）"/>
+      <property name="Purchase_URL" value="TBD（同C301待#5）"/>
+      <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
+      <property name="Sheetfile" value="comms.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/CAN RS-485与5V防倒灌/" tstamps="/86c07490-7309-57fe-8c90-0078d8d30696/"/>
+      <tstamps>703758a0-8eb3-5a51-8da6-8a5ab9ca4caf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="D201">
       <value>PMEG2010ER,115</value>
-      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <footprint>MyFootprints:Nexperia_CFP3_SOD123W_Reflow</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf</datasheet>
       <description>Schottky rectifier; 20V; 1A; CFP3/SOD123W</description>
       <fields>
@@ -3153,8 +3259,8 @@
         <field name="MPN">PMEG2010ER,115</field>
         <field name="Manufacturer">Nexperia</field>
         <field name="LCSC">C82288</field>
-        <field name="Design_Note">A接+5V_CORE_IN；K接5V_OUT；阻止外部5V倒灌</field>
-        <field name="Footprint">Diode_SMD:Nexperia_CFP3_SOD-123W</field>
+        <field name="Design_Note">与D103同为PMEG2010ER,115；使用共享库reviewed原厂回流焊推荐焊盘；TPS2553之后仍保留防倒灌</field>
+        <field name="Footprint">MyFootprints:Nexperia_CFP3_SOD123W_Reflow</field>
         <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf</field>
         <field name="Description">Schottky rectifier; 20V; 1A; CFP3/SOD123W</field>
       </fields>
@@ -3168,7 +3274,7 @@
       <property name="MPN" value="PMEG2010ER,115"/>
       <property name="Manufacturer" value="Nexperia"/>
       <property name="LCSC" value="C82288"/>
-      <property name="Design_Note" value="A接+5V_CORE_IN；K接5V_OUT；阻止外部5V倒灌"/>
+      <property name="Design_Note" value="与D103同为PMEG2010ER,115；使用共享库reviewed原厂回流焊推荐焊盘；TPS2553之后仍保留防倒灌"/>
       <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
       <property name="Sheetfile" value="comms.kicad_sch"/>
       <property name="ki_keywords" value="PMEG2010ER,115 C82288"/>
@@ -3185,19 +3291,30 @@
       </units>
     </comp>
     <comp ref="D202">
-      <value>TVS 待#5</value>
-      <datasheet>待#5</datasheet>
-      <description>双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library</description>
+      <value>SM712.TCT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.semtech.com/uploads/documents/sm712.pdf</datasheet>
+      <description>RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP</description>
       <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library</field>
+        <field name="MPN">SM712.TCT</field>
+        <field name="LCSC">C12067</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">Semtech</field>
+        <field name="Supplier_PN">C12067</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/12644.html</field>
+        <field name="Design_Note">RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.semtech.com/uploads/documents/sm712.pdf</field>
+        <field name="Description">RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP</field>
       </fields>
-      <libsource lib="CoreProtection" part="DualLineTVS_Placeholder" description="双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
+      <libsource lib="CoreProtection" part="SM712" description="RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP；临时本地符号，待料号入 kicad_library"/>
+      <property name="MPN" value="SM712.TCT"/>
+      <property name="LCSC" value="C12067"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Manufacturer" value="Semtech"/>
+      <property name="Supplier_PN" value="C12067"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/12644.html"/>
+      <property name="Design_Note" value="RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP；临时本地符号，待料号入 kicad_library"/>
       <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
       <property name="Sheetfile" value="comms.kicad_sch"/>
       <property name="dnp"/>
@@ -3214,19 +3331,30 @@
       </units>
     </comp>
     <comp ref="D203">
-      <value>TVS 待#5</value>
-      <datasheet>待#5</datasheet>
-      <description>双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library</description>
+      <value>PESD2CAN,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <description>CAN；1=CANH，2=CANL，3=GND；默认DNP</description>
       <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library</field>
+        <field name="MPN">PESD2CAN,215</field>
+        <field name="LCSC">C75176</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Supplier_PN">C75176</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/76300.html</field>
+        <field name="Design_Note">CAN；1=CANH，2=CANL，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</field>
+        <field name="Description">CAN；1=CANH，2=CANL，3=GND；默认DNP</field>
       </fields>
-      <libsource lib="CoreProtection" part="DualLineTVS_Placeholder" description="双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
+      <libsource lib="CoreProtection" part="PESD2CAN" description="CAN；1=CANH，2=CANL，3=GND；默认DNP；临时本地符号，待料号入 kicad_library"/>
+      <property name="MPN" value="PESD2CAN,215"/>
+      <property name="LCSC" value="C75176"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Supplier_PN" value="C75176"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/76300.html"/>
+      <property name="Design_Note" value="CAN；1=CANH，2=CANL，3=GND；默认DNP；临时本地符号，待料号入 kicad_library"/>
       <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
       <property name="Sheetfile" value="comms.kicad_sch"/>
       <property name="dnp"/>
@@ -3497,6 +3625,134 @@
         </unit>
       </units>
     </comp>
+    <comp ref="R227">
+      <value>49.9k</value>
+      <footprint>MyFootprints:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C23184.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF4992T5E</field>
+        <field name="LCSC">C23184</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C23184</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/23911.html</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note">TPS2553 ILIM；49.9k表列IOS typ520mA，475–565mA（-40~125C）</field>
+        <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C23184.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF4992T5E"/>
+      <property name="LCSC" value="C23184"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C23184"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/23911.html"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value="TPS2553 ILIM；49.9k表列IOS typ520mA，475–565mA（-40~125C）"/>
+      <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
+      <property name="Sheetfile" value="comms.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/CAN RS-485与5V防倒灌/" tstamps="/86c07490-7309-57fe-8c90-0078d8d30696/"/>
+      <tstamps>bae354fa-0bbb-59d9-aeb3-a24b44e475d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R228">
+      <value>680</value>
+      <footprint>MyFootprints:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C23228.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF6800T5E</field>
+        <field name="LCSC">C23228</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C23228</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/23955.html</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note">默认DNP；仅主站/总线无其它偏置时安装；680+680Ω仅单120Ω终端可达Vdiff≈268mV；双终端139mV不足</field>
+        <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C23228.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF6800T5E"/>
+      <property name="LCSC" value="C23228"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C23228"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/23955.html"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value="默认DNP；仅主站/总线无其它偏置时安装；680+680Ω仅单120Ω终端可达Vdiff≈268mV；双终端139mV不足"/>
+      <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
+      <property name="Sheetfile" value="comms.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/CAN RS-485与5V防倒灌/" tstamps="/86c07490-7309-57fe-8c90-0078d8d30696/"/>
+      <tstamps>29c7e6f4-3d37-5900-a707-d34eeb843c64</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R229">
+      <value>680</value>
+      <footprint>MyFootprints:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C23228.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF6800T5E</field>
+        <field name="LCSC">C23228</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C23228</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/23955.html</field>
+        <field name="Tolerance">1%</field>
+        <field name="Design_Note">默认DNP；仅主站/总线无其它偏置时安装；680+680Ω仅单120Ω终端可达Vdiff≈268mV；双终端139mV不足</field>
+        <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C23228.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF6800T5E"/>
+      <property name="LCSC" value="C23228"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C23228"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/23955.html"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Design_Note" value="默认DNP；仅主站/总线无其它偏置时安装；680+680Ω仅单120Ω终端可达Vdiff≈268mV；双终端139mV不足"/>
+      <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
+      <property name="Sheetfile" value="comms.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/CAN RS-485与5V防倒灌/" tstamps="/86c07490-7309-57fe-8c90-0078d8d30696/"/>
+      <tstamps>96acf488-f7ef-513d-a79f-189862dd25d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="U201">
       <value>MAX3485ESA+T</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
@@ -3603,6 +3859,56 @@
         </unit>
       </units>
     </comp>
+    <comp ref="U203">
+      <value>TPS2553QDBVRQ1</value>
+      <footprint>MyFootprints:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf</datasheet>
+      <description>Automotive adjustable current-limited power switch; active-high enable; SOT-23-6</description>
+      <fields>
+        <field name="Datasheet_Revision">Rev B</field>
+        <field name="Library_Revision">1</field>
+        <field name="Verification">reviewed</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/141342.html</field>
+        <field name="Supplier_PN">C130055</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TPS2553QDBVRQ1</field>
+        <field name="Manufacturer">TI</field>
+        <field name="LCSC">C130055</field>
+        <field name="Design_Note">常开：EN与IN同接+5V_CORE_IN；/FAULT开漏NC；RILIM=49.9k；D201保留</field>
+        <field name="Footprint">MyFootprints:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf</field>
+        <field name="Description">Automotive adjustable current-limited power switch; active-high enable; SOT-23-6</field>
+      </fields>
+      <libsource lib="MyParts" part="TPS2553QDBVRQ1" description="Automotive adjustable current-limited power switch; active-high enable; SOT-23-6"/>
+      <property name="Datasheet_Revision" value="Rev B"/>
+      <property name="Library_Revision" value="1"/>
+      <property name="Verification" value="reviewed"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/141342.html"/>
+      <property name="Supplier_PN" value="C130055"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="MPN" value="TPS2553QDBVRQ1"/>
+      <property name="Manufacturer" value="TI"/>
+      <property name="LCSC" value="C130055"/>
+      <property name="Design_Note" value="常开：EN与IN同接+5V_CORE_IN；/FAULT开漏NC；RILIM=49.9k；D201保留"/>
+      <property name="Sheetname" value="CAN RS-485与5V防倒灌"/>
+      <property name="Sheetfile" value="comms.kicad_sch"/>
+      <property name="ki_keywords" value="TPS2553QDBVRQ1 C130055"/>
+      <property name="ki_fp_filters" value="SOT-23-6"/>
+      <sheetpath names="/CAN RS-485与5V防倒灌/" tstamps="/86c07490-7309-57fe-8c90-0078d8d30696/"/>
+      <tstamps>5a48e1c9-adb5-50c7-9a07-90e6763fedb4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="J203">
       <value>GH1.25 卧式 5P 待#5</value>
       <footprint>Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal</footprint>
@@ -3670,39 +3976,6 @@
             <pin num="4"/>
             <pin num="5"/>
             <pin num="6"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="JP203">
-      <value>VCC_ENC 默认1-2=3V3</value>
-      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</footprint>
-      <datasheet>待#5</datasheet>
-      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
-      <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Design_Note">1=+3V3_MCU；2=VCC_ENC；3=5V_OUT；先切断1-2再焊2-3，严禁同时短接</field>
-        <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</field>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Design_Note" value="1=+3V3_MCU；2=VCC_ENC；3=5V_OUT；先切断1-2再焊2-3，严禁同时短接"/>
-      <property name="Sheetname" value="ABZ与SPI1编码器"/>
-      <property name="Sheetfile" value="encoders.kicad_sch"/>
-      <property name="ki_keywords" value="Solder Jumper SPDT"/>
-      <property name="ki_fp_filters" value="SolderJumper*Bridged12*"/>
-      <sheetpath names="/ABZ与SPI1编码器/" tstamps="/a335db09-7999-5531-b151-f1b1cf8b316f/"/>
-      <tstamps>7793ac4a-37c9-5e30-9bf1-6ff61f769422</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-            <pin num="3"/>
           </pins>
         </unit>
       </units>
@@ -4092,23 +4365,32 @@
       </units>
     </comp>
     <comp ref="D204">
-      <value>侧发光 绿 待#5</value>
-      <datasheet>待#5</datasheet>
-      <description>Light emitting diode</description>
+      <value>E6C1204YGAC1UDA</value>
+      <footprint>ControllerLocal:LED_Ekinglux_1204_SideView_3.2x1.0mm</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203301830_EKINGLUX-E6C1204YGAC1UDA_C375534.pdf</datasheet>
+      <description>侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络</description>
       <fields>
-        <field name="Sim.Pins">1=K 2=A</field>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Design_Note">按 #5 选定 LED 的 Vf/If 复核；高电平亮</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=A 2=K</field>
+        <field name="MPN">E6C1204YGAC1UDA</field>
+        <field name="LCSC">C375534</field>
+        <field name="Design_Note">1=A经1k到GPIO，2=K到GND；3=中央焊盘，电气属性未注明，不连接；临时本地符号/封装待入kicad_library</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">ekinglux 亿晶源</field>
+        <field name="Supplier_PN">C375534</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/347834.html</field>
+        <field name="Footprint">ControllerLocal:LED_Ekinglux_1204_SideView_3.2x1.0mm</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203301830_EKINGLUX-E6C1204YGAC1UDA_C375534.pdf</field>
+        <field name="Description">侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络</field>
       </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Design_Note" value="按 #5 选定 LED 的 Vf/If 复核；高电平亮"/>
+      <libsource lib="CoreProtection" part="E6C1204YGAC1UDA" description="侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络；临时本地符号，待料号入 kicad_library"/>
+      <property name="Sim.Pins" value="1=A 2=K"/>
+      <property name="MPN" value="E6C1204YGAC1UDA"/>
+      <property name="LCSC" value="C375534"/>
+      <property name="Design_Note" value="1=A经1k到GPIO，2=K到GND；3=中央焊盘，电气属性未注明，不连接；临时本地符号/封装待入kicad_library"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Manufacturer" value="ekinglux 亿晶源"/>
+      <property name="Supplier_PN" value="C375534"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/347834.html"/>
       <property name="Sheetname" value="SWD与侧发光LED"/>
       <property name="Sheetfile" value="ui_debug.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -4118,30 +4400,40 @@
       <units>
         <unit name="A">
           <pins>
-            <pin num="1"/>
             <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
           </pins>
         </unit>
       </units>
     </comp>
     <comp ref="D205">
-      <value>侧发光 红 待#5</value>
-      <datasheet>待#5</datasheet>
-      <description>Light emitting diode</description>
+      <value>E6C1204URAC1UDA</value>
+      <footprint>ControllerLocal:LED_Ekinglux_1204_SideView_3.2x1.0mm</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C375479.pdf</datasheet>
+      <description>侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络</description>
       <fields>
-        <field name="Sim.Pins">1=K 2=A</field>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Design_Note">按 #5 选定 LED 的 Vf/If 复核；高电平亮</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=A 2=K</field>
+        <field name="MPN">E6C1204URAC1UDA</field>
+        <field name="LCSC">C375479</field>
+        <field name="Design_Note">1=A经1k到GPIO，2=K到GND；3=中央焊盘，电气属性未注明，不连接；临时本地符号/封装待入kicad_library</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">ekinglux 亿晶源</field>
+        <field name="Supplier_PN">C375479</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/347829.html</field>
+        <field name="Footprint">ControllerLocal:LED_Ekinglux_1204_SideView_3.2x1.0mm</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C375479.pdf</field>
+        <field name="Description">侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络</field>
       </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Design_Note" value="按 #5 选定 LED 的 Vf/If 复核；高电平亮"/>
+      <libsource lib="CoreProtection" part="E6C1204URAC1UDA" description="侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络；临时本地符号，待料号入 kicad_library"/>
+      <property name="Sim.Pins" value="1=A 2=K"/>
+      <property name="MPN" value="E6C1204URAC1UDA"/>
+      <property name="LCSC" value="C375479"/>
+      <property name="Design_Note" value="1=A经1k到GPIO，2=K到GND；3=中央焊盘，电气属性未注明，不连接；临时本地符号/封装待入kicad_library"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Manufacturer" value="ekinglux 亿晶源"/>
+      <property name="Supplier_PN" value="C375479"/>
+      <property name="Purchase_URL" value="https://item.szlcsc.com/347829.html"/>
       <property name="Sheetname" value="SWD与侧发光LED"/>
       <property name="Sheetfile" value="ui_debug.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -4151,8 +4443,9 @@
       <units>
         <unit name="A">
           <pins>
-            <pin num="1"/>
             <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
           </pins>
         </unit>
       </units>
@@ -4195,20 +4488,32 @@
     <comp ref="R225">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>待#5</datasheet>
+      <datasheet>https://www.lcsc.com/datasheet/C21190.pdf</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Design_Note">按 #5 选定 LED 的 Vf/If 复核</field>
+        <field name="MPN">0603WAF1001T5E</field>
+        <field name="LCSC">C21190</field>
+        <field name="Design_Note">LED原厂p3曲线1–2mA处Vf约1.8–1.9V；I=(3.3−Vf)/1k≈1.4–1.5mA；高电平亮</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C21190</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C21190.html</field>
+        <field name="Tolerance">1%</field>
+        <field name="Selection_Status">用户指定型号；1k保留，按LED原厂p3低电流曲线核算</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">待#5</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C21190.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Design_Note" value="按 #5 选定 LED 的 Vf/If 复核"/>
+      <property name="MPN" value="0603WAF1001T5E"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Design_Note" value="LED原厂p3曲线1–2mA处Vf约1.8–1.9V；I=(3.3−Vf)/1k≈1.4–1.5mA；高电平亮"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C21190"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C21190.html"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Selection_Status" value="用户指定型号；1k保留，按LED原厂p3低电流曲线核算"/>
       <property name="Sheetname" value="SWD与侧发光LED"/>
       <property name="Sheetfile" value="ui_debug.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -4227,20 +4532,32 @@
     <comp ref="R226">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>待#5</datasheet>
+      <datasheet>https://www.lcsc.com/datasheet/C21190.pdf</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Design_Note">按 #5 选定 LED 的 Vf/If 复核</field>
+        <field name="MPN">0603WAF1001T5E</field>
+        <field name="LCSC">C21190</field>
+        <field name="Design_Note">LED原厂p3曲线1–2mA处Vf约1.8–1.9V；I=(3.3−Vf)/1k≈1.4–1.5mA；高电平亮</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C21190</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C21190.html</field>
+        <field name="Tolerance">1%</field>
+        <field name="Selection_Status">用户指定型号；1k保留，按LED原厂p3低电流曲线核算</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">待#5</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C21190.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Design_Note" value="按 #5 选定 LED 的 Vf/If 复核"/>
+      <property name="MPN" value="0603WAF1001T5E"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Design_Note" value="LED原厂p3曲线1–2mA处Vf约1.8–1.9V；I=(3.3−Vf)/1k≈1.4–1.5mA；高电平亮"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C21190"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C21190.html"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Selection_Status" value="用户指定型号；1k保留，按LED原厂p3低电流曲线核算"/>
       <property name="Sheetname" value="SWD与侧发光LED"/>
       <property name="Sheetfile" value="ui_debug.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -4353,17 +4670,126 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="CoreProtection" part="DualLineTVS_Placeholder">
-      <description>双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library</description>
-      <docs>待#5</docs>
+    <libpart lib="CoreProtection" part="E6C1204URAC1UDA">
+      <description>侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络；临时本地符号，待料号入 kicad_library</description>
+      <docs>https://www.lcsc.com/datasheet/C375479.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">TVS 待#5</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">待#5</field>
-        <field name="Description">双线总线TVS功能占位；引脚号不是已选实物针号；临时本地符号，待 #5 入 kicad_library</field>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
+        <field name="Value">E6C1204URAC1UDA</field>
+        <field name="Footprint">ControllerLocal:LED_Ekinglux_1204_SideView_3.2x1.0mm</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C375479.pdf</field>
+        <field name="Description">侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络；临时本地符号，待料号入 kicad_library</field>
+        <field name="Sim.Pins">1=A 2=K</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">ekinglux 亿晶源</field>
+        <field name="MPN">E6C1204URAC1UDA</field>
+        <field name="LCSC">C375479</field>
+        <field name="Supplier_PN">C375479</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/347829.html</field>
+        <field name="Design_Note">1=A经1k到GPIO，2=K到GND；3=中央焊盘，电气属性未注明，不连接；临时本地符号/封装待入kicad_library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="PAD_UNSPEC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="E6C1204YGAC1UDA">
+      <description>侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络；临时本地符号，待料号入 kicad_library</description>
+      <docs>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203301830_EKINGLUX-E6C1204YGAC1UDA_C375534.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">E6C1204YGAC1UDA</field>
+        <field name="Footprint">ControllerLocal:LED_Ekinglux_1204_SideView_3.2x1.0mm</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203301830_EKINGLUX-E6C1204YGAC1UDA_C375534.pdf</field>
+        <field name="Description">侧发光LED；datasheet p5：物理1=阳极+，2=阴极-；中央独立焊盘3不接外部网络；临时本地符号，待料号入 kicad_library</field>
+        <field name="Sim.Pins">1=A 2=K</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">ekinglux 亿晶源</field>
+        <field name="MPN">E6C1204YGAC1UDA</field>
+        <field name="LCSC">C375534</field>
+        <field name="Supplier_PN">C375534</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/347834.html</field>
+        <field name="Design_Note">1=A经1k到GPIO，2=K到GND；3=中央焊盘，电气属性未注明，不连接；临时本地符号/封装待入kicad_library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="PAD_UNSPEC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="PESD2CAN">
+      <description>CAN；1=CANH，2=CANL，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD2CAN,215</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</field>
+        <field name="Description">CAN；1=CANH，2=CANL，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</field>
+        <field name="MPN">PESD2CAN,215</field>
+        <field name="LCSC">C75176</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Supplier_PN">C75176</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/76300.html</field>
+        <field name="Design_Note">CAN；1=CANH，2=CANL，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LINE1" type="passive"/>
+        <pin num="2" name="LINE2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="SKRTLAE010">
+      <description>侧按RESET；实物1与3内部短接，对应官方封装两只pad1；实物2=pad2；MP外部不连接；临时本地符号，待料号入 kicad_library</description>
+      <docs>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_skrt_en_01ec237785.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SKRTLAE010</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_skrt_en_01ec237785.pdf</field>
+        <field name="Description">侧按RESET；实物1与3内部短接，对应官方封装两只pad1；实物2=pad2；MP外部不连接；临时本地符号，待料号入 kicad_library</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">ALPS ALPINE</field>
+        <field name="MPN">SKRTLAE010</field>
+        <field name="LCSC">C110293</field>
+        <field name="Supplier_PN">C110293</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/111515.html</field>
+        <field name="Design_Note">原厂SKRTLAE010.pdf p2–3；pad1的两焊盘接NRST，pad2接GND，MP留空NC；临时本地符号，待料号入 kicad_library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="MP" name="MP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CoreProtection" part="SM712">
+      <description>RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</description>
+      <docs>https://www.semtech.com/uploads/documents/sm712.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM712.TCT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.semtech.com/uploads/documents/sm712.pdf</field>
+        <field name="Description">RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</field>
+        <field name="MPN">SM712.TCT</field>
+        <field name="LCSC">C12067</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Manufacturer">Semtech</field>
+        <field name="Supplier_PN">C12067</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/12644.html</field>
+        <field name="Design_Note">RS-485；非对称-7/+12V；1=A，2=B，3=GND；默认DNP；临时本地符号，待料号入 kicad_library</field>
       </fields>
       <pins>
         <pin num="1" name="LINE1" type="passive"/>
@@ -4409,26 +4835,6 @@
         <pin num="4" name="G" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Light emitting diode</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -4461,24 +4867,6 @@
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
-      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
-      <footprints>
-        <fp>SolderJumper*Bridged12*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_3_Bridged12</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="C" type="passive"/>
-        <pin num="3" name="B" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MyParts" part="CC0603KRX7R9BB104">
@@ -5008,6 +5396,36 @@
         <pin num="7" name="PAD" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MyParts" part="TPS2553QDBVRQ1">
+      <description>Automotive adjustable current-limited power switch; active-high enable; SOT-23-6</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf</docs>
+      <footprints>
+        <fp>SOT-23-6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2553QDBVRQ1</field>
+        <field name="Footprint">MyFootprints:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf</field>
+        <field name="Description">Automotive adjustable current-limited power switch; active-high enable; SOT-23-6</field>
+        <field name="Datasheet_Revision">Rev B</field>
+        <field name="Library_Revision">1</field>
+        <field name="Verification">reviewed</field>
+        <field name="Purchase_URL">https://item.szlcsc.com/141342.html</field>
+        <field name="Supplier_PN">C130055</field>
+        <field name="Supplier">LCSC</field>
+        <field name="MPN">TPS2553QDBVRQ1</field>
+        <field name="Manufacturer">TI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="~{FAULT}" type="open_collector"/>
+        <pin num="5" name="ILIM" type="passive"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="MyParts" part="TPS3808G33DBVR">
       <description>3.07V threshold supervisor, open-drain reset; SOT-23-6</description>
       <docs>https://www.ti.com/lit/ds/symlink/tps3808.pdf</docs>
@@ -5038,20 +5456,6 @@
         <pin num="6" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Switch" part="SW_Push">
-      <description>Push button switch, generic, two pins</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_Push</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Push button switch, generic, two pins</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -5071,9 +5475,6 @@
     </library>
     <library logical="MyParts">
       <uri>${KIPRJMOD}/../../../lib/kicad_library/symbols/MyParts.kicad_sym</uri>
-    </library>
-    <library logical="Switch">
-      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_symdir</uri>
     </library>
   </libraries>
   <nets>
@@ -5102,14 +5503,16 @@
       <node ref="D103" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="J101" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
       <node ref="J101" pin="32" pinfunction="Pin_32_32" pintype="passive"/>
+      <node ref="J203" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J204" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J205" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
-      <node ref="JP203" pin="1" pinfunction="A_1" pintype="passive"/>
       <node ref="R210" pin="2" pintype="passive"/>
       <node ref="R220" pin="1" pintype="passive"/>
       <node ref="R221" pin="1" pintype="passive"/>
       <node ref="R222" pin="1" pintype="passive"/>
       <node ref="R223" pin="1" pintype="passive"/>
       <node ref="R224" pin="1" pintype="passive"/>
+      <node ref="R228" pin="1" pintype="passive"/>
       <node ref="R302" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="R306" pin="1" pintype="passive"/>
       <node ref="R92" pin="1" pintype="passive"/>
@@ -5130,10 +5533,12 @@
       <node ref="U30" pin="64" pinfunction="VDD_64" pintype="power_in"/>
     </net>
     <net code="3" name="+5V_CORE_IN" class="CorePower">
-      <node ref="D201" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="C211" pin="1" pintype="passive"/>
       <node ref="J101" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J101" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U203" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U203" pin="3" pinfunction="EN_3" pintype="input"/>
     </net>
     <net code="4" name="/本地供电与复位监控/CORE_5V_TVS" class="Default">
       <node ref="C301" pin="1" pintype="passive"/>
@@ -5162,103 +5567,107 @@
     <net code="8" name="5V_OUT" class="Default">
       <node ref="D201" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="J201" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
-      <node ref="JP203" pin="3" pinfunction="B_3" pintype="passive"/>
     </net>
-    <net code="9" name="ADC_SP1" class="Default">
+    <net code="9" name="5V_OUT_LIM" class="Default">
+      <node ref="C212" pin="1" pintype="passive"/>
+      <node ref="D201" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="U203" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="10" name="ADC_SP1" class="Default">
       <node ref="J101" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
       <node ref="R207" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="ADC_SP1_MCU" class="Default">
+    <net code="11" name="ADC_SP1_MCU" class="Default">
       <node ref="C207" pin="1" pintype="passive"/>
       <node ref="R207" pin="2" pintype="passive"/>
       <node ref="U30" pin="24" pinfunction="PB0_24" pintype="bidirectional"/>
     </net>
-    <net code="11" name="ADC_SP2" class="Default">
+    <net code="12" name="ADC_SP2" class="Default">
       <node ref="J101" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
       <node ref="R208" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="ADC_SP2_MCU" class="Default">
+    <net code="13" name="ADC_SP2_MCU" class="Default">
       <node ref="C208" pin="1" pintype="passive"/>
       <node ref="R208" pin="2" pintype="passive"/>
       <node ref="U30" pin="26" pinfunction="PB2_26" pintype="bidirectional"/>
     </net>
-    <net code="13" name="BASE_READY" class="Default">
+    <net code="14" name="BASE_READY" class="Default">
       <node ref="J102" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
       <node ref="U30" pin="2" pinfunction="PC13_2" pintype="bidirectional"/>
     </net>
-    <net code="14" name="BOOT0" class="Default">
+    <net code="15" name="BOOT0" class="Default">
       <node ref="R122" pin="1" pintype="passive"/>
       <node ref="TP15" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U30" pin="61" pinfunction="PB8_61" pintype="bidirectional"/>
     </net>
-    <net code="15" name="BRAKE" class="Default">
+    <net code="16" name="BRAKE" class="Default">
       <node ref="J102" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
       <node ref="U30" pin="38" pinfunction="PC6_38" pintype="bidirectional"/>
     </net>
-    <net code="16" name="CANH" class="Default">
+    <net code="17" name="CANH" class="Default">
       <node ref="D203" pin="1" pinfunction="LINE1_1" pintype="passive"/>
       <node ref="J202" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="R212" pin="1" pintype="passive"/>
       <node ref="U202" pin="7" pinfunction="CANH_7" pintype="bidirectional"/>
     </net>
-    <net code="17" name="CANL" class="Default">
+    <net code="18" name="CANL" class="Default">
       <node ref="D203" pin="2" pinfunction="LINE2_2" pintype="passive"/>
       <node ref="J202" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="JP202" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="U202" pin="6" pinfunction="CANL_6" pintype="bidirectional"/>
     </net>
-    <net code="18" name="CAN_RX" class="Default">
+    <net code="19" name="CAN_RX" class="Default">
       <node ref="U202" pin="4" pinfunction="R_4" pintype="output"/>
       <node ref="U30" pin="45" pinfunction="PA11_45" pintype="bidirectional"/>
     </net>
-    <net code="19" name="CAN_TX" class="Default">
+    <net code="20" name="CAN_TX" class="Default">
       <node ref="U202" pin="1" pinfunction="D_1" pintype="input"/>
       <node ref="U30" pin="46" pinfunction="PA12_46" pintype="bidirectional"/>
     </net>
-    <net code="20" name="CORE_RESET_OK" class="Default">
+    <net code="21" name="CORE_RESET_OK" class="Default">
       <node ref="U103" pin="4" pinfunction="Y_4" pintype="output"/>
       <node ref="U105" pin="1" pinfunction="A_1" pintype="input"/>
     </net>
-    <net code="21" name="CTRL_READY" class="Default">
+    <net code="22" name="CTRL_READY" class="Default">
       <node ref="J102" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
       <node ref="U105" pin="4" pinfunction="Y_4" pintype="output"/>
     </net>
-    <net code="22" name="ENABLE" class="Default">
+    <net code="23" name="ENABLE" class="Default">
       <node ref="J102" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
       <node ref="U30" pin="22" pinfunction="PC4_22" pintype="bidirectional"/>
     </net>
-    <net code="23" name="ENC_A" class="Default">
+    <net code="24" name="ENC_A" class="Default">
       <node ref="R213" pin="2" pintype="passive"/>
       <node ref="R220" pin="2" pintype="passive"/>
       <node ref="U30" pin="12" pinfunction="PA0_12" pintype="bidirectional"/>
     </net>
-    <net code="24" name="ENC_A_CONN" class="Default">
+    <net code="25" name="ENC_A_CONN" class="Default">
       <node ref="J203" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="R213" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="ENC_B" class="Default">
+    <net code="26" name="ENC_B" class="Default">
       <node ref="R214" pin="2" pintype="passive"/>
       <node ref="R221" pin="2" pintype="passive"/>
       <node ref="U30" pin="13" pinfunction="PA1_13" pintype="bidirectional"/>
     </net>
-    <net code="26" name="ENC_B_CONN" class="Default">
+    <net code="27" name="ENC_B_CONN" class="Default">
       <node ref="J203" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="R214" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="ENC_Z" class="Default">
+    <net code="28" name="ENC_Z" class="Default">
       <node ref="R215" pin="2" pintype="passive"/>
       <node ref="R222" pin="2" pintype="passive"/>
       <node ref="U30" pin="14" pinfunction="PA2_14" pintype="bidirectional"/>
     </net>
-    <net code="28" name="ENC_Z_CONN" class="Default">
+    <net code="29" name="ENC_Z_CONN" class="Default">
       <node ref="J203" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="R215" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="FAULT_N" class="Default">
+    <net code="30" name="FAULT_N" class="Default">
       <node ref="J102" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
       <node ref="U30" pin="34" pinfunction="PB12_34" pintype="bidirectional"/>
     </net>
-    <net code="30" name="GND" class="CorePower">
+    <net code="31" name="GND" class="CorePower">
       <node ref="C201" pin="2" pintype="passive"/>
       <node ref="C202" pin="2" pintype="passive"/>
       <node ref="C203" pin="2" pintype="passive"/>
@@ -5269,6 +5678,8 @@
       <node ref="C208" pin="2" pintype="passive"/>
       <node ref="C209" pin="2" pintype="passive"/>
       <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="C211" pin="2" pintype="passive"/>
+      <node ref="C212" pin="2" pintype="passive"/>
       <node ref="C301" pin="2" pintype="passive"/>
       <node ref="C302" pin="2" pintype="passive"/>
       <node ref="C303" pin="2" pintype="passive"/>
@@ -5293,8 +5704,8 @@
       <node ref="D101" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="D202" pin="3" pinfunction="GND_3" pintype="passive"/>
       <node ref="D203" pin="3" pinfunction="GND_3" pintype="passive"/>
-      <node ref="D204" pin="1" pinfunction="K_1" pintype="passive"/>
-      <node ref="D205" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D204" pin="2" pinfunction="K_2" pintype="passive"/>
+      <node ref="D205" pin="2" pinfunction="K_2" pintype="passive"/>
       <node ref="J101" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
       <node ref="J101" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
       <node ref="J101" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
@@ -5343,6 +5754,8 @@
       <node ref="J205" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="R122" pin="2" pintype="passive"/>
       <node ref="R209" pin="2" pintype="passive"/>
+      <node ref="R227" pin="2" pintype="passive"/>
+      <node ref="R229" pin="2" pintype="passive"/>
       <node ref="R303" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="R305" pin="2" pintype="passive"/>
       <node ref="R402" pin="2" pintype="passive"/>
@@ -5356,6 +5769,7 @@
       <node ref="U105" pin="3" pinfunction="GND_3" pintype="power_in"/>
       <node ref="U201" pin="5" pinfunction="GND_5" pintype="power_in"/>
       <node ref="U202" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U203" pin="2" pinfunction="GND_2" pintype="power_in"/>
       <node ref="U30" pin="15" pinfunction="VSS_15" pintype="power_in"/>
       <node ref="U30" pin="27" pinfunction="VSSA_27" pintype="power_in"/>
       <node ref="U30" pin="31" pinfunction="VSS_31" pintype="passive"/>
@@ -5364,61 +5778,61 @@
       <node ref="Y1" pin="2" pinfunction="G_2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="G_4" pintype="passive"/>
     </net>
-    <net code="31" name="HSE_IN" class="Default">
+    <net code="32" name="HSE_IN" class="Default">
       <node ref="C83" pin="1" pintype="passive"/>
       <node ref="U30" pin="5" pinfunction="PF0_5" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="32" name="HSE_OUT" class="Default">
+    <net code="33" name="HSE_OUT" class="Default">
       <node ref="C84" pin="1" pintype="passive"/>
       <node ref="U30" pin="6" pinfunction="PF1_6" pintype="bidirectional"/>
       <node ref="Y1" pin="3" pinfunction="3_3" pintype="passive"/>
     </net>
-    <net code="33" name="I_BUS" class="Default">
+    <net code="34" name="I_BUS" class="Default">
       <node ref="J101" pin="23" pinfunction="Pin_23_23" pintype="passive"/>
       <node ref="R204" pin="1" pintype="passive"/>
     </net>
-    <net code="34" name="I_BUS_MCU" class="Default">
+    <net code="35" name="I_BUS_MCU" class="Default">
       <node ref="C204" pin="1" pintype="passive"/>
       <node ref="R204" pin="2" pintype="passive"/>
       <node ref="U30" pin="17" pinfunction="PA3_17" pintype="bidirectional"/>
     </net>
-    <net code="35" name="I_U" class="Default">
+    <net code="36" name="I_U" class="Default">
       <node ref="J101" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
       <node ref="R201" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="I_U_MCU" class="Default">
+    <net code="37" name="I_U_MCU" class="Default">
       <node ref="C201" pin="1" pintype="passive"/>
       <node ref="R201" pin="2" pintype="passive"/>
       <node ref="U30" pin="8" pinfunction="PC0_8" pintype="bidirectional"/>
     </net>
-    <net code="37" name="I_V" class="Default">
+    <net code="38" name="I_V" class="Default">
       <node ref="J101" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
       <node ref="R202" pin="1" pintype="passive"/>
     </net>
-    <net code="38" name="I_V_MCU" class="Default">
+    <net code="39" name="I_V_MCU" class="Default">
       <node ref="C202" pin="1" pintype="passive"/>
       <node ref="R202" pin="2" pintype="passive"/>
       <node ref="U30" pin="9" pinfunction="PC1_9" pintype="bidirectional"/>
     </net>
-    <net code="39" name="I_W" class="Default">
+    <net code="40" name="I_W" class="Default">
       <node ref="J101" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
       <node ref="R203" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="I_W_MCU" class="Default">
+    <net code="41" name="I_W_MCU" class="Default">
       <node ref="C203" pin="1" pintype="passive"/>
       <node ref="R203" pin="2" pintype="passive"/>
       <node ref="U30" pin="10" pinfunction="PC2_10" pintype="bidirectional"/>
     </net>
-    <net code="41" name="LED_FAULT" class="Default">
+    <net code="42" name="LED_FAULT" class="Default">
       <node ref="R226" pin="1" pintype="passive"/>
       <node ref="U30" pin="40" pinfunction="PC8_40" pintype="bidirectional"/>
     </net>
-    <net code="42" name="LED_RUN" class="Default">
+    <net code="43" name="LED_RUN" class="Default">
       <node ref="R225" pin="1" pintype="passive"/>
       <node ref="U30" pin="23" pinfunction="PC5_23" pintype="bidirectional"/>
     </net>
-    <net code="43" name="NRST" class="Default">
+    <net code="44" name="NRST" class="Default">
       <node ref="C81" pin="1" pintype="passive"/>
       <node ref="J205" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="R306" pin="2" pintype="passive"/>
@@ -5427,199 +5841,212 @@
       <node ref="U103" pin="2" pinfunction="A_2" pintype="input"/>
       <node ref="U30" pin="7" pinfunction="PG10_7" pintype="bidirectional"/>
     </net>
-    <net code="44" name="NTC" class="Default">
+    <net code="45" name="NTC" class="Default">
       <node ref="J101" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
       <node ref="R206" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="NTC_MCU" class="Default">
+    <net code="46" name="NTC_MCU" class="Default">
       <node ref="C206" pin="1" pintype="passive"/>
       <node ref="R206" pin="2" pintype="passive"/>
       <node ref="U30" pin="25" pinfunction="PB1_25" pintype="bidirectional"/>
     </net>
-    <net code="46" name="Net-(D204-A)" class="Default">
-      <node ref="D204" pin="2" pinfunction="A_2" pintype="passive"/>
+    <net code="47" name="Net-(D204-A)" class="Default">
+      <node ref="D204" pin="1" pinfunction="A_1" pintype="passive"/>
       <node ref="R225" pin="2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D205-A)" class="Default">
-      <node ref="D205" pin="2" pinfunction="A_2" pintype="passive"/>
+    <net code="48" name="Net-(D205-A)" class="Default">
+      <node ref="D205" pin="1" pinfunction="A_1" pintype="passive"/>
       <node ref="R226" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(JP201-A)" class="Default">
+    <net code="49" name="Net-(JP201-A)" class="Default">
       <node ref="JP201" pin="1" pinfunction="A_1" pintype="passive"/>
       <node ref="R211" pin="2" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(JP202-A)" class="Default">
+    <net code="50" name="Net-(JP202-A)" class="Default">
       <node ref="JP202" pin="1" pinfunction="A_1" pintype="passive"/>
       <node ref="R212" pin="2" pintype="passive"/>
     </net>
-    <net code="50" name="PWM_UH" class="Default">
+    <net code="51" name="PWM_UH" class="Default">
       <node ref="J102" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="U30" pin="42" pinfunction="PA8_42" pintype="bidirectional"/>
     </net>
-    <net code="51" name="PWM_UL" class="Default">
+    <net code="52" name="PWM_UL" class="Default">
       <node ref="J102" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
       <node ref="U30" pin="35" pinfunction="PB13_35" pintype="bidirectional"/>
     </net>
-    <net code="52" name="PWM_VH" class="Default">
+    <net code="53" name="PWM_VH" class="Default">
       <node ref="J102" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
       <node ref="U30" pin="43" pinfunction="PA9_43" pintype="bidirectional"/>
     </net>
-    <net code="53" name="PWM_VL" class="Default">
+    <net code="54" name="PWM_VL" class="Default">
       <node ref="J102" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
       <node ref="U30" pin="36" pinfunction="PB14_36" pintype="bidirectional"/>
     </net>
-    <net code="54" name="PWM_WH" class="Default">
+    <net code="55" name="PWM_WH" class="Default">
       <node ref="J102" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
       <node ref="U30" pin="44" pinfunction="PA10_44" pintype="bidirectional"/>
     </net>
-    <net code="55" name="PWM_WL" class="Default">
+    <net code="56" name="PWM_WL" class="Default">
       <node ref="J102" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
       <node ref="U30" pin="37" pinfunction="PB15_37" pintype="bidirectional"/>
     </net>
-    <net code="56" name="RS485_A" class="Default">
+    <net code="57" name="RS485_A" class="Default">
       <node ref="D202" pin="1" pinfunction="LINE1_1" pintype="passive"/>
       <node ref="J201" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="R211" pin="1" pintype="passive"/>
+      <node ref="R228" pin="2" pintype="passive"/>
       <node ref="U201" pin="6" pinfunction="A_6" pintype="bidirectional"/>
     </net>
-    <net code="57" name="RS485_B" class="Default">
+    <net code="58" name="RS485_B" class="Default">
       <node ref="D202" pin="2" pinfunction="LINE2_2" pintype="passive"/>
       <node ref="J201" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="JP201" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R229" pin="1" pintype="passive"/>
       <node ref="U201" pin="7" pinfunction="B_7" pintype="bidirectional"/>
     </net>
-    <net code="58" name="RS485_DE" class="Default">
+    <net code="59" name="RS485_DE" class="Default">
       <node ref="R209" pin="1" pintype="passive"/>
       <node ref="U201" pin="2" pinfunction="~{RE}_2" pintype="input"/>
       <node ref="U201" pin="3" pinfunction="DE_3" pintype="input"/>
       <node ref="U30" pin="62" pinfunction="PB9_62" pintype="bidirectional"/>
     </net>
-    <net code="59" name="RS485_RX" class="Default">
+    <net code="60" name="RS485_RX" class="Default">
       <node ref="R210" pin="1" pintype="passive"/>
       <node ref="U201" pin="1" pinfunction="RO_1" pintype="output"/>
       <node ref="U30" pin="33" pinfunction="PB11_33" pintype="bidirectional"/>
     </net>
-    <net code="60" name="RS485_TX" class="Default">
+    <net code="61" name="RS485_TX" class="Default">
       <node ref="U201" pin="4" pinfunction="DI_4" pintype="input"/>
       <node ref="U30" pin="30" pinfunction="PB10_30" pintype="bidirectional"/>
     </net>
-    <net code="61" name="RUN_ARM" class="Default">
+    <net code="62" name="RUN_ARM" class="Default">
       <node ref="R402" pin="1" pintype="passive"/>
       <node ref="U105" pin="2" pinfunction="B_2" pintype="input"/>
       <node ref="U30" pin="39" pinfunction="PC7_39" pintype="bidirectional"/>
     </net>
-    <net code="62" name="SPI_CS" class="Default">
+    <net code="63" name="SPI_CS" class="Default">
       <node ref="R216" pin="2" pintype="passive"/>
       <node ref="R224" pin="2" pintype="passive"/>
       <node ref="U30" pin="51" pinfunction="PA15_51" pintype="bidirectional"/>
     </net>
-    <net code="63" name="SPI_CS_CONN" class="Default">
+    <net code="64" name="SPI_CS_CONN" class="Default">
       <node ref="J204" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="R216" pin="1" pintype="passive"/>
     </net>
-    <net code="64" name="SPI_MISO" class="Default">
+    <net code="65" name="SPI_MISO" class="Default">
       <node ref="R218" pin="2" pintype="passive"/>
       <node ref="R223" pin="2" pintype="passive"/>
       <node ref="U30" pin="20" pinfunction="PA6_20" pintype="bidirectional"/>
     </net>
-    <net code="65" name="SPI_MISO_CONN" class="Default">
+    <net code="66" name="SPI_MISO_CONN" class="Default">
       <node ref="J204" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="R218" pin="1" pintype="passive"/>
     </net>
-    <net code="66" name="SPI_MOSI" class="Default">
+    <net code="67" name="SPI_MOSI" class="Default">
       <node ref="R219" pin="2" pintype="passive"/>
       <node ref="U30" pin="21" pinfunction="PA7_21" pintype="bidirectional"/>
     </net>
-    <net code="67" name="SPI_MOSI_CONN" class="Default">
+    <net code="68" name="SPI_MOSI_CONN" class="Default">
       <node ref="J204" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="R219" pin="1" pintype="passive"/>
     </net>
-    <net code="68" name="SPI_SCK" class="Default">
+    <net code="69" name="SPI_SCK" class="Default">
       <node ref="R217" pin="2" pintype="passive"/>
       <node ref="U30" pin="19" pinfunction="PA5_19" pintype="bidirectional"/>
     </net>
-    <net code="69" name="SPI_SCK_CONN" class="Default">
+    <net code="70" name="SPI_SCK_CONN" class="Default">
       <node ref="J204" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="R217" pin="1" pintype="passive"/>
     </net>
-    <net code="70" name="SWCLK" class="Default">
+    <net code="71" name="SWCLK" class="Default">
       <node ref="J205" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="U30" pin="50" pinfunction="PA14_50" pintype="bidirectional"/>
     </net>
-    <net code="71" name="SWDIO" class="Default">
+    <net code="72" name="SWDIO" class="Default">
       <node ref="J205" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="U30" pin="49" pinfunction="PA13_49" pintype="bidirectional"/>
     </net>
-    <net code="72" name="VCC_ENC" class="Default">
-      <node ref="J203" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
-      <node ref="J204" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
-      <node ref="JP203" pin="2" pinfunction="C_2" pintype="passive"/>
+    <net code="73" name="TPS2553_ILIM" class="Default">
+      <node ref="R227" pin="1" pintype="passive"/>
+      <node ref="U203" pin="5" pinfunction="ILIM_5" pintype="passive"/>
     </net>
-    <net code="73" name="VREF_MCU" class="CoreAnalog">
+    <net code="74" name="VREF_MCU" class="CoreAnalog">
       <node ref="C79" pin="1" pintype="passive"/>
       <node ref="C80" pin="1" pintype="passive"/>
       <node ref="R93" pin="2" pintype="passive"/>
       <node ref="U30" pin="28" pinfunction="VREF+_28" pintype="input"/>
     </net>
-    <net code="74" name="V_DC" class="Default">
+    <net code="75" name="V_DC" class="Default">
       <node ref="J101" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
       <node ref="R205" pin="1" pintype="passive"/>
     </net>
-    <net code="75" name="V_DC_MCU" class="Default">
+    <net code="76" name="V_DC_MCU" class="Default">
       <node ref="C205" pin="1" pintype="passive"/>
       <node ref="R205" pin="2" pintype="passive"/>
       <node ref="U30" pin="11" pinfunction="PC3_11" pintype="bidirectional"/>
     </net>
-    <net code="76" name="unconnected-(U30-PA4-Pad18)" class="Default">
+    <net code="77" name="unconnected-(D204-PAD_UNSPEC-Pad3)" class="Default">
+      <node ref="D204" pin="3" pinfunction="PAD_UNSPEC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(D205-PAD_UNSPEC-Pad3)" class="Default">
+      <node ref="D205" pin="3" pinfunction="PAD_UNSPEC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(SW2-PadMP)" class="Default">
+      <node ref="SW2" pin="MP" pinfunction="MP_MP" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U30-PA4-Pad18)" class="Default">
       <node ref="U30" pin="18" pinfunction="PA4_18" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U30-PB3-Pad56)" class="Default">
+    <net code="81" name="unconnected-(U30-PB3-Pad56)" class="Default">
       <node ref="U30" pin="56" pinfunction="PB3_56" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U30-PB4-Pad57)" class="Default">
+    <net code="82" name="unconnected-(U30-PB4-Pad57)" class="Default">
       <node ref="U30" pin="57" pinfunction="PB4_57" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U30-PB5-Pad58)" class="Default">
+    <net code="83" name="unconnected-(U30-PB5-Pad58)" class="Default">
       <node ref="U30" pin="58" pinfunction="PB5_58" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U30-PB6-Pad59)" class="Default">
+    <net code="84" name="unconnected-(U30-PB6-Pad59)" class="Default">
       <node ref="U30" pin="59" pinfunction="PB6_59" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U30-PB7-Pad60)" class="Default">
+    <net code="85" name="unconnected-(U30-PB7-Pad60)" class="Default">
       <node ref="U30" pin="60" pinfunction="PB7_60" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U30-PC9-Pad41)" class="Default">
+    <net code="86" name="unconnected-(U30-PC9-Pad41)" class="Default">
       <node ref="U30" pin="41" pinfunction="PC9_41" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U30-PC10-Pad52)" class="Default">
+    <net code="87" name="unconnected-(U30-PC10-Pad52)" class="Default">
       <node ref="U30" pin="52" pinfunction="PC10_52" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U30-PC11-Pad53)" class="Default">
+    <net code="88" name="unconnected-(U30-PC11-Pad53)" class="Default">
       <node ref="U30" pin="53" pinfunction="PC11_53" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U30-PC12-Pad54)" class="Default">
+    <net code="89" name="unconnected-(U30-PC12-Pad54)" class="Default">
       <node ref="U30" pin="54" pinfunction="PC12_54" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U30-PC14-Pad3)" class="Default">
+    <net code="90" name="unconnected-(U30-PC14-Pad3)" class="Default">
       <node ref="U30" pin="3" pinfunction="PC14_3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U30-PC15-Pad4)" class="Default">
+    <net code="91" name="unconnected-(U30-PC15-Pad4)" class="Default">
       <node ref="U30" pin="4" pinfunction="PC15_4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U30-PD2-Pad55)" class="Default">
+    <net code="92" name="unconnected-(U30-PD2-Pad55)" class="Default">
       <node ref="U30" pin="55" pinfunction="PD2_55" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U102-CT-Pad4)" class="Default">
+    <net code="93" name="unconnected-(U102-CT-Pad4)" class="Default">
       <node ref="U102" pin="4" pinfunction="CT_4" pintype="input+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U103-NC-Pad1)" class="Default">
+    <net code="94" name="unconnected-(U103-NC-Pad1)" class="Default">
       <node ref="U103" pin="1" pinfunction="NC_1" pintype="no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U202-NC-Pad5)" class="Default">
+    <net code="95" name="unconnected-(U202-NC-Pad5)" class="Default">
       <node ref="U202" pin="5" pinfunction="NC_5" pintype="no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U202-NC-Pad8)" class="Default">
+    <net code="96" name="unconnected-(U202-NC-Pad8)" class="Default">
       <node ref="U202" pin="8" pinfunction="NC_8" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U203-~{FAULT}-Pad4)" class="Default">
+      <node ref="U203" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector+no_connect"/>
     </net>
   </nets>
 </export>

@@ -1,3 +1,4 @@
 (fp_lib_table (version 7)
 (lib (name "MyFootprints") (type "KiCad") (uri "${KIPRJMOD}/../../../lib/kicad_library/footprints/MyFootprints.pretty") (options "") (descr "Shared footprints; read only"))
-(lib (name "Inverter_Compact") (type "KiCad") (uri "${KIPRJMOD}/Inverter_Compact.pretty") (options "") (descr "Frozen Rev C project draft derivatives; migrated geometry")))
+(lib (name "Inverter_Compact") (type "KiCad") (uri "${KIPRJMOD}/Inverter_Compact.pretty") (options "") (descr "Frozen Rev C project draft derivatives; migrated geometry"))
+(lib (name "ControllerLocal") (type "KiCad") (uri "${KIPRJMOD}/ControllerLocal.pretty") (options "") (descr "临时本地封装，待料号入 kicad_library")))
