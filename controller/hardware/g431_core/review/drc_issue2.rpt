@@ -1,0 +1,54 @@
+** Drc report for controller.kicad_pcb **
+** Created on 2026-11-11T19:29:46 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 9 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.1000 mm, 126.0550 mm): Reference field of Y1
+    @(124.6400 mm, 126.5078 mm): Segment of C63 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.1000 mm, 126.0550 mm): Reference field of Y1
+    @(125.3600 mm, 126.5078 mm): Segment of C63 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(110.8310 mm, 122.1500 mm): Reference field of C64
+    @(111.6310 mm, 122.1500 mm): Reference field of C79
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.3900 mm, 122.2578 mm): Segment of C64 on F.Silkscreen
+    @(111.6310 mm, 122.1500 mm): Reference field of C79
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(124.7000 mm, 129.8550 mm): Reference field of C84
+    @(124.2500 mm, 130.9000 mm): Pad 3 [HSE_OUT] of Y1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(124.7000 mm, 129.8550 mm): Reference field of C84
+    @(125.9500 mm, 130.9000 mm): Pad 2 [GND] of Y1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.1000 mm, 126.0550 mm): Reference field of Y1
+    @(125.0000 mm, 125.9200 mm): Pad 2 [GND] of C63 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.6310 mm, 122.1500 mm): Reference field of C79
+    @(112.7500 mm, 121.6700 mm): Pad 2 [GND] of C64 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.6310 mm, 122.1500 mm): Reference field of C79
+    @(112.7500 mm, 122.6300 mm): Pad 1 [+3V3_MCU] of C64 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
