@@ -1,4 +1,4 @@
-ERC report (2026-11-12T03:33:53, Encoding UTF8)
+ERC report (2026-11-12T04:16:46, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -35,7 +35,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /ADC and status returns/
 
-***** Sheet /母线电流（15 A保护待决）/
+***** Sheet /母线电流（15 A 过流保护）/
 
 ***** Sheet /64-pin core sockets/
 

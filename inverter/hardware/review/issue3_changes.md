@@ -350,3 +350,274 @@ R212/R213/R214、R215、R70、R42～R47的具体厂商料号未编造；#5需按
 - `inverter/hardware/supply_logic.kicad_sch`
 - `inverter/hardware/sym-lib-table`
 - `inverter/hardware/voltage_sense.kicad_sch`
+
+
+## 增量（2026-11-12 方案②／TLV1821／R71／#12 同步）
+
+**当前状态以本节为准。** 本节覆盖前文第9/10节、固件影响、遗留项、待选表中“母线15 A保护暂停”“零点1.65 V”“TLV7021待实施”的旧状态；旧文保留作上一轮记录。方案②已经落图：U33=U_BUSAMP、U34=U_BUSCMP、RS4=RS_BUS；使用合法数字位号，功能名写入 `Design_Name`。15 A 为设计目标，E96 取值后的名义触发电流见下表。相电流 U10～U12 的增益、分流和零点保持。
+
+工作基线：分支 `hw/inverter-sch-issue3`，本轮起点 `6764379`，已 rebase 到 `origin/main b14dfcd`，共享库子模块 `1dd8f79`，KiCad 10.0.7。仅增量修改原理图、本地符号及本节所列审阅导出。未修改 fw/、docs/design_decisions.md、任何 PCB、正式 bom/bom.csv、review/bom.csv、项目 ERC 配置或共享库；未 commit/push，未读取认证文件。
+
+### A. 原厂依据和待核边界
+
+| 器件 / 参数 | 原厂依据 / 核对结果 |
+| --- | --- |
+| INA241A2/A1 | [TI INA241A，SBOSA30D](https://www.ti.com/lit/ds/symlink/ina241a.pdf)，逐项核对本地 `/workspace/work/ds/ina241a.txt`。第6.5节：A1/A2增益、增益误差的输出区间、输出摆幅；第7.4.1节式(1)：两REF电压取平均；第7.4.3.3节/图7-7：一脚接外部参考、一脚接GND；第4节：DDF脚号。 |
+| TLV1821DBVR | [TI TLV1821，SNOSDC8E Rev E](https://www.ti.com/lit/ds/symlink/tlv1821.pdf)，官方PDF在线读取；终端curl因DNS解析失败未能下载。第4节表4-1：DBV标准脚号；第5.3节：2.4～40 V供电；第7.4.2.2节：开漏；第7.4.4节：无内置迟滞；第8.1.2.1/8.1.2.3节：反相正反馈、开漏上拉须计入计算。 |
+| U35 单与门 | [TI SN74LVC1G08，SCES217AA](https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf)，第4节DBV引脚、第5.3节供电/输入要求、第7.4节AND功能。沿用已有MyParts符号、MPN及C7666，不新增逻辑型号。 |
+| C214/C215去耦 | [YAGEO CC0603KRX7R9BB104原厂规格](https://www.yageogroup.com/download/specsheet/CC0603KRX7R9BB104)：100 nF、±10%、50 VDC、X7R、0603；C14663来自任务/现有库采购字段。 |
+| RS4采购变更 | 按本任务指定 Milliohm **LR2512D-3W-5mR-1% / C500739**，名义5 mΩ/3 W/1%。[资料入口](https://www.lcsc.com/datasheet/C500739.pdf)可定位到[原厂PDF镜像](https://datasheet.lcsc.com/datasheet/pdf/af008bf05bd6536b39b0bb7d67e56045.pdf)，但本次未取到PDF正文：**完整原厂料规、温度降额、脉冲及新MPN与既定焊盘的尺寸复核待核**。不沿用旧C2903482的料规作为新器件保证。 |
+| R71 / R219及新阻值电阻 | R71的76.8k/0.1%、RT0603BRD0776K8L/C705795，R219的4.7k、0603WAF4701T5E/C23162均按本任务指定。R71/R219本次未取得原厂完整PDF，额定功率、工作电压、温漂等**待核**，不编造。R216～R218的1%是本次设计要求，具体MPN及其原厂料规待#5。 |
+
+原厂文档的测试条件与名义电路计算分别列明。以下门限均按+3V3_INV=3.300 V、VBIAS_1V65=1.650 V、名义增益/5 mΩ分流计算；不代表整机全温/动态误差保证。LCSC编号按任务或#12 BOM同步，不把分销商库存/参数摘要替代原厂保证。
+
+### B. 母线放大器及分流（方案②）
+
+- U33：TI INA241A2IDDFR，C5240853，`MyFootprints:SOT-23-8`；供电保持+3V3_INV。
+- **REF1=7脚接VBIAS_1V65；REF2=3脚接GND**；1=IN−接VBUS_BR、8=IN+接VBUS、2/4接GND、5=OUT、6=VS。相电流U10～U12两REF仍接1.65 V。
+- RS4：新MPN/C号见A节；保持 `MyFootprints:Milliohm_HoJLR2512_Pad2.1x4.0mm_Gap4.1mm`。该封装及U33/U34所需SOT-23-8/SOT-23-5均在共享库中存在，**无待建封装**。两个端子的四线Kelvin取样与VBUS/VBUS_BR划分保持，RS1～RS3不变。
+- C210=100n去耦、R212=47Ω输出隔离及接口链保持：`U33/5 I_BUS_RAW → R212 → I_BUS_PORT → R213 360Ω / D211 → R214 100Ω → I_BUS → J101/23 → PA3`。已有C211=1n保持DNP，实际MCU端RC仍由controller处理。
+
+按SBOSA30D第7.4.1节式(1)及第7.4.3.3节：
+
+```text
+VOUT = G × VSENSE + (VREF1 + VREF2)/2
+     = 20 × (I × 0.005) + (1.650 + 0)/2
+     = 0.100 I + 0.825 V
+I(A) = (VOUT − 0.825)/0.100
+I=0 A     → 0.825 V
+I=+15 A   → 2.325 V
+上界3.1 V → (3.100−0.825)/0.100 = +22.75 A
+下界0.05 V→ (0.050−0.825)/0.100 = −7.75 A
+```
+
+第6.5节的增益误差测试区间是 `GND+50mV < VOUT < VS−200mV`；同节高端摆幅条目在RL=10kΩ到GND、全温条件给出VS−0.2 V，3.3 V时为3.1 V。**本节用50 mV作为线性区下界；没有把另一条“Swing to Ground”20 mV摆幅值冒充50 mV。** −7.75/+22.75 A为名义线性区边界，端点不构成额外精度保证。15 A对应2.325 V，距3.1 V高端边界775 mV，旧双REF=1.65 V造成的3.15 V目标问题已解除。
+
+固件换算应使用母线零点0.825 V和100 mV/A；相电流仍为1.65 V/50 mV/A。本轮不改固件。
+
+### C. TLV1821母线门限、迟滞和锁存接入
+
+U34=TI **TLV1821DBVR / C7068849**，`MyFootprints:SOT-23-5`；采用标准TLV1821，非电源脚互换的TLV1821L。实际脚号：1 OUT、2 V−=GND、3 IN+、4 IN−、5 V+=+3V3_INV。开漏输出，无内置迟滞。C214=CC0603KRX7R9BB104/C14663，100n去耦。
+
+IN+接OC_BUS_REF，IN−接**钳位和接口RC之前的I_BUS_RAW**。电流低于上门限时输出释放、OC_BUS_N高；超过上门限时输出吸电流、OC_BUS_N低。正反馈由输出回到IN+。没有并联推挽输出。
+
+| 位号 | 连接 | 阻值 / 0603要求 | 采购 |
+| --- | --- | --- | --- |
+| R216 | +3V3_INV → OC_BUS_REF | 10.2k，E96，1% | MPN=TBD（待#5） |
+| R217 | OC_BUS_REF → GND | 23.2k，E96，1% | MPN=TBD（待#5） |
+| R218 | OC_BUS_REF → OC_BUS_N | 226k，E96，1%，正反馈 | MPN=TBD（待#5） |
+| R219 | +3V3_INV → OC_BUS_N | 4.7k，1%，开漏上拉 | UNI-ROYAL 0603WAF4701T5E，C23162 |
+
+门限取+3V3_INV分压。本板既有VBIAS_1V65也是该电源分压缓冲，未找到独立高于2.325 V且更稳定的精密参考；直接3.3 V分压避免增加未授权的基准电路。电源/偏置误差仍应计入系统预算。**PR #14按旧3.15 V算的8.06k/165k/243k不用于本图。**
+
+令 `RT=10.2k，RB=23.2k，RF=226k，RP=4.7k，VS=3.3 V`。按TI第8.1.2.3节，输出高态时反馈支路是RF+RP，不把OC_BUS_N理想化为严格3.3 V：
+
+```text
+G_H = 1/RT + 1/RB + 1/(RF+RP)
+V_UP = VS × [1/RT + 1/(RF+RP)] / G_H
+     = 2.322243459 V
+I_UP = (V_UP−0.825)/0.100 = 14.972434595 A
+VOH  = VS − RP × (VS−V_UP)/(RF+RP) = 3.280080383 V
+
+G_L = 1/RT + 1/RB + 1/RF
+V_DOWN = (VS/RT + VOL/RF)/G_L
+VOL=0的名义近似：V_DOWN = 2.222539640 V
+I_DOWN = (V_DOWN−0.825)/0.100 = 13.975396401 A
+ΔV = 99.703819 mV；ΔI = 0.997038193 A
+```
+
+2.325 V/15 A是目标；E96实际上门限比目标低2.756541 mV，即低0.027565405 A（约0.184%），设计目标仍为15 A级。仅四个电阻各1%极限组合、固定其他量时，上门限2.308426～2.335949 V（14.834260～15.109488 A）；下门限在VOL=0近似下为2.207976～2.237003 V。实际VOL、比较器失调、分流/放大器/参考及供电误差尚需#7预算与实测；不将VOL=0近似当作保证值。RP远小于RF/10，符合TI反馈支路的建议。
+
+U35=已有库SN74LVC1G08DBVR/C7666，C215同规格100n去耦。逻辑与信号路径：
+
+```text
+原相电流/OV/UV/电源健康链 U22/U23/U24B
+  → 原U24/6输出改名 HEALTH_PREBUS
+U35/1 = HEALTH_PREBUS
+U35/2 = OC_BUS_N（U34/1，健康高、过流低）
+U35/4 = HEALTH_ALL = HEALTH_PREBUS AND OC_BUS_N
+  → U28/4 /S 异步置位故障锁存
+  → U28/6 NO_LATCH变低
+  → U24D HEALTH_UNLATCHED → U25A DRIVE_PERMIT
+  → U25B/C/D、U26A/B/C封锁六路HIN/LIN
+  → U27B FAULT_ACTIVE → R74 → Q8
+  → FAULT_N_RAW → R211/D210 → FAULT_N → J102/20 → PB12 BKIN
+```
+
+U35其余脚：3 GND、5 +3V3_INV。原锁存复位条件与RESET_REQUEST、R73/C55、ENABLE_QUALIFIED互锁保持；比较器电流恢复到下门限仅恢复OC_BUS_N，不自动清除锁存。TLV1821第7.4.3节说明POR期间开漏输出为高阻；仍依靠原电源健康/BASE_READY/CTRL_READY链，不能把比较器上拉高单独当作上电健康保证。未把手册典型传播延迟当整条保护链最大关断时间。
+
+### D. 相电流窗口与R71
+
+实际工作分支上一轮已将R42～R47改成下面的正确E96组合，因此本轮保持这些阻值/连线，避免从#12旧BOM回退到2.65/0.65 V。U10～U12 INA241A1、5 mΩ及1.65 V零点保持：`10×0.005=0.050 V/A`，±12 A目标为2.25/1.05 V。
+
+| 门限 | 从+3V3_INV到GND的串联电阻 | 取样点 | 实际名义电压 | 实际名义电流 |
+| --- | --- | --- | --- | --- |
+| 负向 | R42=20k → R43=1.43k → R44=10k | R43/R44 | 3.3×10/31.43 = 1.049952275 V | −12.000954502 A |
+| 正向 | R45=10k → R46=1.43k → R47=20k | R45/R46 | 3.3×21.43/31.43 = 2.250047725 V | +12.000954502 A |
+
+六个电阻均为MyFootprints 0603/E96，保留0.1%精度要求。**R42/R43/R46/R47的新阻值MPN=TBD（待#5）**，不写入#12中39k/1.8k的旧MPN。R44/R45仍是10k，和#12一致，已同步YAGEO RT0603BRD0710KL/C95204及0.1%字段；它们不是新阻值。表内为分压中心门限，不另改TLV3202已有迟滞。
+
+R71改 **76.8k ±0.1%，YAGEO RT0603BRD0776K8L，C705795，MyFootprints:R_0603_1608Metric**。R72=10k及原1.3 V参考不变：
+
+```text
+V_DRV_UV(old) = 1.3×(76.1k+10k)/10k = 11.193 V
+V_DRV_UV(new) = 1.3×(76.8k+10k)/10k = 11.284 V
+变化 = +91 mV，+0.81%
+```
+
+以上为名义欠压跳变点，未加入比较器失调/电源精度/迟滞/温漂的新保证。
+
+### E. #12 BOM同步与跳过清单
+
+来源是 `git show origin/main:inverter/hardware/bom/bom.csv`（b14dfcd），与当前只读正式BOM字节一致。仅对其中Footprint为MyFootprints:R_0603_1608Metric或MyFootprints:C_0603_1608Metric的行操作，按当前根图的实际实例查位号，不把未实例化旧MCU页的同名符号算作仍在板上。
+
+| 项目 | 位号数 | 处理 |
+| --- | ---: | --- |
+| 目标0603 BOM行 | 134 | 保留78，已删除56 |
+| 保留位号的Footprint匹配 | 78 | 61个本轮改为BOM封装，17个原本一致 |
+| 同步已知采购字段 | 73 | Manufacturer/MPN/Supplier_PN/LCSC/Purchase_URL/Voltage_Rating/Tolerance逐项同步，Supplier=LCSC |
+| 新相窗口阻值例外 | 4 | R42/R43/R46/R47：封装同步，MPN=TBD，供应编号/URL待#5 |
+| BOM自身MPN=TBD | 1 | R71不复制未知采购字段；按本任务专门料号补全 |
+| 所有本分支新增、不在main BOM | 29 | 通用同步不处理；本轮明确要求的U33/RS4/U34等按专项更新 |
+
+Value除任务明确要求的R71外未改，未复制BOM长Design_Note。同步#12后**R70的采购精度为1%（UNI-ROYAL 0603WAF1002T5E/C25804）**，按本轮明确的字段同步要求覆盖上一轮0.1%占位要求；阻值仍10k、连线不变。旧文R70待选/0.1%描述不作为当前料号规格。
+
+保留的78个目标位号：
+
+C4～C5、C9、C12、C17、C24、C26、C28、C30、C32、C34、C36～C43、C51～C62、C69～C72、C76、R13、R40～R47、R52、R68～R87、R91、R130、R135～R143、R160
+
+73个同步已知采购字段的位号：
+
+C4～C5、C9、C12、C17、C24、C26、C28、C30、C32、C34、C36～C43、C51～C62、C69～C72、C76、R13、R40～R41、R44～R45、R52、R68～R70、R72～R87、R91、R130、R135～R143、R160
+
+已删除而跳过的56个目标0603位号：
+
+C44～C50、C73～C75、C82、R57、R62、R67、R88～R90、R94～R121、R123～R129、R131～R134
+
+BOM里存在、当前根图已删除的**全部91个电气位号**按原页列出（含非目标0603，均未重建）：
+
+| 原BOM页 | 数量 | 跳过位号 |
+| --- | ---: | --- |
+| /Bus and brake/ | 1 | D1 |
+| /Voltage and NTC/ | 26 | C44～C50、J8、R53～R67、U15～U17 |
+| /ADC and status returns/ | 12 | C73～C75、D205～D207、R88～R90、R205～R207 |
+| /Encoders and SPI/ | 30 | J9～J12、R94～R119 |
+| /SWD UART CAN and status/ | 22 | C82、D4～D7、J13～J15、R120～R121、R123～R129、R131～R134、U31 |
+
+另有3个非板载/机械占位行，当前根图无对应符号，跳过：`HARNESS_MR60_F_待定`、`STANDOFF_M2X11_待定`、`HSINK_TOP_待定`。合计缺失行94=91电气+3非板载，不混为94个已删除电气器件。
+
+为满足“全图不得有0402封装”，另对未实例化、保留在目录中的旧页做**仅Footprint修改**；不改值、字段、连线，不把这些旧符号恢复到顶层/BOM：
+
+| 未实例化文件 | 数量 | 封装改为官方0603的位号 |
+| --- | ---: | --- |
+| `mcu.kicad_sch` | 5 | C63～C67 |
+| `mcu_analog.kicad_sch` | 20 | C69～C77、C79、R84～R93 |
+| `mcu_control.kicad_sch` | 11 | C83～C84、R135～R143 |
+
+共36个旧页符号。当前目录全部 `.kicad_sch` 的实例与嵌入库Footprint字段均无0402；`rg -n '"Footprint" "[^"\n]*0402' inverter/hardware --glob '*.kicad_sch'` 无命中。本文旧历史叙述中的0402文字不代表仍有0402封装。
+
+### F. BRAKE检查（只报告，电路不改）
+
+**结论：底板故障锁存不直接关断制动管Q7，不禁止BRAKE。** 网表路径如下：
+
+```text
+controller PC6/TIM8_CH1 → J102/17 BRAKE
+  → R142（命令串阻） → BRAKE_IN
+  → U29 UCC27517DBVR /3 IN+
+U29/4 IN−固定GND；U29/1供电+12V_DRV、/2接GND
+U29/5 OUT → BR_DRV → R17 15Ω → BR_GATE → Q7/4 G
+R16 10k：BRAKE_IN默认下拉；R18 10k：BR_GATE下拉
+Q7/1/2/3 S接GND；Q7/5/6/7/8 D接BR_SW
+J5/1=VBUS，J5/2=BR_SW（外接制动电阻的功率端）
+```
+
+HEALTH_ALL、NO_LATCH、DRIVE_PERMIT均未进入上述驱动输入；PB12的FAULT_N/BKIN路径封锁的是TIM1桥PWM，底板没有把该信号串入PC6/BRAKE。J5是制动功率接口，BRAKE命令来自J102/17。因此不触发题设“锁存会禁止BRAKE→需雨田决定”的条件，本轮未改制动方案。该结论限底板硬件连线；MCU软件收到FAULT_N后是否主动撤销PC6需由固件核查。若故障本身使+12V_DRV丢失，不能据此声称U29仍可驱动。
+
+### G. 新增与待#5器件
+
+本轮实际新增8个：**U34、U35、R216～R219、C214、C215**。本分支新增、未出现在main BOM的29个当前器件如下；TP18～TP22为PCB铜焊盘，无独立采购物料。
+
+| 位号 | Value / 用途 | MPN | LCSC / 状态 |
+| --- | --- | --- | --- |
+| C210 | 100n | CC0603KRX7R9BB104 | C14663 |
+| C211 | 1n | 待#5 | 待#5 |
+| C213 | 2.2u / 100V X7R | CS1210KKX7R0BB225 | C5578983 |
+| C214 | 100n | CC0603KRX7R9BB104 | C14663 |
+| C215 | 100n | CC0603KRX7R9BB104 | C14663 |
+| D211 | BAT54S,215 | BAT54S,215 | C47546 |
+| D212 | DDZ9699T | DDZ9699T | 待#5 |
+| D213 | SMAT70A-13-F | SMAT70A-13-F | 待#5 |
+| D214 | SMAJ24A | SMAJ24A-TR | 待#5 |
+| Q9 | BSC110N15NS5ATMA1 | BSC110N15NS5ATMA1 | C412739 |
+| R212 | 47 | 待#5 | 待#5 |
+| R213 | 360 | 待#5 | 待#5 |
+| R214 | 100 | 待#5 | 待#5 |
+| R215 | 1k | 待#5 | 待#5 |
+| R216 | 10.2k | TBD | 待#5 |
+| R217 | 23.2k | TBD | 待#5 |
+| R218 | 226k | TBD | 待#5 |
+| R219 | 4.7k | 0603WAF4701T5E | C23162 |
+| RS4 | 5m / 3W / 1% | LR2512D-3W-5mR-1% | C500739 |
+| TH1 | NCP18XH103F03RB | NCP18XH103F03RB | C13564 |
+| TP18 | I_BUS | 待#5（PCB测试焊盘，无独立物料） | PCB铜焊盘，无独立物料 |
+| TP19 | GND | 待#5（PCB测试焊盘，无独立物料） | PCB铜焊盘，无独立物料 |
+| TP20 | VBUS | 待#5（PCB测试焊盘，无独立物料） | PCB铜焊盘，无独立物料 |
+| TP21 | +5V_INV | 待#5（PCB测试焊盘，无独立物料） | PCB铜焊盘，无独立物料 |
+| TP22 | +3V3_INV | 待#5（PCB测试焊盘，无独立物料） | PCB铜焊盘，无独立物料 |
+| U32 | LTC4359IS8#PBF | LTC4359IS8#PBF | 待#5 |
+| U33 | INA241A2IDDFR | INA241A2IDDFR | C5240853 |
+| U34 | TLV1821DBVR | TLV1821DBVR | C7068849 |
+| U35 | SN74LVC1G08DBVR | SN74LVC1G08DBVR | C7666 |
+
+任务要求单列的“本分支新增、仍使用Resistor_SMD/Capacitor_SMD且MPN待定”恰为5个：
+
+| 位号 | 值 / 当前Footprint | 待#5事项 |
+| --- | --- | --- |
+| R212 | 47Ω / Resistor_SMD:R_0603_1608Metric | 保持本分支新增值/封装；具体MPN/采购编号待定 |
+| R213 | 360Ω / Resistor_SMD:R_0603_1608Metric | 同上 |
+| R214 | 100Ω / Resistor_SMD:R_0603_1608Metric | 同上 |
+| R215 | 1k / Resistor_SMD:R_2512_6332Metric | ≥0.5W为既有设计要求；实际MPN、额定电压/功率及降额待#5 |
+| C211 | 1n，DNP / Capacitor_SMD:C_0603_1608Metric | 具体MPN/耐压待#5，保持DNP |
+
+其余本轮门限待选为R216=10.2k、R217=23.2k、R218=226k（0603/1%），以及R42/R47=20k、R43/R46=1.43k（0603/0.1%），均MPN=TBD。连同上表5个，共12个本次相关待选MPN位号（不含无独立物料的测试焊盘）。
+
+上一轮延续：F1 0476008.MRSN、U32 LTC4359IS8#PBF、D212 DDZ9699T、D213 SMAT70A-13-F、D214 SMAJ24A-TR的LCSC仍待#5；C213的60 V偏压有效电容、TH1的替代与NRND状态、R215的额定/降额仍按前文交#5。本轮新建/更新的INA241A2、TLV1821、LR2512D本地符号正式入库待#5；**封装已存在，无“待建库”封装项**。RS4、R71、R219未取到完整原厂料规的项目明确标待核，未推定额定值。
+
+### H. 验证、覆盖导出与改动文件
+
+- 按指定原命令执行 `kicad-cli sch erc --severity-all --format report inverter/hardware/inverter.kicad_sch -o inverter/hardware/review/erc_issue3.rpt`：**0错误、0警告、0违规**，无须逐条解释的未消项。既有4项忽略检查保持，未新增排除/降级或修改.kicad_pro。
+- 从最终原生XML网表验证：**1,443项检查全部通过**；枚举12路健康输入和ENABLE/CTRL_READY/先前锁存状态共**32,768组**，并检查六路PWM输入组合及锁存状态**128组**。覆盖新比较器、门限、极性、原锁存/复位/PWM/FAULT_N、全部64针、Kelvin/电容归属、DNP、BOM字段和禁改文件。连接/字段结果覆盖到 `connectivity_issue3.json`。
+- 对照本轮起点，所有既有器件保留，只有R71的Value改变；所有既有引脚只有U33/3从VBIAS_1V65改GND、U24/6输出改为HEALTH_PREBUS两处网名变化，其余忽略层级前缀后保持。没有改相分流、桥侧电容、ADC接口或BRAKE驱动网络。
+- PDF `inverter.pdf` 共**19页**，已目视检查母线检测/比较器/单与门及锁存页，新增字段和电源标注无重叠。XML格式为**kicadxml**。
+- `bom_issue3.csv` 共**255行器件/Qty=255**，保留9行DNP，表头严格为 **Reference、Value、Footprint、Manufacturer、MPN、Supplier_PN、DNP、Qty**。审阅BOM覆盖导出，未写正式BOM。
+- 静态连线和名义电阻计算不代替全温精度、短路/瞬态和保护关断时间试验，相关实测仍交#7。
+
+本轮改动文件（相对仓库根目录；20张原理图+1个本地符号库+6个审阅文件，共27个）：
+
+- `inverter/hardware/InverterLocal.kicad_sym`
+- `inverter/hardware/base_interlock.kicad_sch`
+- `inverter/hardware/base_leds.kicad_sch`
+- `inverter/hardware/bridge_u.kicad_sch`
+- `inverter/hardware/bridge_v.kicad_sch`
+- `inverter/hardware/bridge_w.kicad_sch`
+- `inverter/hardware/bus_brake.kicad_sch`
+- `inverter/hardware/bus_current.kicad_sch`
+- `inverter/hardware/comparators.kicad_sch`
+- `inverter/hardware/control_interface.kicad_sch`
+- `inverter/hardware/core_signal_protection.kicad_sch`
+- `inverter/hardware/current_sense.kicad_sch`
+- `inverter/hardware/fault_logic.kicad_sch`
+- `inverter/hardware/inverter.kicad_sch`
+- `inverter/hardware/mcu.kicad_sch`
+- `inverter/hardware/mcu_analog.kicad_sch`
+- `inverter/hardware/mcu_control.kicad_sch`
+- `inverter/hardware/mcu_coupling.kicad_sch`
+- `inverter/hardware/review/bom_issue3.csv`
+- `inverter/hardware/review/connectivity_issue3.json`
+- `inverter/hardware/review/erc_issue3.rpt`
+- `inverter/hardware/review/inverter.net.xml`
+- `inverter/hardware/review/inverter.pdf`
+- `inverter/hardware/review/issue3_changes.md`
+- `inverter/hardware/supply_12v.kicad_sch`
+- `inverter/hardware/supply_logic.kicad_sch`
+- `inverter/hardware/voltage_sense.kicad_sch`
