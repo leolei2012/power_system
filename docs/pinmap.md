@@ -20,10 +20,10 @@
 - 叠板机械（雨田 2026-11-12 按 #4 核对建议拍板）：**板距 11.0 mm = 2.50 mm 公针塑高 + 8.5 mm 母座塑高**；四角采用 **M2×11 mm 母-母双通铜柱**。controller 底部支撑 **≥5 mm 且绝缘**，公针尾长 3.0 mm。J102 在两板上同步整体沿 **+X 平移 24.00 mm** 的坐标建议由 #4 落实，pad1 建议坐标 **(152.73, 110.95) mm**；同号焊盘保持同 XY。
 - controller：STM32G431RBT6（LQFP64），只放 MCU 最小系统，3.3 V 由板上 LDO（沿用 TLV76733DRVR）。通讯口在 controller 上。
 - CAN：沿用 SN65HVD232；PA11 FDCAN1_RX AF9，PA12 FDCAN1_TX AF9（经典 CAN）。
-- 串口定为 RS-485（不是 TTL）：MAX3485ESA+T（立创 C18148），不隔离。USART3：PB10 USART3_TX AF7 → DI，PB11 USART3_RX AF7 ← RO。DE 与 /RE 并接，接 PB9（GPIO 推挽输出，软件控制方向），外部下拉电阻使复位/未初始化时 DE=0（只收不发）；阻值由原理图 #2 定。485 端子 4 针：1 A、2 B、3 GND、4 5V；5V 只做输出，经二极管或跳线，防止外部倒灌底板 5 V（具体器件 #2 定）。
+- 串口定为 RS-485（不是 TTL）：MAX3485ESA+T（立创 C18148），不隔离。USART3：PB10 USART3_TX AF7 → DI，PB11 USART3_RX AF7 ← RO。DE 与 /RE 并接，接 PB9（GPIO 推挽输出，软件控制方向），外部下拉电阻使复位/未初始化时 DE=0（只收不发）；阻值由原理图 #2 定。485 端子 4 针：1 A、2 B、3 GND、4 5V；5V 只做输出，经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13）。
 
   选 PB9 的理由：USART3 硬件 DE 脚 PB14（USART3_RTS_DE，AF7）已被 TIM1_CH2N 占用，只能软件控制方向；候选 PB3/PB4/PB9 中，PB4 复位后是 NJTRST，内部上拉（DS12589 表12注5），会让 DE 在复位期间为高、驱动总线；且 PB4 是 UCPD1_CC2，PA10（W 相上桥 PWM）为高时会被激活 5.1 kΩ 下拉（表12注6），需固件置 UCPD1_DBDIS；PB3 复位后为 JTDO/TRACESWO，保留给 SWO；PB9 复位后无调试功能、无内部上下拉，最适合。
-- 编码器：ABZ 一路 PA0 TIM2_CH1 AF1、PA1 TIM2_CH2 AF1、PA2 GPIO EXTI2（Z，只承诺中断，不承诺硬件清零）。SPI 编码器一路：SPI1，PA5 SCK AF5、PA6 MISO AF5、PA7 MOSI AF5，CS=PA15 GPIO 软件片选（外部上拉）。理由：SPI2 引脚与 TIM1 下桥 PB13/14/15 冲突；SPI3 的 PC10/PC11 是 ROM 串口下载口（USART3 PC10_TX/PC11_RX），保留不占；SPI1 是唯一完整无冲突的硬件 SPI；PA15 复位后为 JTDI 带内部上拉（表12注5），复位期间 CS 保持无效高；使用前固件需释放 JTDI（保留 PA13/PA14 SWD）。编码器为 3.3 V 逻辑，端子供电电压待传感器选型。
+- 编码器：ABZ 一路 PA0 TIM2_CH1 AF1、PA1 TIM2_CH2 AF1、PA2 GPIO EXTI2（Z，只承诺中断，不承诺硬件清零）。SPI 编码器一路：SPI1，PA5 SCK AF5、PA6 MISO AF5、PA7 MOSI AF5，CS=PA15 GPIO 软件片选（外部上拉）。理由：SPI2 引脚与 TIM1 下桥 PB13/14/15 冲突；SPI3 的 PC10/PC11 是 ROM 串口下载口（USART3 PC10_TX/PC11_RX），保留不占；SPI1 是唯一完整无冲突的硬件 SPI；PA15 复位后为 JTDI 带内部上拉（表12注5），复位期间 CS 保持无效高；使用前固件需释放 JTDI（保留 PA13/PA14 SWD）。编码器端子供电固定 3.3 V（+3V3_MCU），仅支持 3.3 V 编码器，不提供 5 V 选项（雨田 2026-11-12 定，[PR #13](https://github.com/leolei2012/power_system/pull/13#issuecomment-6811001632)）。
 - 两颗可编程 LED 在 controller 上边缘，改用**侧发光（side-view）LED**：PC5 RUN 绿色，PC8 FAULT 红色（PC8 不选 TIM8_CH3），引脚不变。
 - SWD 在 controller 上边缘：PA13 SWDIO、PA14 SWCLK、NRST、+3V3（VTREF）、GND，采用板边侧插（卧式）座。
 - 下边缘：CAN、485、ABZ、SPI 编码器端子。controller 所有接口一律**板边侧插（卧式），插头在板外**。controller 底面允许 0603 及以上、高度 ≤1 mm 的无源件和 SWD/测试焊盘；不放有源器件、连接器和高于 1 mm 的器件；安装孔周围 φ8 mm 内不放器件。
@@ -213,7 +213,7 @@ CTRL_READY 没有 MCU 物理脚号：controller 上 U103 将 NRST 缓冲成 CORE
 
 5V 规则：子板 5 V 只由底板经 J101/1、3 供；禁止两路 5 V 并联。+3V3_CORE_REF 只给底板钳位/故障上拉参考，不与底板 +3V3_INV 并联。
 
-485 端子第4针的 5V 是输出，必须经二极管或跳线防止外部倒灌底板 5 V；具体方案与器件待原理图 #2 定。该端子不成为子板第二路 5 V 输入。SWD 的 +3V3 是本地 +3V3_MCU 的 VTREF。
+485 端子第4针的 5V 是输出，经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13）。该端子不成为子板第二路 5 V 输入。SWD 的 +3V3 是本地 +3V3_MCU 的 VTREF。
 
 ## 5. controller 本地接口表
 
@@ -224,12 +224,12 @@ CAN、485 和编码器端子位于下边缘；SWD 与两颗可编程 LED 位于�
 | RS-485 | 1 | A，接 MAX3485ESA+T 总线 A | MAX3485ESA+T（立创 C18148），不隔离 |
 | RS-485 | 2 | B，接 MAX3485ESA+T 总线 B | 板边侧插座，型号待 #5 查 |
 | RS-485 | 3 | GND | 共地 |
-| RS-485 | 4 | 5V 输出 | 经二极管或跳线防倒灌；具体器件待原理图 #2 定 |
+| RS-485 | 4 | 5V 输出 | 经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13） |
 | CAN | 1（建议） | CANH，接 SN65HVD232 | 沿用 SN65HVD232，经典 CAN；针序为建议，最终待 #2 定 |
 | CAN | 2 | CANL，接 SN65HVD232 | PA11 FDCAN1_RX AF9、PA12 FDCAN1_TX AF9 |
 | CAN | 3 | GND | 板边侧插座，型号待 #5 查；是否需要另加 5V：待定（#2） |
-| ABZ 编码器 | 针序待 #2 定 | A=PA0 TIM2_CH1 AF1；B=PA1 TIM2_CH2 AF1；Z=PA2 EXTI2；另含供电、GND | 3.3 V 逻辑；板边侧插座型号待 #5 查；端子供电电压待传感器选型，保护待原理图 #2 定 |
-| SPI 编码器 | 针序待 #2 定 | SCK=PA5 AF5；MISO=PA6 AF5；MOSI=PA7 AF5；CS=PA15 GPIO；另含供电、GND | SPI1，3.3 V 逻辑；CS 外部上拉；板边侧插座型号待 #5 查；端子供电电压待传感器选型，保护待原理图 #2 定 |
+| ABZ 编码器 | 针序待 #2 定 | A=PA0 TIM2_CH1 AF1；B=PA1 TIM2_CH2 AF1；Z=PA2 EXTI2；另含供电、GND | 板边侧插座型号待 #5 查；编码器端子供电固定 3.3 V（+3V3_MCU），仅支持 3.3 V 编码器，不提供 5 V 选项（雨田 2026-11-12 定，[PR #13](https://github.com/leolei2012/power_system/pull/13#issuecomment-6811001632)）；保护待原理图 #2 定 |
+| SPI 编码器 | 针序待 #2 定 | SCK=PA5 AF5；MISO=PA6 AF5；MOSI=PA7 AF5；CS=PA15 GPIO；另含供电、GND | SPI1，CS 外部上拉；板边侧插座型号待 #5 查；编码器端子供电固定 3.3 V（+3V3_MCU），仅支持 3.3 V 编码器，不提供 5 V 选项（雨田 2026-11-12 定，[PR #13](https://github.com/leolei2012/power_system/pull/13#issuecomment-6811001632)）；保护待原理图 #2 定 |
 | SWD | 针序待 #2 定 | PA13 SWDIO、PA14 SWCLK、NRST、+3V3（VTREF）、GND | VTREF 接 +3V3_MCU；板边侧插座型号待 #5 查 |
 | RUN LED | 不适用 | PC5 GPIO 输出，绿色 | controller 上边缘侧发光 LED；型号待 #5 查，驱动极性及电阻待原理图 #2 定 |
 | FAULT LED | 不适用 | PC8 GPIO 输出，红色 | controller 上边缘侧发光 LED；不选 TIM8_CH3；型号待 #5 查，驱动极性及电阻待原理图 #2 定 |
@@ -332,9 +332,9 @@ MCU 侧 I_BUS 进入 PA3 前同样加本地 RC。该 RC 同时增加 COMP 路径
 
 - [ ] J101/J102 按第4节新表逐针重连，只引出 23 个非 GND 触点（含重复电源与参考），其余 41 脚接 GND；J101 左、J102 右，物理移动在布局 Issue #4 落实。
 - [ ] 沿用 STM32G431RBT6 最小系统与 TLV76733DRVR 本地 3.3 V，5 V 仅从 J101/1、3 进入；+3V3_MCU 经 J101/22、32 作为底板参考输出。
-- [ ] 增加 MAX3485ESA+T（立创 C18148）、PB9 的 DE 与 /RE 并接及外部下拉、4 针 485 端子；按固定针序接 A/B/GND/5V，增加 5V 输出防倒灌路径。下拉阻值、防倒灌方案及器件待原理图 #2 定。
+- [ ] 增加 MAX3485ESA+T（立创 C18148）、PB9 的 DE 与 /RE 并接及外部下拉、4 针 485 端子；按固定针序接 A/B/GND/5V，第 4 针经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13）。下拉阻值待原理图 #2 定。
 - [ ] CAN 收发器从底板搬到 controller，沿用 SN65HVD232 与 PA11/PA12；端子建议 1 CANH、2 CANL、3 GND（针序及是否另加 5V 待 #2 定）。
-- [ ] 增加一路 ABZ 和一路 SPI1 编码器端子及保护；CS=PA15，外部上拉；侧插座型号待 #5 查，针序及供电电压待原理图 #2 结合传感器选型定，逻辑保持 3.3 V。
+- [ ] 增加一路 ABZ 和一路 SPI1 编码器端子及保护；CS=PA15，外部上拉；侧插座型号待 #5 查，针序待原理图 #2 定；编码器端子供电固定 3.3 V（+3V3_MCU），仅支持 3.3 V 编码器，不提供 5 V 选项（雨田 2026-11-12 定，[PR #13](https://github.com/leolei2012/power_system/pull/13#issuecomment-6811001632)）。
 - [ ] 上边缘 RUN/FAULT 换侧发光 LED：PC5 RUN 绿色、PC8 FAULT 红色，引脚不变；删除 COMM/AUX 连接；LED 型号待 #5 查。
 - [ ] 上边缘增加本地 SWD 座，连接 PA13、PA14、NRST、+3V3_MCU（VTREF）、GND；针序待原理图 #2 定，侧插座型号待 #5 查。
 - [ ] SWD、485、CAN、ABZ、SPI 全部采用板边侧插（卧式）座，插头在板外；型号待 #5 查。
@@ -404,10 +404,10 @@ MCU 侧 I_BUS 进入 PA3 前同样加本地 RC。该 RC 同时增加 COMP 路径
 | 事项 | 当前约束 | 状态/归属 |
 | --- | --- | --- |
 | PB9 DE 外部下拉阻值 | 复位/未初始化时 DE=0，只收不发 | 待原理图 #2 定 |
-| 485 端子 5V 防倒灌方案 | 5V 只输出；二极管还是跳线及具体器件待定 | 待原理图 #2 定 |
-| 端子型号与未定针序 | 485 的 1 A/2 B/3 GND/4 5V 已定；CAN 建议 1 CANH/2 CANL/3 GND；ABZ、SPI 编码器、SWD 针序待 #2 定 | 侧插座型号待 #5 查，未定针序待原理图 #2 定；CAN 是否另需 5V 待定 |
+| 485 端子 5V 防倒灌方案 | 5V 只输出；经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13） | 雨田 2026-11-12 定，PR #13 |
+| 端子型号与未定针序 | 485 的 1 A/2 B/3 GND/4 5V 已定，第 4 针经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13）；CAN 建议 1 CANH/2 CANL/3 GND；ABZ、SPI 编码器、SWD 针序待 #2 定 | 侧插座型号待 #5 查，未定针序待原理图 #2 定；CAN 是否另需 5V 待定 |
 | 各接口侧插座、RESET 侧按开关、侧发光 LED 型号 | 所有接口板边侧插、插头在板外；RESET 侧按，RUN/FAULT 上边缘侧发光 | 型号/料号待定，待料号在立创查（#5） |
-| ABZ/SPI 端子供电电压 | 逻辑固定为 3.3 V；端子供电电压待传感器选型 | 待原理图 #2 结合传感器选型定 |
+| ABZ/SPI 端子供电电压 | 编码器端子供电固定 3.3 V（+3V3_MCU），仅支持 3.3 V 编码器，不提供 5 V 选项 | 雨田 2026-11-12 定，[PR #13](https://github.com/leolei2012/power_system/pull/13#issuecomment-6811001632) |
 | ADC 输入 RC | 位于 MCU 侧，固件按 RC 留采样时间；R/C 值待定 | 待原理图 #2 定 |
 | I_BUS RC 取值 | PA3 前本地 RC 同时影响 ADC 采样与 COMP2 过流延迟，时间常数兼顾两者 | 待 #2 定 |
 | ABZ/SPI 保护、LED 驱动及 HSE 参数 | 保护器件、LED 极性/电阻、可选 HSE 频率与负载参数待定；侧发光 LED 型号待 #5 查 | 待原理图 #2 定，LED 型号交 #5 |
