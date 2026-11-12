@@ -621,3 +621,55 @@ HEALTH_ALL、NO_LATCH、DRIVE_PERMIT均未进入上述驱动输入；PB12的FAUL
 - `inverter/hardware/supply_12v.kicad_sch`
 - `inverter/hardware/supply_logic.kicad_sch`
 - `inverter/hardware/voltage_sense.kicad_sch`
+
+## 收尾（rebase 到 main 19bb13e 后）
+
+### 基线
+
+分支 `hw/inverter-sch-issue3` 已 rebase 到 `origin/main 19bb13e`，包含 PR #12 BOM、PR #13 controller 和 PR #14 母线保护器件；共享库子模块 `lib/kicad_library` 为 `1dd8f79`。前文的 `b14dfcd` 和“未 commit”为历史记录；下表已补齐位号的旧采购占位以本节及当前原理图为准，旧内容保留。
+
+### PR #14 BOM 占位行与原理图位号对应
+
+| PR #14 BOM 占位行 | 当前原理图位号 / 阻值 |
+| --- | --- |
+| RS_BUS_待原理图 | RS4 |
+| U_BUSAMP_待原理图 | U33 |
+| U_BUSCMP_待原理图 | U34 |
+| R_BUSTH1_待原理图（8.06k） | R216 = 10.2k |
+| R_BUSTH2_待原理图（165k） | R217 = 23.2k |
+| R_BUSHYS_待原理图（243k） | R218 = 226k |
+| R_BUSPU_待原理图 | R219 |
+| C_BUSAMP_待原理图 | C210 |
+| C_BUSCMP_待原理图 | C214 |
+
+PR #14 的示例阻值按旧 **3.15 V** 门限计算，本图按 **2.325 V** 目标重算（见前文 C 节）。正式 `inverter/hardware/bom/bom.csv` 由 #5 更新，**本 PR 不改正式 BOM**。
+
+### 本轮补齐的立创料号（2026-11-12 查询）
+
+以下按焊台已在立创核对的结果补齐符号实例的 `Manufacturer`、`MPN`、`Supplier=LCSC`、`Supplier_PN`、已有的 `LCSC` 及 `Purchase_URL`；Value、Footprint、Tolerance 和 DNP 状态保持。
+
+| 位号 / 值 | Manufacturer | MPN | LCSC | Purchase_URL |
+| --- | --- | --- | --- | --- |
+| R216 / 10.2k 1% | UNI-ROYAL | 0603WAF1022T5E | C22772 | https://www.lcsc.com/product-detail/C22772.html |
+| R217 / 23.2k 1% | UNI-ROYAL | 0603WAF2322T5E | C23346 | https://www.lcsc.com/product-detail/C23346.html |
+| R218 / 226k 1% | UNI-ROYAL | 0603WAF2263T5E | C33619 | https://www.lcsc.com/product-detail/C33619.html |
+| R42、R47 / 20k 0.1% | YAGEO | RT0603BRD0720KL | C723637 | https://www.lcsc.com/product-detail/C723637.html |
+| R43、R46 / 1.43k 0.1% | YAGEO | RT0603BRD071K43L | C861200 | https://www.lcsc.com/product-detail/C861200.html |
+| R212 / 47Ω | UNI-ROYAL | 0603WAF470JT5E | C23182 | https://www.lcsc.com/product-detail/C23182.html |
+| R213 / 360Ω | UNI-ROYAL | 0603WAF3600T5E | C25194 | https://www.lcsc.com/product-detail/C25194.html |
+| R214 / 100Ω | UNI-ROYAL | 0603WAF1000T5E | C22775 | https://www.lcsc.com/product-detail/C22775.html |
+| R215 / 1k 2512 | UNI-ROYAL | 25121WF1001T4E | C54315 | https://www.lcsc.com/product-detail/C54315.html |
+| C211 / 1n（保持 DNP） | FH | 0603B102K500NT | C44369 | https://www.lcsc.com/product-detail/C44369.html |
+| U32 | ADI | LTC4359IS8#PBF | C3234107 | https://www.lcsc.com/product-detail/C3234107.html |
+| D212 | DIODES | DDZ9699T-7 | C460861 | https://www.lcsc.com/product-detail/C460861.html |
+| D213 | DIODES | SMAT70A-13-F | C135026 | https://www.lcsc.com/product-detail/C135026.html |
+| D214 | ST | SMAJ24A-TR | C132947 | https://www.lcsc.com/product-detail/C132947.html |
+| F1 | Littelfuse | 0476008.MRSN | C3164468 | https://www.lcsc.com/product-detail/C3164468.html |
+
+R218 **C33619**、F1 **C3164468** 在查询时立创页面显示库存可能为 0，需 #5 下单前复核或换同值替代。D212 的原 MPN `DDZ9699T` 补全为卷带料号 `DDZ9699T-7`，符号 Value 保持 `DDZ9699T`。
+
+### 需雨田确认的策略：BRAKE
+
+故障锁存（含 **U21 的 65 V 过压 → BUS_OV_OK**）不进入 `BRAKE_IN` / U29 路径，硬件不封制动。`FAULT_N → PB12` 是 **TIM1_BKIN**，而 BRAKE 是 **PC6/TIM8_CH1**；TIM1 的 break 不会自动停止 TIM8。
+
+固件收到故障后如何处理 PC6，需在固件中确定；**过压时应允许制动**。此项列为“需雨田确认的策略”，不作为电路问题。
