@@ -22,6 +22,8 @@
 - CAN：沿用 SN65HVD232；PA11 FDCAN1_RX AF9，PA12 FDCAN1_TX AF9（经典 CAN）。
 - 串口定为 RS-485（不是 TTL）：MAX3485ESA+T（立创 C18148），不隔离。USART3：PB10 USART3_TX AF7 → DI，PB11 USART3_RX AF7 ← RO。DE 与 /RE 并接，接 PB9（GPIO 推挽输出，软件控制方向），外部下拉电阻使复位/未初始化时 DE=0（只收不发）；阻值由原理图 #2 定。485 端子 4 针：1 A、2 B、3 GND、4 5V；5V 只做输出，经 TPS2553 限流约 0.5 A + D201 防倒灌（PR #13）。
 
+  R228/R229 默认 DNP，偏置由主站负责，仅本板作主站、由本板承担偏置且已审批足够方案时才贴；双 120 Ω 下 680 Ω 上下拉仅 139.44 mV，低于 MAX3485 ±200 mV 门限，DNP 只避免多点偏置，不解决该电气不足。
+
   选 PB9 的理由：USART3 硬件 DE 脚 PB14（USART3_RTS_DE，AF7）已被 TIM1_CH2N 占用，只能软件控制方向；候选 PB3/PB4/PB9 中，PB4 复位后是 NJTRST，内部上拉（DS12589 表12注5），会让 DE 在复位期间为高、驱动总线；且 PB4 是 UCPD1_CC2，PA10（W 相上桥 PWM）为高时会被激活 5.1 kΩ 下拉（表12注6），需固件置 UCPD1_DBDIS；PB3 复位后为 JTDO/TRACESWO，保留给 SWO；PB9 复位后无调试功能、无内部上下拉，最适合。
 - 编码器：ABZ 一路 PA0 TIM2_CH1 AF1、PA1 TIM2_CH2 AF1、PA2 GPIO EXTI2（Z，只承诺中断，不承诺硬件清零）。SPI 编码器一路：SPI1，PA5 SCK AF5、PA6 MISO AF5、PA7 MOSI AF5，CS=PA15 GPIO 软件片选（外部上拉）。理由：SPI2 引脚与 TIM1 下桥 PB13/14/15 冲突；SPI3 的 PC10/PC11 是 ROM 串口下载口（USART3 PC10_TX/PC11_RX），保留不占；SPI1 是唯一完整无冲突的硬件 SPI；PA15 复位后为 JTDI 带内部上拉（表12注5），复位期间 CS 保持无效高；使用前固件需释放 JTDI（保留 PA13/PA14 SWD）。编码器端子供电固定 3.3 V（+3V3_MCU），仅支持 3.3 V 编码器，不提供 5 V 选项（雨田 2026-11-12 定，[PR #13](https://github.com/leolei2012/power_system/pull/13#issuecomment-6811001632)）。
 - 两颗可编程 LED 在 controller 上边缘，改用**侧发光（side-view）LED**：PC5 RUN 绿色，PC8 FAULT 红色（PC8 不选 TIM8_CH3），引脚不变。
