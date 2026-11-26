@@ -4,7 +4,7 @@ Run from any directory after native KiCad ERC/netlist/BOM/PDF export.
 PCB API reads, when needed, use /usr/local/bin/kicad-python.
 """
 from pathlib import Path
-import argparse, collections, csv, difflib, hashlib, json, math, os, re, subprocess, sys
+import argparse, collections, copy, csv, difflib, hashlib, json, math, os, re, subprocess, sys
 import xml.etree.ElementTree as ET
 
 BASE = Path(__file__).resolve().parents[1]
@@ -12,6 +12,8 @@ REPO = BASE.parents[2]
 REVIEW = BASE / 'review'
 # Fix the comparison baseline so this remains reproducible after the user commits.
 BASELINE_REF = 'bb80a6c921c76b0064af353aefdfa5cc3e5e7714'
+# PR #15 M1 starts from the accepted third-round design, on the fixes branch.
+M1_BASELINE_REF = '54c28460baaf011a00254aa97edbb213a8b3e167'
 class Atom(str): pass
 
 def parse(text):
@@ -35,9 +37,9 @@ def children(node, name): return [x for x in node if tagged(x, name)]
 def child(node, name): return next((x for x in node if tagged(x, name)), None)
 def properties(node): return {x[1]: x[2] for x in children(node, 'property')}
 def read(path): return parse(Path(path).read_text())
-def head(path):
+def head(path, revision=BASELINE_REF):
     rel = str(Path(path).relative_to(REPO))
-    return subprocess.check_output(['git', 'show', BASELINE_REF + ':' + rel], cwd=REPO, text=True)
+    return subprocess.check_output(['git', 'show', revision + ':' + rel], cwd=REPO, text=True)
 def relative(path): return str(Path(path).relative_to(REPO))
 def norm(net): return net.rsplit('/', 1)[-1]
 def component_pins(lib): return [p for s in children(lib, 'symbol') for p in children(s, 'pin')]
@@ -50,9 +52,50 @@ def topology(path):
         for x in n.findall('node'): nodes[x.get('ref'), x.get('pin')] = (n.get('name'), dict(x.attrib))
     return root, comps, nodes, nets
 
+def m1_calculations():
+    """Specified engineering model, not a full-temperature device guarantee."""
+    points = []
+    for voltage in [4.75, 5.0, 5.25]:
+        for ma in [100, 275, 325]:
+            current = ma / 1000
+            resistor_drop = .47 * (current + .0024)
+            required = 3.333 + 1.4 * current
+            old_input = voltage - resistor_drop - 1.1
+            new_input = voltage - resistor_drop - .42
+            points.append(dict(zip(
+                ['入口V', '负载mA', 'R301压降V', '旧LDO入口V', '新LDO入口V', '需求V', '旧余量V', '新余量V'],
+                [voltage, ma] + [round(x, 6) for x in [resistor_drop, old_input, new_input, required, old_input-required, new_input-required]])))
+    power = (5.25 - .47 * (.325 + .0024) - .2 - 3.3) * .325
+    old_upper = (5.25 - 3.3) * .325
+    leakage = []
+    vdd, pullup = 3.46, 70000
+    for amps in [60e-6, .001]:
+        mr = (amps + vdd/pullup) / (1/1100 + 1/pullup)
+        leakage.append({'漏电A': amps, 'CORE_5V_TVS_V': round(mr+amps*1000, 6), 'MR_V': round(mr, 6)})
+    return {
+        '适用性': 'R301标称0.47Ω、MR近似2.4mA；DRV按1.4Ω折算；旧VF=1.1V，新VF=0.32+0.10V；冷态加量和小电流折算非独立全温保证',
+        '九点核算': points,
+        '热估算': {'PMEG最小VF工程假设V': .2, 'LDO损耗W': round(power, 8), '原忽略压降上界W': round(old_upper, 8),
+                   'DRV_thetaJA_C_per_W': 77.7, '温升C': round(power*77.7, 6), '原上界温升C': round(old_upper*77.7, 6),
+                   '限制': '0.2V不是保证最小值，保留0.634W保守负载损耗上界；未展开地电流附加损耗，需叠板热验收'},
+        '漏电模型': {'VDD_V': vdd, 'MR上拉最小ohm': pullup, '定电流示例': leakage,
+                   '越过保证低门限的漏电mA': round((.3*vdd*(1/1100+1/pullup)-vdd/pullup)*1000, 6),
+                   '85C_Fig5典型量级': 'VR约3–5V时20–30mA；不是最大值，表7与Fig5室温典型点不一致，不能按固定电流外推节点电压',
+                   '结论': '高阻掉电回供时MR可能处于未定义区，不能排除误判5V存在；≤50mA短时异常，需实测'},
+        '典型工况估算': {'MCU_mA': [40,55], 'RS485发送占空比': [.1,.3], 'CAN显性占空比': [.1,.4],
+                      '不含编码器mA': [65,110], '限制': '25C条件化示例，非实测/保证值；不改变275/325mA设计上限'},
+    }
+
+def m1_table(points):
+    lines = ['| 入口 V | 负载 mA | 旧S1A LDO入口 | 新PMEG LDO入口 | LDO需求 | 旧余量 | 新余量 |',
+             '| ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
+    for p in points:
+        lines.append(f"| {p['入口V']:.2f} | {p['负载mA']} | {p['旧LDO入口V']:.3f} | {p['新LDO入口V']:.3f} | {p['需求V']:.3f} | {p['旧余量V']:+.3f} | {p['新余量V']:+.3f} |")
+    return '\n'.join(lines)
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('-o', '--output', type=Path, required=True, help='Write the A–I Markdown result here')
+    ap.add_argument('-o', '--output', type=Path, required=True, help='Write the PR #15 M1 calculation/check summary here (retains A–I checks)')
     ap.add_argument('--json-output', type=Path, default=REVIEW / 'validation_issue2.json')
     args = ap.parse_args()
     checks = []
@@ -163,6 +206,44 @@ def main():
     equal('D201与D103统一封装', fields['D201']['Footprint'], fields['D103']['Footprint'])
     equal('D201回流焊封装', fields['D201']['Footprint'], 'MyFootprints:Nexperia_CFP3_SOD123W_Reflow')
 
+    # M1 is a part substitution with the original anode/cathode connectivity.
+    link('D102', 1, 'CORE_LDO_IN'); link('D102', 2, 'CORE_5V_TVS')
+    equal('M1 D102共享符号', child(symbols['D102'], 'lib_id')[1], 'MyParts:PMEG2010ER_115')
+    equal('M1 D102物理极性', {child(p,'number')[1]:child(p,'name')[1] for p in component_pins(libs['D102'])}, {'1':'K','2':'A'})
+    for key in ['Value','MPN','Manufacturer','Footprint','Datasheet','Purchase_URL','Supplier','Supplier_PN','Datasheet_Revision']:
+        equal('M1 D102与D103字段一致 '+key, fields['D102'][key], fields['D103'][key])
+    equal('M1 D102显式LCSC', fields['D102']['LCSC'], 'C82288')
+    equal('M1 D102/D201同封装', fields['D102']['Footprint'], fields['D201']['Footprint'])
+    equal('M1 D102 PMEG缓存与D103一致', libs['D102'], libs['D103'])
+    m1_baseline_xml = ET.fromstring(head(REVIEW/'controller.net.xml', M1_BASELINE_REF))
+    m1_baseline_nodes = {(x.get('ref'),x.get('pin')): norm(n.get('name')) for n in m1_baseline_xml.findall('./nets/net') for x in n.findall('node')}
+    current_nodes = {key: norm(value[0]) for key,value in nodes.items()}
+    check('M1全部物理pin-node网络不变', current_nodes == m1_baseline_nodes,
+          {'固定基线':M1_BASELINE_REF,'原节点数':len(m1_baseline_nodes),'当前节点数':len(current_nodes),
+           '变化':[f'{r}/{p}' for r,p in sorted(set(current_nodes)|set(m1_baseline_nodes)) if current_nodes.get((r,p))!=m1_baseline_nodes.get((r,p))]})
+    expected_supply = parse(head(BASE/'core_supply.kicad_sch', M1_BASELINE_REF))
+    expected_instances = {properties(s).get('Reference'):s for s in children(expected_supply,'symbol')}
+    expected_d102 = expected_instances['D102']
+    child(expected_d102,'lib_id')[1] = 'MyParts:PMEG2010ER_115'
+    source_fields = properties(expected_instances['D103'])
+    for prop in children(expected_d102,'property'):
+        if prop[1]!='Reference' and prop[1] in source_fields: prop[2]=source_fields[prop[1]]
+    expected_lcsc = copy.deepcopy(next(p for p in children(expected_d102,'property') if p[1]=='Supplier_PN'))
+    expected_lcsc[1]='LCSC'
+    expected_d102.append(expected_lcsc)
+    m1_notes = {
+        '7dd45490-29a7-524e-858b-1969f939b3d0': ('D102 prevents output/injection current returning to the 5 V header.', 'D102 PMEG2010ER: reverse blocking with Schottky leakage (see M1).'),
+        '046f474e-77de-500c-80c7-af945ac0f1cb': ('MR分压要求5V存在，即使ADC钳位给3.3V回供；SW2/C81及NRST监控保持。', 'MR检测D102前端；高温漏电回供可能进入未定义区，断电复位须实测。'),
+    }
+    for note in children(expected_supply,'text'):
+        key=child(note,'uuid')[1]
+        if key in m1_notes: note[1]=note[1].replace(*m1_notes[key])
+    check('M1供电页仅精确换D102及两条漏电图注', pages[(BASE/'core_supply.kicad_sch').resolve()]==expected_supply,
+          {'允许':'D102字段/符号及两条指定图注；坐标、UUID、引脚、导线和其余器件逐项保持'})
+    for path, page in pages.items():
+        if path.name!='core_supply.kicad_sch':
+            check('M1其他活动页原文保持 '+path.name, path.read_text()==head(path,M1_BASELINE_REF))
+
     # Recompute every original netlist pin expectation from the repository baseline.
     baseline_net = ET.fromstring(head(REVIEW / 'controller.net.xml'))
     baseline_nodes = {(x.get('ref'),x.get('pin')): n.get('name') for n in baseline_net.findall('./nets/net') for x in n.findall('node')}
@@ -173,7 +254,7 @@ def main():
         elif ref in ['J203','J204'] and pin=='1': expected='+3V3_MCU'
         elif ref in ['D204','D205'] and pin in ['1','2']: expected=norm(baseline_nodes[(ref, '2' if pin=='1' else '1')])
         equal(f'保留/授权变更基线连接 {ref}/{pin}', net(ref,pin), expected)
-    selected = ['U203','R227','C211','C212','SW2','D202','D203','D204','D205','R225','R226','R228','R229']
+    selected = ['D102','U203','R227','C211','C212','SW2','D202','D203','D204','D205','R225','R226','R228','R229']
     empty, small = [], []
     fp_files = {}
     for ref, data in fields.items():
@@ -250,7 +331,7 @@ print(json.dumps({'texts':[(x.GetText(),('F.SilkS' if x.GetLayer()==pcbnew.F_Sil
     rb=json.loads(subprocess.check_output(['/usr/local/bin/kicad-python','-c',code],text=True))
     equal('kicad-python PCB读回',rb['texts'],[['3.3V ENCODER ONLY','F.SilkS',130.,158.]])
     equal('旧PCB无J203/J204/JP203',rb['refs'],[])
-    equal('当前分支',subprocess.check_output(['git','branch','--show-current'],cwd=REPO,text=True).strip(),'hw/controller-sch-issue2')
+    equal('当前分支',subprocess.check_output(['git','branch','--show-current'],cwd=REPO,text=True).strip(),'hw/controller-fixes-issue2')
     env=os.environ|{'GIT_OPTIONAL_LOCKS':'0'}
     protected=['docs/design_decisions.md','docs/test_spec.md','fw','firmware','inverter','lib',relative(BASE/'bom/bom.csv'),relative(BASE/'review/bom.csv'),relative(BASE/'controller.kicad_pro')]
     status=subprocess.check_output(['git','status','--porcelain','--untracked-files=all','--']+protected,cwd=REPO,env=env,text=True)
@@ -283,7 +364,43 @@ print(json.dumps({'texts':[(x.GetText(),('F.SilkS' if x.GetLayer()==pcbnew.F_Sil
     equal('485单终端Vdiff计算V',round(3.3*120/(680+680+120),5),.26757)
     equal('485双终端Vdiff计算V（修正任务算术）',round(3.3*60/(680+680+60),5),.13944)
     check('485双终端低于200mV',3.3*60/(680+680+60)<.2)
-    changed_paths=subprocess.check_output(['git','status','--short','--untracked-files=all'],cwd=REPO,env=env,text=True)
+    m1 = m1_calculations()
+    tight = next(p for p in m1['九点核算'] if p['入口V']==4.75 and p['负载mA']==325)
+    old_275 = next(p for p in m1['九点核算'] if p['入口V']==4.75 and p['负载mA']==275)
+    old_500 = next(p for p in m1['九点核算'] if p['入口V']==5.0 and p['负载mA']==325)
+    equal('M1最紧点新余量V', tight['新余量V'], .388122)
+    equal('M1旧4.75V/275mA余量V', old_275['旧余量V'], -.198378)
+    equal('M1旧4.75V/325mA余量V', tight['旧余量V'], -.291878)
+    equal('M1旧5.0V/325mA余量V', old_500['旧余量V'], -.041878)
+    check('M1九个新方案余量均为正', all(p['新余量V']>0 for p in m1['九点核算']))
+    equal('M1热估算损耗W', m1['热估算']['LDO损耗W'], .51873965)
+    equal('M1旧忽略压降热上界W', m1['热估算']['原忽略压降上界W'], .63375)
+    equal('M1室温典型S1A与典型LDO余量V', round(4.75-.47*(.325+.0024)-.8-(3.333+.9*.325),6), .170622)
+    check('M1 1mA漏电示例MR超过保证低', m1['漏电模型']['定电流示例'][1]['MR_V']>.3*3.46)
+    issue_doc=(REVIEW/'issue2_changes.md').read_text()
+    doc_table=section(issue_doc,'### 入口/负载九点对比','### 反向漏电、MR与断电回供的代价')
+    doc_points=[]
+    for line in doc_table.splitlines():
+        if re.match(r'^\| (4\.75|5\.00|5\.25) \|',line):
+            doc_points.append([float(x.strip().replace('*','').replace('−','-')) for x in line.strip('|').split('|')])
+    equal('M1文档九点表与重算一致', doc_points,
+          [[p['入口V'],p['负载mA']]+[round(p[k],3) for k in ['旧LDO入口V','新LDO入口V','需求V','旧余量V','新余量V']] for p in m1['九点核算']])
+    protected_hashes={}
+    for name in ['docs/design_decisions.md','docs/test_spec.md',relative(BASE/'bom/bom.csv'),relative(REVIEW/'bom.csv')]:
+        actual=hashlib.sha256((REPO/name).read_bytes()).hexdigest()
+        original=hashlib.sha256(subprocess.check_output(['git','show',M1_BASELINE_REF+':'+name],cwd=REPO)).hexdigest()
+        protected_hashes[name]={'sha256':actual,'基线sha256':original}
+        equal('M1受保护文件哈希 '+name,actual,original)
+    changed_tracked=subprocess.check_output(['git','diff','--name-only',M1_BASELINE_REF],cwd=REPO,env=env,text=True).splitlines()
+    untracked=subprocess.check_output(['git','ls-files','--others','--exclude-standard'],cwd=REPO,env=env,text=True).splitlines()
+    allowed_m1={
+        relative(BASE/'core_supply.kicad_sch'),relative(BASE/'core_supply_design.md'),'docs/controller_daughterboard.md',
+        *[relative(REVIEW/name) for name in ['validate_pr13.py','issue2_changes.md','controller.net.xml','bom_issue2.csv','controller.pdf','erc_issue2.rpt','validation_issue2.json','pr15_m1_result.md']],
+    }
+    for output_path in [args.output,args.json_output]:
+        if output_path.resolve().is_relative_to(REPO): allowed_m1.add(relative(output_path.resolve()))
+    unexpected=sorted((set(changed_tracked)|set(untracked))-allowed_m1)
+    check('M1修改范围仅限授权原理图/文档/审查产物',not unexpected,{'范围外':unexpected})
     # Store compact evidence for structural checks rather than duplicating the entire PCB in JSON.
     for c in checks:
         if c['项目']=='PCB文字之外所有结构保持':c['详情']={'比较':'当前板删除唯一新增gr_text后，与固定基线提交的完整S表达式逐项比较','相同':c['通过']}
@@ -295,31 +412,49 @@ print(json.dumps({'texts':[(x.GetText(),('F.SilkS' if x.GetLayer()==pcbnew.F_Sil
             t=p.read_text();m=re.search(r'ERC messages:\s*\d+\s+Errors\s+\d+\s+Warnings\s+\d+',t)
             stages[stage]={'摘要':m.group(0) if m else 'missing','sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
     failed=[c for c in checks if not c['通过']]
-    out={'结论':'通过' if not failed else '未通过','KiCad版本':subprocess.check_output(['kicad-cli','--version'],text=True).strip(),'引脚依据':'docs/pinmap.md','页数':len(pages),'元件位号数':len(comps),'新增位号数':6,'新增位号':['U203','R227','C211','C212','R228','R229'],'移除位号':['JP203'],'更换开关':['SW2'],'待选封装':empty,'核对项数':len(checks),'核对':checks,'基线提交':BASELINE_REF,'核对范围':'PR #13 第三轮；MCU64脚、排针64针、全部基线引脚和第三轮电路重新检查','封装扫描':{'活动页':[relative(p) for p in pages],'小于0603':small,'空封装':empty},'分项ERC':stages,'电流预算':{'适用性':'工程静态预算上限；非全部工况厂家保证值，条件见issue2_changes.md第三轮','逐项合计mA':round(upper,3),'不含编码器上限mA':275,'外接编码器预算mA':50,'含编码器上限mA':325},'待定事项':['C212与C301同规格，确切MPN/LCSC/DC bias待#5','LED中央焊盘电气属性原厂图未说明，外部NC；待共享库建料时补充','275mA为有条件设计预算，ST外设表征值不构成全工况保证最大值；#4/#7验证热与实际负载'],'本轮修改文件':changed_paths.splitlines()}
+    pending=[
+        'D102 S1A-13-F/C150735→PMEG2010ER,115/C82288：bom/bom.csv待料号同步，本PR不改；review/bom.csv同样保持',
+        '最低入口/低温/动态压差及0.634W保守上界下的叠板温升待样机验证',
+        '高温高阻掉电、≤50mA短时回供可能使MR处于未定义区，不能排除误判5V存在；需测MR/NRST/CTRL_READY',
+        'PMEG表7与Fig.5室温漏电典型数据不一致，需原厂澄清；85C图示仅作量级，非保证最大值',
+        'C212与C301确切MPN/LCSC/DC bias、LED中央焊盘属性及既有本地临时器件入库交接保持原待办',
+        '65–110mA仅为不含编码器的条件化典型工况估算；不改275/325mA设计上限，降预算须雨田决定',
+    ]
+    pin_counts={}
+    for ref,count in [('U30',64),('J101',32),('J102',32)]:
+        pin_counts[ref]={'通过':sum(all(c['通过'] for c in checks if c['项目'].startswith(f'{ref}/{p} ')) for p in range(1,count+1)),'总数':count}
+    out={'结论':'通过' if not failed else '未通过','KiCad版本':subprocess.check_output(['kicad-cli','--version'],text=True).strip(),'引脚依据':'docs/pinmap.md','页数':len(pages),'元件位号数':len(comps),'第三轮新增位号数':6,'第三轮新增位号':['U203','R227','C211','C212','R228','R229'],'第三轮移除位号':['JP203'],'第三轮更换开关':['SW2'],'M1更换器件':['D102'],'待选封装':empty,'核对项数':len(checks),'核对':checks,'基线提交':BASELINE_REF,'M1基线提交':M1_BASELINE_REF,'核对范围':'PR #15 M1；保留PR #13第三轮全部检查，MCU64脚、排针64针、全部物理节点及D102精确变更重新检查','逐脚统计':pin_counts,'封装扫描':{'活动页':[relative(p) for p in pages],'小于0603':small,'空封装':empty},'历史分项ERC':stages,'ERC':{'命令':'kicad-cli sch erc --severity-all --format report --exit-code-violations -o review/erc_issue2.rpt controller.kicad_sch','摘要':match.group(0) if match else '未解析','sha256':hashlib.sha256((REVIEW/'erc_issue2.rpt').read_bytes()).hexdigest()},'电流预算':{'适用性':'工程静态预算上限；非全部工况厂家保证值，条件见issue2_changes.md第三轮','逐项合计mA':round(upper,3),'不含编码器上限mA':275,'外接编码器预算mA':50,'含编码器上限mA':325},'M1核算':m1,'受保护文件哈希':protected_hashes,'待定事项':pending,'本轮修改文件':[]}
     args.json_output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
-    summary=f'''# PR #13 第三轮执行结果
+    # Materialize both output files before taking the final status inventory.
+    if not args.output.exists(): args.output.write_text('')
+    changed_paths=subprocess.check_output(['git','status','--short','--untracked-files=all'],cwd=REPO,env=env,text=True)
+    out['本轮修改文件']=changed_paths.splitlines()
+    args.json_output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
+    summary=f'''# PR #15 探针 M1 执行结果
 
-分支 `hw/controller-sch-issue2`，KiCad 10.0.7；未切分支、未 commit/push，原索引未写入。
+分支 `hw/controller-fixes-issue2`，KiCad {out['KiCad版本']}；未切分支、未 commit/push。
 
-| 项 | 结果 |
+D102：S1A-13-F/C150735 → **PMEG2010ER,115/C82288（Nexperia）**，与D103、D201同料同封装。符号`MyParts:PMEG2010ER_115`；封装`MyFootprints:Nexperia_CFP3_SOD123W_Reflow`；字段已补齐。
+
+网表极性：**D102/2=A→CORE_5V_TVS，D102/1=K→CORE_LDO_IN**。与M1前固定提交比较的{len(m1_baseline_nodes)}个物理pin-node网络保持；供电页仅D102及两条漏电图注改变，其余活动页原文保持。
+
+R301：`0.47×(I+0.0024)`；需求：`3.333+1.4I`；旧VF=1.100 V，新VF=0.320+0.100=0.420 V。冷态加量、小电流折算是工程模型，未包含连接器、容差和动态下陷，不是独立全温保证。
+
+{m1_table(m1['九点核算'])}
+
+最紧点4.75 V/325 mA：LDO入口4.176122 V，需求3.788 V，余量 **+0.388122 V**。按0.2 V最小VF工程假设，高端LDO损耗 **0.518740 W**、θJA=77.7°C/W估算温升 **40.31°C**；保留原忽略压降 **0.633750 W / 49.24°C** 保守上界。典型工况估算约65–110 mA不含编码器，**275/325 mA设计上限不变**。
+
+漏电代价：60 µA与1 mA示例在VDD=3.46 V、70 kΩ MR上拉下，CORE_5V_TVS/MR分别约0.1785/0.1185 V与2.1365/1.1365 V。85°C、数伏反压Fig.5约20–30 mA为典型量级，实际反压会随前端抬高而下降；MR可能进入未定义区，不能排除误判5 V存在。场景限于≤50 mA总短时异常注入，须实测。
+
+| 检查 | 实际结果 |
 | --- | --- |
-| A | U203 TPS2553，R227=49.9k；IN/EN同接+5V_CORE_IN，OUT→D201；/FAULT NC；C211/C212输入/输出去耦；5V_OUT对外仅J201/4，均在限流后。 |
-| B | pinmap先改；删JP203；J203/1、J204/1直接+3V3_MCU；PCB只加英文F.SilkS，(130,158)mm，未移动器件/走线；旧PCB无J203/J204/JP203。 |
-| C / N1 | SW2、D202/D203、D204/D205已选料并补封装；核对物理针号；LED 1=A、2=K、中央3外部NC；本地符号/LED封装待入共享库。 |
-| D / N2 | D201/D103统一共享库reviewed CFP3回流焊封装。 |
-| E / N3 | 用临时索引执行git mv到history；内容不变，移动前后网表及ERC一致。原.git只读，提交时请git add -A纳入移动。 |
-| F / N4 | R225/R226保留1k并补C21190；典型LED电流1.4–1.5mA。 |
-| G / N5 | 3.3V逐负载规格/预算表完成：271.024mA合计，工程静态预算≤275mA，不含外接编码器≤50mA；合计≤325mA，小于TLV767的1A能力。条件和待验项见下。 |
-| H / N6 | R228/R229=680Ω/0603，默认DNP。单120Ω约0.268V/2.23mA；双终端实算0.139V，低于200mV；原任务0.134V算术有误，已说明。 |
-| I | 变更说明、BOM变化/补库表已追加；只更新review/bom_issue2.csv；原生导出ERC、XML、BOM、PDF、验证JSON均完成。 |
-
-新增位号：**U203、R227、C211、C212、R228、R229**；另有非BOM电源标志#FLG203。删除JP203；D202/D203以及新增偏置DNP保留。
-
-ERC原文摘要：`{match.group(0) if match else '报告未解析'}`。未改ERC配置，保留基线已有全局忽略类别。
-
-脚位核对：pinmap §3 MCU **64/64**；§4.1/4.2 J101/J102 **64/64**，连同物理端口、13个独立NC及全部既有引脚连接重新核对。验证总计 **{len(checks)} 项，失败 {len(failed)} 项**；实际结论：**{out['结论']}**。
-
-活动10页实例封装扫描：**0402/01005/0201={len(small)}；空Footprint={len(empty)}**。PCB移除唯一新增gr_text后与原板全部结构一致；PCB差异11行新增、0行删除，全部属于这一条文字。
+| ERC（--severity-all） | `{match.group(0) if match else '报告未解析'}` |
+| MCU pinmap逐脚/物理端口/NC | {pin_counts['U30']['通过']}/64 |
+| J101 / J102 | {pin_counts['J101']['通过']}/32 + {pin_counts['J102']['通过']}/32 |
+| 全部验证（含第三轮原检查） | {len(checks)}项，失败{len(failed)}项；**{out['结论']}** |
+| 活动层级 | {len(pages)}页，{len(comps)}个位号；PDF 10页 |
+| 0402/01005/0201 / 空Footprint | {len(small)} / {len(empty)} |
+| 冻结范围 | lib子模块、inverter、两份归料号BOM、design_decisions、test_spec及PCB保持；四个明确受保护文件SHA256见JSON |
 
 修改文件（含新增/移入文件，取自git status）：
 
@@ -327,9 +462,13 @@ ERC原文摘要：`{match.group(0) if match else '报告未解析'}`。未改ERC
 {changed_paths.rstrip()}
 ```
 
-未完成/需交接：C212按用户要求与C301一同待#5选确切料号/DC bias；中央LED焊盘的内部电气属性未在原厂图明确，已独立编号并外部NC；本地符号/封装及选定电阻料号待#5入共享库。275mA是列明条件和裕量的工程设计/验收上限，ST数字外设表无保证最大列，不能宣称全工况整板保证最大值；#4/#7仍需核对真实外部负载、LDO输入压差、热与瞬态。双120Ω终端需要系统重新核定偏置方案；本轮按指定680Ω默认DNP保留。
+未决项：
 
-详细依据及计算见 [issue2_changes.md](issue2_changes.md) 第三轮；逐项检查见 [validation_issue2.json](validation_issue2.json)。
+{chr(10).join('- '+item for item in pending)}
+
+依据页/表、漏电分析及典型工况分项见 [issue2_changes.md](issue2_changes.md#pr-15-探针-m1ldo-入口压差)；逐项检查/精确核算见 [validation_issue2.json](validation_issue2.json)。
+
+复现：从g431_core目录运行 `python3 review/validate_pr13.py -o review/pr15_m1_result.md`。原PR #13基线及M1前基线均固定，允许本次精确变更，未放宽受保护文件检查。
 '''
     if failed: summary+='\n失败项：\n\n'+ '\n'.join('- '+c['项目']+': '+str(c['详情']) for c in failed)+'\n'
     args.output.write_text(summary)

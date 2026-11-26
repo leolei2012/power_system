@@ -33,7 +33,7 @@
 "C307","100n","MyFootprints:C_0603_1608Metric","YAGEO","CC0603KRX7R9BB104","LCSC","C14663","","https://item.szlcsc.com/15331.html","50V","10%","","1"
 "C308","100n","MyFootprints:C_0603_1608Metric","YAGEO","CC0603KRX7R9BB104","LCSC","C14663","","https://item.szlcsc.com/15331.html","50V","10%","","1"
 "D101","SMF6.0A-TP","MyFootprints:MCC_SOD-123FL_Pad0.91x1.22mm_Gap2.36mm","MCC","SMF6.0A-TP","LCSC","C914434","","https://item.szlcsc.com/985114.html","","","","1"
-"D102","S1A-13-F","MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm","Diodes Incorporated","S1A-13-F","LCSC","C150735","","https://item.szlcsc.com/162075.html","","","","1"
+"D102","PMEG2010ER,115 验证候选，未定案；待冷态VF/高温漏电核验","MyFootprints:Nexperia_CFP3_SOD123W_Reflow","Nexperia","PMEG2010ER,115","LCSC","C82288","C82288","https://item.szlcsc.com/83445.html","","","","1"
 "D103","PMEG2010ER,115","MyFootprints:Nexperia_CFP3_SOD123W_Reflow","Nexperia","PMEG2010ER,115","LCSC","C82288","","https://item.szlcsc.com/83445.html","","","","1"
 "D201","PMEG2010ER,115","MyFootprints:Nexperia_CFP3_SOD123W_Reflow","Nexperia","PMEG2010ER,115","LCSC","C82288","C82288","https://item.szlcsc.com/83445.html","","","","1"
 "D202","SM712.TCT","Package_TO_SOT_SMD:SOT-23","Semtech","SM712.TCT","LCSC","C12067","C12067","https://item.szlcsc.com/12644.html","","","DNP","1"

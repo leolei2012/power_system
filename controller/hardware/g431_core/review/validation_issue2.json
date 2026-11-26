@@ -4,8 +4,8 @@
   "引脚依据": "docs/pinmap.md",
   "页数": 10,
   "元件位号数": 102,
-  "新增位号数": 6,
-  "新增位号": [
+  "第三轮新增位号数": 6,
+  "第三轮新增位号": [
     "U203",
     "R227",
     "C211",
@@ -13,14 +13,17 @@
     "R228",
     "R229"
   ],
-  "移除位号": [
+  "第三轮移除位号": [
     "JP203"
   ],
-  "更换开关": [
+  "第三轮更换开关": [
     "SW2"
   ],
+  "M1更换器件": [
+    "D102"
+  ],
   "待选封装": [],
-  "核对项数": 2092,
+  "核对项数": 2144,
   "核对": [
     {
       "项目": "J101 pinmap条目数",
@@ -3958,6 +3961,1588 @@
         "实际": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
         "预期": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
       }
+    },
+    {
+      "项目": "D102/1 网络",
+      "通过": true,
+      "详情": {
+        "实际": "CORE_LDO_IN",
+        "预期": "CORE_LDO_IN"
+      }
+    },
+    {
+      "项目": "D102/2 网络",
+      "通过": true,
+      "详情": {
+        "实际": "CORE_5V_TVS",
+        "预期": "CORE_5V_TVS"
+      }
+    },
+    {
+      "项目": "M1 D102共享符号",
+      "通过": true,
+      "详情": {
+        "实际": "MyParts:PMEG2010ER_115",
+        "预期": "MyParts:PMEG2010ER_115"
+      }
+    },
+    {
+      "项目": "M1 D102物理极性",
+      "通过": true,
+      "详情": {
+        "实际": {
+          "1": "K",
+          "2": "A"
+        },
+        "预期": {
+          "1": "K",
+          "2": "A"
+        }
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Value",
+      "通过": true,
+      "详情": {
+        "实际": "PMEG2010ER,115",
+        "预期": "PMEG2010ER,115"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 MPN",
+      "通过": true,
+      "详情": {
+        "实际": "PMEG2010ER,115",
+        "预期": "PMEG2010ER,115"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Manufacturer",
+      "通过": true,
+      "详情": {
+        "实际": "Nexperia",
+        "预期": "Nexperia"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Footprint",
+      "通过": true,
+      "详情": {
+        "实际": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+        "预期": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Datasheet",
+      "通过": true,
+      "详情": {
+        "实际": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+        "预期": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Purchase_URL",
+      "通过": true,
+      "详情": {
+        "实际": "https://item.szlcsc.com/83445.html",
+        "预期": "https://item.szlcsc.com/83445.html"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Supplier",
+      "通过": true,
+      "详情": {
+        "实际": "LCSC",
+        "预期": "LCSC"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Supplier_PN",
+      "通过": true,
+      "详情": {
+        "实际": "C82288",
+        "预期": "C82288"
+      }
+    },
+    {
+      "项目": "M1 D102与D103字段一致 Datasheet_Revision",
+      "通过": true,
+      "详情": {
+        "实际": "v3; 2023-07-01",
+        "预期": "v3; 2023-07-01"
+      }
+    },
+    {
+      "项目": "M1 D102显式LCSC",
+      "通过": true,
+      "详情": {
+        "实际": "C82288",
+        "预期": "C82288"
+      }
+    },
+    {
+      "项目": "M1 D102/D201同封装",
+      "通过": true,
+      "详情": {
+        "实际": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+        "预期": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
+      }
+    },
+    {
+      "项目": "M1 D102 PMEG缓存与D103一致",
+      "通过": true,
+      "详情": {
+        "实际": [
+          "symbol",
+          "MyParts:PMEG2010ER_115",
+          [
+            "property",
+            "ki_fp_filters",
+            "Nexperia_CFP3_SOD123W_Reflow",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "ki_keywords",
+            "PMEG2010ER,115 C82288",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Datasheet_Revision",
+            "v3; 2023-07-01",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Library_Revision",
+            "1",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Verification",
+            "reviewed",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Purchase_URL",
+            "https://item.szlcsc.com/83445.html",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Supplier_PN",
+            "C82288",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Supplier",
+            "LCSC",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "MPN",
+            "PMEG2010ER,115",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Manufacturer",
+            "Nexperia",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "pin_numbers",
+            [
+              "hide",
+              "yes"
+            ]
+          ],
+          [
+            "pin_names",
+            [
+              "hide",
+              "yes"
+            ]
+          ],
+          [
+            "exclude_from_sim",
+            "no"
+          ],
+          [
+            "in_bom",
+            "yes"
+          ],
+          [
+            "on_board",
+            "yes"
+          ],
+          [
+            "in_pos_files",
+            "yes"
+          ],
+          [
+            "duplicate_pin_numbers_are_jumpers",
+            "no"
+          ],
+          [
+            "symbol",
+            "PMEG2010ER_115_0_1",
+            [
+              "polyline",
+              [
+                "pts",
+                [
+                  "xy",
+                  "-1.905",
+                  "0.635"
+                ],
+                [
+                  "xy",
+                  "-1.905",
+                  "1.27"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "1.27"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "-1.27"
+                ],
+                [
+                  "xy",
+                  "-0.635",
+                  "-1.27"
+                ],
+                [
+                  "xy",
+                  "-0.635",
+                  "-0.635"
+                ]
+              ],
+              [
+                "stroke",
+                [
+                  "width",
+                  "0.2032"
+                ],
+                [
+                  "type",
+                  "default"
+                ]
+              ],
+              [
+                "fill",
+                [
+                  "type",
+                  "none"
+                ]
+              ]
+            ],
+            [
+              "polyline",
+              [
+                "pts",
+                [
+                  "xy",
+                  "1.27",
+                  "1.27"
+                ],
+                [
+                  "xy",
+                  "1.27",
+                  "-1.27"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "0"
+                ],
+                [
+                  "xy",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "stroke",
+                [
+                  "width",
+                  "0.2032"
+                ],
+                [
+                  "type",
+                  "default"
+                ]
+              ],
+              [
+                "fill",
+                [
+                  "type",
+                  "none"
+                ]
+              ]
+            ],
+            [
+              "polyline",
+              [
+                "pts",
+                [
+                  "xy",
+                  "1.27",
+                  "0"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "0"
+                ]
+              ],
+              [
+                "stroke",
+                [
+                  "width",
+                  "0"
+                ],
+                [
+                  "type",
+                  "default"
+                ]
+              ],
+              [
+                "fill",
+                [
+                  "type",
+                  "none"
+                ]
+              ]
+            ]
+          ],
+          [
+            "symbol",
+            "PMEG2010ER_115_1_1",
+            [
+              "pin",
+              "passive",
+              "line",
+              [
+                "at",
+                "-3.81",
+                "0",
+                "0"
+              ],
+              [
+                "length",
+                "2.54"
+              ],
+              [
+                "name",
+                "K",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "number",
+                "1",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              "pin",
+              "passive",
+              "line",
+              [
+                "at",
+                "3.81",
+                "0",
+                "180"
+              ],
+              [
+                "length",
+                "2.54"
+              ],
+              [
+                "name",
+                "A",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "number",
+                "2",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "embedded_fonts",
+            "no"
+          ],
+          [
+            "property",
+            "Reference",
+            "D",
+            [
+              "at",
+              "0",
+              "5.08",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Value",
+            "PMEG2010ER,115",
+            [
+              "at",
+              "0",
+              "2.54",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Footprint",
+            "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+            [
+              "at",
+              "0",
+              "-4.445",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "hide",
+              "yes"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Datasheet",
+            "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "hide",
+              "yes"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Description",
+            "Schottky rectifier; 20V; 1A; CFP3/SOD123W",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "hide",
+              "yes"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "预期": [
+          "symbol",
+          "MyParts:PMEG2010ER_115",
+          [
+            "property",
+            "ki_fp_filters",
+            "Nexperia_CFP3_SOD123W_Reflow",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "ki_keywords",
+            "PMEG2010ER,115 C82288",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Datasheet_Revision",
+            "v3; 2023-07-01",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Library_Revision",
+            "1",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Verification",
+            "reviewed",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Purchase_URL",
+            "https://item.szlcsc.com/83445.html",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Supplier_PN",
+            "C82288",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Supplier",
+            "LCSC",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "MPN",
+            "PMEG2010ER,115",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Manufacturer",
+            "Nexperia",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "hide",
+                "yes"
+              ]
+            ]
+          ],
+          [
+            "pin_numbers",
+            [
+              "hide",
+              "yes"
+            ]
+          ],
+          [
+            "pin_names",
+            [
+              "hide",
+              "yes"
+            ]
+          ],
+          [
+            "exclude_from_sim",
+            "no"
+          ],
+          [
+            "in_bom",
+            "yes"
+          ],
+          [
+            "on_board",
+            "yes"
+          ],
+          [
+            "in_pos_files",
+            "yes"
+          ],
+          [
+            "duplicate_pin_numbers_are_jumpers",
+            "no"
+          ],
+          [
+            "symbol",
+            "PMEG2010ER_115_0_1",
+            [
+              "polyline",
+              [
+                "pts",
+                [
+                  "xy",
+                  "-1.905",
+                  "0.635"
+                ],
+                [
+                  "xy",
+                  "-1.905",
+                  "1.27"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "1.27"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "-1.27"
+                ],
+                [
+                  "xy",
+                  "-0.635",
+                  "-1.27"
+                ],
+                [
+                  "xy",
+                  "-0.635",
+                  "-0.635"
+                ]
+              ],
+              [
+                "stroke",
+                [
+                  "width",
+                  "0.2032"
+                ],
+                [
+                  "type",
+                  "default"
+                ]
+              ],
+              [
+                "fill",
+                [
+                  "type",
+                  "none"
+                ]
+              ]
+            ],
+            [
+              "polyline",
+              [
+                "pts",
+                [
+                  "xy",
+                  "1.27",
+                  "1.27"
+                ],
+                [
+                  "xy",
+                  "1.27",
+                  "-1.27"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "0"
+                ],
+                [
+                  "xy",
+                  "1.27",
+                  "1.27"
+                ]
+              ],
+              [
+                "stroke",
+                [
+                  "width",
+                  "0.2032"
+                ],
+                [
+                  "type",
+                  "default"
+                ]
+              ],
+              [
+                "fill",
+                [
+                  "type",
+                  "none"
+                ]
+              ]
+            ],
+            [
+              "polyline",
+              [
+                "pts",
+                [
+                  "xy",
+                  "1.27",
+                  "0"
+                ],
+                [
+                  "xy",
+                  "-1.27",
+                  "0"
+                ]
+              ],
+              [
+                "stroke",
+                [
+                  "width",
+                  "0"
+                ],
+                [
+                  "type",
+                  "default"
+                ]
+              ],
+              [
+                "fill",
+                [
+                  "type",
+                  "none"
+                ]
+              ]
+            ]
+          ],
+          [
+            "symbol",
+            "PMEG2010ER_115_1_1",
+            [
+              "pin",
+              "passive",
+              "line",
+              [
+                "at",
+                "-3.81",
+                "0",
+                "0"
+              ],
+              [
+                "length",
+                "2.54"
+              ],
+              [
+                "name",
+                "K",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "number",
+                "1",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              "pin",
+              "passive",
+              "line",
+              [
+                "at",
+                "3.81",
+                "0",
+                "180"
+              ],
+              [
+                "length",
+                "2.54"
+              ],
+              [
+                "name",
+                "A",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "number",
+                "2",
+                [
+                  "effects",
+                  [
+                    "font",
+                    [
+                      "size",
+                      "1.27",
+                      "1.27"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "embedded_fonts",
+            "no"
+          ],
+          [
+            "property",
+            "Reference",
+            "D",
+            [
+              "at",
+              "0",
+              "5.08",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Value",
+            "PMEG2010ER,115",
+            [
+              "at",
+              "0",
+              "2.54",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Footprint",
+            "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+            [
+              "at",
+              "0",
+              "-4.445",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "hide",
+              "yes"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Datasheet",
+            "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "hide",
+              "yes"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ],
+          [
+            "property",
+            "Description",
+            "Schottky rectifier; 20V; 1A; CFP3/SOD123W",
+            [
+              "at",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "show_name",
+              "no"
+            ],
+            [
+              "do_not_autoplace",
+              "no"
+            ],
+            [
+              "hide",
+              "yes"
+            ],
+            [
+              "effects",
+              [
+                "font",
+                [
+                  "size",
+                  "1.27",
+                  "1.27"
+                ]
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "项目": "M1全部物理pin-node网络不变",
+      "通过": true,
+      "详情": {
+        "固定基线": "54c28460baaf011a00254aa97edbb213a8b3e167",
+        "原节点数": 376,
+        "当前节点数": 376,
+        "变化": []
+      }
+    },
+    {
+      "项目": "M1供电页仅精确换D102及两条漏电图注",
+      "通过": true,
+      "详情": {
+        "允许": "D102字段/符号及两条指定图注；坐标、UUID、引脚、导线和其余器件逐项保持"
+      }
+    },
+    {
+      "项目": "M1其他活动页原文保持 controller.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 mcu.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 mcu_analog.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 mcu_control.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 core_arm.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 core_interface.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 comms.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 encoders.kicad_sch",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1其他活动页原文保持 ui_debug.kicad_sch",
+      "通过": true,
+      "详情": null
     },
     {
       "项目": "保留/授权变更基线连接 C77/1",
@@ -8075,14 +9660,64 @@
       "项目": "D102 XML/实例封装一致",
       "通过": true,
       "详情": {
-        "实际": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm",
-        "预期": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm"
+        "实际": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+        "预期": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
       }
+    },
+    {
+      "项目": "D102要求字段 Value",
+      "通过": true,
+      "详情": "PMEG2010ER,115"
+    },
+    {
+      "项目": "D102要求字段 Footprint",
+      "通过": true,
+      "详情": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
+    },
+    {
+      "项目": "D102要求字段 Datasheet",
+      "通过": true,
+      "详情": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+    },
+    {
+      "项目": "D102要求字段 Manufacturer",
+      "通过": true,
+      "详情": "Nexperia"
+    },
+    {
+      "项目": "D102要求字段 MPN",
+      "通过": true,
+      "详情": "PMEG2010ER,115"
+    },
+    {
+      "项目": "D102要求字段 LCSC",
+      "通过": true,
+      "详情": "C82288"
+    },
+    {
+      "项目": "D102要求字段 Purchase_URL",
+      "通过": true,
+      "详情": "https://item.szlcsc.com/83445.html"
+    },
+    {
+      "项目": "D102采购C编号有效",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "D102Datasheet为资料链接",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "D102Purchase_URL为立创商品页",
+      "通过": true,
+      "详情": null
     },
     {
       "项目": "D102封装可解析",
       "通过": true,
-      "详情": "/workspace/work/power_system/lib/kicad_library/footprints/MyFootprints.pretty/Diodes_SMA_Pad2.50x1.70mm_P4.00mm.kicad_mod"
+      "详情": "/workspace/work/power_system/lib/kicad_library/footprints/MyFootprints.pretty/Nexperia_CFP3_SOD123W_Reflow.kicad_mod"
     },
     {
       "项目": "D102封装包含全部符号引脚",
@@ -10984,8 +12619,8 @@
       "项目": "当前分支",
       "通过": true,
       "详情": {
-        "实际": "hw/controller-sch-issue2",
-        "预期": "hw/controller-sch-issue2"
+        "实际": "hw/controller-fixes-issue2",
+        "预期": "hw/controller-fixes-issue2"
       }
     },
     {
@@ -13197,16 +14832,16 @@
       "项目": "D102BOM Value",
       "通过": true,
       "详情": {
-        "实际": "S1A-13-F",
-        "预期": "S1A-13-F"
+        "实际": "PMEG2010ER,115",
+        "预期": "PMEG2010ER,115"
       }
     },
     {
       "项目": "D102BOM Footprint",
       "通过": true,
       "详情": {
-        "实际": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm",
-        "预期": "MyFootprints:Diodes_SMA_Pad2.50x1.70mm_P4.00mm"
+        "实际": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow",
+        "预期": "MyFootprints:Nexperia_CFP3_SOD123W_Reflow"
       }
     },
     {
@@ -13221,32 +14856,32 @@
       "项目": "D102BOM MPN",
       "通过": true,
       "详情": {
-        "实际": "S1A-13-F",
-        "预期": "S1A-13-F"
+        "实际": "PMEG2010ER,115",
+        "预期": "PMEG2010ER,115"
       }
     },
     {
       "项目": "D102BOM Manufacturer",
       "通过": true,
       "详情": {
-        "实际": "Diodes Incorporated",
-        "预期": "Diodes Incorporated"
+        "实际": "Nexperia",
+        "预期": "Nexperia"
       }
     },
     {
       "项目": "D102BOM LCSC",
       "通过": true,
       "详情": {
-        "实际": "",
-        "预期": ""
+        "实际": "C82288",
+        "预期": "C82288"
       }
     },
     {
       "项目": "D102BOM Purchase_URL",
       "通过": true,
       "详情": {
-        "实际": "https://item.szlcsc.com/162075.html",
-        "预期": "https://item.szlcsc.com/162075.html"
+        "实际": "https://item.szlcsc.com/83445.html",
+        "预期": "https://item.szlcsc.com/83445.html"
       }
     },
     {
@@ -17047,10 +18682,302 @@
       "项目": "485双终端低于200mV",
       "通过": true,
       "详情": null
+    },
+    {
+      "项目": "M1最紧点新余量V",
+      "通过": true,
+      "详情": {
+        "实际": 0.388122,
+        "预期": 0.388122
+      }
+    },
+    {
+      "项目": "M1旧4.75V/275mA余量V",
+      "通过": true,
+      "详情": {
+        "实际": -0.198378,
+        "预期": -0.198378
+      }
+    },
+    {
+      "项目": "M1旧4.75V/325mA余量V",
+      "通过": true,
+      "详情": {
+        "实际": -0.291878,
+        "预期": -0.291878
+      }
+    },
+    {
+      "项目": "M1旧5.0V/325mA余量V",
+      "通过": true,
+      "详情": {
+        "实际": -0.041878,
+        "预期": -0.041878
+      }
+    },
+    {
+      "项目": "M1九个新方案余量均为正",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1热估算损耗W",
+      "通过": true,
+      "详情": {
+        "实际": 0.51873965,
+        "预期": 0.51873965
+      }
+    },
+    {
+      "项目": "M1旧忽略压降热上界W",
+      "通过": true,
+      "详情": {
+        "实际": 0.63375,
+        "预期": 0.63375
+      }
+    },
+    {
+      "项目": "M1室温典型S1A与典型LDO余量V",
+      "通过": true,
+      "详情": {
+        "实际": 0.170622,
+        "预期": 0.170622
+      }
+    },
+    {
+      "项目": "M1 1mA漏电示例MR超过保证低",
+      "通过": true,
+      "详情": null
+    },
+    {
+      "项目": "M1文档九点表与重算一致",
+      "通过": true,
+      "详情": {
+        "实际": [
+          [
+            4.75,
+            100.0,
+            3.602,
+            4.282,
+            3.473,
+            0.129,
+            0.809
+          ],
+          [
+            4.75,
+            275.0,
+            3.52,
+            4.2,
+            3.718,
+            -0.198,
+            0.482
+          ],
+          [
+            4.75,
+            325.0,
+            3.496,
+            4.176,
+            3.788,
+            -0.292,
+            0.388
+          ],
+          [
+            5.0,
+            100.0,
+            3.852,
+            4.532,
+            3.473,
+            0.379,
+            1.059
+          ],
+          [
+            5.0,
+            275.0,
+            3.77,
+            4.45,
+            3.718,
+            0.052,
+            0.732
+          ],
+          [
+            5.0,
+            325.0,
+            3.746,
+            4.426,
+            3.788,
+            -0.042,
+            0.638
+          ],
+          [
+            5.25,
+            100.0,
+            4.102,
+            4.782,
+            3.473,
+            0.629,
+            1.309
+          ],
+          [
+            5.25,
+            275.0,
+            4.02,
+            4.7,
+            3.718,
+            0.302,
+            0.982
+          ],
+          [
+            5.25,
+            325.0,
+            3.996,
+            4.676,
+            3.788,
+            0.208,
+            0.888
+          ]
+        ],
+        "预期": [
+          [
+            4.75,
+            100,
+            3.602,
+            4.282,
+            3.473,
+            0.129,
+            0.809
+          ],
+          [
+            4.75,
+            275,
+            3.52,
+            4.2,
+            3.718,
+            -0.198,
+            0.482
+          ],
+          [
+            4.75,
+            325,
+            3.496,
+            4.176,
+            3.788,
+            -0.292,
+            0.388
+          ],
+          [
+            5.0,
+            100,
+            3.852,
+            4.532,
+            3.473,
+            0.379,
+            1.059
+          ],
+          [
+            5.0,
+            275,
+            3.77,
+            4.45,
+            3.718,
+            0.052,
+            0.732
+          ],
+          [
+            5.0,
+            325,
+            3.746,
+            4.426,
+            3.788,
+            -0.042,
+            0.638
+          ],
+          [
+            5.25,
+            100,
+            4.102,
+            4.782,
+            3.473,
+            0.629,
+            1.309
+          ],
+          [
+            5.25,
+            275,
+            4.02,
+            4.7,
+            3.718,
+            0.302,
+            0.982
+          ],
+          [
+            5.25,
+            325,
+            3.996,
+            4.676,
+            3.788,
+            0.208,
+            0.888
+          ]
+        ]
+      }
+    },
+    {
+      "项目": "M1受保护文件哈希 docs/design_decisions.md",
+      "通过": true,
+      "详情": {
+        "实际": "4c26daf2ff38da4e87bc5f0e05d01960f3b5c3148fdbd670283ea879efa91a41",
+        "预期": "4c26daf2ff38da4e87bc5f0e05d01960f3b5c3148fdbd670283ea879efa91a41"
+      }
+    },
+    {
+      "项目": "M1受保护文件哈希 docs/test_spec.md",
+      "通过": true,
+      "详情": {
+        "实际": "ead242867b825c6dd2ffe515922e05828086c5eaff9728a9f879d9df7d1e0288",
+        "预期": "ead242867b825c6dd2ffe515922e05828086c5eaff9728a9f879d9df7d1e0288"
+      }
+    },
+    {
+      "项目": "M1受保护文件哈希 controller/hardware/g431_core/bom/bom.csv",
+      "通过": true,
+      "详情": {
+        "实际": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2",
+        "预期": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2"
+      }
+    },
+    {
+      "项目": "M1受保护文件哈希 controller/hardware/g431_core/review/bom.csv",
+      "通过": true,
+      "详情": {
+        "实际": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2",
+        "预期": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2"
+      }
+    },
+    {
+      "项目": "M1修改范围仅限授权原理图/文档/审查产物",
+      "通过": true,
+      "详情": {
+        "范围外": []
+      }
     }
   ],
   "基线提交": "bb80a6c921c76b0064af353aefdfa5cc3e5e7714",
-  "核对范围": "PR #13 第三轮；MCU64脚、排针64针、全部基线引脚和第三轮电路重新检查",
+  "M1基线提交": "54c28460baaf011a00254aa97edbb213a8b3e167",
+  "核对范围": "PR #15 M1；保留PR #13第三轮全部检查，MCU64脚、排针64针、全部物理节点及D102精确变更重新检查",
+  "逐脚统计": {
+    "U30": {
+      "通过": 64,
+      "总数": 64
+    },
+    "J101": {
+      "通过": 32,
+      "总数": 32
+    },
+    "J102": {
+      "通过": 32,
+      "总数": 32
+    }
+  },
   "封装扫描": {
     "活动页": [
       "controller/hardware/g431_core/controller.kicad_sch",
@@ -17067,7 +18994,7 @@
     "小于0603": [],
     "空封装": []
   },
-  "分项ERC": {
+  "历史分项ERC": {
     "pinmap": {
       "摘要": "ERC messages: 0  Errors 0  Warnings 0",
       "sha256": "403b3b594be4c6d43e6953b2bfe64022be6efc29b67a5355a55fcb8971ed1697"
@@ -17109,6 +19036,11 @@
       "sha256": "49f751f2fe70eb07201709b04a074868ddaa06178ec98a461cb5b93b286f958a"
     }
   },
+  "ERC": {
+    "命令": "kicad-cli sch erc --severity-all --format report --exit-code-violations -o review/erc_issue2.rpt controller.kicad_sch",
+    "摘要": "ERC messages: 0  Errors 0  Warnings 0",
+    "sha256": "ed4b43daf1c396c65b2070c645cf14ed4516c4eeec99745469ed2486527b7b3b"
+  },
   "电流预算": {
     "适用性": "工程静态预算上限；非全部工况厂家保证值，条件见issue2_changes.md第三轮",
     "逐项合计mA": 271.024,
@@ -17116,34 +19048,185 @@
     "外接编码器预算mA": 50,
     "含编码器上限mA": 325
   },
+  "M1核算": {
+    "适用性": "R301标称0.47Ω、MR近似2.4mA；DRV按1.4Ω折算；旧VF=1.1V，新VF=0.32+0.10V；冷态加量和小电流折算非独立全温保证",
+    "九点核算": [
+      {
+        "入口V": 4.75,
+        "负载mA": 100,
+        "R301压降V": 0.048128,
+        "旧LDO入口V": 3.601872,
+        "新LDO入口V": 4.281872,
+        "需求V": 3.473,
+        "旧余量V": 0.128872,
+        "新余量V": 0.808872
+      },
+      {
+        "入口V": 4.75,
+        "负载mA": 275,
+        "R301压降V": 0.130378,
+        "旧LDO入口V": 3.519622,
+        "新LDO入口V": 4.199622,
+        "需求V": 3.718,
+        "旧余量V": -0.198378,
+        "新余量V": 0.481622
+      },
+      {
+        "入口V": 4.75,
+        "负载mA": 325,
+        "R301压降V": 0.153878,
+        "旧LDO入口V": 3.496122,
+        "新LDO入口V": 4.176122,
+        "需求V": 3.788,
+        "旧余量V": -0.291878,
+        "新余量V": 0.388122
+      },
+      {
+        "入口V": 5.0,
+        "负载mA": 100,
+        "R301压降V": 0.048128,
+        "旧LDO入口V": 3.851872,
+        "新LDO入口V": 4.531872,
+        "需求V": 3.473,
+        "旧余量V": 0.378872,
+        "新余量V": 1.058872
+      },
+      {
+        "入口V": 5.0,
+        "负载mA": 275,
+        "R301压降V": 0.130378,
+        "旧LDO入口V": 3.769622,
+        "新LDO入口V": 4.449622,
+        "需求V": 3.718,
+        "旧余量V": 0.051622,
+        "新余量V": 0.731622
+      },
+      {
+        "入口V": 5.0,
+        "负载mA": 325,
+        "R301压降V": 0.153878,
+        "旧LDO入口V": 3.746122,
+        "新LDO入口V": 4.426122,
+        "需求V": 3.788,
+        "旧余量V": -0.041878,
+        "新余量V": 0.638122
+      },
+      {
+        "入口V": 5.25,
+        "负载mA": 100,
+        "R301压降V": 0.048128,
+        "旧LDO入口V": 4.101872,
+        "新LDO入口V": 4.781872,
+        "需求V": 3.473,
+        "旧余量V": 0.628872,
+        "新余量V": 1.308872
+      },
+      {
+        "入口V": 5.25,
+        "负载mA": 275,
+        "R301压降V": 0.130378,
+        "旧LDO入口V": 4.019622,
+        "新LDO入口V": 4.699622,
+        "需求V": 3.718,
+        "旧余量V": 0.301622,
+        "新余量V": 0.981622
+      },
+      {
+        "入口V": 5.25,
+        "负载mA": 325,
+        "R301压降V": 0.153878,
+        "旧LDO入口V": 3.996122,
+        "新LDO入口V": 4.676122,
+        "需求V": 3.788,
+        "旧余量V": 0.208122,
+        "新余量V": 0.888122
+      }
+    ],
+    "热估算": {
+      "PMEG最小VF工程假设V": 0.2,
+      "LDO损耗W": 0.51873965,
+      "原忽略压降上界W": 0.63375,
+      "DRV_thetaJA_C_per_W": 77.7,
+      "温升C": 40.306071,
+      "原上界温升C": 49.242375,
+      "限制": "0.2V不是保证最小值，保留0.634W保守负载损耗上界；未展开地电流附加损耗，需叠板热验收"
+    },
+    "漏电模型": {
+      "VDD_V": 3.46,
+      "MR上拉最小ohm": 70000,
+      "定电流示例": [
+        {
+          "漏电A": 6e-05,
+          "CORE_5V_TVS_V": 0.178509,
+          "MR_V": 0.118509
+        },
+        {
+          "漏电A": 0.001,
+          "CORE_5V_TVS_V": 2.136512,
+          "MR_V": 1.136512
+        }
+      ],
+      "越过保证低门限的漏电mA": 0.909036,
+      "85C_Fig5典型量级": "VR约3–5V时20–30mA；不是最大值，表7与Fig5室温典型点不一致，不能按固定电流外推节点电压",
+      "结论": "高阻掉电回供时MR可能处于未定义区，不能排除误判5V存在；≤50mA短时异常，需实测"
+    },
+    "典型工况估算": {
+      "MCU_mA": [
+        40,
+        55
+      ],
+      "RS485发送占空比": [
+        0.1,
+        0.3
+      ],
+      "CAN显性占空比": [
+        0.1,
+        0.4
+      ],
+      "不含编码器mA": [
+        65,
+        110
+      ],
+      "限制": "25C条件化示例，非实测/保证值；不改变275/325mA设计上限"
+    }
+  },
+  "受保护文件哈希": {
+    "docs/design_decisions.md": {
+      "sha256": "4c26daf2ff38da4e87bc5f0e05d01960f3b5c3148fdbd670283ea879efa91a41",
+      "基线sha256": "4c26daf2ff38da4e87bc5f0e05d01960f3b5c3148fdbd670283ea879efa91a41"
+    },
+    "docs/test_spec.md": {
+      "sha256": "ead242867b825c6dd2ffe515922e05828086c5eaff9728a9f879d9df7d1e0288",
+      "基线sha256": "ead242867b825c6dd2ffe515922e05828086c5eaff9728a9f879d9df7d1e0288"
+    },
+    "controller/hardware/g431_core/bom/bom.csv": {
+      "sha256": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2",
+      "基线sha256": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2"
+    },
+    "controller/hardware/g431_core/review/bom.csv": {
+      "sha256": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2",
+      "基线sha256": "692cfd890ce3430d622b8cd67acb7bba5c4883c8bd777d1f116a6eb21c4bf7f2"
+    }
+  },
   "待定事项": [
-    "C212与C301同规格，确切MPN/LCSC/DC bias待#5",
-    "LED中央焊盘电气属性原厂图未说明，外部NC；待共享库建料时补充",
-    "275mA为有条件设计预算，ST外设表征值不构成全工况保证最大值；#4/#7验证热与实际负载"
+    "D102 S1A-13-F/C150735→PMEG2010ER,115/C82288：bom/bom.csv待料号同步，本PR不改；review/bom.csv同样保持",
+    "最低入口/低温/动态压差及0.634W保守上界下的叠板温升待样机验证",
+    "高温高阻掉电、≤50mA短时回供可能使MR处于未定义区，不能排除误判5V存在；需测MR/NRST/CTRL_READY",
+    "PMEG表7与Fig.5室温漏电典型数据不一致，需原厂澄清；85C图示仅作量级，非保证最大值",
+    "C212与C301确切MPN/LCSC/DC bias、LED中央焊盘属性及既有本地临时器件入库交接保持原待办",
+    "65–110mA仅为不含编码器的条件化典型工况估算；不改275/325mA设计上限，降预算须雨田决定"
   ],
   "本轮修改文件": [
-    " M controller/hardware/g431_core/CoreProtection.kicad_sym",
-    " M controller/hardware/g431_core/comms.kicad_sch",
-    " M controller/hardware/g431_core/controller.kicad_pcb",
-    " M controller/hardware/g431_core/controller.kicad_sch",
     " M controller/hardware/g431_core/core_supply.kicad_sch",
-    " D controller/hardware/g431_core/debug_comms.kicad_sch",
-    " M controller/hardware/g431_core/encoders.kicad_sch",
-    " M controller/hardware/g431_core/fp-lib-table",
-    " M controller/hardware/g431_core/mcu_control.kicad_sch",
+    " M controller/hardware/g431_core/core_supply_design.md",
     " M controller/hardware/g431_core/review/bom_issue2.csv",
     " M controller/hardware/g431_core/review/controller.net.xml",
     " M controller/hardware/g431_core/review/controller.pdf",
     " M controller/hardware/g431_core/review/erc_issue2.rpt",
     " M controller/hardware/g431_core/review/issue2_changes.md",
+    " M controller/hardware/g431_core/review/validate_pr13.py",
     " M controller/hardware/g431_core/review/validation_issue2.json",
-    " D controller/hardware/g431_core/sensors.kicad_sch",
-    " M controller/hardware/g431_core/ui_debug.kicad_sch",
-    " M docs/pinmap.md",
-    "?? controller/hardware/g431_core/ControllerLocal.pretty/LED_Ekinglux_1204_SideView_3.2x1.0mm.kicad_mod",
-    "?? controller/hardware/g431_core/history/debug_comms.kicad_sch",
-    "?? controller/hardware/g431_core/history/sensors.kicad_sch",
-    "?? controller/hardware/g431_core/review/pr13_third_round_result.md",
-    "?? controller/hardware/g431_core/review/validate_pr13.py"
+    " M docs/controller_daughterboard.md",
+    "?? controller/hardware/g431_core/review/pr15_m1_result.md"
   ]
 }
