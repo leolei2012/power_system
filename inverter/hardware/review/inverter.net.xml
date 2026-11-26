@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/workspace/work/ps_inv/inverter/hardware/inverter.kicad_sch</source>
-    <date>2026-11-12T04:16:48</date>
-    <tool>Eeschema 10.0.7</tool>
+    <date>2026-11-25T23:25:10</date>
+    <tool>Eeschema 10.0.8+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Inverter base with GPIO minimum-system core</title>
@@ -2961,19 +2961,23 @@
       <datasheet>https://www.diodes.com/datasheet/download/DDZ96xxT-DDZ97xxT.pdf</datasheet>
       <description>12 V 栅源钳位；SOD-523；见 LTC4359 图4推荐；临时本地符号，待 #5 入 kicad_library</description>
       <fields>
-        <field name="MPN">DDZ9699T</field>
-        <field name="Manufacturer">Diodes Incorporated</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="LCSC">待#5</field>
+        <field name="MPN">DDZ9699T-7</field>
+        <field name="Manufacturer">DIODES</field>
+        <field name="Supplier_PN">C460861</field>
+        <field name="LCSC">C460861</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C460861.html</field>
         <field name="Footprint">Diode_SMD:D_SOD-523</field>
         <field name="Datasheet">https://www.diodes.com/datasheet/download/DDZ96xxT-DDZ97xxT.pdf</field>
         <field name="Description">12 V 栅源钳位；SOD-523；见 LTC4359 图4推荐；临时本地符号，待 #5 入 kicad_library</field>
       </fields>
       <libsource lib="InverterLocal" part="DDZ9699T" description="12 V 栅源钳位；SOD-523；见 LTC4359 图4推荐；临时本地符号，待 #5 入 kicad_library"/>
-      <property name="MPN" value="DDZ9699T"/>
-      <property name="Manufacturer" value="Diodes Incorporated"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="MPN" value="DDZ9699T-7"/>
+      <property name="Manufacturer" value="DIODES"/>
+      <property name="Supplier_PN" value="C460861"/>
+      <property name="LCSC" value="C460861"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C460861.html"/>
       <property name="Sheetname" value="Bus and brake"/>
       <property name="Sheetfile" value="bus_brake.kicad_sch"/>
       <sheetpath names="/Bus and brake/" tstamps="/122d50e7-f4bd-50e5-9e7e-d7a23c9d1345/"/>
@@ -2994,16 +2998,22 @@
       <description>LTC4359 图4输入正向 TVS；70 V standoff；SMA；临时本地符号，待 #5 入 kicad_library</description>
       <fields>
         <field name="MPN">SMAT70A-13-F</field>
-        <field name="Manufacturer">Diodes Incorporated</field>
-        <field name="LCSC">待#5</field>
+        <field name="Manufacturer">DIODES</field>
+        <field name="LCSC">C135026</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C135026</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C135026.html</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
         <field name="Datasheet">https://www.diodes.com/datasheet/download/SMAT70A.pdf</field>
         <field name="Description">LTC4359 图4输入正向 TVS；70 V standoff；SMA；临时本地符号，待 #5 入 kicad_library</field>
       </fields>
       <libsource lib="InverterLocal" part="SMAT70A_13_F" description="LTC4359 图4输入正向 TVS；70 V standoff；SMA；临时本地符号，待 #5 入 kicad_library"/>
       <property name="MPN" value="SMAT70A-13-F"/>
-      <property name="Manufacturer" value="Diodes Incorporated"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="Manufacturer" value="DIODES"/>
+      <property name="LCSC" value="C135026"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C135026"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C135026.html"/>
       <property name="Sheetname" value="Bus and brake"/>
       <property name="Sheetfile" value="bus_brake.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -3026,16 +3036,22 @@
       <description>LTC4359 图4反向 TVS；24 V standoff；SMA；临时本地符号，待 #5 入 kicad_library</description>
       <fields>
         <field name="MPN">SMAJ24A-TR</field>
-        <field name="Manufacturer">STMicroelectronics</field>
-        <field name="LCSC">待#5</field>
+        <field name="Manufacturer">ST</field>
+        <field name="LCSC">C132947</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C132947</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C132947.html</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
         <field name="Datasheet">https://www.st.com/resource/en/datasheet/smaj24a.pdf</field>
         <field name="Description">LTC4359 图4反向 TVS；24 V standoff；SMA；临时本地符号，待 #5 入 kicad_library</field>
       </fields>
       <libsource lib="InverterLocal" part="SMAJ24A" description="LTC4359 图4反向 TVS；24 V standoff；SMA；临时本地符号，待 #5 入 kicad_library"/>
       <property name="MPN" value="SMAJ24A-TR"/>
-      <property name="Manufacturer" value="STMicroelectronics"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="Manufacturer" value="ST"/>
+      <property name="LCSC" value="C132947"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C132947"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C132947.html"/>
       <property name="Sheetname" value="Bus and brake"/>
       <property name="Sheetfile" value="bus_brake.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -3058,22 +3074,24 @@
       <description>NANO2 476；8 A；125 VDC；2410；300 A@125 VDC；冷电阻 0.0112 Ω；临时本地符号，待 #5 入 kicad_library</description>
       <fields>
         <field name="Datasheet_Revision">offline GD06/26/23; online GD02/25/26</field>
-        <field name="Supplier_PN">待#5</field>
+        <field name="Supplier_PN">C3164468</field>
         <field name="Supplier">LCSC</field>
         <field name="MPN">0476008.MRSN</field>
         <field name="Manufacturer">Littelfuse</field>
-        <field name="LCSC">待#5</field>
+        <field name="LCSC">C3164468</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C3164468.html</field>
         <field name="Footprint">MyFootprints:Littelfuse_NANO2_451_476_Pad1.96x3.15mm_Gap2.95mm</field>
         <field name="Datasheet">https://www.littelfuse.com/assetdocs/littelfuse-fuse-476-datasheet?assetguid=9862ea73-9130-481f-996c-12625fcc7ed2</field>
         <field name="Description">NANO2 476；8 A；125 VDC；2410；300 A@125 VDC；冷电阻 0.0112 Ω；临时本地符号，待 #5 入 kicad_library</field>
       </fields>
       <libsource lib="InverterLocal" part="0476008_MRSN" description="NANO2 476；8 A；125 VDC；2410；300 A@125 VDC；冷电阻 0.0112 Ω；临时本地符号，待 #5 入 kicad_library"/>
       <property name="Datasheet_Revision" value="offline GD06/26/23; online GD02/25/26"/>
-      <property name="Supplier_PN" value="待#5"/>
+      <property name="Supplier_PN" value="C3164468"/>
       <property name="Supplier" value="LCSC"/>
       <property name="MPN" value="0476008.MRSN"/>
       <property name="Manufacturer" value="Littelfuse"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="LCSC" value="C3164468"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C3164468.html"/>
       <property name="Sheetname" value="Bus and brake"/>
       <property name="Sheetfile" value="bus_brake.kicad_sch"/>
       <sheetpath names="/Bus and brake/" tstamps="/122d50e7-f4bd-50e5-9e7e-d7a23c9d1345/"/>
@@ -3466,21 +3484,29 @@
       <datasheet>待#5（VSS 1k 阻值依据 LTC4359 图4）</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="MPN">待#5</field>
-        <field name="LCSC">待#5</field>
+        <field name="MPN">25121WF1001T4E</field>
+        <field name="LCSC">C54315</field>
         <field name="Tolerance">1%（设计需求）</field>
         <field name="Power_Requirement">≥0.5 W（设计需求，实际器件规格待#5）</field>
         <field name="Design_Note">ADI 图4 VSS 串1k接GND；按−40V反接时(40−24)^2/1k≈0.256W选择更大封装</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C54315</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C54315.html</field>
         <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
         <field name="Datasheet">待#5（VSS 1k 阻值依据 LTC4359 图4）</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="MPN" value="25121WF1001T4E"/>
+      <property name="LCSC" value="C54315"/>
       <property name="Tolerance" value="1%（设计需求）"/>
       <property name="Power_Requirement" value="≥0.5 W（设计需求，实际器件规格待#5）"/>
       <property name="Design_Note" value="ADI 图4 VSS 串1k接GND；按−40V反接时(40−24)^2/1k≈0.256W选择更大封装"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C54315"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C54315.html"/>
       <property name="Sheetname" value="Bus and brake"/>
       <property name="Sheetfile" value="bus_brake.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3587,16 +3613,22 @@
       <description>4～80 V 理想二极管控制器；反接 -40 V；I 档 -40～85 °C；临时本地符号，待 #5 入 kicad_library</description>
       <fields>
         <field name="MPN">LTC4359IS8#PBF</field>
-        <field name="LCSC">待#5</field>
+        <field name="LCSC">C3234107</field>
         <field name="Manufacturer">ADI</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C3234107</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C3234107.html</field>
         <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf</field>
         <field name="Description">4～80 V 理想二极管控制器；反接 -40 V；I 档 -40～85 °C；临时本地符号，待 #5 入 kicad_library</field>
       </fields>
       <libsource lib="InverterLocal" part="LTC4359IS8_PBF" description="4～80 V 理想二极管控制器；反接 -40 V；I 档 -40～85 °C；临时本地符号，待 #5 入 kicad_library"/>
       <property name="MPN" value="LTC4359IS8#PBF"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="LCSC" value="C3234107"/>
       <property name="Manufacturer" value="ADI"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C3234107"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C3234107.html"/>
       <property name="Sheetname" value="Bus and brake"/>
       <property name="Sheetfile" value="bus_brake.kicad_sch"/>
       <sheetpath names="/Bus and brake/" tstamps="/122d50e7-f4bd-50e5-9e7e-d7a23c9d1345/"/>
@@ -6466,30 +6498,30 @@
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">phase window E96 0603 TBD</field>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RT0603BRD0720KL</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)</field>
         <field name="Design_Note">E96；门限约 ±12 A，计算见 review/issue3_changes.md</field>
         <field name="Tolerance">0.1%</field>
-        <field name="LCSC">待#5</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="LCSC">C723637</field>
+        <field name="Supplier_PN">C723637</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C723637.html</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="phase window E96 0603 TBD"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RT0603BRD0720KL"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)"/>
       <property name="Design_Note" value="E96；门限约 ±12 A，计算见 review/issue3_changes.md"/>
       <property name="Tolerance" value="0.1%"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="LCSC" value="C723637"/>
+      <property name="Supplier_PN" value="C723637"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C723637.html"/>
       <property name="Sheetname" value="Current sensing"/>
       <property name="Sheetfile" value="current_sense.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -6511,30 +6543,30 @@
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">phase window E96 0603 TBD</field>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RT0603BRD071K43L</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)</field>
         <field name="Design_Note">E96；门限约 ±12 A，计算见 review/issue3_changes.md</field>
         <field name="Tolerance">0.1%</field>
-        <field name="LCSC">待#5</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="LCSC">C861200</field>
+        <field name="Supplier_PN">C861200</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C861200.html</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="phase window E96 0603 TBD"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RT0603BRD071K43L"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)"/>
       <property name="Design_Note" value="E96；门限约 ±12 A，计算见 review/issue3_changes.md"/>
       <property name="Tolerance" value="0.1%"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="LCSC" value="C861200"/>
+      <property name="Supplier_PN" value="C861200"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C861200.html"/>
       <property name="Sheetname" value="Current sensing"/>
       <property name="Sheetfile" value="current_sense.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -6650,30 +6682,30 @@
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">phase window E96 0603 TBD</field>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RT0603BRD071K43L</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)</field>
         <field name="Design_Note">E96；门限约 ±12 A，计算见 review/issue3_changes.md</field>
         <field name="Tolerance">0.1%</field>
-        <field name="LCSC">待#5</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="LCSC">C861200</field>
+        <field name="Supplier_PN">C861200</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C861200.html</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="phase window E96 0603 TBD"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RT0603BRD071K43L"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)"/>
       <property name="Design_Note" value="E96；门限约 ±12 A，计算见 review/issue3_changes.md"/>
       <property name="Tolerance" value="0.1%"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="LCSC" value="C861200"/>
+      <property name="Supplier_PN" value="C861200"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C861200.html"/>
       <property name="Sheetname" value="Current sensing"/>
       <property name="Sheetfile" value="current_sense.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -6695,30 +6727,30 @@
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">phase window E96 0603 TBD</field>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RT0603BRD0720KL</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)</field>
         <field name="Design_Note">E96；门限约 ±12 A，计算见 review/issue3_changes.md</field>
         <field name="Tolerance">0.1%</field>
-        <field name="LCSC">待#5</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="LCSC">C723637</field>
+        <field name="Supplier_PN">C723637</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C723637.html</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="phase window E96 0603 TBD"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RT0603BRD0720KL"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="E96 0603 phase window 1.049952/2.250048 V; MPN TBD (待#5)"/>
       <property name="Design_Note" value="E96；门限约 ±12 A，计算见 review/issue3_changes.md"/>
       <property name="Tolerance" value="0.1%"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="LCSC" value="C723637"/>
+      <property name="Supplier_PN" value="C723637"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C723637.html"/>
       <property name="Sheetname" value="Current sensing"/>
       <property name="Sheetfile" value="current_sense.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -10361,14 +10393,16 @@
       <fields>
         <field name="ki_keywords">cap capacitor</field>
         <field name="ki_fp_filters">C_*</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5</field>
+        <field name="Manufacturer">FH</field>
+        <field name="MPN">0603B102K500NT</field>
         <field name="Voltage_Rating">16 V minimum</field>
         <field name="Design_Note">末端 RC 已移至 controller；本板仅保留调试封装，默认不装</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; DC bias/MPN/LCSC pending</field>
-        <field name="LCSC">待#5</field>
+        <field name="LCSC">C44369</field>
         <field name="DNP">yes</field>
+        <field name="Supplier_PN">C44369</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C44369.html</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">待#5</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -10376,14 +10410,16 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5"/>
+      <property name="Manufacturer" value="FH"/>
+      <property name="MPN" value="0603B102K500NT"/>
       <property name="Voltage_Rating" value="16 V minimum"/>
       <property name="Design_Note" value="末端 RC 已移至 controller；本板仅保留调试封装，默认不装"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; DC bias/MPN/LCSC pending"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="LCSC" value="C44369"/>
       <property name="DNP" value="yes"/>
+      <property name="Supplier_PN" value="C44369"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C44369.html"/>
       <property name="Sheetname" value="ADC and status returns"/>
       <property name="Sheetfile" value="core_signal_protection.kicad_sch"/>
       <property name="dnp"/>
@@ -11405,12 +11441,15 @@
       <fields>
         <field name="ki_keywords">R res resistor</field>
         <field name="ki_fp_filters">R_*</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF3600T5E</field>
         <field name="Tolerance">1%</field>
         <field name="Selection_Status">exact YAGEO MPN pending</field>
         <field name="Design_Note">Input transient limiting; with original 100R gives 460R / 1n, tau about 0.46us. Not a 60V fault barrier.</field>
-        <field name="LCSC">待#5</field>
+        <field name="LCSC">C25194</field>
+        <field name="Supplier">LCSC</field>
+        <field name="Supplier_PN">C25194</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C25194.html</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">待#5</field>
         <field name="Description">Resistor</field>
@@ -11418,12 +11457,15 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF3600T5E"/>
       <property name="Tolerance" value="1%"/>
       <property name="Selection_Status" value="exact YAGEO MPN pending"/>
       <property name="Design_Note" value="Input transient limiting; with original 100R gives 460R / 1n, tau about 0.46us. Not a 60V fault barrier."/>
-      <property name="LCSC" value="待#5"/>
+      <property name="LCSC" value="C25194"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="Supplier_PN" value="C25194"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C25194.html"/>
       <property name="Sheetname" value="ADC and status returns"/>
       <property name="Sheetfile" value="core_signal_protection.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -11447,13 +11489,15 @@
       <fields>
         <field name="ki_keywords">R res resistor</field>
         <field name="ki_fp_filters">R_*</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF1000T5E</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; exact MPN/LCSC pending</field>
         <field name="Design_Note">Local ADC isolation; 47R source isolator also present except NTC</field>
         <field name="Tolerance">1%</field>
-        <field name="LCSC">待#5</field>
+        <field name="LCSC">C22775</field>
+        <field name="Supplier_PN">C22775</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C22775.html</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">待#5</field>
         <field name="Description">Resistor</field>
@@ -11461,13 +11505,15 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF1000T5E"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; exact MPN/LCSC pending"/>
       <property name="Design_Note" value="Local ADC isolation; 47R source isolator also present except NTC"/>
       <property name="Tolerance" value="1%"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="LCSC" value="C22775"/>
+      <property name="Supplier_PN" value="C22775"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C22775.html"/>
       <property name="Sheetname" value="ADC and status returns"/>
       <property name="Sheetfile" value="core_signal_protection.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -11794,26 +11840,30 @@
       <description>Resistor</description>
       <fields>
         <field name="ki_keywords">R res resistor</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="MPN">待#5</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF470JT5E</field>
         <field name="Supplier">LCSC</field>
         <field name="Selection_Status">value assigned; exact MPN/LCSC pending</field>
         <field name="Design_Note">Output isolation at amplifier; trip comparators sense before resistor</field>
         <field name="Tolerance">1%</field>
-        <field name="LCSC">待#5</field>
+        <field name="LCSC">C23182</field>
+        <field name="Supplier_PN">C23182</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C23182.html</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">待#5</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="MPN" value="待#5"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF470JT5E"/>
       <property name="Supplier" value="LCSC"/>
       <property name="Selection_Status" value="value assigned; exact MPN/LCSC pending"/>
       <property name="Design_Note" value="Output isolation at amplifier; trip comparators sense before resistor"/>
       <property name="Tolerance" value="1%"/>
-      <property name="LCSC" value="待#5"/>
+      <property name="LCSC" value="C23182"/>
+      <property name="Supplier_PN" value="C23182"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C23182.html"/>
       <property name="Sheetname" value="母线电流（15 A 过流保护）"/>
       <property name="Sheetfile" value="bus_current.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -11835,12 +11885,12 @@
       <datasheet>待核</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF1022T5E</field>
         <field name="Supplier">LCSC</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="Supplier_PN">C22772</field>
+        <field name="LCSC">C22772</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C22772.html</field>
         <field name="Tolerance">1%</field>
         <field name="Selection_Status">E96 0603 1%; MPN TBD (待#5)</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
@@ -11848,12 +11898,12 @@
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF1022T5E"/>
       <property name="Supplier" value="LCSC"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="Supplier_PN" value="C22772"/>
+      <property name="LCSC" value="C22772"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C22772.html"/>
       <property name="Tolerance" value="1%"/>
       <property name="Selection_Status" value="E96 0603 1%; MPN TBD (待#5)"/>
       <property name="Sheetname" value="母线电流（15 A 过流保护）"/>
@@ -11877,12 +11927,12 @@
       <datasheet>待核</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF2322T5E</field>
         <field name="Supplier">LCSC</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="Supplier_PN">C23346</field>
+        <field name="LCSC">C23346</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C23346.html</field>
         <field name="Tolerance">1%</field>
         <field name="Selection_Status">E96 0603 1%; MPN TBD (待#5)</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
@@ -11890,12 +11940,12 @@
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF2322T5E"/>
       <property name="Supplier" value="LCSC"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="Supplier_PN" value="C23346"/>
+      <property name="LCSC" value="C23346"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C23346.html"/>
       <property name="Tolerance" value="1%"/>
       <property name="Selection_Status" value="E96 0603 1%; MPN TBD (待#5)"/>
       <property name="Sheetname" value="母线电流（15 A 过流保护）"/>
@@ -11919,12 +11969,12 @@
       <datasheet>待核</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Manufacturer">TBD</field>
-        <field name="MPN">TBD</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0603WAF2263T5E</field>
         <field name="Supplier">LCSC</field>
-        <field name="Supplier_PN">待#5</field>
-        <field name="LCSC">待#5</field>
-        <field name="Purchase_URL">待#5</field>
+        <field name="Supplier_PN">C33619</field>
+        <field name="LCSC">C33619</field>
+        <field name="Purchase_URL">https://www.lcsc.com/product-detail/C33619.html</field>
         <field name="Tolerance">1%</field>
         <field name="Selection_Status">E96 0603 1%; MPN TBD (待#5)</field>
         <field name="Footprint">MyFootprints:R_0603_1608Metric</field>
@@ -11932,12 +11982,12 @@
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Manufacturer" value="TBD"/>
-      <property name="MPN" value="TBD"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0603WAF2263T5E"/>
       <property name="Supplier" value="LCSC"/>
-      <property name="Supplier_PN" value="待#5"/>
-      <property name="LCSC" value="待#5"/>
-      <property name="Purchase_URL" value="待#5"/>
+      <property name="Supplier_PN" value="C33619"/>
+      <property name="LCSC" value="C33619"/>
+      <property name="Purchase_URL" value="https://www.lcsc.com/product-detail/C33619.html"/>
       <property name="Tolerance" value="1%"/>
       <property name="Selection_Status" value="E96 0603 1%; MPN TBD (待#5)"/>
       <property name="Sheetname" value="母线电流（15 A 过流保护）"/>
@@ -13773,13 +13823,13 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_symdir</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_symdir</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_symdir</uri>
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
     </library>
     <library logical="InverterLocal">
       <uri>${KIPRJMOD}/InverterLocal.kicad_sym</uri>

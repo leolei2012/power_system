@@ -1,0 +1,2586 @@
+** Drc report for inverter.kicad_pcb **
+** Created on 2026-11-25T23:25:20 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 10 DRC violations **
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(134.7678 mm, 141.8729 mm): Via [OC_HIGH_REF] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(136.8393 mm, 132.5212 mm): Via [OC_HIGH_REF] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(133.8548 mm, 156.9015 mm): Via [OC_HIGH_REF] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(112.2500 mm, 150.5375 mm): Track [AUX_PROTECTED] on B.Cu, length 0.8000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(136.3250 mm, 154.3000 mm): Via [/Bus and brake/BR_SW] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(127.8000 mm, 142.8750 mm): Via [/Driver supply/BB_BST1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(122.1700 mm, 139.7210 mm): Via [/Driver supply/BB_BST2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(118.3640 mm, 118.3450 mm): Via [Net-(D206-K1/A2)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(115.7000 mm, 109.2080 mm): Via [Net-(D206-K1/A2)] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(135.8250 mm, 156.5840 mm): Track [I_W] on B.Cu, length 0.7821 mm
+
+** Found 236 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.2000 mm, 141.7100 mm): Pad 1 [PWM_UL_IN] of R77 on F.Cu
+    @(122.7000 mm, 119.1380 mm): Track [PWM_UL_IN] on B.Cu, length 0.8030 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.6000 mm, 150.6250 mm): Pad 2 [GND] of R12 on B.Cu
+    @(111.7500 mm, 151.6250 mm): Track [GND] on B.Cu, length 0.7906 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6500 mm, 139.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(126.7375 mm, 137.2000 mm): Pad 2 [GND] of U17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.2000 mm, 118.1200 mm): Pad 2 [GND] of C58 on F.Cu
+    @(128.7300 mm, 121.1100 mm): PTH pad 9 [GND] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 125.3300 mm): PTH pad 2 [GND] of J8
+    @(134.1000 mm, 130.3375 mm): Pad 2 [GND] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.5250 mm, 155.9125 mm): Pad 4 [GND] of U20 on B.Cu
+    @(136.3250 mm, 157.9000 mm): Pad 2 [GND] of R16 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.3430 mm, 140.5610 mm): Track [GND] on B.Cu, length 0.2489 mm
+    @(143.0000 mm, 143.0900 mm): Pad 2 [GND] of R47 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.5000 mm, 126.8750 mm): Track [GND] on B.Cu, length 1.0625 mm
+    @(146.5625 mm, 125.7250 mm): Pad 2 [GND] of U10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.5000 mm, 141.8750 mm): Track [GND] on B.Cu, length 1.0625 mm
+    @(146.5625 mm, 140.7250 mm): Pad 2 [GND] of U11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.2500 mm, 157.5000 mm): Track [GND] on B.Cu, length 1.7863 mm
+    @(147.8625 mm, 155.7250 mm): Pad 2 [GND] of U12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.2370 mm, 121.8280 mm): Pad 2 [GND] of C70 on B.Cu
+    @(152.1000 mm, 127.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.8765 mm, 104.4670 mm): Pad 1 [VBUS] of R48 on F.Cu
+    @(141.1720 mm, 109.1700 mm): Track [VBUS] on B.Cu, length 1.9420 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.5375 mm, 148.6250 mm): Pad 7 [/Auxiliary input/AUX_SHDN_N] of U1 on F.Cu
+    @(110.6780 mm, 157.2400 mm): Track [/Auxiliary input/AUX_SHDN_N] on In2.Cu, length 4.8670 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2250 mm, 150.7000 mm): Track [/Auxiliary input/EFUSE_RTN] on F.Cu, length 1.1667 mm
+    @(124.3645 mm, 149.8395 mm): Track [/Auxiliary input/EFUSE_RTN] on F.Cu, length 1.0458 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.7840 mm, 113.3920 mm): Track [/Voltage and NTC/V_DC_DIV] on F.Cu, length 1.6480 mm
+    @(142.0320 mm, 110.6120 mm): Track [/Voltage and NTC/V_DC_DIV] on B.Cu, length 0.5798 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.7750 mm, 139.3125 mm): Pad 2 [V_DC] of U21 on F.Cu
+    @(136.2706 mm, 118.4659 mm): Track [V_DC] on F.Cu, length 1.2684 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.1000 mm, 134.9900 mm): Pad 2 [+3V3_INV] of R102 on B.Cu
+    @(102.1000 mm, 141.1750 mm): Track [+3V3_INV] on B.Cu, length 1.2500 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.7620 mm, 112.4500 mm): Track [+3V3_INV] on B.Cu, length 0.3630 mm
+    @(103.2200 mm, 108.2000 mm): Track [+3V3_INV] on B.Cu, length 1.1455 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.2990 mm, 136.4260 mm): Track [+3V3_INV] on B.Cu, length 1.5010 mm
+    @(112.2900 mm, 134.3250 mm): Track [+3V3_INV] on F.Cu, length 1.2700 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.2900 mm, 139.2750 mm): Pad 1 [+3V3_INV] of U28 on F.Cu
+    @(112.2380 mm, 137.7500 mm): Track [+3V3_INV] on B.Cu, length 0.3850 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.7000 mm, 151.0100 mm): Track [+3V3_INV] on B.Cu, length 1.8003 mm
+    @(117.9900 mm, 156.8000 mm): Track [+3V3_INV] on B.Cu, length 0.9296 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0020 mm, 105.6560 mm): Via [+3V3_INV] on F.Cu - B.Cu
+    @(116.6250 mm, 102.6650 mm): Track [+3V3_INV] on B.Cu, length 1.3850 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.5000 mm, 142.4800 mm): Pad 1 [+3V3_INV] of C62 on F.Cu
+    @(112.2900 mm, 139.2750 mm): Pad 1 [+3V3_INV] of U28 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.7000 mm, 151.0100 mm): Pad 1 [+3V3_INV] of R131 on B.Cu
+    @(115.5000 mm, 142.4800 mm): Pad 1 [+3V3_INV] of C62 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.2000 mm, 130.5800 mm): Track [+3V3_INV] on F.Cu, length 1.2502 mm
+    @(115.0625 mm, 128.1500 mm): Pad 14 [+3V3_INV] of U22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.7500 mm, 100.7500 mm): Zone 'REV E / quiet 3V3 logic supply' [+3V3_INV] on In3.Cu, priority 1
+    @(100.7500 mm, 100.7500 mm): Zone 'REV E / quiet 3V3 logic supply' [+3V3_INV] on In3.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.1000 mm, 101.5900 mm): Track [+3V3_INV] on B.Cu, length 0.8004 mm
+    @(130.6250 mm, 102.4020 mm): Track [+3V3_INV] on B.Cu, length 0.9122 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0100 mm, 119.0000 mm): Track [+3V3_INV] on F.Cu, length 1.1100 mm
+    @(125.9500 mm, 119.1375 mm): Pad 14 [+3V3_INV] of U25 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.8000 mm, 103.1800 mm): Pad 1 [+3V3_INV] of C17 on B.Cu
+    @(144.5000 mm, 106.9800 mm): Pad 1 [+3V3_INV] of C47 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.4123 mm, 152.6248 mm): Track [+3V3_INV] on B.Cu, length 1.3255 mm
+    @(134.3000 mm, 149.4200 mm): Track [+3V3_INV] on B.Cu, length 0.8202 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5900 mm, 137.7000 mm): Pad 1 [+3V3_INV] of R130 on B.Cu
+    @(139.2750 mm, 140.4000 mm): Track [+3V3_INV] on F.Cu, length 1.8003 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.2926 mm, 127.3824 mm): Track [+3V3_INV] on F.Cu, length 2.8035 mm
+    @(140.6125 mm, 126.1750 mm): Pad 8 [+3V3_INV] of U18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.6125 mm, 141.1750 mm): Track [+3V3_INV] on B.Cu, length 1.7772 mm
+    @(148.8375 mm, 140.0750 mm): Pad 6 [+3V3_INV] of U11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.4000 mm, 128.6100 mm): Pad 1 [+3V3_INV] of R134 on B.Cu
+    @(140.6125 mm, 126.1750 mm): Pad 8 [+3V3_INV] of U18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.9000 mm, 153.8250 mm): Track [+3V3_INV] on F.Cu, length 1.0298 mm
+    @(150.1375 mm, 155.0750 mm): Pad 6 [+3V3_INV] of U12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.0040 mm, 122.9470 mm): Pad 1 [+3V3_INV] of C45 on B.Cu
+    @(140.6125 mm, 126.1750 mm): Pad 8 [+3V3_INV] of U18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.8375 mm, 125.0750 mm): Pad 6 [+3V3_INV] of U10 on B.Cu
+    @(143.0040 mm, 122.9470 mm): Pad 1 [+3V3_INV] of C45 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.8375 mm, 140.0750 mm): Pad 6 [+3V3_INV] of U11 on B.Cu
+    @(149.3540 mm, 146.3220 mm): Pad 1 [+3V3_INV] of C38 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.3540 mm, 131.3220 mm): Pad 1 [+3V3_INV] of C37 on B.Cu
+    @(148.8375 mm, 125.0750 mm): Pad 6 [+3V3_INV] of U10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.0100 mm, 156.8000 mm): Pad 2 [/SWD UART CAN and status/LED_AN_3] of R133 on B.Cu
+    @(129.7875 mm, 152.6000 mm): Pad 2 [/SWD UART CAN and status/LED_AN_3] of D6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.5200 mm, 150.6000 mm): Pad 1 [TEMP_NTC] of C50 on B.Cu
+    @(134.0000 mm, 126.6000 mm): PTH pad 1 [TEMP_NTC] of J8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.2890 mm, 106.8010 mm): Pad 1 [TEMP_NTC] of R208 on F.Cu
+    @(134.0000 mm, 126.6000 mm): PTH pad 1 [TEMP_NTC] of J8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.2960 mm, 104.0570 mm): Pad 2 [TEMP_NTC] of R70 on B.Cu
+    @(123.2890 mm, 106.8010 mm): Pad 1 [TEMP_NTC] of R208 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 155.6100 mm): Pad 1 [Net-(D208-K1/A2)] of R91 on B.Cu
+    @(124.3000 mm, 128.5000 mm): Pad 3 [Net-(D208-K1/A2)] of D208 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.3000 mm, 128.5000 mm): Pad 3 [Net-(D208-K1/A2)] of D208 on B.Cu
+    @(123.2890 mm, 105.1510 mm): Pad 2 [Net-(D208-K1/A2)] of R208 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.6900 mm, 111.0000 mm): Pad 1 [+5V_SENSOR] of R100 on B.Cu
+    @(109.9900 mm, 108.5000 mm): Pad 1 [+5V_SENSOR] of R113 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1500 mm, 134.5625 mm): Pad 6 [+5V_SENSOR] of U5 on B.Cu
+    @(125.6000 mm, 152.5000 mm): PTH pad 1 [+5V_SENSOR] of J7
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.3520 mm, 123.8380 mm): Track [+5V_SENSOR] on B.Cu, length 0.4780 mm
+    @(111.6900 mm, 111.0000 mm): Pad 1 [+5V_SENSOR] of R100 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.0100 mm, 127.8000 mm): Pad 1 [+5V_SENSOR] of R107 on F.Cu
+    @(115.3500 mm, 128.2150 mm): Track [+5V_SENSOR] on B.Cu, length 1.4177 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7300 mm, 118.5700 mm): Track [PA2] on F.Cu, length 1.6787 mm
+    @(101.0900 mm, 146.4000 mm): Pad 1 [PA2] of R99 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.7678 mm, 141.8729 mm): Via [OC_HIGH_REF] on F.Cu - B.Cu
+    @(135.1750 mm, 155.9125 mm): Track [OC_HIGH_REF] on B.Cu, length 0.6919 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.8393 mm, 132.5212 mm): Track [OC_HIGH_REF] on F.Cu, length 0.7512 mm
+    @(136.3875 mm, 124.8750 mm): Pad 3 [OC_HIGH_REF] of U18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.8393 mm, 132.5212 mm): Track [OC_HIGH_REF] on F.Cu, length 0.7512 mm
+    @(136.3875 mm, 139.8750 mm): Track [OC_HIGH_REF] on B.Cu, length 0.7353 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.7880 mm, 117.7980 mm): Pad 1 [OC_HIGH_REF] of R46 on B.Cu
+    @(136.3875 mm, 124.8750 mm): Pad 3 [OC_HIGH_REF] of U18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.6986 mm, 157.8800 mm): Track [W_SOURCE] on F.Cu, length 0.6578 mm
+    @(138.8270 mm, 150.9738 mm): Track [W_SOURCE] on B.Cu, length 2.6542 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.3690 mm, 136.6190 mm): Pad 2 [W_SOURCE] of R34 on F.Cu
+    @(143.2020 mm, 147.4580 mm): Track [W_SOURCE] on B.Cu, length 1.1987 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.8625 mm, 108.3500 mm): Pad 10 [DRIVE_PERMIT] of U26 on B.Cu
+    @(123.9790 mm, 113.1560 mm): Track [DRIVE_PERMIT] on B.Cu, length 1.7324 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.5500 mm, 130.9000 mm): Track [/V half bridge/V_GATE_L] on F.Cu, length 0.4895 mm
+    @(144.3690 mm, 123.2690 mm): Pad 1 [/V half bridge/V_GATE_L] of R28 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.3000 mm, 133.1250 mm): Track [V_SOURCE] on B.Cu, length 2.0789 mm
+    @(144.3690 mm, 121.6190 mm): Pad 2 [V_SOURCE] of R28 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.7750 mm, 136.2000 mm): Track [V_SOURCE] on B.Cu, length 0.6600 mm
+    @(144.7750 mm, 139.4000 mm): Track [V_SOURCE] on B.Cu, length 0.4992 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.3250 mm, 128.5000 mm): Pad 2 [V_PHASE] of R27 on F.Cu
+    @(143.3000 mm, 131.4000 mm): Zone 'REV E / V commutation sheet' [V_PHASE] on F.Cu, priority 10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.6420 mm, 108.4725 mm): Pad 2 [/Voltage and NTC/V_U_DIV1] of R53 on F.Cu
+    @(124.6875 mm, 120.6000 mm): Pad 1 [/Voltage and NTC/V_U_DIV1] of R54 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2000 mm, 115.6900 mm): Pad 2 [/SWD UART CAN and status/UART_TX_PORT] of R123 on F.Cu
+    @(129.8000 mm, 108.0000 mm): PTH pad 1 [/SWD UART CAN and status/UART_TX_PORT] of J14
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.4860 mm, 107.0840 mm): Pad 1 [/SWD UART CAN and status/UART_RX_PORT] of R124 on B.Cu
+    @(131.0700 mm, 108.0000 mm): PTH pad 2 [/SWD UART CAN and status/UART_RX_PORT] of J14
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.0500 mm, 117.0000 mm): Track [+3V3_CORE_REF] on B.Cu, length 1.0281 mm
+    @(122.5690 mm, 118.5870 mm): Track [+3V3_CORE_REF] on F.Cu, length 0.6360 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.7100 mm, 123.1850 mm): Track [PC13] on B.Cu, length 1.2869 mm
+    @(119.9330 mm, 119.5370 mm): Pad 3 [PC13] of D209 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.1750 mm, 151.6875 mm): Pad 6 [OC_LOW_REF] of U20 on B.Cu
+    @(140.5650 mm, 143.4390 mm): Track [OC_LOW_REF] on In3.Cu, length 0.7200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.6000 mm, 142.5250 mm): Track [+12V_DRV] on B.Cu, length 0.8000 mm
+    @(119.6000 mm, 143.1750 mm): Pad 16 [+12V_DRV] of U2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.6000 mm, 142.5250 mm): Track [+12V_DRV] on B.Cu, length 0.8000 mm
+    @(120.5750 mm, 130.8000 mm): Pad 1 [+12V_DRV] of C9 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.4000 mm, 144.4250 mm): Pad 1 [+12V_DRV] of C8 on F.Cu
+    @(125.8000 mm, 148.0250 mm): Pad 1 [+12V_DRV] of C24 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.4000 mm, 144.4250 mm): Pad 1 [+12V_DRV] of C8 on F.Cu
+    @(119.6000 mm, 143.1750 mm): Pad 16 [+12V_DRV] of U2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.9750 mm, 152.0000 mm): Pad 1 [+12V_DRV] of C23 on B.Cu
+    @(125.8000 mm, 148.0250 mm): Pad 1 [+12V_DRV] of C24 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.4000 mm, 146.9000 mm): Track [+12V_DRV] on B.Cu, length 2.4228 mm
+    @(129.9750 mm, 152.0000 mm): Pad 1 [+12V_DRV] of C23 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.0620 mm, 146.5200 mm): Track [+12V_DRV] on In3.Cu, length 2.9288 mm
+    @(134.4000 mm, 146.9000 mm): Track [+12V_DRV] on B.Cu, length 2.4228 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.3875 mm, 110.7000 mm): Pad 1 [/Voltage and NTC/V_DC_DIV1] of R49 on F.Cu
+    @(135.7015 mm, 104.4670 mm): Pad 2 [/Voltage and NTC/V_DC_DIV1] of R48 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.0875 mm, 116.1000 mm): Pad 2 [/Base LEDs/LED_PWR_AN] of D3 on F.Cu
+    @(138.6100 mm, 137.7000 mm): Pad 2 [/Base LEDs/LED_PWR_AN] of R130 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.3250 mm, 143.5000 mm): Pad 2 [W_PHASE] of R33 on F.Cu
+    @(120.9655 mm, 127.2260 mm): Pad 1 [W_PHASE] of R63 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.3000 mm, 146.4000 mm): Zone 'REV E / W commutation sheet' [W_PHASE] on F.Cu, priority 10
+    @(143.3250 mm, 143.5000 mm): Pad 2 [W_PHASE] of R33 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.5000 mm, 144.0450 mm): Track [/Auxiliary input/AUX_FUSED] on F.Cu, length 2.6050 mm
+    @(112.6020 mm, 151.9480 mm): Track [/Auxiliary input/AUX_FUSED] on In3.Cu, length 1.7925 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.5375 mm, 145.3750 mm): Pad 2 [/Auxiliary input/AUX_FUSED] of U1 on F.Cu
+    @(115.5375 mm, 144.7250 mm): Pad 1 [/Auxiliary input/AUX_FUSED] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.2750 mm, 152.8000 mm): Track [AUX_PROTECTED] on B.Cu, length 1.5330 mm
+    @(112.2500 mm, 150.5380 mm): Track [AUX_PROTECTED] on B.Cu, length 0.9500 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.2625 mm, 144.1875 mm): Track [AUX_PROTECTED] on F.Cu, length 0.5375 mm
+    @(121.2625 mm, 145.3750 mm): Pad 15 [AUX_PROTECTED] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.4000 mm, 143.8250 mm): Pad 6 [AUX_PROTECTED] of U2 on B.Cu
+    @(125.4000 mm, 143.1750 mm): Pad 5 [AUX_PROTECTED] of U2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.4000 mm, 143.8250 mm): Pad 6 [AUX_PROTECTED] of U2 on B.Cu
+    @(119.8750 mm, 142.8000 mm): Track [AUX_PROTECTED] on F.Cu, length 1.9622 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.1000 mm, 130.0100 mm): Pad 1 [ENABLE_IN] of R82 on F.Cu
+    @(137.6300 mm, 133.9300 mm): Pad 1 [ENABLE_IN] of TP17 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.8625 mm, 109.6500 mm): Pad 12 [ENABLE_IN] of U26 on B.Cu
+    @(117.1000 mm, 130.0100 mm): Pad 1 [ENABLE_IN] of R82 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.4900 mm, 101.8000 mm): Pad 2 [ENABLE_IN] of R141 on B.Cu
+    @(125.8625 mm, 109.6500 mm): Pad 12 [ENABLE_IN] of U26 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.6000 mm, 114.7125 mm): Pad 1 [/Voltage and NTC/V_V_DIV1] of R59 on F.Cu
+    @(136.0445 mm, 119.5330 mm): Pad 2 [/Voltage and NTC/V_V_DIV1] of R58 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.0080 mm, 101.4150 mm): Pad 1 [/Voltage and NTC/V_V_DIV2] of R60 on B.Cu
+    @(133.6000 mm, 112.8875 mm): Pad 2 [/Voltage and NTC/V_V_DIV2] of R59 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.4100 mm, 137.2000 mm): Pad 1 [/Hardware latch/RESET_REQUEST] of R73 on F.Cu
+    @(126.2625 mm, 132.1500 mm): Pad 8 [/Hardware latch/RESET_REQUEST] of U24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.3900 mm, 137.2000 mm): Pad 2 [/Hardware latch/RESET_CLK] of R73 on F.Cu
+    @(110.5000 mm, 141.6800 mm): Pad 1 [/Hardware latch/RESET_CLK] of C55 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.5000 mm, 141.6800 mm): Pad 1 [/Hardware latch/RESET_CLK] of C55 on F.Cu
+    @(114.8300 mm, 139.2750 mm): Pad 3 [/Hardware latch/RESET_CLK] of U28 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.2000 mm, 118.9900 mm): Pad 2 [PA3] of R105 on F.Cu
+    @(114.1850 mm, 115.1250 mm): Track [PA3] on B.Cu, length 0.7283 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.8625 mm, 107.7000 mm): Pad 9 [PWM_WL_IN] of U26 on B.Cu
+    @(118.2100 mm, 132.1000 mm): Pad 1 [PWM_WL_IN] of R81 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.3100 mm, 103.0000 mm): Pad 2 [PWM_WL_IN] of R140 on B.Cu
+    @(125.8625 mm, 107.7000 mm): Pad 9 [PWM_WL_IN] of U26 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1000 mm, 114.9250 mm): Pad 1 [V_W_PORT] of R207 on B.Cu
+    @(133.2000 mm, 141.9900 mm): Pad 2 [V_W_PORT] of R67 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.7110 mm, 119.4830 mm): Pad 3 [Net-(D207-K1/A2)] of D207 on F.Cu
+    @(116.1000 mm, 113.2750 mm): Pad 2 [Net-(D207-K1/A2)] of R207 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.4000 mm, 150.7100 mm): Pad 1 [Net-(D207-K1/A2)] of R90 on B.Cu
+    @(117.7110 mm, 119.4830 mm): Pad 3 [Net-(D207-K1/A2)] of D207 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.3000 mm, 158.6250 mm): Pad 1 [/Bus and brake/BR_GATE] of R18 on B.Cu
+    @(143.4585 mm, 157.6850 mm): Pad 2 [/Bus and brake/BR_GATE] of R17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.4585 mm, 157.6850 mm): Pad 2 [/Bus and brake/BR_GATE] of R17 on F.Cu
+    @(140.0250 mm, 151.5950 mm): Pad 4 [/Bus and brake/BR_GATE] of Q7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.4625 mm, 115.7500 mm): Pad 1 [/Current sensing/VBIAS_DIV] of U13 on F.Cu
+    @(123.5000 mm, 114.7100 mm): Pad 1 [/Current sensing/VBIAS_DIV] of R41 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 114.7100 mm): Pad 1 [/Current sensing/VBIAS_DIV] of R41 on F.Cu
+    @(124.9900 mm, 119.0000 mm): Pad 2 [/Current sensing/VBIAS_DIV] of R40 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.0200 mm, 113.2000 mm): Pad 1 [/Current sensing/VBIAS_DIV] of C40 on F.Cu
+    @(123.5000 mm, 114.7100 mm): Pad 1 [/Current sensing/VBIAS_DIV] of R41 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.2700 mm, 143.9700 mm): PTH pad 28 [PB5] of J101
+    @(134.5125 mm, 158.1000 mm): Pad 1 [PB5] of D7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.0875 mm, 158.1000 mm): Pad 2 [/SWD UART CAN and status/LED_AN_4] of D7 on F.Cu
+    @(142.4000 mm, 127.5900 mm): Pad 2 [/SWD UART CAN and status/LED_AN_4] of R134 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.2500 mm, 115.7500 mm): Track [/U half bridge/U_GATE_H] on B.Cu, length 1.9144 mm
+    @(146.7750 mm, 121.3000 mm): Pad 1 [/U half bridge/U_GATE_H] of R21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.4000 mm, 108.2100 mm): Pad 1 [/SWD UART CAN and status/SWDIO_PORT] of R120 on B.Cu
+    @(109.2700 mm, 158.0000 mm): PTH pad 2 [/SWD UART CAN and status/SWDIO_PORT] of J13
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.5400 mm, 158.0000 mm): PTH pad 3 [/SWD UART CAN and status/SWCLK_PORT] of J13
+    @(128.7900 mm, 106.2000 mm): Pad 1 [/SWD UART CAN and status/SWCLK_PORT] of R121 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.3375 mm, 128.8000 mm): Pad 2 [OC_U_LOW_OK] of U22 on F.Cu
+    @(140.6125 mm, 125.5250 mm): Pad 7 [OC_U_LOW_OK] of U18 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.3375 mm, 130.7500 mm): Pad 5 [OC_V_HIGH_OK] of U22 on F.Cu
+    @(136.3875 mm, 141.1750 mm): Pad 1 [OC_V_HIGH_OK] of U19 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0625 mm, 130.7500 mm): Pad 10 [OC_V_LOW_OK] of U22 on F.Cu
+    @(140.6125 mm, 140.5250 mm): Pad 7 [OC_V_LOW_OK] of U19 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0625 mm, 130.1000 mm): Pad 11 [/Hardware latch/HEALTH_CHAIN_4] of U22 on F.Cu
+    @(116.1375 mm, 122.3500 mm): Pad 1 [/Hardware latch/HEALTH_CHAIN_4] of U23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0625 mm, 128.8000 mm): Pad 13 [OC_W_HIGH_OK] of U22 on F.Cu
+    @(136.4750 mm, 155.9125 mm): Pad 1 [OC_W_HIGH_OK] of U20 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.0000 mm, 142.8750 mm): Pad 1 [/Driver supply/BB_BST1] of C4 on F.Cu
+    @(125.4000 mm, 141.8750 mm): Track [/Driver supply/BB_BST1] on B.Cu, length 0.8000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.6000 mm, 141.2250 mm): Track [/Driver supply/BB_BST2] on B.Cu, length 0.8000 mm
+    @(121.6000 mm, 140.2750 mm): Track [/Driver supply/BB_BST2] on F.Cu, length 0.7949 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.7250 mm, 154.8000 mm): Track [/Auxiliary input/AUX_OV_DIV] on B.Cu, length 0.9899 mm
+    @(115.5375 mm, 147.3250 mm): Pad 5 [/Auxiliary input/AUX_OV_DIV] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.6750 mm, 128.5000 mm): Pad 1 [/V half bridge/V_GATE_H] of R27 on F.Cu
+    @(140.5000 mm, 129.6250 mm): Track [/V half bridge/V_GATE_H] on B.Cu, length 6.0088 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.5375 mm, 102.1000 mm): Pad 6 [/Hardware latch/FAULT_ACTIVE] of U27 on B.Cu
+    @(108.9000 mm, 139.6100 mm): Pad 1 [/Hardware latch/FAULT_ACTIVE] of R74 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.5310 mm, 137.8888 mm): Track [/Hardware latch/FAULT_BASE] on F.Cu, length 0.9298 mm
+    @(124.0250 mm, 122.5500 mm): Pad 1 [/Hardware latch/FAULT_BASE] of Q8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.1330 mm, 124.6670 mm): Track [U_SOURCE] on In2.Cu, length 3.4592 mm
+    @(135.6750 mm, 121.5000 mm): Track [U_SOURCE] on B.Cu, length 1.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.2125 mm, 110.7000 mm): Pad 2 [/Voltage and NTC/V_DC_DIV2] of R49 on F.Cu
+    @(147.2230 mm, 104.9160 mm): Pad 1 [/Voltage and NTC/V_DC_DIV2] of R50 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1375 mm, 123.0000 mm): Pad 2 [OC_W_LOW_OK] of U23 on F.Cu
+    @(135.8250 mm, 151.6875 mm): Pad 7 [OC_W_LOW_OK] of U20 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1375 mm, 124.9500 mm): Pad 5 [BUS_OV_OK] of U23 on F.Cu
+    @(133.1250 mm, 139.3125 mm): Pad 1 [BUS_OV_OK] of U21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1375 mm, 125.6000 mm): Pad 6 [/Hardware latch/HEALTH_CHAIN_6] of U23 on F.Cu
+    @(121.8625 mm, 125.6000 mm): Pad 9 [/Hardware latch/HEALTH_CHAIN_6] of U23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.8625 mm, 124.9500 mm): Pad 10 [DRV_UV_OK] of U23 on F.Cu
+    @(133.7750 mm, 135.0875 mm): Pad 7 [DRV_UV_OK] of U21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.5375 mm, 128.2500 mm): Pad 1 [/Hardware latch/HEALTH_CHAIN_8] of U24 on F.Cu
+    @(121.8625 mm, 124.3000 mm): Pad 11 [/Hardware latch/HEALTH_CHAIN_8] of U23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 129.4100 mm): Track [BASE_LOGIC_OK] on B.Cu, length 0.8259 mm
+    @(121.8625 mm, 123.0000 mm): Pad 13 [BASE_LOGIC_OK] of U23 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.2625 mm, 102.1000 mm): Pad 9 [BASE_LOGIC_OK] of U27 on B.Cu
+    @(110.7625 mm, 114.3500 mm): Pad 1 [BASE_LOGIC_OK] of U6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.5750 mm, 150.9000 mm): Pad 1 [/Logic and sensors/SENSOR_PWR_FLT_N] of R15 on F.Cu
+    @(126.4130 mm, 135.7660 mm): Track [/Logic and sensors/SENSOR_PWR_FLT_N] on In2.Cu, length 13.0130 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.5375 mm, 103.4000 mm): Pad 4 [/Hardware latch/HEALTH_ALL] of U27 on B.Cu
+    @(119.5000 mm, 132.0000 mm): Track [/Hardware latch/HEALTH_ALL] on F.Cu, length 0.3606 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.7000 mm, 131.7000 mm): Track [/Hardware latch/HEALTH_ALL] on F.Cu, length 0.8610 mm
+    @(126.2625 mm, 131.5000 mm): Pad 9 [/Hardware latch/HEALTH_ALL] of U24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.6400 mm, 139.2750 mm): Pad 6 [/Hardware latch/NO_LATCH] of U28 on F.Cu
+    @(126.2625 mm, 128.9000 mm): Pad 13 [/Hardware latch/NO_LATCH] of U24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2625 mm, 128.9000 mm): Pad 13 [/Hardware latch/NO_LATCH] of U24 on F.Cu
+    @(108.5375 mm, 102.7500 mm): Pad 5 [/Hardware latch/NO_LATCH] of U27 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.7000 mm, 149.9900 mm): Pad 2 [/SWD UART CAN and status/LED_AN_1] of R131 on B.Cu
+    @(124.7000 mm, 116.0125 mm): Pad 2 [/SWD UART CAN and status/LED_AN_1] of D4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.3750 mm, 150.1000 mm): Track [DRV_PG_LOGIC] on B.Cu, length 1.4690 mm
+    @(120.5375 mm, 128.9000 mm): Pad 2 [DRV_PG_LOGIC] of U24 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.5375 mm, 128.9000 mm): Pad 2 [DRV_PG_LOGIC] of U24 on F.Cu
+    @(114.2625 mm, 102.7500 mm): Pad 10 [DRV_PG_LOGIC] of U27 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.5375 mm, 130.8500 mm): Pad 5 [AUX_FLT_N] of U24 on F.Cu
+    @(121.2625 mm, 146.0250 mm): Track [AUX_FLT_N] on F.Cu, length 6.0376 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0000 mm, 114.6750 mm): Pad 2 [/Voltage and NTC/V_U_DIV] of R55 on B.Cu
+    @(133.9000 mm, 111.4250 mm): Pad 1 [/Voltage and NTC/V_U_DIV] of R56 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0000 mm, 114.6750 mm): Pad 2 [/Voltage and NTC/V_U_DIV] of R55 on B.Cu
+    @(133.2500 mm, 122.8375 mm): Pad 1 [/Voltage and NTC/V_U_DIV] of U15 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.5500 mm, 121.1625 mm): Track [/Voltage and NTC/V_U] on F.Cu, length 1.6750 mm
+    @(143.8850 mm, 132.2330 mm): Pad 1 [/Voltage and NTC/V_U] of R57 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.1375 mm, 109.0000 mm): Pad 4 [PWM_WH_IN] of U26 on B.Cu
+    @(126.7000 mm, 145.4100 mm): Pad 1 [PWM_WH_IN] of R80 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.6000 mm, 102.4900 mm): Pad 2 [PWM_WH_IN] of R139 on B.Cu
+    @(120.1375 mm, 109.0000 mm): Pad 4 [PWM_WH_IN] of U26 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.0000 mm, 124.8625 mm): Pad 4 [PWM_UH_IN] of U25 on B.Cu
+    @(103.1000 mm, 140.9100 mm): Pad 1 [PWM_UH_IN] of R76 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.7900 mm, 127.8000 mm): Pad 2 [PWM_UH_IN] of R135 on B.Cu
+    @(124.0000 mm, 124.8625 mm): Pad 4 [PWM_UH_IN] of U25 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.6100 mm, 141.1000 mm): Track [OV_REF_1V30] on F.Cu, length 0.1193 mm
+    @(144.1670 mm, 141.7570 mm): Pad 1 [OV_REF_1V30] of R69 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.3760 mm, 104.5860 mm): Track [/SWD UART CAN and status/CAN_H] on B.Cu, length 0.7410 mm
+    @(155.6000 mm, 108.4000 mm): PTH pad 1 [/SWD UART CAN and status/CAN_H] of J15
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8700 mm, 108.4000 mm): PTH pad 2 [/SWD UART CAN and status/CAN_L] of J15
+    @(125.3000 mm, 105.6000 mm): Track [/SWD UART CAN and status/CAN_L] on B.Cu, length 0.3606 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.3000 mm, 131.8000 mm): Pad 1 [FAULT_N] of TP16 on B.Cu
+    @(102.0000 mm, 149.3250 mm): Pad 1 [FAULT_N] of R211 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.9750 mm, 123.5000 mm): Pad 3 [FAULT_N] of Q8 on F.Cu
+    @(111.3000 mm, 131.8000 mm): Pad 1 [FAULT_N] of TP16 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.5770 mm, 114.5030 mm): Pad 1 [/Voltage and NTC/V_V_DIV] of R61 on B.Cu
+    @(133.4500 mm, 130.3375 mm): Pad 1 [/Voltage and NTC/V_V_DIV] of U16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.7500 mm, 128.6625 mm): Track [/Voltage and NTC/V_V] on F.Cu, length 1.6750 mm
+    @(144.5900 mm, 142.9000 mm): Pad 1 [/Voltage and NTC/V_V] of R62 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.4000 mm, 154.3900 mm): Pad 2 [/SWD UART CAN and status/LED_AN_2] of R132 on B.Cu
+    @(123.1000 mm, 151.3125 mm): Pad 2 [/SWD UART CAN and status/LED_AN_2] of D5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1375 mm, 117.0500 mm): Track [/Current sensing/VBIAS_1V65] on F.Cu, length 1.6750 mm
+    @(146.5625 mm, 125.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.5625 mm, 125.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U10 on B.Cu
+    @(148.8375 mm, 125.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.5625 mm, 140.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U11 on B.Cu
+    @(148.8375 mm, 140.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.8625 mm, 155.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U12 on B.Cu
+    @(150.1375 mm, 155.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.8625 mm, 155.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U12 on B.Cu
+    @(148.8375 mm, 140.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.8375 mm, 125.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U10 on B.Cu
+    @(146.5625 mm, 140.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 113.2000 mm): PTH pad 1 [/Encoders and SPI/ENC_B_VCC] of J10
+    @(116.9900 mm, 127.8000 mm): Pad 2 [/Encoders and SPI/ENC_B_VCC] of R107 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 109.3900 mm): PTH pad 4 [/Encoders and SPI/ENC_B_B_PORT] of J10
+    @(110.7100 mm, 147.3000 mm): Pad 1 [/Encoders and SPI/ENC_B_B_PORT] of R103 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.1000 mm, 143.2100 mm): Pad 1 [PWM_VH_IN] of R78 on F.Cu
+    @(125.0270 mm, 120.1160 mm): Track [PWM_VH_IN] on B.Cu, length 1.1790 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 129.6000 mm): PTH pad 1 [/Encoders and SPI/SPI_B_VCC] of J12
+    @(117.7100 mm, 123.5000 mm): Pad 2 [/Encoders and SPI/SPI_B_VCC] of R119 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 127.0600 mm): PTH pad 3 [/Encoders and SPI/SPI_B_SCK_PORT] of J12
+    @(118.5860 mm, 110.4240 mm): Pad 2 [/Encoders and SPI/SPI_B_SCK_PORT] of R114 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 125.7900 mm): PTH pad 4 [/Encoders and SPI/SPI_B_MOSI_PORT] of J12
+    @(111.5100 mm, 106.9000 mm): Pad 2 [/Encoders and SPI/SPI_B_MOSI_PORT] of R115 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 124.5200 mm): PTH pad 5 [/Encoders and SPI/SPI_B_MISO_PORT] of J12
+    @(108.9000 mm, 107.1900 mm): Pad 2 [/Encoders and SPI/SPI_B_MISO_PORT] of R116 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 123.2500 mm): PTH pad 6 [/Encoders and SPI/SPI_B_CS_PORT] of J12
+    @(124.6540 mm, 116.3230 mm): Pad 2 [/Encoders and SPI/SPI_B_CS_PORT] of R117 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3000 mm, 138.2000 mm): PTH pad 1 [/Encoders and SPI/SPI_A_VCC] of J11
+    @(111.0100 mm, 108.5000 mm): Pad 2 [/Encoders and SPI/SPI_A_VCC] of R113 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3000 mm, 135.6600 mm): PTH pad 3 [/Encoders and SPI/SPI_A_SCK_PORT] of J11
+    @(114.0000 mm, 109.9900 mm): Pad 2 [/Encoders and SPI/SPI_A_SCK_PORT] of R108 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3000 mm, 134.3900 mm): PTH pad 4 [/Encoders and SPI/SPI_A_MOSI_PORT] of J11
+    @(109.5000 mm, 109.6900 mm): Pad 2 [/Encoders and SPI/SPI_A_MOSI_PORT] of R109 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3000 mm, 133.1200 mm): PTH pad 5 [/Encoders and SPI/SPI_A_MISO_PORT] of J11
+    @(112.3100 mm, 109.8000 mm): Pad 2 [/Encoders and SPI/SPI_A_MISO_PORT] of R110 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3000 mm, 131.8500 mm): PTH pad 6 [/Encoders and SPI/SPI_A_CS_PORT] of J11
+    @(118.5430 mm, 111.6490 mm): Pad 2 [/Encoders and SPI/SPI_A_CS_PORT] of R111 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.4860 mm, 106.0640 mm): Pad 2 [PB11] of R124 on B.Cu
+    @(127.3980 mm, 114.5880 mm): Track [PB11] on F.Cu, length 0.4073 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.0000 mm, 118.1600 mm): PTH pad 3 [/Encoders and SPI/ENC_A_A_PORT] of J9
+    @(124.8900 mm, 131.0000 mm): Pad 1 [/Encoders and SPI/ENC_A_A_PORT] of R94 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.5780 mm, 106.9230 mm): Pad 3 [Net-(D204-K1/A2)] of D204 on F.Cu
+    @(120.3510 mm, 123.5770 mm): Track [Net-(D204-K1/A2)] on B.Cu, length 1.6090 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.7905 mm, 127.2260 mm): Pad 2 [/Voltage and NTC/V_W_DIV1] of R63 on B.Cu
+    @(124.9875 mm, 134.9000 mm): Pad 1 [/Voltage and NTC/V_W_DIV1] of R64 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.2000 mm, 111.7250 mm): Pad 1 [V_V_PORT] of R206 on B.Cu
+    @(145.6100 mm, 142.9000 mm): Pad 2 [V_V_PORT] of R62 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.3800 mm, 125.4200 mm): Track [Net-(D206-K1/A2)] on B.Cu, length 3.2244 mm
+    @(108.5000 mm, 155.3100 mm): Pad 1 [Net-(D206-K1/A2)] of R89 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.8230 mm, 121.8860 mm): Track [Net-(D206-K1/A2)] on In2.Cu, length 5.0077 mm
+    @(116.2000 mm, 110.0750 mm): Track [Net-(D206-K1/A2)] on B.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.5660 mm, 110.4240 mm): Pad 1 [PC10] of R114 on B.Cu
+    @(128.7300 mm, 136.3500 mm): PTH pad 21 [PC10] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7300 mm, 141.4300 mm): PTH pad 25 [PB2] of J101
+    @(116.5000 mm, 154.5900 mm): Pad 2 [PB2] of R91 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 154.5900 mm): Pad 2 [PB2] of R91 on B.Cu
+    @(145.8940 mm, 154.7390 mm): Pad 1 [PB2] of C76 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.4850 mm, 120.9900 mm): Track [Net-(D202-K1/A2)] on B.Cu, length 1.0112 mm
+    @(134.1900 mm, 130.1000 mm): Pad 1 [Net-(D202-K1/A2)] of R85 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.1375 mm, 109.6500 mm): Pad 3 [V_LIN] of U26 on B.Cu
+    @(134.9520 mm, 138.0420 mm): Track [V_LIN] on B.Cu, length 0.7722 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.7200 mm, 127.6760 mm): Track [Net-(D205-K1/A2)] on B.Cu, length 1.2210 mm
+    @(133.7900 mm, 148.8000 mm): Pad 1 [Net-(D205-K1/A2)] of R88 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.5000 mm, 133.3900 mm): Pad 1 [/V half bridge/V_BOOT] of C29 on B.Cu
+    @(143.3000 mm, 134.0900 mm): Track [/V half bridge/V_BOOT] on B.Cu, length 2.2794 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.0000 mm, 126.5100 mm): Pad 1 [PB12] of R143 on B.Cu
+    @(102.0000 mm, 147.6750 mm): Pad 2 [PB12] of R211 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.7300 mm, 116.0300 mm): PTH pad 5 [PB12] of J102
+    @(119.0000 mm, 126.5100 mm): Pad 1 [PB12] of R143 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.1375 mm, 107.7000 mm): Pad 6 [W_HIN] of U26 on B.Cu
+    @(148.8050 mm, 143.9370 mm): Track [W_HIN] on B.Cu, length 1.2430 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.3130 mm, 120.4880 mm): Track [U_LIN] on B.Cu, length 1.4312 mm
+    @(150.4750 mm, 119.8650 mm): Pad 2 [U_LIN] of U7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.1100 mm, 114.4000 mm): Pad 2 [PB6] of R101 on B.Cu
+    @(101.1000 mm, 136.7340 mm): Track [PB6] on B.Cu, length 0.7240 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.1000 mm, 102.6100 mm): Pad 1 [/SWD UART CAN and status/CAN_TX_PHY] of R128 on B.Cu
+    @(116.6250 mm, 105.2050 mm): Track [/SWD UART CAN and status/CAN_TX_PHY] on B.Cu, length 0.5490 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7300 mm, 128.7300 mm): PTH pad 15 [PA10] of J101
+    @(142.6000 mm, 103.5100 mm): Pad 1 [PA10] of R139 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.4040 mm, 148.2060 mm): Track [PA4] on B.Cu, length 0.8400 mm
+    @(133.1000 mm, 152.8800 mm): Pad 1 [PA4] of C73 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.9000 mm, 119.7000 mm): Track [Net-(D201-K1/A2)] on B.Cu, length 1.4318 mm
+    @(122.7000 mm, 130.4100 mm): Pad 1 [Net-(D201-K1/A2)] of R84 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8200 mm, 102.2000 mm): Pad 1 [PC0] of C69 on B.Cu
+    @(128.7300 mm, 123.6500 mm): PTH pad 11 [PC0] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.9000 mm, 143.1250 mm): Pad 1 [+5V_INV] of C15 on B.Cu
+    @(108.7960 mm, 137.2460 mm): Track [+5V_INV] on B.Cu, length 0.7128 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7300 mm, 110.9500 mm): PTH pad 1 [+5V_INV] of J101
+    @(104.7300 mm, 113.4900 mm): PTH pad 3 [+5V_INV] of J101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.2700 mm, 135.8500 mm): Track [+5V_INV] on B.Cu, length 0.6703 mm
+    @(104.7300 mm, 113.4900 mm): PTH pad 3 [+5V_INV] of J101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.1890 mm, 146.3600 mm): Track [+5V_INV] on B.Cu, length 3.7272 mm
+    @(114.1500 mm, 150.5375 mm): Pad 1 [+5V_INV] of U3 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1500 mm, 136.8375 mm): Pad 1 [+5V_INV] of U5 on B.Cu
+    @(114.2500 mm, 138.5930 mm): Track [+5V_INV] on B.Cu, length 1.7550 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.2250 mm, 148.0000 mm): Pad 1 [+5V_INV] of R10 on B.Cu
+    @(120.8250 mm, 152.6000 mm): Track [+5V_INV] on B.Cu, length 0.7920 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.5250 mm, 151.6875 mm): Pad 5 [I_W] of U20 on B.Cu
+    @(139.3124 mm, 149.9205 mm): Track [I_W] on In3.Cu, length 0.8806 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.8250 mm, 155.9120 mm): Track [I_W] on B.Cu, length 0.6720 mm
+    @(134.5250 mm, 151.6875 mm): Pad 5 [I_W] of U20 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.0000 mm, 126.6800 mm): Pad 1 [PC3] of C72 on B.Cu
+    @(131.2700 mm, 126.1900 mm): PTH pad 14 [PC3] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.7880 mm, 116.7780 mm): Pad 2 [/Current sensing/OC_HI_MID] of R46 on B.Cu
+    @(143.0000 mm, 144.1100 mm): Pad 1 [/Current sensing/OC_HI_MID] of R47 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7300 mm, 126.1900 mm): PTH pad 13 [PA8] of J101
+    @(145.8100 mm, 127.8000 mm): Pad 1 [PA8] of R135 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.2700 mm, 131.2700 mm): PTH pad 18 [PA13] of J101
+    @(107.4000 mm, 107.1900 mm): Pad 2 [PA13] of R120 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.7300 mm, 133.8100 mm): PTH pad 19 [PA14] of J101
+    @(129.8100 mm, 106.2000 mm): Pad 2 [PA14] of R121 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.2700 mm, 133.8100 mm): PTH pad 20 [PA15] of J101
+    @(117.5230 mm, 111.6490 mm): Pad 1 [PA15] of R111 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.5230 mm, 111.6490 mm): Pad 1 [PA15] of R111 on B.Cu
+    @(114.7900 mm, 108.4000 mm): Pad 1 [PA15] of R112 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.2700 mm, 138.8900 mm): PTH pad 24 [PB1] of J101
+    @(101.1000 mm, 152.8800 mm): Pad 1 [PB1] of C75 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.4000 mm, 149.6900 mm): Pad 2 [PB1] of R90 on B.Cu
+    @(107.2700 mm, 138.8900 mm): PTH pad 24 [PB1] of J101
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.4900 mm, 106.9000 mm): Pad 1 [PC12] of R115 on B.Cu
+    @(128.7300 mm, 138.8900 mm): PTH pad 23 [PC12] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.8625 mm, 107.0500 mm): Pad 8 [W_LIN] of U26 on B.Cu
+    @(143.2020 mm, 145.8080 mm): Track [W_LIN] on B.Cu, length 4.1995 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.5000 mm, 148.3900 mm): Pad 1 [/W half bridge/W_BOOT] of C33 on B.Cu
+    @(143.3000 mm, 149.0900 mm): Track [/W half bridge/W_BOOT] on B.Cu, length 2.2794 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.3100 mm, 104.4000 mm): Pad 2 [BRAKE_IN] of R142 on B.Cu
+    @(140.2660 mm, 155.2500 mm): Track [BRAKE_IN] on B.Cu, length 0.9928 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.3560 mm, 127.3880 mm): Track [PC1] on B.Cu, length 1.5160 mm
+    @(152.2770 mm, 121.8280 mm): Pad 1 [PC1] of C70 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.6125 mm, 124.2250 mm): Pad 5 [I_U] of U18 on B.Cu
+    @(147.7000 mm, 124.9670 mm): Track [I_U] on B.Cu, length 0.2250 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.0670 mm, 114.9330 mm): Pad 1 [I_W_PORT] of R203 on B.Cu
+    @(147.9250 mm, 158.5000 mm): Pad 2 [I_W_PORT] of R39 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.9490 mm, 127.8390 mm): Track [PC2] on B.Cu, length 1.3591 mm
+    @(142.5000 mm, 137.8800 mm): Pad 1 [PC2] of C71 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.5100 mm, 101.8000 mm): Pad 1 [PC4] of R141 on B.Cu
+    @(128.7300 mm, 128.7300 mm): PTH pad 15 [PC4] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.6540 mm, 117.3430 mm): Pad 1 [PC9] of R117 on B.Cu
+    @(114.4900 mm, 107.0000 mm): Pad 1 [PC9] of R118 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.2700 mm, 133.8100 mm): PTH pad 20 [PC9] of J102
+    @(124.6540 mm, 117.3430 mm): Pad 1 [PC9] of R117 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.9000 mm, 108.2100 mm): Pad 1 [PC11] of R116 on B.Cu
+    @(131.2700 mm, 136.3500 mm): PTH pad 22 [PC11] of J102
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.4000 mm, 144.6250 mm): Pad 1 [I_V] of R38 on B.Cu
+    @(148.8375 mm, 139.4250 mm): Pad 5 [I_V] of U11 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.5950 mm, 109.0000 mm): Track [ENABLE_QUALIFIED] on B.Cu, length 1.2670 mm
+    @(125.3000 mm, 124.8625 mm): Pad 2 [ENABLE_QUALIFIED] of U25 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.2625 mm, 103.4000 mm): Pad 11 [BASE_READY] of U27 on B.Cu
+    @(133.8000 mm, 123.9250 mm): Pad 1 [BASE_READY] of R210 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.4350 mm, 119.6100 mm): Track [U_HIN] on B.Cu, length 0.8980 mm
+    @(122.7000 mm, 124.8625 mm): Pad 6 [U_HIN] of U25 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0250 mm, 150.1000 mm): Pad 1 [/Driver supply/DRV_PG_NOM] of R11 on B.Cu
+    @(120.5750 mm, 148.0000 mm): Pad 2 [/Driver supply/DRV_PG_NOM] of R10 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.5750 mm, 148.0000 mm): Pad 2 [/Driver supply/DRV_PG_NOM] of R10 on B.Cu
+    @(119.6000 mm, 143.8250 mm): Pad 15 [/Driver supply/DRV_PG_NOM] of U2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.0000 mm, 119.1375 mm): Pad 11 [V_HIN] of U25 on B.Cu
+    @(138.6620 mm, 128.1130 mm): Track [V_HIN] on B.Cu, length 2.6757 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.8900 mm, 128.8000 mm): Pad 1 [Net-(D203-K1/A2)] of R86 on B.Cu
+    @(122.0000 mm, 115.0000 mm): Track [Net-(D203-K1/A2)] on B.Cu, length 1.2160 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.6000 mm, 118.2250 mm): Pad 1 [I_U_PORT] of R201 on B.Cu
+    @(148.4000 mm, 127.9750 mm): Pad 2 [I_U_PORT] of R37 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.3510 mm, 125.2270 mm): Pad 1 [V_DC_PORT] of R204 on B.Cu
+    @(141.1100 mm, 112.3000 mm): Pad 2 [V_DC_PORT] of R52 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.1250 mm, 128.7000 mm): Pad 1 [V_U_PORT] of R205 on B.Cu
+    @(143.8850 mm, 131.2130 mm): Pad 2 [V_U_PORT] of R57 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2000 mm, 121.9250 mm): Pad 1 [I_V_PORT] of R202 on B.Cu
+    @(148.4000 mm, 142.9750 mm): Pad 2 [I_V_PORT] of R38 on B.Cu
+
+** Found 541 Footprint errors **
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(113.8000 mm, 142.4000 mm): Footprint C1
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(124.4000 mm, 149.1000 mm): Footprint C2
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(123.8000 mm, 142.3000 mm): Footprint C3
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(110.5000 mm, 146.5000 mm): Footprint F2
+[footprint_symbol_mismatch]: Value (J2) doesn't match symbol value (AUX: +12..24V / GND)
+    Local override; warning
+    @(109.5000 mm, 152.7000 mm): Footprint J2
+[footprint_symbol_mismatch]: MyFootprints:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical doesn't match footprint given by symbol (MyFootprints:AMASS_XT30PW-M30_1x02_P5.00mm_Horizontal_Drill1.80mm)
+    Local override; warning
+    @(109.5000 mm, 152.7000 mm): Footprint J2
+[footprint_symbol_field_mismatch]: Field 'Manufacturer' differs (PCB: 'JST', Schematic: 'AMASS')
+    Local override; warning
+    @(109.5000 mm, 152.7000 mm): Footprint J2
+[net_conflict]: Pad net (/Auxiliary input/AUX_IN) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(109.5000 mm, 152.7000 mm): PTH pad 1 [/Auxiliary input/AUX_IN] of J2
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (/Auxiliary input/AUX_IN)
+    Local override; warning
+    @(111.5000 mm, 152.7000 mm): PTH pad 2 [GND] of J2
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(113.9000 mm, 156.4000 mm): Footprint R1
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(118.4000 mm, 150.7000 mm): Footprint R2
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(113.9000 mm, 154.8000 mm): Footprint R3
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(102.8000 mm, 150.2000 mm): Footprint R4
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(110.8000 mm, 155.2000 mm): Footprint R5
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(126.9000 mm, 147.5000 mm): Footprint R6
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(129.1000 mm, 150.9000 mm): Footprint R7
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(107.2000 mm, 152.2000 mm): Footprint R8
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(119.9000 mm, 155.0000 mm): Footprint SW1
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(118.4000 mm, 147.0000 mm): Footprint U1
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(127.0000 mm, 142.1000 mm): Footprint C4
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(121.6000 mm, 139.5000 mm): Footprint C5
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(119.8000 mm, 130.8000 mm): Footprint C9
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(121.5000 mm, 135.3000 mm): Footprint L1
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(122.5000 mm, 143.5000 mm): Footprint U2
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(114.8000 mm, 152.8000 mm): Footprint C11
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(113.5000 mm, 148.9000 mm): Footprint C12
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(122.3000 mm, 152.6000 mm): Footprint C13
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(118.6000 mm, 153.8000 mm): Footprint C14
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(101.9000 mm, 143.9000 mm): Footprint C15
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(102.1000 mm, 140.4000 mm): Footprint C16
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(133.8000 mm, 102.7000 mm): Footprint C17
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(133.8000 mm, 102.7000 mm): Footprint C17
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(114.4000 mm, 132.5000 mm): Footprint C18
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(125.6000 mm, 152.5000 mm): Footprint J7
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(113.8000 mm, 143.1000 mm): Footprint L2
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(109.5000 mm, 128.9000 mm): Footprint R13
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(109.5000 mm, 128.9000 mm): Footprint R13
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(110.9000 mm, 134.2000 mm): Footprint R14
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(105.4000 mm, 150.9000 mm): Footprint R15
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(134.7000 mm, 136.8000 mm): Footprint TP4
+[missing_footprint]: Missing footprint TP19 (GND)
+    Local override; warning
+[missing_footprint]: Missing footprint TP21 (+5V_INV)
+    Local override; warning
+[missing_footprint]: Missing footprint TP22 (+3V3_INV)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(113.2000 mm, 149.4000 mm): Footprint U3
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(111.1000 mm, 136.8000 mm): Footprint U4
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(115.2000 mm, 135.7000 mm): Footprint U5
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(111.9000 mm, 113.4000 mm): Footprint U6
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(113.0000 mm, 108.0000 mm): Footprint C19
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(142.9000 mm, 107.4000 mm): Footprint C20
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(129.2000 mm, 152.0000 mm): Footprint C23
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(125.8000 mm, 148.8000 mm): Footprint C24
+[missing_footprint]: Missing footprint C213 (2.2u / 100V X7R)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(138.4000 mm, 106.6000 mm): Footprint D2
+[missing_footprint]: Missing footprint D212 (DDZ9699T)
+    Local override; warning
+[missing_footprint]: Missing footprint D213 (SMAT70A-13-F)
+    Local override; warning
+[missing_footprint]: Missing footprint D214 (SMAJ24A)
+    Local override; warning
+[footprint_symbol_mismatch]: Value (F1) doesn't match symbol value (0476015.MRSN)
+    Local override; warning
+    @(129.0000 mm, 104.0000 mm): Footprint F1
+[footprint_symbol_field_mismatch]: Field 'Supplier_PN' differs (PCB: 'C3165851', Schematic: 'C3164468')
+    Local override; warning
+    @(129.0000 mm, 104.0000 mm): Footprint F1
+[net_conflict]: Pad net (/Bus and brake/DC_INPUT_POS) doesn't match net given by schematic (Net-(J3-+))
+    Local override; warning
+    @(126.5450 mm, 104.0000 mm): Pad 1 [/Bus and brake/DC_INPUT_POS] of F1 on F.Cu
+[footprint_symbol_mismatch]: Value (J3) doesn't match symbol value (DC INPUT: + / -)
+    Local override; warning
+    @(111.9000 mm, 118.1000 mm): Footprint J3
+[footprint_symbol_mismatch]: Inverter_Compact:WireSolder_2P_P6.00mm_D2.00mm doesn't match footprint given by symbol (MyFootprints:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal_Drill2.90mm)
+    Local override; warning
+    @(111.9000 mm, 118.1000 mm): Footprint J3
+[footprint_symbol_field_mismatch]: Missing symbol field 'Manufacturer' in footprint
+    Local override; warning
+    @(111.9000 mm, 118.1000 mm): Footprint J3
+[net_conflict]: Pad net (/Bus and brake/DC_INPUT_POS) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(111.9000 mm, 118.1000 mm): PTH pad 1 [/Bus and brake/DC_INPUT_POS] of J3
+[net_conflict]: Pad net (GND) doesn't match net given by schematic (Net-(J3-+))
+    Local override; warning
+    @(111.9000 mm, 124.1000 mm): PTH pad 2 [GND] of J3
+[footprint_symbol_mismatch]: Value (J4) doesn't match symbol value (RAW PWM: U / V / W)
+    Local override; warning
+    @(156.7000 mm, 117.7000 mm): Footprint J4
+[footprint_symbol_mismatch]: Inverter_Compact:WireSolder_3P_P15.00mm_D2.00mm doesn't match footprint given by symbol (MyFootprints:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal_Drill2.70mm)
+    Local override; warning
+    @(156.7000 mm, 117.7000 mm): Footprint J4
+[footprint_symbol_field_mismatch]: Missing symbol field 'Manufacturer' in footprint
+    Local override; warning
+    @(156.7000 mm, 117.7000 mm): Footprint J4
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(124.5000 mm, 156.7000 mm): Footprint J5
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(137.2000 mm, 153.5000 mm): Footprint Q7
+[missing_footprint]: Missing footprint Q9 (BSC110N15NS5ATMA1)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(135.5000 mm, 157.9000 mm): Footprint R16
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(144.3710 mm, 157.6850 mm): Footprint R17
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(138.3000 mm, 157.8000 mm): Footprint R18
+[missing_footprint]: Missing footprint R215 (1k)
+    Local override; warning
+[missing_footprint]: Missing footprint TP20 (VBUS)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(142.0000 mm, 156.2000 mm): Footprint U29
+[missing_footprint]: Missing footprint U32 (LTC4359IS8#PBF)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(140.5000 mm, 119.8650 mm): Footprint C25
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(143.3000 mm, 119.8650 mm): Footprint C26
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(147.0000 mm, 124.0000 mm): Footprint C27
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(144.0000 mm, 124.4000 mm): Footprint C28
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(141.1000 mm, 117.4000 mm): Footprint Q1
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(140.4250 mm, 117.4000 mm): Pad 5 [VBUS] of Q1 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 115.4950 mm): Pad 5 [VBUS] of Q1 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 116.7650 mm): Pad 6 [VBUS] of Q1 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 118.0350 mm): Pad 7 [VBUS] of Q1 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 119.3050 mm): Pad 8 [VBUS] of Q1 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(150.0000 mm, 117.4000 mm): Footprint Q2
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(140.0000 mm, 116.4500 mm): Footprint R19
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(152.8500 mm, 117.9000 mm): Footprint R20
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(147.6000 mm, 121.3000 mm): Footprint R21
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(155.8000 mm, 111.5000 mm): Footprint R22
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(133.8000 mm, 119.8000 mm): Footprint R23
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(136.5000 mm, 121.5000 mm): Footprint R24
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(151.5000 mm, 124.9000 mm): Footprint RS1
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(142.4340 mm, 125.7810 mm): Footprint TP5
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(145.7000 mm, 126.4000 mm): Footprint TP6
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(148.0000 mm, 120.5000 mm): Footprint U7
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(140.5000 mm, 134.8650 mm): Footprint C29
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(143.3000 mm, 134.8650 mm): Footprint C30
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(147.0000 mm, 139.0000 mm): Footprint C31
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(144.0000 mm, 139.4000 mm): Footprint C32
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(141.1000 mm, 132.4000 mm): Footprint Q3
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(140.4250 mm, 132.4000 mm): Pad 5 [VBUS] of Q3 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 130.4950 mm): Pad 5 [VBUS] of Q3 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 131.7650 mm): Pad 6 [VBUS] of Q3 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 133.0350 mm): Pad 7 [VBUS] of Q3 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 134.3050 mm): Pad 8 [VBUS] of Q3 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(150.0000 mm, 132.4000 mm): Footprint Q4
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(140.0000 mm, 131.4500 mm): Footprint R25
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(152.8500 mm, 131.9000 mm): Footprint R26
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(142.5000 mm, 128.5000 mm): Footprint R27
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(144.3690 mm, 122.4440 mm): Footprint R28
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(136.7700 mm, 130.8300 mm): Footprint R29
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(137.6000 mm, 136.2000 mm): Footprint R30
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(129.2960 mm, 104.5670 mm): Footprint R70
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(129.2960 mm, 104.5670 mm): Footprint R70
+[net_conflict]: Pad net (TEMP_NTC) doesn't match net given by schematic (NTC_RAW)
+    Local override; warning
+    @(129.2960 mm, 104.0570 mm): Pad 2 [TEMP_NTC] of R70 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(151.5000 mm, 139.9000 mm): Footprint RS2
+[missing_footprint]: Missing footprint TH1 (NCP18XH103F03RB)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(142.4340 mm, 140.7810 mm): Footprint TP7
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(145.7000 mm, 141.4000 mm): Footprint TP8
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(148.0000 mm, 135.5000 mm): Footprint U8
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(140.5000 mm, 149.8650 mm): Footprint C33
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(143.3000 mm, 149.8650 mm): Footprint C34
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(145.6000 mm, 155.6000 mm): Footprint C35
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(146.0000 mm, 152.8000 mm): Footprint C36
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(141.1000 mm, 147.4000 mm): Footprint Q5
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(140.4250 mm, 147.4000 mm): Pad 5 [VBUS] of Q5 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 145.4950 mm): Pad 5 [VBUS] of Q5 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 146.7650 mm): Pad 6 [VBUS] of Q5 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 148.0350 mm): Pad 7 [VBUS] of Q5 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(138.1750 mm, 149.3050 mm): Pad 8 [VBUS] of Q5 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(150.0000 mm, 147.4000 mm): Footprint Q6
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(140.0000 mm, 146.4500 mm): Footprint R31
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(152.8500 mm, 146.9000 mm): Footprint R32
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(142.5000 mm, 143.5000 mm): Footprint R33
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(144.3690 mm, 137.4440 mm): Footprint R34
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(139.6520 mm, 153.6280 mm): Footprint R35
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(143.2020 mm, 146.6330 mm): Footprint R36
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(150.0000 mm, 154.9000 mm): Footprint RS3
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(157.0000 mm, 151.9000 mm): Footprint TP9
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(138.2560 mm, 157.8800 mm): Footprint TP10
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(148.0000 mm, 150.5000 mm): Footprint U9
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(150.1290 mm, 131.3220 mm): Footprint C37
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(150.1290 mm, 146.3220 mm): Footprint C38
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(152.4000 mm, 156.2000 mm): Footprint C39
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(125.5000 mm, 113.2000 mm): Footprint C40
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(125.5000 mm, 113.2000 mm): Footprint C40
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(124.8000 mm, 111.7000 mm): Footprint C41
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(124.8000 mm, 111.7000 mm): Footprint C41
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(115.5000 mm, 142.0000 mm): Footprint C62
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(115.5000 mm, 142.0000 mm): Footprint C62
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(148.4000 mm, 128.8000 mm): Footprint R37
+[net_conflict]: Pad net (I_U) doesn't match net given by schematic (I_U_RAW)
+    Local override; warning
+    @(148.4000 mm, 129.6250 mm): Pad 1 [I_U] of R37 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(148.4000 mm, 143.8000 mm): Footprint R38
+[net_conflict]: Pad net (I_V) doesn't match net given by schematic (I_V_RAW)
+    Local override; warning
+    @(148.4000 mm, 144.6250 mm): Pad 1 [I_V] of R38 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(147.1000 mm, 158.5000 mm): Footprint R39
+[net_conflict]: Pad net (I_W) doesn't match net given by schematic (I_W_RAW)
+    Local override; warning
+    @(146.2750 mm, 158.5000 mm): Pad 1 [I_W] of R39 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(125.5000 mm, 119.0000 mm): Footprint R40
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'RT0603BRD0710KL C95204')
+    Local override; warning
+    @(125.5000 mm, 119.0000 mm): Footprint R40
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(123.5000 mm, 114.2000 mm): Footprint R41
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'RT0603BRD0710KL C95204')
+    Local override; warning
+    @(123.5000 mm, 114.2000 mm): Footprint R41
+[footprint_symbol_mismatch]: Value (R42) doesn't match symbol value (39k)
+    Local override; warning
+    @(133.3000 mm, 132.2000 mm): Footprint R42
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(133.3000 mm, 132.2000 mm): Footprint R42
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'phase window E96 0603 TBD')
+    Local override; warning
+    @(133.3000 mm, 132.2000 mm): Footprint R42
+[footprint_symbol_mismatch]: Value (R43) doesn't match symbol value (1.8k)
+    Local override; warning
+    @(134.9000 mm, 132.2000 mm): Footprint R43
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(134.9000 mm, 132.2000 mm): Footprint R43
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'phase window E96 0603 TBD')
+    Local override; warning
+    @(134.9000 mm, 132.2000 mm): Footprint R43
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(141.7000 mm, 143.6000 mm): Footprint R44
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'RT0603BRD0710KL C95204')
+    Local override; warning
+    @(141.7000 mm, 143.6000 mm): Footprint R44
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(136.0000 mm, 132.5000 mm): Footprint R45
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'RT0603BRD0710KL C95204')
+    Local override; warning
+    @(136.0000 mm, 132.5000 mm): Footprint R45
+[footprint_symbol_mismatch]: Value (R46) doesn't match symbol value (1.8k)
+    Local override; warning
+    @(142.7880 mm, 117.2880 mm): Footprint R46
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(142.7880 mm, 117.2880 mm): Footprint R46
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'phase window E96 0603 TBD')
+    Local override; warning
+    @(142.7880 mm, 117.2880 mm): Footprint R46
+[footprint_symbol_mismatch]: Value (R47) doesn't match symbol value (39k)
+    Local override; warning
+    @(143.0000 mm, 143.6000 mm): Footprint R47
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(143.0000 mm, 143.6000 mm): Footprint R47
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'phase window E96 0603 TBD')
+    Local override; warning
+    @(143.0000 mm, 143.6000 mm): Footprint R47
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(151.5000 mm, 125.0000 mm): Footprint TP11
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(151.5000 mm, 140.0000 mm): Footprint TP12
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(134.5000 mm, 132.0000 mm): Footprint TP13
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(147.7000 mm, 125.4000 mm): Footprint U10
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(146.5625 mm, 125.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U10 on B.Cu
+[net_conflict]: Pad net (I_U) doesn't match net given by schematic (I_U_RAW)
+    Local override; warning
+    @(148.8375 mm, 124.4250 mm): Pad 5 [I_U] of U10 on B.Cu
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(148.8375 mm, 125.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U10 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(147.7000 mm, 140.4000 mm): Footprint U11
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(146.5625 mm, 140.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U11 on B.Cu
+[net_conflict]: Pad net (I_V) doesn't match net given by schematic (I_V_RAW)
+    Local override; warning
+    @(148.8375 mm, 139.4250 mm): Pad 5 [I_V] of U11 on B.Cu
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(148.8375 mm, 140.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U11 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(149.0000 mm, 155.4000 mm): Footprint U12
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(147.8625 mm, 155.0750 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U12 on B.Cu
+[net_conflict]: Pad net (I_W) doesn't match net given by schematic (I_W_RAW)
+    Local override; warning
+    @(150.1375 mm, 154.4250 mm): Pad 5 [I_W] of U12 on B.Cu
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(150.1375 mm, 155.7250 mm): Pad 7 [/Current sensing/VBIAS_1V65] of U12 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(122.3000 mm, 116.4000 mm): Footprint U13
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(121.4625 mm, 117.0500 mm): Pad 3 [/Current sensing/VBIAS_1V65] of U13 on F.Cu
+[net_conflict]: Pad net (/Current sensing/VBIAS_1V65) doesn't match net given by schematic (VBIAS_1V65)
+    Local override; warning
+    @(123.1375 mm, 117.0500 mm): Pad 4 [/Current sensing/VBIAS_1V65] of U13 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(116.1000 mm, 136.8000 mm): Footprint U28
+[net_conflict]: Pad net (/Hardware latch/HEALTH_ALL) doesn't match net given by schematic (HEALTH_ALL)
+    Local override; warning
+    @(116.1000 mm, 139.2750 mm): Pad 4 [/Hardware latch/HEALTH_ALL] of U28 on F.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(142.7000 mm, 105.3000 mm): Footprint C42
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CL10C101JB8NNNC C14858')
+    Local override; warning
+    @(142.7000 mm, 105.3000 mm): Footprint C42
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV)
+    Local override; warning
+    @(142.7000 mm, 105.7800 mm): Pad 1 [/Voltage and NTC/V_DC_DIV] of C42 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(133.5000 mm, 119.2000 mm): Footprint C43
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(133.5000 mm, 119.2000 mm): Footprint C43
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(134.7890 mm, 104.4670 mm): Footprint R48
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV1) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV1)
+    Local override; warning
+    @(135.7015 mm, 104.4670 mm): Pad 2 [/Voltage and NTC/V_DC_DIV1] of R48 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(134.3000 mm, 110.7000 mm): Footprint R49
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV1) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV1)
+    Local override; warning
+    @(133.3875 mm, 110.7000 mm): Pad 1 [/Voltage and NTC/V_DC_DIV1] of R49 on F.Cu
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV2) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV2)
+    Local override; warning
+    @(135.2125 mm, 110.7000 mm): Pad 2 [/Voltage and NTC/V_DC_DIV2] of R49 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(147.2230 mm, 104.0910 mm): Footprint R50
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV2) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV2)
+    Local override; warning
+    @(147.2230 mm, 104.9160 mm): Pad 1 [/Voltage and NTC/V_DC_DIV2] of R50 on B.Cu
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV)
+    Local override; warning
+    @(147.2230 mm, 103.2660 mm): Pad 2 [/Voltage and NTC/V_DC_DIV] of R50 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(121.5000 mm, 112.8000 mm): Footprint R51
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV)
+    Local override; warning
+    @(120.6750 mm, 112.8000 mm): Pad 1 [/Voltage and NTC/V_DC_DIV] of R51 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(140.6000 mm, 112.3000 mm): Footprint R52
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF470JT5E C23182')
+    Local override; warning
+    @(140.6000 mm, 112.3000 mm): Footprint R52
+[net_conflict]: Pad net (V_DC) doesn't match net given by schematic (V_DC_RAW)
+    Local override; warning
+    @(140.0900 mm, 112.3000 mm): Pad 1 [V_DC] of R52 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(135.1000 mm, 141.1000 mm): Footprint R68
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'AT0603BRD0720KL C855705')
+    Local override; warning
+    @(135.1000 mm, 141.1000 mm): Footprint R68
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(144.1670 mm, 141.2470 mm): Footprint R69
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'RT0603BRD0713KL C861121')
+    Local override; warning
+    @(144.1670 mm, 141.2470 mm): Footprint R69
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(133.9000 mm, 117.1000 mm): Footprint U14
+[net_conflict]: Pad net (/Voltage and NTC/V_DC_DIV) doesn't match net given by schematic (/母线电压（仅 V_DC）/V_DC_DIV)
+    Local override; warning
+    @(133.2500 mm, 117.9375 mm): Pad 1 [/Voltage and NTC/V_DC_DIV] of U14 on F.Cu
+[net_conflict]: Pad net (V_DC) doesn't match net given by schematic (V_DC_RAW)
+    Local override; warning
+    @(134.5500 mm, 117.9375 mm): Pad 3 [V_DC] of U14 on F.Cu
+[net_conflict]: Pad net (V_DC) doesn't match net given by schematic (V_DC_RAW)
+    Local override; warning
+    @(134.5500 mm, 116.2625 mm): Pad 4 [V_DC] of U14 on F.Cu
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(138.5000 mm, 125.4000 mm): Footprint C51
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(138.5000 mm, 140.4000 mm): Footprint C52
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'CC0603KRX7R9BB104 C14663 capacitor 100nF', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(141.9000 mm, 154.6000 mm): Footprint C53
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(134.2000 mm, 150.0000 mm): Footprint C54
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(134.2000 mm, 150.0000 mm): Footprint C54
+[footprint_symbol_mismatch]: Value (R71) doesn't match symbol value (76.1k)
+    Local override; warning
+    @(134.0000 mm, 139.0000 mm): Footprint R71
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(134.0000 mm, 139.0000 mm): Footprint R71
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '待#5（0603）')
+    Local override; warning
+    @(134.0000 mm, 139.0000 mm): Footprint R71
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(134.0000 mm, 140.2000 mm): Footprint R72
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: 'RT0603BRD0710KL C95204')
+    Local override; warning
+    @(134.0000 mm, 140.2000 mm): Footprint R72
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(138.5000 mm, 125.2000 mm): Footprint U18
+[net_conflict]: Pad net (I_U) doesn't match net given by schematic (I_U_RAW)
+    Local override; warning
+    @(136.3875 mm, 125.5250 mm): Pad 2 [I_U] of U18 on B.Cu
+[net_conflict]: Pad net (I_U) doesn't match net given by schematic (I_U_RAW)
+    Local override; warning
+    @(140.6125 mm, 124.2250 mm): Pad 5 [I_U] of U18 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(138.5000 mm, 140.2000 mm): Footprint U19
+[net_conflict]: Pad net (I_V) doesn't match net given by schematic (I_V_RAW)
+    Local override; warning
+    @(136.3875 mm, 140.5250 mm): Pad 2 [I_V] of U19 on B.Cu
+[net_conflict]: Pad net (I_V) doesn't match net given by schematic (I_V_RAW)
+    Local override; warning
+    @(140.6125 mm, 139.2250 mm): Pad 5 [I_V] of U19 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(135.5000 mm, 153.8000 mm): Footprint U20
+[net_conflict]: Pad net (I_W) doesn't match net given by schematic (I_W_RAW)
+    Local override; warning
+    @(135.8250 mm, 155.9125 mm): Pad 2 [I_W] of U20 on B.Cu
+[net_conflict]: Pad net (I_W) doesn't match net given by schematic (I_W_RAW)
+    Local override; warning
+    @(134.5250 mm, 151.6875 mm): Pad 5 [I_W] of U20 on B.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(134.1000 mm, 137.2000 mm): Footprint U21
+[net_conflict]: Pad net (V_DC) doesn't match net given by schematic (V_DC_RAW)
+    Local override; warning
+    @(133.7750 mm, 139.3125 mm): Pad 2 [V_DC] of U21 on F.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(110.5000 mm, 141.2000 mm): Footprint C55
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: '0603B103K500NT C57112')
+    Local override; warning
+    @(110.5000 mm, 141.2000 mm): Footprint C55
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(125.0000 mm, 123.5000 mm): Footprint Q8
+[net_conflict]: Pad net (FAULT_N) doesn't match net given by schematic (FAULT_N_RAW)
+    Local override; warning
+    @(125.9750 mm, 123.5000 mm): Pad 3 [FAULT_N] of Q8 on F.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(109.9000 mm, 137.2000 mm): Footprint R73
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(109.9000 mm, 137.2000 mm): Footprint R73
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(108.9000 mm, 139.1000 mm): Footprint R74
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(108.9000 mm, 139.1000 mm): Footprint R74
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(110.2000 mm, 138.9000 mm): Footprint R75
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1003T5E C25803')
+    Local override; warning
+    @(110.2000 mm, 138.9000 mm): Footprint R75
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(109.8000 mm, 135.1000 mm): Footprint TP14
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(112.2000 mm, 130.1000 mm): Footprint U22
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(119.0000 mm, 124.3000 mm): Footprint U23
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(123.4000 mm, 130.2000 mm): Footprint U24
+[net_conflict]: Pad net (/Hardware latch/HEALTH_ALL) doesn't match net given by schematic (HEALTH_PREBUS)
+    Local override; warning
+    @(120.5375 mm, 131.5000 mm): Pad 6 [/Hardware latch/HEALTH_ALL] of U24 on F.Cu
+[net_conflict]: Pad net (/Hardware latch/HEALTH_ALL) doesn't match net given by schematic (HEALTH_ALL)
+    Local override; warning
+    @(126.2625 mm, 131.5000 mm): Pad 9 [/Hardware latch/HEALTH_ALL] of U24 on F.Cu
+[net_conflict]: Pad net (/Hardware latch/HEALTH_ALL) doesn't match net given by schematic (HEALTH_ALL)
+    Local override; warning
+    @(126.2625 mm, 129.5500 mm): Pad 12 [/Hardware latch/HEALTH_ALL] of U24 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(124.0000 mm, 122.0000 mm): Footprint U25
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(111.4000 mm, 103.4000 mm): Footprint U27
+[net_conflict]: Pad net (/Hardware latch/HEALTH_ALL) doesn't match net given by schematic (HEALTH_ALL)
+    Local override; warning
+    @(108.5375 mm, 103.4000 mm): Pad 4 [/Hardware latch/HEALTH_ALL] of U27 on B.Cu
+[net_conflict]: Pad net (BASE_READY) doesn't match net given by schematic (BASE_READY_RAW)
+    Local override; warning
+    @(114.2625 mm, 103.4000 mm): Pad 11 [BASE_READY] of U27 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(118.2000 mm, 130.1000 mm): Footprint C56
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(118.2000 mm, 130.1000 mm): Footprint C56
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(122.9000 mm, 112.2000 mm): Footprint C57
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(122.9000 mm, 112.2000 mm): Footprint C57
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(127.2000 mm, 118.6000 mm): Footprint C58
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(127.2000 mm, 118.6000 mm): Footprint C58
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(120.4000 mm, 157.1000 mm): Footprint C59
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(120.4000 mm, 157.1000 mm): Footprint C59
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(143.0460 mm, 151.9670 mm): Footprint C60
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(143.0460 mm, 151.9670 mm): Footprint C60
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(126.7000 mm, 126.0000 mm): Footprint C61
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CC0603KRX7R9BB104 C14663')
+    Local override; warning
+    @(126.7000 mm, 126.0000 mm): Footprint C61
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(103.1000 mm, 140.4000 mm): Footprint R76
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(103.1000 mm, 140.4000 mm): Footprint R76
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(109.2000 mm, 141.2000 mm): Footprint R77
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(109.2000 mm, 141.2000 mm): Footprint R77
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(103.1000 mm, 142.7000 mm): Footprint R78
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(103.1000 mm, 142.7000 mm): Footprint R78
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(121.8000 mm, 134.0000 mm): Footprint R79
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(121.8000 mm, 134.0000 mm): Footprint R79
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(126.7000 mm, 144.9000 mm): Footprint R80
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(126.7000 mm, 144.9000 mm): Footprint R80
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(117.7000 mm, 132.1000 mm): Footprint R81
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(117.7000 mm, 132.1000 mm): Footprint R81
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(117.1000 mm, 129.5000 mm): Footprint R82
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(117.1000 mm, 129.5000 mm): Footprint R82
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(124.1000 mm, 126.3000 mm): Footprint R83
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1003T5E C25803')
+    Local override; warning
+    @(124.1000 mm, 126.3000 mm): Footprint R83
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(123.0000 mm, 109.0000 mm): Footprint U26
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(115.8000 mm, 138.5000 mm): Footprint R160
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(115.8000 mm, 138.5000 mm): Footprint R160
+[footprint_symbol_field_mismatch]: Missing symbol field 'LCSC' in footprint
+    Local override; warning
+    @(118.3000 mm, 116.1000 mm): Footprint D3
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(138.1000 mm, 137.7000 mm): Footprint R130
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF2201T5E C4190')
+    Local override; warning
+    @(138.1000 mm, 137.7000 mm): Footprint R130
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(145.3000 mm, 127.8000 mm): Footprint R135
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(145.3000 mm, 127.8000 mm): Footprint R135
+[net_conflict]: Pad net (PA8) doesn't match net given by schematic (PWM_UH)
+    Local override; warning
+    @(145.8100 mm, 127.8000 mm): Pad 1 [PA8] of R135 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(127.3000 mm, 104.3000 mm): Footprint R136
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(127.3000 mm, 104.3000 mm): Footprint R136
+[net_conflict]: Pad net (PB13) doesn't match net given by schematic (PWM_UL)
+    Local override; warning
+    @(126.7900 mm, 104.3000 mm): Pad 1 [PB13] of R136 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(133.5000 mm, 115.9000 mm): Footprint R137
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(133.5000 mm, 115.9000 mm): Footprint R137
+[net_conflict]: Pad net (PA9) doesn't match net given by schematic (PWM_VH)
+    Local override; warning
+    @(133.5000 mm, 116.4100 mm): Pad 1 [PA9] of R137 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(124.5000 mm, 112.5000 mm): Footprint R138
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(124.5000 mm, 112.5000 mm): Footprint R138
+[net_conflict]: Pad net (PB14) doesn't match net given by schematic (PWM_VL)
+    Local override; warning
+    @(123.9900 mm, 112.5000 mm): Pad 1 [PB14] of R138 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(142.6000 mm, 103.0000 mm): Footprint R139
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(142.6000 mm, 103.0000 mm): Footprint R139
+[net_conflict]: Pad net (PA10) doesn't match net given by schematic (PWM_WH)
+    Local override; warning
+    @(142.6000 mm, 103.5100 mm): Pad 1 [PA10] of R139 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(127.8000 mm, 103.0000 mm): Footprint R140
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(127.8000 mm, 103.0000 mm): Footprint R140
+[net_conflict]: Pad net (PB15) doesn't match net given by schematic (PWM_WL)
+    Local override; warning
+    @(127.2900 mm, 103.0000 mm): Pad 1 [PB15] of R140 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(127.0000 mm, 101.8000 mm): Footprint R141
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(127.0000 mm, 101.8000 mm): Footprint R141
+[net_conflict]: Pad net (PC4) doesn't match net given by schematic (ENABLE)
+    Local override; warning
+    @(127.5100 mm, 101.8000 mm): Pad 1 [PC4] of R141 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(133.8000 mm, 104.4000 mm): Footprint R142
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF330JT5E C23140')
+    Local override; warning
+    @(133.8000 mm, 104.4000 mm): Footprint R142
+[net_conflict]: Pad net (PC6) doesn't match net given by schematic (BRAKE)
+    Local override; warning
+    @(133.2900 mm, 104.4000 mm): Pad 1 [PC6] of R142 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(119.0000 mm, 126.0000 mm): Footprint R143
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1002T5E C25804')
+    Local override; warning
+    @(119.0000 mm, 126.0000 mm): Footprint R143
+[net_conflict]: Pad net (PB12) doesn't match net given by schematic (FAULT_N)
+    Local override; warning
+    @(119.0000 mm, 126.5100 mm): Pad 1 [PB12] of R143 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(145.3000 mm, 102.2000 mm): Footprint C69
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(145.3000 mm, 102.2000 mm): Footprint C69
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CL10B102KB8NNNC C1588')
+    Local override; warning
+    @(145.3000 mm, 102.2000 mm): Footprint C69
+[net_conflict]: Pad net (PC0) doesn't match net given by schematic (I_U)
+    Local override; warning
+    @(144.8200 mm, 102.2000 mm): Pad 1 [PC0] of C69 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(152.7570 mm, 121.8280 mm): Footprint C70
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(152.7570 mm, 121.8280 mm): Footprint C70
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CL10B102KB8NNNC C1588')
+    Local override; warning
+    @(152.7570 mm, 121.8280 mm): Footprint C70
+[net_conflict]: Pad net (PC1) doesn't match net given by schematic (I_V)
+    Local override; warning
+    @(152.2770 mm, 121.8280 mm): Pad 1 [PC1] of C70 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(142.5000 mm, 137.4000 mm): Footprint C71
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(142.5000 mm, 137.4000 mm): Footprint C71
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CL10B102KB8NNNC C1588')
+    Local override; warning
+    @(142.5000 mm, 137.4000 mm): Footprint C71
+[net_conflict]: Pad net (PC2) doesn't match net given by schematic (I_W)
+    Local override; warning
+    @(142.5000 mm, 137.8800 mm): Pad 1 [PC2] of C71 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(145.0000 mm, 126.2000 mm): Footprint C72
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(145.0000 mm, 126.2000 mm): Footprint C72
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CL10B102KB8NNNC C1588')
+    Local override; warning
+    @(145.0000 mm, 126.2000 mm): Footprint C72
+[net_conflict]: Pad net (PC3) doesn't match net given by schematic (V_DC)
+    Local override; warning
+    @(145.0000 mm, 126.6800 mm): Pad 1 [PC3] of C72 on B.Cu
+[footprint_symbol_mismatch]: Capacitor_SMD:C_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:C_0603_1608Metric)
+    Local override; warning
+    @(145.8940 mm, 154.2590 mm): Footprint C76
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ
+    Local override; warning
+    @(145.8940 mm, 154.2590 mm): Footprint C76
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'cap capacitor', Schematic: 'CL10B102KB8NNNC C1588')
+    Local override; warning
+    @(145.8940 mm, 154.2590 mm): Footprint C76
+[net_conflict]: Pad net (PB2) doesn't match net given by schematic (NTC)
+    Local override; warning
+    @(145.8940 mm, 154.7390 mm): Pad 1 [PB2] of C76 on B.Cu
+[missing_footprint]: Missing footprint C211 (1n)
+    Local override; warning
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(116.5000 mm, 121.0000 mm): Footprint D201
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(118.3000 mm, 117.5000 mm): Footprint D202
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(122.0000 mm, 116.0000 mm): Footprint D203
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(135.5780 mm, 107.9230 mm): Footprint D204
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(125.3000 mm, 128.5000 mm): Footprint D208
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(120.9330 mm, 119.5370 mm): Footprint D209
+[net_conflict]: Pad net (PC13) doesn't match net given by schematic (BASE_READY)
+    Local override; warning
+    @(119.9330 mm, 119.5370 mm): Pad 3 [PC13] of D209 on F.Cu
+[footprint_symbol_field_mismatch]: Missing symbol field 'ki_fp_filters' in footprint
+    Local override; warning
+    @(135.8690 mm, 115.1590 mm): Footprint D210
+[net_conflict]: Pad net (PB12) doesn't match net given by schematic (FAULT_N)
+    Local override; warning
+    @(136.8690 mm, 115.1590 mm): Pad 3 [PB12] of D210 on B.Cu
+[missing_footprint]: Missing footprint D211 (BAT54S,215)
+    Local override; warning
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(122.7000 mm, 129.9000 mm): Footprint R84
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1000T5E C22775')
+    Local override; warning
+    @(122.7000 mm, 129.9000 mm): Footprint R84
+[net_conflict]: Pad net (PC0) doesn't match net given by schematic (I_U)
+    Local override; warning
+    @(122.7000 mm, 129.3900 mm): Pad 2 [PC0] of R84 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(134.7000 mm, 130.1000 mm): Footprint R85
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1000T5E C22775')
+    Local override; warning
+    @(134.7000 mm, 130.1000 mm): Footprint R85
+[net_conflict]: Pad net (PC1) doesn't match net given by schematic (I_V)
+    Local override; warning
+    @(135.2100 mm, 130.1000 mm): Pad 2 [PC1] of R85 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(134.4000 mm, 128.8000 mm): Footprint R86
+[footprint_symbol_field_mismatch]: Field 'ki_keywords' differs (PCB: 'R res resistor', Schematic: '0603WAF1000T5E C22775')
+    Local override; warning
+    @(134.4000 mm, 128.8000 mm): Footprint R86
+[net_conflict]: Pad net (PC2) doesn't match net given by schematic (I_W)
+    Local override; warning
+    @(134.9100 mm, 128.8000 mm): Pad 2 [PC2] of R86 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(120.6000 mm, 129.3000 mm): Footprint R87
+[net_conflict]: Pad net (PC3) doesn't match net given by schematic (V_DC)
+    Local override; warning
+    @(121.1100 mm, 129.3000 mm): Pad 2 [PC3] of R87 on B.Cu
+[footprint_symbol_mismatch]: Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (MyFootprints:R_0603_1608Metric)
+    Local override; warning
+    @(116.5000 mm, 155.1000 mm): Footprint R91
+[net_conflict]: Pad net (PB2) doesn't match net given by schematic (NTC)
+    Local override; warning
+    @(116.5000 mm, 154.5900 mm): Pad 2 [PB2] of R91 on B.Cu
+[net_conflict]: Pad net (TEMP_NTC) doesn't match net given by schematic (NTC_RAW)
+    Local override; warning
+    @(123.2890 mm, 106.8010 mm): Pad 1 [TEMP_NTC] of R208 on F.Cu
+[net_conflict]: Pad net (PC13) doesn't match net given by schematic (BASE_READY)
+    Local override; warning
+    @(136.1000 mm, 121.7250 mm): Pad 1 [PC13] of R209 on F.Cu
+[net_conflict]: Pad net (BASE_READY) doesn't match net given by schematic (BASE_READY_RAW)
+    Local override; warning
+    @(133.8000 mm, 123.9250 mm): Pad 1 [BASE_READY] of R210 on B.Cu
+[net_conflict]: Pad net (PC13) doesn't match net given by schematic (BASE_READY)
+    Local override; warning
+    @(133.8000 mm, 122.2750 mm): Pad 2 [PC13] of R210 on B.Cu
+[net_conflict]: Pad net (FAULT_N) doesn't match net given by schematic (FAULT_N_RAW)
+    Local override; warning
+    @(102.0000 mm, 149.3250 mm): Pad 1 [FAULT_N] of R211 on B.Cu
+[net_conflict]: Pad net (PB12) doesn't match net given by schematic (FAULT_N)
+    Local override; warning
+    @(102.0000 mm, 147.6750 mm): Pad 2 [PB12] of R211 on B.Cu
+[missing_footprint]: Missing footprint R213 (360)
+    Local override; warning
+[missing_footprint]: Missing footprint R214 (100)
+    Local override; warning
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(139.0250 mm, 122.7000 mm): Pad 1 [VBUS] of C21 on F.Cu
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (VBUS_BR)
+    Local override; warning
+    @(139.0250 mm, 137.7000 mm): Pad 1 [VBUS] of C22 on F.Cu
+[missing_footprint]: Missing footprint C210 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C214 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint C215 (100n)
+    Local override; warning
+[missing_footprint]: Missing footprint R212 (47)
+    Local override; warning
+[missing_footprint]: Missing footprint R216 (10.2k)
+    Local override; warning
+[missing_footprint]: Missing footprint R217 (23.2k)
+    Local override; warning
+[missing_footprint]: Missing footprint R218 (226k)
+    Local override; warning
+[missing_footprint]: Missing footprint R219 (4.7k)
+    Local override; warning
+[missing_footprint]: Missing footprint RS4 (5m / 3W / 1%)
+    Local override; warning
+[missing_footprint]: Missing footprint TP18 (I_BUS)
+    Local override; warning
+[missing_footprint]: Missing footprint U33 (INA241A2IDDFR)
+    Local override; warning
+[missing_footprint]: Missing footprint U34 (TLV1821DBVR)
+    Local override; warning
+[missing_footprint]: Missing footprint U35 (SN74LVC1G08DBVR)
+    Local override; warning
+[net_conflict]: Pad net (PA0) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 116.0300 mm): PTH pad 5 [PA0] of J101
+[net_conflict]: Pad net (PA1) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 116.0300 mm): PTH pad 6 [PA1] of J101
+[net_conflict]: Pad net (PA2) doesn't match net given by schematic (I_U)
+    Local override; warning
+    @(104.7300 mm, 118.5700 mm): PTH pad 7 [PA2] of J101
+[net_conflict]: Pad net (PA3) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 118.5700 mm): PTH pad 8 [PA3] of J101
+[net_conflict]: Pad net (PA4) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 121.1100 mm): PTH pad 9 [PA4] of J101
+[net_conflict]: Pad net (PA5) doesn't match net given by schematic (I_V)
+    Local override; warning
+    @(107.2700 mm, 121.1100 mm): PTH pad 10 [PA5] of J101
+[net_conflict]: Pad net (PA6) doesn't match net given by schematic (I_W)
+    Local override; warning
+    @(104.7300 mm, 123.6500 mm): PTH pad 11 [PA6] of J101
+[net_conflict]: Pad net (PA7) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 123.6500 mm): PTH pad 12 [PA7] of J101
+[net_conflict]: Pad net (PA8) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 126.1900 mm): PTH pad 13 [PA8] of J101
+[net_conflict]: Pad net (PA9) doesn't match net given by schematic (V_DC)
+    Local override; warning
+    @(107.2700 mm, 126.1900 mm): PTH pad 14 [PA9] of J101
+[net_conflict]: Pad net (PA10) doesn't match net given by schematic (NTC)
+    Local override; warning
+    @(104.7300 mm, 128.7300 mm): PTH pad 15 [PA10] of J101
+[net_conflict]: Pad net (PA11) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 128.7300 mm): PTH pad 16 [PA11] of J101
+[net_conflict]: Pad net (PA12) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 131.2700 mm): PTH pad 17 [PA12] of J101
+[net_conflict]: Pad net (PA13) doesn't match net given by schematic (unconnected-(J101-Pin_18-Pad18))
+    Local override; warning
+    @(107.2700 mm, 131.2700 mm): PTH pad 18 [PA13] of J101
+[net_conflict]: Pad net (PA14) doesn't match net given by schematic (unconnected-(J101-Pin_19-Pad19))
+    Local override; warning
+    @(104.7300 mm, 133.8100 mm): PTH pad 19 [PA14] of J101
+[net_conflict]: Pad net (PA15) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 133.8100 mm): PTH pad 20 [PA15] of J101
+[net_conflict]: Pad net (PB0) doesn't match net given by schematic (I_BUS)
+    Local override; warning
+    @(104.7300 mm, 138.8900 mm): PTH pad 23 [PB0] of J101
+[net_conflict]: Pad net (PB1) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 138.8900 mm): PTH pad 24 [PB1] of J101
+[net_conflict]: Pad net (PB2) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 141.4300 mm): PTH pad 25 [PB2] of J101
+[net_conflict]: Pad net (unconnected-(J101-Pin_26-Pad26)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 141.4300 mm): PTH pad 26 [unconnected-(J101-Pin_26-Pad26)] of J101
+[net_conflict]: Pad net (unconnected-(J101-Pin_27-Pad27)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 143.9700 mm): PTH pad 27 [unconnected-(J101-Pin_27-Pad27)] of J101
+[net_conflict]: Pad net (PB5) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 143.9700 mm): PTH pad 28 [PB5] of J101
+[net_conflict]: Pad net (PB6) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(104.7300 mm, 146.5100 mm): PTH pad 29 [PB6] of J101
+[net_conflict]: Pad net (PB7) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(107.2700 mm, 146.5100 mm): PTH pad 30 [PB7] of J101
+[net_conflict]: Pad net (unconnected-(J102-Pin_1-Pad1)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 110.9500 mm): PTH pad 1 [unconnected-(J102-Pin_1-Pad1)] of J102
+[net_conflict]: Pad net (unconnected-(J102-Pin_2-Pad2)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 110.9500 mm): PTH pad 2 [unconnected-(J102-Pin_2-Pad2)] of J102
+[net_conflict]: Pad net (PB10) doesn't match net given by schematic (PWM_UH)
+    Local override; warning
+    @(128.7300 mm, 113.4900 mm): PTH pad 3 [PB10] of J102
+[net_conflict]: Pad net (PB11) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 113.4900 mm): PTH pad 4 [PB11] of J102
+[net_conflict]: Pad net (PB12) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 116.0300 mm): PTH pad 5 [PB12] of J102
+[net_conflict]: Pad net (PB13) doesn't match net given by schematic (PWM_UL)
+    Local override; warning
+    @(131.2700 mm, 116.0300 mm): PTH pad 6 [PB13] of J102
+[net_conflict]: Pad net (PB14) doesn't match net given by schematic (PWM_VH)
+    Local override; warning
+    @(128.7300 mm, 118.5700 mm): PTH pad 7 [PB14] of J102
+[net_conflict]: Pad net (PB15) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 118.5700 mm): PTH pad 8 [PB15] of J102
+[net_conflict]: Pad net (CTRL_READY) doesn't match net given by schematic (PWM_VL)
+    Local override; warning
+    @(131.2700 mm, 121.1100 mm): PTH pad 10 [CTRL_READY] of J102
+[net_conflict]: Pad net (PC0) doesn't match net given by schematic (PWM_WH)
+    Local override; warning
+    @(128.7300 mm, 123.6500 mm): PTH pad 11 [PC0] of J102
+[net_conflict]: Pad net (PC1) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 123.6500 mm): PTH pad 12 [PC1] of J102
+[net_conflict]: Pad net (PC2) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 126.1900 mm): PTH pad 13 [PC2] of J102
+[net_conflict]: Pad net (PC3) doesn't match net given by schematic (PWM_WL)
+    Local override; warning
+    @(131.2700 mm, 126.1900 mm): PTH pad 14 [PC3] of J102
+[net_conflict]: Pad net (PC4) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 128.7300 mm): PTH pad 15 [PC4] of J102
+[net_conflict]: Pad net (PC5) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 128.7300 mm): PTH pad 16 [PC5] of J102
+[net_conflict]: Pad net (PC6) doesn't match net given by schematic (BRAKE)
+    Local override; warning
+    @(128.7300 mm, 131.2700 mm): PTH pad 17 [PC6] of J102
+[net_conflict]: Pad net (unconnected-(J102-Pin_18-Pad18)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 131.2700 mm): PTH pad 18 [unconnected-(J102-Pin_18-Pad18)] of J102
+[net_conflict]: Pad net (PC8) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 133.8100 mm): PTH pad 19 [PC8] of J102
+[net_conflict]: Pad net (PC9) doesn't match net given by schematic (FAULT_N)
+    Local override; warning
+    @(131.2700 mm, 133.8100 mm): PTH pad 20 [PC9] of J102
+[net_conflict]: Pad net (PC10) doesn't match net given by schematic (ENABLE)
+    Local override; warning
+    @(128.7300 mm, 136.3500 mm): PTH pad 21 [PC10] of J102
+[net_conflict]: Pad net (PC11) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 136.3500 mm): PTH pad 22 [PC11] of J102
+[net_conflict]: Pad net (PC12) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 138.8900 mm): PTH pad 23 [PC12] of J102
+[net_conflict]: Pad net (PC13) doesn't match net given by schematic (CTRL_READY)
+    Local override; warning
+    @(131.2700 mm, 138.8900 mm): PTH pad 24 [PC13] of J102
+[net_conflict]: Pad net (unconnected-(J102-Pin_25-Pad25)) doesn't match net given by schematic (BASE_READY)
+    Local override; warning
+    @(128.7300 mm, 141.4300 mm): PTH pad 25 [unconnected-(J102-Pin_25-Pad25)] of J102
+[net_conflict]: Pad net (unconnected-(J102-Pin_26-Pad26)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 141.4300 mm): PTH pad 26 [unconnected-(J102-Pin_26-Pad26)] of J102
+[net_conflict]: Pad net (PD2) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 143.9700 mm): PTH pad 28 [PD2] of J102
+[net_conflict]: Pad net (unconnected-(J102-Pin_29-Pad29)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(128.7300 mm, 146.5100 mm): PTH pad 29 [unconnected-(J102-Pin_29-Pad29)] of J102
+[net_conflict]: Pad net (unconnected-(J102-Pin_30-Pad30)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 146.5100 mm): PTH pad 30 [unconnected-(J102-Pin_30-Pad30)] of J102
+[net_conflict]: Pad net (NRST) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(131.2700 mm, 149.0500 mm): PTH pad 32 [NRST] of J102
+[footprint_symbol_mismatch]: Value (TP17) doesn't match symbol value (ENABLE_IN)
+    Local override; warning
+    @(137.6300 mm, 133.9300 mm): Footprint TP17
+[net_conflict]: Pad net (ENABLE_IN) doesn't match net given by schematic (ENABLE)
+    Local override; warning
+    @(137.6300 mm, 133.9300 mm): Pad 1 [ENABLE_IN] of TP17 on B.Cu
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(129.0000 mm, 152.6000 mm): Footprint D6
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(107.1000 mm, 109.4000 mm): Footprint R98
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(125.6000 mm, 120.6000 mm): Footprint R54
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(129.8000 mm, 108.0000 mm): Footprint J14
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(134.0000 mm, 126.6000 mm): Footprint J8
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(133.6000 mm, 113.8000 mm): Footprint R59
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(123.2000 mm, 119.5000 mm): Footprint R105
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(133.2000 mm, 142.5000 mm): Footprint R67
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(116.7110 mm, 119.4830 mm): Footprint D207
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(115.7000 mm, 116.2000 mm): Footprint R104
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(135.3000 mm, 158.1000 mm): Footprint D7
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(123.2000 mm, 137.9000 mm): Footprint R65
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(108.0000 mm, 158.0000 mm): Footprint J13
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(124.6420 mm, 109.3850 mm): Footprint R53
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(124.7000 mm, 116.8000 mm): Footprint D4
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(122.6000 mm, 135.4000 mm): Footprint R66
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(133.9000 mm, 122.0000 mm): Footprint U15
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(125.9000 mm, 137.2000 mm): Footprint U17
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(155.6000 mm, 108.4000 mm): Footprint J15
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(134.1000 mm, 129.5000 mm): Footprint U16
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(123.1000 mm, 152.1000 mm): Footprint D5
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(102.0000 mm, 113.2000 mm): Footprint J10
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(102.0000 mm, 129.6000 mm): Footprint J12
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(117.5000 mm, 127.8000 mm): Footprint R107
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(102.3000 mm, 138.2000 mm): Footprint J11
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(126.6000 mm, 114.3000 mm): Footprint R125
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(102.0000 mm, 120.7000 mm): Footprint J9
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(126.2000 mm, 116.2000 mm): Footprint R123
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(125.9000 mm, 134.9000 mm): Footprint R64
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(114.0000 mm, 110.5000 mm): Footprint R108
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(116.2000 mm, 110.9000 mm): Footprint R206
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(126.0000 mm, 115.5000 mm): Footprint R55
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(118.0760 mm, 110.4240 mm): Footprint R114
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(116.5000 mm, 126.0000 mm): Footprint D205
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(145.6000 mm, 106.6000 mm): Footprint C46
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(123.8000 mm, 103.4000 mm): Footprint R127
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(101.6000 mm, 114.4000 mm): Footprint R101
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(105.7000 mm, 108.1000 mm): Footprint R126
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(136.9570 mm, 119.5330 mm): Footprint R58
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(109.5000 mm, 110.2000 mm): Footprint R109
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(133.1000 mm, 152.4000 mm): Footprint C73
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(117.1000 mm, 158.5000 mm): Footprint C74
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(144.5000 mm, 106.5000 mm): Footprint C47
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(134.3000 mm, 148.8000 mm): Footprint R88
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(101.1000 mm, 132.4000 mm): Footprint R96
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(111.0000 mm, 106.9000 mm): Footprint R115
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(127.4860 mm, 106.5740 mm): Footprint R124
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(133.9000 mm, 110.6000 mm): Footprint R56
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(101.1000 mm, 152.4000 mm): Footprint C75
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(138.5770 mm, 113.6780 mm): Footprint R61
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(115.7000 mm, 150.5000 mm): Footprint R131
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(129.3000 mm, 106.2000 mm): Footprint R121
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(118.5000 mm, 156.8000 mm): Footprint R133
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(110.5000 mm, 108.5000 mm): Footprint R113
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(131.5000 mm, 152.3000 mm): Footprint C48
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(124.9000 mm, 104.6000 mm): Footprint R129
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(125.4000 mm, 131.0000 mm): Footprint R94
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(110.2000 mm, 147.3000 mm): Footprint R103
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(143.9000 mm, 104.1000 mm): Footprint C44
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(101.6000 mm, 146.4000 mm): Footprint R99
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(121.4000 mm, 150.2000 mm): Footprint R90
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(124.6540 mm, 116.8330 mm): Footprint R117
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(129.8330 mm, 101.4150 mm): Footprint R60
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(112.2000 mm, 111.0000 mm): Footprint R100
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(143.0040 mm, 122.4670 mm): Footprint C45
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(115.0000 mm, 107.0000 mm): Footprint R118
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(117.2000 mm, 123.5000 mm): Footprint R119
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(120.4000 mm, 154.9000 mm): Footprint R132
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(121.8780 mm, 127.2260 mm): Footprint R63
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(102.0000 mm, 150.6000 mm): Footprint C50
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(116.1000 mm, 114.1000 mm): Footprint R207
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(114.7000 mm, 114.1000 mm): Footprint R106
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(118.0330 mm, 111.6490 mm): Footprint R111
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(149.1000 mm, 112.3000 mm): Footprint D1
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(107.4000 mm, 107.7000 mm): Footprint R120
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(103.4000 mm, 151.8000 mm): Footprint R97
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(143.8850 mm, 131.7230 mm): Footprint R57
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(101.1000 mm, 135.5000 mm): Footprint R102
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(108.5000 mm, 154.8000 mm): Footprint R89
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(145.1000 mm, 142.9000 mm): Footprint R62
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(117.3000 mm, 128.7000 mm): Footprint R205
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(103.7000 mm, 108.2000 mm): Footprint C82
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(112.1000 mm, 128.7000 mm): Footprint D206
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(115.3000 mm, 108.4000 mm): Footprint R112
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(108.9000 mm, 107.7000 mm): Footprint R116
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(125.1000 mm, 102.1000 mm): Footprint R128
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(101.6000 mm, 122.0000 mm): Footprint R95
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(142.4000 mm, 128.1000 mm): Footprint R134
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(118.9000 mm, 158.5000 mm): Footprint C49
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(111.8000 mm, 109.8000 mm): Footprint R110
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(119.1000 mm, 103.3000 mm): Footprint U31
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
