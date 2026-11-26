@@ -1,0 +1,83 @@
+J101 1 +5V_INV -> +5V_INV 
+J101 2 GND -> GND 
+J101 3 +5V_INV -> +5V_INV 
+J101 4 GND -> GND 
+J101 5 GND -> GND 
+J101 6 GND -> GND 
+J101 7 I_U -> I_U 
+J101 8 GND -> GND 
+J101 9 GND -> GND 
+J101 10 I_V -> I_V 
+J101 11 I_W -> I_W 
+J101 12 GND -> GND 
+J101 13 GND -> GND 
+J101 14 V_DC -> V_DC 
+J101 15 NTC -> NTC 
+J101 16 GND -> GND 
+J101 17 GND -> GND 
+J101 18 悬空（NC，不接任何东西 -> unconnected-(J101-Pin_18-Pad18) 
+J101 19 悬空（NC，不接任何东西 -> unconnected-(J101-Pin_19-Pad19) 
+J101 20 GND -> GND 
+J101 21 GND -> GND 
+J101 22 +3V3_CORE_RE -> +3V3_CORE_REF 
+J101 23 I_BUS -> I_BUS 
+J101 24 GND -> GND 
+J101 25 GND -> GND 
+J101 26 GND -> GND 
+J101 27 GND -> GND 
+J101 28 GND -> GND 
+J101 29 GND -> GND 
+J101 30 GND -> GND 
+J101 31 GND -> GND 
+J101 32 +3V3_CORE_RE -> +3V3_CORE_REF 
+J102 1 GND -> GND 
+J102 2 GND -> GND 
+J102 3 PWM_UH -> PWM_UH 
+J102 4 GND -> GND 
+J102 5 GND -> GND 
+J102 6 PWM_UL -> PWM_UL 
+J102 7 PWM_VH -> PWM_VH 
+J102 8 GND -> GND 
+J102 9 GND -> GND 
+J102 10 PWM_VL -> PWM_VL 
+J102 11 PWM_WH -> PWM_WH 
+J102 12 GND -> GND 
+J102 13 GND -> GND 
+J102 14 PWM_WL -> PWM_WL 
+J102 15 GND -> GND 
+J102 16 GND -> GND 
+J102 17 BRAKE -> BRAKE 
+J102 18 GND -> GND 
+J102 19 GND -> GND 
+J102 20 FAULT_N -> FAULT_N 
+J102 21 ENABLE -> ENABLE 
+J102 22 GND -> GND 
+J102 23 GND -> GND 
+J102 24 CTRL_READY -> CTRL_READY 
+J102 25 BASE_READY -> BASE_READY 
+J102 26 GND -> GND 
+J102 27 GND -> GND 
+J102 28 GND -> GND 
+J102 29 GND -> GND 
+J102 30 GND -> GND 
+J102 31 GND -> GND 
+J102 32 GND -> GND 
+mismatch 0
+0402 []
+emptyFP []
+ncomp 255
+U33 [('1', 'VBUS_BR'), ('2', 'GND'), ('3', 'GND'), ('4', 'GND'), ('5', 'I_BUS_RAW'), ('6', '+3V3_INV'), ('7', 'VBIAS_1V65'), ('8', 'VBUS')]
+U34 [('1', 'OC_BUS_N'), ('2', 'GND'), ('3', 'OC_BUS_REF'), ('4', 'I_BUS_RAW'), ('5', '+3V3_INV')]
+U35 [('1', 'HEALTH_PREBUS'), ('2', 'OC_BUS_N'), ('3', 'GND'), ('4', 'HEALTH_ALL'), ('5', '+3V3_INV')]
+RS4 [('1', 'VBUS'), ('2', 'VBUS_BR')]
+R71 [('1', '+12V_DRV'), ('2', 'DRV_UV_DIV')]
+R216 [('1', '+3V3_INV'), ('2', 'OC_BUS_REF')]
+R217 [('1', 'OC_BUS_REF'), ('2', 'GND')]
+R218 [('1', 'OC_BUS_REF'), ('2', 'OC_BUS_N')]
+R219 [('1', '+3V3_INV'), ('2', 'OC_BUS_N')]
+R42 [('1', '+3V3_INV'), ('2', 'OC_LO_MID')]
+R43 [('1', 'OC_LO_MID'), ('2', 'OC_LOW_REF')]
+R44 [('1', 'OC_LOW_REF'), ('2', 'GND')]
+R45 [('1', '+3V3_INV'), ('2', 'OC_HIGH_REF')]
+R46 [('1', 'OC_HIGH_REF'), ('2', 'OC_HI_MID')]
+R47 [('1', 'OC_HI_MID'), ('2', 'GND')]
