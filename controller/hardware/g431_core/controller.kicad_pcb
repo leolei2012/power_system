@@ -28067,4 +28067,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(gr_text "3.3V ENCODER ONLY"
+		(at 130 158 0)
+		(layer "F.SilkS")
+		(uuid "8f66bbce-4f79-4418-9b0f-a78be60ae446")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
 )
